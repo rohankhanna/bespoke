@@ -31,6 +31,54 @@
       "source_repo": "encode/httpx",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/asyncio",
+      "status": "candidate-context",
+      "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/asyncio",
+      "status": "candidate-context",
+      "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate-context",
+      "text": "High level asynchronous concurrency and networking framework that works on top of either Trio or asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "encode/httpx",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate",
+      "text": "============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/asyncio",
+      "status": "candidate",
+      "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "encode/httpx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "python/asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "agronholm/anyio"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

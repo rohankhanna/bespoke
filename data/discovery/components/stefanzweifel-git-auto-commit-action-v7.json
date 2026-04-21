@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-theme.yml",
       "source_repo": "jpanther/congo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-checks.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless"
     }
   ]
 }

@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache/save@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@9c156ee8a17a598857849441385a2041ef570552",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-opened.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@6524bf65af31da8d45b59e8c27de4bd072b392f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@6524bf65af31da8d45b59e8c27de4bd072b392f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@faadad0cce49287aee09b3a48701e75088a2c6ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@5742e2a039330cbb23ebf35f046f814d4c6ff811",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "computology/packagecloud-github-action@3a3116159414e57767827ed264a6de29a1f86d4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "computology/packagecloud-github-action@3a3116159414e57767827ed264a6de29a1f86d4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opentofu/opentofu",
+      "target": "opentofu/registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "opentofu/opentofu",
+      "target": "golang/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/cache/save@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "Quick Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "Snapshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "Govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "goreleaser/goreleaser-action@9c156ee8a17a598857849441385a2041ef570552",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-opened.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-opened.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "Pull Request Opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "docker/setup-buildx-action@6524bf65af31da8d45b59e8c27de4bd072b392f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "sigstore/cosign-installer@faadad0cce49287aee09b3a48701e75088a2c6ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "goreleaser/goreleaser-action@5742e2a039330cbb23ebf35f046f814d4c6ff811",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "computology/packagecloud-github-action@3a3116159414e57767827ed264a6de29a1f86d4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:03.826964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4419
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1036
+    },
+    {
+      "path": "go.mod",
+      "size": 16636
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3726
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 8819
+    },
+    {
+      "path": ".github/workflows/compare-snapshots.yml",
+      "size": 2488
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 3791
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 3997
+    },
+    {
+      "path": ".github/workflows/pr-opened.yml",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 6095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+    "fork": false,
+    "full_name": "opentofu/opentofu",
+    "html_url": "https://github.com/opentofu/opentofu",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:21:23Z",
+    "stargazers_count": 28433,
+    "topics": [],
+    "updated_at": "2026-04-21T09:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opentofu/registry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/go",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Quick Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Quick Checks"
+    },
+    {
+      "context_snippet": "Snapshots",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "term": "Snapshots"
+    },
+    {
+      "context_snippet": "Govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "Govulncheck"
+    },
+    {
+      "context_snippet": "Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Build"
+    },
+    {
+      "context_snippet": "Pull Request Opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-opened.yml",
+      "term": "Pull Request Opened"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

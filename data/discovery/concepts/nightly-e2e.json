@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly E2E"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Build and deploy AI Agents on Cloudflare "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Nightly E2E"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate",
+      "text": "Nightly E2E"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "leander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "lottery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "lotto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "news"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly E2E",
+  "concept_id": "nightly-e2e",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "cloudflare/agents"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly E2E",
+      "sense_id": "nightly-e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

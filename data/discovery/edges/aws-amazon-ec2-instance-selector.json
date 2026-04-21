@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws/ec2-spot-instances-integrations-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "EC2 Instance Selector CI and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws-ec2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "ec2-instance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "ec2-spot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "aws/amazon-ec2-instance-selector"
+}

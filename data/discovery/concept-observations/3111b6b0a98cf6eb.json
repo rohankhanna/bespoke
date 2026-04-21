@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust API for loading, scaling, positioning and rasterizing OpenType font glyphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "hoefler text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "san francisco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "microsoft sans serif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "adobe type manager"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "athens"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "truetype",
+      "sense_id": "truetype#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "truetype",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "truetype",
+  "observation_id": "3111b6b0a98cf6eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "truetype",
+  "source_context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+  "source_file": null,
+  "source_repo": "alexheretic/ab-glyph",
+  "source_repo_description": "Rust API for loading, scaling, positioning and rasterizing OpenType font glyphs"
+}

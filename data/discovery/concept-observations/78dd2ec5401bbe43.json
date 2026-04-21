@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921073,
+      "status": "candidate",
+      "text": "posterior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920640,
+      "status": "candidate",
+      "text": "rump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896124,
+      "status": "candidate",
+      "text": "tush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830607,
+      "status": "candidate",
+      "text": "buns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39829927,
+      "status": "candidate",
+      "text": "bum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tail",
+      "sense_id": "tail#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41056,
+      "status": "candidate",
+      "text": "stern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35059,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33055,
+      "status": "candidate",
+      "text": "ass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26064,
+      "status": "candidate",
+      "text": "bob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26046,
+      "status": "candidate",
+      "text": "bum"
+    }
+  ],
+  "concept_id": "tail",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tail",
+  "observation_id": "78dd2ec5401bbe43",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "tail",
+  "source_context_snippet": "<p>",
+  "source_file": null,
+  "source_repo": "getbettr/octotail",
+  "source_repo_description": "Live tail GitHub Action runs on 'git push'. It's cursed."
+}

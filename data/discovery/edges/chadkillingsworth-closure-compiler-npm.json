@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "graphlib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "jasmine-console-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "ncp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "bazel-contrib/setup-bazel@4fd964a13a440a8aeb0be47350db2fc640f19ca8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "graalvm/setup-graalvm@e140024fdc2d95d3c7e10a636887a91090d29990",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "Build CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm",
+      "target": "Compiler release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ChadKillingsworth/closure-compiler-npm"
+}

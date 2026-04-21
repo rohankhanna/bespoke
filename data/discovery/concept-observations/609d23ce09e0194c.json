@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\" width=\"70%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"70%\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-understanding",
+      "sense_id": "video-understanding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-understanding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-understanding",
+  "observation_id": "609d23ce09e0194c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "video-understanding",
+  "source_context_snippet": "<p align=\"center\" width=\"70%\">",
+  "source_file": null,
+  "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+  "source_repo_description": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+}

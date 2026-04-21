@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "blob"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Out-Of-The-Box & Powerful File Parsing Service, support Text/Pdf/Docx/Pptx/Xlsx/Image/Audio parsing, support OCR, support Base64/Local/S3/R2/TG/MinIO storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973068,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972552,
+      "status": "candidate",
+      "text": "stain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971251,
+      "status": "candidate",
+      "text": "fleck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944326,
+      "status": "candidate",
+      "text": "spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976655,
+      "status": "candidate",
+      "text": "smear"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18047,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17073,
+      "status": "candidate",
+      "text": "spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9049,
+      "status": "candidate",
+      "text": "stain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "fleck"
+    }
+  ],
+  "canonical_name": "blob",
+  "concept_id": "blob",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blob",
+      "sense_id": "blob#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

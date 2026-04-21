@@ -14,12 +14,30 @@
       "source_repo": "anthropics/anthropic-sdk-python",
       "status": "candidate-context",
       "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llamastack/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for Llama Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Publish PyPI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "anthropics/anthropic-sdk-python",
+      "status": "candidate",
+      "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack-client-python",
       "status": "candidate",
       "text": "Publish PyPI"
     }
@@ -83,11 +101,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "anthropics/anthropic-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

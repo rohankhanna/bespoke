@@ -31,6 +31,18 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of xxhash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -102,11 +120,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "napi-rs/node-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

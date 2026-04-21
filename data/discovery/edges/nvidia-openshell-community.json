@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "Build Sandbox Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "gsactions/dco-check@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "DCO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "target": "License Headers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "NVIDIA/OpenShell-Community"
+}

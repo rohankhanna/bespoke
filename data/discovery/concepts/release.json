@@ -464,6 +464,402 @@
       "source_repo": "biopragmatics/bioregistry",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate-context",
+      "text": "Write your algorithmic library once in Python. Get native, idiomatic code in every language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Build and deploy AI Agents on Cloudflare "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "A tool to simulate Amazon EC2 instance metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "status": "candidate-context",
+      "text": "The ec2-spot-interrupter is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "A SQLite extension for reading large files line-by-line (NDJSON, logs, txt, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "A fast regular expression SQLite extension, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "An OpenAPI specification for the Stripe API.        "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "Scan for sensitive information easily and effectively."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-agent",
+      "status": "candidate-context",
+      "text": "MS-Agent: a lightweight framework to empower agentic execution of complex tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-agent",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/re2",
+      "status": "candidate-context",
+      "text": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/re2",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "A Rust compiler front-end for IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crowsonkb/k-diffusion",
+      "status": "candidate-context",
+      "text": "Karras et al. (2022) diffusion models for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowsonkb/k-diffusion",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toon-format/spec",
+      "status": "candidate-context",
+      "text": "Official specification for Token-Oriented Object Notation (TOON)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/spec",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "LangChain \ud83d\udd0c MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate-context",
+      "text": "Toolchain manager for Roblox projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a A git query language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b Flexible and fast ZSH plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate-context",
+      "text": "Secure, high-throughput, and decentralized Data Availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Linux virtual machines, with a focus on running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "release"
     }
   ],
   "candidate_glosses": [
@@ -682,6 +1078,204 @@
       "source_repo": "biopragmatics/bioregistry",
       "status": "candidate",
       "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-agent",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/re2",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowsonkb/k-diffusion",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/spec",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "release"
     }
   ],
   "candidate_related_terms": [
@@ -1163,11 +1757,251 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "biopragmatics/bioregistry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldayton/Tongues"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-metadata-mock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "toon-format/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "langchain-ai/deepagentsjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Roblox/foreman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker-publish-release.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getbettr/octotail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

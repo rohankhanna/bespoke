@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "compvis/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "laion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "text2image",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients"
+}

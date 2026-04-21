@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Nightly build"
+    "Nightly build",
+    "Nightly Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,10 +20,65 @@
       "source_repo": "cedar-policy/cedar",
       "status": "candidate-context",
       "text": "Nightly build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "Nightly Build"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "Nightly Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13983,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "taps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12881,
+      "status": "candidate",
+      "text": "dream"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Nightly build",
   "concept_id": "nightly-build",
@@ -33,12 +89,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/nightly_build.yml",
       "source_repo": "cedar-policy/cedar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,12 @@
+{
+  "component": "actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf_scorecard.yml",
+      "source_repo": "google/closure-library"
+    }
+  ]
+}

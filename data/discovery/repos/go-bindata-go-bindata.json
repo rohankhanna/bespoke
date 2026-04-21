@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "go-bindata/go-bindata",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "go-bindata/go-bindata",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-bindata/go-bindata",
+      "target": "bindata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-bindata/go-bindata",
+      "target": "go-bindata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-bindata/go-bindata",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:04.323461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7233
+    },
+    {
+      "path": "go.mod",
+      "size": 155
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Turn data file into go code.",
+    "fork": false,
+    "full_name": "go-bindata/go-bindata",
+    "html_url": "https://github.com/go-bindata/go-bindata",
+    "language": "Go",
+    "pushed_at": "2024-07-13T06:20:02Z",
+    "stargazers_count": 1910,
+    "topics": [
+      "bindata",
+      "go-bindata",
+      "golang"
+    ],
+    "updated_at": "2026-04-15T08:42:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://cloud.drone.io/api/badges/go-bindata/go-bindata/status.svg)](https://cloud.drone.io/go-bindata/go-bindata)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindata"
+    },
+    {
+      "context_snippet": "[![Build Status](https://cloud.drone.io/api/badges/go-bindata/go-bindata/status.svg)](https://cloud.drone.io/go-bindata/go-bindata)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-bindata"
+    },
+    {
+      "context_snippet": "[![Build Status](https://cloud.drone.io/api/badges/go-bindata/go-bindata/status.svg)](https://cloud.drone.io/go-bindata/go-bindata)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

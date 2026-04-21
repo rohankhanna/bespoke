@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "themes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate-context",
+      "text": ":kr: :cat: a port of a low-contrast and easy on the eyes Vim color scheme, the seoul256, to kitty terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate-context",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051304,
+      "status": "candidate",
+      "text": "topic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049680,
+      "status": "candidate",
+      "text": "root word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042188,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042047,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037739,
+      "status": "candidate",
+      "text": "composition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "themes",
+  "concept_id": "themes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ubmit/seoul256-kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "themes",
+      "sense_id": "themes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

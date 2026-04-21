@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dependabot-sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dependabot-sync",
+      "sense_id": "dependabot-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependabot-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependabot-sync",
+  "observation_id": "8651f9b200f015bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "dependabot-sync",
+  "source_context_snippet": "dependabot-sync",
+  "source_file": ".github/workflows/dependabot-sync.yml",
+  "source_repo": "charmbracelet/glow",
+  "source_repo_description": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+}

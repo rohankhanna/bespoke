@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "changeset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "changeset"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate",
+      "text": "changeset"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816766,
+      "status": "candidate",
+      "text": "copyedit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816765,
+      "status": "candidate",
+      "text": "rechange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816764,
+      "status": "candidate",
+      "text": "changemaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816763,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816762,
+      "status": "candidate",
+      "text": "changeabout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "changeset",
+  "concept_id": "changeset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/changeset.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "changeset",
+      "sense_id": "changeset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

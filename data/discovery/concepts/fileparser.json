@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "fileparser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Out-Of-The-Box & Powerful File Parsing Service, support Text/Pdf/Docx/Pptx/Xlsx/Image/Audio parsing, support OCR, support Base64/Local/S3/R2/TG/MinIO storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fileparser",
+  "concept_id": "fileparser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fileparser",
+      "sense_id": "fileparser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

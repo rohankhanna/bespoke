@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "darwin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "build-once run-anywhere c library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012268,
+      "status": "candidate",
+      "text": "charles darwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012268,
+      "status": "candidate",
+      "text": "charles robert darwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012267,
+      "status": "candidate",
+      "text": "evolutionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29826133,
+      "status": "candidate",
+      "text": "evolutionism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29824806,
+      "status": "candidate",
+      "text": "tahiti"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "charles robert darwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "charles darwin"
+    }
+  ],
+  "canonical_name": "darwin",
+  "concept_id": "darwin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "darwin",
+      "sense_id": "darwin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

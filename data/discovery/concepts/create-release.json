@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create Release"
+    "Create Release",
+    "Create release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stardot/beebasm",
+      "status": "candidate-context",
+      "text": "A portable 6502 assembler with BBC Micro style syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stardot/beebasm",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "\"Create release\""
     }
   ],
   "candidate_glosses": [
@@ -27,9 +52,57 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stardot/beebasm",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "\"Create release\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "emit"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Create Release",
   "concept_id": "create-release",
@@ -46,12 +119,26 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

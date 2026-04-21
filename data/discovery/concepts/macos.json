@@ -34,6 +34,90 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate-context",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "The official Allegro 5 git repository. Pull requests welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "Go implementation of the XDG Base Directory Specification and XDG user directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Linux virtual machines, with a focus on running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "[[\ud83c\udf0e**Web site**]](https://lima-vm.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "High-velocity, monorepo-scale workflow for Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +132,48 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate",
+      "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "[[\ud83c\udf0e**Web site**]](https://lima-vm.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate",
+      "text": "macOS"
     }
   ],
   "candidate_related_terms": [
@@ -133,11 +259,53 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "japaric/trust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "arxanas/git-branchless"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

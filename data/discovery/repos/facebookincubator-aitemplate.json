@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "nvidia/cutlass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "rocmsoftwareplatform/composable_kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "Deploy docs to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml",
+      "source_repo": "facebookincubator/AITemplate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:31.237119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8492
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "size": 1717
+    },
+    {
+      "path": ".github/workflows/pylint.yaml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/rocm_ci.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference.",
+    "fork": false,
+    "full_name": "facebookincubator/AITemplate",
+    "html_url": "https://github.com/facebookincubator/AITemplate",
+    "language": "Python",
+    "pushed_at": "2026-04-09T02:07:25Z",
+    "stargazers_count": 4719,
+    "topics": [],
+    "updated_at": "2026-04-21T05:09:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/cutlass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocmsoftwareplatform/composable_kernel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Deploy docs to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "term": "Deploy docs to Pages"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yaml",
+      "term": "Lint"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:27:42.138768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7100
+    },
+    {
+      "path": "go.mod",
+      "size": 5835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AzureRM resource type finder",
+    "fork": false,
+    "full_name": "magodo/aztft",
+    "html_url": "https://github.com/magodo/aztft",
+    "language": "Go",
+    "pushed_at": "2026-04-20T02:24:24Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-20T02:24:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

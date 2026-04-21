@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node PR CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "Node PR CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "Node PR CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10895,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node PR CI",
+  "concept_id": "node-pr-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/nodejs-pr.yml",
+      "source_repo": "coderaiser/putout"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node PR CI",
+      "sense_id": "node-pr-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

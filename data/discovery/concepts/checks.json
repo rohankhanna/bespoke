@@ -32,6 +32,42 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate-context",
       "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/hcl",
+      "status": "candidate-context",
+      "text": "HCL is the HashiCorp configuration language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcl",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icsmw/tslink",
+      "status": "candidate-context",
+      "text": "Helps bind rust and typescript/javascript worlds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icsmw/tslink",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "checks"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +80,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fatiando/pooch",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcl",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icsmw/tslink",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate",
       "text": "checks"
     }
@@ -107,11 +161,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "hashicorp/hcl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/on_pull_request.yml",
+      "source_repo": "icsmw/tslink"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

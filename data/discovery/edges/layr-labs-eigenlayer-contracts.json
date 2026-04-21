@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "openzeppelin/openzeppelin-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "safe-global/safe-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "solidity-docgen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Certora/certora-run-action@11979c68d2ffab0b1b2fe6c72ec9d7a38855822d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "crate-ci/typos@717cd03663352cbd05e4d28c01366e571ff5f2ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Claude review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Foundry Post Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Foundry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "Layr-Labs/eigenlayer-contracts"
+}

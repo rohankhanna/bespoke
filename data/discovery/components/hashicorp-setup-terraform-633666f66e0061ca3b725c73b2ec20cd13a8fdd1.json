@@ -1,0 +1,12 @@
+{
+  "component": "hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    }
+  ]
+}

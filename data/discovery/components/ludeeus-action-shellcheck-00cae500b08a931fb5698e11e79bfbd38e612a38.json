@@ -1,0 +1,12 @@
+{
+  "component": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
+    }
+  ]
+}

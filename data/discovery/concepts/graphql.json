@@ -19,6 +19,42 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate-context",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "A GraphQL client in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "This is a GraphQL client for Python."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "Build powerful, efficient, and flexible GraphQL APIs with seamless Django integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "[![build][build-image]][build-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate",
+      "text": "This is a GraphQL client for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate",
+      "text": "[![build][build-image]][build-url]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "graphql-python/graphene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "graphql-python/gql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-django"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

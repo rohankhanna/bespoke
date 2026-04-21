@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verifying libpng on Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "LIBPNG: Portable Network Graphics support, official libpng repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "Verifying libpng on Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate",
+      "text": "Verifying libpng on Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "linkwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10388,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ankle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ben"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verifying libpng on Linux",
+  "concept_id": "verifying-libpng-on-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/verify-linux.yml",
+      "source_repo": "pnggroup/libpng"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verifying libpng on Linux",
+      "sense_id": "verifying-libpng-on-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

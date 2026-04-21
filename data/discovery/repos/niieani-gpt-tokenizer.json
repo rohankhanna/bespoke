@@ -1,0 +1,515 @@
+{
+  "components": [
+    {
+      "component": "@edge-runtime/vm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@niieani/scaffold",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "devalue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-resolve-ts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "microsoft/genaiscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "elastic/kibana",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "ironclad/rivet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "dmitry-brazhenko/sharptoken",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "@edge-runtime/vm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "@niieani/scaffold",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "@swc/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "@swc/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "devalue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "node-resolve-ts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "Code Scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "Deploy Demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "gpt-o1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:57.898003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19675
+    },
+    {
+      "path": "package.json",
+      "size": 5688
+    },
+    {
+      "path": ".github/workflows/ci-cd.yml",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1371
+    },
+    {
+      "path": ".github/workflows/deploy-demo.yml",
+      "size": 1652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features.",
+    "fork": false,
+    "full_name": "niieani/gpt-tokenizer",
+    "html_url": "https://github.com/niieani/gpt-tokenizer",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-10T17:50:16Z",
+    "stargazers_count": 778,
+    "topics": [
+      "bpe",
+      "decoder",
+      "encoder",
+      "gpt-2",
+      "gpt-3",
+      "gpt-4",
+      "gpt-4o",
+      "gpt-5",
+      "gpt-o1",
+      "machine-learning",
+      "openai",
+      "tokenizer"
+    ],
+    "updated_at": "2026-04-20T21:45:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmitry-brazhenko/sharptoken",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/kibana",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ironclad/rivet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/genaiscript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "'Code Scanning'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code Scanning"
+    },
+    {
+      "context_snippet": "Deploy Demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "term": "Deploy Demo"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoder"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4o"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-5"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-o1"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

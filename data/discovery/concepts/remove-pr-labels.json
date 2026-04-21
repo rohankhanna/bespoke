@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove PR Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "Remove PR Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "Remove PR Labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21045,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14969,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14969,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14969,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14969,
+      "status": "candidate",
+      "text": "tagging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove PR Labels",
+  "concept_id": "remove-pr-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove PR Labels",
+      "sense_id": "remove-pr-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

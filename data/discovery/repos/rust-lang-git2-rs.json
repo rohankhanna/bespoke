@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/git2-rs",
+      "target": "sfackler/rust-openssl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/git2-rs",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/git2-rs",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/git2-rs",
+      "target": "Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:10.487202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2612
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1931
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libgit2 bindings for Rust",
+    "fork": false,
+    "full_name": "rust-lang/git2-rs",
+    "html_url": "https://github.com/rust-lang/git2-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T15:43:11Z",
+    "stargazers_count": 2036,
+    "topics": [],
+    "updated_at": "2026-04-20T15:43:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfackler/rust-openssl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    }
+  ]
+}

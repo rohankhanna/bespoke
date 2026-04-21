@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "symgraph/BinAssistMCP",
+      "target": "jtang613/binassistmcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP",
+      "target": "binary-ninja",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP",
+      "target": "binary-ninja-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:22.746970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12685
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Binary Ninja plugin to provide MCP functionality.",
+    "fork": false,
+    "full_name": "symgraph/BinAssistMCP",
+    "html_url": "https://github.com/symgraph/BinAssistMCP",
+    "language": "Python",
+    "pushed_at": "2026-03-31T13:03:59Z",
+    "stargazers_count": 32,
+    "topics": [
+      "ai",
+      "binary-ninja",
+      "binary-ninja-plugin",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "ml",
+      "re",
+      "reverse-engineering"
+    ],
+    "updated_at": "2026-04-15T22:24:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtang613/binassistmcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-ninja"
+    },
+    {
+      "context_snippet": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-ninja-plugin"
+    },
+    {
+      "context_snippet": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    }
+  ]
+}

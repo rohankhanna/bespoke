@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "journalism"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047240,
+      "status": "candidate",
+      "text": "news media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001219,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047315,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047313,
+      "status": "candidate",
+      "text": "journalistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047305,
+      "status": "candidate",
+      "text": "reporter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6030,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "news media"
+    }
+  ],
+  "canonical_name": "journalism",
+  "concept_id": "journalism",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "journalism",
+      "sense_id": "journalism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

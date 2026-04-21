@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-velocity, monorepo-scale workflow for Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build binaries for GitHub release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build binaries for GitHub release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "ioi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build binaries for GitHub release",
+      "sense_id": "build-binaries-for-github-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-binaries-for-github-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-binaries-for-github-release",
+  "observation_id": "2fc8ea8495fe72d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Build binaries for GitHub release",
+  "source_context_snippet": "Build binaries for GitHub release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "arxanas/git-branchless",
+  "source_repo_description": "High-velocity, monorepo-scale workflow for Git"
+}

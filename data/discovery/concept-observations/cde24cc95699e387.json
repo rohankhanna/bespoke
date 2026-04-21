@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023228,
+      "status": "candidate",
+      "text": "placidity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023227,
+      "status": "candidate",
+      "text": "peacefulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023205,
+      "status": "candidate",
+      "text": "tranquility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023203,
+      "status": "candidate",
+      "text": "peace of mind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023183,
+      "status": "candidate",
+      "text": "ataraxis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serenity",
+      "sense_id": "serenity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 100035,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46009,
+      "status": "candidate",
+      "text": "ataraxis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36021,
+      "status": "candidate",
+      "text": "tranquility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20024,
+      "status": "candidate",
+      "text": "placidity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18048,
+      "status": "candidate",
+      "text": "quiet"
+    }
+  ],
+  "concept_id": "serenity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serenity",
+  "observation_id": "cde24cc95699e387",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "serenity",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>",
+  "source_file": null,
+  "source_repo": "ChainSafe/lodestar",
+  "source_repo_description": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+}

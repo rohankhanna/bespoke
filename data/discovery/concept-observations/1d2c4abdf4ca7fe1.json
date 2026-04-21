@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A code-searching tool similar to ack, but faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "search-in-text",
+      "sense_id": "search-in-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "search-in-text",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "search-in-text",
+  "observation_id": "1d2c4abdf4ca7fe1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "search-in-text",
+  "source_context_snippet": "A code searching tool similar to `ack`, with a focus on speed.",
+  "source_file": null,
+  "source_repo": "ggreer/the_silver_searcher",
+  "source_repo_description": "A code-searching tool similar to ack, but faster."
+}

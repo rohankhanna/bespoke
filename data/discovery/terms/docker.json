@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -61,6 +61,61 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "buffer/thug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "trailofbits/eth-security-toolbox"
     }
   ],
   "term": "docker"

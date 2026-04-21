@@ -1,7 +1,7 @@
 {
   "component": "read",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -17,6 +17,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "ethpandaops/xatu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/fstail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/gha-bump"
     }
   ]
 }

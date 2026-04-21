@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws/ec2-spot-instances-integrations-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "EC2 Instance Selector CI and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "aws-ec2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "ec2-instance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "target": "ec2-spot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:24:59.137293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35081
+    },
+    {
+      "path": "Dockerfile",
+      "size": 796
+    },
+    {
+      "path": "go.mod",
+      "size": 2685
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2149
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yaml",
+      "size": 466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory",
+    "fork": false,
+    "full_name": "aws/amazon-ec2-instance-selector",
+    "html_url": "https://github.com/aws/amazon-ec2-instance-selector",
+    "language": "Go",
+    "pushed_at": "2025-12-22T15:45:18Z",
+    "stargazers_count": 931,
+    "topics": [
+      "aws",
+      "aws-ec2",
+      "ec2",
+      "ec2-instance",
+      "ec2-spot"
+    ],
+    "updated_at": "2026-04-16T14:18:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/ec2-spot-instances-integrations-roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "EC2 Instance Selector CI and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "EC2 Instance Selector CI and Release"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "<h1>Amazon EC2 Instance Selector</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-ec2"
+    },
+    {
+      "context_snippet": "<h1>Amazon EC2 Instance Selector</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ec2-instance"
+    },
+    {
+      "context_snippet": "<h1>Amazon EC2 Instance Selector</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ec2-spot"
+    }
+  ]
+}

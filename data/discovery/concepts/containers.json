@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -73,6 +75,54 @@
       "source_repo": "containers/crun",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "build-once run-anywhere c library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate-context",
+      "text": "The open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate-context",
+      "text": "containers"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +155,30 @@
       "source_repo": "containers/crun",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate",
+      "text": "containers"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +264,35 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "containers/crun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "anomalyco/opencode"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

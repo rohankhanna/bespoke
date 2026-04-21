@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "DoumanAsh/douman-ci/.github/workflows/wasm-rust.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "DoumanAsh/douman-ci/.github/workflows/cross-rust.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "cyan4973/xxhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "DoumanAsh/douman-ci/.github/workflows/wasm-rust.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "DoumanAsh/douman-ci/.github/workflows/cross-rust.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "target": "xxhash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:28.047510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2953
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 4439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust implementation of xxhash",
+    "fork": false,
+    "full_name": "DoumanAsh/xxhash-rust",
+    "html_url": "https://github.com/DoumanAsh/xxhash-rust",
+    "language": "Rust",
+    "pushed_at": "2026-03-27T00:31:29Z",
+    "stargazers_count": 282,
+    "topics": [
+      "hash",
+      "rust",
+      "xxhash"
+    ],
+    "updated_at": "2026-04-12T21:36:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyan4973/xxhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xxhash"
+    }
+  ]
+}

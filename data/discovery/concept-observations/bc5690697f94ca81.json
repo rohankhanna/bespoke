@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AutoReleases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AutoReleases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9868191,
+      "status": "candidate",
+      "text": "retain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9863161,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9854825,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9562905,
+      "status": "candidate",
+      "text": "preserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "hold on to"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AutoReleases",
+      "sense_id": "autoreleases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autoreleases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autoreleases",
+  "observation_id": "bc5690697f94ca81",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "AutoReleases",
+  "source_context_snippet": "AutoReleases",
+  "source_file": ".github/workflows/auto_releases.yml",
+  "source_repo": "ClickHouse/ClickHouse",
+  "source_repo_description": "ClickHouse\u00ae is a real-time analytics database management system"
+}

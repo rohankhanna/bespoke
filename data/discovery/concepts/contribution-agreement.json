@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Contribution Agreement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate-context",
+      "text": "ChakraCore is an open source Javascript engine with a C API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate-context",
+      "text": "\"Contribution Agreement\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate",
+      "text": "\"Contribution Agreement\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28294,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "collaboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "pledge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Contribution Agreement",
+  "concept_id": "contribution-agreement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/agreement.yml",
+      "source_repo": "chakra-core/ChakraCore"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contribution Agreement",
+      "sense_id": "contribution-agreement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

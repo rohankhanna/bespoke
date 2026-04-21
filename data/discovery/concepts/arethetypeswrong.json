@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "AreTheTypesWrong"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "AreTheTypesWrong"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate",
+      "text": "AreTheTypesWrong"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "AreTheTypesWrong",
+  "concept_id": "arethetypeswrong",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/arethetypeswrong.yml",
+      "source_repo": "apollographql/apollo-client"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AreTheTypesWrong",
+      "sense_id": "arethetypeswrong#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "beautify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975282,
+      "status": "candidate",
+      "text": "prettify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973042,
+      "status": "candidate",
+      "text": "grace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950403,
+      "status": "candidate",
+      "text": "embellish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922186,
+      "status": "candidate",
+      "text": "adorn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920131,
+      "status": "candidate",
+      "text": "ornament"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24034,
+      "status": "candidate",
+      "text": "embellish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "adorn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11043,
+      "status": "candidate",
+      "text": "ornament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9073,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6037,
+      "status": "candidate",
+      "text": "decorate"
+    }
+  ],
+  "canonical_name": "beautify",
+  "concept_id": "beautify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mvdan/sh"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beautify",
+      "sense_id": "beautify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

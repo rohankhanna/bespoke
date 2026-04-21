@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml"
+    },
+    {
+      "component": "rwx-research/setup-captain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "trufflesecurity/test_keys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "jaxxstorm/action-install-gh-release@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "rwx-research/setup-captain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "Detectors Aggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "golangci/golangci-lint-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "Performance Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "Run release bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "credentials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "devsecops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "dynamic-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "precommit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "secret",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "secret-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "secrets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "trufflehog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:29.852669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32174
+    },
+    {
+      "path": "Dockerfile",
+      "size": 621
+    },
+    {
+      "path": "go.mod",
+      "size": 16302
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2155
+    },
+    {
+      "path": ".github/workflows/TESTING.md",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1910
+    },
+    {
+      "path": ".github/workflows/detector-tests.yml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1362
+    },
+    {
+      "path": ".github/workflows/performance.yml",
+      "size": 3025
+    },
+    {
+      "path": ".github/workflows/release-bot.yml",
+      "size": 1014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Find, verify, and analyze leaked credentials",
+    "fork": false,
+    "full_name": "trufflesecurity/trufflehog",
+    "html_url": "https://github.com/trufflesecurity/trufflehog",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:24:20Z",
+    "stargazers_count": 25845,
+    "topics": [
+      "credentials",
+      "devsecops",
+      "dynamic-analysis",
+      "precommit",
+      "scanning",
+      "secret",
+      "secret-management",
+      "secrets",
+      "security",
+      "security-tools",
+      "trufflehog",
+      "verification"
+    ],
+    "updated_at": "2026-04-21T11:21:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trufflesecurity/test_keys",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Detectors Aggregation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "term": "Detectors Aggregation"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Performance Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yml",
+      "term": "Performance Test"
+    },
+    {
+      "context_snippet": "Run release bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bot.yml",
+      "term": "Run release bot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credentials"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devsecops"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-analysis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "precommit"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trufflehog"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

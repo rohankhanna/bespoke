@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mistral"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "A simple, performant and scalable Jax LLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998313,
+      "status": "candidate",
+      "text": "warship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045297,
+      "status": "candidate",
+      "text": "mistrail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045296,
+      "status": "candidate",
+      "text": "tramontana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045295,
+      "status": "candidate",
+      "text": "tramontane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045294,
+      "status": "candidate",
+      "text": "medicane"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mistral",
+  "concept_id": "mistral",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mistral",
+      "sense_id": "mistral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

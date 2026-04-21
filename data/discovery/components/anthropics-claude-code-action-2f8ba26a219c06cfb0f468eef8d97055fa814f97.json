@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@2f8ba26a219c06cfb0f468eef8d97055fa814f97",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    }
+  ]
+}

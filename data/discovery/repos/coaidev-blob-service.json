@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coaidev/blob-service",
+      "target": "deeptrain-community/chatnio-blob-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coaidev/blob-service",
+      "target": "csznet/tgstate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coaidev/blob-service",
+      "target": "cgcel/paddleocrfastapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service",
+      "target": "blob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service",
+      "target": "fileparser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:42.847452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10791
+    },
+    {
+      "path": "Dockerfile",
+      "size": 318
+    },
+    {
+      "path": "package.json",
+      "size": 42
+    },
+    {
+      "path": "requirements.txt",
+      "size": 267
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udce6 Out-Of-The-Box & Powerful File Parsing Service, support Text/Pdf/Docx/Pptx/Xlsx/Image/Audio parsing, support OCR, support Base64/Local/S3/R2/TG/MinIO storage.",
+    "fork": false,
+    "full_name": "coaidev/blob-service",
+    "html_url": "https://github.com/coaidev/blob-service",
+    "language": "Python",
+    "pushed_at": "2025-03-22T11:42:01Z",
+    "stargazers_count": 129,
+    "topics": [
+      "blob",
+      "fileparser",
+      "ocr",
+      "storage"
+    ],
+    "updated_at": "2026-04-11T17:42:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgcel/paddleocrfastapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csznet/tgstate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deeptrain-community/chatnio-blob-service",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blob"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fileparser"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

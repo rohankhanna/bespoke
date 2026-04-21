@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "messense/jieba-rs",
+      "target": "binaryoung/jieba-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "messense/jieba-rs",
+      "target": "dcjanus/cang-jie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "messense/jieba-rs",
+      "target": "jiegec/tantivy-jieba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "messense/jieba-rs",
+      "target": "fengkx/jieba-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "CodSpeedHQ/action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "messense/jieba-rs",
+      "target": "benches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "messense/jieba-rs",
+      "target": "chinese-word-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "messense/jieba-rs",
+      "target": "jieba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "messense/jieba-rs",
+      "target": "jieba-chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "messense/jieba-rs",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:32.048266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2735
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 852
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2190
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Jieba Chinese Word Segmentation Implemented in Rust",
+    "fork": false,
+    "full_name": "messense/jieba-rs",
+    "html_url": "https://github.com/messense/jieba-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-19T07:19:21Z",
+    "stargazers_count": 923,
+    "topics": [
+      "chinese-word-segmentation",
+      "jieba",
+      "jieba-chinese",
+      "nlp",
+      "wasm"
+    ],
+    "updated_at": "2026-04-20T13:02:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binaryoung/jieba-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcjanus/cang-jie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fengkx/jieba-wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiegec/tantivy-jieba",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "benches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "benches"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-word-segmentation"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba-chinese"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -476,6 +476,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
     }
   ],
   "term": "Claude Code"

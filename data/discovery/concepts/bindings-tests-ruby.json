@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bindings Tests (Ruby)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Bindings Tests (Ruby)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "Bindings Tests (Ruby)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "black and white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "bookmaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "collation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bindings Tests (Ruby)",
+  "concept_id": "bindings-tests-ruby",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bindings-ruby.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings Tests (Ruby)",
+      "sense_id": "bindings-tests-ruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Contracts of EigenLayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Claude review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate",
+      "text": "Claude review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12570,
+      "status": "candidate",
+      "text": "debussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12570,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12247,
+      "status": "candidate",
+      "text": "monet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "gel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude review",
+  "concept_id": "claude-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude review",
+      "sense_id": "claude-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -133,6 +133,222 @@
       "source_repo": "containerd/containerd",
       "status": "candidate-context",
       "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "A tool to simulate Amazon EC2 instance metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate-context",
+      "text": "ChakraCore is an open source Javascript engine with a C API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate-context",
+      "text": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with _pizzazz_!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "A Rust compiler front-end for IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "TUI components for Bubble Tea \ud83e\udee7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/user-attachments/assets/b89fa46e-d451-4b33-a009-c68d4765520f\" width=\"350\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "A personal key value store \ud83d\udefc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a A git query language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate-context",
+      "text": "Gitql"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "A cat(1) clone with wings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "Core formulae for the Homebrew package manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "PyIceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "Solidity, the Smart Contract Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate-context",
+      "text": "Python IDLE extension to preform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate-context",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_glosses": [
@@ -195,6 +411,114 @@
       "source_repo": "containerd/containerd",
       "status": "candidate",
       "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate",
+      "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakra-core/ChakraCore",
+      "status": "candidate",
+      "text": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate",
+      "text": "Render markdown on the CLI, with _pizzazz_!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/b89fa46e-d451-4b33-a009-c68d4765520f\" width=\"350\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/gitql",
+      "status": "candidate",
+      "text": "Gitql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate",
+      "text": "Core formulae for the Homebrew package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +610,119 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-metadata-mock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/skate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

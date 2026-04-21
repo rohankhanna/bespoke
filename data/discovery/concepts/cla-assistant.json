@@ -19,12 +19,30 @@
       "source_repo": "charmbracelet/crush",
       "status": "candidate-context",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "A Framework for Building Ethereum-compatible Blockchain Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/crush",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
       "status": "candidate",
       "text": "\"CLA Assistant\""
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "charmbracelet/crush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "0xPolygon/polygon-edge"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

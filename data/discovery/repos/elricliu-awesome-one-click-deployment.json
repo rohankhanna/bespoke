@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "babaohuang/geminiprochat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "chanzhaoyu/chatgpt-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "anse-app/chatgpt-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "connectai-e/awesome-one-click-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "connect-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:30.784021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\ude84 One-click deployment of many github open source projects to facilitate fast experience \u4e00\u952e\u90e8\u7f72\u5404\u79cdGithub\u5f00\u6e90AI\u9879\u76ee",
+    "fork": false,
+    "full_name": "ElricLiu/Awesome-One-Click-Deployment",
+    "html_url": "https://github.com/ElricLiu/Awesome-One-Click-Deployment",
+    "language": null,
+    "pushed_at": "2024-12-18T06:09:04Z",
+    "stargazers_count": 1159,
+    "topics": [
+      "chatgpt",
+      "connect-ai"
+    ],
+    "updated_at": "2026-04-17T11:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anse-app/chatgpt-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babaohuang/geminiprochat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chanzhaoyu/chatgpt-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectai-e/awesome-one-click-deployment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connect-ai"
+    }
+  ]
+}

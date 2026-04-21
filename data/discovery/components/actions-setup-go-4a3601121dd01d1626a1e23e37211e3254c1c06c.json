@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-compatibility.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-arm.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-windows.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-integration-test.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-snapshot.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "hashicorp/go-version"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lima-vm/lima"
     }
   ]
 }

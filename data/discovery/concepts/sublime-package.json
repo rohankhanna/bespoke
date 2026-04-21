@@ -19,6 +19,18 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "status": "candidate-context",
+      "text": "Hide unneeded output panels automatically on save with Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "status": "candidate-context",
+      "text": "Hide unneeded output panels automatically _on save_ or _when a view gains focus_, with regular expressions."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "status": "candidate",
+      "text": "Hide unneeded output panels automatically _on save_ or _when a view gains focus_, with regular expressions."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Pretty-Lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

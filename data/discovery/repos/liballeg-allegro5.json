@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "dsaltares/fetch-gh-release-asset@1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "liballeg/allegro5",
+      "target": "Update docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:24:39.617451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6810
+    },
+    {
+      "path": "README.txt",
+      "size": 6810
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 7421
+    },
+    {
+      "path": ".github/workflows/update-docs.yml",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official Allegro 5 git repository. Pull requests welcome!",
+    "fork": false,
+    "full_name": "liballeg/allegro5",
+    "html_url": "https://github.com/liballeg/allegro5",
+    "language": "C",
+    "pushed_at": "2026-04-21T08:35:45Z",
+    "stargazers_count": 2089,
+    "topics": [
+      "android",
+      "audio",
+      "c",
+      "game-development",
+      "linux",
+      "macos",
+      "opengl",
+      "unix",
+      "video",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T08:35:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Update docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "term": "Update docs"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "Welcome to Allegro!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

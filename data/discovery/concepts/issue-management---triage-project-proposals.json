@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue management - Triage Project Proposals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "Issue management - Triage Project Proposals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "Issue management - Triage Project Proposals"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56485,
+      "status": "candidate",
+      "text": "projects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43085,
+      "status": "candidate",
+      "text": "plans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43004,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43004,
+      "status": "candidate",
+      "text": "proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43004,
+      "status": "candidate",
+      "text": "scheme"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue management - Triage Project Proposals",
+  "concept_id": "issue-management---triage-project-proposals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/proposal-triage.yml",
+      "source_repo": "open-telemetry/community"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue management - Triage Project Proposals",
+      "sense_id": "issue-management---triage-project-proposals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

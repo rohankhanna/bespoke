@@ -1,0 +1,22 @@
+{
+  "component": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backward-compat.yml",
+      "source_repo": "llamastack/llama-stack"
+    }
+  ]
+}

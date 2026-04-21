@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scalable array processing with bounded memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Apache Beam tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Apache Beam tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19050,
+      "status": "candidate",
+      "text": "drone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18954,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "plane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "helicopter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "indian"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apache Beam tests",
+      "sense_id": "apache-beam-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apache-beam-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apache-beam-tests",
+  "observation_id": "ceeb736b97942b1b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Apache Beam tests",
+  "source_context_snippet": "Apache Beam tests",
+  "source_file": ".github/workflows/beam-tests.yml",
+  "source_repo": "cubed-dev/cubed",
+  "source_repo_description": "Scalable array processing with bounded memory"
+}

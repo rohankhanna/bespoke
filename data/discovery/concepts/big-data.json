@@ -19,6 +19,18 @@
       "source_repo": "apache/spark",
       "status": "candidate-context",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/spark",
       "status": "candidate",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "apache/spark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

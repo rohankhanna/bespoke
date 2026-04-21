@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate-context",
+      "text": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "beeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Deploy to GitHub Pages",
   "concept_id": "deploy-to-github-pages",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "slopus/slopus.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pyodide/pyodide"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

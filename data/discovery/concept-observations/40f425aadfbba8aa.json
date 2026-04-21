@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":kr: :cat: a port of a low-contrast and easy on the eyes Vim color scheme, the seoul256, to kitty terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032975,
+      "status": "candidate",
+      "text": "kitten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032969,
+      "status": "candidate",
+      "text": "kitty-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032950,
+      "status": "candidate",
+      "text": "pussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032934,
+      "status": "candidate",
+      "text": "puss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032855,
+      "status": "candidate",
+      "text": "pussycat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kitty",
+      "sense_id": "kitty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21038,
+      "status": "candidate",
+      "text": "pussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "puss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10081,
+      "status": "candidate",
+      "text": "pot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10070,
+      "status": "candidate",
+      "text": "pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4042,
+      "status": "candidate",
+      "text": "kitten"
+    }
+  ],
+  "concept_id": "kitty",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kitty",
+  "observation_id": "40f425aadfbba8aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "kitty",
+  "source_context_snippet": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty).",
+  "source_file": null,
+  "source_repo": "ubmit/seoul256-kitty",
+  "source_repo_description": ":kr: :cat: a port of a low-contrast and easy on the eyes Vim color scheme, the seoul256, to kitty terminal"
+}

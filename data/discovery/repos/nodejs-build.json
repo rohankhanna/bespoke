@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml"
+    },
+    {
+      "component": "dblock/create-a-github-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets-tool.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets-tool.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orka-templates.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@1aa358be5cf73883762b302a3a03abd66e75b232",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orka-templates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/build",
+      "target": "nodejs/email",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "source_repo": "nodejs/build",
+      "target": "dblock/create-a-github-issue@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "source_repo": "nodejs/build",
+      "target": "Check for upcoming web certificate expiry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets-tool.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets-tool.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orka-templates.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orka-templates.yml",
+      "source_repo": "nodejs/build",
+      "target": "hashicorp/setup-packer@1aa358be5cf73883762b302a3a03abd66e75b232",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orka-templates.yml",
+      "source_repo": "nodejs/build",
+      "target": "Check ORKA Packer Templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "nodejs/build",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "nodejs/build",
+      "target": "ludeeus/action-shellcheck@2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "nodejs/build",
+      "target": "Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nodejs/build",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nodejs/build",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/build",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/build",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:06.894523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15065
+    },
+    {
+      "path": ".github/workflows/certificate-check-template.md",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/certificate-check.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/check_assets-tool.yml",
+      "size": 1322
+    },
+    {
+      "path": ".github/workflows/orka-templates.yml",
+      "size": 1818
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 438
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Better build and test infra for Node.",
+    "fork": false,
+    "full_name": "nodejs/build",
+    "html_url": "https://github.com/nodejs/build",
+    "language": "Jinja",
+    "pushed_at": "2026-04-18T00:17:42Z",
+    "stargazers_count": 532,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-17T16:40:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/email",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check for upcoming web certificate expiry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "term": "Check for upcoming web certificate expiry"
+    },
+    {
+      "context_snippet": "Check ORKA Packer Templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orka-templates.yml",
+      "term": "Check ORKA Packer Templates"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "Shellcheck"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

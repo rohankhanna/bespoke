@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Security Audit (Claude)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "Security Audit (Claude)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "Security Audit (Claude)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "controls"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Security Audit (Claude)",
+  "concept_id": "security-audit-claude",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security Audit (Claude)",
+      "sense_id": "security-audit-claude#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

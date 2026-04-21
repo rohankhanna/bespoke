@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "Chanzhaoyu/chatgpt-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidrecomp"
     }
   ]
 }

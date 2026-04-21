@@ -13,13 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dirs-dev/directories-jvm",
-      "target": "dirs-dev/directories-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "dirs-dev/directories-jvm",
@@ -76,7 +69,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:45:01.831129+00:00",
+  "fetched_at": "2026-04-21T11:40:49.892660+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -87,7 +80,6 @@
       "size": 466
     }
   ],
-  "metadata_refreshed_at": "2026-04-21T05:17:42.280409+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
@@ -110,13 +102,7 @@
     ],
     "updated_at": "2026-02-17T09:49:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dirs-dev/directories-rs",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Linux build",

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "\ud83e\uddea Unit Testing"
+    "\ud83e\uddea Unit Testing",
+    "unit-testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,30 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate-context",
       "text": "\"\ud83e\uddea Unit Testing\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +72,18 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate",
       "text": "\"\ud83e\uddea Unit Testing\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +139,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/_test.yml",
       "source_repo": "langchain-ai/deepagents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

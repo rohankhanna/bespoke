@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/pylance-release",
+      "target": "python/typeshed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/pylance-release",
+      "target": "microsoft/python-type-stubs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "Auto-label when user responds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryRun.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dryRun.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "Azure function dry run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "github/gh-aw/actions/setup@f88ec26c65cc20ebb8ceabe809c9153385945bfe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "Issue Assignment Rotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/pylance-release",
+      "target": "Stale Issue Closer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/pylance-release",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/pylance-release",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/pylance-release",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "microsoft/pylance-release"
+}

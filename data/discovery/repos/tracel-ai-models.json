@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/models",
+      "target": "burn-rs/burn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/models",
+      "target": "dymat/rwkv-burn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/models",
+      "target": "catch-twenty-two/rust-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/models",
+      "target": "dnvt/burn-speech-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:24.603276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5022
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Models and examples built with Burn",
+    "fork": false,
+    "full_name": "tracel-ai/models",
+    "html_url": "https://github.com/tracel-ai/models",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T17:52:47Z",
+    "stargazers_count": 355,
+    "topics": [],
+    "updated_at": "2026-04-17T17:52:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burn-rs/burn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catch-twenty-two/rust-ssd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dnvt/burn-speech-training",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dymat/rwkv-burn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

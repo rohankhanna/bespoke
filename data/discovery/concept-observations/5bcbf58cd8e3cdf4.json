@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Spec References"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Spec References"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20526,
+      "status": "candidate",
+      "text": "condescend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20526,
+      "status": "candidate",
+      "text": "rdas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20143,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021,
+      "status": "candidate",
+      "text": "controlled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Spec References",
+      "sense_id": "check-spec-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-spec-references",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-spec-references",
+  "observation_id": "5bcbf58cd8e3cdf4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Check Spec References",
+  "source_context_snippet": "Check Spec References",
+  "source_file": ".github/workflows/check-specrefs.yml",
+  "source_repo": "ChainSafe/lodestar",
+  "source_repo_description": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+}

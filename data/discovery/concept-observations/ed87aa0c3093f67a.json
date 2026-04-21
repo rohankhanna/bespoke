@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fish-like autosuggestions for zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024648,
+      "status": "candidate",
+      "text": "autocomplete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024647,
+      "status": "candidate",
+      "text": "autocorrect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024646,
+      "status": "candidate",
+      "text": "autocompletion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024645,
+      "status": "candidate",
+      "text": "search as you type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024644,
+      "status": "candidate",
+      "text": "autofill"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autosuggest",
+      "sense_id": "autosuggest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autosuggest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autosuggest",
+  "observation_id": "ed87aa0c3093f67a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "autosuggest",
+  "source_context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+  "source_file": null,
+  "source_repo": "zsh-users/zsh-autosuggestions",
+  "source_repo_description": "Fish-like autosuggestions for zsh"
+}

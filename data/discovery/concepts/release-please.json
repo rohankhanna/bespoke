@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +34,36 @@
       "source_repo": "biocypher/biocypher",
       "status": "candidate-context",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "status": "candidate-context",
+      "text": "Example of Expo app setup with please-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "status": "candidate-context",
+      "text": "> expo-release-please-example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/release-please-action",
+      "status": "candidate-context",
+      "text": "automated releases based on conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/release-please-action",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +78,24 @@
       "source_repo": "biocypher/biocypher",
       "status": "candidate",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "status": "candidate",
+      "text": "> expo-release-please-example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/release-please-action",
+      "status": "candidate",
+      "text": "release-please"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +169,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/release-please.yaml",
       "source_repo": "biocypher/biocypher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "dmi3y/expo-release-please-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dmi3y/expo-release-please-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "googleapis/release-please-action"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

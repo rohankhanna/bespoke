@@ -55,6 +55,126 @@
       "source_repo": "gyscos/cursive",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00 https://ratatui.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate-context",
+      "text": "Play chess in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate-context",
+      "text": "<img src=\"./assets/gambit.png?raw=true\" alt=\"Gambit: Play chess in your terminal\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate-context",
+      "text": "A neovim lua plugin to help easily manage multiple terminal windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "TUI components for Bubble Tea \ud83e\udee7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/user-attachments/assets/b89fa46e-d451-4b33-a009-c68d4765520f\" width=\"350\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "Advanced ANSI style & color support for your terminal applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "A cat(1) clone with wings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "A basic calendar view implementation for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "A basc table view compnent for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +201,66 @@
       "source_repo": "gyscos/cursive",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate",
+      "text": "<img src=\"./assets/gambit.png?raw=true\" alt=\"Gambit: Play chess in your terminal\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/b89fa46e-d451-4b33-a009-c68d4765520f\" width=\"350\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +376,71 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "gyscos/cursive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "maaslalani/gambit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/toggleterm.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_calendar_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

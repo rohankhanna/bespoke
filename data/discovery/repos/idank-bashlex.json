@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:24:42.515086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3642
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 105
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python parser for bash",
+    "fork": false,
+    "full_name": "idank/bashlex",
+    "html_url": "https://github.com/idank/bashlex",
+    "language": "Python",
+    "pushed_at": "2024-04-08T10:31:59Z",
+    "stargazers_count": 632,
+    "topics": [],
+    "updated_at": "2026-04-13T08:53:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

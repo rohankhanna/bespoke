@@ -43,6 +43,54 @@
       "source_repo": "nodejs/TSC",
       "status": "candidate-context",
       "text": "The Node.js Technical Steering Committee (TSC) is the technical"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate-context",
+      "text": "Repository used by the Node-API team to manage work related to Node-API and node-addon-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate-context",
+      "text": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "Better build and test infra for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "nodejs/TSC",
       "status": "candidate",
       "text": "The Node.js Technical Steering Committee (TSC) is the technical"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate",
+      "text": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate",
+      "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +244,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "nodejs/TSC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/citgm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/abi-stable-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/build"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

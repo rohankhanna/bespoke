@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "IKKI2000/harmonyos-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeslogic/allsorts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue"
     }
   ],
   "term": "font"

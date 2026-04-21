@@ -19,6 +19,30 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate-context",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "This repository is for providing feedback and documentation on the [Pylance language server extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) in Visual Studio Code. You can use the repository to report issues or submit feature requests. The\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate",
+      "text": "This repository is for providing feedback and documentation on the [Pylance language server extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) in Visual Studio Code. You can use the repository to report issues or submit feature requests. The\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "isaacphi/mcp-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pylance-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

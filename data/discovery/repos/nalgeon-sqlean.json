@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nalgeon/sqlean",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nalgeon/sqlean",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nalgeon/sqlean",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nalgeon/sqlean",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nalgeon/sqlean",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nalgeon/sqlean",
+      "target": "sqlite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nalgeon/sqlean",
+      "target": "sqlite-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:25:20.721511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3844
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The ultimate set of SQLite extensions",
+    "fork": false,
+    "full_name": "nalgeon/sqlean",
+    "html_url": "https://github.com/nalgeon/sqlean",
+    "language": "C",
+    "pushed_at": "2026-03-30T21:01:32Z",
+    "stargazers_count": 4308,
+    "topics": [
+      "sqlite",
+      "sqlite-extension"
+    ],
+    "updated_at": "2026-04-20T11:39:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "SQLite has few functions compared to other database management systems. SQLite authors see this as a feature rather than a problem, because SQLite has an extension mechanism in place.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    },
+    {
+      "context_snippet": "SQLite has few functions compared to other database management systems. SQLite authors see this as a feature rather than a problem, because SQLite has an extension mechanism in place.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite-extension"
+    }
+  ]
+}

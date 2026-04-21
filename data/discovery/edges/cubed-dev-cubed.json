@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Array API Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Apache Beam tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Dask tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "sphinx-notes/pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "ndimensional-arrays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "xarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "zarr",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "cubed-dev/cubed"
+}

@@ -79,6 +79,18 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate-context",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "status": "candidate-context",
+      "text": "A Claude Skill that automatically analyzes uploaded CSV files \u2014 generating summary statistics, detecting missing data, and creating quick visualizations using Python and pandas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coffeefuelbump/csv-data-summarizer-claude-skill"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

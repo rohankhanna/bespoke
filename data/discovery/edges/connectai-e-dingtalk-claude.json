@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/DingTalk-Claude",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/DingTalk-Claude",
+      "target": "claude-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/DingTalk-Claude",
+      "target": "connect-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/DingTalk-Claude",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/DingTalk-Claude",
+      "target": "dingtalk-bot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ConnectAI-E/DingTalk-Claude"
+}

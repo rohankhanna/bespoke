@@ -19,12 +19,30 @@
       "source_repo": "Birch-san/diffusers",
       "status": "candidate-context",
       "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Build PR Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Birch-san/diffusers",
+      "status": "candidate",
+      "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
       "status": "candidate",
       "text": "Build PR Documentation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/build_pr_documentation.yml",
       "source_repo": "Birch-san/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/text-generation-inference"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

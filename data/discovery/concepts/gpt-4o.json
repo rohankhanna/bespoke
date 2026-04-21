@@ -13,9 +13,46 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "gpt-4o",
@@ -33,12 +70,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

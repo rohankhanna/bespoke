@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "tracel-ai/github-actions/setup-rust@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "tracel-ai/burn-bench",
+      "target": "tracel-ai/github-actions/setup-rust@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "tracel-ai/burn-bench",
+      "target": "Benchmarks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:17.969750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5715
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1454
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 7375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Burn benchmarks",
+    "fork": false,
+    "full_name": "tracel-ai/burn-bench",
+    "html_url": "https://github.com/tracel-ai/burn-bench",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T01:30:34Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-03-26T11:54:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    }
+  ]
+}

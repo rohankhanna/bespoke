@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yml",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yml",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks.yml",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "Notebook tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "altair",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "binder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "coronavirus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "covid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "data-journalism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "journalism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data",
+      "target": "pandas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:22.879308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 138295
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/notebooks.yml",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Los Angeles Times' open-source archive of California coronavirus data",
+    "fork": false,
+    "full_name": "datadesk/california-coronavirus-data",
+    "html_url": "https://github.com/datadesk/california-coronavirus-data",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-06T17:50:15Z",
+    "stargazers_count": 223,
+    "topics": [
+      "altair",
+      "binder",
+      "coronavirus",
+      "covid",
+      "csv",
+      "data",
+      "data-journalism",
+      "journalism",
+      "jupyter",
+      "news",
+      "pandas",
+      "python"
+    ],
+    "updated_at": "2026-03-15T19:50:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Notebook tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks.yml",
+      "term": "Notebook tests"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "altair"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binder"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coronavirus"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-journalism"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "journalism"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bump-forge-std"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "bump-forge-std"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "bump-forge-std"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bump-forge-std",
+  "concept_id": "bump-forge-std",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bump-forge-std.yml",
+      "source_repo": "foundry-rs/foundry"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bump-forge-std",
+      "sense_id": "bump-forge-std#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -191,6 +191,101 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldayton/bash-oracle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "nix-community/NUR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Piebald-AI/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/citgm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "getbettr/octotail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest"
     }
   ],
   "term": "Test"

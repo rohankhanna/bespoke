@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test a module with CITGM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test a module with CITGM"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29166,
+      "status": "candidate",
+      "text": "ielts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12999,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "search"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test a module with CITGM",
+      "sense_id": "test-a-module-with-citgm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-a-module-with-citgm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-a-module-with-citgm",
+  "observation_id": "45c5f26bb939ad71",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Test a module with CITGM",
+  "source_context_snippet": "Test a module with CITGM",
+  "source_file": ".github/workflows/test-module.yml",
+  "source_repo": "nodejs/citgm",
+  "source_repo_description": "Canary in the Gold Mine"
+}

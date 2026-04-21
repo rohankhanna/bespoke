@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/cache-homebrew-prefix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Bump formulae on schedule or request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-from-merge-queue.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-from-merge-queue.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-triggers.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Trigger automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/find-related-workflow-run-id@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Populate gem cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Clean up closed PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/post-comment@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/dismiss-approvals@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-replacement-pr.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Create replacement pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/pre-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/post-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/create-pull-request@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-build-bottle.yml",
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "Homebrew/actions/post-comment@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "formulae",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "Homebrew/homebrew-core"
+}

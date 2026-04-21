@@ -7,8 +7,64 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "status": "candidate-context",
+      "text": "Personalization for Stable Diffusion via Aesthetic Gradients \ud83c\udfa8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "status": "candidate-context",
+      "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "status": "candidate",
+      "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "stable-diffusion",
@@ -20,12 +76,32 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

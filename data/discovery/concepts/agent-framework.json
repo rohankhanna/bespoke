@@ -31,6 +31,18 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-squads/agents-squads",
+      "status": "candidate-context",
+      "text": "Open-source framework for autonomous AI agent squads. Build systems that execute, not just inform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/agents-squads",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/agents-squads",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "agents-squads/squads-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "agents-squads/agents-squads"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

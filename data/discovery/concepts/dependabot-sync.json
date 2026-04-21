@@ -43,6 +43,66 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate-context",
       "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "TUI components for Bubble Tea \ud83e\udee7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "A minimal, colorful Go logging library \ud83e\udeb5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "A personal key value store \ud83d\udefc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udc08 A collection of LLM inference providers and models "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +121,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/gum",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
       "status": "candidate",
       "text": "dependabot-sync"
     }
@@ -100,11 +190,41 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/dependabot-sync.yml",
       "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/skate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/catwalk"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

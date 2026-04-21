@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "yara-integrated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate-context",
+      "text": "Yara integrated software to handle archive file data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate-context",
+      "text": "yextend"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate",
+      "text": "yextend"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yara-integrated",
+  "concept_id": "yara-integrated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BayshoreNetworks/yextend"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yara-integrated",
+      "sense_id": "yara-integrated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

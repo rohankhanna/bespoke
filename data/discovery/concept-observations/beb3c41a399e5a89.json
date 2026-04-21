@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012889,
+      "status": "candidate",
+      "text": "reforge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012784,
+      "status": "candidate",
+      "text": "remould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012780,
+      "status": "candidate",
+      "text": "remold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011099,
+      "status": "candidate",
+      "text": "remodel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013002,
+      "status": "candidate",
+      "text": "reworked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recast",
+      "sense_id": "recast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "remodel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "remould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "remold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "reforge"
+    }
+  ],
+  "concept_id": "recast",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recast",
+  "observation_id": "beb3c41a399e5a89",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "recast",
+  "source_context_snippet": "[NPMURL]: https://npmjs.org/package/putout \"npm\"",
+  "source_file": null,
+  "source_repo": "coderaiser/putout",
+  "source_repo_description": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+}

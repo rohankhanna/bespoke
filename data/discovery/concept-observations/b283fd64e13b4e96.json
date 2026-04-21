@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark Tests (LangChain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark Tests (LangChain)"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11843,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11795,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "benchmark-tests-langchain",
   "observation_id": "b283fd64e13b4e96",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Benchmark Tests (LangChain)",
-  "source_context_snippet": null,
+  "source_context_snippet": "Benchmark Tests (LangChain)",
   "source_file": ".github/workflows/benchmark-tests.yml",
   "source_repo": "langchain-ai/langchainjs",
-  "source_repo_description": null
+  "source_repo_description": "The agent engineering platform"
 }

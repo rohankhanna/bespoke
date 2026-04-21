@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ubmit/seoul256-kitty",
+      "target": "kovidgoyal/kitty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubmit/seoul256-kitty",
+      "target": "kitty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubmit/seoul256-kitty",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:35.821778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":kr: :cat: a port of a low-contrast and easy on the eyes Vim color scheme, the seoul256, to kitty terminal",
+    "fork": false,
+    "full_name": "ubmit/seoul256-kitty",
+    "html_url": "https://github.com/ubmit/seoul256-kitty",
+    "language": null,
+    "pushed_at": "2023-06-12T10:20:07Z",
+    "stargazers_count": 16,
+    "topics": [
+      "kitty",
+      "themes"
+    ],
+    "updated_at": "2026-01-20T02:04:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kovidgoyal/kitty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitty"
+    },
+    {
+      "context_snippet": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

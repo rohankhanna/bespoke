@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lean, local AI research agent framework that runs on your machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vllm",
+      "sense_id": "vllm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vllm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vllm",
+  "observation_id": "06d0001baa0c516a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "vllm",
+  "source_context_snippet": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer.",
+  "source_file": null,
+  "source_repo": "KabakaWilliam/trajectorykit",
+  "source_repo_description": "A lean, local AI research agent framework that runs on your machine"
+}

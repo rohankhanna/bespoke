@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Lintcheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "Lintcheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate",
+      "text": "Lintcheck"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Lintcheck",
+  "concept_id": "lintcheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lintcheck.yml",
+      "source_repo": "rust-lang/rust-clippy"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lintcheck",
+      "sense_id": "lintcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

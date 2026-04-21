@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/js-libp2p-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nodejs/build"
     }
   ],
   "term": "Close stale issues"

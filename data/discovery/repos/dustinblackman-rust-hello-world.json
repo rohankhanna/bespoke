@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:31:04.010877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 75
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An empty binary crate used in integration tests",
+    "fork": false,
+    "full_name": "dustinblackman/rust-hello-world",
+    "html_url": "https://github.com/dustinblackman/rust-hello-world",
+    "language": "Rust",
+    "pushed_at": "2023-10-04T00:40:05Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-08-11T15:44:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

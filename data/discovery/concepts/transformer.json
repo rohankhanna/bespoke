@@ -13,10 +13,83 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate-context",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048661,
+      "status": "candidate",
+      "text": "transform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048610,
+      "status": "candidate",
+      "text": "transforming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048597,
+      "status": "candidate",
+      "text": "transformative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048582,
+      "status": "candidate",
+      "text": "transformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048004,
+      "status": "candidate",
+      "text": "convert"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "transformer",
   "concept_id": "transformer",
@@ -39,12 +112,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

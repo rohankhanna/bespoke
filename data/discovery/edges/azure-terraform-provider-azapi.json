@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "hashicorp/terraform-plugin-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "hashicorp/terraform-provider-azurerm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acc-test.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acc-test.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acc-test.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "OIDC Auth Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-validate.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-validate.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-validate.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "dependabot validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depscheck.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depscheck.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depscheck.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "Vendor Dependencies Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "GoLang Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "securego/gosec@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosec.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "Go Security Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tflint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tflint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tflint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "Terraform Schema Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/thirty-two-bit.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/thirty-two-bit.yaml",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "azure-resource-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi",
+      "target": "terraform-provider",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "Azure/terraform-provider-azapi"
+}

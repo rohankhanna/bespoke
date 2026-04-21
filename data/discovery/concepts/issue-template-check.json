@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Template Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Issue Template Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Issue Template Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26020,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21572,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21429,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "blank"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Template Check",
+  "concept_id": "issue-template-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issue-template-check.yml",
+      "source_repo": "vitejs/vite"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Template Check",
+      "sense_id": "issue-template-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

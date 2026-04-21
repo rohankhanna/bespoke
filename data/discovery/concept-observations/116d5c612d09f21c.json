@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951482,
+      "status": "candidate",
+      "text": "government"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949966,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949350,
+      "status": "candidate",
+      "text": "administration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942202,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938749,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "governance",
+      "sense_id": "governance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27045,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26066,
+      "status": "candidate",
+      "text": "brass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5022,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4055,
+      "status": "candidate",
+      "text": "government"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2026,
+      "status": "candidate",
+      "text": "governing"
+    }
+  ],
+  "concept_id": "governance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "governance",
+  "observation_id": "116d5c612d09f21c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "governance",
+  "source_context_snippet": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).",
+  "source_file": null,
+  "source_repo": "cncf/foundation",
+  "source_repo_description": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+}

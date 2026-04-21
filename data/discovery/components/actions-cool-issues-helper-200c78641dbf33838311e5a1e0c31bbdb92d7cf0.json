@@ -1,0 +1,22 @@
+{
+  "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "vitejs/vite"
+    }
+  ]
+}

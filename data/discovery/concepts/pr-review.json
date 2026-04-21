@@ -25,12 +25,30 @@
       "source_repo": "buddingnewinsights/proxypal",
       "status": "candidate-context",
       "text": "PR Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "PR Review"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "buddingnewinsights/proxypal",
+      "status": "candidate",
+      "text": "PR Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
       "status": "candidate",
       "text": "PR Review"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/pr-review.yml",
       "source_repo": "buddingnewinsights/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr-review.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

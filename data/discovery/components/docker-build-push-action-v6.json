@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "cedar-policy/cedar-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_publish.yml",
+      "source_repo": "bmaltais/kohya_ss"
     }
   ]
 }

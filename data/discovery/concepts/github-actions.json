@@ -19,6 +19,30 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate-context",
       "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate",
       "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "getbettr/octotail"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

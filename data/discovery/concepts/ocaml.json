@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ocaml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/opam",
+      "status": "candidate-context",
+      "text": "opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam",
+      "status": "candidate-context",
+      "text": "|master|2.0|2.1|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam",
+      "status": "candidate",
+      "text": "|master|2.0|2.1|"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023283,
+      "status": "candidate",
+      "text": "caml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023282,
+      "status": "candidate",
+      "text": "common lisp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023281,
+      "status": "candidate",
+      "text": "haskell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023280,
+      "status": "candidate",
+      "text": "standard ml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023279,
+      "status": "candidate",
+      "text": "computer language"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ocaml",
+  "concept_id": "ocaml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/opam"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ocaml",
+      "sense_id": "ocaml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libp2p/js-libp2p-examples"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@v2.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml"
+    },
+    {
+      "component": "ShiftLeftSecurity/scan-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "dependabot/fetch-metadata@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "Dependabot post-update (rebuild moderator model)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "ShiftLeftSecurity/scan-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "SL Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "aiohttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:14.751350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3233
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1976
+    },
+    {
+      "path": ".github/workflows/post-dependabot.yml",
+      "size": 2006
+    },
+    {
+      "path": ".github/workflows/shiftleft-analysis.yml",
+      "size": 1320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Demos for aiohttp project",
+    "fork": false,
+    "full_name": "aio-libs/aiohttp-demos",
+    "html_url": "https://github.com/aio-libs/aiohttp-demos",
+    "language": "Makefile",
+    "pushed_at": "2026-04-21T09:48:05Z",
+    "stargazers_count": 755,
+    "topics": [
+      "aiohttp",
+      "asyncio",
+      "demo",
+      "tutorial"
+    ],
+    "updated_at": "2026-04-21T09:48:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "Dependabot post-update (rebuild moderator model)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "term": "Dependabot post-update (rebuild moderator model)"
+    },
+    {
+      "context_snippet": "SL Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "term": "SL Scan"
+    },
+    {
+      "context_snippet": "=============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiohttp"
+    },
+    {
+      "context_snippet": "=============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "=============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "=============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

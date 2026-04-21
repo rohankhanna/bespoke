@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-detect duplicate issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "Auto-detect duplicate issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "Auto-detect duplicate issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11836,
+      "status": "candidate",
+      "text": "doublet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10811,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10811,
+      "status": "candidate",
+      "text": "carbon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10811,
+      "status": "candidate",
+      "text": "copy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10811,
+      "status": "candidate",
+      "text": "counterpart"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-detect duplicate issues",
+  "concept_id": "auto-detect-duplicate-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/detect-duplicate-issues.yml",
+      "source_repo": "home-assistant/core"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-detect duplicate issues",
+      "sense_id": "auto-detect-duplicate-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

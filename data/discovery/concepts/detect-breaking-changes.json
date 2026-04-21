@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Detect Breaking Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate-context",
+      "text": "Celestia Data Availability Nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate-context",
+      "text": "Detect Breaking Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate",
+      "text": "Detect Breaking Changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "uncover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18031,
+      "status": "candidate",
+      "text": "smoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18031,
+      "status": "candidate",
+      "text": "smoked"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Detect Breaking Changes",
+  "concept_id": "detect-breaking-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/detect-breaking.yml",
+      "source_repo": "celestiaorg/celestia-node"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Breaking Changes",
+      "sense_id": "detect-breaking-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

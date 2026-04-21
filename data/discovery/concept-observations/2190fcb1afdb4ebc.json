@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014703,
+      "status": "candidate",
+      "text": "straight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013557,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999497,
+      "status": "candidate",
+      "text": "chasten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995741,
+      "status": "candidate",
+      "text": "objurgate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994569,
+      "status": "candidate",
+      "text": "chastize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "correct",
+      "sense_id": "correct#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33050,
+      "status": "candidate",
+      "text": "proper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30071,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28047,
+      "status": "candidate",
+      "text": "discipline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26033,
+      "status": "candidate",
+      "text": "chastise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23039,
+      "status": "candidate",
+      "text": "precise"
+    }
+  ],
+  "concept_id": "correct",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "correct",
+  "observation_id": "2190fcb1afdb4ebc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "correct",
+  "source_context_snippet": "*{Fast, Correct} - Choose two*",
+  "source_file": null,
+  "source_repo": "bazelbuild/bazel",
+  "source_repo_description": "a fast, scalable, multi-language and extensible build system"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/re2",
+      "status": "candidate-context",
+      "text": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/re2",
+      "status": "candidate-context",
+      "text": "Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/re2",
+      "status": "candidate",
+      "text": "Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924033,
+      "status": "candidate",
+      "text": "pageboy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919419,
+      "status": "candidate",
+      "text": "varlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "acton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "aspects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "beeps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pages",
+  "concept_id": "pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pages",
+      "sense_id": "pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

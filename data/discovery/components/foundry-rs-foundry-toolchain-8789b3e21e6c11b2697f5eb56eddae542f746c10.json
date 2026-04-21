@@ -1,0 +1,12 @@
+{
+  "component": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/crytic-compile"
+    }
+  ]
+}

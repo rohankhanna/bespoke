@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-version-label.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "source_repo": "semgrep/mcp-marketplace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "source_repo": "semgrep/mcp-marketplace",
+      "target": "Require Version Bump Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/mcp-marketplace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/mcp-marketplace",
+      "target": "Version Bump on Label",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:21.128784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1149
+    },
+    {
+      "path": ".github/workflows/require-version-label.yml",
+      "size": 2406
+    },
+    {
+      "path": ".github/workflows/version-bump.yml",
+      "size": 3892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home for the Semgrep Claude Code Plugin.",
+    "fork": false,
+    "full_name": "semgrep/mcp-marketplace",
+    "html_url": "https://github.com/semgrep/mcp-marketplace",
+    "language": "Shell",
+    "pushed_at": "2026-04-10T23:28:35Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-10T17:40:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Require Version Bump Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "term": "Require Version Bump Label"
+    },
+    {
+      "context_snippet": "Version Bump on Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "Version Bump on Label"
+    }
+  ]
+}

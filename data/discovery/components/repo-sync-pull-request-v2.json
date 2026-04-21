@@ -1,12 +1,17 @@
 {
   "component": "repo-sync/pull-request@v2",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bump-dependency.yaml",
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-sqlite.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ]
 }

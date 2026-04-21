@@ -1,0 +1,32 @@
+{
+  "component": "jdx/mise-action@v4",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions-lint.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/butterflynet.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-advisories.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ChainSafe/forest"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "component": "ts-graphviz/setup-graphviz@v2",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    }
+  ]
+}

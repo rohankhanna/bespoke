@@ -1,12 +1,22 @@
 {
   "component": "aormsby/Fork-Sync-With-Upstream-action@v3.4",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "lobehub/lobe-midjourney-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-fork.yml",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ]
 }

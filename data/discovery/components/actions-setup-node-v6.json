@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -407,6 +407,231 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-cd.yml",
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remark.yml",
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-pr.yml",
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Keats/jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "toon-format/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "toon-format/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-extractor.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arethetypeswrong.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/change-prerelease-tag.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-checks.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare-build-output.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docusaurus.yml",
+      "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode.yml",
+      "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-on-release.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/certificate-check.yml",
+      "source_repo": "nodejs/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_assets-tool.yml",
+      "source_repo": "nodejs/build"
     }
   ]
 }

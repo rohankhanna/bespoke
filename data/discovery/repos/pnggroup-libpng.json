@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "editorconfig-checker/action-editorconfig-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-macos.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "editorconfig-checker/action-editorconfig-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "Linting libpng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-linux.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-linux.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "Verifying libpng on Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-macos.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-macos.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "Verifying libpng on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-windows.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-windows.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-windows.yml",
+      "source_repo": "pnggroup/libpng",
+      "target": "Verifying libpng on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:17.192767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9466
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/verify-linux.yml",
+      "size": 876
+    },
+    {
+      "path": ".github/workflows/verify-macos.yml",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/verify-windows.yml",
+      "size": 1027
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "libpng18",
+    "description": "LIBPNG: Portable Network Graphics support, official libpng repository",
+    "fork": false,
+    "full_name": "pnggroup/libpng",
+    "html_url": "https://github.com/pnggroup/libpng",
+    "language": "C",
+    "pushed_at": "2026-04-15T19:13:09Z",
+    "stargazers_count": 1574,
+    "topics": [],
+    "updated_at": "2026-04-20T09:46:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linting libpng",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting libpng"
+    },
+    {
+      "context_snippet": "Verifying libpng on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-linux.yml",
+      "term": "Verifying libpng on Linux"
+    },
+    {
+      "context_snippet": "Verifying libpng on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-macos.yml",
+      "term": "Verifying libpng on macOS"
+    },
+    {
+      "context_snippet": "Verifying libpng on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-windows.yml",
+      "term": "Verifying libpng on Windows"
+    }
+  ]
+}

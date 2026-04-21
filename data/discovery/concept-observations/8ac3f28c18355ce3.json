@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047240,
+      "status": "candidate",
+      "text": "news media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001219,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047315,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047313,
+      "status": "candidate",
+      "text": "journalistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047305,
+      "status": "candidate",
+      "text": "reporter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "journalism",
+      "sense_id": "journalism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6030,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "news media"
+    }
+  ],
+  "concept_id": "journalism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "journalism",
+  "observation_id": "8ac3f28c18355ce3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "journalism",
+  "source_context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+  "source_file": null,
+  "source_repo": "datadesk/california-coronavirus-data",
+  "source_repo_description": "The Los Angeles Times' open-source archive of California coronavirus data"
+}

@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "explosion/spacy-models",
+      "target": "explosion/spacy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "machine-learning-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "spacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "spacy-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models",
+      "target": "statistical-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:52.596184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcab  Models for the spaCy Natural Language Processing (NLP) library",
+    "fork": false,
+    "full_name": "explosion/spacy-models",
+    "html_url": "https://github.com/explosion/spacy-models",
+    "language": "Python",
+    "pushed_at": "2026-03-20T10:26:17Z",
+    "stargazers_count": 1860,
+    "topics": [
+      "machine-learning",
+      "machine-learning-models",
+      "models",
+      "natural-language-processing",
+      "nlp",
+      "spacy",
+      "spacy-models",
+      "statistical-models"
+    ],
+    "updated_at": "2026-04-20T23:31:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "explosion/spacy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-models"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "models"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacy"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacy-models"
+    },
+    {
+      "context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-models"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-crates.yml",
       "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui"
     }
   ]
 }

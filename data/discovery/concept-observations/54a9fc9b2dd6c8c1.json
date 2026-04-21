@@ -24,7 +24,43 @@
     }
   ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20602,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20104,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20104,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -41,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "lint-and-format-check",
   "observation_id": "54a9fc9b2dd6c8c1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Lint and Format Check",
   "source_context_snippet": "Lint and Format Check",
   "source_file": ".github/workflows/lint-format.yml",

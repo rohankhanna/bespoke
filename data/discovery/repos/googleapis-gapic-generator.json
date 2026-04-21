@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/gapic-generator",
+      "target": "googleapis/artman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/gapic-generator",
+      "target": "googleapis/googleapis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/gapic-generator",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:48.082643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tools for generating API client libraries from API Service Configuration descriptions.",
+    "fork": false,
+    "full_name": "googleapis/gapic-generator",
+    "html_url": "https://github.com/googleapis/gapic-generator",
+    "language": "Java",
+    "pushed_at": "2022-01-31T22:48:04Z",
+    "stargazers_count": 322,
+    "topics": [],
+    "updated_at": "2026-04-10T17:20:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/artman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/googleapis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

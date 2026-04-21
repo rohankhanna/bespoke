@@ -73,6 +73,126 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate-context",
+      "text": "Golang library to build sqlite extensions :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate-context",
+      "text": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-bindata/go-bindata",
+      "status": "candidate-context",
+      "text": "Turn data file into go code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bindata/go-bindata",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://cloud.drone.io/api/badges/go-bindata/go-bindata/status.svg)](https://cloud.drone.io/go-bindata/go-bindata)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "Go implementation of the XDG Base Directory Specification and XDG user directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s official command line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "Scan for sensitive information easily and effectively."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "A minimal, colorful Go logging library \ud83e\udeb5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "Advanced ANSI style & color support for your terminal applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate-context",
+      "text": "Easily install prebuilt binaries from GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +225,66 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate",
+      "text": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bindata/go-bindata",
+      "status": "candidate",
+      "text": "[![Build Status](https://cloud.drone.io/api/badges/go-bindata/go-bindata/status.svg)](https://cloud.drone.io/go-bindata/go-bindata)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate",
+      "text": "`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate",
+      "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +340,71 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "go-bindata/go-bindata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "zyedidia/eget"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "github/git-sizer"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "python/mypy",
       "status": "candidate-context",
       "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "status": "candidate-context",
+      "text": "A simple plugin that allows running mypy from PyCharm and navigate between errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "status": "candidate-context",
+      "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "python/mypy",
       "status": "candidate",
       "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "status": "candidate",
+      "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "python/mypy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

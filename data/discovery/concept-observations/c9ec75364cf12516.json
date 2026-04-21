@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyenv-for-windows",
+      "sense_id": "pyenv-for-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyenv-for-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyenv-for-windows",
+  "observation_id": "c9ec75364cf12516",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "pyenv-for-windows",
+  "source_context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+  "source_file": null,
+  "source_repo": "pyenv-win/pyenv-win",
+  "source_repo_description": "pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
+}

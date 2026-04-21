@@ -1,0 +1,12 @@
+{
+  "component": "katexochen/go-tidy-check@v2",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ethersphere/bee"
+    }
+  ]
+}

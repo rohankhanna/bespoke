@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981784,
+      "status": "candidate",
+      "text": "distributed ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981783,
+      "status": "candidate",
+      "text": "hyperledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981782,
+      "status": "candidate",
+      "text": "cryptocollectible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981781,
+      "status": "candidate",
+      "text": "mainnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981780,
+      "status": "candidate",
+      "text": "cryptosphere"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blockchain",
+      "sense_id": "blockchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blockchain",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blockchain",
+  "observation_id": "3d7260c350fbb21b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "blockchain",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>",
+  "source_file": null,
+  "source_repo": "ChainSafe/lodestar",
+  "source_repo_description": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "target": "cursive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:45.541671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1206
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A basc table view compnent for cursive.",
+    "fork": false,
+    "full_name": "BonsaiDen/cursive_table_view",
+    "html_url": "https://github.com/BonsaiDen/cursive_table_view",
+    "language": "Rust",
+    "pushed_at": "2024-08-02T23:11:00Z",
+    "stargazers_count": 52,
+    "topics": [
+      "cursive",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2025-11-14T00:01:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursive"
+    },
+    {
+      "context_snippet": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

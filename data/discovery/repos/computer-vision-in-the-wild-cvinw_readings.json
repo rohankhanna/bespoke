@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "ashkamath/mdetr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "arpitbansal297/universal-guided-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "alexrame/fishr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "alexrame/diwa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:43.099485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of papers on the topic of ``Computer Vision in the Wild (CVinW)''",
+    "fork": false,
+    "full_name": "Computer-Vision-in-the-Wild/CVinW_Readings",
+    "html_url": "https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings",
+    "language": null,
+    "pushed_at": "2024-03-14T18:59:10Z",
+    "stargazers_count": 1368,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrame/diwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrame/fishr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arpitbansal297/universal-guided-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashkamath/mdetr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

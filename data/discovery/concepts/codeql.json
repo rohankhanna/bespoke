@@ -1,7 +1,8 @@
 {
   "aliases": [
     "CodeQL",
-    "codeql"
+    "codeql",
+    "\ud83d\udea8 CodeQL"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -146,6 +147,234 @@
       "source_repo": "protocolbuffers/protobuf-javascript",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "\"codeql\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate-context",
+      "text": "pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager Rest API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "Scan for sensitive information easily and effectively."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "Python low-interaction honeyclient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "PyIceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "The Node.js Website Team Governance Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -218,6 +447,120 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "protocolbuffers/protobuf-javascript",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "\"codeql\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate",
+      "text": "\ud83d\udea8 CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
       "status": "candidate",
       "text": "\"CodeQL\""
     }
@@ -347,11 +690,131 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "protocolbuffers/protobuf-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-code-scanning.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "buffer/thug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

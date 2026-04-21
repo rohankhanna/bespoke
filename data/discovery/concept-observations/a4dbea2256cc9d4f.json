@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mark and Close Stale Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mark and Close Stale Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tucking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42321,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41975,
+      "status": "candidate",
+      "text": "flagged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark and Close Stale Pull Requests",
+      "sense_id": "mark-and-close-stale-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-and-close-stale-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-and-close-stale-pull-requests",
+  "observation_id": "a4dbea2256cc9d4f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Mark and Close Stale Pull Requests",
+  "source_context_snippet": "Mark and Close Stale Pull Requests",
+  "source_file": ".github/workflows/stale_pull_request.yaml",
+  "source_repo": "ray-project/ray",
+  "source_repo_description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+}

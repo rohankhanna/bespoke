@@ -1,0 +1,17 @@
+{
+  "component": "tj-actions/changed-files@a284dc1814e3fd07f2e34267fc8f81227ed29fb8",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-checks.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-tests.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    }
+  ]
+}

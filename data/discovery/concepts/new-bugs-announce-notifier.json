@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "new-bugs-announce notifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "The Python programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "new-bugs-announce notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate",
+      "text": "new-bugs-announce notifier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "notification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "reporters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "aroma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "accused"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "acknowledge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "new-bugs-announce notifier",
+  "concept_id": "new-bugs-announce-notifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/new-bugs-announce-notifier.yml",
+      "source_repo": "python/cpython"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "new-bugs-announce notifier",
+      "sense_id": "new-bugs-announce-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

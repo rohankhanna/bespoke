@@ -1,12 +1,17 @@
 {
   "component": "actions/github-script@v5",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tag.yml",
       "source_repo": "stripe/stripe-mock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_auto_merge.yaml",
+      "source_repo": "ray-project/ray"
     }
   ]
 }

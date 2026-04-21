@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -227,6 +227,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/paper_ranking.yml",
       "source_repo": "biopragmatics/bioregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/l10n.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "langchain-ai/deepagentsjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jit.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_release.yml",
+      "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-check-links.yml",
+      "source_repo": "pytest-dev/pytest"
     }
   ]
 }

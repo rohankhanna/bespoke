@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "alirezarezvani/claude-code-skill-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Commit & Branch Guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "CI Quality Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Main Branch Protection Guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Auto-Close Issues on PR Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-orchestrator.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-orchestrator.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-orchestrator.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-orchestrator.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Release Orchestrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Security Audit (Claude)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "Smart Bidirectional Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "agent-development-kit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "agentic-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "agentic-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "anthropic-claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "target": "claude-code",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "alirezarezvani/claude-code-tresor"
+}

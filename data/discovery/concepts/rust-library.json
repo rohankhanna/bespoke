@@ -19,6 +19,18 @@
       "source_repo": "asg017/sqlite-loadable-rs",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/crates/v/sqlite-loadable.svg)](https://crates.io/crates/sqlite-loadable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate-context",
+      "text": "A CSV parser for Rust, with Serde support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate-context",
+      "text": "csv"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "asg017/sqlite-loadable-rs",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/crates/v/sqlite-loadable.svg)](https://crates.io/crates/sqlite-loadable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate",
+      "text": "csv"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "asg017/sqlite-loadable-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

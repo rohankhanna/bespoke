@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "storage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Out-Of-The-Box & Powerful File Parsing Service, support Text/Pdf/Docx/Pptx/Xlsx/Image/Audio parsing, support OCR, support Base64/Local/S3/R2/TG/MinIO storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025982,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025872,
+      "status": "candidate",
+      "text": "storehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022613,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019370,
+      "status": "candidate",
+      "text": "entrepot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961917,
+      "status": "candidate",
+      "text": "memory"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "entrepot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "storehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "memory board"
+    }
+  ],
+  "canonical_name": "storage",
+  "concept_id": "storage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "storage",
+      "sense_id": "storage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

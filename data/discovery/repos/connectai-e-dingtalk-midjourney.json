@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "connect-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "midjourney-api-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:32.624682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf4e \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+    "fork": false,
+    "full_name": "ConnectAI-E/Dingtalk-Midjourney",
+    "html_url": "https://github.com/ConnectAI-E/Dingtalk-Midjourney",
+    "language": null,
+    "pushed_at": "2023-04-25T04:42:11Z",
+    "stargazers_count": 9,
+    "topics": [
+      "connect-ai",
+      "dingtalk",
+      "midjourney",
+      "midjourney-api-bot"
+    ],
+    "updated_at": "2026-04-20T23:33:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connect-ai"
+    },
+    {
+      "context_snippet": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk"
+    },
+    {
+      "context_snippet": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "context_snippet": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney-api-bot"
+    }
+  ]
+}

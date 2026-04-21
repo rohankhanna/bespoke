@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unit and Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s official command line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "Unit and Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate",
+      "text": "Unit and Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "dyad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "tetrad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "triad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21256,
+      "status": "candidate",
+      "text": "bikini"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unit and Integration Tests",
+  "concept_id": "unit-and-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cli/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit and Integration Tests",
+      "sense_id": "unit-and-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

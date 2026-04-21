@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:00.771785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2827
+    },
+    {
+      "path": "go.mod",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The forgotten go tool that executes and caches binaries included in go.mod files.",
+    "fork": false,
+    "full_name": "dustinblackman/gomodrun",
+    "html_url": "https://github.com/dustinblackman/gomodrun",
+    "language": "Go",
+    "pushed_at": "2024-05-17T01:56:28Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2025-09-21T14:56:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

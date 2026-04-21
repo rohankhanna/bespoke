@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "akin-ozer/cc-devops-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core"
     }
   ],
   "term": "Actionlint"

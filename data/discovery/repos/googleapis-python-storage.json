@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/python-storage",
+      "target": "googleapis/google-cloud-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:48.836837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 11901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This library has moved to https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage",
+    "fork": false,
+    "full_name": "googleapis/python-storage",
+    "html_url": "https://github.com/googleapis/python-storage",
+    "language": "Python",
+    "pushed_at": "2026-03-31T21:05:05Z",
+    "stargazers_count": 502,
+    "topics": [],
+    "updated_at": "2026-04-07T22:06:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-python",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

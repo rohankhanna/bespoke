@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build containerization template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/containerization",
+      "status": "candidate-context",
+      "text": "Containerization is a Swift package for running Linux containers on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/containerization",
+      "status": "candidate-context",
+      "text": "Build containerization template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/containerization",
+      "status": "candidate",
+      "text": "Build containerization template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22686,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "filk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "fill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "fills"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build containerization template",
+  "concept_id": "build-containerization-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build containerization template",
+      "sense_id": "build-containerization-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

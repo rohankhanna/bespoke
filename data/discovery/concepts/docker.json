@@ -124,6 +124,138 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate-context",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "NumPy & SciPy for GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Assemble, configure, and deploy autonomous AI Agents in your browser.\u4e00\u952e\u514d\u8d39\u90e8\u7f72\u4f60\u7684\u79c1\u4ebaAutoGPT \u7f51\u9875\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Out-Of-The-Box & Powerful File Parsing Service, support Text/Pdf/Docx/Pptx/Xlsx/Image/Audio parsing, support OCR, support Base64/Local/S3/R2/TG/MinIO storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "Python low-interaction honeyclient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "dev tools, env vars, task runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailofbits/eth-security-toolbox",
+      "status": "candidate-context",
+      "text": "A Docker container preconfigured with all of the Trail of Bits Ethereum security tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/eth-security-toolbox",
+      "status": "candidate-context",
+      "text": "Docker"
     }
   ],
   "candidate_glosses": [
@@ -180,6 +312,72 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/blob-service",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/eth-security-toolbox",
+      "status": "candidate",
+      "text": "Docker"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +523,83 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "buffer/thug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "trailofbits/eth-security-toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

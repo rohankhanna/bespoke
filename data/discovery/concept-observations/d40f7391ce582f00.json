@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flax is a neural network library for JAX that is designed for flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Flax - Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Flax - Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11702,
+      "status": "candidate",
+      "text": "bat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "linen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "linen paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "staple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10789,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flax - Test",
+      "sense_id": "flax---test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flax---test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flax---test",
+  "observation_id": "d40f7391ce582f00",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Flax - Test",
+  "source_context_snippet": "Flax - Test",
+  "source_file": ".github/workflows/flax_test.yml",
+  "source_repo": "google/flax",
+  "source_repo_description": "Flax is a neural network library for JAX that is designed for flexibility."
+}

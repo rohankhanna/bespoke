@@ -7,8 +7,46 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite3 in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate-context",
+      "text": "Golang library to build sqlite extensions :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate-context",
+      "text": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "riyaz-ali/sqlite",
+      "status": "candidate",
+      "text": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "sqlite3",
@@ -20,12 +58,26 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "musicman3/Cruder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

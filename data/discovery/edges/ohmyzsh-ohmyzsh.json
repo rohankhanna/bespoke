@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "powerline/fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "ryanoasis/nerd-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "Update dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "Test and Deploy installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "Project tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "cli-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "oh-my-zsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "oh-my-zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "oh-my-zsh-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "ohmyzsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "plugin-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "themes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "target": "zsh-configuration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ohmyzsh/ohmyzsh"
+}

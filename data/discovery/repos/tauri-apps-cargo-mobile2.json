@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "tauri-apps/tauri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "brainiumllc/cargo-mobile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "tauri-apps/wry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "rust-mobile/rust-android-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "covector status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "version or publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:02.920225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4955
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2970
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1725
+    },
+    {
+      "path": ".github/workflows/covector-status.yml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/covector-version-or-publish.yml",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Rust on mobile made easy!",
+    "fork": false,
+    "full_name": "tauri-apps/cargo-mobile2",
+    "html_url": "https://github.com/tauri-apps/cargo-mobile2",
+    "language": "Rust",
+    "pushed_at": "2026-03-19T10:07:22Z",
+    "stargazers_count": 1827,
+    "topics": [],
+    "updated_at": "2026-04-20T11:58:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brainiumllc/cargo-mobile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-mobile/rust-android-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/tauri",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/wry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "covector status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "term": "covector status"
+    },
+    {
+      "context_snippet": "version or publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "term": "version or publish"
+    }
+  ]
+}

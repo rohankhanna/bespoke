@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/crater",
+      "status": "candidate-context",
+      "text": "Run experiments across parts of the Rust ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crater",
+      "status": "candidate-context",
+      "text": "PR build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crater",
+      "status": "candidate",
+      "text": "PR build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12055,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12055,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11077,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11077,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11077,
+      "status": "candidate",
+      "text": "fint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR build",
+  "concept_id": "pr-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "rust-lang/crater"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR build",
+      "sense_id": "pr-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "build-test",
-    "Build Test"
+    "Build Test",
+    "Build & Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "winfunc/opcode",
       "status": "candidate-context",
       "text": "Build Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "Set up a modern web app by running one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "'Build & Test'"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "winfunc/opcode",
       "status": "candidate",
       "text": "Build Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate",
+      "text": "'Build & Test'"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +126,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

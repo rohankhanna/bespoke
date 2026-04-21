@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pyodide-env-docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pyodide-env-docker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pyodide-env-docker",
+      "sense_id": "pyodide-env-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyodide-env-docker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyodide-env-docker",
+  "observation_id": "daddcfc6a903acaa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "pyodide-env-docker",
+  "source_context_snippet": "pyodide-env-docker",
+  "source_file": ".github/workflows/docker_image.yml",
+  "source_repo": "pyodide/pyodide",
+  "source_repo_description": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+}

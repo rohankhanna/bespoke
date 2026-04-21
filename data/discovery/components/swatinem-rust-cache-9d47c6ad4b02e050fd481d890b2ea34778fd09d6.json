@@ -1,0 +1,17 @@
+{
+  "component": "Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
+    }
+  ]
+}

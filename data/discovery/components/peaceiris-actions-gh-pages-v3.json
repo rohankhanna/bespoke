@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docbuild.yml",
       "source_repo": "aws-samples/anthropic-on-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed"
     }
   ]
 }

@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "ai-hypercomputer/maxdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddLabel.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AddLabel.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "Add Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQuality.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQuality.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQuality.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CodeQuality.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "CodeQuality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "Build Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "docker/setup-buildx-action@v3.11.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "Build and Push MaxText Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_maxtext.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_maxtext.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_maxtext.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "MaxText Package Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "Build and Upload MaxText Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_docs_build.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_docs_build.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "astral-sh/setup-uv@eb1897b8dc4b5d5bfe39a428a8f2304605e0983c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_docs_build.yml",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "Check the Documentation Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "gemma2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "gemma3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "llama4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "target": "mixtral",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "AI-Hypercomputer/maxtext"
+}

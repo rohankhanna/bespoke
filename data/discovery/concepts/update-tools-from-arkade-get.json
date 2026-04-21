@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update tools from arkade get"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade-get",
+      "status": "candidate-context",
+      "text": "Get all the CLIs you need from arkade for a GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade-get",
+      "status": "candidate-context",
+      "text": "\"Update tools from arkade get\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade-get",
+      "status": "candidate",
+      "text": "\"Update tools from arkade get\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36596,
+      "status": "candidate",
+      "text": "retool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35556,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35556,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35051,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35051,
+      "status": "candidate",
+      "text": "switch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update tools from arkade get",
+  "concept_id": "update-tools-from-arkade-get",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update tools from arkade get",
+      "sense_id": "update-tools-from-arkade-get#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

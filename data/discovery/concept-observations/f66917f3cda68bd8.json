@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A SQLite extension for reading large files line-by-line (NDJSON, logs, txt, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`sqlite-lines` is a SQLite extension for reading lines from a file or blob."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`sqlite-lines` is a SQLite extension for reading lines from a file or blob."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sqlite-extension",
+      "sense_id": "sqlite-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sqlite-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sqlite-extension",
+  "observation_id": "f66917f3cda68bd8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "sqlite-extension",
+  "source_context_snippet": "`sqlite-lines` is a SQLite extension for reading lines from a file or blob.",
+  "source_file": null,
+  "source_repo": "asg017/sqlite-lines",
+  "source_repo_description": "A SQLite extension for reading large files line-by-line (NDJSON, logs, txt, etc.)"
+}

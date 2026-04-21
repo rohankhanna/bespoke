@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "clangd language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "Build release binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate",
+      "text": "Build release binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "ioi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Build release binaries",
   "concept_id": "build-release-binaries",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/build-release-binaries.yml",
       "source_repo": "astral-sh/uv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,12 +1,27 @@
 {
   "component": "taiki-e/install-action@cargo-llvm-cov",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/jieba-rs"
     }
   ]
 }

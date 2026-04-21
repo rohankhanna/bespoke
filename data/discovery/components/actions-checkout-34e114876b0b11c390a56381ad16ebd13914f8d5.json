@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -189,6 +189,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "agent-sh/sync-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/shared.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
     }
   ]
 }

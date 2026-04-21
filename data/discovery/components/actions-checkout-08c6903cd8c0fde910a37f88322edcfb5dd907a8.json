@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/protoc_plugin.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity"
     }
   ]
 }

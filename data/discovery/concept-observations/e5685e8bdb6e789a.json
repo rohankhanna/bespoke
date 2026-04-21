@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ChakraCore is an open source Javascript engine with a C API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Contribution Agreement\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Contribution Agreement\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28294,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "collaboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11894,
+      "status": "candidate",
+      "text": "pledge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contribution Agreement",
+      "sense_id": "contribution-agreement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contribution-agreement",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contribution-agreement",
+  "observation_id": "e5685e8bdb6e789a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Contribution Agreement",
+  "source_context_snippet": "\"Contribution Agreement\"",
+  "source_file": ".github/workflows/agreement.yml",
+  "source_repo": "chakra-core/ChakraCore",
+  "source_repo_description": "ChakraCore is an open source Javascript engine with a C API."
+}

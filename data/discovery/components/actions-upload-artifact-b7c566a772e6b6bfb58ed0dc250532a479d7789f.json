@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beekeeper.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
     }
   ]
 }

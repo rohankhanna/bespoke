@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-burn.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-burn.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/github-actions/install-rust@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-burn.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-burn.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "Bump burn revision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "github/combine-prs@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "Combine Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/github-actions/install-rust@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "Model Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/github-actions/install-rust@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/github-actions/check-typos@v9",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "tracel-ai/burn-onnx"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull request synchronized"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Pull request synchronized"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": "Pull request synchronized"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21320,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21259,
+      "status": "candidate",
+      "text": "boycott"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21179,
+      "status": "candidate",
+      "text": "rallying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21179,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "burst"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull request synchronized",
+  "concept_id": "pull-request-synchronized",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+      "source_repo": "ray-project/ray"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull request synchronized",
+      "sense_id": "pull-request-synchronized#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

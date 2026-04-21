@@ -13,12 +13,30 @@
       "source_repo": "tob-challenges/example-libpng",
       "status": "candidate-context",
       "text": "Linting libpng"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "LIBPNG: Portable Network Graphics support, official libpng repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "Linting libpng"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tob-challenges/example-libpng",
+      "status": "candidate",
+      "text": "Linting libpng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
       "status": "candidate",
       "text": "Linting libpng"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "tob-challenges/example-libpng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pnggroup/libpng"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

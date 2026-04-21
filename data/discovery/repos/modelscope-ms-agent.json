@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/citest.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/ms-agent",
+      "target": "akfamily/akshare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/ms-agent",
+      "target": "modelscope/ms-enclave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/ms-agent",
+      "target": "modelscope/modelscope-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/ms-agent",
+      "target": "modelscope/modelscope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "citest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "Lint test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "agentic-insight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "agentic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "chat-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent",
+      "target": "memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:18.802772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33424
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/citest.yaml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 482
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MS-Agent: a lightweight framework to empower agentic execution of complex tasks",
+    "fork": false,
+    "full_name": "modelscope/ms-agent",
+    "html_url": "https://github.com/modelscope/ms-agent",
+    "language": "Python",
+    "pushed_at": "2026-04-15T06:21:35Z",
+    "stargazers_count": 4182,
+    "topics": [
+      "agentic-insight",
+      "agentic-search",
+      "chat-bot",
+      "code-generation",
+      "deep-research",
+      "memory"
+    ],
+    "updated_at": "2026-04-21T08:49:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akfamily/akshare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/modelscope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/modelscope-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/ms-enclave",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "citest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/citest.yaml",
+      "term": "citest"
+    },
+    {
+      "context_snippet": "Lint test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint test"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-insight"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-search"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat-bot"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "<h1> MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    }
+  ]
+}

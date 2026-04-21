@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-detect non-English issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "Auto-detect non-English issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "Auto-detect non-English issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "english"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "anglophone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "anglophile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "aboriginal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "access"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-detect non-English issues",
+  "concept_id": "auto-detect-non-english-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/detect-non-english-issues.yml",
+      "source_repo": "home-assistant/core"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-detect non-English issues",
+      "sense_id": "auto-detect-non-english-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

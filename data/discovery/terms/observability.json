@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-collector"
     }
   ],
   "term": "observability"

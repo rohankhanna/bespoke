@@ -1,12 +1,17 @@
 {
   "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn-onnx"
     }
   ]
 }

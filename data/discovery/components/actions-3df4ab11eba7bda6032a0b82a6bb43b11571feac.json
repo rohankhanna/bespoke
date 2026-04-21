@@ -1,0 +1,12 @@
+{
+  "component": "actions/3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-npm.yml",
+      "source_repo": "google/closure-library"
+    }
+  ]
+}

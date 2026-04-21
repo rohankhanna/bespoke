@@ -1,0 +1,1742 @@
+{
+  "components": [
+    {
+      "component": "c-hive/gha-remove-artifacts@44fc7acaf1b3d0987da0e8d4707a989d80e9554b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-artifacts.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@401fe28a8384095fc1531b9d320b292f0ee45adb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml"
+    },
+    {
+      "component": "hustcer/milestone-action@ebed8d5daafd855a600d7e665c1b130f06d24130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "hustcer/milestone-action@ebed8d5daafd855a600d7e665c1b130f06d24130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml"
+    },
+    {
+      "component": "snapcore/action-build@3bdaa03e1ba6bf59a65f84a751d943d549a54e79",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-setup@df198f982fcecfb8264bea3f1274b56a61b6dfdc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-setup-buildx-action@d059ed7184f0bc7c8b27e8810cea153d02bcc6dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@487ce35b96fae3e60d45b521735f5aa436ecfade",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "ghostty-org/ghostling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "uzaaft/awesome-libghostty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-artifacts.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "c-hive/gha-remove-artifacts@44fc7acaf1b3d0987da0e8d4707a989d80e9554b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-artifacts.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Clean Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@401fe28a8384095fc1531b9d320b292f0ee45adb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Flatpak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "hustcer/milestone-action@ebed8d5daafd855a600d7e665c1b130f06d24130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Milestone Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Publish Tagged Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Release Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Release Tip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "snapcore/action-build@3bdaa03e1ba6bf59a65f84a751d943d549a54e79",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Snap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-cache-action@15799a6b54e5765f85b2aac25b3f0df43ed571c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-setup@df198f982fcecfb8264bea3f1274b56a61b6dfdc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "namespacelabs/nscloud-setup-buildx-action@d059ed7184f0bc7c8b27e8810cea153d02bcc6dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "vmactions/freebsd-vm@487ce35b96fae3e60d45b521735f5aa436ecfade",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:35:28.934122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10485
+    },
+    {
+      "path": ".github/workflows/clean-artifacts.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/flatpak.yml",
+      "size": 1609
+    },
+    {
+      "path": ".github/workflows/milestone.yml",
+      "size": 1325
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 2005
+    },
+    {
+      "path": ".github/workflows/publish-tag.yml",
+      "size": 3001
+    },
+    {
+      "path": ".github/workflows/release-tag.yml",
+      "size": 17547
+    },
+    {
+      "path": ".github/workflows/release-tip.yml",
+      "size": 45357
+    },
+    {
+      "path": ".github/workflows/snap.yml",
+      "size": 1818
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 67151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc7b Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "fork": false,
+    "full_name": "ghostty-org/ghostty",
+    "html_url": "https://github.com/ghostty-org/ghostty",
+    "language": "Zig",
+    "pushed_at": "2026-04-21T04:28:34Z",
+    "stargazers_count": 51300,
+    "topics": [],
+    "updated_at": "2026-04-21T11:20:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghostty-org/ghostling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uzaaft/awesome-libghostty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clean Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-artifacts.yml",
+      "term": "Clean Artifacts"
+    },
+    {
+      "context_snippet": "Flatpak",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flatpak.yml",
+      "term": "Flatpak"
+    },
+    {
+      "context_snippet": "Milestone Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "term": "Milestone Action"
+    },
+    {
+      "context_snippet": "Nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    },
+    {
+      "context_snippet": "Publish Tagged Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-tag.yml",
+      "term": "Publish Tagged Release"
+    },
+    {
+      "context_snippet": "Release Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tag.yml",
+      "term": "Release Tag"
+    },
+    {
+      "context_snippet": "Release Tip",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tip.yml",
+      "term": "Release Tip"
+    },
+    {
+      "context_snippet": "Snap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap.yml",
+      "term": "Snap"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

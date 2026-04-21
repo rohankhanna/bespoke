@@ -7,10 +7,74 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "PyIceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981013,
+      "status": "candidate",
+      "text": "berg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979970,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942694,
+      "status": "candidate",
+      "text": "wedge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29935746,
+      "status": "candidate",
+      "text": "iceman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931929,
+      "status": "candidate",
+      "text": "corner"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "berg"
+    }
+  ],
   "canonical_name": "iceberg",
   "concept_id": "iceberg",
   "definition_status": "unresolved",
@@ -20,12 +84,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

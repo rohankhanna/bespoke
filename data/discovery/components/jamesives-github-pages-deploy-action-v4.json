@@ -1,12 +1,22 @@
 {
   "component": "JamesIves/github-pages-deploy-action@v4",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lmql-tests.yml",
       "source_repo": "eth-sri/lmql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docusaurus.yml",
+      "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mark3labs/mcp-go"
     }
   ]
 }

@@ -1,12 +1,17 @@
 {
   "component": "sst/opencode/github@latest",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/opencode.yml",
       "source_repo": "buddingnewinsights/proxypal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/opencode.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
     }
   ]
 }

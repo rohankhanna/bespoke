@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "super-linter/super-linter@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "AIxCyberChallenge/example-crs-architecture"
+}

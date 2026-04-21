@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "tool-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:16.215504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31030
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1489
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lean, local AI research agent framework that runs on your machine",
+    "fork": false,
+    "full_name": "KabakaWilliam/trajectorykit",
+    "html_url": "https://github.com/KabakaWilliam/trajectorykit",
+    "language": "Python",
+    "pushed_at": "2026-03-26T21:03:40Z",
+    "stargazers_count": 6,
+    "topics": [
+      "agents",
+      "llm",
+      "tool-calling",
+      "vllm"
+    ],
+    "updated_at": "2026-04-18T15:49:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-calling"
+    },
+    {
+      "context_snippet": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

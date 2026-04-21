@@ -31,6 +31,18 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate-context",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +111,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "alexellis/arkade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dokku/dokku"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

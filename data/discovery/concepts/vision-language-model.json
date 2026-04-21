@@ -19,6 +19,18 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate-context",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"70%\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"70%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "haotian-liu/LLaVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "daily-pr-recap"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "daily-pr-recap"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "daily-pr-recap",
+      "sense_id": "daily-pr-recap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-pr-recap",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-pr-recap",
+  "observation_id": "5477f3d5e95cdf00",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "daily-pr-recap",
+  "source_context_snippet": "daily-pr-recap",
+  "source_file": ".github/workflows/daily-pr-recap.yml",
+  "source_repo": "anomalyco/opencode",
+  "source_repo_description": "The open source coding agent."
+}

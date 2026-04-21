@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "pre-commit"
+    "pre-commit",
+    "Pre-commit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -37,6 +38,42 @@
       "source_repo": "rust-cli/env_logger",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "Nitpicking commit history since beabf39"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Safely add untrusted strings to HTML/XML markup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llamastack/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for Llama Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +88,24 @@
       "source_repo": "rust-cli/env_logger",
       "status": "candidate",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack-client-python",
+      "status": "candidate",
+      "text": "Pre-commit"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +149,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "rust-cli/env_logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/committed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

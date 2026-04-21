@@ -1,0 +1,548 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close.yml"
+    },
+    {
+      "component": "strands-agents/devtools/authorization-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "strands-agents/devtools/authorization-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-responder.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-and-push.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-and-push.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-size-labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "strands-agents/tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "Auto Close Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "Auto Strands Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "Secure Integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-responder.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-responder.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "Issue Responder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "Pull Request and Push Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-size-labeler.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-size-labeler.yml",
+      "source_repo": "strands-agents/sdk-python",
+      "target": "PR Size Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "litellm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python",
+      "target": "strands-agents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:00.088912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11793
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9010
+    },
+    {
+      "path": ".github/workflows/LAMDBA_LAYERS_SOP.md",
+      "size": 1707
+    },
+    {
+      "path": ".github/workflows/auto-close.yml",
+      "size": 10113
+    },
+    {
+      "path": ".github/workflows/auto-strands-review.yml",
+      "size": 1541
+    },
+    {
+      "path": ".github/workflows/check-markdown-links.yml",
+      "size": 1700
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 3174
+    },
+    {
+      "path": ".github/workflows/issue-responder.yml",
+      "size": 2341
+    },
+    {
+      "path": ".github/workflows/pr-and-push.yml",
+      "size": 1144
+    },
+    {
+      "path": ".github/workflows/pr-size-labeler.yml",
+      "size": 1957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A model-driven approach to building AI agents in just a few lines of code.",
+    "fork": false,
+    "full_name": "strands-agents/sdk-python",
+    "html_url": "https://github.com/strands-agents/sdk-python",
+    "language": "Python",
+    "pushed_at": "2026-04-21T07:55:45Z",
+    "stargazers_count": 5675,
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "autonomous-agents",
+      "bedrock",
+      "genai",
+      "litellm",
+      "llama",
+      "llm",
+      "machine-learning",
+      "mcp",
+      "multi-agent-systems",
+      "ollama",
+      "openai",
+      "opentelemetry",
+      "python",
+      "strands-agents"
+    ],
+    "updated_at": "2026-04-21T09:31:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strands-agents/tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Close Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close.yml",
+      "term": "Auto Close Issues"
+    },
+    {
+      "context_snippet": "Auto Strands Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "term": "Auto Strands Review"
+    },
+    {
+      "context_snippet": "Secure Integration test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Secure Integration test"
+    },
+    {
+      "context_snippet": "Issue Responder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-responder.yml",
+      "term": "Issue Responder"
+    },
+    {
+      "context_snippet": "Pull Request and Push Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "term": "Pull Request and Push Action"
+    },
+    {
+      "context_snippet": "PR Size Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-size-labeler.yml",
+      "term": "PR Size Labeler"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litellm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strands-agents"
+    }
+  ]
+}

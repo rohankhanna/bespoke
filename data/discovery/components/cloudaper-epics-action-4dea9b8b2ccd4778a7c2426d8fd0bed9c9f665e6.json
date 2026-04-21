@@ -1,0 +1,12 @@
+{
+  "component": "cloudaper/epics-action@4dea9b8b2ccd4778a7c2426d8fd0bed9c9f665e6",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/epic.yaml",
+      "source_repo": "k3s-io/k3s"
+    }
+  ]
+}

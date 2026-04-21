@@ -1,0 +1,379 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-label.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_auto_merge.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_pull_request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-label.yml",
+      "source_repo": "ray-project/ray",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_auto_merge.yaml",
+      "source_repo": "ray-project/ray",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_auto_merge.yaml",
+      "source_repo": "ray-project/ray",
+      "target": "Auto merge enabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+      "source_repo": "ray-project/ray",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+      "source_repo": "ray-project/ray",
+      "target": "Pull request synchronized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_pull_request.yaml",
+      "source_repo": "ray-project/ray",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_pull_request.yaml",
+      "source_repo": "ray-project/ray",
+      "target": "Mark and Close Stale Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "hyperparameter-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "rllib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:44.445398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6509
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1949
+    },
+    {
+      "path": ".github/workflows/notify-slack-on-label.yml",
+      "size": 6240
+    },
+    {
+      "path": ".github/workflows/on_auto_merge.yaml",
+      "size": 467
+    },
+    {
+      "path": ".github/workflows/on_pull_request_synchronized.yml",
+      "size": 1589
+    },
+    {
+      "path": ".github/workflows/stale_pull_request.yaml",
+      "size": 2962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+    "fork": false,
+    "full_name": "ray-project/ray",
+    "html_url": "https://github.com/ray-project/ray",
+    "language": "Python",
+    "pushed_at": "2026-04-21T06:31:07Z",
+    "stargazers_count": 42237,
+    "topics": [
+      "data-science",
+      "deep-learning",
+      "deployment",
+      "distributed",
+      "hyperparameter-optimization",
+      "hyperparameter-search",
+      "large-language-models",
+      "llm",
+      "llm-inference",
+      "llm-serving",
+      "machine-learning",
+      "optimization",
+      "parallel",
+      "python",
+      "pytorch",
+      "ray",
+      "reinforcement-learning",
+      "rllib",
+      "serving",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-21T11:03:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto merge enabled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_auto_merge.yaml",
+      "term": "Auto merge enabled"
+    },
+    {
+      "context_snippet": "Pull request synchronized",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+      "term": "Pull request synchronized"
+    },
+    {
+      "context_snippet": "Mark and Close Stale Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_pull_request.yaml",
+      "term": "Mark and Close Stale Pull Requests"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-search"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rllib"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serving"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

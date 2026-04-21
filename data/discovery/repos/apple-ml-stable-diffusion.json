@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/ml-stable-diffusion",
+      "target": "huggingface/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/ml-stable-diffusion",
+      "target": "huggingface/swift-coreml-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/ml-stable-diffusion",
+      "target": "apple/coremltools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:05.692855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 59262
+    },
+    {
+      "path": "requirements.txt",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stable Diffusion with Core ML on Apple Silicon",
+    "fork": false,
+    "full_name": "apple/ml-stable-diffusion",
+    "html_url": "https://github.com/apple/ml-stable-diffusion",
+    "language": "Python",
+    "pushed_at": "2025-07-03T18:01:03Z",
+    "stargazers_count": 17838,
+    "topics": [],
+    "updated_at": "2026-04-21T09:27:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/coremltools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/swift-coreml-diffusers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

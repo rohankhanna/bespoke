@@ -13,11 +13,81 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate-context",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "The official Allegro 5 git repository. Pull requests welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "Welcome to Allegro!"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate",
+      "text": "Welcome to Allegro!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999786,
+      "status": "candidate",
+      "text": "audio frequency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966109,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029693,
+      "status": "candidate",
+      "text": "aural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029607,
+      "status": "candidate",
+      "text": "audiological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029289,
+      "status": "candidate",
+      "text": "auditory"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "audio frequency"
+    }
+  ],
   "canonical_name": "audio",
   "concept_id": "audio",
   "definition_status": "unresolved",
@@ -39,12 +109,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Build & Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate-context",
+      "text": "Celestia Data Availability Nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate-context",
+      "text": "Docker Build & Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/celestia-node",
+      "status": "candidate",
+      "text": "Docker Build & Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "unload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22307,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22307,
+      "status": "candidate",
+      "text": "scooping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16367,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15317,
+      "status": "candidate",
+      "text": "ark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Build & Publish",
+  "concept_id": "docker-build-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docker-build-publish.yml",
+      "source_repo": "celestiaorg/celestia-node"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Build & Publish",
+      "sense_id": "docker-build-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

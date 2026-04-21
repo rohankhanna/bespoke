@@ -1,0 +1,12 @@
+{
+  "component": "codecov/codecov-action@fdcc8476540edceab3de004e990f80d881c6cc00",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "nodejs/citgm"
+    }
+  ]
+}

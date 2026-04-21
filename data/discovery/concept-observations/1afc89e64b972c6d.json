@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Node.js Website Team Governance Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Find inactive collaborators"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Find inactive collaborators"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22631,
+      "status": "candidate",
+      "text": "resign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22628,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "dall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "face"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Find inactive collaborators",
+      "sense_id": "find-inactive-collaborators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "find-inactive-collaborators",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "find-inactive-collaborators",
+  "observation_id": "1afc89e64b972c6d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Find inactive collaborators",
+  "source_context_snippet": "Find inactive collaborators",
+  "source_file": ".github/workflows/inactive-collaborator-report.yml",
+  "source_repo": "nodejs/web-team",
+  "source_repo_description": "The Node.js Website Team Governance Repository"
+}

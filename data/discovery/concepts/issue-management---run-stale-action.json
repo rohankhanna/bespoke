@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue management - run stale action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "Issue management - run stale action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "Issue management - run stale action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59799,
+      "status": "candidate",
+      "text": "direction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44027,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43609,
+      "status": "candidate",
+      "text": "steal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43379,
+      "status": "candidate",
+      "text": "halt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43281,
+      "status": "candidate",
+      "text": "show"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue management - run stale action",
+  "concept_id": "issue-management---run-stale-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issue-management-stale-action.yml",
+      "source_repo": "open-telemetry/community"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue management - run stale action",
+      "sense_id": "issue-management---run-stale-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

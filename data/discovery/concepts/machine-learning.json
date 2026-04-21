@@ -157,6 +157,90 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/spacy-models",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab  Models for the spaCy Natural Language Processing (NLP) library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spacy-models",
+      "status": "candidate-context",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "A set of tools that gives agents powerful capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -231,6 +315,48 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spacy-models",
+      "status": "candidate",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/BentoML",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +448,59 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "explosion/spacy-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

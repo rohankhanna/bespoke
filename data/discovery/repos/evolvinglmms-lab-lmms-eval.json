@@ -1,0 +1,429 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/line-stats.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "nvlabs/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "bfshi/scaling_on_scales",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "eleutherai/lm-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/line-stats.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/line-stats.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "Line Stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "task-input-ab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "audio-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "llm-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "multimodal-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:44.921289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22812
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4358
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1886
+    },
+    {
+      "path": ".github/workflows/line-stats.yml",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1477
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/task-input-ab.yml",
+      "size": 4366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks",
+    "fork": false,
+    "full_name": "EvolvingLMMs-Lab/lmms-eval",
+    "html_url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+    "language": "Python",
+    "pushed_at": "2026-04-21T08:53:39Z",
+    "stargazers_count": 4046,
+    "topics": [
+      "agi",
+      "audio-evaluation",
+      "benchmark",
+      "evaluation",
+      "large-language-models",
+      "llm-evaluation",
+      "multimodal",
+      "multimodal-evaluation",
+      "video-understanding",
+      "vision-language-model",
+      "vlm"
+    ],
+    "updated_at": "2026-04-21T10:11:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfshi/scaling_on_scales",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/lm-evaluation-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/vila",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Line Stats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/line-stats.yml",
+      "term": "Line Stats"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "task-input-ab",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/task-input-ab.yml",
+      "term": "task-input-ab"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"70%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

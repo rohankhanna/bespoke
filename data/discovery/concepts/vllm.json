@@ -19,6 +19,18 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate-context",
+      "text": "A lean, local AI research agent framework that runs on your machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate-context",
+      "text": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate",
       "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate",
+      "text": "> A **minimal deep research agent harness** for running LLM agents with recursive sub-agents, sandboxed code execution, and full execution tracing \u2014 all from a single YAML config. Built on GPT-OSS-20B with GPT-5.4 as an optional refinement layer."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "KabakaWilliam/trajectorykit"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

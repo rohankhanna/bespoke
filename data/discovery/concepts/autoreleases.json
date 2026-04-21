@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AutoReleases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "AutoReleases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "AutoReleases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9868191,
+      "status": "candidate",
+      "text": "retain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9863161,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9854825,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9562905,
+      "status": "candidate",
+      "text": "preserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "hold on to"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AutoReleases",
+  "concept_id": "autoreleases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/auto_releases.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AutoReleases",
+      "sense_id": "autoreleases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

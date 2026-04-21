@@ -1,0 +1,22 @@
+{
+  "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ]
+}

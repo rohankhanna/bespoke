@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Calcium-Ion/new-api-horizon",
+      "target": "calcium-ion/new-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:23.849135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u7279\u6027\u7248 - \u57fa\u4e8eNew API\u5f00\u53d1\u7684\u589e\u5f3a\u7248\u672c\uff0c\u4e13\u6ce8\u4e8e\u9ad8\u6027\u80fd",
+    "fork": false,
+    "full_name": "Calcium-Ion/new-api-horizon",
+    "html_url": "https://github.com/Calcium-Ion/new-api-horizon",
+    "language": null,
+    "pushed_at": "2026-03-04T09:46:45Z",
+    "stargazers_count": 365,
+    "topics": [],
+    "updated_at": "2026-04-20T02:40:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

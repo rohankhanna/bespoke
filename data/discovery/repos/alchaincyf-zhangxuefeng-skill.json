@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/zhangxuefeng-skill",
+      "target": "alchaincyf/huashu-design",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:59.930166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5f20\u96ea\u5cf0.skill \u2014 \u5f20\u96ea\u5cf0\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u9ad8\u8003\u5fd7\u613f/\u8003\u7814/\u804c\u4e1a\u89c4\u5212\u7684\u5b9e\u6218\u601d\u7ef4\u6846\u67b6\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "fork": false,
+    "full_name": "alchaincyf/zhangxuefeng-skill",
+    "html_url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+    "language": null,
+    "pushed_at": "2026-04-21T05:28:55Z",
+    "stargazers_count": 6316,
+    "topics": [],
+    "updated_at": "2026-04-21T11:25:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/huashu-design",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

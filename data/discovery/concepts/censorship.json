@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "censorship"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989475,
+      "status": "candidate",
+      "text": "censoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039415,
+      "status": "candidate",
+      "text": "security review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039414,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036100,
+      "status": "candidate",
+      "text": "surveillance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034626,
+      "status": "candidate",
+      "text": "supervision"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "censoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "security review"
+    }
+  ],
+  "canonical_name": "censorship",
+  "concept_id": "censorship",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "berty/berty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "censorship",
+      "sense_id": "censorship#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

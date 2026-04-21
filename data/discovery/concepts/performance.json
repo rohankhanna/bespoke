@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "performance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952579,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950955,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950856,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949162,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954016,
+      "status": "candidate",
+      "text": "carrying into action"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18055,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3035,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "carrying out"
+    }
+  ],
+  "canonical_name": "performance",
+  "concept_id": "performance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "performance",
+      "sense_id": "performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

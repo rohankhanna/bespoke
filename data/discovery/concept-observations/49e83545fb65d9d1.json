@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open-source framework for autonomous AI agent squads. Build systems that execute, not just inform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923296,
+      "status": "candidate",
+      "text": "anthropical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015826,
+      "status": "candidate",
+      "text": "mankindly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015825,
+      "status": "candidate",
+      "text": "humanistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015824,
+      "status": "candidate",
+      "text": "humanly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015823,
+      "status": "candidate",
+      "text": "anthropogenic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anthropic",
+      "sense_id": "anthropic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "anthropical"
+    }
+  ],
+  "concept_id": "anthropic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anthropic",
+  "observation_id": "49e83545fb65d9d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "anthropic",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "agents-squads/agents-squads",
+  "source_repo_description": "Open-source framework for autonomous AI agent squads. Build systems that execute, not just inform."
+}

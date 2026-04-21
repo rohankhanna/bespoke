@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "aerobounce/Sublime-AutoClosePanel"
+}

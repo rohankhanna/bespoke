@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Code Scanning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s official command line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "Code Scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "'Code Scanning'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate",
+      "text": "Code Scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate",
+      "text": "'Code Scanning'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12746,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11625,
+      "status": "candidate",
+      "text": "perusal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11625,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11625,
+      "status": "candidate",
+      "text": "scanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11625,
+      "status": "candidate",
+      "text": "scansion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Scanning",
+  "concept_id": "code-scanning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "niieani/gpt-tokenizer"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Scanning",
+      "sense_id": "code-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

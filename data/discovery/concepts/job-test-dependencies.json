@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "job-test-dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate-context",
+      "text": "contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate-context",
+      "text": "job-test-dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate",
+      "text": "job-test-dependencies"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "job-test-dependencies",
+  "concept_id": "job-test-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "source_repo": "containerd/nerdctl"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "job-test-dependencies",
+      "sense_id": "job-test-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

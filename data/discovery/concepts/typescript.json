@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "TypeScript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Model Context Protocol Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "TypeScript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate",
+      "text": "TypeScript"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028295,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024618,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017529,
+      "status": "candidate",
+      "text": "jukebox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984373,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028512,
+      "status": "candidate",
+      "text": "manuscript"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "TypeScript",
+  "concept_id": "typescript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TypeScript",
+      "sense_id": "typescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

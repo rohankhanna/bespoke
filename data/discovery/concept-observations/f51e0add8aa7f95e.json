@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform provider for Azure Resource Manager Rest API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Terraform Schema Linting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Terraform Schema Linting"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "compressing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Terraform Schema Linting",
+      "sense_id": "terraform-schema-linting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terraform-schema-linting",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terraform-schema-linting",
+  "observation_id": "f51e0add8aa7f95e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Terraform Schema Linting",
+  "source_context_snippet": "Terraform Schema Linting",
+  "source_file": ".github/workflows/tflint.yaml",
+  "source_repo": "Azure/terraform-provider-azapi",
+  "source_repo_description": "Terraform provider for Azure Resource Manager Rest API"
+}

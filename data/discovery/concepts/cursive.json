@@ -1,0 +1,163 @@
+{
+  "aliases": [
+    "cursive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "A basic calendar view implementation for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "A basc table view compnent for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "A simple and easy to use Wikipedia Text User Interface "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869363,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868377,
+      "status": "candidate",
+      "text": "longhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012443,
+      "status": "candidate",
+      "text": "joined up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012442,
+      "status": "candidate",
+      "text": "curly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012441,
+      "status": "candidate",
+      "text": "semicursive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3038,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "longhand"
+    }
+  ],
+  "canonical_name": "cursive",
+  "concept_id": "cursive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_calendar_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Builditluc/wiki-tui"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cursive",
+      "sense_id": "cursive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

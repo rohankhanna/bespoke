@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bindings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bindings"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038783,
+      "status": "candidate",
+      "text": "valid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009715,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9993878,
+      "status": "candidate",
+      "text": "tight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9901595,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9838677,
+      "status": "candidate",
+      "text": "bandaging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings",
+      "sense_id": "bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings",
+  "observation_id": "21755d869d1bb96c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Bindings",
+  "source_context_snippet": "Bindings",
+  "source_file": ".github/workflows/bindings.yml",
+  "source_repo": "Layr-Labs/eigensdk-rs",
+  "source_repo_description": "EigenLayer Rust Developer Tooling"
+}

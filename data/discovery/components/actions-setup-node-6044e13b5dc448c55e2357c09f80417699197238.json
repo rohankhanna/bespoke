@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
     }
   ]
 }

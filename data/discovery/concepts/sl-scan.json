@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SL Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "SL Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate",
+      "text": "SL Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "camp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "chill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SL Scan",
+  "concept_id": "sl-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SL Scan",
+      "sense_id": "sl-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

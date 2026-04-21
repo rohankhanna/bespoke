@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Size Labeler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Size Labeler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14075,
+      "status": "candidate",
+      "text": "short"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14075,
+      "status": "candidate",
+      "text": "shorts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14065,
+      "status": "candidate",
+      "text": "lge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "arista"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "thumb index"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Size Labeler",
+      "sense_id": "pr-size-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-size-labeler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-size-labeler",
+  "observation_id": "29e1f56199930743",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "PR Size Labeler",
+  "source_context_snippet": "PR Size Labeler",
+  "source_file": ".github/workflows/pr-size-labeler.yml",
+  "source_repo": "strands-agents/sdk-python",
+  "source_repo_description": "A model-driven approach to building AI agents in just a few lines of code."
+}

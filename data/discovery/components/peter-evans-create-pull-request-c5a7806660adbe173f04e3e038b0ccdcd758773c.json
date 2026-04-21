@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs-audit.yml",
       "source_repo": "google-gemini/gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "ClickHouse/ClickHouse"
     }
   ]
 }

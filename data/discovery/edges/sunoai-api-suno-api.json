@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunoAI-API/Suno-API",
+      "target": "suno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunoAI-API/Suno-API",
+      "target": "suno-ai",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "SunoAI-API/Suno-API"
+}

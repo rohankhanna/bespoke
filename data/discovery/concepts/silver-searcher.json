@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "silver-searcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code-searching tool similar to ack, but faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "silver-searcher",
+  "concept_id": "silver-searcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "silver-searcher",
+      "sense_id": "silver-searcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

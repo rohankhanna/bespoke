@@ -43,6 +43,18 @@
       "source_repo": "chelsea0x3b/dfdx",
       "status": "candidate-context",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "NumPy & SciPy for GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "chelsea0x3b/dfdx",
       "status": "candidate",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cupy/cupy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

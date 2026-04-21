@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Python programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "new-bugs-announce notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "new-bugs-announce notifier"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "notification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "reporters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "aroma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "accused"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "acknowledge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "new-bugs-announce notifier",
+      "sense_id": "new-bugs-announce-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "new-bugs-announce-notifier",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "new-bugs-announce-notifier",
+  "observation_id": "41c9a74bc6d26499",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "new-bugs-announce notifier",
+  "source_context_snippet": "new-bugs-announce notifier",
+  "source_file": ".github/workflows/new-bugs-announce-notifier.yml",
+  "source_repo": "python/cpython",
+  "source_repo_description": "The Python programming language"
+}

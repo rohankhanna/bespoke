@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "taiki-e/install-action@85b24a67ef0c632dfefad70b9d5ce8fddb040754",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "EmbarkStudios/cargo-deny-action@175dc7fd4fb85ec8f46948fb98f44db001149081",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
       "target_type": "component"
     },
     {
@@ -88,14 +88,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -123,14 +123,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -186,7 +186,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -197,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "jj-vcs/jj"
 }

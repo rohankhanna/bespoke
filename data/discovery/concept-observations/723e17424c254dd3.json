@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adversary simulation and Red teaming platform with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![cover-v5-optimized](./docs/public/og/img_0.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./docs/public/og/img_0.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036390,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036367,
+      "status": "candidate",
+      "text": "sidewinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035260,
+      "status": "candidate",
+      "text": "serpent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025491,
+      "status": "candidate",
+      "text": "tiger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023309,
+      "status": "candidate",
+      "text": "wildcat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viper",
+      "sense_id": "viper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "viper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "viper",
+  "observation_id": "723e17424c254dd3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "viper",
+  "source_context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+  "source_file": null,
+  "source_repo": "FunnyWolf/Viper",
+  "source_repo_description": "Adversary simulation and Red teaming platform with AI"
+}

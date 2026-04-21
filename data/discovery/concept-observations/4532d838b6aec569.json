@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source Code Security Audit (\u6e90\u4ee3\u7801\u5b89\u5168\u5ba1\u8ba1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035167,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033675,
+      "status": "candidate",
+      "text": "serpent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953257,
+      "status": "candidate",
+      "text": "venom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878435,
+      "status": "candidate",
+      "text": "spitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29459689,
+      "status": "candidate",
+      "text": "charge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cobra",
+      "sense_id": "cobra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cobra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cobra",
+  "observation_id": "4532d838b6aec569",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "cobra",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+  "source_file": null,
+  "source_repo": "FeeiCN/Cobra",
+  "source_repo_description": "Source Code Security Audit (\u6e90\u4ee3\u7801\u5b89\u5168\u5ba1\u8ba1)"
+}

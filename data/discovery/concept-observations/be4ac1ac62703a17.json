@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Azure function dry run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Azure function dry run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43880,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33729,
+      "status": "candidate",
+      "text": "rehearsal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33329,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32830,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32830,
+      "status": "candidate",
+      "text": "trial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure function dry run",
+      "sense_id": "azure-function-dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "azure-function-dry-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "azure-function-dry-run",
+  "observation_id": "be4ac1ac62703a17",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Azure function dry run",
+  "source_context_snippet": "Azure function dry run",
+  "source_file": ".github/workflows/dryRun.yml",
+  "source_repo": "microsoft/pylance-release",
+  "source_repo_description": "Documentation and issues for Pylance"
+}

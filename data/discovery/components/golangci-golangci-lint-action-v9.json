@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "raystack/meteor"
     }
   ]
 }

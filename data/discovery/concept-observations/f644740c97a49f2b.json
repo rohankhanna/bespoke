@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test scripts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16237,
+      "status": "candidate",
+      "text": "scenarios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "shebang"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test scripts",
+      "sense_id": "test-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-scripts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-scripts",
+  "observation_id": "f644740c97a49f2b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Test scripts",
+  "source_context_snippet": "Test scripts",
+  "source_file": ".github/workflows/scripts.yml",
+  "source_repo": "ocaml/opam",
+  "source_repo_description": "opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow."
+}

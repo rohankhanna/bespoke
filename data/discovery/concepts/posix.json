@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "posix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931695,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931694,
+      "status": "candidate",
+      "text": "syscall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931693,
+      "status": "candidate",
+      "text": "userland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931692,
+      "status": "candidate",
+      "text": "win32"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931691,
+      "status": "candidate",
+      "text": "errno"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "posix",
+  "concept_id": "posix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mvdan/sh"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "posix",
+      "sense_id": "posix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

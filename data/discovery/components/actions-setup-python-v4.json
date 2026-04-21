@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint_check.yaml",
       "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yml",
+      "source_repo": "datadesk/california-coronavirus-data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-with-coverage.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clearbluejar/ghidrecomp"
     }
   ]
 }

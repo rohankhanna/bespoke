@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "agents-md-guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "auto-retarget-main-pr-to-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "translator-path-guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "pr-test-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "router-for-me/CLIProxyAPIPlus"
+}

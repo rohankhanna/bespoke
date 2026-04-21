@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "restaking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "disinvest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "remove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "unstake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "withdraw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "restaking",
+  "concept_id": "restaking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "restaking",
+      "sense_id": "restaking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

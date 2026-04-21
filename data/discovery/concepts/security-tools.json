@@ -19,6 +19,54 @@
       "source_repo": "onecli/onecli",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate-context",
+      "text": "\u4e00\u6b3e\u5185\u7f51\u7efc\u5408\u626b\u63cf\u5de5\u5177\uff0c\u65b9\u4fbf\u4e00\u952e\u81ea\u52a8\u5316\u3001\u5168\u65b9\u4f4d\u6f0f\u626b\u626b\u63cf\u3002(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate-context",
+      "text": "[English][url-docen]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate-context",
+      "text": "Source Code Security Audit (\u6e90\u4ee3\u7801\u5b89\u5168\u5ba1\u8ba1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "Python low-interaction honeyclient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate-context",
+      "text": "Thug"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "onecli/onecli",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate",
+      "text": "[English][url-docen]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buffer/thug",
+      "status": "candidate",
+      "text": "Thug"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +118,35 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "shadow1ng/fscan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "buffer/thug"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

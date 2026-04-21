@@ -31,6 +31,54 @@
       "source_repo": "harfbuzz/ttf-parser",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/uharfbuzz",
+      "status": "candidate-context",
+      "text": "A HarfBuzz Python binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/uharfbuzz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate-context",
+      "text": "Font parser, shaping engine, and subsetter implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate-context",
+      "text": "Rust API for loading, scaling, positioning and rasterizing OpenType font glyphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate-context",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "The fastest font renderer in the world, written in pure rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "harfbuzz/ttf-parser",
       "status": "candidate",
       "text": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/uharfbuzz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,41 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/uharfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "yeslogic/allsorts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

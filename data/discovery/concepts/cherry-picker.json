@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cherry-picker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "cherry-picker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "cherry-picker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018381,
+      "status": "candidate",
+      "text": "cherrypicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018380,
+      "status": "candidate",
+      "text": "cherry picker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018379,
+      "status": "candidate",
+      "text": "picker-upper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018378,
+      "status": "candidate",
+      "text": "feller buncher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018377,
+      "status": "candidate",
+      "text": "handpicker"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cherry-picker",
+  "concept_id": "cherry-picker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/cherry-picker.yml",
+      "source_repo": "bazelbuild/bazel"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cherry-picker",
+      "sense_id": "cherry-picker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

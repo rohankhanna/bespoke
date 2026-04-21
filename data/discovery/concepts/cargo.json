@@ -19,6 +19,18 @@
       "source_repo": "dustinblackman/cargo-run-bin",
       "status": "candidate-context",
       "text": "<h1 align=center>cargo-run-bin</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dustinblackman/cargo-run-bin",
       "status": "candidate",
       "text": "<h1 align=center>cargo-run-bin</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "dustinblackman/cargo-run-bin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/cargo"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

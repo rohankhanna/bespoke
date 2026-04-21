@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "breath test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "sheetrock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "sidelight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "taxicab"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS",
+      "sense_id": "build-installers---macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-installers---macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-installers---macos",
+  "observation_id": "5a27d312020ba72b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS",
+  "source_context_snippet": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS",
+  "source_file": ".github/workflows/build-macos-installers.yml",
+  "source_repo": "Chia-Network/chia-blockchain",
+  "source_repo_description": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+}

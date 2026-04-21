@@ -19,12 +19,30 @@
       "source_repo": "dandavison/delta",
       "status": "candidate-context",
       "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "A simple and easy to use Wikipedia Text User Interface "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dandavison/delta",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
       "status": "candidate",
       "text": "Continuous Deployment"
     }
@@ -69,11 +87,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Builditluc/wiki-tui"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

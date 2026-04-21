@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Performance Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Performance Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "Performance Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73838,
+      "status": "candidate",
+      "text": "benchmarking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73837,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73836,
+      "status": "candidate",
+      "text": "stress test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73835,
+      "status": "candidate",
+      "text": "stress testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73834,
+      "status": "candidate",
+      "text": "benchmarks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Performance Test",
+  "concept_id": "performance-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Test",
+      "sense_id": "performance-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

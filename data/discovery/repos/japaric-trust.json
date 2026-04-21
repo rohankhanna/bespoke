@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/trust",
+      "target": "japaric/cross",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "japaric/trust",
+      "target": "alexcrichton/cc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "cross-compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "cross-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:34.662999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5164
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows",
+    "fork": false,
+    "full_name": "japaric/trust",
+    "html_url": "https://github.com/japaric/trust",
+    "language": "Shell",
+    "pushed_at": "2022-11-15T10:28:53Z",
+    "stargazers_count": 1280,
+    "topics": [
+      "bsd",
+      "continuous-integration",
+      "cross-compilation",
+      "cross-testing",
+      "linux",
+      "macos",
+      "rust",
+      "template",
+      "windows"
+    ],
+    "updated_at": "2026-04-05T21:18:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric/cross",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexcrichton/cc-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compilation"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-testing"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

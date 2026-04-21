@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Benchmarks",
-    "benchmarks"
+    "benchmarks",
+    "\u26a1\ufe0f Benchmarks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -20,6 +21,30 @@
       "source_repo": "google/protobuf.dart",
       "status": "candidate-context",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/burn-bench",
+      "status": "candidate-context",
+      "text": "Burn benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-bench",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +53,18 @@
       "source_repo": "google/protobuf.dart",
       "status": "candidate",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-bench",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate",
+      "text": "\u26a1\ufe0f Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -65,6 +102,41 @@
       "score": 51426,
       "status": "candidate",
       "text": "approaches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "approaches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "baseline"
     }
   ],
   "candidate_synonyms": [],
@@ -83,11 +155,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "tracel-ai/burn-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

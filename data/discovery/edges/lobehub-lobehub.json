@@ -333,6 +333,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-claude-code",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-cloud-sandbox",
       "target_type": "component"
     },
@@ -488,6 +495,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/business-const",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/business-model-runtime",
       "target_type": "component"
     },
     {
@@ -2745,6 +2759,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T02:42:33.990002+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "lobehub/lobehub"
 }

@@ -7,9 +7,83 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chanzhaoyu/chatgpt-web",
+      "status": "candidate-context",
+      "text": "\u7528 Express \u548c  Vue3 \u642d\u5efa\u7684 ChatGPT \u6f14\u793a\u7f51\u9875"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chanzhaoyu/chatgpt-web",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chanzhaoyu/chatgpt-web",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19612,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18481,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "falls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "far"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Close inactive issues",
   "concept_id": "close-inactive-issues",
@@ -20,12 +94,26 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/close_stale_issues.yml",
       "source_repo": "letta-ai/letta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issues_close.yml",
+      "source_repo": "Chanzhaoyu/chatgpt-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "invoke-ai/InvokeAI"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

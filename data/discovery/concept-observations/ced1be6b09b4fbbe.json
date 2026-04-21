@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hourly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hourly"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033143,
+      "status": "candidate",
+      "text": "by the hour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033142,
+      "status": "candidate",
+      "text": "hour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031462,
+      "status": "candidate",
+      "text": "horal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019892,
+      "status": "candidate",
+      "text": "times"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008446,
+      "status": "candidate",
+      "text": "time"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hourly",
+      "sense_id": "hourly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6,
+      "status": "candidate",
+      "text": "by the hour"
+    }
+  ],
+  "concept_id": "hourly",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hourly",
+  "observation_id": "ced1be6b09b4fbbe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Hourly",
+  "source_context_snippet": "Hourly",
+  "source_file": ".github/workflows/hourly.yml",
+  "source_repo": "ClickHouse/ClickHouse",
+  "source_repo_description": "ClickHouse\u00ae is a real-time analytics database management system"
+}

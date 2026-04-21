@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "template-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Safely add untrusted strings to HTML/XML markup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/markupsafe/refs/heads/stable/docs/_static/markupsafe-name.svg\" alt=\"\" height=\"150\"></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/markupsafe/refs/heads/stable/docs/_static/markupsafe-name.svg\" alt=\"\" height=\"150\"></div>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "template-engine",
+  "concept_id": "template-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pallets/markupsafe"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "template-engine",
+      "sense_id": "template-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

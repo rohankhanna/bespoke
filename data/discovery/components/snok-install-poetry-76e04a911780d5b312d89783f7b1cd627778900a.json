@@ -1,12 +1,17 @@
 {
   "component": "snok/install-poetry@76e04a911780d5b312d89783f7b1cd627778900a",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/eval.yml",
       "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
     }
   ]
 }

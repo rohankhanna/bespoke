@@ -43,6 +43,18 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ray-project/ray"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

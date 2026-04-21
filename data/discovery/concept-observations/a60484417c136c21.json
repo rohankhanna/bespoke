@@ -84,7 +84,7 @@
   "normalized_form": "build-macos",
   "observation_id": "a60484417c136c21",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Build macOS",
   "source_context_snippet": "Build macOS",
   "source_file": ".github/workflows/build-macos.yml",

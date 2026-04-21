@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-vint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-shellcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "crisidev/bacon-ls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "dart-lang/sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "haskell/haskell-ide-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "fwcd/kotlin-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "reviewdog/action-vint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "reviewdog/action-shellcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/vim-lsp-settings",
+      "target": "language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:52.399227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28656
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1088
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auto configurations for Language Server for vim-lsp",
+    "fork": false,
+    "full_name": "mattn/vim-lsp-settings",
+    "html_url": "https://github.com/mattn/vim-lsp-settings",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-08T13:50:08Z",
+    "stargazers_count": 1405,
+    "topics": [
+      "language-server",
+      "vim"
+    ],
+    "updated_at": "2026-04-20T06:23:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crisidev/bacon-ls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fwcd/kotlin-language-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/haskell-ide-engine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "reviewdog"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/mattn/vim-lsp-settings/workflows/reviewdog/badge.svg)](https://github.com/mattn/vim-lsp-settings/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    }
+  ]
+}

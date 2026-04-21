@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "krew"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate-context",
+      "text": "Plugin index for https://github.com/kubernetes-sigs/krew. This repo is for plugin maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate-context",
+      "text": "This repository is the centralized plugin index for [Krew (kubectl plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate",
+      "text": "This repository is the centralized plugin index for [Krew (kubectl plugin"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "krew",
+  "concept_id": "krew",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "krew",
+      "sense_id": "krew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

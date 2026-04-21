@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock Closed Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Lock Closed Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Lock Closed Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26543,
+      "status": "candidate",
+      "text": "locker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18885,
+      "status": "candidate",
+      "text": "safe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17927,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17927,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17927,
+      "status": "candidate",
+      "text": "shut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock Closed Issues",
+  "concept_id": "lock-closed-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "vitejs/vite"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Closed Issues",
+      "sense_id": "lock-closed-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

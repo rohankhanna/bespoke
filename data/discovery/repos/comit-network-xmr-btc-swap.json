@@ -1,0 +1,578 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dprint/check@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "coditory/changelog-parser@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/keep-a-changelog-new-release@3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/set-crate-version@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/create-pull-request@1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "larryjoelane/delete-release-action@v1.0.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "coditory/changelog-parser@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "eigenwallet/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "thomaseizinger/rust-jsonrpc-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "delta1/rust-jsonrpc-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "comit-network/monero-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/checkout@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Swatinem/rust-cache@v2.7.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Build swap and asb release binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/checkout@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Swatinem/rust-cache@v2.7.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "dprint/check@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/checkout@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "coditory/changelog-parser@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/checkout@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "thomaseizinger/keep-a-changelog-new-release@3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "thomaseizinger/set-crate-version@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "thomaseizinger/create-pull-request@1.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Draft new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/checkout@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "larryjoelane/delete-release-action@v1.0.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "coditory/changelog-parser@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "Create 'preview' release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "atomic-swap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "monero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:46.383387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3134
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 414
+    },
+    {
+      "path": "Dockerfile",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2196
+    },
+    {
+      "path": ".github/workflows/build-release-binaries.yml",
+      "size": 4355
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5926
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1277
+    },
+    {
+      "path": ".github/workflows/draft-new-release.yml",
+      "size": 2677
+    },
+    {
+      "path": ".github/workflows/preview-release.yml",
+      "size": 1030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitcoin\u2013Monero Cross-chain Atomic Swap",
+    "fork": false,
+    "full_name": "comit-network/xmr-btc-swap",
+    "html_url": "https://github.com/comit-network/xmr-btc-swap",
+    "language": "Rust",
+    "pushed_at": "2025-07-22T11:42:04Z",
+    "stargazers_count": 714,
+    "topics": [
+      "atomic-swap",
+      "bitcoin",
+      "hacktoberfest",
+      "monero",
+      "rust"
+    ],
+    "updated_at": "2026-04-06T17:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigenwallet/core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comit-network/monero-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "delta1/rust-jsonrpc-client",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomaseizinger/rust-jsonrpc-client",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build swap and asb release binaries\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "term": "Build swap and asb release binaries"
+    },
+    {
+      "context_snippet": "\"Create release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "\"Draft new release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "term": "Draft new release"
+    },
+    {
+      "context_snippet": "\"Create 'preview' release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-release.yml",
+      "term": "Create 'preview' release"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atomic-swap"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monero"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

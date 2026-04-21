@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "brave"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate",
+      "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040277,
+      "status": "candidate",
+      "text": "courageous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040265,
+      "status": "candidate",
+      "text": "stouthearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040238,
+      "status": "candidate",
+      "text": "lionhearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040209,
+      "status": "candidate",
+      "text": "valiant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040202,
+      "status": "candidate",
+      "text": "intrepid"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 82034,
+      "status": "candidate",
+      "text": "audacious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37034,
+      "status": "candidate",
+      "text": "intrepid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32052,
+      "status": "candidate",
+      "text": "gay"
+    }
+  ],
+  "canonical_name": "brave",
+  "concept_id": "brave",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "searxng/searxng"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brave",
+      "sense_id": "brave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

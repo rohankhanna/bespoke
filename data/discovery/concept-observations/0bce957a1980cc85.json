@@ -24,7 +24,43 @@
     }
   ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "blue book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "bluebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -41,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "notebook-tests",
   "observation_id": "0bce957a1980cc85",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Notebook Tests",
   "source_context_snippet": "Notebook Tests",
   "source_file": ".github/workflows/notebook-tests.yml",

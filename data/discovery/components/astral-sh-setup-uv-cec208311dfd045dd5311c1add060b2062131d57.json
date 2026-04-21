@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "trailofbits/dropkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/onchain.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crytic/solc-select"
     }
   ]
 }

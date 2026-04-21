@@ -1,12 +1,17 @@
 {
   "component": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel"
     }
   ]
 }

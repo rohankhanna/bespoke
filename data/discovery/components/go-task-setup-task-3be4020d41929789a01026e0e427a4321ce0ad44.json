@@ -1,0 +1,17 @@
+{
+  "component": "go-task/setup-task@3be4020d41929789a01026e0e427a4321ce0ad44",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/goreleaser"
+    }
+  ]
+}

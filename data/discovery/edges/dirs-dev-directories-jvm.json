@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dirs-dev/directories-jvm",
-      "target": "dirs-dev/directories-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "dirs-dev/directories-jvm",
@@ -64,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "dirs-dev/directories-jvm"
 }

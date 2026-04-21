@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Contracts of EigenLayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848990,
+      "status": "candidate",
+      "text": "match"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39721695,
+      "status": "candidate",
+      "text": "hitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39718585,
+      "status": "candidate",
+      "text": "check out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39715702,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39715152,
+      "status": "candidate",
+      "text": "check into"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check",
+      "sense_id": "check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 108039,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 69035,
+      "status": "candidate",
+      "text": "rebuke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47058,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46079,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "concept_id": "check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check",
+  "observation_id": "8be7028dba4f0ed0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Check",
+  "source_context_snippet": "Check",
+  "source_file": ".github/workflows/checks.yml",
+  "source_repo": "Layr-Labs/eigenlayer-contracts",
+  "source_repo_description": "Contracts of EigenLayer"
+}

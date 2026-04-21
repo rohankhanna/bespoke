@@ -1,0 +1,79 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "asdf-vm/asdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "cehoffman/luaenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "containers/toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "adobe-fonts/source-code-pro",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:15.618737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 105233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Zsh theme",
+    "fork": false,
+    "full_name": "romkatv/powerlevel10k",
+    "html_url": "https://github.com/romkatv/powerlevel10k",
+    "language": "Shell",
+    "pushed_at": "2026-03-14T06:07:30Z",
+    "stargazers_count": 53847,
+    "topics": [
+      "zsh"
+    ],
+    "updated_at": "2026-04-21T10:58:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-fonts/source-code-pro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asdf-vm/asdf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cehoffman/luaenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/toolbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "tracel-ai/burn-bench",
+      "target": "tracel-ai/github-actions/setup-rust@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "tracel-ai/burn-bench",
+      "target": "Benchmarks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "tracel-ai/burn-bench"
+}

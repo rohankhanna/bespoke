@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic Release Creation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Model Context Protocol Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Automatic Release Creation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate",
+      "text": "Automatic Release Creation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18900,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18120,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18060,
+      "status": "candidate",
+      "text": "automatism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic Release Creation",
+  "concept_id": "automatic-release-creation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Release Creation",
+      "sense_id": "automatic-release-creation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

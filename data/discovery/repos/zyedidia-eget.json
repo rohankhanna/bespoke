@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zyedidia/eget",
+      "target": "zyedidia/blobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyedidia/eget",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyedidia/eget",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyedidia/eget",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyedidia/eget",
+      "target": "prebuilt-binaries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:22.924589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14241
+    },
+    {
+      "path": "go.mod",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily install prebuilt binaries from GitHub.",
+    "fork": false,
+    "full_name": "zyedidia/eget",
+    "html_url": "https://github.com/zyedidia/eget",
+    "language": "Go",
+    "pushed_at": "2024-07-09T06:03:04Z",
+    "stargazers_count": 1956,
+    "topics": [
+      "command-line-tool",
+      "go",
+      "golang",
+      "installer",
+      "prebuilt-binaries"
+    ],
+    "updated_at": "2026-04-21T05:22:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zyedidia/blobs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prebuilt-binaries"
+    }
+  ]
+}

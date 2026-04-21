@@ -103,6 +103,54 @@
       "source_repo": "strands-agents/samples",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "> A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-squads/agents-squads",
+      "status": "candidate-context",
+      "text": "Open-source framework for autonomous AI agent squads. Build systems that execute, not just inform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/agents-squads",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "A set of tools that gives agents powerful capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +199,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "strands-agents/samples",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "> A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/agents-squads",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -232,11 +304,41 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "strands-agents/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "agents-squads/agents-squads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/tools"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

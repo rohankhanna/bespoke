@@ -1,0 +1,17 @@
+{
+  "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ]
+}

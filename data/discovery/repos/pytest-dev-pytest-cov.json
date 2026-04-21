@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-cov",
+      "target": "pytest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:12.985413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5207
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3347
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coverage plugin for pytest.",
+    "fork": false,
+    "full_name": "pytest-dev/pytest-cov",
+    "html_url": "https://github.com/pytest-dev/pytest-cov",
+    "language": "Python",
+    "pushed_at": "2026-03-21T20:11:13Z",
+    "stargazers_count": 2031,
+    "topics": [
+      "pytest",
+      "python"
+    ],
+    "updated_at": "2026-04-17T14:08:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    }
+  ]
+}

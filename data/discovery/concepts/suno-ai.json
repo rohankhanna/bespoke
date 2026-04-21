@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "suno-ai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SunoAI-API/Suno-API",
+      "status": "candidate-context",
+      "text": "Create Music in Seconds with SunoAPI. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunoAI-API/Suno-API",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_ZH.md) | [\u65e5\u672c\u8a9e](README_JA.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunoAI-API/Suno-API",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_ZH.md) | [\u65e5\u672c\u8a9e](README_JA.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "suno-ai",
+  "concept_id": "suno-ai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "SunoAI-API/Suno-API"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "suno-ai",
+      "sense_id": "suno-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

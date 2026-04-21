@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Compatibility layer for common array libraries to support the Array API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a small wrapper around common array libraries that is compatible with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a small wrapper around common array libraries that is compatible with"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931414,
+      "status": "candidate",
+      "text": "daas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931413,
+      "status": "candidate",
+      "text": "dasd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931412,
+      "status": "candidate",
+      "text": "dicaas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931411,
+      "status": "candidate",
+      "text": "dagn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dask",
+      "sense_id": "dask#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dask",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dask",
+  "observation_id": "db433f1b6f0ce2d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "dask",
+  "source_context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+  "source_file": null,
+  "source_repo": "data-apis/array-api-compat",
+  "source_repo_description": "Compatibility layer for common array libraries to support the Array API"
+}

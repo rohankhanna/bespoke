@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lint workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "lint workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate",
+      "text": "lint workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "dendrite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "fiber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lint workflows",
+  "concept_id": "lint-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint workflows",
+      "sense_id": "lint-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

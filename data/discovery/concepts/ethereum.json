@@ -31,6 +31,102 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate-context",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "A Framework for Building Ethereum-compatible Blockchain Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "Manage and switch between Solidity compiler versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "A tool to quickly switch between Solidity compiler versions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "Solidity, the Smart Contract Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +141,54 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate",
+      "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate",
+      "text": "A tool to quickly switch between Solidity compiler versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +244,59 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

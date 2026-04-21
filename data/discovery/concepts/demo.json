@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "demo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "============="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate",
+      "text": "============="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035724,
+      "status": "candidate",
+      "text": "demonstration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035356,
+      "status": "candidate",
+      "text": "demonstrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032601,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031724,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012719,
+      "status": "candidate",
+      "text": "present"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57049,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50048,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48038,
+      "status": "candidate",
+      "text": "demonstrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35056,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9040,
+      "status": "candidate",
+      "text": "demonstration"
+    }
+  ],
+  "canonical_name": "demo",
+  "concept_id": "demo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "demo",
+      "sense_id": "demo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

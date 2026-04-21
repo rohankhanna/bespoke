@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JIT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "The Python programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "JIT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate",
+      "text": "JIT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830952,
+      "status": "candidate",
+      "text": "cde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825897,
+      "status": "candidate",
+      "text": "ece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29815999,
+      "status": "candidate",
+      "text": "ste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29586364,
+      "status": "candidate",
+      "text": "jat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831939,
+      "status": "candidate",
+      "text": "stes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JIT",
+  "concept_id": "jit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/jit.yml",
+      "source_repo": "python/cpython"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JIT",
+      "sense_id": "jit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

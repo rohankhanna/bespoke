@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "aws/ec2-spot-instances-integrations-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "spot-interrupter build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "spot-interrupter e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "chaos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "fault-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-spot-interrupter",
+      "target": "spot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:25:04.393469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4868
+    },
+    {
+      "path": "go.mod",
+      "size": 2790
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 809
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The ec2-spot-interrupter is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations.",
+    "fork": false,
+    "full_name": "aws/amazon-ec2-spot-interrupter",
+    "html_url": "https://github.com/aws/amazon-ec2-spot-interrupter",
+    "language": "Go",
+    "pushed_at": "2026-03-02T16:44:29Z",
+    "stargazers_count": 108,
+    "topics": [
+      "chaos",
+      "ec2",
+      "fault-injection",
+      "spot"
+    ],
+    "updated_at": "2026-03-10T19:57:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/ec2-spot-instances-integrations-roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "spot-interrupter build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "spot-interrupter build and test"
+    },
+    {
+      "context_snippet": "spot-interrupter e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "spot-interrupter e2e tests"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "The `ec2-spot-interrupter` is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chaos"
+    },
+    {
+      "context_snippet": "The `ec2-spot-interrupter` is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-injection"
+    },
+    {
+      "context_snippet": "The `ec2-spot-interrupter` is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spot"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An HTTP library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004600,
+      "status": "candidate",
+      "text": "hyperactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003948,
+      "status": "candidate",
+      "text": "overactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993477,
+      "status": "candidate",
+      "text": "super"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983072,
+      "status": "candidate",
+      "text": "wide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980088,
+      "status": "candidate",
+      "text": "wicked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyper",
+      "sense_id": "hyper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyper",
+  "observation_id": "e6f0780ec66712a2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "hyper",
+  "source_context_snippet": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)",
+  "source_file": null,
+  "source_repo": "hyperium/hyper",
+  "source_repo_description": "An HTTP library for Rust"
+}

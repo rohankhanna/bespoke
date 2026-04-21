@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "spaceship"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034182,
+      "status": "candidate",
+      "text": "spacecraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034003,
+      "status": "candidate",
+      "text": "astronaut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033819,
+      "status": "candidate",
+      "text": "starship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030550,
+      "status": "candidate",
+      "text": "spaceflight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027816,
+      "status": "candidate",
+      "text": "rocket"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "spaceship",
+  "concept_id": "spaceship",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spaceship",
+      "sense_id": "spaceship#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

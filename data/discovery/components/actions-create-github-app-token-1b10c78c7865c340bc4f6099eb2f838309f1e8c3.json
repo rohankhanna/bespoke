@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_release.yml",
       "source_repo": "cedar-policy/cedar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ]
 }

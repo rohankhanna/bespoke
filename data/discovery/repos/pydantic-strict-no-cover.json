@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "pydantic/strict-no-cover",
+      "target": "samuelcolvin/strict-no-cover",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:11.960628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1008
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Error on unnecessary `pragma: no cover` comments.",
+    "fork": false,
+    "full_name": "pydantic/strict-no-cover",
+    "html_url": "https://github.com/pydantic/strict-no-cover",
+    "language": "Python",
+    "pushed_at": "2025-08-05T09:11:59Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-08-22T12:42:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samuelcolvin/strict-no-cover",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml"
+    },
+    {
+      "component": "ts-graphviz/setup-graphviz@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml"
+    },
+    {
+      "component": "ts-graphviz/setup-graphviz@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml"
+    },
+    {
+      "component": "sphinx-notes/pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Array API Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Apache Beam tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Dask tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "sphinx-notes/pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "ndimensional-arrays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "xarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed",
+      "target": "zarr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:00.625518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 750
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4204
+    },
+    {
+      "path": "requirements.txt",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/.lithops_config.template",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/.lithops_config_aws.template",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/.lithops_config_gcp.template",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/array-api-tests.yml",
+      "size": 12682
+    },
+    {
+      "path": ".github/workflows/beam-tests.yml",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/dask-tests.yml",
+      "size": 906
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable array processing with bounded memory",
+    "fork": false,
+    "full_name": "cubed-dev/cubed",
+    "html_url": "https://github.com/cubed-dev/cubed",
+    "language": "Python",
+    "pushed_at": "2026-04-13T20:17:25Z",
+    "stargazers_count": 261,
+    "topics": [
+      "distributed-computing",
+      "ndimensional-arrays",
+      "numpy",
+      "python",
+      "serverless",
+      "xarray",
+      "zarr"
+    ],
+    "updated_at": "2026-04-07T04:33:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Array API Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "term": "Array API Tests"
+    },
+    {
+      "context_snippet": "Apache Beam tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "term": "Apache Beam tests"
+    },
+    {
+      "context_snippet": "Dask tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "term": "Dask tests"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndimensional-arrays"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xarray"
+    },
+    {
+      "context_snippet": "![Cubed](docs/_static/cubed-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zarr"
+    }
+  ]
+}

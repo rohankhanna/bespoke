@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcab  Models for the spaCy Natural Language Processing (NLP) library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910734,
+      "status": "candidate",
+      "text": "spaced out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910733,
+      "status": "candidate",
+      "text": "spacelike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910732,
+      "status": "candidate",
+      "text": "antispace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910731,
+      "status": "candidate",
+      "text": "zoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910730,
+      "status": "candidate",
+      "text": "faraway"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spacy",
+      "sense_id": "spacy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spacy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spacy",
+  "observation_id": "80db1741c8a9003b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "spacy",
+  "source_context_snippet": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>",
+  "source_file": null,
+  "source_repo": "explosion/spacy-models",
+  "source_repo_description": "\ud83d\udcab  Models for the spaCy Natural Language Processing (NLP) library"
+}

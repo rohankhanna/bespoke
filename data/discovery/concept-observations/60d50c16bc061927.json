@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Plus version of CLIProxyAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "agents-md-guard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "agents-md-guard"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "agents-md-guard",
+      "sense_id": "agents-md-guard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agents-md-guard",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agents-md-guard",
+  "observation_id": "60d50c16bc061927",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "agents-md-guard",
+  "source_context_snippet": "agents-md-guard",
+  "source_file": ".github/workflows/agents-md-guard.yml",
+  "source_repo": "router-for-me/CLIProxyAPIPlus",
+  "source_repo_description": "The Plus version of CLIProxyAPI"
+}

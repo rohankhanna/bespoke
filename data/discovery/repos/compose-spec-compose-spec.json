@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "kubernetes/kompose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "docker/compose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "containerd/nerdctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "docker/compose-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "Detect change on compose-spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "compose-spec/compose-spec",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:42.125468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3072
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1424
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/compose-spec-change.yml",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1161
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Compose specification",
+    "fork": false,
+    "full_name": "compose-spec/compose-spec",
+    "html_url": "https://github.com/compose-spec/compose-spec",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-09T00:07:02Z",
+    "stargazers_count": 2655,
+    "topics": [
+      "compose",
+      "containers",
+      "docker",
+      "kubernetes",
+      "specification"
+    ],
+    "updated_at": "2026-04-19T20:37:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containerd/nerdctl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/compose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/compose-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/kompose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Detect change on compose-spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "term": "Detect change on compose-spec"
+    },
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "{:.no_toc}",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "{:.no_toc}",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "{:.no_toc}",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "{:.no_toc}",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "{:.no_toc}",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Close Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "Auto Close Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "Auto Close Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18463,
+      "status": "candidate",
+      "text": "van"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "pitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "show"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Close Issues",
+  "concept_id": "auto-close-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "strands-agents/sdk-python"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Close Issues",
+      "sense_id": "auto-close-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

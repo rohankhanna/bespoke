@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate-context",
+      "text": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate-context",
+      "text": "main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide",
+      "status": "candidate",
+      "text": "main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041665,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041204,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039952,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012134,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008232,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24082,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22049,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19052,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "briny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "canonical_name": "main",
+  "concept_id": "main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "main",
+      "sense_id": "main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

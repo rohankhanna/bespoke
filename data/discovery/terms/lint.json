@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -161,6 +161,151 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "facebookincubator/AITemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/skate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/gql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "nodejs/build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless"
     }
   ],
   "term": "lint"

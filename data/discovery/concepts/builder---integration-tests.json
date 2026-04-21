@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Builder - Integration tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "Builder - Integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate",
+      "text": "Builder - Integration tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25805,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17750,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17718,
+      "status": "candidate",
+      "text": "maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "maurois"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "stevenson"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Builder - Integration tests",
+  "concept_id": "builder---integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/builder-integration-test.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Builder - Integration tests",
+      "sense_id": "builder---integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

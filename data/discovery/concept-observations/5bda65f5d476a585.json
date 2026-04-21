@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close stalled issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close stalled issues and PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22371,
+      "status": "candidate",
+      "text": "snafu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "abrasion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "discriminating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "exile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stalled issues and PRs",
+      "sense_id": "close-stalled-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-stalled-issues-and-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-stalled-issues-and-prs",
+  "observation_id": "5bda65f5d476a585",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Close stalled issues and PRs",
+  "source_context_snippet": "Close stalled issues and PRs",
+  "source_file": ".github/workflows/close-stalled.yml",
+  "source_repo": "nodejs/citgm",
+  "source_repo_description": "Canary in the Gold Mine"
+}

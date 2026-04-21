@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check anvil dump is up-to-date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check anvil dump is up-to-date"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18548,
+      "status": "candidate",
+      "text": "hardy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18522,
+      "status": "candidate",
+      "text": "eyelet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18174,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "dolly"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check anvil dump is up-to-date",
+      "sense_id": "check-anvil-dump-is-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-anvil-dump-is-up-to-date",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-anvil-dump-is-up-to-date",
+  "observation_id": "2a4bcd4fe98a4fd1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Check anvil dump is up-to-date",
+  "source_context_snippet": "Check anvil dump is up-to-date",
+  "source_file": ".github/workflows/check-anvil-dump.yml",
+  "source_repo": "Layr-Labs/eigensdk-rs",
+  "source_repo_description": "EigenLayer Rust Developer Tooling"
+}

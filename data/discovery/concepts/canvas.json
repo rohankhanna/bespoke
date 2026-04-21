@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "canvas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "[![NPM Package][npm]][npm-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate",
+      "text": "[![NPM Package][npm]][npm-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000758,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945037,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885055,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012902,
+      "status": "candidate",
+      "text": "canvas tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012901,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7055,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6052,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "canvass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4054,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "canvas tent"
+    }
+  ],
+  "canonical_name": "canvas",
+  "concept_id": "canvas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mrdoob/three.js"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canvas",
+      "sense_id": "canvas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

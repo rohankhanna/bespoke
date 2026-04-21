@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "@paddle/paddle-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/analytics",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/speed-insights",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lunariajs/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-mathjax3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "medium-zoom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "open-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-rtlcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-minipic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitepress",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitepress-plugin-google-analytics",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitepress-plugin-group-icons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitepress-plugin-lightbox",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "@paddle/paddle-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "@vercel/analytics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "@vercel/speed-insights",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "@lunariajs/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "markdown-it-mathjax3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "medium-zoom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "open-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "postcss-rtlcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "vite-plugin-minipic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "vitepress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "vitepress-plugin-google-analytics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "vitepress-plugin-group-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FunnyWolf/Viper",
+      "target": "vitepress-plugin-lightbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "cobalt-strike",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "metasploit-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "post-exploitation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "red-team-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "redteam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper",
+      "target": "viper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:58.960110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5070
+    },
+    {
+      "path": "package.json",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Adversary simulation and Red teaming platform with AI",
+    "fork": false,
+    "full_name": "FunnyWolf/Viper",
+    "html_url": "https://github.com/FunnyWolf/Viper",
+    "language": null,
+    "pushed_at": "2026-03-31T10:39:39Z",
+    "stargazers_count": 5029,
+    "topics": [
+      "agent",
+      "ai",
+      "cobalt-strike",
+      "llm",
+      "mcp-server",
+      "metasploit-framework",
+      "post-exploitation",
+      "red-team-tools",
+      "redteam",
+      "viper"
+    ],
+    "updated_at": "2026-04-21T10:35:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cobalt-strike"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metasploit-framework"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-exploitation"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-team-tools"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redteam"
+    },
+    {
+      "context_snippet": "![cover-v5-optimized](./docs/public/og/img_0.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viper"
+    }
+  ]
+}

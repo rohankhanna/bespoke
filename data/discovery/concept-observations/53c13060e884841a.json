@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect change on compose-spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect change on compose-spec"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29139,
+      "status": "candidate",
+      "text": "tare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28891,
+      "status": "candidate",
+      "text": "difference limen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28891,
+      "status": "candidate",
+      "text": "difference threshold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28891,
+      "status": "candidate",
+      "text": "differential limen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28891,
+      "status": "candidate",
+      "text": "differential threshold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect change on compose-spec",
+      "sense_id": "detect-change-on-compose-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-change-on-compose-spec",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-change-on-compose-spec",
+  "observation_id": "53c13060e884841a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Detect change on compose-spec",
+  "source_context_snippet": "Detect change on compose-spec",
+  "source_file": ".github/workflows/compose-spec-change.yml",
+  "source_repo": "compose-spec/compose-spec",
+  "source_repo_description": "The Compose specification"
+}

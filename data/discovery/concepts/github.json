@@ -25,6 +25,42 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate-context",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "Scan for sensitive information easily and effectively."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grubersjoe/react-github-calendar",
+      "status": "candidate-context",
+      "text": "React component to display a GitHub contributions calendar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-github-calendar",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/grubersjoe/react-github-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-github-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +69,24 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madneal/gshark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-github-calendar",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/grubersjoe/react-github-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-github-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate",
+      "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +160,29 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "abduznik/Git-Alchemist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "grubersjoe/react-github-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "github/git-sizer"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

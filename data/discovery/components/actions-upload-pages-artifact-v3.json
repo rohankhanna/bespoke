@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v3",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-index-from-release.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "algorealmInc/SwarmNL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "snarktank/ralph"
     }
   ]
 }

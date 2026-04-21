@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "hyperium/hyper"
     }
   ],
   "term": "Benchmark"

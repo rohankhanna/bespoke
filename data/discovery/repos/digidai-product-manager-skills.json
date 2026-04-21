@@ -1,0 +1,350 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "samuraigpt/awesome-openclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "ghimiresunil/top-ai-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "eudk/awesome-ai-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "abubakarsiddik31/claude-skills-collection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "ai-agent-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "ai-product",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "ai-product-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "career-coaching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "jtbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "openclaw-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "pm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "positioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "prioritization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "product-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "product-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "roadmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "saas-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "skill-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills",
+      "target": "user-story",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:24:25.755778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11895
+    },
+    {
+      "path": "package.json",
+      "size": 1539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions.",
+    "fork": false,
+    "full_name": "Digidai/product-manager-skills",
+    "html_url": "https://github.com/Digidai/product-manager-skills",
+    "language": "Shell",
+    "pushed_at": "2026-04-12T03:05:07Z",
+    "stargazers_count": 63,
+    "topics": [
+      "ai-agent-skill",
+      "ai-product",
+      "ai-product-manager",
+      "career-coaching",
+      "claude-code",
+      "discovery",
+      "frameworks",
+      "jtbd",
+      "openclaw",
+      "openclaw-skill",
+      "pm-tools",
+      "positioning",
+      "prd",
+      "prioritization",
+      "product-management",
+      "product-manager",
+      "roadmap",
+      "saas-metrics",
+      "skill-md",
+      "user-story"
+    ],
+    "updated_at": "2026-04-20T16:16:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abubakarsiddik31/claude-skills-collection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eudk/awesome-ai-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghimiresunil/top-ai-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samuraigpt/awesome-openclaw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agent-skill"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-product"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-product-manager"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "career-coaching"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discovery"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameworks"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jtbd"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw-skill"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pm-tools"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positioning"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prioritization"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "product-management"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "product-manager"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roadmap"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saas-metrics"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skill-md"
+    },
+    {
+      "context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-story"
+    }
+  ]
+}

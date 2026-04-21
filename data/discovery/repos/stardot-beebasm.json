@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-release@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "Build and run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "actions/create-release@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "stardot/beebasm",
+      "target": "Create Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:24:38.103803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34158
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1146
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A portable 6502 assembler with BBC Micro style syntax",
+    "fork": false,
+    "full_name": "stardot/beebasm",
+    "html_url": "https://github.com/stardot/beebasm",
+    "language": "C++",
+    "pushed_at": "2026-03-12T18:42:09Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-03-26T20:45:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "Build and run tests"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    }
+  ]
+}

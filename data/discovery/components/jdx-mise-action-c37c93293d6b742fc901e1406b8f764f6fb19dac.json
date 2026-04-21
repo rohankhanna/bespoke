@@ -1,0 +1,12 @@
+{
+  "component": "jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-protobufs.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    }
+  ]
+}

@@ -7,10 +7,102 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "Format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate",
+      "text": "Format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037312,
+      "status": "candidate",
+      "text": "initialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032389,
+      "status": "candidate",
+      "text": "arrange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049131,
+      "status": "candidate",
+      "text": "data format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049131,
+      "status": "candidate",
+      "text": "data formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049130,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12040,
+      "status": "candidate",
+      "text": "arrange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "initialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "data format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "data formatting"
+    }
+  ],
   "canonical_name": "Format",
   "concept_id": "format",
   "definition_status": "unresolved",
@@ -26,12 +118,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

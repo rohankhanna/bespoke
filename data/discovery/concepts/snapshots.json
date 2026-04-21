@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "Snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "Snapshots"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9933257,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "catches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "cliches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "clich\u00e9s"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "insights"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snapshots",
+  "concept_id": "snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snapshots",
+      "sense_id": "snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

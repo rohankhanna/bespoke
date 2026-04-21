@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Examples Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Examples Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11557,
+      "status": "candidate",
+      "text": "experiences"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11557,
+      "status": "candidate",
+      "text": "those"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "adduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Examples Tests",
+      "sense_id": "examples-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "examples-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "examples-tests",
+  "observation_id": "d1d4e78270a5b6c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Examples Tests",
+  "source_context_snippet": "Examples Tests",
+  "source_file": ".github/workflows/examples.yml",
+  "source_repo": "ggml-org/whisper.cpp",
+  "source_repo_description": "Port of OpenAI's Whisper model in C/C++"
+}

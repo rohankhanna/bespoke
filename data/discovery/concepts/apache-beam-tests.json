@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Apache Beam tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Scalable array processing with bounded memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Apache Beam tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate",
+      "text": "Apache Beam tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19050,
+      "status": "candidate",
+      "text": "drone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18954,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "plane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "helicopter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "indian"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apache Beam tests",
+  "concept_id": "apache-beam-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apache Beam tests",
+      "sense_id": "apache-beam-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

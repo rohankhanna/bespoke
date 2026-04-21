@@ -1,0 +1,12 @@
+{
+  "component": "n0izn0iz/mkache@5cedaeaf0b39a9220ae5a815cac8d2a924cee3ef",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "berty/berty"
+    }
+  ]
+}

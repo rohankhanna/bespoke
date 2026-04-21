@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Wiki tables of contents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "High-velocity, monorepo-scale workflow for Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "\"Generate Wiki tables of contents\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate",
+      "text": "\"Generate Wiki tables of contents\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33154,
+      "status": "candidate",
+      "text": "leader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28061,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22731,
+      "status": "candidate",
+      "text": "wikinews"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "archive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Wiki tables of contents",
+  "concept_id": "generate-wiki-tables-of-contents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Wiki tables of contents",
+      "sense_id": "generate-wiki-tables-of-contents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

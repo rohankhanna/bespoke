@@ -1,0 +1,542 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "dangoslen/changelog-enforcer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "docker/setup-docker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "docker/setup-docker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "layr-labs/eigensdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "dangoslen/changelog-enforcer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Pull Request Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-dump.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-anvil-dump.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Check anvil dump is up-to-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Foundry CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "docker/setup-docker-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "eigenlayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "restaking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "target": "verifiable-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:04.973168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6005
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4180
+    },
+    {
+      "path": ".github/workflows/bindings.yml",
+      "size": 751
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/check-anvil-dump.yml",
+      "size": 2643
+    },
+    {
+      "path": ".github/workflows/foundry.yml",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 3301
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "EigenLayer Rust Developer Tooling",
+    "fork": false,
+    "full_name": "Layr-Labs/eigensdk-rs",
+    "html_url": "https://github.com/Layr-Labs/eigensdk-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T02:59:17Z",
+    "stargazers_count": 94,
+    "topics": [
+      "avs",
+      "eigenlayer",
+      "ethereum",
+      "restaking",
+      "rust",
+      "sdk",
+      "verifiable-computing"
+    ],
+    "updated_at": "2026-03-06T18:03:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/eigensdk-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bindings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings.yml",
+      "term": "Bindings"
+    },
+    {
+      "context_snippet": "\"Pull Request Workflow\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Pull Request Workflow"
+    },
+    {
+      "context_snippet": "Check anvil dump is up-to-date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-anvil-dump.yml",
+      "term": "Check anvil dump is up-to-date"
+    },
+    {
+      "context_snippet": "Foundry CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "term": "Foundry CI"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "stale issues"
+    },
+    {
+      "context_snippet": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenlayer"
+    },
+    {
+      "context_snippet": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restaking"
+    },
+    {
+      "context_snippet": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verifiable-computing"
+    }
+  ]
+}

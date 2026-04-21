@@ -67,6 +67,30 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "A set of tools that gives agents powerful capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +214,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/tools"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

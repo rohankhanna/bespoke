@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "excitement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with _pizzazz_!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate",
+      "text": "Render markdown on the CLI, with _pizzazz_!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012885,
+      "status": "candidate",
+      "text": "excitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012373,
+      "status": "candidate",
+      "text": "exhilaration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001398,
+      "status": "candidate",
+      "text": "hullabaloo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999243,
+      "status": "candidate",
+      "text": "agitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993115,
+      "status": "candidate",
+      "text": "turmoil"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 75029,
+      "status": "candidate",
+      "text": "exhilaration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 63034,
+      "status": "candidate",
+      "text": "turmoil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42031,
+      "status": "candidate",
+      "text": "upheaval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19043,
+      "status": "candidate",
+      "text": "agitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11033,
+      "status": "candidate",
+      "text": "hullabaloo"
+    }
+  ],
+  "canonical_name": "excitement",
+  "concept_id": "excitement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/glow"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "excitement",
+      "sense_id": "excitement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

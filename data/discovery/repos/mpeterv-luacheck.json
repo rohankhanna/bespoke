@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpeterv/luacheck",
+      "target": "vim-syntastic/syntastic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpeterv/luacheck",
+      "target": "steelbrain/linter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpeterv/luacheck",
+      "target": "malcolm3141/brackets-luacheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpeterv/luacheck",
+      "target": "starwing/luautf8",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpeterv/luacheck",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:38.673613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " A tool for linting and static analysis of Lua code. ",
+    "fork": false,
+    "full_name": "mpeterv/luacheck",
+    "html_url": "https://github.com/mpeterv/luacheck",
+    "language": "Lua",
+    "pushed_at": "2022-12-18T19:53:23Z",
+    "stargazers_count": 2027,
+    "topics": [
+      "linter",
+      "lua"
+    ],
+    "updated_at": "2026-04-16T07:25:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "malcolm3141/brackets-luacheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "starwing/luautf8",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steelbrain/linter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-syntastic/syntastic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/luacheck/Lobby](https://badges.gitter.im/luacheck/Lobby.svg)](https://gitter.im/luacheck/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "Ayanami0730/deep_research_bench",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate-context",
+      "text": "DeepResearch Bench II (DRB2) is the follow-up to DeepResearch Bench, with a stronger focus on measuring the gap between deep research systems and human experts. It does so by decomposing expert-written reports into hierarchical rubrics covering presentation, analysis, and evidence, and using them to evaluate model-generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Ayanami0730/deep_research_bench",
       "status": "candidate",
       "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "Ayanami0730/deep_research_bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/snapshot.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/charm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/meta/.github/workflows/snapshot.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "lint-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "golangci/golangci-lint-action@v9.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/skate",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/skate",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:11.928280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4434
+    },
+    {
+      "path": "go.mod",
+      "size": 2449
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/dependabot-sync.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/lint-sync.yml",
+      "size": 240
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A personal key value store \ud83d\udefc",
+    "fork": false,
+    "full_name": "charmbracelet/skate",
+    "html_url": "https://github.com/charmbracelet/skate",
+    "language": "Go",
+    "pushed_at": "2025-12-22T10:03:06Z",
+    "stargazers_count": 1766,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-19T08:31:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charmbracelet/charm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "dependabot-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "term": "dependabot-sync"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "lint-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "term": "lint-sync"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

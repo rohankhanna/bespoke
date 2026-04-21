@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "GitoxideLabs/gitoxide",
-      "target": "github/git-sizer",
+      "target": "lutetium-vanadium/requestty",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "GitoxideLabs/gitoxide",
-      "target": "filhodanuvem/gitql",
+      "target": "gitpython-developers/gitpython",
       "target_type": "repository"
     },
     {
@@ -204,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "GitoxideLabs/gitoxide"
 }

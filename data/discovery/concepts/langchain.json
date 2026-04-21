@@ -55,6 +55,42 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "LangChain \ud83d\udd0c MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "This library provides a lightweight wrapper that makes [Anthropic Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) tools compatible with [LangChain](https://github.com/langchain-ai/langchain) and [LangGraph](https://github.com/langchain-ai/langgraph)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate",
       "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate",
+      "text": "This library provides a lightweight wrapper that makes [Anthropic Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) tools compatible with [LangChain](https://github.com/langchain-ai/langchain) and [LangGraph](https://github.com/langchain-ai/langgraph)."
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +184,35 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/deepagentsjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

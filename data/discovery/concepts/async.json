@@ -19,6 +19,18 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate-context",
       "text": "=================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate",
       "text": "=================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

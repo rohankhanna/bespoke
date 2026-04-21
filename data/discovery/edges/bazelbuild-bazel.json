@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/bazel",
+      "target": "bazelbuild/rules_apple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-picker.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-picker.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "bazelbuild/continuous-integration/actions/cherry_picker@ac7892b9d7010988b3ecb53656812ce9a5da77af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-picker.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "cherry-picker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-review-labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-review-labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-review-labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "Community Review Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-helper.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-helper.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "bazelbuild/continuous-integration/actions/release-helper@ac7892b9d7010988b3ecb53656812ce9a5da77af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-helper.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "release-helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "Remove PR Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ssl-monitor.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ssl-monitor.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ssl-monitor.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ssl-monitor.yml",
+      "source_repo": "bazelbuild/bazel",
+      "target": "SSL Certificate Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "correct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "multi-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "scalable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "bazelbuild/bazel"
+}

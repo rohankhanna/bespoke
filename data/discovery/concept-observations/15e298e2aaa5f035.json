@@ -84,7 +84,7 @@
   "normalized_form": "enable-auto-merge-for-dependabot-prs",
   "observation_id": "15e298e2aaa5f035",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Enable auto-merge for Dependabot PRs",
   "source_context_snippet": "Enable auto-merge for Dependabot PRs",
   "source_file": ".github/workflows/dependabot.yml",

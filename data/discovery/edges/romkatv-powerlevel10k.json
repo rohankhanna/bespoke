@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "asdf-vm/asdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "cehoffman/luaenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "containers/toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/powerlevel10k",
+      "target": "adobe-fonts/source-code-pro",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "romkatv/powerlevel10k"
+}

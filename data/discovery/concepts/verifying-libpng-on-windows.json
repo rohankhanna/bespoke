@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verifying libpng on Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "LIBPNG: Portable Network Graphics support, official libpng repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate-context",
+      "text": "Verifying libpng on Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnggroup/libpng",
+      "status": "candidate",
+      "text": "Verifying libpng on Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11163,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11163,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11163,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11163,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11163,
+      "status": "candidate",
+      "text": "controlling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verifying libpng on Windows",
+  "concept_id": "verifying-libpng-on-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/verify-windows.yml",
+      "source_repo": "pnggroup/libpng"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verifying libpng on Windows",
+      "sense_id": "verifying-libpng-on-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

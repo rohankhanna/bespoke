@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate-context",
+      "text": "Tool for generating high quality Synthetic datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate-context",
+      "text": "Tool for generating high-quality synthetic datasets to fine-tune LLMs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate",
+      "text": "Tool for generating high-quality synthetic datasets to fine-tune LLMs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986392,
+      "status": "candidate",
+      "text": "propagation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938152,
+      "status": "candidate",
+      "text": "multiplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999769,
+      "status": "candidate",
+      "text": "coevals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999769,
+      "status": "candidate",
+      "text": "contemporaries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999768,
+      "status": "candidate",
+      "text": "production"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11048,
+      "status": "candidate",
+      "text": "propagation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6018,
+      "status": "candidate",
+      "text": "contemporaries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4015,
+      "status": "candidate",
+      "text": "coevals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1039,
+      "status": "candidate",
+      "text": "multiplication"
+    }
+  ],
+  "canonical_name": "generation",
+  "concept_id": "generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/synthetic-data-kit"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generation",
+      "sense_id": "generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

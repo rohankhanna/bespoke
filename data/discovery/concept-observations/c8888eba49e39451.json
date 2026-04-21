@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AWS X-Ray daemon listens for traffic on UDP port 2000, gathers raw segment data, and relays it to the AWS X-Ray API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Build and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Build and Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18235,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18235,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "libel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "published"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "publishing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Build and Publish",
+      "sense_id": "continuous-build-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-build-and-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-build-and-publish",
+  "observation_id": "c8888eba49e39451",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Continuous Build and Publish",
+  "source_context_snippet": "Continuous Build and Publish",
+  "source_file": ".github/workflows/continuous-build.yml",
+  "source_repo": "aws/aws-xray-daemon",
+  "source_repo_description": "The AWS X-Ray daemon listens for traffic on UDP port 2000, gathers raw segment data, and relays it to the AWS X-Ray API."
+}

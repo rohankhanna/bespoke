@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "rullerzhou-afk/clawd-on-desk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
     }
   ],
   "term": "Build & Release"

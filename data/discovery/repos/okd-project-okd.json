@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "okd-project/okd",
+      "target": "openshift/installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "okd-project/okd",
+      "target": "openshift/library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "okd-project/okd",
+      "target": "openshift-s2i/s2i-wildfly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "okd-project/okd",
+      "target": "openshift/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okd-project/okd",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okd-project/okd",
+      "target": "kubernetes-distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okd-project/okd",
+      "target": "okd-4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:19.020658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The self-managing, auto-upgrading, Kubernetes distribution for everyone",
+    "fork": false,
+    "full_name": "okd-project/okd",
+    "html_url": "https://github.com/okd-project/okd",
+    "language": "HCL",
+    "pushed_at": "2026-04-20T13:23:29Z",
+    "stargazers_count": 2062,
+    "topics": [
+      "kubernetes",
+      "kubernetes-distribution",
+      "okd",
+      "okd-4"
+    ],
+    "updated_at": "2026-04-21T05:17:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift-s2i/s2i-wildfly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/installer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/library",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-distribution"
+    },
+    {
+      "context_snippet": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "okd-4"
+    }
+  ]
+}

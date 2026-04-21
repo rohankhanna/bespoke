@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39630527,
+      "status": "candidate",
+      "text": "drove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39532992,
+      "status": "candidate",
+      "text": "pour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39502101,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39417896,
+      "status": "candidate",
+      "text": "teem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39389778,
+      "status": "candidate",
+      "text": "horde"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swarm",
+      "sense_id": "swarm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19057,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "horde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "drove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "pour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7041,
+      "status": "candidate",
+      "text": "teem"
+    }
+  ],
+  "concept_id": "swarm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swarm",
+  "observation_id": "53e2d9da6188b938",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "swarm",
+  "source_context_snippet": "[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)",
+  "source_file": null,
+  "source_repo": "ethersphere/bee",
+  "source_repo_description": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+}

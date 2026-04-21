@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "redteam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunnyWolf/Viper",
+      "status": "candidate-context",
+      "text": "Adversary simulation and Red teaming platform with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunnyWolf/Viper",
+      "status": "candidate-context",
+      "text": "![cover-v5-optimized](./docs/public/og/img_0.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunnyWolf/Viper",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./docs/public/og/img_0.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "redteam",
+  "concept_id": "redteam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "FunnyWolf/Viper"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "redteam",
+      "sense_id": "redteam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

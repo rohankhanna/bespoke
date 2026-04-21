@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/containerization",
+      "target": "kata-containers/kata-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/containerization",
+      "target": "swiftlang/swiftly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization",
+      "target": "Build and publish containerization test images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "source_repo": "apple/containerization",
+      "target": "Build containerization template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containerization-build.yml",
+      "source_repo": "apple/containerization",
+      "target": "Build containerization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yaml",
+      "source_repo": "apple/containerization",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yaml",
+      "source_repo": "apple/containerization",
+      "target": "Deploy application website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "apple/containerization",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/containerization",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/containerization",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/containerization",
+      "target": "Release containerization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:38.023850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7400
+    },
+    {
+      "path": ".github/workflows/build-test-images.yml",
+      "size": 2456
+    },
+    {
+      "path": ".github/workflows/containerization-build-template.yml",
+      "size": 3855
+    },
+    {
+      "path": ".github/workflows/containerization-build.yml",
+      "size": 1667
+    },
+    {
+      "path": ".github/workflows/docs-release.yaml",
+      "size": 1178
+    },
+    {
+      "path": ".github/workflows/linux-build.yml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Containerization is a Swift package for running Linux containers on macOS.",
+    "fork": false,
+    "full_name": "apple/containerization",
+    "html_url": "https://github.com/apple/containerization",
+    "language": "Swift",
+    "pushed_at": "2026-04-19T15:49:47Z",
+    "stargazers_count": 8485,
+    "topics": [],
+    "updated_at": "2026-04-20T20:30:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kata-containers/kata-containers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swiftlang/swiftly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish containerization test images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "term": "Build and publish containerization test images"
+    },
+    {
+      "context_snippet": "Build containerization template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containerization-build-template.yml",
+      "term": "Build containerization template"
+    },
+    {
+      "context_snippet": "Build containerization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containerization-build.yml",
+      "term": "Build containerization"
+    },
+    {
+      "context_snippet": "Deploy application website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yaml",
+      "term": "Deploy application website"
+    },
+    {
+      "context_snippet": "Linux build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "term": "Linux build"
+    },
+    {
+      "context_snippet": "Release containerization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release containerization"
+    }
+  ]
+}

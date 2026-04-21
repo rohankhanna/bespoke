@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "haotian-liu/LLaVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bentoml/BentoML"
     }
   ],
   "term": "multimodal"

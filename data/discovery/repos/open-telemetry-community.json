@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    },
+    {
+      "component": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-management-feedback-label.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-management-stale-action.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml"
+    },
+    {
+      "component": "streetsidesoftware/cspell-action@9cd41bb518a24fefdafd9880cbab8f0ceba04d28",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/table-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/community",
+      "target": "cncf/artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/community",
+      "target": "open-telemetry/opentelemetry-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/community",
+      "target": "open-telemetry/opentelemetry-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/community",
+      "target": "cncf/tag-observability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "FOSSA scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-management-feedback-label.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-management-stale-action.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-management-stale-action.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "Issue management - run stale action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "OSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proposal-triage.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "Issue management - Triage Project Proposals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "streetsidesoftware/cspell-action@9cd41bb518a24fefdafd9880cbab8f0ceba04d28",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "Spell checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/table-check.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/table-check.yml",
+      "source_repo": "open-telemetry/community",
+      "target": "SIG Table checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/community",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/community",
+      "target": "opentelemetry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:27.646396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38532
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1092
+    },
+    {
+      "path": ".github/workflows/fossa.yml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/issue-management-feedback-label.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/issue-management-stale-action.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/ossf-scorecard.yml",
+      "size": 1550
+    },
+    {
+      "path": ".github/workflows/proposal-triage.yml",
+      "size": 1152
+    },
+    {
+      "path": ".github/workflows/spell-check.yml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/table-check.yml",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenTelemetry community content",
+    "fork": false,
+    "full_name": "open-telemetry/community",
+    "html_url": "https://github.com/open-telemetry/community",
+    "language": "Python",
+    "pushed_at": "2026-04-20T09:49:19Z",
+    "stargazers_count": 1033,
+    "topics": [
+      "cncf",
+      "community",
+      "opentelemetry"
+    ],
+    "updated_at": "2026-04-21T11:28:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/artwork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/tag-observability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-kotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "FOSSA scanning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "term": "FOSSA scanning"
+    },
+    {
+      "context_snippet": "Issue management - run stale action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-management-stale-action.yml",
+      "term": "Issue management - run stale action"
+    },
+    {
+      "context_snippet": "OSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "term": "OSSF Scorecard"
+    },
+    {
+      "context_snippet": "Issue management - Triage Project Proposals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proposal-triage.yml",
+      "term": "Issue management - Triage Project Proposals"
+    },
+    {
+      "context_snippet": "Spell checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check.yml",
+      "term": "Spell checking"
+    },
+    {
+      "context_snippet": "SIG Table checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/table-check.yml",
+      "term": "SIG Table checking"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    }
+  ]
+}

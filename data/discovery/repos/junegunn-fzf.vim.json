@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/fzf.vim",
+      "target": "tpope/vim-pathogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/fzf.vim",
+      "target": "tpope/vim-fugitive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/fzf.vim",
+      "target": "sirver/ultisnips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junegunn/fzf.vim",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:39.950561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "fzf :heart: vim",
+    "fork": false,
+    "full_name": "junegunn/fzf.vim",
+    "html_url": "https://github.com/junegunn/fzf.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-10T12:31:17Z",
+    "stargazers_count": 10179,
+    "topics": [
+      "fzf",
+      "neovim",
+      "vim"
+    ],
+    "updated_at": "2026-04-21T08:57:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sirver/ultisnips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-fugitive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-pathogen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "fzf :heart: vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

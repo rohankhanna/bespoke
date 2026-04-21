@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Foundry Post Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Contracts of EigenLayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Foundry Post Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate",
+      "text": "Foundry Post Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22266,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22245,
+      "status": "candidate",
+      "text": "slag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21614,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21572,
+      "status": "candidate",
+      "text": "amalgamate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21572,
+      "status": "candidate",
+      "text": "amalgamated"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Foundry Post Merge",
+  "concept_id": "foundry-post-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Foundry Post Merge",
+      "sense_id": "foundry-post-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

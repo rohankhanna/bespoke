@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:40:53.234825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2455
+    },
+    {
+      "path": "requirements.txt",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "html_url": "https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-01T16:54:43Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-04-20T14:45:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

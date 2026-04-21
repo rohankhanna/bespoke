@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Generate Module Index"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "status": "candidate-context",
+      "text": "Generate Module Index"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "status": "candidate",
+      "text": "Generate Module Index"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "gather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "gathered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "regenerating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Module Index",
+  "concept_id": "generate-module-index",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Module Index",
+      "sense_id": "generate-module-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

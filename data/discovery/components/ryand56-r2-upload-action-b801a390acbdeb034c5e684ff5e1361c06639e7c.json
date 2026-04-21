@@ -1,0 +1,22 @@
+{
+  "component": "ryand56/r2-upload-action@b801a390acbdeb034c5e684ff5e1361c06639e7c",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-tag.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty"
+    }
+  ]
+}

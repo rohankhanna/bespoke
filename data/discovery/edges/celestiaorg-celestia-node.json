@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "hexops/dockerfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "celestiaorg/.github/.github/workflows/reusable_dockerfile_lint.yml@v0.6.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "celestiaorg/.github/.github/actions/yamllint@v0.6.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "crazy-max/ghaction-import-gpg@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "CI and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-breaking.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "Detect Breaking Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "celestiaorg/.github/.github/workflows/reusable_dockerfile_pipeline.yml@v0.6.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-publish.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "Docker Build & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "peaceiris/actions-mdbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "rossjrw/pr-preview-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_pages.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "golangci/golangci-lint-action@v9.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "codecov/codecov-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "Go CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-label-automation.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "tspascoal/get-user-teams-membership@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-label-automation.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-label-automation.yml",
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "Label Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "celestia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "data-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celestiaorg/celestia-node",
+      "target": "data-availability-sampling",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "celestiaorg/celestia-node"
+}

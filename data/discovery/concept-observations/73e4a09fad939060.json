@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Report size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Report size"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "caps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "estimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11693,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report size",
+      "sense_id": "report-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "report-size",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "report-size",
+  "observation_id": "73e4a09fad939060",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Report size",
+  "source_context_snippet": "Report size",
+  "source_file": ".github/workflows/report-size.yml",
+  "source_repo": "mrdoob/three.js",
+  "source_repo_description": "JavaScript 3D Library."
+}

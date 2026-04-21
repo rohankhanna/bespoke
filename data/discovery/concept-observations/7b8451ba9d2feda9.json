@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update epics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update epics"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "brecht"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10795,
+      "status": "candidate",
+      "text": "epic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "hesiod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "long"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "peplum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update epics",
+      "sense_id": "update-epics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-epics",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-epics",
+  "observation_id": "7b8451ba9d2feda9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Update epics",
+  "source_context_snippet": "Update epics",
+  "source_file": ".github/workflows/epic.yaml",
+  "source_repo": "k3s-io/k3s",
+  "source_repo_description": "Lightweight Kubernetes"
+}

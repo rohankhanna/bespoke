@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Tests - License Exceptions Site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "E2E Tests - License Exceptions Site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate",
+      "text": "E2E Tests - License Exceptions Site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33852,
+      "status": "candidate",
+      "text": "prison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30558,
+      "status": "candidate",
+      "text": "liberty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30285,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30239,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30239,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Tests - License Exceptions Site",
+  "concept_id": "e2e-tests---license-exceptions-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Tests - License Exceptions Site",
+      "sense_id": "e2e-tests---license-exceptions-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

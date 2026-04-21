@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate-context",
+      "text": "Benchmark Tests (LangChain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchainjs",
+      "status": "candidate",
+      "text": "Benchmark Tests (LangChain)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11843,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11795,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Benchmark Tests (LangChain)",
   "concept_id": "benchmark-tests-langchain",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/benchmark-tests.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "langchain-ai/langchainjs"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

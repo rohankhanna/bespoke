@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lambda"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010971,
+      "status": "candidate",
+      "text": "omega"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010872,
+      "status": "candidate",
+      "text": "gamma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971062,
+      "status": "candidate",
+      "text": "average"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19926041,
+      "status": "candidate",
+      "text": "ordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919273,
+      "status": "candidate",
+      "text": "normal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lambda",
+  "concept_id": "lambda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lambda",
+      "sense_id": "lambda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

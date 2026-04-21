@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add waiting-response on failures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Add waiting-response on failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate",
+      "text": "Add waiting-response on failures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12478,
+      "status": "candidate",
+      "text": "erratum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12478,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12478,
+      "status": "candidate",
+      "text": "fail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12478,
+      "status": "candidate",
+      "text": "misconduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12236,
+      "status": "candidate",
+      "text": "faults"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add waiting-response on failures",
+  "concept_id": "add-waiting-response-on-failures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/add-waiting-response-on-fail.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add waiting-response on failures",
+      "sense_id": "add-waiting-response-on-failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

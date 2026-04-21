@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Issue Closer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Stale Issue Closer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate",
+      "text": "Stale Issue Closer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18678,
+      "status": "candidate",
+      "text": "bilge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18416,
+      "status": "candidate",
+      "text": "long"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18363,
+      "status": "candidate",
+      "text": "counter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18363,
+      "status": "candidate",
+      "text": "near"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18327,
+      "status": "candidate",
+      "text": "another"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Issue Closer",
+  "concept_id": "stale-issue-closer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/pylance-release"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Issue Closer",
+      "sense_id": "stale-issue-closer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

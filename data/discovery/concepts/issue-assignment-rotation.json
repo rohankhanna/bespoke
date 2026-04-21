@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Assignment Rotation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "\"Issue Assignment Rotation\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate",
+      "text": "\"Issue Assignment Rotation\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18116,
+      "status": "candidate",
+      "text": "displacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18116,
+      "status": "candidate",
+      "text": "rotate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18116,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18116,
+      "status": "candidate",
+      "text": "rounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "capitalize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Assignment Rotation",
+  "concept_id": "issue-assignment-rotation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Assignment Rotation",
+      "sense_id": "issue-assignment-rotation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

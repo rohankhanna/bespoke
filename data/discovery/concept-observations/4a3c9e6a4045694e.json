@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765110,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39736344,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731681,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730257,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728489,
+      "status": "candidate",
+      "text": "chromatic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "rust fungus"
+    }
+  ],
+  "concept_id": "rust",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust",
+  "observation_id": "4a3c9e6a4045694e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "rust",
+  "source_context_snippet": "Cargo downloads your Rust project\u2019s dependencies and compiles your project.",
+  "source_file": null,
+  "source_repo": "rust-lang/cargo",
+  "source_repo_description": "The Rust package manager"
+}

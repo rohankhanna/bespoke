@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/nanochat",
+      "target": "karpathy/nanogpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/nanochat",
+      "target": "kellerjordan/modded-nanogpt",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "karpathy/nanochat"
+}

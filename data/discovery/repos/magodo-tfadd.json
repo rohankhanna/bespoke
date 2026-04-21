@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "magodo/tfadd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "magodo/tfadd",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magodo/tfadd",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:42.896193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2238
+    },
+    {
+      "path": "go.mod",
+      "size": 2444
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate valid Terraform configuration from state",
+    "fork": false,
+    "full_name": "magodo/tfadd",
+    "html_url": "https://github.com/magodo/tfadd",
+    "language": "Go",
+    "pushed_at": "2026-04-02T01:09:25Z",
+    "stargazers_count": 97,
+    "topics": [
+      "terraform"
+    ],
+    "updated_at": "2026-04-02T01:09:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate valid Terraform configuration from state.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

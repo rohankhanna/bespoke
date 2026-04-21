@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "Format Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate",
+      "text": "upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030714,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030552,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030260,
+      "status": "candidate",
+      "text": "reload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023825,
+      "status": "candidate",
+      "text": "uplink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997018,
+      "status": "candidate",
+      "text": "send"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "upload",
+  "concept_id": "upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/upload-assets.yml",
+      "source_repo": "rust-lang/rustfmt"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "upload",
+      "sense_id": "upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,656 @@
+{
+  "components": [
+    {
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semver.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@6b69fcf40e9b5fb17adeb57e4b6ecd020649a239",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semver.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bnjbvr/cargo-machete@ac30a525c0a8d163a92d727b3ff079ee3f6ecb08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@74f735cdf643820234e37ae1c4089a08fd266d8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ratatui/ratatui",
+      "target": "ratatui/templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ratatui/ratatui",
+      "target": "ratatui/awesome-ratatui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "Check Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semver.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semver.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "obi1kenobi/cargo-semver-checks-action@6b69fcf40e9b5fb17adeb57e4b6ecd020649a239",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-semver.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "Check Semver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "bnjbvr/cargo-machete@ac30a525c0a8d163a92d727b3ff079ee3f6ecb08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "dtolnay/install@74f735cdf643820234e37ae1c4089a08fd266d8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui",
+      "target": "ratatui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui",
+      "target": "terminal-user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui",
+      "target": "widgets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:15.658081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8098
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3962
+    },
+    {
+      "path": ".github/workflows/check-pr.yml",
+      "size": 3527
+    },
+    {
+      "path": ".github/workflows/check-semver.yml",
+      "size": 651
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 11417
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 2337
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00 https://ratatui.rs",
+    "fork": false,
+    "full_name": "ratatui/ratatui",
+    "html_url": "https://github.com/ratatui/ratatui",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T19:01:46Z",
+    "stargazers_count": 19906,
+    "topics": [
+      "cli",
+      "ratatui",
+      "rust",
+      "terminal",
+      "terminal-user-interface",
+      "tui",
+      "widgets"
+    ],
+    "updated_at": "2026-04-21T09:42:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ratatui/awesome-ratatui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ratatui/templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr.yml",
+      "term": "Check Pull Requests"
+    },
+    {
+      "context_snippet": "Check Semver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-semver.yml",
+      "term": "Check Semver"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ratatui"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-user-interface"
+    },
+    {
+      "context_snippet": "<details>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widgets"
+    }
+  ]
+}

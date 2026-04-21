@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "target": "Generate Module Index",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "bmad-code-org/bmad-plugins-marketplace"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:24:12.282056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The missing funding framework for bootstrappers, indie hackers, and creators",
+    "fork": false,
+    "full_name": "automazeio/open-royalties",
+    "html_url": "https://github.com/automazeio/open-royalties",
+    "language": null,
+    "pushed_at": "2026-01-16T12:22:54Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-04T09:40:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

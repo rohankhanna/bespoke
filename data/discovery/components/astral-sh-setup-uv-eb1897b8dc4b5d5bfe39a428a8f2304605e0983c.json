@@ -1,0 +1,12 @@
+{
+  "component": "astral-sh/setup-uv@eb1897b8dc4b5d5bfe39a428a8f2304605e0983c",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_docs_build.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    }
+  ]
+}

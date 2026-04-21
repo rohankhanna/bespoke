@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A starter kit for building ai agents on Cloudflare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sanity Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sanity Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039422,
+      "status": "candidate",
+      "text": "sanity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039421,
+      "status": "candidate",
+      "text": "saneness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039420,
+      "status": "candidate",
+      "text": "checkability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039419,
+      "status": "candidate",
+      "text": "soundness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039418,
+      "status": "candidate",
+      "text": "correctness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sanity Check",
+      "sense_id": "sanity-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sanity-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sanity-check",
+  "observation_id": "e03bc4986b03950f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Sanity Check",
+  "source_context_snippet": "Sanity Check",
+  "source_file": ".github/workflows/sanity-check.yml",
+  "source_repo": "cloudflare/agents-starter",
+  "source_repo_description": "A starter kit for building ai agents on Cloudflare"
+}

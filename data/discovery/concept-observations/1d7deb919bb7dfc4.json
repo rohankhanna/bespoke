@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "1d7deb919bb7dfc4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "citgm is a simple tool for pulling down an arbitrary module from npm and testing",
+  "source_file": null,
+  "source_repo": "nodejs/citgm",
+  "source_repo_description": "Canary in the Gold Mine"
+}

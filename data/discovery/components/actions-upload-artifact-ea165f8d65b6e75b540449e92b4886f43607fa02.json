@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "protocolbuffers/protobuf-javascript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog_entry.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChadKillingsworth/closure-compiler-npm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
     }
   ]
 }

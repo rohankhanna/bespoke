@@ -25,6 +25,54 @@
       "source_repo": "behave/behave-django",
       "status": "candidate-context",
       "text": "behave-django |latest-version|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate-context",
+      "text": "The Black shade analyser and comparison tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +81,30 @@
       "source_repo": "behave/behave-django",
       "status": "candidate",
       "text": "behave-django |latest-version|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +168,35 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "behave/behave-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

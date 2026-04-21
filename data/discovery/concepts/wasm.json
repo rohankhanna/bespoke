@@ -31,6 +31,18 @@
       "source_repo": "hashintel/labs",
       "status": "candidate-context",
       "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "messense/jieba-rs",
+      "status": "candidate-context",
+      "text": "The Jieba Chinese Word Segmentation Implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "messense/jieba-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hashintel/labs",
       "status": "candidate",
       "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "messense/jieba-rs",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hashintel/labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "messense/jieba-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

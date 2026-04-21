@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "graphql/graphiql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "graphql-python/swapi-graphene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "graphql-python/graphene-sqlalchemy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "lmcgartland/graphene-file-upload",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "\ud83d\ude80 Deploy to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-django",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-django",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-django",
+      "target": "graphene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-django",
+      "target": "graphql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:35:04.331769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5964
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build powerful, efficient, and flexible GraphQL APIs with seamless Django integration.",
+    "fork": false,
+    "full_name": "graphql-python/graphene-django",
+    "html_url": "https://github.com/graphql-python/graphene-django",
+    "language": "Python",
+    "pushed_at": "2026-02-03T20:49:34Z",
+    "stargazers_count": 4386,
+    "topics": [
+      "django",
+      "graphene",
+      "graphql",
+      "python"
+    ],
+    "updated_at": "2026-04-20T05:56:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql-python/graphene-sqlalchemy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql-python/swapi-graphene",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphiql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmcgartland/graphene-file-upload",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\ude80 Deploy to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "[![build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphene"
+    },
+    {
+      "context_snippet": "[![build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    }
+  ]
+}

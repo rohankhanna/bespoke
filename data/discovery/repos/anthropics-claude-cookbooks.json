@@ -135,13 +135,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-cookbooks",
-      "target": "aws-samples/anthropic-on-aws",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-link-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
@@ -366,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:51:33.745108+00:00",
+  "fetched_at": "2026-04-21T11:24:35.223865+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -409,7 +402,6 @@
       "size": 8502
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:53.943800+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -420,19 +412,14 @@
     "html_url": "https://github.com/anthropics/claude-cookbooks",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-17T01:15:54Z",
-    "stargazers_count": 41048,
+    "stargazers_count": 41193,
     "topics": [],
-    "updated_at": "2026-04-19T14:01:49Z"
+    "updated_at": "2026-04-21T11:05:42Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "anthropics/anthropic-cookbook",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aws-samples/anthropic-on-aws",
       "source_file": "README.md"
     }
   ],

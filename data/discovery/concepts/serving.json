@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "serving"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029571,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020994,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016923,
+      "status": "candidate",
+      "text": "service of process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873665,
+      "status": "candidate",
+      "text": "helping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030447,
+      "status": "candidate",
+      "text": "employed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15041,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "helping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "service of process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "service"
+    }
+  ],
+  "canonical_name": "serving",
+  "concept_id": "serving",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ray-project/ray"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serving",
+      "sense_id": "serving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

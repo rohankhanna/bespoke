@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dreamfusion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dreamfusion",
+  "concept_id": "dreamfusion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dreamfusion",
+      "sense_id": "dreamfusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "alirezarezvani/claude-skills",
       "status": "candidate-context",
       "text": "Auto-Close Issues on PR Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "Auto-Close Issues on PR Merge"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +39,51 @@
       "source_repo": "alirezarezvani/claude-skills",
       "status": "candidate",
       "text": "Auto-Close Issues on PR Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "Auto-Close Issues on PR Merge"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18380,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18330,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10124,
+      "status": "candidate",
+      "text": "praseodymium"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Auto-Close Issues on PR Merge",
   "concept_id": "auto-close-issues-on-pr-merge",
@@ -40,12 +94,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/pr-issue-auto-close.yml",
       "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

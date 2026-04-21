@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dl-url.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dl-url.yml",
+      "source_repo": "rust-lang/crates.io-index",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dl-url.yml",
+      "source_repo": "rust-lang/crates.io-index",
+      "target": "Update download URL",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:08.914976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/update-dl-url.yml",
+      "size": 3051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Registry index for crates.io",
+    "fork": false,
+    "full_name": "rust-lang/crates.io-index",
+    "html_url": "https://github.com/rust-lang/crates.io-index",
+    "language": "Tcl",
+    "pushed_at": "2026-04-21T11:30:48Z",
+    "stargazers_count": 700,
+    "topics": [],
+    "updated_at": "2026-04-21T11:30:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update download URL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dl-url.yml",
+      "term": "Update download URL"
+    }
+  ]
+}

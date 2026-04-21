@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Close PRs With Failing CI'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Close PRs With Failing CI'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26801,
+      "status": "candidate",
+      "text": "dying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14307,
+      "status": "candidate",
+      "text": "pagoda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14307,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close PRs With Failing CI",
+      "sense_id": "close-prs-with-failing-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-prs-with-failing-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-prs-with-failing-ci",
+  "observation_id": "ec1d1973bce51f13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Close PRs With Failing CI",
+  "source_context_snippet": "'Close PRs With Failing CI'",
+  "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+  "source_repo": "hashicorp/terraform-provider-azurerm",
+  "source_repo_description": "Terraform provider for Azure Resource Manager"
+}

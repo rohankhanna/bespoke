@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -31,6 +31,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/code_quality.yml",
       "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cqa.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "strands-agents/sdk-typescript"
     }
   ],
   "term": "Code Quality"

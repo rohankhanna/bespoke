@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "formal verification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "formal verification"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37729,
+      "status": "candidate",
+      "text": "formal specification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37728,
+      "status": "candidate",
+      "text": "model checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37727,
+      "status": "candidate",
+      "text": "operational semantics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37726,
+      "status": "candidate",
+      "text": "formal equivalence checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37725,
+      "status": "candidate",
+      "text": "specification language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "formal verification",
+      "sense_id": "formal-verification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "formal-verification",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "formal-verification",
+  "observation_id": "38da606b8211fab9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "formal verification",
+  "source_context_snippet": "formal verification",
+  "source_file": ".github/workflows/formal-verification.yml",
+  "source_repo": "OpenZeppelin/openzeppelin-contracts",
+  "source_repo_description": "OpenZeppelin Contracts is a library for secure smart contract development."
+}

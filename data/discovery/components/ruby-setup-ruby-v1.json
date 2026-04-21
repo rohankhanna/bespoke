@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rubocop.yml",
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings-ruby.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "a-ghorbani/pocketpal-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dokku/dokku"
     }
   ]
 }

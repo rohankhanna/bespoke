@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Azure function dry run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Azure function dry run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate",
+      "text": "Azure function dry run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43880,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33729,
+      "status": "candidate",
+      "text": "rehearsal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33329,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32830,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32830,
+      "status": "candidate",
+      "text": "trial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Azure function dry run",
+  "concept_id": "azure-function-dry-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dryRun.yml",
+      "source_repo": "microsoft/pylance-release"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure function dry run",
+      "sense_id": "azure-function-dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

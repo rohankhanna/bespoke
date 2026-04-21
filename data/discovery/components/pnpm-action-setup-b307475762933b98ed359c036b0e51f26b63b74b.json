@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@b307475762933b98ed359c036b0e51f26b63b74b",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "langchain-ai/deepagentsjs"
+    }
+  ]
+}

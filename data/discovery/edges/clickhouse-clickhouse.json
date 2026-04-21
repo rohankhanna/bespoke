@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "clickhouse/clickhouse-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_releases.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "ClickHouse/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_releases.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "AutoReleases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "ClickHouse/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "BackfillDistroless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_branches.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport_branches.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "BackportPR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry_pick.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "ClickHouse/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry_pick.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "CherryPick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "ClickHouse/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "CreateRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom_build_praktika.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/custom_build_praktika.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "Build Praktika for PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "Hourly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "MasterCI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "dbms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "lakehouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "olap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse",
+      "target": "self-hosted",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ClickHouse/ClickHouse"
+}

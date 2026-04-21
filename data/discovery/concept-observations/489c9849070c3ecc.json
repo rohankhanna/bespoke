@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License Headers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License Headers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13960,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13960,
+      "status": "candidate",
+      "text": "trimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "acephalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "actuator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Headers",
+      "sense_id": "license-headers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-headers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-headers",
+  "observation_id": "489c9849070c3ecc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "License Headers",
+  "source_context_snippet": "License Headers",
+  "source_file": ".github/workflows/license-check.yml",
+  "source_repo": "NVIDIA/OpenShell-Community",
+  "source_repo_description": "OpenShell is the safe, private runtime for autonomous AI agents."
+}

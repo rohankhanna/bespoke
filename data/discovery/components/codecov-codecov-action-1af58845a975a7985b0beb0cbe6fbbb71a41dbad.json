@@ -1,12 +1,17 @@
 {
   "component": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backend-cloverage.yml",
       "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s"
     }
   ]
 }

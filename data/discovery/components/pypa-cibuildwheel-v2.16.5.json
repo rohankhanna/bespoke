@@ -1,0 +1,12 @@
+{
+  "component": "pypa/cibuildwheel@v2.16.5",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "3swordman/tree-sitter-toon"
+    }
+  ]
+}

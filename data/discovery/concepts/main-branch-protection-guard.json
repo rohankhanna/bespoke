@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main Branch Protection Guard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "Main Branch Protection Guard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "Main Branch Protection Guard"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44592,
+      "status": "candidate",
+      "text": "pad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44244,
+      "status": "candidate",
+      "text": "psd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43816,
+      "status": "candidate",
+      "text": "bracer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43462,
+      "status": "candidate",
+      "text": "keeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43462,
+      "status": "candidate",
+      "text": "shield"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main Branch Protection Guard",
+  "concept_id": "main-branch-protection-guard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/main-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Branch Protection Guard",
+      "sense_id": "main-branch-protection-guard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

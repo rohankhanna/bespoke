@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "jasongin/node-canvas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "boingoing/node-sass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "gabrielschulhof/iotivity-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "mhdawson/node-sqlite3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/abi-stable-node",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:03.906697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "doc",
+    "description": "Repository used by the Node-API team to manage work related to Node-API and node-addon-api",
+    "fork": false,
+    "full_name": "nodejs/abi-stable-node",
+    "html_url": "https://github.com/nodejs/abi-stable-node",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-05T15:13:25Z",
+    "stargazers_count": 248,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-03-11T09:07:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boingoing/node-sass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabrielschulhof/iotivity-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasongin/node-canvas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhdawson/node-sqlite3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

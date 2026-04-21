@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SIG Table checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SIG Table checking"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23348,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23348,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23193,
+      "status": "candidate",
+      "text": "boarding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "section"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SIG Table checking",
+      "sense_id": "sig-table-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sig-table-checking",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sig-table-checking",
+  "observation_id": "481a29defd1881bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "SIG Table checking",
+  "source_context_snippet": "SIG Table checking",
+  "source_file": ".github/workflows/table-check.yml",
+  "source_repo": "open-telemetry/community",
+  "source_repo_description": "OpenTelemetry community content"
+}

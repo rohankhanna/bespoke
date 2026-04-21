@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home for the Semgrep Cursor Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Require Version Bump Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Require Version Bump Label"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27447,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27447,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27447,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27191,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Require Version Bump Label",
+      "sense_id": "require-version-bump-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "require-version-bump-label",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "require-version-bump-label",
+  "observation_id": "f5638cba13a48552",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Require Version Bump Label",
+  "source_context_snippet": "Require Version Bump Label",
+  "source_file": ".github/workflows/require-version-label.yml",
+  "source_repo": "semgrep/cursor-plugin",
+  "source_repo_description": "Home for the Semgrep Cursor Plugin."
+}

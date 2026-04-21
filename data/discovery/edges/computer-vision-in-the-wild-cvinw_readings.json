@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "ashkamath/mdetr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "arpitbansal297/universal-guided-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "alexrame/fishr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings",
+      "target": "alexrame/diwa",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "Computer-Vision-in-the-Wild/CVinW_Readings"
+}

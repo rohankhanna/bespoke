@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -362,6 +362,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/upload_to_pypi.yml",
       "source_repo": "albumentations-team/AlbumentationsX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldayton/Tongues"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cuda.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-metal.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/containerization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-release.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-processor.yml",
+      "source_repo": "1Password/for-open-source"
     }
   ]
 }

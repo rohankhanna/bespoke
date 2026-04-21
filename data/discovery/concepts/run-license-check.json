@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run License Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "PyIceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate-context",
+      "text": "\"Run License Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-python",
+      "status": "candidate",
+      "text": "\"Run License Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26442,
+      "status": "candidate",
+      "text": "congeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25975,
+      "status": "candidate",
+      "text": "breeching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19794,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19794,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19527,
+      "status": "candidate",
+      "text": "tab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run License Check",
+  "concept_id": "run-license-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-python"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run License Check",
+      "sense_id": "run-license-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

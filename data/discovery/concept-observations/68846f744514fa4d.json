@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get a 1Password team account for free to support your open source initiatives!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Approve application"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Approve application"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "adoption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "grant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "sanction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approve application",
+      "sense_id": "approve-application#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "approve-application",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "approve-application",
+  "observation_id": "68846f744514fa4d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Approve application",
+  "source_context_snippet": "Approve application",
+  "source_file": ".github/workflows/approve-application.yml",
+  "source_repo": "1Password/for-open-source",
+  "source_repo_description": "Get a 1Password team account for free to support your open source initiatives!"
+}

@@ -1,0 +1,568 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml"
+    },
+    {
+      "component": "jacobtomlinson/gha-find-replace@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-linux.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-macos.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/cargo@844f36862e911db73fe0815f00a4a2602c279505",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arxanas/git-branchless",
+      "target": "mozilla/gecko-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arxanas/git-branchless",
+      "target": "quark-zju/gitrevset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arxanas/git-branchless",
+      "target": "mapmeld/gitjk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arxanas/git-branchless",
+      "target": "nvbn/thefuck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "jacobtomlinson/gha-find-replace@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Generate Wiki tables of contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-git-devel.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-git-devel.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Linux (Git devel)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-linux.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Nix on Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-macos.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Nix on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions-rs/cargo@844f36862e911db73fe0815f00a4a2602c279505",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arxanas/git-branchless",
+      "target": "Build binaries for GitHub release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arxanas/git-branchless",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:41.973864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12868
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3567
+    },
+    {
+      "path": ".github/workflows/generate-wiki-toc.yml",
+      "size": 1283
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1481
+    },
+    {
+      "path": ".github/workflows/linux-git-devel.yml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3171
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1028
+    },
+    {
+      "path": ".github/workflows/nix-linux.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/nix-macos.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2961
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-velocity, monorepo-scale workflow for Git",
+    "fork": false,
+    "full_name": "arxanas/git-branchless",
+    "html_url": "https://github.com/arxanas/git-branchless",
+    "language": "Rust",
+    "pushed_at": "2026-04-01T23:33:14Z",
+    "stargazers_count": 4050,
+    "topics": [
+      "cli",
+      "git",
+      "workflow"
+    ],
+    "updated_at": "2026-04-21T09:59:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapmeld/gitjk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/gecko-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvbn/thefuck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quark-zju/gitrevset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Generate Wiki tables of contents\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-wiki-toc.yml",
+      "term": "Generate Wiki tables of contents"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "\"Linux (Git devel)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-git-devel.yml",
+      "term": "Linux (Git devel)"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Nix on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-linux.yml",
+      "term": "Nix on Linux"
+    },
+    {
+      "context_snippet": "Nix on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-macos.yml",
+      "term": "Nix on macOS"
+    },
+    {
+      "context_snippet": "Build binaries for GitHub release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build binaries for GitHub release"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=\"147\" height=\"147\" src=\"https://user-images.githubusercontent.com/454057/144287756-8570ba1b-b9f1-46de-9236-ca17db246856.png\" alt=\"git-branchless logo\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

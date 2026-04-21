@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Jieba Chinese Word Segmentation Implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jieba-chinese",
+      "sense_id": "jieba-chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jieba-chinese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jieba-chinese",
+  "observation_id": "6d2a68237be3ac53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "jieba-chinese",
+  "source_context_snippet": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)",
+  "source_file": null,
+  "source_repo": "messense/jieba-rs",
+  "source_repo_description": "The Jieba Chinese Word Segmentation Implemented in Rust"
+}

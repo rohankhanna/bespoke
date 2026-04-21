@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "Bonk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Build and deploy AI Agents on Cloudflare "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Bonk"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate",
+      "text": "Bonk"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040323,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040300,
+      "status": "candidate",
+      "text": "bop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039606,
+      "status": "candidate",
+      "text": "whap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038248,
+      "status": "candidate",
+      "text": "whop"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36052,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28063,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "hump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13026,
+      "status": "candidate",
+      "text": "make out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12061,
+      "status": "candidate",
+      "text": "screw"
+    }
+  ],
+  "canonical_name": "Bonk",
+  "concept_id": "bonk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/agents"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bonk",
+      "sense_id": "bonk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

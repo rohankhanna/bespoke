@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate-context",
+      "text": "Go library for the Stripe API.    "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate-context",
+      "text": "rules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate",
+      "text": "rules"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39790186,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789195,
+      "status": "candidate",
+      "text": "regulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39788912,
+      "status": "candidate",
+      "text": "govern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786733,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786052,
+      "status": "candidate",
+      "text": "prescript"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "rules",
   "concept_id": "rules",
@@ -26,12 +82,20 @@
       "observed_at": "2026-04-18T10:38:37.562216+00:00",
       "source_file": ".github/workflows/rules.yml",
       "source_repo": "stripe/stripe-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rules.yml",
+      "source_repo": "stripe/stripe-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

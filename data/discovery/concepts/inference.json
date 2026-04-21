@@ -7,10 +7,92 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012495,
+      "status": "candidate",
+      "text": "illation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012464,
+      "status": "candidate",
+      "text": "infer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012309,
+      "status": "candidate",
+      "text": "inductive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011641,
+      "status": "candidate",
+      "text": "argumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010816,
+      "status": "candidate",
+      "text": "reasoning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12025,
+      "status": "candidate",
+      "text": "illation"
+    }
+  ],
   "canonical_name": "inference",
   "concept_id": "inference",
   "definition_status": "unresolved",
@@ -26,12 +108,26 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

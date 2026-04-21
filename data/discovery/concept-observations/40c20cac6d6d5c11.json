@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License Exceptions Site Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License Exceptions Site Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30524,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30458,
+      "status": "candidate",
+      "text": "liberty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30127,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30085,
+      "status": "candidate",
+      "text": "context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30085,
+      "status": "candidate",
+      "text": "enter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Exceptions Site Tests",
+      "sense_id": "license-exceptions-site-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-exceptions-site-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-exceptions-site-tests",
+  "observation_id": "40c20cac6d6d5c11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "License Exceptions Site Tests",
+  "source_context_snippet": "License Exceptions Site Tests",
+  "source_file": ".github/workflows/deploy-license-site.yml",
+  "source_repo": "cncf/foundation",
+  "source_repo_description": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+}

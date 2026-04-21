@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CherryPick"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "CherryPick"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "CherryPick"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018703,
+      "status": "candidate",
+      "text": "fragmenting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018702,
+      "status": "candidate",
+      "text": "piqueer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018701,
+      "status": "candidate",
+      "text": "ocher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018700,
+      "status": "candidate",
+      "text": "kvitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018699,
+      "status": "candidate",
+      "text": "mish-mash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CherryPick",
+  "concept_id": "cherrypick",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/cherry_pick.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CherryPick",
+      "sense_id": "cherrypick#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

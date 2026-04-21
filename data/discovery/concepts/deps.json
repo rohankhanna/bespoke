@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "deps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "deps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "deps"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030256,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025408,
+      "status": "candidate",
+      "text": "department"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025359,
+      "status": "candidate",
+      "text": "dept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021819,
+      "status": "candidate",
+      "text": "pol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989304,
+      "status": "candidate",
+      "text": "rep"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "deps",
+  "concept_id": "deps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deps.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deps",
+      "sense_id": "deps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

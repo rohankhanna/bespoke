@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,136 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acc-test.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depscheck.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tflint.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/thirty-two-bit.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "magodo/tfadd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shadow1ng/fscan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "shadow1ng/fscan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mark3labs/mcp-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "mark3labs/mcp-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-processor.yml",
+      "source_repo": "1Password/for-open-source"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-processor.yml",
+      "source_repo": "1Password/for-open-source"
     }
   ]
 }

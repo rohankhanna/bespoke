@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "compvis/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "laion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target": "text2image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:55.553275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Personalization for Stable Diffusion via Aesthetic Gradients \ud83c\udfa8",
+    "fork": false,
+    "full_name": "vicgalle/stable-diffusion-aesthetic-gradients",
+    "html_url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-21T21:19:26Z",
+    "stargazers_count": 742,
+    "topics": [
+      "diffusion-models",
+      "laion",
+      "stable-diffusion",
+      "text-to-image",
+      "text2image"
+    ],
+    "updated_at": "2026-04-03T07:56:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compvis/stable-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "laion"
+    },
+    {
+      "context_snippet": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    }
+  ]
+}

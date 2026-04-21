@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd-push-docker-image.yaml",
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-sandboxes.yml",
+      "source_repo": "NVIDIA/OpenShell-Community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_publish.yml",
+      "source_repo": "bmaltais/kohya_ss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "getbettr/octotail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getbettr/octotail"
     }
   ]
 }

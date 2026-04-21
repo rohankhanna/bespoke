@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and publish containerization test images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/containerization",
+      "status": "candidate-context",
+      "text": "Containerization is a Swift package for running Linux containers on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/containerization",
+      "status": "candidate-context",
+      "text": "Build and publish containerization test images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/containerization",
+      "status": "candidate",
+      "text": "Build and publish containerization test images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42865,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30616,
+      "status": "candidate",
+      "text": "introduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30616,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30588,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30588,
+      "status": "candidate",
+      "text": "molded"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and publish containerization test images",
+  "concept_id": "build-and-publish-containerization-test-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "apple/containerization"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish containerization test images",
+      "sense_id": "build-and-publish-containerization-test-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

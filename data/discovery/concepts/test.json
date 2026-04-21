@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -146,6 +148,234 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idank/bashlex",
+      "status": "candidate-context",
+      "text": "Python parser for bash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idank/bashlex",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldayton/bash-oracle",
+      "status": "candidate-context",
+      "text": "Bash fork for AST dumping and test generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/bash-oracle",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "A SQLite extension for reading large files line-by-line (NDJSON, logs, txt, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dustinblackman/gomodrun",
+      "status": "candidate-context",
+      "text": "The forgotten go tool that executes and caches binaries included in go.mod files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dustinblackman/gomodrun",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "LangChain \ud83d\udd0c MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/jscodeshift",
+      "status": "candidate-context",
+      "text": "A JavaScript codemod toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/jscodeshift",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "Nix User Repository: User contributed nix packages [maintainer=@Pandapip1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/muda",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate-context",
+      "text": "CLI tool for exporting tables or queries from any SQL database to a SQLite file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Linux virtual machines, with a focus on running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_glosses": [
@@ -214,6 +444,120 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idank/bashlex",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/bash-oracle",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dustinblackman/gomodrun",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/jscodeshift",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/muda",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
     }
   ],
   "candidate_related_terms": [
@@ -419,11 +763,125 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idank/bashlex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldayton/bash-oracle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dustinblackman/gomodrun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "nix-community/NUR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Piebald-AI/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/citgm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "getbettr/octotail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

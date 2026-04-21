@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "modelcontextprotocol/python-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "nanbingxyz/5ire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "target": "Build with Maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:24.361181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4873
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MCP Server for Ghidra",
+    "fork": false,
+    "full_name": "LaurieWired/GhidraMCP",
+    "html_url": "https://github.com/LaurieWired/GhidraMCP",
+    "language": "Java",
+    "pushed_at": "2025-06-23T04:18:18Z",
+    "stargazers_count": 8537,
+    "topics": [],
+    "updated_at": "2026-04-21T10:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelcontextprotocol/python-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanbingxyz/5ire",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build with Maven"
+    }
+  ]
+}

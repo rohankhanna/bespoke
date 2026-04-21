@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SSL Certificate Monitor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "SSL Certificate Monitor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "SSL Certificate Monitor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "march"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "authentication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "receive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SSL Certificate Monitor",
+  "concept_id": "ssl-certificate-monitor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ssl-monitor.yml",
+      "source_repo": "bazelbuild/bazel"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SSL Certificate Monitor",
+      "sense_id": "ssl-certificate-monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

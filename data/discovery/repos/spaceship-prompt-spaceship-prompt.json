@@ -1,0 +1,448 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "powerline/fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "belak/prezto-contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "denysdovhan/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "matchai/spacefish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "mislav/bump-homebrew-formula-action@v4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "cycjimmy/semantic-release-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "oh-my-zsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "shell-prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "shell-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "spaceship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "zsh-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "zsh-users",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:02.508712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11896
+    },
+    {
+      "path": "Dockerfile",
+      "size": 378
+    },
+    {
+      "path": "package.json",
+      "size": 992
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    },
+    {
+      "path": ".github/workflows/deps.yaml",
+      "size": 1720
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/homebrew.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1280
+    },
+    {
+      "path": ".github/workflows/validate.yaml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt",
+    "fork": false,
+    "full_name": "spaceship-prompt/spaceship-prompt",
+    "html_url": "https://github.com/spaceship-prompt/spaceship-prompt",
+    "language": "Shell",
+    "pushed_at": "2026-04-02T16:17:11Z",
+    "stargazers_count": 20470,
+    "topics": [
+      "oh-my-zsh",
+      "prompt",
+      "shell",
+      "shell-prompt",
+      "shell-theme",
+      "spaceship",
+      "terminal",
+      "zsh",
+      "zsh-theme",
+      "zsh-users"
+    ],
+    "updated_at": "2026-04-21T02:28:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belak/prezto-contrib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "denysdovhan/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchai/spacefish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powerline/fonts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yaml",
+      "term": "deps"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "homebrew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "term": "validate"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oh-my-zsh"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-prompt"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-theme"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spaceship"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-theme"
+    },
+    {
+      "context_snippet": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-users"
+    }
+  ]
+}

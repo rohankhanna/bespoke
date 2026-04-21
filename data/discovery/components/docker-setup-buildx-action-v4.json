@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "buffer/thug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "trailofbits/eth-security-toolbox"
     }
   ]
 }

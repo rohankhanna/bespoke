@@ -1,0 +1,12 @@
+{
+  "component": "luizm/action-sh-checker@883217215b11c1fabbf00eb1a9a041f62d74c744",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
+    }
+  ]
+}

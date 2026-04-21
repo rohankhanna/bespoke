@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Cargo audit",
-    "cargo audit"
+    "cargo audit",
+    "cargo-audit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate-context",
       "text": "cargo audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "An HTTP library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "cargo-audit"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate",
       "text": "cargo audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate",
+      "text": "cargo-audit"
     }
   ],
   "candidate_related_terms": [
@@ -95,11 +114,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/cargo-audit.yml",
       "source_repo": "libp2p/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/cargo-audit.yml",
+      "source_repo": "hyperium/hyper"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "tooling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922007,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921957,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911025,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909964,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872681,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tooling",
+  "concept_id": "tooling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tooling",
+      "sense_id": "tooling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

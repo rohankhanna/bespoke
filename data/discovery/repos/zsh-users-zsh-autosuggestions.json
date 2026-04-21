@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "autosuggest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "target": "zsh-autosuggestions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:16.811972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10585
+    },
+    {
+      "path": "Dockerfile",
+      "size": 462
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fish-like autosuggestions for zsh",
+    "fork": false,
+    "full_name": "zsh-users/zsh-autosuggestions",
+    "html_url": "https://github.com/zsh-users/zsh-autosuggestions",
+    "language": "Shell",
+    "pushed_at": "2025-06-24T16:15:03Z",
+    "stargazers_count": 35324,
+    "topics": [
+      "autocomplete",
+      "autosuggest",
+      "fish",
+      "shell",
+      "zsh",
+      "zsh-autosuggestions"
+    ],
+    "updated_at": "2026-04-21T10:55:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autosuggest"
+    },
+    {
+      "context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-autosuggestions"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "status": "candidate-context",
+      "text": "Stop re-explaining your research to your AI agent. Persistent, LLM-maintained wikis that compound over time. Drop PDFs, URLs, YouTube - your agent remembers forever. Based on Karpathy's LLM Wiki pattern."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "iamsashank09/llm-wiki-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

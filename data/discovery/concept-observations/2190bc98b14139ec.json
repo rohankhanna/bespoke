@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source tool for LLM prompt optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI with Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI with Coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13206,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12674,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12674,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12674,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12674,
+      "status": "candidate",
+      "text": "madame"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI with Coverage",
+      "sense_id": "ci-with-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-with-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-with-coverage",
+  "observation_id": "2190bc98b14139ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "CI with Coverage",
+  "source_context_snippet": "CI with Coverage",
+  "source_file": ".github/workflows/ci-with-coverage.yml",
+  "source_repo": "meta-llama/prompt-ops",
+  "source_repo_description": "An open-source tool for LLM prompt optimization."
+}

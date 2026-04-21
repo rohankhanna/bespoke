@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "k-takata/the_silver_searcher-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "jflarvoire/the_silver_searcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "microsoft/winget-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "ggreer/ackmate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "pcre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "search-in-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher",
+      "target": "silver-searcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:28.773516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A code-searching tool similar to ack, but faster.",
+    "fork": false,
+    "full_name": "ggreer/the_silver_searcher",
+    "html_url": "https://github.com/ggreer/the_silver_searcher",
+    "language": "C",
+    "pushed_at": "2024-06-16T19:37:41Z",
+    "stargazers_count": 27108,
+    "topics": [
+      "ag",
+      "c",
+      "command-line-tool",
+      "pcre",
+      "search-in-text",
+      "silver-searcher"
+    ],
+    "updated_at": "2026-04-21T09:17:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggreer/ackmate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jflarvoire/the_silver_searcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k-takata/the_silver_searcher-win32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winget-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A code searching tool similar to `ack`, with a focus on speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "A code searching tool similar to `ack`, with a focus on speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcre"
+    },
+    {
+      "context_snippet": "A code searching tool similar to `ack`, with a focus on speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-in-text"
+    },
+    {
+      "context_snippet": "A code searching tool similar to `ack`, with a focus on speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silver-searcher"
+    }
+  ]
+}

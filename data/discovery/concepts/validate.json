@@ -32,6 +32,18 @@
       "source_repo": "docker/cli",
       "status": "candidate-context",
       "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/cli",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
       "status": "candidate",
       "text": "validate"
     }
@@ -116,11 +134,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "docker/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

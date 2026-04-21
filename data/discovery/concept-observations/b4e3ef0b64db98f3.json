@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compare Build Output"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compare Build Output"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "burrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "matched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "standard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compare Build Output",
+      "sense_id": "compare-build-output#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compare-build-output",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compare-build-output",
+  "observation_id": "b4e3ef0b64db98f3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Compare Build Output",
+  "source_context_snippet": "Compare Build Output",
+  "source_file": ".github/workflows/compare-build-output.yml",
+  "source_repo": "apollographql/apollo-client",
+  "source_repo_description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+}

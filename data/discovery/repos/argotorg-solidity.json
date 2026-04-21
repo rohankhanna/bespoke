@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml"
+    },
+    {
+      "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "buildpack-deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "Check stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-external-pr.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "External contributor greeter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "smartcontracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:38.055442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4165
+    },
+    {
+      "path": ".github/workflows/buildpack-deps.yml",
+      "size": 1994
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1492
+    },
+    {
+      "path": ".github/workflows/welcome-external-pr.yml",
+      "size": 1768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Solidity, the Smart Contract Programming Language",
+    "fork": false,
+    "full_name": "argotorg/solidity",
+    "html_url": "https://github.com/argotorg/solidity",
+    "language": "C++",
+    "pushed_at": "2026-04-21T10:36:23Z",
+    "stargazers_count": 25607,
+    "topics": [
+      "blockchain",
+      "cpp",
+      "ethereum",
+      "hacktoberfest",
+      "language",
+      "programming-language",
+      "smartcontracts",
+      "solidity"
+    ],
+    "updated_at": "2026-04-21T10:43:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "buildpack-deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "term": "buildpack-deps"
+    },
+    {
+      "context_snippet": "Check stale pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Check stale pull requests"
+    },
+    {
+      "context_snippet": "External contributor greeter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-external-pr.yml",
+      "term": "External contributor greeter"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartcontracts"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    }
+  ]
+}

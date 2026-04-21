@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fast"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020421,
+      "status": "candidate",
+      "text": "tight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018793,
+      "status": "candidate",
+      "text": "instantaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018627,
+      "status": "candidate",
+      "text": "immediate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017654,
+      "status": "candidate",
+      "text": "instant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014877,
+      "status": "candidate",
+      "text": "true"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 76037,
+      "status": "candidate",
+      "text": "profligate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54044,
+      "status": "candidate",
+      "text": "prompt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34038,
+      "status": "candidate",
+      "text": "libertine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33069,
+      "status": "candidate",
+      "text": "hot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32045,
+      "status": "candidate",
+      "text": "degenerate"
+    }
+  ],
+  "canonical_name": "fast",
+  "concept_id": "fast",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fast",
+      "sense_id": "fast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

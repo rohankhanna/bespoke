@@ -7,8 +7,64 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "Documentation and issues for Pylance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate-context",
+      "text": "This repository is for providing feedback and documentation on the [Pylance language server extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) in Visual Studio Code. You can use the repository to report issues or submit feature requests. The\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/vim-lsp-settings",
+      "status": "candidate-context",
+      "text": "Auto configurations for Language Server for vim-lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/vim-lsp-settings",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mattn/vim-lsp-settings/workflows/reviewdog/badge.svg)](https://github.com/mattn/vim-lsp-settings/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "clangd language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "clangd is a language server, and provides C++ IDE features to editors."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pylance-release",
+      "status": "candidate",
+      "text": "This repository is for providing feedback and documentation on the [Pylance language server extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) in Visual Studio Code. You can use the repository to report issues or submit feature requests. The\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/vim-lsp-settings",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mattn/vim-lsp-settings/workflows/reviewdog/badge.svg)](https://github.com/mattn/vim-lsp-settings/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate",
+      "text": "clangd is a language server, and provides C++ IDE features to editors."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "language-server",
@@ -20,12 +76,32 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pylance-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mattn/vim-lsp-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "clangd/clangd"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

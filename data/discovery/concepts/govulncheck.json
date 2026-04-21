@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "govulncheck"
+    "govulncheck",
+    "Govulncheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,9 +20,64 @@
       "source_repo": "ethpandaops/xatu",
       "status": "candidate-context",
       "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "Govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "govulncheck"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "Govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate",
+      "text": "govulncheck"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "govulncheck",
@@ -33,12 +89,32 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/govulncheck.yaml",
       "source_repo": "ethpandaops/xatu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "k3s-io/k3s"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

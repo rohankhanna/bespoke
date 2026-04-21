@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NumPy & SciPy for GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cusparselt",
+      "sense_id": "cusparselt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cusparselt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cusparselt",
+  "observation_id": "09f78fe527692961",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "cusparselt",
+  "source_context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+  "source_file": null,
+  "source_repo": "cupy/cupy",
+  "source_repo_description": "NumPy & SciPy for GPU"
+}

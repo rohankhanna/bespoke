@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maoueh/zap-pretty",
+      "target": "uber-go/zap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml",
+      "source_repo": "maoueh/zap-pretty",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml",
+      "source_repo": "maoueh/zap-pretty",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yaml",
+      "source_repo": "maoueh/zap-pretty",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop.yaml",
+      "source_repo": "maoueh/zap-pretty",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maoueh/zap-pretty",
+      "target": "pretty",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:54.618344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2925
+    },
+    {
+      "path": "go.mod",
+      "size": 2405
+    },
+    {
+      "path": ".github/workflows/develop.yaml",
+      "size": 714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny binary to pretty-print Zap production JSON lines",
+    "fork": false,
+    "full_name": "maoueh/zap-pretty",
+    "html_url": "https://github.com/maoueh/zap-pretty",
+    "language": "Go",
+    "pushed_at": "2025-07-17T15:55:57Z",
+    "stargazers_count": 59,
+    "topics": [
+      "cli",
+      "pretty",
+      "zap"
+    ],
+    "updated_at": "2026-03-20T23:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uber-go/zap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop.yaml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty"
+    }
+  ]
+}

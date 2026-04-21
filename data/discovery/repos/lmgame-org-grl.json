@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmgame-org/GRL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmgame-org/GRL",
+      "target": "ragen-ai/ragen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "lmgame-org/GRL",
+      "target": "mignonjia/lmgame_train_reorg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:44.715477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9882
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3433
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-Turn RL Training System with AgentTrainer for Language Model Game Reinforcement Learning",
+    "fork": false,
+    "full_name": "lmgame-org/GRL",
+    "html_url": "https://github.com/lmgame-org/GRL",
+    "language": "Python",
+    "pushed_at": "2025-12-18T23:18:07Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-03-25T11:32:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ragen-ai/ragen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mignonjia/lmgame_train_reorg",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/snapshot.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/coverage.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/nightly.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/snapshot.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/coverage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "lint-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/nightly.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/log",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/log",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/log",
+      "target": "logging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:08.605037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13309
+    },
+    {
+      "path": "go.mod",
+      "size": 1158
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/dependabot-sync.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/lint-sync.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal, colorful Go logging library \ud83e\udeb5",
+    "fork": false,
+    "full_name": "charmbracelet/log",
+    "html_url": "https://github.com/charmbracelet/log",
+    "language": "Go",
+    "pushed_at": "2026-04-20T09:45:15Z",
+    "stargazers_count": 3228,
+    "topics": [
+      "golang",
+      "logging"
+    ],
+    "updated_at": "2026-04-21T10:27:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "dependabot-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "term": "dependabot-sync"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "lint-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "term": "lint-sync"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "nightly"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    }
+  ]
+}

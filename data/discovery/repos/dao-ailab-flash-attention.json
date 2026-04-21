@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "rocm/composable_kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "rocm/aiter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "huggingface/kernels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "Publish flash-attn-4 to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention",
+      "target": "Build wheels and deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:28.632652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24455
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2054
+    },
+    {
+      "path": ".github/workflows/_build.yml",
+      "size": 9943
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1384
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1776
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/publish-fa4.yml",
+      "size": 3388
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 4008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and memory-efficient exact attention",
+    "fork": false,
+    "full_name": "Dao-AILab/flash-attention",
+    "html_url": "https://github.com/Dao-AILab/flash-attention",
+    "language": "Python",
+    "pushed_at": "2026-04-20T18:08:03Z",
+    "stargazers_count": 23457,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/kernels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/aiter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/composable_kernel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Publish flash-attn-4 to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-fa4.yml",
+      "term": "Publish flash-attn-4 to PyPI"
+    },
+    {
+      "context_snippet": "Build wheels and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Build wheels and deploy"
+    }
+  ]
+}

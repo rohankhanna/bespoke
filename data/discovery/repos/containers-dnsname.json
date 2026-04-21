@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/dnsname",
+      "target": "containers/netavark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/dnsname",
+      "target": "containers/aardvark-dns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/dnsname",
+      "target": "containers/podman",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:44.712304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2499
+    },
+    {
+      "path": "go.mod",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "name resolution for containers",
+    "fork": false,
+    "full_name": "containers/dnsname",
+    "html_url": "https://github.com/containers/dnsname",
+    "language": "Go",
+    "pushed_at": "2023-11-27T16:24:37Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-03-13T02:17:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/aardvark-dns",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/netavark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/podman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

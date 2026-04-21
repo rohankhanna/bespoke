@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Contracts of EigenLayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12570,
+      "status": "candidate",
+      "text": "debussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12570,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12247,
+      "status": "candidate",
+      "text": "monet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "gel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude review",
+      "sense_id": "claude-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-review",
+  "observation_id": "62728b09f3100e52",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Claude review",
+  "source_context_snippet": "Claude review",
+  "source_file": ".github/workflows/claude-code-review.yml",
+  "source_repo": "Layr-Labs/eigenlayer-contracts",
+  "source_repo_description": "Contracts of EigenLayer"
+}

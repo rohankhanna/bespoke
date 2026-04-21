@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agreement.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "microsoft/chakracore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "chakra-core/org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "microsoft/vcpkg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agreement.yml",
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agreement.yml",
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "Contribution Agreement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "chakra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "chakracore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "cplusplus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "help-wanted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "javascript-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "jsrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "up-for-grabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:14.917141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5864
+    },
+    {
+      "path": ".github/workflows/agreement.yml",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChakraCore is an open source Javascript engine with a C API.",
+    "fork": false,
+    "full_name": "chakra-core/ChakraCore",
+    "html_url": "https://github.com/chakra-core/ChakraCore",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-19T20:35:46Z",
+    "stargazers_count": 9241,
+    "topics": [
+      "chakra",
+      "chakracore",
+      "cplusplus",
+      "cplusplus-11",
+      "cpp",
+      "hacktoberfest",
+      "help-wanted",
+      "javascript",
+      "javascript-engine",
+      "js",
+      "jsrt",
+      "linux",
+      "microsoft",
+      "mit-license",
+      "osx",
+      "runtime",
+      "up-for-grabs",
+      "vm",
+      "windows"
+    ],
+    "updated_at": "2026-04-20T13:19:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chakra-core/org",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/chakracore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vcpkg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Contribution Agreement\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agreement.yml",
+      "term": "Contribution Agreement"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chakra"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chakracore"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-11"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "help-wanted"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-engine"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsrt"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "up-for-grabs"
+    },
+    {
+      "context_snippet": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

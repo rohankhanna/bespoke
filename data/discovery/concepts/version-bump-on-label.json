@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Version Bump on Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semgrep/cursor-plugin",
+      "status": "candidate-context",
+      "text": "Home for the Semgrep Cursor Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/cursor-plugin",
+      "status": "candidate-context",
+      "text": "Version Bump on Label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semgrep/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "Home for the Semgrep Claude Code Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "Version Bump on Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/cursor-plugin",
+      "status": "candidate",
+      "text": "Version Bump on Label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/mcp-marketplace",
+      "status": "candidate",
+      "text": "Version Bump on Label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17832,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17832,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17832,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17832,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17832,
+      "status": "candidate",
+      "text": "prints"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version Bump on Label",
+  "concept_id": "version-bump-on-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/cursor-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/mcp-marketplace"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Bump on Label",
+      "sense_id": "version-bump-on-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock inactive closed issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Safely add untrusted strings to HTML/XML markup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Lock inactive closed issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate",
+      "text": "Lock inactive closed issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27277,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27241,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27217,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27170,
+      "status": "candidate",
+      "text": "pick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27158,
+      "status": "candidate",
+      "text": "farm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock inactive closed issues",
+  "concept_id": "lock-inactive-closed-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "pallets/markupsafe"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock inactive closed issues",
+      "sense_id": "lock-inactive-closed-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

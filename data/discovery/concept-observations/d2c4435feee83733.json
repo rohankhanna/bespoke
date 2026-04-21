@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Inform Incompatible PRs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Inform Incompatible PRs\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "fint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10314,
+      "status": "candidate",
+      "text": "advisory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10314,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inform Incompatible PRs",
+      "sense_id": "inform-incompatible-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inform-incompatible-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inform-incompatible-prs",
+  "observation_id": "d2c4435feee83733",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Inform Incompatible PRs",
+  "source_context_snippet": "\"Inform Incompatible PRs\"",
+  "source_file": ".github/workflows/api-compatibility.yml",
+  "source_repo": "open-telemetry/opentelemetry-collector",
+  "source_repo_description": "OpenTelemetry Collector"
+}

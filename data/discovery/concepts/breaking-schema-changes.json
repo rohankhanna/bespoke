@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Breaking Schema Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Breaking Schema Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate",
+      "text": "Breaking Schema Changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24391,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24164,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22608,
+      "status": "candidate",
+      "text": "flexible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22574,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "disruption"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Breaking Schema Changes",
+  "concept_id": "breaking-schema-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/breaking-change-detection.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Breaking Schema Changes",
+      "sense_id": "breaking-schema-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

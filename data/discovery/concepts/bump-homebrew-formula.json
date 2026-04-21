@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Homebrew Formula"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b Flexible and fast ZSH plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "Bump Homebrew Formula"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate",
+      "text": "Bump Homebrew Formula"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23138,
+      "status": "candidate",
+      "text": "ale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18677,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18631,
+      "status": "candidate",
+      "text": "cooperative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10619,
+      "status": "candidate",
+      "text": "aided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10619,
+      "status": "candidate",
+      "text": "commercial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Homebrew Formula",
+  "concept_id": "bump-homebrew-formula",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "zdharma-continuum/zinit"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Homebrew Formula",
+      "sense_id": "bump-homebrew-formula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

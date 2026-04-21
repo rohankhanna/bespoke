@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "telemetry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980220,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970775,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960624,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29888182,
+      "status": "candidate",
+      "text": "ranging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028475,
+      "status": "candidate",
+      "text": "telemetering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "telemetry",
+  "concept_id": "telemetry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telemetry",
+      "sense_id": "telemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "@douyinfe/semi-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@douyinfe/semi-icons-lab",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@douyinfe/semi-ui",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/user-event",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "history",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "papaparse",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-toastify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-ui-css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-ui-react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-vitals",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "calcium-ion/new-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@douyinfe/semi-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@douyinfe/semi-icons-lab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@douyinfe/semi-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "@testing-library/user-event",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "history",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "papaparse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "react-toastify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "semantic-ui-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "semantic-ui-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Calcium-Ion/neko-api-key-tool",
+      "target": "web-vitals",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:18.825587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2054
+    },
+    {
+      "path": "Dockerfile",
+      "size": 290
+    },
+    {
+      "path": "package.json",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New API \u6839\u636eKey\u67e5\u8be2\u4f7f\u7528\u8be6\u60c5",
+    "fork": false,
+    "full_name": "Calcium-Ion/neko-api-key-tool",
+    "html_url": "https://github.com/Calcium-Ion/neko-api-key-tool",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-11T08:12:40Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-20T13:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic Documentation for Launcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Automatic Documentation for Launcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate",
+      "text": "Automatic Documentation for Launcher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17911,
+      "status": "candidate",
+      "text": "engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17911,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17911,
+      "status": "candidate",
+      "text": "step in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "cannon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "fan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic Documentation for Launcher",
+  "concept_id": "automatic-documentation-for-launcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Documentation for Launcher",
+      "sense_id": "automatic-documentation-for-launcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

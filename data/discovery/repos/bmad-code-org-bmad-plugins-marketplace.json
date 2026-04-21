@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-index.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "source_repo": "bmad-code-org/bmad-plugins-marketplace",
+      "target": "Generate Module Index",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:18.419254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3364
+    },
+    {
+      "path": ".github/workflows/generate-index.yaml",
+      "size": 745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bmad-code-org/bmad-plugins-marketplace",
+    "html_url": "https://github.com/bmad-code-org/bmad-plugins-marketplace",
+    "language": null,
+    "pushed_at": "2026-04-08T04:41:05Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-18T16:06:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate Module Index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-index.yaml",
+      "term": "Generate Module Index"
+    }
+  ]
+}

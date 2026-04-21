@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yml",
+      "source_repo": "icsmw/tslink",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yml",
+      "source_repo": "icsmw/tslink",
+      "target": "Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:26.797295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30951
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yml",
+      "size": 1557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helps bind rust and typescript/javascript worlds",
+    "fork": false,
+    "full_name": "icsmw/tslink",
+    "html_url": "https://github.com/icsmw/tslink",
+    "language": "Rust",
+    "pushed_at": "2025-06-08T17:03:30Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-06-08T17:03:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yml",
+      "term": "Checks"
+    }
+  ]
+}

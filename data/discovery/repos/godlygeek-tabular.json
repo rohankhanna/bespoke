@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godlygeek/tabular",
+      "target": "tpope/vim-pathogen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:37.429153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim script for text filtering and alignment",
+    "fork": false,
+    "full_name": "godlygeek/tabular",
+    "html_url": "https://github.com/godlygeek/tabular",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-03T16:03:39Z",
+    "stargazers_count": 2657,
+    "topics": [],
+    "updated_at": "2026-04-18T03:43:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-pathogen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

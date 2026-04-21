@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and publish the Docker image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Assemble, configure, and deploy autonomous AI Agents in your browser.\u4e00\u952e\u514d\u8d39\u90e8\u7f72\u4f60\u7684\u79c1\u4ebaAutoGPT \u7f51\u9875\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate-context",
+      "text": "Build and publish the Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web",
+      "status": "candidate",
+      "text": "Build and publish the Docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22105,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17510,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17416,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17278,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17278,
+      "status": "candidate",
+      "text": "printed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and publish the Docker image",
+  "concept_id": "build-and-publish-the-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish the Docker image",
+      "sense_id": "build-and-publish-the-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

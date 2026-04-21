@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vaporif/parry-guard",
-      "target": "vaporif/rvx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
       "target": "vaporif/parry",
       "target_type": "repository"
     },
@@ -130,14 +123,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "vaporif/parry-guard",
-      "target": "cachix/install-nix-action@v31",
+      "target": "DeterminateSystems/nix-installer-action@main",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "vaporif/parry-guard",
-      "target": "cachix/cachix-action@v17",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
       "target_type": "component"
     },
     {
@@ -204,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "vaporif/parry-guard"
 }

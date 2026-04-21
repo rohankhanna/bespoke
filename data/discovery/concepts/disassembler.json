@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "disassembler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "status": "candidate-context",
+      "text": "Python Command-Line Ghidra Decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050811,
+      "status": "candidate",
+      "text": "unassembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050810,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050809,
+      "status": "candidate",
+      "text": "assembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050808,
+      "status": "candidate",
+      "text": "decompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050807,
+      "status": "candidate",
+      "text": "decompilation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "disassembler",
+  "concept_id": "disassembler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidrecomp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disassembler",
+      "sense_id": "disassembler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

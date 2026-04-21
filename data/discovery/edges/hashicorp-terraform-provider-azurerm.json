@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-waiting-response-on-fail.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "dawidd6/action-download-artifact@07ab29fd4a977ae4d2b275087cf67563dfdf0295",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-waiting-response-on-fail.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-waiting-response-on-fail.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "Add waiting-response on failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-reviewers-to-pr.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "dawidd6/action-download-artifact@07ab29fd4a977ae4d2b275087cf67563dfdf0295",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-reviewers-to-pr.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-reviewers-to-pr.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "Assign Reviewer as Assignee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation-open-pull-request-go-sdk.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation-open-pull-request-pandora.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking-change-detection.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking-change-detection.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking-change-detection.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "Breaking Schema Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "hashicorp/actions-set-product-version@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "hashicorp/actions-generate-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "hashicorp/actions-go-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog_entry.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog_entry.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog_entry.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "GetChangelogEntry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "Close PRs With Failing CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "azure-resource-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "target": "terraform-provider",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "hashicorp/terraform-provider-azurerm"
+}

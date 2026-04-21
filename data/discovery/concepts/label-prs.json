@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Label PRs"
+    "Label PRs",
+    "label PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "junegunn/fzf",
       "status": "candidate-context",
       "text": "Label PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "'label PRs'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "junegunn/fzf",
       "status": "candidate",
       "text": "Label PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate",
+      "text": "'label PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "junegunn/fzf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "invoke-ai/InvokeAI"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate-context",
       "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate-context",
+      "text": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate-context",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate",
       "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

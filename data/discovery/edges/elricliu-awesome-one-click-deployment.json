@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "babaohuang/geminiprochat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "chanzhaoyu/chatgpt-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "anse-app/chatgpt-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "connectai-e/awesome-one-click-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "target": "connect-ai",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+}

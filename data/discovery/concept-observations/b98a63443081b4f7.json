@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Celestia Data Availability Nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect Breaking Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect Breaking Changes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "uncover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18031,
+      "status": "candidate",
+      "text": "smoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18031,
+      "status": "candidate",
+      "text": "smoked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Breaking Changes",
+      "sense_id": "detect-breaking-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-breaking-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-breaking-changes",
+  "observation_id": "b98a63443081b4f7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Detect Breaking Changes",
+  "source_context_snippet": "Detect Breaking Changes",
+  "source_file": ".github/workflows/detect-breaking.yml",
+  "source_repo": "celestiaorg/celestia-node",
+  "source_repo_description": "Celestia Data Availability Nodes"
+}

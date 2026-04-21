@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:36:37.804024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Cuckoo Sandbox is an automated dynamic malware analysis system",
+    "fork": false,
+    "full_name": "cuckoosandbox/cuckoo",
+    "html_url": "https://github.com/cuckoosandbox/cuckoo",
+    "language": "JavaScript",
+    "pushed_at": "2022-05-03T16:17:48Z",
+    "stargazers_count": 5950,
+    "topics": [],
+    "updated_at": "2026-04-21T02:40:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

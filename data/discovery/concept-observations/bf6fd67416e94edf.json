@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License Exception Decision"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License Exception Decision"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19342,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18313,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18238,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18238,
+      "status": "candidate",
+      "text": "freedom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18238,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Exception Decision",
+      "sense_id": "license-exception-decision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-exception-decision",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-exception-decision",
+  "observation_id": "bf6fd67416e94edf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "License Exception Decision",
+  "source_context_snippet": "License Exception Decision",
+  "source_file": ".github/workflows/license-exception-approved.yml",
+  "source_repo": "cncf/foundation",
+  "source_repo_description": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+}

@@ -31,6 +31,42 @@
       "source_repo": "dask/dask",
       "status": "candidate-context",
       "text": "Dask"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Scalable array processing with bounded memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "NumPy & SciPy for GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate-context",
+      "text": "Compatibility layer for common array libraries to support the Array API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate-context",
+      "text": "This is a small wrapper around common array libraries that is compatible with"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "dask/dask",
       "status": "candidate",
       "text": "Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate",
+      "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cupy/cupy",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate",
+      "text": "This is a small wrapper around common array libraries that is compatible with"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "dask/dask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cupy/cupy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

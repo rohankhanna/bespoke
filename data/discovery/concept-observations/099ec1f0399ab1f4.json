@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Command-Line Ghidra Decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050811,
+      "status": "candidate",
+      "text": "unassembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050810,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050809,
+      "status": "candidate",
+      "text": "assembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050808,
+      "status": "candidate",
+      "text": "decompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050807,
+      "status": "candidate",
+      "text": "decompilation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disassembler",
+      "sense_id": "disassembler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "disassembler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "disassembler",
+  "observation_id": "099ec1f0399ab1f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "disassembler",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "clearbluejar/ghidrecomp",
+  "source_repo_description": "Python Command-Line Ghidra Decompiler"
+}

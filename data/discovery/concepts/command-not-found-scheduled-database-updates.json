@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Command-not-found scheduled database updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "Command-not-found scheduled database updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "Command-not-found scheduled database updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18864,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18708,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18645,
+      "status": "candidate",
+      "text": "regularly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18609,
+      "status": "candidate",
+      "text": "hour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18558,
+      "status": "candidate",
+      "text": "list"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Command-not-found scheduled database updates",
+  "concept_id": "command-not-found-scheduled-database-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/command-not-found-db-update.yml",
+      "source_repo": "Homebrew/brew"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Command-not-found scheduled database updates",
+      "sense_id": "command-not-found-scheduled-database-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

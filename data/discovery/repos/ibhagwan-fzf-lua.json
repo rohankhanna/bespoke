@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-release.yaml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_remote.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "hpjansson/chafa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "atanunq/viu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "jstkdng/ueberzugpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "folke/snacks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-release.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-release.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks-release.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "luarocks-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_remote.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_remote.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "sync-remotes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "vimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibhagwan/fzf-lua",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:34.878437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 74807
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2475
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1605
+    },
+    {
+      "path": ".github/workflows/luarocks-release.yaml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/sync_remote.yaml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/vimdoc.yaml",
+      "size": 2483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Improved fzf.vim written in lua",
+    "fork": false,
+    "full_name": "ibhagwan/fzf-lua",
+    "html_url": "https://github.com/ibhagwan/fzf-lua",
+    "language": "Lua",
+    "pushed_at": "2026-04-21T10:02:29Z",
+    "stargazers_count": 4219,
+    "topics": [
+      "fzf",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-21T08:30:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atanunq/viu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/snacks.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpjansson/chafa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jstkdng/ueberzugpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "\"luarocks-release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks-release.yaml",
+      "term": "luarocks-release"
+    },
+    {
+      "context_snippet": "sync-remotes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_remote.yaml",
+      "term": "sync-remotes"
+    },
+    {
+      "context_snippet": "vimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "term": "vimdoc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

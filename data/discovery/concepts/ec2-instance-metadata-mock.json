@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ec2-instance-metadata-mock"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "A tool to simulate Amazon EC2 instance metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate-context",
+      "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-metadata-mock",
+      "status": "candidate",
+      "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ec2-instance-metadata-mock",
+  "concept_id": "ec2-instance-metadata-mock",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-ec2-metadata-mock"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ec2-instance-metadata-mock",
+      "sense_id": "ec2-instance-metadata-mock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

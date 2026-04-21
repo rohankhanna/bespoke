@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:24:12.922768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1653
+    },
+    {
+      "path": "go.mod",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go SDK for proof \u2014 capture visual evidence of test execution",
+    "fork": false,
+    "full_name": "automazeio/proof-go",
+    "html_url": "https://github.com/automazeio/proof-go",
+    "language": "Go",
+    "pushed_at": "2026-03-13T12:19:52Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-04T09:39:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

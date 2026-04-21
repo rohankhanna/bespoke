@@ -43,6 +43,30 @@
       "source_repo": "kubernetes-sigs/krew",
       "status": "candidate-context",
       "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "Programmatically generated handy kubectl PowerShell aliases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate-context",
+      "text": "Plugin index for https://github.com/kubernetes-sigs/krew. This repo is for plugin maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate-context",
+      "text": "This repository is the centralized plugin index for [Krew (kubectl plugin"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "kubernetes-sigs/krew",
       "status": "candidate",
       "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "status": "candidate",
+      "text": "This repository is the centralized plugin index for [Krew (kubectl plugin"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/krew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

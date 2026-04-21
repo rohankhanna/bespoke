@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pcre"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code-searching tool similar to ack, but faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023215,
+      "status": "candidate",
+      "text": "rpe-lpc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023214,
+      "status": "candidate",
+      "text": "crpg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023213,
+      "status": "candidate",
+      "text": "cprm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023212,
+      "status": "candidate",
+      "text": "pcrm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023211,
+      "status": "candidate",
+      "text": "rcep"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pcre",
+  "concept_id": "pcre",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pcre",
+      "sense_id": "pcre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

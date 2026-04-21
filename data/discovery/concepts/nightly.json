@@ -31,6 +31,18 @@
       "source_repo": "charmbracelet/crush",
       "status": "candidate-context",
       "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "A minimal, colorful Go logging library \ud83e\udeb5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "nightly"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/crush",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
       "status": "candidate",
       "text": "nightly"
     }
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "charmbracelet/crush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "charmbracelet/log"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

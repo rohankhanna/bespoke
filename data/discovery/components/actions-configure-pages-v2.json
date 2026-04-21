@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v2",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/site.yaml",
       "source_repo": "asg017/sqlite-vss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "facebookincubator/AITemplate"
     }
   ]
 }

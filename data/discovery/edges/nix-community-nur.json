@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nix-community/NUR",
+      "target": "nix-community/nur-combined",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nix-community/NUR",
+      "target": "nix-community/nur-packages-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nix-community/NUR",
+      "target": "mic92/nur-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nix-community/NUR",
+      "target": "nix-community/nur-update",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix-format.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix-format.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nix-format.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "Check that Nix files are formatted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "CasperWA/push-protected@74d25b8aa10e0c29024138735d32f3c0b75f9279",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR",
+      "target": "Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/NUR",
+      "target": "nix-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/NUR",
+      "target": "nixpkgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/NUR",
+      "target": "overlays",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "nix-community/NUR"
+}

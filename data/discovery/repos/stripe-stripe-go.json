@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "stripe/openapi/actions/stripe-mock@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "stripe/openapi/actions/notify-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-go",
+      "target": "golang/mock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-go",
+      "target": "golang/dep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-go",
+      "target": "sirupsen/logrus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-go",
+      "target": "golang/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "stripe/openapi/actions/stripe-mock@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "stripe/openapi/actions/notify-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rules.yml",
+      "source_repo": "stripe/stripe-go",
+      "target": "rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stripe/stripe-go",
+      "target": "stripe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stripe/stripe-go",
+      "target": "stripe-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:12.801009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21584
+    },
+    {
+      "path": "go.mod",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2309
+    },
+    {
+      "path": ".github/workflows/rules.yml",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go library for the Stripe API.    ",
+    "fork": false,
+    "full_name": "stripe/stripe-go",
+    "html_url": "https://github.com/stripe/stripe-go",
+    "language": "Go",
+    "pushed_at": "2026-04-21T00:48:11Z",
+    "stargazers_count": 2567,
+    "topics": [
+      "stripe",
+      "stripe-sdk"
+    ],
+    "updated_at": "2026-04-19T14:24:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/dep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/mock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sirupsen/logrus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "rules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rules.yml",
+      "term": "rules"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/stripe/stripe-go)](https://pkg.go.dev/github.com/stripe/stripe-go/v85)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/stripe/stripe-go)](https://pkg.go.dev/github.com/stripe/stripe-go/v85)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe-sdk"
+    }
+  ]
+}

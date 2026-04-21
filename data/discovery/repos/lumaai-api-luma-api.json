@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "LumaAI-API/Luma-API",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LumaAI-API/Luma-API",
+      "target": "luma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LumaAI-API/Luma-API",
+      "target": "luma-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LumaAI-API/Luma-API",
+      "target": "luma-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LumaAI-API/Luma-API",
+      "target": "lumalabs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:53.080481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6607
+    },
+    {
+      "path": "Dockerfile",
+      "size": 509
+    },
+    {
+      "path": "go.mod",
+      "size": 2793
+    },
+    {
+      "path": ".github/workflows/deploy-docker.yml",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an unofficial LumaAI Dream Machine API based on Golang and Gin. It currently supports generating videos. ",
+    "fork": false,
+    "full_name": "LumaAI-API/Luma-API",
+    "html_url": "https://github.com/LumaAI-API/Luma-API",
+    "language": "Go",
+    "pushed_at": "2024-08-01T07:57:22Z",
+    "stargazers_count": 129,
+    "topics": [
+      "luma",
+      "luma-ai",
+      "luma-api",
+      "lumalabs"
+    ],
+    "updated_at": "2026-04-06T13:52:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# Luma API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luma"
+    },
+    {
+      "context_snippet": "\ufeff# Luma API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luma-ai"
+    },
+    {
+      "context_snippet": "\ufeff# Luma API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luma-api"
+    },
+    {
+      "context_snippet": "\ufeff# Luma API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lumalabs"
+    }
+  ]
+}

@@ -129,7 +129,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T18:30:51.526975+00:00",
+  "fetched_at": "2026-04-21T11:25:15.787423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -148,7 +148,6 @@
       "size": 12031
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:48.699592+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -159,9 +158,9 @@
     "html_url": "https://github.com/compozy/kb",
     "language": "Go",
     "pushed_at": "2026-04-15T02:46:17Z",
-    "stargazers_count": 29,
+    "stargazers_count": 30,
     "topics": [],
-    "updated_at": "2026-04-18T01:53:32Z"
+    "updated_at": "2026-04-21T00:07:29Z"
   },
   "repo_links": [
     {

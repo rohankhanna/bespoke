@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python IDLE extension to preform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "idle-extension",
+      "sense_id": "idle-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "idle-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "idle-extension",
+  "observation_id": "14799b7d294a6a97",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "idle-extension",
+  "source_context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+  "source_file": null,
+  "source_repo": "CoolCat467/idlemypyextension",
+  "source_repo_description": "Python IDLE extension to preform mypy analysis on an open file"
+}

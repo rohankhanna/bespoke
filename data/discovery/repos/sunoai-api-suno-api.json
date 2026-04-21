@@ -1,0 +1,66 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunoAI-API/Suno-API",
+      "target": "suno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunoAI-API/Suno-API",
+      "target": "suno-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:54.478831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1337
+    },
+    {
+      "path": "Dockerfile",
+      "size": 290
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create Music in Seconds with SunoAPI. ",
+    "fork": false,
+    "full_name": "SunoAI-API/Suno-API",
+    "html_url": "https://github.com/SunoAI-API/Suno-API",
+    "language": "Python",
+    "pushed_at": "2025-04-26T12:10:18Z",
+    "stargazers_count": 1767,
+    "topics": [
+      "suno",
+      "suno-ai"
+    ],
+    "updated_at": "2026-04-19T14:32:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_ZH.md) | [\u65e5\u672c\u8a9e](README_JA.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_ZH.md) | [\u65e5\u672c\u8a9e](README_JA.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno-ai"
+    }
+  ]
+}

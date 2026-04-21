@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "build-once run-anywhere c library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023259,
+      "status": "candidate",
+      "text": "openbsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023258,
+      "status": "candidate",
+      "text": "freebsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023257,
+      "status": "candidate",
+      "text": "pc-bsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023256,
+      "status": "candidate",
+      "text": "un*x"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023255,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netbsd",
+      "sense_id": "netbsd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "netbsd",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "netbsd",
+  "observation_id": "3a5d5e30017607ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "netbsd",
+  "source_context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+  "source_file": null,
+  "source_repo": "jart/cosmopolitan",
+  "source_repo_description": "build-once run-anywhere c library"
+}

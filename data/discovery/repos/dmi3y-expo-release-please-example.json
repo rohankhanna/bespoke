@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "@expo/webpack-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expo-status-bar",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-web",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "google-github-actions/release-please-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "@expo/webpack-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "expo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "expo-status-bar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "react-native-web",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "example-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "expo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmi3y/expo-release-please-example",
+      "target": "release-please",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:45.874156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2553
+    },
+    {
+      "path": "package.json",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example of Expo app setup with please-release",
+    "fork": false,
+    "full_name": "dmi3y/expo-release-please-example",
+    "html_url": "https://github.com/dmi3y/expo-release-please-example",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-08T05:26:06Z",
+    "stargazers_count": 2,
+    "topics": [
+      "example-project",
+      "examples",
+      "expo",
+      "release-please"
+    ],
+    "updated_at": "2026-02-18T19:39:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-github-actions/release-please-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "> expo-release-please-example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example-project"
+    },
+    {
+      "context_snippet": "> expo-release-please-example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "> expo-release-please-example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expo"
+    },
+    {
+      "context_snippet": "> expo-release-please-example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release-please"
+    }
+  ]
+}

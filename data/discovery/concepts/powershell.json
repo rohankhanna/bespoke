@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "powershell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "Programmatically generated handy kubectl PowerShell aliases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "comparison of command shells"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "cmdlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "powercfg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "powershell",
+  "concept_id": "powershell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "powershell",
+      "sense_id": "powershell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

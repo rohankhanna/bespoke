@@ -4,11 +4,68 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Issue Labeled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Issue Labeled"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "branded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "labelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13320,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13320,
+      "status": "candidate",
+      "text": "probing"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Issue Labeled",
   "concept_id": "issue-labeled",
@@ -19,12 +76,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "withastro/compiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "vitejs/vite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

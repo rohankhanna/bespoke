@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "frontend"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react",
+      "status": "candidate-context",
+      "text": "The library for web and native user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react",
+      "status": "candidate-context",
+      "text": "React is a JavaScript library for building user interfaces."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react",
+      "status": "candidate",
+      "text": "React is a JavaScript library for building user interfaces."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017409,
+      "status": "candidate",
+      "text": "backend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017408,
+      "status": "candidate",
+      "text": "frontends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017407,
+      "status": "candidate",
+      "text": "backends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017406,
+      "status": "candidate",
+      "text": "middleware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017405,
+      "status": "candidate",
+      "text": "precompilation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "frontend",
+  "concept_id": "frontend",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frontend",
+      "sense_id": "frontend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

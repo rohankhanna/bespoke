@@ -52,6 +52,42 @@
       "source_repo": "standard/standard",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpeterv/luacheck",
+      "status": "candidate-context",
+      "text": " A tool for linting and static analysis of Lua code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpeterv/luacheck",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/luacheck/Lobby](https://badges.gitter.im/luacheck/Lobby.svg)](https://gitter.im/luacheck/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_glosses": [
@@ -72,6 +108,24 @@
       "source_repo": "standard/standard",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpeterv/luacheck",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/luacheck/Lobby](https://badges.gitter.im/luacheck/Lobby.svg)](https://gitter.im/luacheck/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -157,11 +211,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mpeterv/luacheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

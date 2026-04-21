@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build conda package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/modin-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for modin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/modin-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/modin-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11663,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11663,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11663,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11663,
+      "status": "candidate",
+      "text": "lots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11663,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build conda package",
+  "concept_id": "build-conda-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/modin-feedstock"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build conda package",
+      "sense_id": "build-conda-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

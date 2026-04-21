@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build debug node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build debug node"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22425,
+      "status": "candidate",
+      "text": "finish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18890,
+      "status": "candidate",
+      "text": "troubleshooting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14431,
+      "status": "candidate",
+      "text": "cootie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14309,
+      "status": "candidate",
+      "text": "acetylation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14309,
+      "status": "candidate",
+      "text": "activated sludge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build debug node",
+      "sense_id": "build-debug-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-debug-node",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-debug-node",
+  "observation_id": "ff00f28b1fff1e88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Build debug node",
+  "source_context_snippet": "Build debug node",
+  "source_file": ".github/workflows/build-debug-node.yml",
+  "source_repo": "ChainSafe/lodestar",
+  "source_repo_description": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+}

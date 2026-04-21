@@ -179,6 +179,354 @@
       "source_repo": "vega/altair",
       "status": "candidate-context",
       "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate-context",
+      "text": "Python bindings for llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "'lint'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "Go implementation of the XDG Base Directory Specification and XDG user directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s official command line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate-context",
+      "text": "AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/clippy.svg)](#license)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "Set up a modern web app by running one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "TUI components for Bubble Tea \ud83e\udee7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "A minimal, colorful Go logging library \ud83e\udeb5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "A personal key value store \ud83d\udefc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "Advanced ANSI style & color support for your terminal applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "LangChain \ud83d\udd0c MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "A GraphQL client in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "Build powerful, efficient, and flexible GraphQL APIs with seamless Django integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate-context",
+      "text": "An open-source tool for LLM prompt optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udc08 A collection of LLM inference providers and models "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "The Python programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b Flexible and fast ZSH plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "Improved fzf.vim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "status": "candidate-context",
+      "text": "Team-facing documentation and examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "Abstraction layer for smart contract build systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "Better build and test infra for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "High-velocity, monorepo-scale workflow for Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +607,180 @@
       "source_repo": "vega/altair",
       "status": "candidate",
       "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "'lint'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cli/cli",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate",
+      "text": "[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/clippy.svg)](#license)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/git-sizer",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/cpython",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arxanas/git-branchless",
+      "status": "candidate",
+      "text": "Lint"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +1009,197 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "facebookincubator/AITemplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/skate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/gql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "nodejs/build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "arxanas/git-branchless"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

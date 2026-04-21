@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-typescript"
+    }
+  ],
+  "term": "Auto Strands Review"
+}

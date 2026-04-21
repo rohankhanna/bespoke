@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An app that brings language models directly to your phone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload translations to Weblate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload translations to Weblate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10584,
+      "status": "candidate",
+      "text": "pic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10541,
+      "status": "candidate",
+      "text": "agio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10541,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10541,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10541,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload translations to Weblate",
+      "sense_id": "upload-translations-to-weblate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-translations-to-weblate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-translations-to-weblate",
+  "observation_id": "71715a81fd8f56b9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Upload translations to Weblate",
+  "source_context_snippet": "Upload translations to Weblate",
+  "source_file": ".github/workflows/l10n-upload.yml",
+  "source_repo": "a-ghorbani/pocketpal-ai",
+  "source_repo_description": "An app that brings language models directly to your phone."
+}

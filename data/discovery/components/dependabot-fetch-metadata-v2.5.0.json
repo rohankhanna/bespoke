@@ -1,12 +1,17 @@
 {
   "component": "dependabot/fetch-metadata@v2.5.0",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "beyondcode/claude-hooks-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
     }
   ]
 }

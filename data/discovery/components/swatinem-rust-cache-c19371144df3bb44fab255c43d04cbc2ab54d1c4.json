@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tempo.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crate-checks.yml",
+      "source_repo": "foundry-rs/foundry"
     }
   ]
 }

@@ -19,12 +19,30 @@
       "source_repo": "clearbluejar/pyghidra-mcp",
       "status": "candidate-context",
       "text": "Pytest Local Repo Devcontainer Across Versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "status": "candidate-context",
+      "text": "Python Command-Line Ghidra Decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "status": "candidate-context",
+      "text": "Pytest Local Repo Devcontainer Across Versions"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "clearbluejar/pyghidra-mcp",
+      "status": "candidate",
+      "text": "Pytest Local Repo Devcontainer Across Versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidrecomp",
       "status": "candidate",
       "text": "Pytest Local Repo Devcontainer Across Versions"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
       "source_repo": "clearbluejar/pyghidra-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml",
+      "source_repo": "clearbluejar/ghidrecomp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

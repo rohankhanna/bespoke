@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Doc Check Links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate-context",
+      "text": "Doc Check Links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest",
+      "status": "candidate",
+      "text": "Doc Check Links"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18627,
+      "status": "candidate",
+      "text": "referral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18487,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18487,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18462,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18357,
+      "status": "candidate",
+      "text": "cart"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Doc Check Links",
+  "concept_id": "doc-check-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/doc-check-links.yml",
+      "source_repo": "pytest-dev/pytest"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doc Check Links",
+      "sense_id": "doc-check-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

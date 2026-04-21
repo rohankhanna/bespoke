@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -226,6 +226,151 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tokio-rs/tracing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/xsv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "algorealmInc/SwarmNL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/trust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keats/jsonwebtoken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeslogic/allsorts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_calendar_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Builditluc/wiki-tui"
     }
   ],
   "term": "Rust"

@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-cov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model-checks.yml",
+      "source_repo": "tracel-ai/burn-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "celestiaorg/celestia-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-pr.yml",
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docusaurus.yml",
+      "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depexts.yml",
+      "source_repo": "ocaml/opam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml/opam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "agronholm/anyio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "arxanas/git-branchless"
     }
   ]
 }

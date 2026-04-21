@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "term": "Publish Docker image"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go library for the Stripe API.    "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rules"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39790186,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789195,
+      "status": "candidate",
+      "text": "regulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39788912,
+      "status": "candidate",
+      "text": "govern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786733,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786052,
+      "status": "candidate",
+      "text": "prescript"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rules",
+      "sense_id": "rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rules",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rules",
+  "observation_id": "6cc7a210693e95ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "rules",
+  "source_context_snippet": "rules",
+  "source_file": ".github/workflows/rules.yml",
+  "source_repo": "stripe/stripe-go",
+  "source_repo_description": "Go library for the Stripe API.    "
+}

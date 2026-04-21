@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vercel-labs/skills",
-      "target": "vercel-labs/agent-skills",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel-labs/skills",
       "target": "shareai-lab/kode",
       "target_type": "repository"
     },
@@ -162,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "vercel-labs/skills"
 }

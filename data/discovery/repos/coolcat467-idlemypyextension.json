@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodeps.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodeps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "deadsnakes/action@v2.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "pre-commit/pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodeps.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodeps.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodeps.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "Autodeps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "deadsnakes/action@v2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "coolcat467",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "idle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "idle-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "python-idle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "tkinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "tkinter-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension",
+      "target": "tkinter-python",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:21.238642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6520
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5130
+    },
+    {
+      "path": ".github/workflows/autodeps.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4564
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python IDLE extension to preform mypy analysis on an open file",
+    "fork": false,
+    "full_name": "CoolCat467/idlemypyextension",
+    "html_url": "https://github.com/CoolCat467/idlemypyextension",
+    "language": "Python",
+    "pushed_at": "2026-04-11T05:42:12Z",
+    "stargazers_count": 2,
+    "topics": [
+      "analysis",
+      "coolcat467",
+      "daemon",
+      "extension",
+      "hacktoberfest",
+      "idle",
+      "idle-extension",
+      "mypy",
+      "python",
+      "python-idle",
+      "python3",
+      "tkinter",
+      "tkinter-gui",
+      "tkinter-python"
+    ],
+    "updated_at": "2026-04-11T05:42:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pre-commit/pre-commit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autodeps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodeps.yml",
+      "term": "Autodeps"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coolcat467"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daemon"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idle"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idle-extension"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-idle"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tkinter"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tkinter-gui"
+    },
+    {
+      "context_snippet": "Python IDLE extension to perform mypy analysis on an open file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tkinter-python"
+    }
+  ]
+}

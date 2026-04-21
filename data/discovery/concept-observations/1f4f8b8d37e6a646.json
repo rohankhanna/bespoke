@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024772,
+      "status": "candidate",
+      "text": "ppa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022962,
+      "status": "candidate",
+      "text": "acf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022264,
+      "status": "candidate",
+      "text": "gpa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020524,
+      "status": "candidate",
+      "text": "cfa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019621,
+      "status": "candidate",
+      "text": "aap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paas",
+      "sense_id": "paas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "paas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paas",
+  "observation_id": "1f4f8b8d37e6a646",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "paas",
+  "source_context_snippet": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "dokku/dokku",
+  "source_repo_description": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+}

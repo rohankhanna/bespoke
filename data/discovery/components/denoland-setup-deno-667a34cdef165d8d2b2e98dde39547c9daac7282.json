@@ -1,7 +1,7 @@
 {
   "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
       "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
     }
   ]
 }

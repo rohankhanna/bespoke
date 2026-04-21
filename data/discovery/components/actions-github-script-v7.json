@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd-create-release-notes.yaml",
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/AddLabel.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compliance-close.yml",
+      "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "meta-llama/synthetic-data-kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-label.yml",
+      "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+      "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools"
     }
   ]
 }

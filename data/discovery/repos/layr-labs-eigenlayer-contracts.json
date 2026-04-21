@@ -1,0 +1,590 @@
+{
+  "components": [
+    {
+      "component": "solidity-docgen",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solhint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml"
+    },
+    {
+      "component": "Certora/certora-run-action@11979c68d2ffab0b1b2fe6c72ec9d7a38855822d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "crate-ci/typos@717cd03663352cbd05e4d28c01366e571ff5f2ed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "openzeppelin/openzeppelin-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "safe-global/safe-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "solidity-docgen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Certora/certora-run-action@11979c68d2ffab0b1b2fe6c72ec9d7a38855822d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "crate-ci/typos@717cd03663352cbd05e4d28c01366e571ff5f2ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Claude review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Foundry Post Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "foundry-rs/foundry-toolchain@82dee4ba654bd2146511f85f0d013af94670c4de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "target": "Foundry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:44.099000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 61063
+    },
+    {
+      "path": "Dockerfile",
+      "size": 282
+    },
+    {
+      "path": "go.mod",
+      "size": 1413
+    },
+    {
+      "path": "package.json",
+      "size": 1452
+    },
+    {
+      "path": ".github/workflows/automation.yml",
+      "size": 1219
+    },
+    {
+      "path": ".github/workflows/certora-prover.yml",
+      "size": 3157
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1945
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 11550
+    },
+    {
+      "path": ".github/workflows/foundry-post-merge.yml",
+      "size": 2259
+    },
+    {
+      "path": ".github/workflows/foundry.yml",
+      "size": 11494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contracts of EigenLayer",
+    "fork": false,
+    "full_name": "Layr-Labs/eigenlayer-contracts",
+    "html_url": "https://github.com/Layr-Labs/eigenlayer-contracts",
+    "language": "Solidity",
+    "pushed_at": "2026-04-07T16:26:31Z",
+    "stargazers_count": 714,
+    "topics": [],
+    "updated_at": "2026-04-20T09:44:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openzeppelin/openzeppelin-contracts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "safe-global/safe-contracts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Claude review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude review"
+    },
+    {
+      "context_snippet": "Foundry Post Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "term": "Foundry Post Merge"
+    },
+    {
+      "context_snippet": "Foundry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "term": "Foundry"
+    }
+  ]
+}

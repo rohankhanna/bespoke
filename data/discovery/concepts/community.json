@@ -1,16 +1,111 @@
 {
   "aliases": [
-    "Community"
+    "Community",
+    "community"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "<details>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "<details>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985655,
+      "status": "candidate",
+      "text": "common"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982756,
+      "status": "candidate",
+      "text": "local"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971252,
+      "status": "candidate",
+      "text": "profession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968070,
+      "status": "candidate",
+      "text": "public"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991231,
+      "status": "candidate",
+      "text": "community of interests"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8059,
+      "status": "candidate",
+      "text": "local"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6049,
+      "status": "candidate",
+      "text": "profession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3053,
+      "status": "candidate",
+      "text": "public"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "residential district"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "residential area"
+    }
+  ],
   "canonical_name": "Community",
   "concept_id": "community",
   "definition_status": "unresolved",
@@ -20,12 +115,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/community.yml",
       "source_repo": "folke/lazy.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/community"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

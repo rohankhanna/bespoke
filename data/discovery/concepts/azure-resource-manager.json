@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "azure-resource-manager"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager Rest API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://terraform.io\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate",
+      "text": "<a href=\"https://terraform.io\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "azure-resource-manager",
+  "concept_id": "azure-resource-manager",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure-resource-manager",
+      "sense_id": "azure-resource-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

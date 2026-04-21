@@ -1,0 +1,544 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/client-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/client-tests.yaml"
+    },
+    {
+      "component": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "casper-hansen/autoawq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "huggingface/safetensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "huggingface/optimum-neuron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "Automatic Documentation for Launcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "rlespinasse/github-slug-action@v4.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "docker/metadata-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "CI build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/client-tests.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/client-tests.yaml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "CodeQL Security Analysis For Github Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "falcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "starcoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:35.827465+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14691
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1212
+    },
+    {
+      "path": "Dockerfile",
+      "size": 9117
+    },
+    {
+      "path": ".github/workflows/autodocs.yaml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 14587
+    },
+    {
+      "path": ".github/workflows/build_documentation.yaml",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yaml",
+      "size": 497
+    },
+    {
+      "path": ".github/workflows/ci_build.yaml",
+      "size": 1265
+    },
+    {
+      "path": ".github/workflows/client-tests.yaml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Large Language Model Text Generation Inference",
+    "fork": false,
+    "full_name": "huggingface/text-generation-inference",
+    "html_url": "https://github.com/huggingface/text-generation-inference",
+    "language": "Python",
+    "pushed_at": "2026-03-21T11:34:22Z",
+    "stargazers_count": 10842,
+    "topics": [
+      "bloom",
+      "deep-learning",
+      "falcon",
+      "gpt",
+      "inference",
+      "nlp",
+      "pytorch",
+      "starcoder",
+      "transformer"
+    ],
+    "updated_at": "2026-04-20T09:27:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casper-hansen/autoawq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/optimum-neuron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/safetensors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automatic Documentation for Launcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "term": "Automatic Documentation for Launcher"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "CI build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build.yaml",
+      "term": "CI build"
+    },
+    {
+      "context_snippet": "CodeQL Security Analysis For Github Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Security Analysis For Github Actions"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "falcon"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starcoder"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004888,
+      "status": "candidate",
+      "text": "nspcc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004887,
+      "status": "candidate",
+      "text": "cncs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004886,
+      "status": "candidate",
+      "text": "cnaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004885,
+      "status": "candidate",
+      "text": "unicef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004884,
+      "status": "candidate",
+      "text": "cabf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cncf",
+      "sense_id": "cncf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cncf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cncf",
+  "observation_id": "f459c2fe4400b441",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "cncf",
+  "source_context_snippet": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).",
+  "source_file": null,
+  "source_repo": "cncf/foundation",
+  "source_repo_description": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+}

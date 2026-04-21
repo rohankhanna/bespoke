@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Build Images",
+    "Build images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "A simple, performant and scalable Jax LLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "Build Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": ":house_with_garden: Open source home automation that puts local control and privacy first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate-context",
+      "text": "Build images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate",
+      "text": "Build Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/core",
+      "status": "candidate",
+      "text": "Build images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "dream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11620,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "building"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Images",
+  "concept_id": "build-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/core"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Images",
+      "sense_id": "build-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

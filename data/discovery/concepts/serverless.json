@@ -7,9 +7,83 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Scalable array processing with bounded memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate",
+      "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024681,
+      "status": "candidate",
+      "text": "cloud-first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024680,
+      "status": "candidate",
+      "text": "cloudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024679,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024678,
+      "status": "candidate",
+      "text": "role-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024677,
+      "status": "candidate",
+      "text": "hyperconverged"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "serverless",
   "concept_id": "serverless",
@@ -20,12 +94,26 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "~Build wheel template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate-context",
+      "text": "~Build wheel template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate",
+      "text": "~Build wheel template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29475,
+      "status": "candidate",
+      "text": "jigger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13108,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13108,
+      "status": "candidate",
+      "text": "staff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13108,
+      "status": "candidate",
+      "text": "staffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "~Build wheel template",
+  "concept_id": "build-wheel-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "~Build wheel template",
+      "sense_id": "build-wheel-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

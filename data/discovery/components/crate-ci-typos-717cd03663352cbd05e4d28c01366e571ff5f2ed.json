@@ -1,0 +1,12 @@
+{
+  "component": "crate-ci/typos@717cd03663352cbd05e4d28c01366e571ff5f2ed",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ]
+}

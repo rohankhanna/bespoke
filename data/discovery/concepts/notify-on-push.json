@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify on Push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "The Node.js Website Team Governance Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "Notify on Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate",
+      "text": "Notify on Push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "jog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "joh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "jpg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11383,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11383,
+      "status": "candidate",
+      "text": "acquaint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify on Push",
+  "concept_id": "notify-on-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/notify-on-push.yml",
+      "source_repo": "nodejs/web-team"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify on Push",
+      "sense_id": "notify-on-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

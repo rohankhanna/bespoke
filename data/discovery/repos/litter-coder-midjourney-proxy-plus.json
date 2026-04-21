@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "litter-coder/midjourney-proxy-admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "litter-coder/wechat-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "calcium-ion/new-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "ye4241/midjourney-captcha-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "target": "midjourney-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:51.863111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "midjourney-proxy\u7684\u5148\u884c\u7248",
+    "fork": false,
+    "full_name": "litter-coder/midjourney-proxy-plus",
+    "html_url": "https://github.com/litter-coder/midjourney-proxy-plus",
+    "language": null,
+    "pushed_at": "2025-08-03T07:44:36Z",
+    "stargazers_count": 566,
+    "topics": [
+      "midjourney",
+      "midjourney-api"
+    ],
+    "updated_at": "2026-04-20T23:33:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litter-coder/midjourney-proxy-admin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litter-coder/wechat-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ye4241/midjourney-captcha-bot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney-api"
+    }
+  ]
+}

@@ -7,10 +7,102 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate-context",
+      "text": "Go library for the Stripe API.    "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/stripe/stripe-go)](https://pkg.go.dev/github.com/stripe/stripe-go/v85)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-go",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/stripe/stripe-go)](https://pkg.go.dev/github.com/stripe/stripe-go/v85)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961561,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953466,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934229,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915497,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967901,
+      "status": "candidate",
+      "text": "grade insignia"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9047,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2047,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1042,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27,
+      "status": "candidate",
+      "text": "stripes"
+    }
+  ],
   "canonical_name": "stripe",
   "concept_id": "stripe",
   "definition_status": "unresolved",
@@ -26,12 +118,20 @@
       "observed_at": "2026-04-18T10:38:37.562216+00:00",
       "source_file": null,
       "source_repo": "stripe/stripe-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "stripe/stripe-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

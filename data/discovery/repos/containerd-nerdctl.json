@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-other.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml"
+    },
+    {
+      "component": "containerd/project-checks@d7751f3c375b8fe4a84c02a068184ee4c1f59bc4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-dependencies.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-in-container.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-in-container.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/nerdctl",
+      "target": "containernetworking/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/nerdctl",
+      "target": "kubernetes-sigs/cri-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/nerdctl",
+      "target": "alibaba/pouch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/nerdctl",
+      "target": "containerd/project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-build.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-lint-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-other.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-other.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-lint-other",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "containerd/project-checks@d7751f3c375b8fe4a84c02a068184ee4c1f59bc4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-lint-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-test-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-in-container.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-test-in-container.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-test-in-container.yml",
+      "source_repo": "containerd/nerdctl",
+      "target": "job-test-in-container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containerd/nerdctl",
+      "target": "containerd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:46.515156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12008
+    },
+    {
+      "path": "Dockerfile",
+      "size": 22170
+    },
+    {
+      "path": "go.mod",
+      "size": 7558
+    },
+    {
+      "path": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "size": 2372
+    },
+    {
+      "path": ".github/workflows/job-build.yml",
+      "size": 3371
+    },
+    {
+      "path": ".github/workflows/job-lint-go.yml",
+      "size": 2387
+    },
+    {
+      "path": ".github/workflows/job-lint-other.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/job-lint-project.yml",
+      "size": 2102
+    },
+    {
+      "path": ".github/workflows/job-test-dependencies.yml",
+      "size": 2087
+    },
+    {
+      "path": ".github/workflows/job-test-in-container.yml",
+      "size": 9345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ...",
+    "fork": false,
+    "full_name": "containerd/nerdctl",
+    "html_url": "https://github.com/containerd/nerdctl",
+    "language": "Go",
+    "pushed_at": "2026-04-20T23:42:12Z",
+    "stargazers_count": 10032,
+    "topics": [
+      "containerd"
+    ],
+    "updated_at": "2026-04-21T10:51:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/pouch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containerd/project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containernetworking/plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/cri-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "term": "image"
+    },
+    {
+      "context_snippet": "job-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-build.yml",
+      "term": "job-build"
+    },
+    {
+      "context_snippet": "job-lint-go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "term": "job-lint-go"
+    },
+    {
+      "context_snippet": "job-lint-other",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-other.yml",
+      "term": "job-lint-other"
+    },
+    {
+      "context_snippet": "job-lint-project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "term": "job-lint-project"
+    },
+    {
+      "context_snippet": "job-test-dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "term": "job-test-dependencies"
+    },
+    {
+      "context_snippet": "job-test-in-container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-test-in-container.yml",
+      "term": "job-test-in-container"
+    },
+    {
+      "context_snippet": "[[\u2b07\ufe0f **Download]**](https://github.com/containerd/nerdctl/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    }
+  ]
+}

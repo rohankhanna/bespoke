@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sync-remotes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "Improved fzf.vim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "sync-remotes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate",
+      "text": "sync-remotes"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sync-remotes",
+  "concept_id": "sync-remotes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/sync_remote.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sync-remotes",
+      "sense_id": "sync-remotes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

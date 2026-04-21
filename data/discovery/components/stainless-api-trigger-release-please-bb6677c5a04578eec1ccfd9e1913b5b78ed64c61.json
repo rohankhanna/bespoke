@@ -1,12 +1,17 @@
 {
   "component": "stainless-api/trigger-release-please@bb6677c5a04578eec1ccfd9e1913b5b78ed64c61",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-releases.yml",
       "source_repo": "openai/openai-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-node"
     }
   ]
 }

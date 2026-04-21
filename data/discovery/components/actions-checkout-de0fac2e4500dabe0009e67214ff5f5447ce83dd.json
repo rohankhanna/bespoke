@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1522,6 +1522,706 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/service_test.yml",
       "source_repo": "biopragmatics/bioregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-semver.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-management-feedback-label.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/table-check.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-and-owners.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-command.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-compatibility.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-arm.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-windows.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-integration-test.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-snapshot.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "hashicorp/go-version"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "hashicorp/hcl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-node.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-specrefs.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-backfill.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/guava-beta-checker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-code-scanning.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/read-size.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/report-size.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/l10n.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tip.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-jsr.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jit.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-md-link.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_release.yml",
+      "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cloudflare-deploy.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copr-publish.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-forge-std.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-tempo.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crate-checks.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly-lockfile-update.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/onchain.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-build.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-go.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-other.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-test-dependencies.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-test-in-container.yml",
+      "source_repo": "containerd/nerdctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spell.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-push.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-check-links.yml",
+      "source_repo": "pytest-dev/pytest"
     }
   ]
 }

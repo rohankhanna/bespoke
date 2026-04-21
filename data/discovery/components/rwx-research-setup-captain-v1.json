@@ -1,0 +1,12 @@
+{
+  "component": "rwx-research/setup-captain@v1",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detector-tests.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    }
+  ]
+}

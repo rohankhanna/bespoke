@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020545,
+      "status": "candidate",
+      "text": "route"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019909,
+      "status": "candidate",
+      "text": "itinerary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014282,
+      "status": "candidate",
+      "text": "path"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014265,
+      "status": "candidate",
+      "text": "carnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010880,
+      "status": "candidate",
+      "text": "waybill"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roadmap",
+      "sense_id": "roadmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "roadmap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "roadmap",
+  "observation_id": "7f52a6a92b010c95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "roadmap",
+  "source_context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+  "source_file": null,
+  "source_repo": "Digidai/product-manager-skills",
+  "source_repo_description": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+}

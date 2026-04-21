@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "connect-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+      "target": "midjourney-api-bot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "ConnectAI-E/Dingtalk-Midjourney"
+}

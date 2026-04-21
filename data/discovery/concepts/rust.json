@@ -340,6 +340,342 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate-context",
       "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00 https://ratatui.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate-context",
+      "text": "A CSV parser for Rust, with Serde support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate-context",
+      "text": "csv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate-context",
+      "text": "A fast CSV command line toolkit written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate-context",
+      "text": "In lieu of `xsv`, I'd recommend either"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/models",
+      "status": "candidate-context",
+      "text": "Models and examples built with Burn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/models",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate-context",
+      "text": "SwarmNL is a simple configurable library designed for P2P networking in distributed systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate-context",
+      "text": "\ud83c\udf32 Rust Filecoin Node Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "An HTTP library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "A Rust compiler front-end for IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate-context",
+      "text": "[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/clippy.svg)](#license)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "Format Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "A tool for formatting Rust code according to style guidelines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "A modern TLS library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of xxhash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keats/jsonwebtoken",
+      "status": "candidate-context",
+      "text": "JWT lib in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/jsonwebtoken",
+      "status": "candidate-context",
+      "text": "[API documentation on docs.rs](https://docs.rs/jsonwebtoken/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate-context",
+      "text": "Font parser, shaping engine, and subsetter implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate-context",
+      "text": "Rust API for loading, scaling, positioning and rasterizing OpenType font glyphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate-context",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "The fastest font renderer in the world, written in pure rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "A cat(1) clone with wings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "A basic calendar view implementation for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate-context",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "A basc table view compnent for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate-context",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "A simple and easy to use Wikipedia Text User Interface "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
     }
   ],
   "candidate_glosses": [
@@ -504,6 +840,180 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate",
       "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/rust-csv",
+      "status": "candidate",
+      "text": "csv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate",
+      "text": "In lieu of `xsv`, I'd recommend either"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/models",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-clippy",
+      "status": "candidate",
+      "text": "[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/clippy.svg)](#license)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate",
+      "text": "A tool for formatting Rust code according to style guidelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DoumanAsh/xxhash-rust",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/DoumanAsh/xxhash-rust/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/jsonwebtoken",
+      "status": "candidate",
+      "text": "[API documentation on docs.rs](https://docs.rs/jsonwebtoken/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeslogic/allsorts",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/ab-glyph",
+      "status": "candidate",
+      "text": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate",
+      "text": "EigenSDK-rs is an initiative for rust developers to build AVSs on eigenlayer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_calendar_view",
+      "status": "candidate",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BonsaiDen/cursive_table_view",
+      "status": "candidate",
+      "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
     }
   ],
   "candidate_related_terms": [
@@ -841,11 +1351,221 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "tokio-rs/tracing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BurntSushi/xsv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tracel-ai/models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "algorealmInc/SwarmNL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "japaric/trust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DoumanAsh/xxhash-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "DoumanAsh/xxhash-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Keats/jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "yeslogic/allsorts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_calendar_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BonsaiDen/cursive_table_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Builditluc/wiki-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

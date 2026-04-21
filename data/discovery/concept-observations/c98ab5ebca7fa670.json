@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remark"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014606,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014485,
+      "status": "candidate",
+      "text": "observation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014278,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013956,
+      "status": "candidate",
+      "text": "comment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012477,
+      "status": "candidate",
+      "text": "mention"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remark",
+      "sense_id": "remark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16082,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "observation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13022,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9054,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "concept_id": "remark",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remark",
+  "observation_id": "c98ab5ebca7fa670",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Remark",
+  "source_context_snippet": "Remark",
+  "source_file": ".github/workflows/remark.yml",
+  "source_repo": "rust-lang/rust-clippy",
+  "source_repo_description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/"
+}

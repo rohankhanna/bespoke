@@ -19,6 +19,18 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "status": "candidate-context",
       "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "status": "candidate",
       "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "major7apps/pensyve"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

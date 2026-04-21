@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "malware-detection",
+      "sense_id": "malware-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "malware-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "malware-detection",
+  "observation_id": "ad827366d4c0ccb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "malware-detection",
+  "source_context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+  "source_file": null,
+  "source_repo": "airbnb/binaryalert",
+  "source_repo_description": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+}

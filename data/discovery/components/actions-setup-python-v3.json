@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backup.yml",
       "source_repo": "simonw/simonwillisonblog-backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ayaka14732/jax-smi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beam-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dask-tests.yml",
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/diff-shades"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-python-package.yml",
+      "source_repo": "clearbluejar/ghidrecomp"
     }
   ]
 }

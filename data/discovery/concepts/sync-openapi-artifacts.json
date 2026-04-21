@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync OpenAPI Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "An OpenAPI specification for the Stripe API.        "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "Sync OpenAPI Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate",
+      "text": "Sync OpenAPI Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10703,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10557,
+      "status": "candidate",
+      "text": "accord"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync OpenAPI Artifacts",
+  "concept_id": "sync-openapi-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/sync-openapi-artifacts.yml",
+      "source_repo": "stripe/openapi"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync OpenAPI Artifacts",
+      "sense_id": "sync-openapi-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

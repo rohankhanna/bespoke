@@ -31,12 +31,48 @@
       "source_repo": "bensadeh/circumflex",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate-context",
+      "text": "A fast CSV command line toolkit written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate-context",
+      "text": "In lieu of `xsv`, I'd recommend either"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "A cat(1) clone with wings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "bensadeh/circumflex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/xsv",
+      "status": "candidate",
+      "text": "In lieu of `xsv`, I'd recommend either"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/bat",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "bensadeh/circumflex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BurntSushi/xsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/bat"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

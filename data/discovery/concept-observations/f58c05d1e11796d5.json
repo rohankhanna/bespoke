@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump formulae on schedule or request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump formulae on schedule or request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33396,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32283,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32261,
+      "status": "candidate",
+      "text": "hump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32242,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32230,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump formulae on schedule or request",
+      "sense_id": "bump-formulae-on-schedule-or-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-formulae-on-schedule-or-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-formulae-on-schedule-or-request",
+  "observation_id": "f58c05d1e11796d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Bump formulae on schedule or request",
+  "source_context_snippet": "Bump formulae on schedule or request",
+  "source_file": ".github/workflows/autobump.yml",
+  "source_repo": "Homebrew/homebrew-core",
+  "source_repo_description": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+}

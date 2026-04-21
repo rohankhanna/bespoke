@@ -49,6 +49,54 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "status": "candidate-context",
+      "text": "Fish-like autosuggestions for zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "status": "candidate-context",
+      "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +117,30 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zsh-users/zsh-autosuggestions",
+      "status": "candidate",
+      "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +244,35 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "zsh-users/zsh-autosuggestions"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

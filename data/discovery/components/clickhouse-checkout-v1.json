@@ -1,0 +1,27 @@
+{
+  "component": "ClickHouse/checkout@v1",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_releases.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backfill_distroless.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry_pick.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "ClickHouse/ClickHouse"
+    }
+  ]
+}

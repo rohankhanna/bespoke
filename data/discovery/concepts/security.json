@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "security"
+    "security",
+    "Security"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -61,6 +64,66 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate-context",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate-context",
+      "text": "\u4e00\u6b3e\u5185\u7f51\u7efc\u5408\u626b\u63cf\u5de5\u5177\uff0c\u65b9\u4fbf\u4e00\u952e\u81ea\u52a8\u5316\u3001\u5168\u65b9\u4f4d\u6f0f\u626b\u626b\u63cf\u3002(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate-context",
+      "text": "[English][url-docen]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate-context",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +144,36 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow1ng/fscan",
+      "status": "candidate",
+      "text": "[English][url-docen]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "status": "candidate",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +283,47 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "knownsec/404StarLink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "shadow1ng/fscan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

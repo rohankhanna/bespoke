@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:38:15.114521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes status line for tmux",
+    "fork": false,
+    "full_name": "jonmosco/kube-tmux",
+    "html_url": "https://github.com/jonmosco/kube-tmux",
+    "language": "Shell",
+    "pushed_at": "2025-06-26T10:36:09Z",
+    "stargazers_count": 376,
+    "topics": [],
+    "updated_at": "2026-04-02T03:10:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "License Exceptions Site Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "License Exceptions Site Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate",
+      "text": "License Exceptions Site Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30524,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30458,
+      "status": "candidate",
+      "text": "liberty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30127,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30085,
+      "status": "candidate",
+      "text": "context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30085,
+      "status": "candidate",
+      "text": "enter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "License Exceptions Site Tests",
+  "concept_id": "license-exceptions-site-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Exceptions Site Tests",
+      "sense_id": "license-exceptions-site-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "EigenLayer Rust Developer Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate-context",
+      "text": "stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate",
+      "text": "stale issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11823,
+      "status": "candidate",
+      "text": "flag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11811,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10847,
+      "status": "candidate",
+      "text": "chestnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10847,
+      "status": "candidate",
+      "text": "insipid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10847,
+      "status": "candidate",
+      "text": "musty"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "stale issues",
+  "concept_id": "stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Layr-Labs/eigensdk-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "stale issues",
+      "sense_id": "stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

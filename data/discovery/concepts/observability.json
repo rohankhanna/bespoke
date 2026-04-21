@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994167,
+      "status": "candidate",
+      "text": "observableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994166,
+      "status": "candidate",
+      "text": "observationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994165,
+      "status": "candidate",
+      "text": "unobservability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994164,
+      "status": "candidate",
+      "text": "o11y"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994163,
+      "status": "candidate",
+      "text": "unobservableness"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "observability",
   "concept_id": "observability",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-collector"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

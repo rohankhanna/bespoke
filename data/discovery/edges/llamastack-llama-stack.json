@@ -46,7 +46,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-status.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -102,14 +102,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit-recordings.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-build.yml",
       "source_repo": "llamastack/llama-stack",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -197,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "llamastack/llama-stack"
 }

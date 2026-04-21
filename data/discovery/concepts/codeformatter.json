@@ -19,6 +19,18 @@
       "source_repo": "psf/black",
       "status": "candidate-context",
       "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "Format Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate-context",
+      "text": "A tool for formatting Rust code according to style guidelines."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "psf/black",
       "status": "candidate",
       "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustfmt",
+      "status": "candidate",
+      "text": "A tool for formatting Rust code according to style guidelines."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

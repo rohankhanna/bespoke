@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Sandbox Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Sandbox Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12498,
+      "status": "candidate",
+      "text": "tot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12230,
+      "status": "candidate",
+      "text": "castle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11972,
+      "status": "candidate",
+      "text": "adjust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11972,
+      "status": "candidate",
+      "text": "adjusting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11972,
+      "status": "candidate",
+      "text": "ambiance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Sandbox Images",
+      "sense_id": "build-sandbox-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-sandbox-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-sandbox-images",
+  "observation_id": "357673e2fc2a63f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Build Sandbox Images",
+  "source_context_snippet": "Build Sandbox Images",
+  "source_file": ".github/workflows/build-sandboxes.yml",
+  "source_repo": "NVIDIA/OpenShell-Community",
+  "source_repo_description": "OpenShell is the safe, private runtime for autonomous AI agents."
+}

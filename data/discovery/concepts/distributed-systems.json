@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ceylonai/ceylon",
+      "status": "candidate-context",
+      "text": "Efficient multi-agent task automation and management system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceylonai/ceylon",
+      "status": "candidate-context",
+      "text": "> Empowering Collaboration, Simplifying Complexity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceylonai/ceylon",
+      "status": "candidate",
+      "text": "> Empowering Collaboration, Simplifying Complexity"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "distributed-systems",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ceylonai/ceylon"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "EC2 Instance Selector CI and Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "status": "candidate-context",
+      "text": "A CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "status": "candidate-context",
+      "text": "EC2 Instance Selector CI and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ec2-instance-selector",
+      "status": "candidate",
+      "text": "EC2 Instance Selector CI and Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26003,
+      "status": "candidate",
+      "text": "explosion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22218,
+      "status": "candidate",
+      "text": "park"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22098,
+      "status": "candidate",
+      "text": "delegate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21668,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21668,
+      "status": "candidate",
+      "text": "touch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "EC2 Instance Selector CI and Release",
+  "concept_id": "ec2-instance-selector-ci-and-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/amazon-ec2-instance-selector"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EC2 Instance Selector CI and Release",
+      "sense_id": "ec2-instance-selector-ci-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

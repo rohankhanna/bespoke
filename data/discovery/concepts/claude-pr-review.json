@@ -29,7 +29,43 @@
       "text": "Claude PR Review"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "debussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11349,
+      "status": "candidate",
+      "text": "monet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11305,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11305,
+      "status": "candidate",
+      "text": "gel"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Claude PR Review",
   "concept_id": "claude-pr-review",
@@ -46,12 +82,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

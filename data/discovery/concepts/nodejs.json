@@ -97,6 +97,78 @@
       "source_repo": "standard/standard",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-node",
+      "status": "candidate-context",
+      "text": "Official JavaScript / TypeScript library for the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-node",
+      "status": "candidate-context",
+      "text": "[![NPM version](<https://img.shields.io/npm/v/openai.svg?label=npm%20(stable)>)](https://npmjs.org/package/openai) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/openai) [![JSR Version](https://jsr.io/badges/@openai/openai)](https://jsr.io/@openai/openai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate-context",
+      "text": "Repository used by the Node-API team to manage work related to Node-API and node-addon-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate-context",
+      "text": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "Better build and test infra for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate-context",
+      "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +213,42 @@
       "source_repo": "standard/standard",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-node",
+      "status": "candidate",
+      "text": "[![NPM version](<https://img.shields.io/npm/v/openai.svg?label=npm%20(stable)>)](https://npmjs.org/package/openai) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/openai) [![JSR Version](https://jsr.io/badges/@openai/openai)](https://jsr.io/@openai/openai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/abi-stable-node",
+      "status": "candidate",
+      "text": "This repository is the home for ABI Stable Node API project Node-API which was previously known as N-API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/build",
+      "status": "candidate",
+      "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +340,47 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/citgm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/abi-stable-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/build"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

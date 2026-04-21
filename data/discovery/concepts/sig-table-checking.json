@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SIG Table checking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "SIG Table checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "SIG Table checking"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23348,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23348,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23193,
+      "status": "candidate",
+      "text": "boarding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "section"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SIG Table checking",
+  "concept_id": "sig-table-checking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/table-check.yml",
+      "source_repo": "open-telemetry/community"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SIG Table checking",
+      "sense_id": "sig-table-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate License Exceptions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate-context",
+      "text": "Validate License Exceptions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/foundation",
+      "status": "candidate",
+      "text": "Validate License Exceptions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18803,
+      "status": "candidate",
+      "text": "imprimatur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18776,
+      "status": "candidate",
+      "text": "citation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18749,
+      "status": "candidate",
+      "text": "certificate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "available"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "aver"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate License Exceptions",
+  "concept_id": "validate-license-exceptions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "source_repo": "cncf/foundation"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate License Exceptions",
+      "sense_id": "validate-license-exceptions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-dask.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Array API Tests (Dask)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-numpy-dev.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Array API Tests (NumPy dev)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-numpy-latest.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Array API Tests (NumPy latest)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-torch.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Array API Tests (PyTorch CPU)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Array API Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "data-apis/array-api-compat",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat",
+      "target": "array-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "data-apis/array-api-compat",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:10.448980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3320
+    },
+    {
+      "path": ".github/workflows/array-api-tests-dask.yml",
+      "size": 769
+    },
+    {
+      "path": ".github/workflows/array-api-tests-numpy-1-22.yml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/array-api-tests-numpy-1-26.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/array-api-tests-numpy-dev.yml",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/array-api-tests-numpy-latest.yml",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/array-api-tests-torch.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/array-api-tests.yml",
+      "size": 3153
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compatibility layer for common array libraries to support the Array API",
+    "fork": false,
+    "full_name": "data-apis/array-api-compat",
+    "html_url": "https://github.com/data-apis/array-api-compat",
+    "language": "Python",
+    "pushed_at": "2026-04-13T10:08:50Z",
+    "stargazers_count": 119,
+    "topics": [
+      "array-api",
+      "cupy",
+      "dask",
+      "numpy",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-21T10:32:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Array API Tests (Dask)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-dask.yml",
+      "term": "Array API Tests (Dask)"
+    },
+    {
+      "context_snippet": "Array API Tests (NumPy dev)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-numpy-dev.yml",
+      "term": "Array API Tests (NumPy dev)"
+    },
+    {
+      "context_snippet": "Array API Tests (NumPy latest)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-numpy-latest.yml",
+      "term": "Array API Tests (NumPy latest)"
+    },
+    {
+      "context_snippet": "Array API Tests (PyTorch CPU)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests-torch.yml",
+      "term": "Array API Tests (PyTorch CPU)"
+    },
+    {
+      "context_snippet": "Array API Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/array-api-tests.yml",
+      "term": "Array API Tests"
+    },
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array-api"
+    },
+    {
+      "context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "This is a small wrapper around common array libraries that is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

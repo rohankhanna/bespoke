@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "Release Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate",
+      "text": "Release Tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11870,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11623,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "bail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Tag",
+  "concept_id": "release-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "ghostty-org/ghostty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Tag",
+      "sense_id": "release-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

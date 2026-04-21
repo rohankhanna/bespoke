@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "![Pensyve Banner Logo](https://raw.githubusercontent.com/major7apps/pensyve/main/docs/images/logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009182,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005322,
+      "status": "candidate",
+      "text": "inlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004789,
+      "status": "candidate",
+      "text": "packing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003794,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10000545,
+      "status": "candidate",
+      "text": "integrating"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "embeddings",
   "concept_id": "embeddings",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "major7apps/pensyve"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -49,6 +49,90 @@
       "source_repo": "svaningelgem/logprise",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate-context",
+      "text": "Python bindings for llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate-context",
+      "text": "A lean, local AI research agent framework that runs on your machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate-context",
+      "text": "An open-source tool for LLM prompt optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate-context",
+      "text": "Tool for generating high quality Synthetic datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "Abstraction layer for smart contract build systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "Manage and switch between Solidity compiler versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +151,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "svaningelgem/logprise",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KabakaWilliam/trajectorykit",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/prompt-ops",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/synthetic-data-kit",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -154,11 +280,53 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "svaningelgem/logprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/synthetic-data-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crytic/solc-select"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

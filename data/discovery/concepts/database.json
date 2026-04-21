@@ -19,6 +19,30 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate-context",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite3 in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

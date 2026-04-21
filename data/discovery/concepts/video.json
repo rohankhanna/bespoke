@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "video"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "The official Allegro 5 git repository. Pull requests welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "Welcome to Allegro!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate",
+      "text": "Welcome to Allegro!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011458,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990920,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012036,
+      "status": "candidate",
+      "text": "telecasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012035,
+      "status": "candidate",
+      "text": "televised"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1043,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "telecasting"
+    }
+  ],
+  "canonical_name": "video",
+  "concept_id": "video",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video",
+      "sense_id": "video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

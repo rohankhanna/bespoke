@@ -1,12 +1,17 @@
 {
   "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci_cuda.yaml",
       "source_repo": "huggingface/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
     }
   ]
 }

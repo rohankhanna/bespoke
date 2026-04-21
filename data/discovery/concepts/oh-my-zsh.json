@@ -19,6 +19,30 @@
       "source_repo": "deluan/zsh-in-docker",
       "status": "candidate-context",
       "text": "[![Last Release](https://img.shields.io/github/v/release/deluan/zsh-in-docker?label=latest&style=flat-square)](https://github.com/deluan/zsh-in-docker/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Minimalistic, powerful and extremely customizable Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "deluan/zsh-in-docker",
       "status": "candidate",
       "text": "[![Last Release](https://img.shields.io/github/v/release/deluan/zsh-in-docker?label=latest&style=flat-square)](https://github.com/deluan/zsh-in-docker/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "deluan/zsh-in-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

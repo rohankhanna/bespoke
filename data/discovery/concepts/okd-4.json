@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "okd-4"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "okd-project/okd",
+      "status": "candidate-context",
+      "text": "The self-managing, auto-upgrading, Kubernetes distribution for everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okd-project/okd",
+      "status": "candidate-context",
+      "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okd-project/okd",
+      "status": "candidate",
+      "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "okd-4",
+  "concept_id": "okd-4",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "okd-4",
+      "sense_id": "okd-4#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

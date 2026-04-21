@@ -37,6 +37,30 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "Core formulae for the Homebrew package manager."
     }
   ],
   "candidate_glosses": [
@@ -51,6 +75,18 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate",
+      "text": "Core formulae for the Homebrew package manager."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

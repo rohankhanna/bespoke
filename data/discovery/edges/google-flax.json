@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "2428392/gh-truncate-string-action@b3ff790d21cf42af3ca7579146eedb93c8fb0757",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax",
+      "target": "tsickert/discord-webhook@c840d45a03a323fbc3f7507ac7769dbd91bfb164",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "astral-sh/setup-uv@887a942a15af3a7626099df99e897a18d9e5ab3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax",
+      "target": "Flax - Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions-rust-lang/setup-rust-toolchain@11df97af8e8102fd60b60a77dfbf58d40cd843b8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax",
+      "target": "astral-sh/setup-uv@887a942a15af3a7626099df99e897a18d9e5ab3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax",
+      "target": "CI - with JAX nightly",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "google/flax"
+}

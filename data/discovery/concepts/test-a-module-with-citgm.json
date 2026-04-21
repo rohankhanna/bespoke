@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test a module with CITGM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Test a module with CITGM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate",
+      "text": "Test a module with CITGM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29166,
+      "status": "candidate",
+      "text": "ielts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12999,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "search"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test a module with CITGM",
+  "concept_id": "test-a-module-with-citgm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test-module.yml",
+      "source_repo": "nodejs/citgm"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test a module with CITGM",
+      "sense_id": "test-a-module-with-citgm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

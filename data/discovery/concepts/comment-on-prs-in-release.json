@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment on PRs in Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "Comment on PRs in Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate",
+      "text": "Comment on PRs in Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22450,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22450,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22450,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "advisory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment on PRs in Release",
+  "concept_id": "comment-on-prs-in-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on PRs in Release",
+      "sense_id": "comment-on-prs-in-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

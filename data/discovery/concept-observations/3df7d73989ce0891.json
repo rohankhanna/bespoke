@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull request synchronized"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull request synchronized"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21320,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21259,
+      "status": "candidate",
+      "text": "boycott"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21179,
+      "status": "candidate",
+      "text": "rallying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21179,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "burst"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull request synchronized",
+      "sense_id": "pull-request-synchronized#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-synchronized",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-synchronized",
+  "observation_id": "3df7d73989ce0891",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Pull request synchronized",
+  "source_context_snippet": "Pull request synchronized",
+  "source_file": ".github/workflows/on_pull_request_synchronized.yml",
+  "source_repo": "ray-project/ray",
+  "source_repo_description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+}

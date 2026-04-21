@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "alexellis/upload-assets@0.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "actions/setup-go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "actions/setup-go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "alexellis/upload-assets@0.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater",
+      "target": "publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:01.881202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3680
+    },
+    {
+      "path": "go.mod",
+      "size": 155
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 451
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatically install discord updates on Linux",
+    "fork": false,
+    "full_name": "alexellis/discord-updater",
+    "html_url": "https://github.com/alexellis/discord-updater",
+    "language": "Go",
+    "pushed_at": "2025-10-17T07:44:13Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-12T04:09:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    }
+  ]
+}

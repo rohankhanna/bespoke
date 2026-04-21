@@ -85,6 +85,30 @@
       "source_repo": "coaidev/coai",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 One-click deployment of many github open source projects to facilitate fast experience \u4e00\u952e\u90e8\u7f72\u5404\u79cdGithub\u5f00\u6e90AI\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -121,6 +145,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coaidev/coai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -232,11 +268,35 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

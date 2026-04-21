@@ -1,12 +1,27 @@
 {
   "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "dreamiurg/peakbagger-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team"
     }
   ]
 }

@@ -55,6 +55,30 @@
       "source_repo": "libp2p/specs",
       "status": "candidate-context",
       "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p-examples",
+      "status": "candidate-context",
+      "text": "Examples for the JS implementation of libp2p"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-examples",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/libp2p",
+      "status": "candidate-context",
+      "text": "A modular and extensible networking stack which solves many challenges of peer-to-peer applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/libp2p",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "libp2p/specs",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-examples",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/libp2p",
       "status": "candidate",
       "text": "Close Generated PRs"
     }
@@ -154,11 +190,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "libp2p/specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/js-libp2p-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/libp2p"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

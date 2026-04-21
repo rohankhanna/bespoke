@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Continuous Integration",
-    "Continuous integration"
+    "Continuous integration",
+    "continuous-integration"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +35,54 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate-context",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00 https://ratatui.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "A simple and easy to use Wikipedia Text User Interface "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +91,30 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +182,35 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "libp2p/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "japaric/trust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Builditluc/wiki-tui"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

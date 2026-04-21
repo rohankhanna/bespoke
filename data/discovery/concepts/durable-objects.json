@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "durable-objects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "Build and deploy AI Agents on Cloudflare "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/agents)](https://www.npmjs.com/package/agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/agents-starter",
+      "status": "candidate-context",
+      "text": "A starter kit for building ai agents on Cloudflare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents-starter",
+      "status": "candidate-context",
+      "text": "![npm i agents command](./npm-agents-banner.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/agents)](https://www.npmjs.com/package/agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/agents-starter",
+      "status": "candidate",
+      "text": "![npm i agents command](./npm-agents-banner.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "durable-objects",
+  "concept_id": "durable-objects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/agents-starter"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "durable-objects",
+      "sense_id": "durable-objects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

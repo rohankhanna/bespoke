@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Examples"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "accra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "breadboard"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "build-examples",
   "observation_id": "a2a42852c1a0f87d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "Build Examples",
-  "source_context_snippet": null,
+  "source_context_snippet": "Build Examples",
   "source_file": ".github/workflows/examples.yml",
   "source_repo": "langchain-ai/langchainjs",
-  "source_repo_description": null
+  "source_repo_description": "The agent engineering platform"
 }

@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Auto Strands Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Secure Integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-on-release.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-on-release.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-on-release.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish-on-release.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Publish NPM Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Pull Request and Push Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "PR Title Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/strands-command/actions/strands-input-parser@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/strands-command/actions/strands-agent-runner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents/devtools/strands-command/actions/strands-finalize@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "Strands Command Handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript",
+      "target": "strands-agents",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "strands-agents/sdk-typescript"
+}

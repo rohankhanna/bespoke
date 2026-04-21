@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Close Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Close Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18463,
+      "status": "candidate",
+      "text": "van"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "pitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18436,
+      "status": "candidate",
+      "text": "show"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Close Issues",
+      "sense_id": "auto-close-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-close-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-close-issues",
+  "observation_id": "4cbae8b363e7cbf5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Auto Close Issues",
+  "source_context_snippet": "Auto Close Issues",
+  "source_file": ".github/workflows/auto-close.yml",
+  "source_repo": "strands-agents/sdk-python",
+  "source_repo_description": "A model-driven approach to building AI agents in just a few lines of code."
+}

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "Pull Request CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "contributor-assistant/github-action@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.eph.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.eph.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "aws-actions/configure-aws-credentials@v1-node16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.eph.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "slackapi/slack-github-action@v1.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.devnet.eph.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "Ephemeral DevNet Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "aws-actions/configure-aws-credentials@v1-node16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "slackapi/slack-github-action@v1.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "DevNet Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.nightly.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.nightly.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.nightly.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "hashicorp/setup-terraform@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.nightly.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.nightly.devnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "Build Devnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.testnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.testnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "aws-actions/configure-aws-credentials@v1-node16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.testnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "slackapi/slack-github-action@v1.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.testnet.yml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "TestNet Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_edgenet.yaml",
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "0xPolygon/polygon-edge"
+}

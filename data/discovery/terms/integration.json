@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -21,6 +21,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "searxng/searxng"
     }
   ],
   "term": "integration"

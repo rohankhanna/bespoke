@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_diff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-assets.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-assets.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rust-lang/rust.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rust-lang/rust-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rust-dev-tools/fmt-rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_diff.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_diff.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "Diff Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc_check.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustdoc_check.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rustdoc check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-assets.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-assets.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-assets.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "rust-lang/rustfmt",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt",
+      "target": "codeformatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt",
+      "target": "rustfmt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:31:28.964487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10651
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1941
+    },
+    {
+      "path": ".github/workflows/check_diff.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/mac.yml",
+      "size": 945
+    },
+    {
+      "path": ".github/workflows/rustdoc_check.yml",
+      "size": 736
+    },
+    {
+      "path": ".github/workflows/upload-assets.yml",
+      "size": 2563
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 2125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Format Rust code",
+    "fork": false,
+    "full_name": "rust-lang/rustfmt",
+    "html_url": "https://github.com/rust-lang/rustfmt",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T18:53:57Z",
+    "stargazers_count": 6801,
+    "topics": [
+      "codeformatter",
+      "formatter",
+      "rust",
+      "rustfmt"
+    ],
+    "updated_at": "2026-04-20T18:54:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-dev-tools/fmt-rfcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rust-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rust.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Diff Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_diff.yml",
+      "term": "Diff Check"
+    },
+    {
+      "context_snippet": "integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "integration"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "term": "mac"
+    },
+    {
+      "context_snippet": "rustdoc check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustdoc_check.yml",
+      "term": "rustdoc check"
+    },
+    {
+      "context_snippet": "upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-assets.yml",
+      "term": "upload"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows"
+    },
+    {
+      "context_snippet": "A tool for formatting Rust code according to style guidelines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codeformatter"
+    },
+    {
+      "context_snippet": "A tool for formatting Rust code according to style guidelines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "A tool for formatting Rust code according to style guidelines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A tool for formatting Rust code according to style guidelines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rustfmt"
+    }
+  ]
+}

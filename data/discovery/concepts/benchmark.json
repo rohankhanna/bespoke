@@ -82,6 +82,54 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate-context",
       "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"70%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate-context",
+      "text": "DeepResearch Bench II (DRB2) is the follow-up to DeepResearch Bench, with a stronger focus on measuring the gap between deep research systems and human experts. It does so by decomposing expert-written reports into hierarchical rubrics covering presentation, analysis, and evidence, and using them to evaluate model-generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "An HTTP library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +168,30 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate",
       "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"70%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/hyper",
+      "status": "candidate",
+      "text": "Benchmark"
     }
   ],
   "candidate_related_terms": [
@@ -225,11 +297,47 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "hyperium/hyper"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "encryption"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047273,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049523,
+      "status": "candidate",
+      "text": "decryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049507,
+      "status": "candidate",
+      "text": "cryptography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049462,
+      "status": "candidate",
+      "text": "encipherment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049362,
+      "status": "candidate",
+      "text": "pki"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "encoding"
+    }
+  ],
+  "canonical_name": "encryption",
+  "concept_id": "encryption",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "berty/berty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "encryption",
+      "sense_id": "encryption#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

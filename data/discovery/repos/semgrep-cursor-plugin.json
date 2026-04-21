@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-version-label.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "source_repo": "semgrep/cursor-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "source_repo": "semgrep/cursor-plugin",
+      "target": "Require Version Bump Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/cursor-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "semgrep/cursor-plugin",
+      "target": "Version Bump on Label",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:19.736155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/require-version-label.yml",
+      "size": 2406
+    },
+    {
+      "path": ".github/workflows/version-bump.yml",
+      "size": 3892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home for the Semgrep Cursor Plugin.",
+    "fork": false,
+    "full_name": "semgrep/cursor-plugin",
+    "html_url": "https://github.com/semgrep/cursor-plugin",
+    "language": null,
+    "pushed_at": "2026-04-07T14:35:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-07T14:35:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Require Version Bump Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-version-label.yml",
+      "term": "Require Version Bump Label"
+    },
+    {
+      "context_snippet": "Version Bump on Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "Version Bump on Label"
+    }
+  ]
+}

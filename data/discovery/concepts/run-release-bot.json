@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run release bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate-context",
+      "text": "Run release bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trufflesecurity/trufflehog",
+      "status": "candidate",
+      "text": "Run release bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26084,
+      "status": "candidate",
+      "text": "let out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25987,
+      "status": "candidate",
+      "text": "dive-bombing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20701,
+      "status": "candidate",
+      "text": "cruciform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20572,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20442,
+      "status": "candidate",
+      "text": "aac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run release bot",
+  "concept_id": "run-release-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run release bot",
+      "sense_id": "run-release-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

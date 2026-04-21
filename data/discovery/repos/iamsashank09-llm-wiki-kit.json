@@ -1,0 +1,79 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "target": "knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "target": "llm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamsashank09/llm-wiki-kit",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:25:13.682023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8224
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stop re-explaining your research to your AI agent. Persistent, LLM-maintained wikis that compound over time. Drop PDFs, URLs, YouTube - your agent remembers forever. Based on Karpathy's LLM Wiki pattern.",
+    "fork": false,
+    "full_name": "iamsashank09/llm-wiki-kit",
+    "html_url": "https://github.com/iamsashank09/llm-wiki-kit",
+    "language": "Python",
+    "pushed_at": "2026-04-08T20:31:04Z",
+    "stargazers_count": 43,
+    "topics": [
+      "ai-agent",
+      "knowledge-base",
+      "llm",
+      "llm-tools",
+      "mcp",
+      "mcp-server"
+    ],
+    "updated_at": "2026-04-20T20:34:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-base"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-tools"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

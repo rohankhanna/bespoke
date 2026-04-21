@@ -228,14 +228,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "QuantumNous/new-api",
-      "target": "iofficeai/aionui",
+      "target": "suno-api/suno-api",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "QuantumNous/new-api",
-      "target": "calcium-ion/neko-api-key-tool",
+      "target": "songquanpeng/one-api",
       "target_type": "repository"
     },
     {
@@ -498,7 +498,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T02:44:39.495165+00:00",
+  "fetched_at": "2026-04-21T11:32:21.206685+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -537,18 +537,17 @@
       "size": 2986
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:04:25.214237+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
     "fork": false,
-    "full_name": "quantumnous/new-api",
+    "full_name": "QuantumNous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
     "pushed_at": "2026-04-18T06:22:55Z",
-    "stargazers_count": 27617,
+    "stargazers_count": 28020,
     "topics": [
       "ai-gateway",
       "claude",
@@ -558,14 +557,9 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-19T13:47:40Z"
+    "updated_at": "2026-04-21T11:30:47Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "calcium-ion/neko-api-key-tool",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "calcium-ion/new-api",
@@ -578,7 +572,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iofficeai/aionui",
+      "full_name": "songquanpeng/one-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "suno-api/suno-api",
       "source_file": "README.md"
     }
   ],

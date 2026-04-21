@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:34:24.028451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically updates terminal window titles based on Claude Code tasks\u2014stop guessing which terminal is which.",
+    "fork": false,
+    "full_name": "bluzername/claude-code-terminal-title",
+    "html_url": "https://github.com/bluzername/claude-code-terminal-title",
+    "language": "Shell",
+    "pushed_at": "2026-01-31T13:03:48Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-20T23:03:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

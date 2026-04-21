@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Copilot Setup Steps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22578,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "aisle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "cad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "gauge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copilot Setup Steps",
+      "sense_id": "copilot-setup-steps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "copilot-setup-steps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "copilot-setup-steps",
+  "observation_id": "060c615df129ea3d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Copilot Setup Steps",
+  "source_context_snippet": "Copilot Setup Steps",
+  "source_file": ".github/workflows/copilot-setup-steps.yml",
+  "source_repo": "Homebrew/brew",
+  "source_repo_description": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Core formulae for the Homebrew package manager."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Core formulae for the Homebrew package manager."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919696,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908124,
+      "status": "candidate",
+      "text": "meat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869679,
+      "status": "candidate",
+      "text": "nub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852940,
+      "status": "candidate",
+      "text": "marrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39825422,
+      "status": "candidate",
+      "text": "heart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "core",
+      "sense_id": "core#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47054,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31064,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23047,
+      "status": "candidate",
+      "text": "marrow"
+    }
+  ],
+  "concept_id": "core",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "core",
+  "observation_id": "c2b753e7dc41273a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "core",
+  "source_context_snippet": "Core formulae for the Homebrew package manager.",
+  "source_file": null,
+  "source_repo": "Homebrew/homebrew-core",
+  "source_repo_description": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+}

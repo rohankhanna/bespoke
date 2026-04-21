@@ -1,12 +1,17 @@
 {
   "component": "hadolint/hadolint-action@2332a7b74a6de0dda2e2221d575162eba76ba5e5",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "trailofbits/buttercup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dokku/dokku"
     }
   ]
 }

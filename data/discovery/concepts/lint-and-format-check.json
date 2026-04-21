@@ -29,7 +29,43 @@
       "text": "Lint and Format Check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20602,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20104,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20104,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Lint and Format Check",
   "concept_id": "lint-and-format-check",
@@ -46,12 +82,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/lint-format.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint-format.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

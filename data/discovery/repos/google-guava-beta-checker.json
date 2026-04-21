@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@d07a454dad7609a92316b57b23c9ccfd4f59af66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/guava-beta-checker",
+      "target": "google/error-prone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/guava-beta-checker",
+      "target": "styfle/cancel-workflow-action@d07a454dad7609a92316b57b23c9ccfd4f59af66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/guava-beta-checker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/guava-beta-checker",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:55.374115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6592
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Error Prone plugin to check for usages of @Beta APIs",
+    "fork": false,
+    "full_name": "google/guava-beta-checker",
+    "html_url": "https://github.com/google/guava-beta-checker",
+    "language": "Java",
+    "pushed_at": "2026-04-16T02:18:31Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-15T21:22:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/error-prone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -67,6 +67,78 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate-context",
       "text": "A fast and performant SQLite extension for CSV files, written in Rust! Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs) and the wonderful [csv crate](https://github.com/BurntSushi/rust-csv)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite3 in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "The ultimate set of SQLite extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "SQLite has few functions compared to other database management systems. SQLite authors see this as a feature rather than a problem, because SQLite has an extension mechanism in place."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "A SQLite extension for reading large files line-by-line (NDJSON, logs, txt, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate-context",
+      "text": "`sqlite-lines` is a SQLite extension for reading lines from a file or blob."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate-context",
+      "text": "A loadable SQLite extension for parsing, generating, and querying paths. Based on [cwalk](https://github.com/likle/cwalk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "A fast regular expression SQLite extension, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "A fast and performant SQLite extension for regular expressions. Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs), and the [regex crate](https://crates.io/crates/regex)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate-context",
+      "text": "CLI tool for exporting tables or queries from any SQL database to a SQLite file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +171,42 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate",
       "text": "A fast and performant SQLite extension for CSV files, written in Rust! Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs) and the wonderful [csv crate](https://github.com/BurntSushi/rust-csv)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate",
+      "text": "The fastest and simplest library for SQLite in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate",
+      "text": "SQLite has few functions compared to other database management systems. SQLite authors see this as a feature rather than a problem, because SQLite has an extension mechanism in place."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-lines",
+      "status": "candidate",
+      "text": "`sqlite-lines` is a SQLite extension for reading lines from a file or blob."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-path",
+      "status": "candidate",
+      "text": "A loadable SQLite extension for parsing, generating, and querying paths. Based on [cwalk](https://github.com/likle/cwalk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate",
+      "text": "A fast and performant SQLite extension for regular expressions. Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs), and the [regex crate](https://crates.io/crates/regex)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/db-to-sqlite",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +298,47 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "asg017/sqlite-xsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nalgeon/sqlean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

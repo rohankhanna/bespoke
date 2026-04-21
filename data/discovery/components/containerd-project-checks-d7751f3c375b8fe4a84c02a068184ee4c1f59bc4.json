@@ -1,12 +1,17 @@
 {
   "component": "containerd/project-checks@d7751f3c375b8fe4a84c02a068184ee4c1f59bc4",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-lint-project.yml",
+      "source_repo": "containerd/nerdctl"
     }
   ]
 }

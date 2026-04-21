@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -213,6 +215,294 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "The fastest and simplest library for SQLite3 in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "The ultimate set of SQLite extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "build-once run-anywhere c library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "A fast regular expression SQLite extension, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate-context",
+      "text": "Play chess in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "A Framework for Building Ethereum-compatible Blockchain Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wg/wrk",
+      "status": "candidate-context",
+      "text": "Modern HTTP benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wg/wrk",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "The fastest font renderer in the world, written in pure rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "TUI components for Bubble Tea \ud83e\udee7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "A minimal, colorful Go logging library \ud83e\udeb5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "A personal key value store \ud83d\udefc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "Advanced ANSI style & color support for your terminal applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate-context",
+      "text": "Automatically install discord updates on Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate-context",
+      "text": "Scan a directory for changed files and tail them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate-context",
+      "text": "Bump the versions of workflows in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udc08 A collection of LLM inference providers and models "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +611,150 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hibiken/asynq",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WiseLibs/better-sqlite3",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-regex",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/gambit",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glow",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raystack/meteor",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wg/wrk",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/bubbles",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/log",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/skate",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/termenv",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
       "status": "candidate",
       "text": "build"
     }
@@ -581,11 +1015,155 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nalgeon/sqlean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "maaslalani/gambit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xPolygon/polygon-edge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "wg/wrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mooman219/fontdue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/bubbles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/skate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/discord-updater"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/fstail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alexellis/gha-bump"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "getbettr/octotail"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

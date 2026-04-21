@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Docs manually"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "Publish Docs manually"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate",
+      "text": "Publish Docs manually"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18749,
+      "status": "candidate",
+      "text": "excerpt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10824,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10699,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10573,
+      "status": "candidate",
+      "text": "acadia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10573,
+      "status": "candidate",
+      "text": "after"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Docs manually",
+  "concept_id": "publish-docs-manually",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Docs manually",
+      "sense_id": "publish-docs-manually#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

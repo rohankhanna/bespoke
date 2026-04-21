@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Flax - Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flax",
+      "status": "candidate-context",
+      "text": "Flax is a neural network library for JAX that is designed for flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flax",
+      "status": "candidate-context",
+      "text": "Flax - Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flax",
+      "status": "candidate",
+      "text": "Flax - Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11702,
+      "status": "candidate",
+      "text": "bat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "linen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "linen paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "staple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10789,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Flax - Test",
+  "concept_id": "flax---test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flax - Test",
+      "sense_id": "flax---test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

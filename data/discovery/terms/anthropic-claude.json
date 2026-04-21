@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor"
     }
   ],
   "term": "anthropic-claude"

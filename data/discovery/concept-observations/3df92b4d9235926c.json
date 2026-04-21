@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017783,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016296,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014124,
+      "status": "candidate",
+      "text": "orientating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967764,
+      "status": "candidate",
+      "text": "emplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017915,
+      "status": "candidate",
+      "text": "aligning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "positioning",
+      "sense_id": "positioning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30067,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8047,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "emplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "locating"
+    }
+  ],
+  "concept_id": "positioning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "positioning",
+  "observation_id": "3df92b4d9235926c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "positioning",
+  "source_context_snippet": "**Not a template pack. A PM operator for AI coding tools.**",
+  "source_file": null,
+  "source_repo": "Digidai/product-manager-skills",
+  "source_repo_description": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+}

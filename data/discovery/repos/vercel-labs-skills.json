@@ -111,13 +111,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vercel-labs/skills",
-      "target": "vercel-labs/agent-skills",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel-labs/skills",
       "target": "shareai-lab/kode",
       "target_type": "repository"
     },
@@ -269,7 +262,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:44:34.034949+00:00",
+  "fetched_at": "2026-04-21T11:40:13.071445+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -302,19 +295,14 @@
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T19:08:03Z",
-    "stargazers_count": 14610,
+    "stargazers_count": 14844,
     "topics": [],
-    "updated_at": "2026-04-19T17:37:38Z"
+    "updated_at": "2026-04-21T11:39:03Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "shareai-lab/kode",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vercel-labs/agent-skills",
       "source_file": "README.md"
     }
   ],

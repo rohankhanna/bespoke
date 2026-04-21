@@ -1,0 +1,12 @@
+{
+  "component": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "k3s-io/k3s"
+    }
+  ]
+}

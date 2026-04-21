@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "lobehub/lobe-midjourney-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "term": "Upstream Sync"

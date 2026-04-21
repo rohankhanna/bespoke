@@ -1,0 +1,12 @@
+{
+  "component": "goreleaser/goreleaser-action@5742e2a039330cbb23ebf35f046f814d4c6ff811",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu"
+    }
+  ]
+}

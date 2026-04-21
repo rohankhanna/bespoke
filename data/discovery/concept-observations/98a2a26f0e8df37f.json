@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Find, verify, and analyze leaked credentials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run release bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run release bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26084,
+      "status": "candidate",
+      "text": "let out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25987,
+      "status": "candidate",
+      "text": "dive-bombing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20701,
+      "status": "candidate",
+      "text": "cruciform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20572,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20442,
+      "status": "candidate",
+      "text": "aac"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run release bot",
+      "sense_id": "run-release-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-release-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-release-bot",
+  "observation_id": "98a2a26f0e8df37f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Run release bot",
+  "source_context_snippet": "Run release bot",
+  "source_file": ".github/workflows/release-bot.yml",
+  "source_repo": "trufflesecurity/trufflehog",
+  "source_repo_description": "Find, verify, and analyze leaked credentials"
+}

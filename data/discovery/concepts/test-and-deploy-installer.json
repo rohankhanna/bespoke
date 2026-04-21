@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and Deploy installer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate-context",
+      "text": "Test and Deploy installer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohmyzsh/ohmyzsh",
+      "status": "candidate",
+      "text": "Test and Deploy installer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25392,
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25392,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25151,
+      "status": "candidate",
+      "text": "manoeuvre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24477,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24165,
+      "status": "candidate",
+      "text": "catechism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and Deploy installer",
+  "concept_id": "test-and-deploy-installer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and Deploy installer",
+      "sense_id": "test-and-deploy-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

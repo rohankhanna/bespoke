@@ -1,12 +1,17 @@
 {
   "component": "astral-sh/ruff-action@4919ec5cf1f49eff0871dbcea0da843445b837e6",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/crytic-compile"
     }
   ]
 }

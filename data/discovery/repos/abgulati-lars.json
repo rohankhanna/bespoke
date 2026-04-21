@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abgulati/LARS",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abgulati/LARS",
+      "target": "oschwartz10612/poppler-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abgulati/LARS",
+      "target": "ub-mannheim/tesseract",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abgulati/LARS",
+      "target": "microsoft/unilm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abgulati/LARS",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abgulati/LARS",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:04.447021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49614
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An application for running LLMs locally on your device, with your documents, facilitating detailed citations in generated responses.",
+    "fork": false,
+    "full_name": "abgulati/LARS",
+    "html_url": "https://github.com/abgulati/LARS",
+    "language": "Python",
+    "pushed_at": "2024-10-29T01:11:59Z",
+    "stargazers_count": 635,
+    "topics": [
+      "genai",
+      "llms",
+      "rag"
+    ],
+    "updated_at": "2026-04-16T10:06:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/unilm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oschwartz10612/poppler-windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ub-mannheim/tesseract",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    }
+  ]
+}

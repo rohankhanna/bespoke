@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Notebook Tests"
+    "Notebook Tests",
+    "Notebook tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "anthropics/claude-cookbooks",
       "status": "candidate-context",
       "text": "Notebook Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "Notebook tests"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "anthropics/claude-cookbooks",
       "status": "candidate",
       "text": "Notebook Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate",
+      "text": "Notebook tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "blue book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "bluebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10727,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Notebook Tests",
   "concept_id": "notebook-tests",
@@ -46,12 +101,26 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/notebook-tests.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/notebook-tests.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/notebooks.yml",
+      "source_repo": "datadesk/california-coronavirus-data"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

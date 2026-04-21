@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple plugin that allows running mypy from PyCharm and navigate between errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "dynamic typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "type-unsafe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "untyped"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "type-checking",
+      "sense_id": "type-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "type-checking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "type-checking",
+  "observation_id": "bac0b5f2038c5b9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "type-checking",
+  "source_context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+  "source_file": null,
+  "source_repo": "dropbox/mypy-PyCharm-plugin",
+  "source_repo_description": "A simple plugin that allows running mypy from PyCharm and navigate between errors"
+}

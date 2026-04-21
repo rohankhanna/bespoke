@@ -48,7 +48,7 @@
   "normalized_form": "claude-code",
   "observation_id": "9ed66003f40a5c47",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
   "observed_text": "claude-code",
   "source_context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
   "source_file": null,

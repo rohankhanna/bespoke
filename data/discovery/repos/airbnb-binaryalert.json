@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "malware-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert",
+      "target": "yara",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:31.972701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1493
+    },
+    {
+      "path": "requirements.txt",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection.",
+    "fork": false,
+    "full_name": "airbnb/binaryalert",
+    "html_url": "https://github.com/airbnb/binaryalert",
+    "language": "Python",
+    "pushed_at": "2023-12-12T18:28:30Z",
+    "stargazers_count": 1449,
+    "topics": [
+      "aws",
+      "lambda",
+      "malware-detection",
+      "security",
+      "serverless",
+      "terraform",
+      "yara"
+    ],
+    "updated_at": "2026-04-19T18:57:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malware-detection"
+    },
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yara"
+    }
+  ]
+}

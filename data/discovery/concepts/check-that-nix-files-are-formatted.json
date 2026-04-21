@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check that Nix files are formatted"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "Nix User Repository: User contributed nix packages [maintainer=@Pandapip1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "Check that Nix files are formatted"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate",
+      "text": "Check that Nix files are formatted"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23137,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23137,
+      "status": "candidate",
+      "text": "formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22424,
+      "status": "candidate",
+      "text": "scrape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21794,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21794,
+      "status": "candidate",
+      "text": "stop payment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check that Nix files are formatted",
+  "concept_id": "check-that-nix-files-are-formatted",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/check-nix-format.yml",
+      "source_repo": "nix-community/NUR"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check that Nix files are formatted",
+      "sense_id": "check-that-nix-files-are-formatted#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

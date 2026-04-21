@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-cookbooks",
-      "target": "aws-samples/anthropic-on-aws",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-link-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
@@ -239,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "anthropics/claude-cookbooks"
 }

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "compliance-close"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate-context",
+      "text": "The open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate-context",
+      "text": "compliance-close"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anomalyco/opencode",
+      "status": "candidate",
+      "text": "compliance-close"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "compliance-close",
+  "concept_id": "compliance-close",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/compliance-close.yml",
+      "source_repo": "anomalyco/opencode"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "compliance-close",
+      "sense_id": "compliance-close#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

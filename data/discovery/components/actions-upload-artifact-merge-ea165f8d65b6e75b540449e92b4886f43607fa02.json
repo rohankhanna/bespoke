@@ -1,0 +1,12 @@
+{
+  "component": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python"
+    }
+  ]
+}

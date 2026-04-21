@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:37:10.095512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 444
+    },
+    {
+      "path": "Dockerfile",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The BLAKE3 paper: specifications, analysis, and design rationale",
+    "fork": false,
+    "full_name": "BLAKE3-team/BLAKE3-specs",
+    "html_url": "https://github.com/BLAKE3-team/BLAKE3-specs",
+    "language": "HTML",
+    "pushed_at": "2022-06-27T20:54:20Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-04-01T11:04:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

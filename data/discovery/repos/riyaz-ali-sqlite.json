@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite",
+      "target": "sqlite-virtual-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite",
+      "target": "sqlite3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "riyaz-ali/sqlite",
+      "target": "sqlite3-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:25:21.905822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2542
+    },
+    {
+      "path": "go.mod",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang library to build sqlite extensions :rocket:",
+    "fork": false,
+    "full_name": "riyaz-ali/sqlite",
+    "html_url": "https://github.com/riyaz-ali/sqlite",
+    "language": "Go",
+    "pushed_at": "2025-02-04T09:10:32Z",
+    "stargazers_count": 180,
+    "topics": [
+      "golang",
+      "golang-library",
+      "sqlite-virtual-table",
+      "sqlite3",
+      "sqlite3-extension"
+    ],
+    "updated_at": "2026-04-11T13:56:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite-virtual-table"
+    },
+    {
+      "context_snippet": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite3"
+    },
+    {
+      "context_snippet": "[![Go v1.14](https://img.shields.io/badge/v1.14-blue.svg?labelColor=a8bfc0&color=5692c7&logoColor=fff&style=for-the-badge&logo=Go)](https://golang.org/doc/go1.14)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite3-extension"
+    }
+  ]
+}

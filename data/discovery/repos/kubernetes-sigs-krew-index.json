@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "krew-index CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "k8s-sig-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "krew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew-index",
+      "target": "kubectl-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:40.802234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1959
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin index for https://github.com/kubernetes-sigs/krew. This repo is for plugin maintainers.",
+    "fork": false,
+    "full_name": "kubernetes-sigs/krew-index",
+    "html_url": "https://github.com/kubernetes-sigs/krew-index",
+    "language": null,
+    "pushed_at": "2026-04-21T10:59:53Z",
+    "stargazers_count": 689,
+    "topics": [
+      "k8s-sig-cli",
+      "krew",
+      "kubectl",
+      "kubectl-plugins"
+    ],
+    "updated_at": "2026-04-21T10:59:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "krew-index CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "krew-index CI"
+    },
+    {
+      "context_snippet": "This repository is the centralized plugin index for [Krew (kubectl plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cli"
+    },
+    {
+      "context_snippet": "This repository is the centralized plugin index for [Krew (kubectl plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "krew"
+    },
+    {
+      "context_snippet": "This repository is the centralized plugin index for [Krew (kubectl plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "This repository is the centralized plugin index for [Krew (kubectl plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl-plugins"
+    }
+  ]
+}

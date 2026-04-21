@@ -1,0 +1,1048 @@
+{
+  "components": [
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "chia-network/actions/cache-pip@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "chia-network/actions/activate-venv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-ssh-to-https@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setjobenv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "chia-network/actions/activate-venv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-ssh-to-https@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setjobenv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "chia-network/actions/activate-venv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-ssh-to-https@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setjobenv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "Apple-Actions/import-codesign-certs@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "chia-network/actions/activate-venv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setjobenv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "Chia-Network/actions/git-ssh-to-https@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "chia-network/actions/cache-pip@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "Chia-Network/actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "chia-network/actions/activate-venv@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yml"
+    },
+    {
+      "component": "chia-network/actions/check-commit-signing@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yml"
+    },
+    {
+      "component": "Chia-Network/actions/clean-workspace@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml"
+    },
+    {
+      "component": "Chia-Network/actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/cache-pip@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/activate-venv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\u26a1\ufe0f Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-ssh-to-https@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setjobenv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/activate-venv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udce6\ud83d\ude80 Build Installer - Linux DEB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-mark-workspace-safe@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-ssh-to-https@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setjobenv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/activate-venv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-installer-rpm.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-ssh-to-https@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setjobenv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Apple-Actions/import-codesign-certs@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/activate-venv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setjobenv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/git-ssh-to-https@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/cache-pip@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/activate-venv@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udce6\ud83d\ude80 Build Installer - Windows 10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-network/actions/check-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udea8 Check commit signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/clean-workspace@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_wheel_availability.yaml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "Chia-Network/actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_wheel_availability.yaml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udea8 Check Dependency Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "\ud83d\udea8 CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "blockchain-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "chia-blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "farmer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "full-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "harvesters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "proof-of-space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "proof-of-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "timelord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain",
+      "target": "wallets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:12.166154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7137
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6187
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 3512
+    },
+    {
+      "path": ".github/workflows/build-linux-installer-deb.yml",
+      "size": 12036
+    },
+    {
+      "path": ".github/workflows/build-linux-installer-rpm.yml",
+      "size": 13157
+    },
+    {
+      "path": ".github/workflows/build-macos-installers.yml",
+      "size": 12376
+    },
+    {
+      "path": ".github/workflows/build-windows-installer.yml",
+      "size": 13102
+    },
+    {
+      "path": ".github/workflows/check-commit-signing.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/check_wheel_availability.yaml",
+      "size": 1938
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)",
+    "fork": false,
+    "full_name": "Chia-Network/chia-blockchain",
+    "html_url": "https://github.com/Chia-Network/chia-blockchain",
+    "language": "Python",
+    "pushed_at": "2026-04-21T07:56:31Z",
+    "stargazers_count": 10850,
+    "topics": [
+      "blockchain",
+      "blockchain-network",
+      "chia",
+      "chia-blockchain",
+      "farmer",
+      "full-node",
+      "harvesters",
+      "peer",
+      "proof-of-space",
+      "proof-of-time",
+      "timelord",
+      "vdf",
+      "wallets"
+    ],
+    "updated_at": "2026-04-21T08:04:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u26a1\ufe0f Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "\u26a1\ufe0f Benchmarks"
+    },
+    {
+      "context_snippet": "\ud83d\udce6\ud83d\ude80 Build Installer - Linux DEB",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-installer-deb.yml",
+      "term": "\ud83d\udce6\ud83d\ude80 Build Installer - Linux DEB"
+    },
+    {
+      "context_snippet": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos-installers.yml",
+      "term": "\ud83d\udce6\ud83d\ude80 Build Installers - MacOS"
+    },
+    {
+      "context_snippet": "\ud83d\udce6\ud83d\ude80 Build Installer - Windows 10",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer.yml",
+      "term": "\ud83d\udce6\ud83d\ude80 Build Installer - Windows 10"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Check commit signing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yml",
+      "term": "\ud83d\udea8 Check commit signing"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Check Dependency Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_wheel_availability.yaml",
+      "term": "\ud83d\udea8 Check Dependency Artifacts"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "\ud83d\udea8 CodeQL"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-network"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chia"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chia-blockchain"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "farmer"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-node"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "harvesters"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-space"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-time"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timelord"
+    },
+    {
+      "context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wallets"
+    }
+  ]
+}

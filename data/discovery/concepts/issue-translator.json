@@ -19,12 +19,30 @@
       "source_repo": "coaidev/coai",
       "status": "candidate-context",
       "text": "Issue Translator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "Issue Translator"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "coaidev/coai",
+      "status": "candidate",
+      "text": "Issue Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate",
       "text": "Issue Translator"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/issue-translator.yaml",
       "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

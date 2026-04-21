@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "target": "pycharm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "target": "type-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "target": "types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dropbox/mypy-PyCharm-plugin",
+      "target": "typing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:40:28.958639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple plugin that allows running mypy from PyCharm and navigate between errors",
+    "fork": false,
+    "full_name": "dropbox/mypy-PyCharm-plugin",
+    "html_url": "https://github.com/dropbox/mypy-PyCharm-plugin",
+    "language": "Java",
+    "pushed_at": "2021-06-23T20:37:47Z",
+    "stargazers_count": 320,
+    "topics": [
+      "mypy",
+      "pycharm",
+      "python",
+      "type-checking",
+      "types",
+      "typing"
+    ],
+    "updated_at": "2026-03-26T10:02:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pycharm"
+    },
+    {
+      "context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-checking"
+    },
+    {
+      "context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    },
+    {
+      "context_snippet": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typing"
+    }
+  ]
+}

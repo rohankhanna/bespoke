@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-push.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "Auto-merge PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "Find inactive collaborators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-push.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-on-push.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "Notify on Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team",
+      "target": "OpenSSF Scorecard Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:57.122666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 583
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2915
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 410
+    },
+    {
+      "path": ".github/workflows/inactive-collaborator-report.yml",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/notify-on-push.yml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Node.js Website Team Governance Repository",
+    "fork": false,
+    "full_name": "nodejs/web-team",
+    "html_url": "https://github.com/nodejs/web-team",
+    "language": null,
+    "pushed_at": "2026-04-14T11:30:18Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-14T11:30:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Auto-merge PRs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Dependency Review\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Find inactive collaborators",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "term": "Find inactive collaborators"
+    },
+    {
+      "context_snippet": "Notify on Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-on-push.yml",
+      "term": "Notify on Push"
+    },
+    {
+      "context_snippet": "OpenSSF Scorecard Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "OpenSSF Scorecard Review"
+    }
+  ]
+}

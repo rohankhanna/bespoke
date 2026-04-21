@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29520805,
+      "status": "candidate",
+      "text": "earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754034,
+      "status": "candidate",
+      "text": "lands"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754032,
+      "status": "candidate",
+      "text": "crimean tatar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754031,
+      "status": "candidate",
+      "text": "taurian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754030,
+      "status": "candidate",
+      "text": "touranian"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tauri",
+      "sense_id": "tauri#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tauri",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tauri",
+  "observation_id": "f5d410d1e87dbf8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "tauri",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "ChatGPTNextWeb/NextChat",
+  "source_repo_description": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+}

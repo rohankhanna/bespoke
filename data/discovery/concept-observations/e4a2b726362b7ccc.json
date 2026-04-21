@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DeepResearch Bench II (DRB2) is the follow-up to DeepResearch Bench, with a stronger focus on measuring the gap between deep research systems and human experts. It does so by decomposing expert-written reports into hierarchical rubrics covering presentation, analysis, and evidence, and using them to evaluate model-generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepresearch",
+      "sense_id": "deepresearch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deepresearch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deepresearch",
+  "observation_id": "e4a2b726362b7ccc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "deepresearch",
+  "source_context_snippet": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>",
+  "source_file": null,
+  "source_repo": "imlrz/DeepResearch-Bench-II",
+  "source_repo_description": "DeepResearch Bench II (DRB2) is the follow-up to DeepResearch Bench, with a stronger focus on measuring the gap between deep research systems and human experts. It does so by decomposing expert-written reports into hierarchical rubrics covering presentation, analysis, and evidence, and using them to evaluate model-generated."
+}

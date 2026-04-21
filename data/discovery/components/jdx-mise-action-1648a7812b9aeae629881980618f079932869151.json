@@ -1,7 +1,7 @@
 {
   "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-assets.yml",
       "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jdx/mise"
     }
   ]
 }

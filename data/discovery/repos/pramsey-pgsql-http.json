@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pramsey/pgsql-http",
+      "target": "vibhorkum/pg_background",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pramsey/pgsql-http",
+      "target": "citusdata/pg_cron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pramsey/pgsql-http",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:25:23.737579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15634
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP client for PostgreSQL, retrieve a web page from inside the database.",
+    "fork": false,
+    "full_name": "pramsey/pgsql-http",
+    "html_url": "https://github.com/pramsey/pgsql-http",
+    "language": "C",
+    "pushed_at": "2026-02-20T16:55:58Z",
+    "stargazers_count": 1571,
+    "topics": [],
+    "updated_at": "2026-04-15T03:22:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "citusdata/pg_cron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vibhorkum/pg_background",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

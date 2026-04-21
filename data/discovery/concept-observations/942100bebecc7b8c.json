@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy docs to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy docs to Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "lectern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "right to know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19692,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19681,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18895,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy docs to Pages",
+      "sense_id": "deploy-docs-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-docs-to-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-docs-to-pages",
+  "observation_id": "942100bebecc7b8c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Deploy docs to Pages",
+  "source_context_snippet": "Deploy docs to Pages",
+  "source_file": ".github/workflows/pages.yaml",
+  "source_repo": "facebookincubator/AITemplate",
+  "source_repo_description": "AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference."
+}

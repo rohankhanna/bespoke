@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1172,6 +1172,176 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "protocolbuffers/protobuf-javascript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-sqlite.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "a-ghorbani/pocketpal-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/l10n-upload.yml",
+      "source_repo": "a-ghorbani/pocketpal-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-validate.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autodocs.yaml",
+      "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "googleapis/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "snarktank/ralph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "3swordman/tree-sitter-toon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "3swordman/tree-sitter-toon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-demo.yml",
+      "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_playground.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_prereleases.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_typescript.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devtools_regression_tests.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "llamastack/llama-stack-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "llamastack/llama-stack-client-typescript"
     }
   ]
 }

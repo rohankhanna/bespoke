@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "parser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter with superpowers \ud83d\udcaa: built-in support of js, jsx, ts, markdown, yaml, toml, json and ignore. Write declarative codemods in a simplest possible way \ud83d\ude0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mvdan/sh",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957111,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953661,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953193,
+      "status": "candidate",
+      "text": "analyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946718,
+      "status": "candidate",
+      "text": "analyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917077,
+      "status": "candidate",
+      "text": "profiler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "parser",
+  "concept_id": "parser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/putout"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parser",
+      "sense_id": "parser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

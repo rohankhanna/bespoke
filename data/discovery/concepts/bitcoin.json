@@ -19,6 +19,18 @@
       "source_repo": "8144225309/superscalar-mcp",
       "status": "candidate-context",
       "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "8144225309/superscalar-mcp",
       "status": "candidate",
       "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "8144225309/superscalar-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "comit-network/xmr-btc-swap"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

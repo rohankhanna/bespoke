@@ -1,0 +1,17 @@
+{
+  "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/l10n.yml",
+      "source_repo": "searxng/searxng"
+    }
+  ]
+}

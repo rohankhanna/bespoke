@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Programmatically generated handy kubectl PowerShell aliases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986447,
+      "status": "candidate",
+      "text": "also known as"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9984510,
+      "status": "candidate",
+      "text": "assumed name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25003,
+      "status": "candidate",
+      "text": "false name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "aka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "nicknamed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aliases",
+      "sense_id": "aliases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aliases",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aliases",
+  "observation_id": "ea951db6760cb3bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "aliases",
+  "source_context_snippet": "_Forked from: https://github.com/ahmetb/kubectl-aliases_",
+  "source_file": null,
+  "source_repo": "shanoor/kubectl-aliases-powershell",
+  "source_repo_description": "Programmatically generated handy kubectl PowerShell aliases"
+}

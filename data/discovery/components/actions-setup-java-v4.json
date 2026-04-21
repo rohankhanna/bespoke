@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
       "source_repo": "clearbluejar/pyghidra-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "a-ghorbani/pocketpal-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP"
     }
   ]
 }

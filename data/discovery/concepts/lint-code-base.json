@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Code Base"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "Manage and switch between Solidity compiler versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/solc-select",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25790,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24075,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23907,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22982,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22982,
+      "status": "candidate",
+      "text": "flicking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Code Base",
+  "concept_id": "lint-code-base",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crytic/solc-select"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Code Base",
+      "sense_id": "lint-code-base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

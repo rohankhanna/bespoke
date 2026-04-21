@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Tempo Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Bump Tempo Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "Bump Tempo Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18658,
+      "status": "candidate",
+      "text": "beats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18658,
+      "status": "candidate",
+      "text": "growth rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18658,
+      "status": "candidate",
+      "text": "man hour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18658,
+      "status": "candidate",
+      "text": "manpower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18658,
+      "status": "candidate",
+      "text": "person hour"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Tempo Dependencies",
+  "concept_id": "bump-tempo-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bump-tempo.yml",
+      "source_repo": "foundry-rs/foundry"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Tempo Dependencies",
+      "sense_id": "bump-tempo-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

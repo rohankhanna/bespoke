@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml"
+    },
+    {
+      "component": "super-linter/super-linter@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "super-linter/super-linter@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "AIxCyberChallenge/example-crs-architecture",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:15.893795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/super-linter.yml",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Team-facing documentation and examples",
+    "fork": false,
+    "full_name": "AIxCyberChallenge/example-crs-architecture",
+    "html_url": "https://github.com/AIxCyberChallenge/example-crs-architecture",
+    "language": "Python",
+    "pushed_at": "2026-01-23T20:16:22Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-04T15:12:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/super-linter.yml",
+      "term": "Lint"
+    }
+  ]
+}

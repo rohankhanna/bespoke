@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compare Build Output"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate-context",
+      "text": "Compare Build Output"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client",
+      "status": "candidate",
+      "text": "Compare Build Output"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "burrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "matched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "standard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compare Build Output",
+  "concept_id": "compare-build-output",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/compare-build-output.yml",
+      "source_repo": "apollographql/apollo-client"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compare Build Output",
+      "sense_id": "compare-build-output#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

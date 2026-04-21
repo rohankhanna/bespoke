@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple and easy to use Wikipedia Text User Interface "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030577,
+      "status": "candidate",
+      "text": "wiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914848,
+      "status": "candidate",
+      "text": "portal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030618,
+      "status": "candidate",
+      "text": "mediawiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030616,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030615,
+      "status": "candidate",
+      "text": "wikiverse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wikipedia",
+      "sense_id": "wikipedia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wikipedia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wikipedia",
+  "observation_id": "2edc1f42f30c6514",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "wikipedia",
+  "source_context_snippet": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)",
+  "source_file": null,
+  "source_repo": "Builditluc/wiki-tui",
+  "source_repo_description": "A simple and easy to use Wikipedia Text User Interface "
+}

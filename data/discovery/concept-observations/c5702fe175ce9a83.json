@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update cross-build metadata file"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update cross-build metadata file"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31486,
+      "status": "candidate",
+      "text": "manifest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31486,
+      "status": "candidate",
+      "text": "sidecar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31474,
+      "status": "candidate",
+      "text": "superblock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23181,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23181,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update cross-build metadata file",
+      "sense_id": "update-cross-build-metadata-file#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-cross-build-metadata-file",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-cross-build-metadata-file",
+  "observation_id": "c5702fe175ce9a83",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Update cross-build metadata file",
+  "source_context_snippet": "Update cross-build metadata file",
+  "source_file": ".github/workflows/update_cross_build_releases.yml",
+  "source_repo": "pyodide/pyodide",
+  "source_repo_description": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly"
+}

@@ -1,0 +1,17 @@
+{
+  "component": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beekeeper.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/NUR"
+    }
+  ]
+}

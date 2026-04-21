@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@f40ffcd9367d9f12939873eb1018b921a783ffaa",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-node"
+    }
+  ]
+}

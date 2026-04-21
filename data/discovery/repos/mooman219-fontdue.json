@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooman219/fontdue",
+      "target": "alexheretic/glyph-brush",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooman219/fontdue",
+      "target": "pop-os/cosmic-text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooman219/fontdue",
+      "target": "razrfalcon/ttf-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooman219/fontdue",
+      "target": "raphlinus/font-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "mooman219/fontdue",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue",
+      "target": "rasterizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mooman219/fontdue",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:51.042180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6452
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1652
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The fastest font renderer in the world, written in pure rust.",
+    "fork": false,
+    "full_name": "mooman219/fontdue",
+    "html_url": "https://github.com/mooman219/fontdue",
+    "language": "Rust",
+    "pushed_at": "2025-05-25T08:34:03Z",
+    "stargazers_count": 1625,
+    "topics": [
+      "font",
+      "opentype",
+      "rasterizer",
+      "rust",
+      "truetype",
+      "ui"
+    ],
+    "updated_at": "2026-04-19T00:51:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexheretic/glyph-brush",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pop-os/cosmic-text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raphlinus/font-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "razrfalcon/ttf-parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rasterizer"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

@@ -145,6 +145,30 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate-context",
       "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -213,6 +237,18 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate",
       "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -384,11 +420,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

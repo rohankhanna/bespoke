@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "generate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "generate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "generate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017178,
+      "status": "candidate",
+      "text": "bring forth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012585,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012463,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009958,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008485,
+      "status": "candidate",
+      "text": "return"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72086,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 69054,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "engender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22071,
+      "status": "candidate",
+      "text": "return"
+    }
+  ],
+  "canonical_name": "generate",
+  "concept_id": "generate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/goreleaser"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generate",
+      "sense_id": "generate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

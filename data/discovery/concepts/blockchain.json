@@ -1,0 +1,220 @@
+{
+  "aliases": [
+    "blockchain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "A Framework for Building Ethereum-compatible Blockchain Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate-context",
+      "text": "\ud83c\udf32 Rust Filecoin Node Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate-context",
+      "text": "[![Chia Network logo][logo-chia]][link-chia]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "Solidity, the Smart Contract Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate",
+      "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chia-Network/chia-blockchain",
+      "status": "candidate",
+      "text": "[![Chia Network logo][logo-chia]][link-chia]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/solidity",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981784,
+      "status": "candidate",
+      "text": "distributed ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981783,
+      "status": "candidate",
+      "text": "hyperledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981782,
+      "status": "candidate",
+      "text": "cryptocollectible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981781,
+      "status": "candidate",
+      "text": "mainnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981780,
+      "status": "candidate",
+      "text": "cryptosphere"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "blockchain",
+  "concept_id": "blockchain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blockchain",
+      "sense_id": "blockchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

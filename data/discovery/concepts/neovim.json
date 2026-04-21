@@ -19,6 +19,54 @@
       "source_repo": "junegunn/fzf",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate-context",
+      "text": "A neovim lua plugin to help easily manage multiple terminal windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "Improved fzf.vim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junegunn/fzf.vim",
+      "status": "candidate-context",
+      "text": "fzf :heart: vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf.vim",
+      "status": "candidate-context",
+      "text": "fzf :heart: vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "Check syntax in Vim/Neovim asynchronously and fix files, with Language Server Protocol (LSP) support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate-context",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "junegunn/fzf",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/toggleterm.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/fzf-lua",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf.vim",
+      "status": "candidate",
+      "text": "fzf :heart: vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dense-analysis/ale",
+      "status": "candidate",
+      "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +118,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "junegunn/fzf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/toggleterm.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "junegunn/fzf.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

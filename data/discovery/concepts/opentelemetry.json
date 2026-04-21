@@ -67,6 +67,66 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate-context",
       "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "A set of tools that gives agents powerful capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +159,36 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate",
       "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/tools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/sdk-typescript"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

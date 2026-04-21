@@ -7,10 +7,99 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "Go implementation of the XDG Base Directory Specification and XDG user directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "{:.no_toc}"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate",
+      "text": "{:.no_toc}"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992045,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989658,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009979,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008489,
+      "status": "candidate",
+      "text": "workbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003246,
+      "status": "candidate",
+      "text": "monograph"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18048,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
   "canonical_name": "specification",
   "concept_id": "specification",
   "definition_status": "unresolved",
@@ -20,12 +109,26 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "Fission-AI/OpenSpec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

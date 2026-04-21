@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nerf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate-context",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "status": "candidate",
+      "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924823,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924822,
+      "status": "candidate",
+      "text": "nudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924821,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924820,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924819,
+      "status": "candidate",
+      "text": "jostle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nerf",
+  "concept_id": "nerf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nerf",
+      "sense_id": "nerf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

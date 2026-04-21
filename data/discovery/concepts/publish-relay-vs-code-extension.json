@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Relay VS Code Extension"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/relay",
+      "status": "candidate-context",
+      "text": "Relay is a JavaScript framework for building data-driven React applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/relay",
+      "status": "candidate-context",
+      "text": "Publish Relay VS Code Extension"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/relay",
+      "status": "candidate",
+      "text": "Publish Relay VS Code Extension"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27307,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27277,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27227,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27176,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27028,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Relay VS Code Extension",
+  "concept_id": "publish-relay-vs-code-extension",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/vscode.yml",
+      "source_repo": "facebook/relay"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Relay VS Code Extension",
+      "sense_id": "publish-relay-vs-code-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

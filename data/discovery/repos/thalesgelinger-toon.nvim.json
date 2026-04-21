@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thalesgelinger/toon.nvim",
+      "target": "toon-format/spec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:02.381117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "thalesgelinger/toon.nvim",
+    "html_url": "https://github.com/thalesgelinger/toon.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-11-03T15:54:39Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-02-02T13:43:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "toon-format/spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

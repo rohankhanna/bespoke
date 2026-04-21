@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Read size"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "Read size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate",
+      "text": "Read size"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "about"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "capable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Read size",
+  "concept_id": "read-size",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/read-size.yml",
+      "source_repo": "mrdoob/three.js"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Read size",
+      "sense_id": "read-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

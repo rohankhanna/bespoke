@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/create-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clangd/clangd",
+      "target": "llvm/llvm-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clangd/clangd",
+      "target": "llvm/clangd-www",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "actions/create-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "source_repo": "clangd/clangd",
+      "target": "Build release binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "clangd/clangd",
+      "target": "Publish on Windows Package Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clangd/clangd",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clangd/clangd",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clangd/clangd",
+      "target": "language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:33.085256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 808
+    },
+    {
+      "path": ".github/workflows/autobuild.yaml",
+      "size": 14778
+    },
+    {
+      "path": ".github/workflows/lib_compat.h",
+      "size": 900
+    },
+    {
+      "path": ".github/workflows/lib_compat_test.py",
+      "size": 2828
+    },
+    {
+      "path": ".github/workflows/linux-static-deps.cmake",
+      "size": 175
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 2162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "clangd language server",
+    "fork": false,
+    "full_name": "clangd/clangd",
+    "html_url": "https://github.com/clangd/clangd",
+    "language": "Shell",
+    "pushed_at": "2026-04-19T23:51:29Z",
+    "stargazers_count": 2155,
+    "topics": [
+      "clang",
+      "cplusplus",
+      "ide",
+      "language-server"
+    ],
+    "updated_at": "2026-04-21T08:39:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm/clangd-www",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm/llvm-project",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build release binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobuild.yaml",
+      "term": "Build release binaries"
+    },
+    {
+      "context_snippet": "Publish on Windows Package Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish on Windows Package Manager"
+    },
+    {
+      "context_snippet": "clangd is a language server, and provides C++ IDE features to editors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "clangd is a language server, and provides C++ IDE features to editors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "clangd is a language server, and provides C++ IDE features to editors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    }
+  ]
+}

@@ -58,6 +58,54 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate-context",
       "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "A modern TLS library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b Flexible and fast ZSH plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +132,30 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate",
       "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +258,35 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "zdharma-continuum/zinit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

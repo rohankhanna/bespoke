@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@70e16deb18402428bd09e08d1ec3662a872e3c72",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ]
+}

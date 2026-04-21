@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "opengl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "The official Allegro 5 git repository. Pull requests welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "Welcome to Allegro!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate",
+      "text": "Welcome to Allegro!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865441,
+      "status": "candidate",
+      "text": "ognl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865440,
+      "status": "candidate",
+      "text": "gnu gpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865439,
+      "status": "candidate",
+      "text": "gpgpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865438,
+      "status": "candidate",
+      "text": "lgpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865437,
+      "status": "candidate",
+      "text": "sgml"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "opengl",
+  "concept_id": "opengl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opengl",
+      "sense_id": "opengl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,30 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate-context",
       "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "A Rust compiler front-end for IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate-context",
+      "text": "metrics"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate",
       "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-analyzer",
+      "status": "candidate",
+      "text": "metrics"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +114,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

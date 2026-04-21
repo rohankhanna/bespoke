@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build swap and asb release binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "\"Build swap and asb release binaries\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "\"Build swap and asb release binaries\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21985,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21985,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19033,
+      "status": "candidate",
+      "text": "meet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19033,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18677,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build swap and asb release binaries",
+  "concept_id": "build-swap-and-asb-release-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "comit-network/xmr-btc-swap"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build swap and asb release binaries",
+      "sense_id": "build-swap-and-asb-release-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

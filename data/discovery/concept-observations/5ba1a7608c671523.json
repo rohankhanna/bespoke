@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NumPy & SciPy for GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Backport Reminder\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Backport Reminder\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "ache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "aroma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "beep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport Reminder",
+      "sense_id": "backport-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backport-reminder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backport-reminder",
+  "observation_id": "5ba1a7608c671523",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Backport Reminder",
+  "source_context_snippet": "\"Backport Reminder\"",
+  "source_file": ".github/workflows/backport-reminder.yml",
+  "source_repo": "cupy/cupy",
+  "source_repo_description": "NumPy & SciPy for GPU"
+}

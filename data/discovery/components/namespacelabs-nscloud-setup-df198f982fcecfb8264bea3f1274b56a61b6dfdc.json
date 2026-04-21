@@ -1,0 +1,12 @@
+{
+  "component": "namespacelabs/nscloud-setup@df198f982fcecfb8264bea3f1274b56a61b6dfdc",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
+    }
+  ]
+}

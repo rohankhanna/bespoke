@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update epics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "Update epics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate",
+      "text": "Update epics"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "brecht"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10795,
+      "status": "candidate",
+      "text": "epic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "hesiod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "long"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "peplum"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update epics",
+  "concept_id": "update-epics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/epic.yaml",
+      "source_repo": "k3s-io/k3s"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update epics",
+      "sense_id": "update-epics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

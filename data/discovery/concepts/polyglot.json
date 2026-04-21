@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "polyglot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "build-once run-anywhere c library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate-context",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jart/cosmopolitan",
+      "status": "candidate",
+      "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043349,
+      "status": "candidate",
+      "text": "multilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041700,
+      "status": "candidate",
+      "text": "linguist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29625208,
+      "status": "candidate",
+      "text": "complutensian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045278,
+      "status": "candidate",
+      "text": "polylingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045277,
+      "status": "candidate",
+      "text": "polyglottous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4033,
+      "status": "candidate",
+      "text": "linguist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "multilingual"
+    }
+  ],
+  "canonical_name": "polyglot",
+  "concept_id": "polyglot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polyglot",
+      "sense_id": "polyglot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

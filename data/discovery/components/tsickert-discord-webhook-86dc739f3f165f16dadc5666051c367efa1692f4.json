@@ -1,0 +1,17 @@
+{
+  "component": "tsickert/discord-webhook@86dc739f3f165f16dadc5666051c367efa1692f4",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_discord_notify.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devtools_discord_notify.yml",
+      "source_repo": "facebook/react"
+    }
+  ]
+}

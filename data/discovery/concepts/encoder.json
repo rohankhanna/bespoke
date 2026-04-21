@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "encoder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript BPE Tokenizer Encoder Decoder for OpenAI's GPT models (gpt-5, gpt-o*, gpt-4o, etc.). Port of OpenAI's tiktoken with additional features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niieani/gpt-tokenizer",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023515,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023113,
+      "status": "candidate",
+      "text": "decoder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022991,
+      "status": "candidate",
+      "text": "coder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022117,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013131,
+      "status": "candidate",
+      "text": "convolutional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "encoder",
+  "concept_id": "encoder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "niieani/gpt-tokenizer"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "encoder",
+      "sense_id": "encoder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

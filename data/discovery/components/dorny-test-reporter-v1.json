@@ -1,12 +1,17 @@
 {
   "component": "dorny/test-reporter@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "a-ghorbani/pocketpal-ai"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build debug node"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "Build debug node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "Build debug node"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22425,
+      "status": "candidate",
+      "text": "finish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18890,
+      "status": "candidate",
+      "text": "troubleshooting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14431,
+      "status": "candidate",
+      "text": "cootie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14309,
+      "status": "candidate",
+      "text": "acetylation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14309,
+      "status": "candidate",
+      "text": "activated sludge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build debug node",
+  "concept_id": "build-debug-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build-debug-node.yml",
+      "source_repo": "ChainSafe/lodestar"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build debug node",
+      "sense_id": "build-debug-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

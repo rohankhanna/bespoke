@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ichard26/diff-shades",
+      "target": "python-attrs/attrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ichard26/diff-shades",
+      "target": "ichard26/blackbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ichard26/diff-shades",
+      "target": "facebookincubator/ptr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ichard26/diff-shades",
+      "target": "hauntsaninja/mypy_primer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/diff-shades",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/diff-shades",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/diff-shades",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades",
+      "target": "black-formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:55.928612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19800
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2157
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "The Black shade analyser and comparison tool.",
+    "fork": false,
+    "full_name": "ichard26/diff-shades",
+    "html_url": "https://github.com/ichard26/diff-shades",
+    "language": "Python",
+    "pushed_at": "2025-11-25T21:55:02Z",
+    "stargazers_count": 12,
+    "topics": [
+      "black-formatter",
+      "developer-tools",
+      "python",
+      "python-3",
+      "testing"
+    ],
+    "updated_at": "2025-11-25T21:55:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookincubator/ptr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hauntsaninja/mypy_primer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ichard26/blackbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-attrs/attrs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "black-formatter"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

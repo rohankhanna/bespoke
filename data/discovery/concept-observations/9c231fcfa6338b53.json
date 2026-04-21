@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The fastest and simplest library for SQLite3 in Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bump-version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bump-version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bump-version",
+      "sense_id": "bump-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-version",
+  "observation_id": "9c231fcfa6338b53",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "bump-version",
+  "source_context_snippet": "bump-version",
+  "source_file": ".github/workflows/bump-version.yml",
+  "source_repo": "WiseLibs/better-sqlite3",
+  "source_repo_description": "The fastest and simplest library for SQLite3 in Node.js."
+}

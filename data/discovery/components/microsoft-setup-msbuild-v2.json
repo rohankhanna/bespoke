@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_build-reusable.yml",
       "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cuda.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
     }
   ]
 }

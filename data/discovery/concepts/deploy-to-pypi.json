@@ -32,6 +32,30 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate-context",
       "text": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "A GraphQL client in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "Build powerful, efficient, and flexible GraphQL APIs with seamless Django integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Deploy to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "graphql-python/graphene",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/gql",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-django",
       "status": "candidate",
       "text": "\ud83d\ude80 Deploy to PyPI"
     }
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "graphql-python/graphene"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/gql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-django"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

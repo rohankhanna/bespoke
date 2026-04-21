@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "citgm is a simple tool for pulling down an arbitrary module from npm and testing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037136,
+      "status": "candidate",
+      "text": "try out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036789,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035285,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035026,
+      "status": "candidate",
+      "text": "experimental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034614,
+      "status": "candidate",
+      "text": "examination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "test",
+      "sense_id": "test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47058,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27083,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25080,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "concept_id": "test",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test",
+  "observation_id": "305ef112927b59b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "test",
+  "source_context_snippet": "citgm is a simple tool for pulling down an arbitrary module from npm and testing",
+  "source_file": null,
+  "source_repo": "nodejs/citgm",
+  "source_repo_description": "Canary in the Gold Mine"
+}

@@ -1,14 +1,73 @@
 {
   "aliases": [
-    "Bazel"
+    "Bazel",
+    "bazel"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate-context",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "*{Fast, Correct} - Choose two*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "basel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "basle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "beveren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "sint-michielsgestel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "beetsterzwaag"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Bazel",
   "concept_id": "bazel",
@@ -19,12 +78,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/bazel.yml",
       "source_repo": "openai/codex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

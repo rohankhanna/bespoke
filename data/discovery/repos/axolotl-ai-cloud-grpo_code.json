@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axolotl-ai-cloud/grpo_code",
+      "target": "vmware-labs/webassembly-language-runtimes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:21.211423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2415
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast, local, and secure approach for training LLMs for coding tasks using GRPO with WebAssembly and interpreter feedback.",
+    "fork": false,
+    "full_name": "axolotl-ai-cloud/grpo_code",
+    "html_url": "https://github.com/axolotl-ai-cloud/grpo_code",
+    "language": "Python",
+    "pushed_at": "2025-04-04T12:28:50Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-03-22T19:00:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmware-labs/webassembly-language-runtimes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

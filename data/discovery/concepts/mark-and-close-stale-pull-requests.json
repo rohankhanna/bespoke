@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mark and Close Stale Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Mark and Close Stale Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": "Mark and Close Stale Pull Requests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42753,
+      "status": "candidate",
+      "text": "tucking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42321,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41975,
+      "status": "candidate",
+      "text": "flagged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark and Close Stale Pull Requests",
+  "concept_id": "mark-and-close-stale-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/stale_pull_request.yaml",
+      "source_repo": "ray-project/ray"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark and Close Stale Pull Requests",
+      "sense_id": "mark-and-close-stale-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -13,10 +13,83 @@
       "source_repo": "pinterest/ktlint",
       "status": "candidate-context",
       "text": "An anti-bikeshedding Kotlin linter with built-in formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "LangChain \ud83d\udd0c MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Linux virtual machines, with a focus on running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain-mcp-adapters",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "encouraged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "grow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "late"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "CodeQL Advanced",
   "concept_id": "codeql-advanced",
@@ -39,12 +112,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/code-scanning.yml",
       "source_repo": "pinterest/ktlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "lima-vm/lima"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,14 +1,72 @@
 {
   "aliases": [
-    "Preview Release"
+    "Preview Release",
+    "Preview release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate-context",
+      "text": "Preview release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Preview release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13835,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13784,
+      "status": "candidate",
+      "text": "sneak preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13400,
+      "status": "candidate",
+      "text": "leak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13390,
+      "status": "candidate",
+      "text": "teaser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12815,
+      "status": "candidate",
+      "text": "introductory"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Preview Release",
   "concept_id": "preview-release",
@@ -19,12 +77,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "vitejs/vite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

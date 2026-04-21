@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grubersjoe/react-activity-calendar-tests",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:16.361893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1102
+    },
+    {
+      "path": "package.json",
+      "size": 485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "grubersjoe/react-activity-calendar-tests",
+    "html_url": "https://github.com/grubersjoe/react-activity-calendar-tests",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-11T04:39:13Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-19T07:07:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

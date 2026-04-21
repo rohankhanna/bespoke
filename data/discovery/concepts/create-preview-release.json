@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create 'preview' release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "Bitcoin\u2013Monero Cross-chain Atomic Swap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate-context",
+      "text": "\"Create 'preview' release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "\"Create 'preview' release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21154,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20666,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20584,
+      "status": "candidate",
+      "text": "tease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20550,
+      "status": "candidate",
+      "text": "leak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20550,
+      "status": "candidate",
+      "text": "teaser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create 'preview' release",
+  "concept_id": "create-preview-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "comit-network/xmr-btc-swap"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create 'preview' release",
+      "sense_id": "create-preview-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

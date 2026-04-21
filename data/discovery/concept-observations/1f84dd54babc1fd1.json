@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTofu lets you declaratively manage your cloud infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request Opened"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request Opened"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19220,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19198,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Opened",
+      "sense_id": "pull-request-opened#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-opened",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-opened",
+  "observation_id": "1f84dd54babc1fd1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Pull Request Opened",
+  "source_context_snippet": "Pull Request Opened",
+  "source_file": ".github/workflows/pr-opened.yml",
+  "source_repo": "opentofu/opentofu",
+  "source_repo_description": "OpenTofu lets you declaratively manage your cloud infrastructure."
+}

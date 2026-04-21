@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "kitty"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate-context",
+      "text": ":kr: :cat: a port of a low-contrast and easy on the eyes Vim color scheme, the seoul256, to kitty terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate-context",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubmit/seoul256-kitty",
+      "status": "candidate",
+      "text": "A port of [seoul256](https://github.com/junegunn/seoul256.vim) color scheme to [kitty](https://github.com/kovidgoyal/kitty)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032975,
+      "status": "candidate",
+      "text": "kitten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032969,
+      "status": "candidate",
+      "text": "kitty-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032950,
+      "status": "candidate",
+      "text": "pussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032934,
+      "status": "candidate",
+      "text": "puss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032855,
+      "status": "candidate",
+      "text": "pussycat"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21038,
+      "status": "candidate",
+      "text": "pussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "puss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10081,
+      "status": "candidate",
+      "text": "pot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10070,
+      "status": "candidate",
+      "text": "pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4042,
+      "status": "candidate",
+      "text": "kitten"
+    }
+  ],
+  "canonical_name": "kitty",
+  "concept_id": "kitty",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ubmit/seoul256-kitty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kitty",
+      "sense_id": "kitty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

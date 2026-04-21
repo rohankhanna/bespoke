@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![test workflow](https://github.com/raystack/meteor/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![test workflow](https://github.com/raystack/meteor/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "context-engineering",
+      "sense_id": "context-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "context-engineering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "context-engineering",
+  "observation_id": "da91ddbaf7444780",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "context-engineering",
+  "source_context_snippet": "![test workflow](https://github.com/raystack/meteor/actions/workflows/test.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "raystack/meteor",
+  "source_repo_description": "Meteor extracts structured context from across your systems and delivers it to power your   organization's context graph and AI agents."
+}

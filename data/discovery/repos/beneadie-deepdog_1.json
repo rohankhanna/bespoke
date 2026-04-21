@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beneadie/DeepDog_1",
+      "target": "thinkdepthai/deep_research",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:14.161100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18354
+    },
+    {
+      "path": "requirements.txt",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI Research Agent",
+    "fork": false,
+    "full_name": "beneadie/DeepDog_1",
+    "html_url": "https://github.com/beneadie/DeepDog_1",
+    "language": "Python",
+    "pushed_at": "2026-04-20T01:52:47Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-20T14:53:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinkdepthai/deep_research",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

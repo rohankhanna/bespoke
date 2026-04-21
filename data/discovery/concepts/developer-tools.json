@@ -73,6 +73,18 @@
       "source_repo": "almogdepaz/wolfpack",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate-context",
+      "text": "The Black shade analyser and comparison tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +117,12 @@
       "source_repo": "almogdepaz/wolfpack",
       "status": "candidate",
       "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/diff-shades",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "almogdepaz/wolfpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ichard26/diff-shades"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

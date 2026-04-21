@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-AutoClosePanel",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:25.623143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hide unneeded output panels automatically on save with Sublime Text",
+    "fork": false,
+    "full_name": "aerobounce/Sublime-AutoClosePanel",
+    "html_url": "https://github.com/aerobounce/Sublime-AutoClosePanel",
+    "language": "Python",
+    "pushed_at": "2022-04-01T18:04:52Z",
+    "stargazers_count": 3,
+    "topics": [
+      "sublime-package",
+      "sublime-text",
+      "sublime-text-plugin"
+    ],
+    "updated_at": "2022-08-27T23:52:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Hide unneeded output panels automatically _on save_ or _when a view gains focus_, with regular expressions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-package"
+    },
+    {
+      "context_snippet": "Hide unneeded output panels automatically _on save_ or _when a view gains focus_, with regular expressions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "Hide unneeded output panels automatically _on save_ or _when a view gains focus_, with regular expressions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-plugin"
+    }
+  ]
+}

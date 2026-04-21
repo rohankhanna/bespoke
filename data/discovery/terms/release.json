@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -541,6 +541,171 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "biopragmatics/bioregistry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldayton/Tongues"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-metadata-mock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-lines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-path"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-regex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raystack/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "toon-format/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "langchain-ai/deepagentsjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "langchain-ai/langchain-mcp-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Roblox/foreman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-publish-release.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getbettr/octotail"
     }
   ],
   "term": "Release"

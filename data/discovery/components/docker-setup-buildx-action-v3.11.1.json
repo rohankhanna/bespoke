@@ -1,0 +1,12 @@
+{
+  "component": "docker/setup-buildx-action@v3.11.1",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker_image.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    }
+  ]
+}

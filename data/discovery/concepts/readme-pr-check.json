@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "README PR Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Model Context Protocol Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "README PR Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate",
+      "text": "README PR Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22846,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "mod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14326,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14326,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14326,
+      "status": "candidate",
+      "text": "find"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "README PR Check",
+  "concept_id": "readme-pr-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/readme-pr-check.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "README PR Check",
+      "sense_id": "readme-pr-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

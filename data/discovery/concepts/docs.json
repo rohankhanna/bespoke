@@ -58,6 +58,102 @@
       "source_repo": "crytic/slither",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "'docs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate-context",
+      "text": "AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Scalable array processing with bounded memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate-context",
+      "text": "SwarmNL is a simple configurable library designed for P2P networking in distributed systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate-context",
+      "text": "'docs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "dev tools, env vars, task runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "Abstraction layer for smart contract build systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -76,6 +172,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/slither",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "'docs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/AITemplate",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubed-dev/cubed",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "algorealmInc/SwarmNL",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/InvokeAI",
+      "status": "candidate",
+      "text": "'docs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/crytic-compile",
       "status": "candidate",
       "text": "docs"
     }
@@ -156,11 +300,59 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "facebookincubator/AITemplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "algorealmInc/SwarmNL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "crytic/crytic-compile"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

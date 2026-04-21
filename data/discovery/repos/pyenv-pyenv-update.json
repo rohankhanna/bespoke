@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv/pyenv-update",
+      "target": "rkh/rbenv-update",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:26.478357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "update pyenv and plugins",
+    "fork": false,
+    "full_name": "pyenv/pyenv-update",
+    "html_url": "https://github.com/pyenv/pyenv-update",
+    "language": "Shell",
+    "pushed_at": "2026-01-10T02:57:24Z",
+    "stargazers_count": 384,
+    "topics": [],
+    "updated_at": "2026-04-21T09:00:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rkh/rbenv-update",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,42 @@
       "source_repo": "ggml-org/ggml",
       "status": "candidate-context",
       "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"70%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "A simple, performant and scalable Jax LLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "ggml-org/ggml",
       "status": "candidate",
       "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"70%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +100,35 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ray-project/ray"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

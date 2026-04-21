@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cryptography"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "A modern TLS library in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustls/rustls",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049044,
+      "status": "candidate",
+      "text": "encryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049018,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048881,
+      "status": "candidate",
+      "text": "cryptographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048836,
+      "status": "candidate",
+      "text": "encrypted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048735,
+      "status": "candidate",
+      "text": "cipher"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cryptography",
+  "concept_id": "cryptography",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rustls/rustls"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cryptography",
+      "sense_id": "cryptography#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Read size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Read size"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "about"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11743,
+      "status": "candidate",
+      "text": "capable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Read size",
+      "sense_id": "read-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "read-size",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "read-size",
+  "observation_id": "c0a4809ac247259b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Read size",
+  "source_context_snippet": "Read size",
+  "source_file": ".github/workflows/read-size.yml",
+  "source_repo": "mrdoob/three.js",
+  "source_repo_description": "JavaScript 3D Library."
+}

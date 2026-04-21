@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "asyncio historical repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "asyncio historical repository"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894251,
+      "status": "candidate",
+      "text": "meshwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894242,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893656,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39766464,
+      "status": "candidate",
+      "text": "reticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39712000,
+      "status": "candidate",
+      "text": "web"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "networking",
+      "sense_id": "networking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "networking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "networking",
+  "observation_id": "5026f78cd349102e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "networking",
+  "source_context_snippet": "asyncio historical repository",
+  "source_file": null,
+  "source_repo": "python/asyncio",
+  "source_repo_description": "asyncio historical repository"
+}

@@ -31,6 +31,18 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate-context",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "mksglu/context-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "heyhuynhgiabuu/proxypal"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

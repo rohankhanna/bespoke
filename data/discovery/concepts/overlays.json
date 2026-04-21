@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "overlays"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "Nix User Repository: User contributed nix packages [maintainer=@Pandapip1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate-context",
+      "text": "<div id=\"top\"></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/NUR",
+      "status": "candidate",
+      "text": "<div id=\"top\"></div>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19845889,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838005,
+      "status": "candidate",
+      "text": "sheathing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19782319,
+      "status": "candidate",
+      "text": "overlayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9859449,
+      "status": "candidate",
+      "text": "coatings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9859449,
+      "status": "candidate",
+      "text": "coats"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "overlays",
+  "concept_id": "overlays",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/NUR"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "overlays",
+      "sense_id": "overlays#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

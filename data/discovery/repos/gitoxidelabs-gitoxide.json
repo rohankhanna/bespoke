@@ -266,14 +266,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "GitoxideLabs/gitoxide",
-      "target": "github/git-sizer",
+      "target": "lutetium-vanadium/requestty",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "GitoxideLabs/gitoxide",
-      "target": "filhodanuvem/gitql",
+      "target": "gitpython-developers/gitpython",
       "target_type": "repository"
     },
     {
@@ -466,7 +466,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T04:50:05.230851+00:00",
+  "fetched_at": "2026-04-21T11:35:13.591889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,8 +510,8 @@
     "full_name": "GitoxideLabs/gitoxide",
     "html_url": "https://github.com/GitoxideLabs/gitoxide",
     "language": "Rust",
-    "pushed_at": "2026-04-19T04:13:48Z",
-    "stargazers_count": 11186,
+    "pushed_at": "2026-04-21T11:17:15Z",
+    "stargazers_count": 11197,
     "topics": [
       "blazingly-fast",
       "built-with-rust",
@@ -519,7 +519,7 @@
       "git",
       "version-control"
     ],
-    "updated_at": "2026-04-19T04:01:38Z"
+    "updated_at": "2026-04-21T05:05:56Z"
   },
   "repo_links": [
     {
@@ -534,12 +534,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "filhodanuvem/gitql",
+      "full_name": "gitpython-developers/gitpython",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "github/git-sizer",
+      "full_name": "lutetium-vanadium/requestty",
       "source_file": "README.md"
     }
   ],

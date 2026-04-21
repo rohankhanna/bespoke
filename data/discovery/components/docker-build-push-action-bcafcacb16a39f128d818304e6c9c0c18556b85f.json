@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl"
     }
   ]
 }

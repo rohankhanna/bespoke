@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An OpenAPI specification for the Stripe API.        "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync OpenAPI Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync OpenAPI Artifacts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10703,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10557,
+      "status": "candidate",
+      "text": "accord"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync OpenAPI Artifacts",
+      "sense_id": "sync-openapi-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-openapi-artifacts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-openapi-artifacts",
+  "observation_id": "9746bf5961575c74",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Sync OpenAPI Artifacts",
+  "source_context_snippet": "Sync OpenAPI Artifacts",
+  "source_file": ".github/workflows/sync-openapi-artifacts.yml",
+  "source_repo": "stripe/openapi",
+  "source_repo_description": "An OpenAPI specification for the Stripe API.        "
+}

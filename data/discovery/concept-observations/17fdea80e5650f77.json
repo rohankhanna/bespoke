@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform provider for Azure Resource Manager Rest API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017662,
+      "status": "candidate",
+      "text": "marsform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017661,
+      "status": "candidate",
+      "text": "terrestrialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017660,
+      "status": "candidate",
+      "text": "terrestrialise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017659,
+      "status": "candidate",
+      "text": "transnature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017658,
+      "status": "candidate",
+      "text": "anthropize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terraform",
+      "sense_id": "terraform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terraform",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terraform",
+  "observation_id": "17fdea80e5650f77",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "terraform",
+  "source_context_snippet": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly.",
+  "source_file": null,
+  "source_repo": "Azure/terraform-provider-azapi",
+  "source_repo_description": "Terraform provider for Azure Resource Manager Rest API"
+}

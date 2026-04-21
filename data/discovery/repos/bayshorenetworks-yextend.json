@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BayshoreNetworks/yextend",
+      "target": "nlohmann/json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayshoreNetworks/yextend",
+      "target": "yara",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayshoreNetworks/yextend",
+      "target": "yara-integrated",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:36:33.440313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yara integrated software to handle archive file data.",
+    "fork": false,
+    "full_name": "BayshoreNetworks/yextend",
+    "html_url": "https://github.com/BayshoreNetworks/yextend",
+    "language": "C++",
+    "pushed_at": "2022-05-09T10:38:35Z",
+    "stargazers_count": 322,
+    "topics": [
+      "yara",
+      "yara-integrated"
+    ],
+    "updated_at": "2026-02-16T07:44:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nlohmann/json",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "yextend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yara"
+    },
+    {
+      "context_snippet": "yextend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yara-integrated"
+    }
+  ]
+}

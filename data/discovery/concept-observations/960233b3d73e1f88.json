@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A starter kit for building ai agents on Cloudflare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![npm i agents command](./npm-agents-banner.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![npm i agents command](./npm-agents-banner.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "durable-objects",
+      "sense_id": "durable-objects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "durable-objects",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "durable-objects",
+  "observation_id": "960233b3d73e1f88",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "durable-objects",
+  "source_context_snippet": "![npm i agents command](./npm-agents-banner.svg)",
+  "source_file": null,
+  "source_repo": "cloudflare/agents-starter",
+  "source_repo_description": "A starter kit for building ai agents on Cloudflare"
+}

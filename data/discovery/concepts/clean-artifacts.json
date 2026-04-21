@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "Clean Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate",
+      "text": "Clean Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12503,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "americana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "items"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean Artifacts",
+  "concept_id": "clean-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/clean-artifacts.yml",
+      "source_repo": "ghostty-org/ghostty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Artifacts",
+      "sense_id": "clean-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

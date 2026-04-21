@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axolotl-ai-cloud/ml-cross-entropy",
+      "target": "apple/ml-cross-entropy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:22.067704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12219
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "axolotl-ai-cloud/ml-cross-entropy",
+    "html_url": "https://github.com/axolotl-ai-cloud/ml-cross-entropy",
+    "language": "Python",
+    "pushed_at": "2026-04-03T21:08:13Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-03T21:08:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-cross-entropy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

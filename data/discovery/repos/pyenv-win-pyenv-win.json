@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "hmarr/auto-approve-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ps1.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml"
+    },
+    {
+      "component": "seanzhengw/sphinx-pages@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "rbenv/rbenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "nak1114/rbenv-win",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "hmarr/auto-approve-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "Auto approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "GitHub Pages Jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ps1.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "seanzhengw/sphinx-pages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "GitHub Pages Sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_cache.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_cache.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_cache.yml",
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "Update cached versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pyenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pyenv-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pyenv-for-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pyenv-win",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "pyenv-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "python-version-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "windows-pyenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win",
+      "target": "windows-python",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:22.632543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10382
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/auto_approve.yml",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2734
+    },
+    {
+      "path": ".github/workflows/jekyll-gh-pages.yml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 692
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 476
+    },
+    {
+      "path": ".github/workflows/pytest_ps1.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/sphinx-gh-pages.yml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/update_cache.yml",
+      "size": 1808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.",
+    "fork": false,
+    "full_name": "pyenv-win/pyenv-win",
+    "html_url": "https://github.com/pyenv-win/pyenv-win",
+    "language": "VBScript",
+    "pushed_at": "2026-04-13T19:08:57Z",
+    "stargazers_count": 7180,
+    "topics": [
+      "pyenv",
+      "pyenv-alternative",
+      "pyenv-for-windows",
+      "pyenv-win",
+      "pyenv-windows",
+      "python",
+      "python-version-management",
+      "windows-pyenv",
+      "windows-python"
+    ],
+    "updated_at": "2026-04-21T11:00:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nak1114/rbenv-win",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbenv/rbenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "term": "Auto approve"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "GitHub Pages Jekyll",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "term": "GitHub Pages Jekyll"
+    },
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "GitHub Pages Sphinx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx-gh-pages.yml",
+      "term": "GitHub Pages Sphinx"
+    },
+    {
+      "context_snippet": "Update cached versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_cache.yml",
+      "term": "Update cached versions"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyenv"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyenv-alternative"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyenv-for-windows"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyenv-win"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyenv-windows"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-version-management"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-pyenv"
+    },
+    {
+      "context_snippet": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-python"
+    }
+  ]
+}

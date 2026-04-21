@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump formulae on schedule or request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "Bump formulae on schedule or request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate",
+      "text": "Bump formulae on schedule or request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33396,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32283,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32261,
+      "status": "candidate",
+      "text": "hump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32242,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32230,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump formulae on schedule or request",
+  "concept_id": "bump-formulae-on-schedule-or-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-core"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump formulae on schedule or request",
+      "sense_id": "bump-formulae-on-schedule-or-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

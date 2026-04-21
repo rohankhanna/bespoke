@@ -19,6 +19,18 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate-context",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "JavaScript 3D Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate-context",
+      "text": "[![NPM Package][npm]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrdoob/three.js",
+      "status": "candidate",
+      "text": "[![NPM Package][npm]][npm-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "mrdoob/three.js"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

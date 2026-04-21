@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeeiCN/Cobra",
+      "target": "whaleshark-team/cobra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "cobra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "code-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "security-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "security-scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra",
+      "target": "sourcecode-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:09.458197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1810
+    },
+    {
+      "path": "Dockerfile",
+      "size": 335
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Source Code Security Audit (\u6e90\u4ee3\u7801\u5b89\u5168\u5ba1\u8ba1)",
+    "fork": false,
+    "full_name": "FeeiCN/Cobra",
+    "html_url": "https://github.com/FeeiCN/Cobra",
+    "language": "Python",
+    "pushed_at": "2022-09-16T17:46:29Z",
+    "stargazers_count": 3189,
+    "topics": [
+      "cobra",
+      "code-audit",
+      "security-audit",
+      "security-scanner",
+      "security-tools",
+      "sourcecode-analysis"
+    ],
+    "updated_at": "2026-04-18T01:26:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whaleshark-team/cobra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cobra"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-audit"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-audit"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-scanner"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sourcecode-analysis"
+    }
+  ]
+}

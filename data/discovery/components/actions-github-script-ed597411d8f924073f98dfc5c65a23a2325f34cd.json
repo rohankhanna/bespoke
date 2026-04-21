@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/paper_ranking.yml",
       "source_repo": "biopragmatics/bioregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.lock.yml",
+      "source_repo": "microsoft/pylance-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compose-spec-change.yml",
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-issue-header.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new-bugs-announce-notifier.yml",
+      "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team"
     }
   ]
 }

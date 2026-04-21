@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016686,
+      "status": "candidate",
+      "text": "lakeshore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016685,
+      "status": "candidate",
+      "text": "lakefront"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016684,
+      "status": "candidate",
+      "text": "lodge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016683,
+      "status": "candidate",
+      "text": "boathouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016682,
+      "status": "candidate",
+      "text": "lockhouse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lakehouse",
+      "sense_id": "lakehouse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lakehouse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lakehouse",
+  "observation_id": "0c6ee8b32f0287af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "lakehouse",
+  "source_context_snippet": "<div align=center>",
+  "source_file": null,
+  "source_repo": "ClickHouse/ClickHouse",
+  "source_repo_description": "ClickHouse\u00ae is a real-time analytics database management system"
+}

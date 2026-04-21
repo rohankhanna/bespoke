@@ -31,6 +31,54 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate-context",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager Rest API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate-context",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "Terraform provider for Azure Resource Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://terraform.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "magodo/tfadd",
+      "status": "candidate-context",
+      "text": "Generate valid Terraform configuration from state"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magodo/tfadd",
+      "status": "candidate-context",
+      "text": "Generate valid Terraform configuration from state."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/terraform-provider-azapi",
+      "status": "candidate",
+      "text": "The AzAPI provider is a very thin layer on top of the [Azure ARM REST APIs](https://learn.microsoft.com/rest/api/azure). Use this new provider to authenticate to and manage Azure resources and functionality using the Azure Resource Manager APIs directly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-azurerm",
+      "status": "candidate",
+      "text": "<a href=\"https://terraform.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magodo/tfadd",
+      "status": "candidate",
+      "text": "Generate valid Terraform configuration from state."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "magodo/tfadd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

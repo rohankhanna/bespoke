@@ -1,0 +1,17 @@
+{
+  "component": "facebook/react/.github/workflows/compiler_prereleases.yml@main",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_prereleases_manual.yml",
+      "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler_prereleases_nightly.yml",
+      "source_repo": "facebook/react"
+    }
+  ]
+}

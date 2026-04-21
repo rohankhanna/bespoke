@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "steipete/homebrew-tap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-core"
     }
   ],
   "term": "homebrew"

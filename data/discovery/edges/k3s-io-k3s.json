@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k3s-io/k3s",
+      "target": "cncf/k8s-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k3s-io/k3s",
+      "target": "flannel-io/flannel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k3s-io/k3s",
+      "target": "containerd/cri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k3s-io/k3s",
+      "target": "container-storage-interface/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "Lint Action Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/airgap.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "Airgap Image Tarballs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-k3s.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "CodeQL Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "lhotari/action-upterm@b0357f23233f5ea6d58947c0c402e0631bab7334",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "E2E Test Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/epic.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "cloudaper/epics-action@4dea9b8b2ccd4778a7c2426d8fd0bed9c9f665e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/epic.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "Update epics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "k3s-io/k3s",
+      "target": "govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "k3s-io/k3s",
+      "target": "Install Script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k3s-io/k3s",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "k3s-io/k3s"
+}

@@ -1,12 +1,32 @@
 {
   "component": "rhysd/action-setup-vim@v1",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "greggh/claude-code.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mattn/vim-lsp-settings"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/fzf-lua"
     }
   ]
 }

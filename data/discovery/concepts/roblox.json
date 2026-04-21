@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "roblox"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate-context",
+      "text": "Toolchain manager for Roblox projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"300\" src=\"foreman.png\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/foreman",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"300\" src=\"foreman.png\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018583,
+      "status": "candidate",
+      "text": "massively multiplayer online game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018582,
+      "status": "candidate",
+      "text": "gameworld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018581,
+      "status": "candidate",
+      "text": "doorgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018580,
+      "status": "candidate",
+      "text": "alternate reality game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018579,
+      "status": "candidate",
+      "text": "webgame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "roblox",
+  "concept_id": "roblox",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Roblox/foreman"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roblox",
+      "sense_id": "roblox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

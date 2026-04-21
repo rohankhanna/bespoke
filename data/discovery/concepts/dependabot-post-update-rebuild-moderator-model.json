@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependabot post-update (rebuild moderator model)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Dependabot post-update (rebuild moderator model)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate",
+      "text": "Dependabot post-update (rebuild moderator model)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "chairman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "discussant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "facilitator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "facilitators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "host"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependabot post-update (rebuild moderator model)",
+  "concept_id": "dependabot-post-update-rebuild-moderator-model",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot post-update (rebuild moderator model)",
+      "sense_id": "dependabot-post-update-rebuild-moderator-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

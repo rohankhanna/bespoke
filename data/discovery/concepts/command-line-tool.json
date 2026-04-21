@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "command-line-tool"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate-context",
+      "text": "Easily install prebuilt binaries from GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code-searching tool similar to ack, but faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate-context",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyedidia/eget",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/eget)](https://goreportcard.com/report/github.com/zyedidia/eget)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggreer/the_silver_searcher",
+      "status": "candidate",
+      "text": "A code searching tool similar to `ack`, with a focus on speed."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "command-line-tool",
+  "concept_id": "command-line-tool",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "zyedidia/eget"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ggreer/the_silver_searcher"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "command-line-tool",
+      "sense_id": "command-line-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

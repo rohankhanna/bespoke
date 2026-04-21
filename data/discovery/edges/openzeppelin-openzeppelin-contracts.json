@@ -1,0 +1,524 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@changesets/pre",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@changesets/read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@eslint/compat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@ethereumjs/mpt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@noble/curves",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@nomicfoundation/hardhat-chai-matchers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@nomicfoundation/hardhat-ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@nomicfoundation/hardhat-network-helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@openzeppelin/docs-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@openzeppelin/merkle-tree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@openzeppelin/upgrade-safe-transpiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "@openzeppelin/upgrades-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "graphlib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "hardhat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "hardhat-exposed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "hardhat-gas-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "hardhat-ignore-warnings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "hardhat-predeploy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "interoperable-addresses",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "lodash.startcase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "micromatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "p-limit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solhint-plugin-openzeppelin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solidity-ast",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solidity-coverage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solidity-docgen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "undici",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "docker://rhysd/actionlint:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "lint workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changeset.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "changeset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "crytic/slither-action@v0.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "codespell-project/actions-codespell@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formal-verification.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formal-verification.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "formal verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cycle.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "Release Cycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "Release Upgradeable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgradeable.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "Transpile upgradeable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "smart-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "OpenZeppelin/openzeppelin-contracts"
+}

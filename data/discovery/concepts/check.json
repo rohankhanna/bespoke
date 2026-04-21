@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check"
+    "Check",
+    "check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,66 @@
       "source_repo": "vaporif/rvx",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate-context",
+      "text": "Write your algorithmic library once in Python. Get native, idiomatic code in every language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "The fastest font renderer in the world, written in pure rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Contracts of EigenLayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vaporif/rvx",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Tongues",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mooman219/fontdue",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-contracts",
       "status": "candidate",
       "text": "Check"
     }
@@ -112,11 +167,29 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "vaporif/rvx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ldayton/Tongues"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "mooman219/fontdue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

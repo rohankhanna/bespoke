@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "protocol"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "A Framework for Building Ethereum-compatible Blockchain Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate-context",
+      "text": "![Banner](.github/banner.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate",
+      "text": "![Banner](.github/banner.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910687,
+      "status": "candidate",
+      "text": "communications protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910686,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906227,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29902481,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29896209,
+      "status": "candidate",
+      "text": "procedure"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "communications protocol"
+    }
+  ],
+  "canonical_name": "protocol",
+  "concept_id": "protocol",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "0xPolygon/polygon-edge"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protocol",
+      "sense_id": "protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

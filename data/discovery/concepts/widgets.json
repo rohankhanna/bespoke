@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "widgets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "A Rust crate for cooking up terminal user interfaces (TUIs) \ud83d\udc68\u200d\ud83c\udf73\ud83d\udc00 https://ratatui.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate-context",
+      "text": "<details>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/ratatui",
+      "status": "candidate",
+      "text": "<details>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050622,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050622,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012071,
+      "status": "candidate",
+      "text": "convenience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9899815,
+      "status": "candidate",
+      "text": "contraption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9889429,
+      "status": "candidate",
+      "text": "contrivance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "widgets",
+  "concept_id": "widgets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "widgets",
+      "sense_id": "widgets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

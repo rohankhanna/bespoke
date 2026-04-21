@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "tauri-apps/tauri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "brainiumllc/cargo-mobile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "tauri-apps/wry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "rust-mobile/rust-android-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "covector status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/cargo-mobile2",
+      "target": "version or publish",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "tauri-apps/cargo-mobile2"
+}

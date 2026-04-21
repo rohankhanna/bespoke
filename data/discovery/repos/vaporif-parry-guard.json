@@ -131,12 +131,12 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "cachix/install-nix-action@v31",
+      "component": "DeterminateSystems/nix-installer-action@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "cachix/cachix-action@v17",
+      "component": "DeterminateSystems/magic-nix-cache-action@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -161,12 +161,12 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "cachix/install-nix-action@v31",
+      "component": "DeterminateSystems/nix-installer-action@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "cachix/cachix-action@v17",
+      "component": "DeterminateSystems/magic-nix-cache-action@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -187,13 +187,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "vaporif/rvx",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -317,14 +310,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "vaporif/parry-guard",
-      "target": "cachix/install-nix-action@v31",
+      "target": "DeterminateSystems/nix-installer-action@main",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "vaporif/parry-guard",
-      "target": "cachix/cachix-action@v17",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
       "target_type": "component"
     },
     {
@@ -391,7 +384,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:37:42.093716+00:00",
+  "fetched_at": "2026-04-21T11:36:58.240751+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -419,7 +412,7 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 4551
+      "size": 4297
     }
   ],
   "related_repositories": [],
@@ -431,8 +424,8 @@
     "full_name": "vaporif/parry-guard",
     "html_url": "https://github.com/vaporif/parry-guard",
     "language": "Rust",
-    "pushed_at": "2026-04-14T14:21:08Z",
-    "stargazers_count": 31,
+    "pushed_at": "2026-04-21T04:37:10Z",
+    "stargazers_count": 33,
     "topics": [
       "claude-code",
       "nix",
@@ -440,17 +433,12 @@
       "prompt-injection-llm-security",
       "rust"
     ],
-    "updated_at": "2026-04-19T01:25:29Z"
+    "updated_at": "2026-04-21T03:30:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "vaporif/parry",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vaporif/rvx",
       "source_file": "README.md"
     },
     {

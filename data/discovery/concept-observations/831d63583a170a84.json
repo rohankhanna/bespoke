@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Community Review Labeler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Community Review Labeler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "coroner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22370,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22370,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14349,
+      "status": "candidate",
+      "text": "labelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14349,
+      "status": "candidate",
+      "text": "node"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Community Review Labeler",
+      "sense_id": "community-review-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "community-review-labeler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "community-review-labeler",
+  "observation_id": "831d63583a170a84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Community Review Labeler",
+  "source_context_snippet": "Community Review Labeler",
+  "source_file": ".github/workflows/community-review-labeler.yml",
+  "source_repo": "bazelbuild/bazel",
+  "source_repo_description": "a fast, scalable, multi-language and extensible build system"
+}

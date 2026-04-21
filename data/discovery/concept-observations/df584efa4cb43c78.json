@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Node.js Website Team Governance Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify on Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify on Push"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "jog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "joh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "jpg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11383,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11383,
+      "status": "candidate",
+      "text": "acquaint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify on Push",
+      "sense_id": "notify-on-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notify-on-push",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify-on-push",
+  "observation_id": "df584efa4cb43c78",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Notify on Push",
+  "source_context_snippet": "Notify on Push",
+  "source_file": ".github/workflows/notify-on-push.yml",
+  "source_repo": "nodejs/web-team",
+  "source_repo_description": "The Node.js Website Team Governance Repository"
+}

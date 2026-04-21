@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SL Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SL Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "camp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "chill"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SL Scan",
+      "sense_id": "sl-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sl-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sl-scan",
+  "observation_id": "c7ca5dad1b587bb0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "SL Scan",
+  "source_context_snippet": "SL Scan",
+  "source_file": ".github/workflows/shiftleft-analysis.yml",
+  "source_repo": "aio-libs/aiohttp-demos",
+  "source_repo_description": "Demos for aiohttp project"
+}

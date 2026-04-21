@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "dependabot/fetch-metadata@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "Dependabot post-update (rebuild moderator model)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "ShiftLeftSecurity/scan-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shiftleft-analysis.yml",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "SL Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "aiohttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp-demos",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "aio-libs/aiohttp-demos"
+}

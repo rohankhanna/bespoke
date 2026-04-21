@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "rasterizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/ab-glyph",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:48.653494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 867
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 98
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust API for loading, scaling, positioning and rasterizing OpenType font glyphs",
+    "fork": false,
+    "full_name": "alexheretic/ab-glyph",
+    "html_url": "https://github.com/alexheretic/ab-glyph",
+    "language": "Rust",
+    "pushed_at": "2025-11-30T17:01:02Z",
+    "stargazers_count": 441,
+    "topics": [
+      "font",
+      "opentype",
+      "rasterizer",
+      "rust",
+      "truetype"
+    ],
+    "updated_at": "2026-04-17T13:12:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rasterizer"
+    },
+    {
+      "context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Fast API for loading, scaling, positioning and rasterizing OpenType font glyphs. See [readme](glyph), [changelog](glyph/CHANGELOG.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

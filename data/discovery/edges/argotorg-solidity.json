@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildpack-deps.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "buildpack-deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "Check stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-external-pr.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "External contributor greeter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "smartcontracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argotorg/solidity",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "argotorg/solidity"
+}

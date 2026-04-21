@@ -45,6 +45,30 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate-context",
+      "text": "Compatibility layer for common array libraries to support the Array API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Demos for aiohttp project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +81,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "data-apis/array-api-compat",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp-demos",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "data-apis/array-api-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

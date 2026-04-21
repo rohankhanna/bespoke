@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny binary to pretty-print Zap production JSON lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009856,
+      "status": "candidate",
+      "text": "beautiful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003061,
+      "status": "candidate",
+      "text": "jolly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000519,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941037,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009950,
+      "status": "candidate",
+      "text": "comely"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretty",
+      "sense_id": "pretty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56033,
+      "status": "candidate",
+      "text": "beautiful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28055,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "jolly"
+    }
+  ],
+  "concept_id": "pretty",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pretty",
+  "observation_id": "fcea9f93489d505d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "pretty",
+  "source_context_snippet": "This module provides a basic log prettifier for the [zap](https://github.com/uber-go/zap)",
+  "source_file": null,
+  "source_repo": "maoueh/zap-pretty",
+  "source_repo_description": "A tiny binary to pretty-print Zap production JSON lines"
+}

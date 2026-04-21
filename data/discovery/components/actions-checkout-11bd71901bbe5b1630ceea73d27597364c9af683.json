@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,146 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "blockprotocol/blockprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automation-open-pull-request-go-sdk.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automation-open-pull-request-pandora.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/breaking-change-detection.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog_entry.yml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-failing-ci-prs.yaml",
+      "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flax_test.yml",
+      "source_repo": "google/flax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flaxlib_publish.yml",
+      "source_repo": "google/flax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jax_nightly.yml",
+      "source_repo": "google/flax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare-snapshots.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry-post-merge.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-security-reviewer.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-protobufs.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-encoder-icicle.yaml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-release.yaml",
+      "source_repo": "Layr-Labs/eigenda"
     }
   ]
 }

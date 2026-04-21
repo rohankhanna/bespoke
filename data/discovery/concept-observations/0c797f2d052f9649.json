@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create replacement pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create replacement pull request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43998,
+      "status": "candidate",
+      "text": "recall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33941,
+      "status": "candidate",
+      "text": "callback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27662,
+      "status": "candidate",
+      "text": "spare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27658,
+      "status": "candidate",
+      "text": "substitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27614,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create replacement pull request",
+      "sense_id": "create-replacement-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-replacement-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-replacement-pull-request",
+  "observation_id": "0c797f2d052f9649",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Create replacement pull request",
+  "source_context_snippet": "Create replacement pull request",
+  "source_file": ".github/workflows/create-replacement-pr.yml",
+  "source_repo": "Homebrew/homebrew-core",
+  "source_repo_description": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+}

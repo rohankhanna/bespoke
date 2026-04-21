@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "Linux virtual machines, with a focus on running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate-context",
+      "text": "spell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "spell"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976053,
+      "status": "candidate",
+      "text": "charm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972701,
+      "status": "candidate",
+      "text": "enchantment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944314,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943083,
+      "status": "candidate",
+      "text": "write"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932069,
+      "status": "candidate",
+      "text": "while"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40051,
+      "status": "candidate",
+      "text": "charm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23037,
+      "status": "candidate",
+      "text": "enchantment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15072,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "while"
+    }
+  ],
+  "canonical_name": "spell",
+  "concept_id": "spell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/spell.yml",
+      "source_repo": "lima-vm/lima"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "spell",
+      "sense_id": "spell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

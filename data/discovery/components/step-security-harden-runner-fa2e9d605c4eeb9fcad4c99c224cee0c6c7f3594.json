@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "DataDog/guarddog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inactive-collaborator-report.yml",
+      "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/web-team"
     }
   ]
 }

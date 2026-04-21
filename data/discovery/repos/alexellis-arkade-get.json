@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/io",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/tool-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled"
+    },
+    {
+      "component": "actions/setup-node@v2.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml"
+    },
+    {
+      "component": "actions/setup-node@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml"
+    },
+    {
+      "component": "alexellis/setup-arkade@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml"
+    },
+    {
+      "component": "actions/setup-go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/javascript-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "@actions/io",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "@actions/tool-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexellis/arkade-get",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/setup-node@v2.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml.disabled",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "e2e-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/setup-node@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "alexellis/setup-arkade@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "actions/setup-go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-tools.yml",
+      "source_repo": "alexellis/arkade-get",
+      "target": "Update tools from arkade get",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:00.326440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2542
+    },
+    {
+      "path": "package.json",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/check-dist.yml.disabled",
+      "size": 1397
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/update-tools.yml",
+      "size": 1492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get all the CLIs you need from arkade for a GitHub Action",
+    "fork": false,
+    "full_name": "alexellis/arkade-get",
+    "html_url": "https://github.com/alexellis/arkade-get",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T22:35:05Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-03T00:41:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/javascript-action",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"e2e-test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "e2e-test"
+    },
+    {
+      "context_snippet": "\"Update tools from arkade get\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-tools.yml",
+      "term": "Update tools from arkade get"
+    }
+  ]
+}

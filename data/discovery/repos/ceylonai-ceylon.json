@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "egor-tensin/setup-gcc@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "egor-tensin/setup-gcc@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "egor-tensin/setup-gcc@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "uraimo/run-on-arch-action@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-testyml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "Ceylon-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "source_repo": "ceylonai/ceylon",
+      "target": "Ceylon-Build-Release-PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ceylonai/ceylon",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ceylonai/ceylon",
+      "target": "multiagent-systems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:38.735019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2214
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 96
+    },
+    {
+      "path": ".github/workflows/CI-testyml",
+      "size": 6480
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/python-build-release.yml",
+      "size": 4333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient multi-agent task automation and management system.",
+    "fork": false,
+    "full_name": "ceylonai/ceylon",
+    "html_url": "https://github.com/ceylonai/ceylon",
+    "language": "Python",
+    "pushed_at": "2025-07-17T03:06:58Z",
+    "stargazers_count": 36,
+    "topics": [
+      "agents",
+      "distributed-systems",
+      "multiagent-systems"
+    ],
+    "updated_at": "2025-11-22T01:03:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ceylon-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-testyml",
+      "term": "Ceylon-Release"
+    },
+    {
+      "context_snippet": "Ceylon-Build-Release-PyPi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-build-release.yml",
+      "term": "Ceylon-Build-Release-PyPi"
+    },
+    {
+      "context_snippet": "> Empowering Collaboration, Simplifying Complexity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "> Empowering Collaboration, Simplifying Complexity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent-systems"
+    }
+  ]
+}

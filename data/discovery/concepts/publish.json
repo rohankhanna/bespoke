@@ -104,6 +104,102 @@
       "source_repo": "google/protobuf.dart",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "The ultimate set of SQLite extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "An OpenAPI specification for the Stripe API.        "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate-context",
+      "text": "Convert ONNX models into native, backend-agnostic Burn code for inference and fine-tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/git2-rs",
+      "status": "candidate-context",
+      "text": "libgit2 bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/git2-rs",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Safely add untrusted strings to HTML/XML markup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate-context",
+      "text": "Automatically install discord updates on Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate-context",
+      "text": "Scan a directory for changed files and tail them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate-context",
+      "text": "Bump the versions of workflows in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate-context",
+      "text": "publish"
     }
   ],
   "candidate_glosses": [
@@ -148,6 +244,54 @@
       "source_repo": "google/protobuf.dart",
       "status": "candidate",
       "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalgeon/sqlean",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/openapi",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/git2-rs",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/markupsafe",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/discord-updater",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/fstail",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/gha-bump",
+      "status": "candidate",
+      "text": "publish"
     }
   ],
   "candidate_related_terms": [
@@ -305,11 +449,65 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nalgeon/sqlean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stripe/openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn-onnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/git2-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/discord-updater"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/fstail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexellis/gha-bump"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

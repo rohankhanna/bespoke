@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump burn revision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate-context",
+      "text": "Convert ONNX models into native, backend-agnostic Burn code for inference and fine-tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate-context",
+      "text": "Bump burn revision"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn-onnx",
+      "status": "candidate",
+      "text": "Bump burn revision"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18077,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18046,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18046,
+      "status": "candidate",
+      "text": "jolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17940,
+      "status": "candidate",
+      "text": "edit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump burn revision",
+  "concept_id": "bump-burn-revision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/bump-burn.yml",
+      "source_repo": "tracel-ai/burn-onnx"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump burn revision",
+      "sense_id": "bump-burn-revision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"PR Title Lint\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"PR Title Lint\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22931,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14879,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14461,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14419,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14419,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Lint",
+      "sense_id": "pr-title-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-title-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-title-lint",
+  "observation_id": "1464b2eaaa1a7a13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "PR Title Lint",
+  "source_context_snippet": "\"PR Title Lint\"",
+  "source_file": ".github/workflows/pr_lint.yml",
+  "source_repo": "langchain-ai/deepagentsjs",
+  "source_repo_description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+}

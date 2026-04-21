@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Fission-AI/OpenSpec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
     }
   ],
   "term": "specification"

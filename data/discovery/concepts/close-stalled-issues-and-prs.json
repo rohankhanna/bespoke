@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Canary in the Gold Mine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate-context",
+      "text": "Close stalled issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/citgm",
+      "status": "candidate",
+      "text": "Close stalled issues and PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22371,
+      "status": "candidate",
+      "text": "snafu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "abrasion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "discriminating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "exile"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Close stalled issues and PRs",
   "concept_id": "close-stalled-issues-and-prs",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/close-stalled.yml",
       "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "source_repo": "nodejs/citgm"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

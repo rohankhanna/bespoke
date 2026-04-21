@@ -19,6 +19,18 @@
       "source_repo": "bytegust/spm",
       "status": "candidate-context",
       "text": "A process manager similar to systemd and foreman with stop feature, written in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate-context",
+      "text": "Python IDLE extension to preform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate-context",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bytegust/spm",
       "status": "candidate",
       "text": "A process manager similar to systemd and foreman with stop feature, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate",
+      "text": "Python IDLE extension to perform mypy analysis on an open file"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "bytegust/spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "CoolCat467/idlemypyextension"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

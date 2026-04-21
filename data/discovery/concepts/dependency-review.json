@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Dependency Review"
+    "Dependency Review",
+    "dependency-review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -37,6 +38,30 @@
       "source_repo": "blockprotocol/blockprotocol",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "Release engineering, simplified"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate-context",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "The Node.js Website Team Governance Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -49,6 +74,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/goreleaser",
+      "status": "candidate",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/web-team",
       "status": "candidate",
       "text": "\"Dependency Review\""
     }
@@ -130,11 +167,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "blockprotocol/blockprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/web-team"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

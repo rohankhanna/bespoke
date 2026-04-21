@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Snap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate-context",
+      "text": "Snap"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostty",
+      "status": "candidate",
+      "text": "Snap"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035784,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034213,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033627,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031250,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028520,
+      "status": "candidate",
+      "text": "snarl"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 81037,
+      "status": "candidate",
+      "text": "snarl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43070,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23046,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "snatch"
+    }
+  ],
+  "canonical_name": "Snap",
+  "concept_id": "snap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "ghostty-org/ghostty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snap",
+      "sense_id": "snap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

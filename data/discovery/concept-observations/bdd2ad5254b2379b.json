@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a fast, scalable, multi-language and extensible build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cherry-picker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cherry-picker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018381,
+      "status": "candidate",
+      "text": "cherrypicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018380,
+      "status": "candidate",
+      "text": "cherry picker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018379,
+      "status": "candidate",
+      "text": "picker-upper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018378,
+      "status": "candidate",
+      "text": "feller buncher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018377,
+      "status": "candidate",
+      "text": "handpicker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cherry-picker",
+      "sense_id": "cherry-picker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cherry-picker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cherry-picker",
+  "observation_id": "bdd2ad5254b2379b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "cherry-picker",
+  "source_context_snippet": "cherry-picker",
+  "source_file": ".github/workflows/cherry-picker.yml",
+  "source_repo": "bazelbuild/bazel",
+  "source_repo_description": "a fast, scalable, multi-language and extensible build system"
+}

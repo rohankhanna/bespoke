@@ -66,13 +66,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "foundry-rs/foundry",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
       "target": "layr-labs/incredible-squaring-avs-rust",
       "target_type": "repository"
     },
@@ -80,14 +73,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "layr-labs/eigenlayer-contracts",
+      "target": "layr-labs/rust-bls-bn254",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "layr-labs/eigensdk-rs",
+      "target": "layr-labs/incredible-squaring-avs-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
+      "target": "layr-labs/rust-bls-bn254",
       "target_type": "repository"
     },
     {
@@ -147,7 +147,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:43:35.841526+00:00",
+  "fetched_at": "2026-04-21T11:39:08.892816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,14 +162,13 @@
       "size": 2123
     }
   ],
-  "metadata_refreshed_at": "2026-04-21T05:17:35.997655+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "layr-labs/incredible-squaring-avs-rs",
+    "full_name": "Layr-Labs/incredible-squaring-avs-rs",
     "html_url": "https://github.com/Layr-Labs/incredible-squaring-avs-rs",
     "language": "Rust",
     "pushed_at": "2026-03-03T20:35:56Z",
@@ -180,23 +179,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "foundry-rs/foundry",
+      "full_name": "layr-labs/incredible-squaring-avs-rust",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "layr-labs/eigenlayer-contracts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "layr-labs/eigensdk-rs",
+      "full_name": "layr-labs/rust-bls-bn254",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "layr-labs/incredible-squaring-avs-rust",
-      "source_file": "README.md"
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/rust-bls-bn254",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

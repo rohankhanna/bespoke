@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Secure, high-throughput, and decentralized Data Availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "docker-publish-encoder-icicle"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "docker-publish-encoder-icicle"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-publish-encoder-icicle",
+      "sense_id": "docker-publish-encoder-icicle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-publish-encoder-icicle",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-publish-encoder-icicle",
+  "observation_id": "b92e4d10cd1e5484",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "docker-publish-encoder-icicle",
+  "source_context_snippet": "docker-publish-encoder-icicle",
+  "source_file": ".github/workflows/docker-publish-encoder-icicle.yaml",
+  "source_repo": "Layr-Labs/eigenda",
+  "source_repo_description": "Secure, high-throughput, and decentralized Data Availability"
+}

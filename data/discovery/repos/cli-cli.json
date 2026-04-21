@@ -1,0 +1,620 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "advanced-security/filter-sarif@2da736ff05ef065cb2894ac6892e47b5eac2c3c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@ccf2332299a883f6af50a1d2d41e5df7904dd769",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-spam.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@ccf2332299a883f6af50a1d2d41e5df7904dd769",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew-bump.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cli/cli",
+      "target": "sigstore/cosign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cli/cli",
+      "target": "github/hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-go.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-go.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-go.yml",
+      "source_repo": "cli/cli",
+      "target": "Bump Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "advanced-security/filter-sarif@2da736ff05ef065cb2894ac6892e47b5eac2c3c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cli/cli",
+      "target": "Code Scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "mislav/bump-homebrew-formula-action@ccf2332299a883f6af50a1d2d41e5df7904dd769",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli",
+      "target": "Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-spam.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-spam.yml",
+      "source_repo": "cli/cli",
+      "target": "Spam Issue Detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cli/cli",
+      "target": "Unit and Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "cli/cli",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "cli/cli",
+      "target": "Go Vulnerability Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew-bump.yml",
+      "source_repo": "cli/cli",
+      "target": "mislav/bump-homebrew-formula-action@ccf2332299a883f6af50a1d2d41e5df7904dd769",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew-bump.yml",
+      "source_repo": "cli/cli",
+      "target": "homebrew-bump-debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cli/cli",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cli/cli",
+      "target": "github-api-v4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cli/cli",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:53.750236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5365
+    },
+    {
+      "path": "go.mod",
+      "size": 9142
+    },
+    {
+      "path": ".github/workflows/bump-go.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1723
+    },
+    {
+      "path": ".github/workflows/deployment.yml",
+      "size": 16875
+    },
+    {
+      "path": ".github/workflows/detect-spam.yml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1294
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 948
+    },
+    {
+      "path": ".github/workflows/homebrew-bump.yml",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "GitHub\u2019s official command line tool",
+    "fork": false,
+    "full_name": "cli/cli",
+    "html_url": "https://github.com/cli/cli",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:19:13Z",
+    "stargazers_count": 43956,
+    "topics": [
+      "cli",
+      "git",
+      "github-api-v4",
+      "golang"
+    ],
+    "updated_at": "2026-04-21T11:15:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigstore/cosign",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-go.yml",
+      "term": "Bump Go"
+    },
+    {
+      "context_snippet": "Code Scanning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code Scanning"
+    },
+    {
+      "context_snippet": "Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "term": "Deployment"
+    },
+    {
+      "context_snippet": "Spam Issue Detection",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-spam.yml",
+      "term": "Spam Issue Detection"
+    },
+    {
+      "context_snippet": "Unit and Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Unit and Integration Tests"
+    },
+    {
+      "context_snippet": "Go Vulnerability Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "Go Vulnerability Check"
+    },
+    {
+      "context_snippet": "homebrew-bump-debug",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew-bump.yml",
+      "term": "homebrew-bump-debug"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-api-v4"
+    },
+    {
+      "context_snippet": "`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

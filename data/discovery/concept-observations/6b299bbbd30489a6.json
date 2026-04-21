@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Go benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Go benchmark"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "compass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "refer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go benchmark",
+      "sense_id": "go-benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-benchmark",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-benchmark",
+  "observation_id": "6b299bbbd30489a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Go benchmark",
+  "source_context_snippet": "Go benchmark",
+  "source_file": ".github/workflows/benchmark.yml",
+  "source_repo": "berty/berty",
+  "source_repo_description": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+}

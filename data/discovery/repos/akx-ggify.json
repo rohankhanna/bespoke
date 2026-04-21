@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akx/ggify",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akx/ggify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akx/ggify",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akx/ggify",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akx/ggify",
+      "target": "astral-sh/setup-uv@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:05.613017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 668
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool to download models from Huggingface Hub and convert them to GGML/GGUF for llama.cpp",
+    "fork": false,
+    "full_name": "akx/ggify",
+    "html_url": "https://github.com/akx/ggify",
+    "language": "Python",
+    "pushed_at": "2025-04-29T09:29:01Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-04-17T11:16:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,17 @@
+{
+  "component": "mislav/bump-homebrew-formula-action@ccf2332299a883f6af50a1d2d41e5df7904dd769",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/homebrew-bump.yml",
+      "source_repo": "cli/cli"
+    }
+  ]
+}

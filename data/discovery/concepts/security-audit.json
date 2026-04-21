@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Security audit",
-    "security-audit"
+    "security-audit",
+    "Security Audit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,54 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate-context",
+      "text": "Source Code Security Audit (\u6e90\u4ee3\u7801\u5b89\u5168\u5ba1\u8ba1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "Nitpicking commit history since beabf39"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate-context",
+      "text": "Security Audit"
     }
   ],
   "candidate_glosses": [
@@ -78,6 +127,30 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeeiCN/Cobra",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate",
+      "text": "Security Audit"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +224,35 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "tokio-rs/tracing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "crate-ci/committed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "strands-agents/sdk-typescript"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

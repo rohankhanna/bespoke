@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Chia Network logo][logo-chia]][link-chia]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Chia Network logo][logo-chia]][link-chia]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972028,
+      "status": "candidate",
+      "text": "compeer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966803,
+      "status": "candidate",
+      "text": "equal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39831809,
+      "status": "candidate",
+      "text": "match"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998305,
+      "status": "candidate",
+      "text": "gaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998032,
+      "status": "candidate",
+      "text": "rival"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "peer",
+      "sense_id": "peer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19028,
+      "status": "candidate",
+      "text": "compeer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13058,
+      "status": "candidate",
+      "text": "match"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6046,
+      "status": "candidate",
+      "text": "equal"
+    }
+  ],
+  "concept_id": "peer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "peer",
+  "observation_id": "e6ebb140b9c06bbb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "peer",
+  "source_context_snippet": "[![Chia Network logo][logo-chia]][link-chia]",
+  "source_file": null,
+  "source_repo": "Chia-Network/chia-blockchain",
+  "source_repo_description": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
+}

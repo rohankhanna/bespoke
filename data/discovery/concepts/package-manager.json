@@ -55,6 +55,54 @@
       "source_repo": "npm/rfcs",
       "status": "candidate-context",
       "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7a The missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "The Rust package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate-context",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/opam",
+      "status": "candidate-context",
+      "text": "opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam",
+      "status": "candidate-context",
+      "text": "|master|2.0|2.1|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b Flexible and fast ZSH plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "npm/rfcs",
       "status": "candidate",
       "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/brew",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cargo",
+      "status": "candidate",
+      "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam",
+      "status": "candidate",
+      "text": "|master|2.0|2.1|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdharma-continuum/zinit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +196,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/opam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "zdharma-continuum/zinit"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

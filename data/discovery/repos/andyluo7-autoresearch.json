@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andyluo7/autoresearch",
+      "target": "karpathy/nanochat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andyluo7/autoresearch",
+      "target": "miolini/autoresearch-macos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andyluo7/autoresearch",
+      "target": "trevin-creator/autoresearch-mlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andyluo7/autoresearch",
+      "target": "jsegov/autoresearch-win-rtx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:56.830893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7955
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AI agents running research on single-GPU nanochat training automatically",
+    "fork": true,
+    "full_name": "andyluo7/autoresearch",
+    "html_url": "https://github.com/andyluo7/autoresearch",
+    "language": "Python",
+    "pushed_at": "2026-03-16T21:30:33Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-20T18:53:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsegov/autoresearch-win-rtx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/nanochat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miolini/autoresearch-macos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trevin-creator/autoresearch-mlx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

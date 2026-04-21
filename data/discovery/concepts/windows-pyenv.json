@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "windows-pyenv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate-context",
+      "text": "pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate-context",
+      "text": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv-win/pyenv-win",
+      "status": "candidate",
+      "text": "[pyenv][1] is an amazing tool used to manage multiple versions of python in your machine. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow the project."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windows-pyenv",
+  "concept_id": "windows-pyenv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "pyenv-win/pyenv-win"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows-pyenv",
+      "sense_id": "windows-pyenv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

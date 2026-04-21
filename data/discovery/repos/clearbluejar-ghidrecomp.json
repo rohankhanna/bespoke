@@ -1,0 +1,389 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "nationalsecurityagency/ghidra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "clearbluejar/ghidra-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "sigstore/cosign-installer@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "Docker-PyPi-Build-Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python-package.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python-package.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "Pytest Local Repo Devcontainer Across Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "decompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "disassembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidrecomp",
+      "target": "ghidra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:20.899027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45039
+    },
+    {
+      "path": "Dockerfile",
+      "size": 821
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/devcontainer.json",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/docker-build-publish.yaml",
+      "size": 4302
+    },
+    {
+      "path": ".github/workflows/lint-python-package.yml",
+      "size": 1546
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-all.yml",
+      "size": 2164
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-pypi.yml",
+      "size": 2117
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer.yml",
+      "size": 1516
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python Command-Line Ghidra Decompiler",
+    "fork": false,
+    "full_name": "clearbluejar/ghidrecomp",
+    "html_url": "https://github.com/clearbluejar/ghidrecomp",
+    "language": "Python",
+    "pushed_at": "2026-01-06T16:56:55Z",
+    "stargazers_count": 141,
+    "topics": [
+      "decompiler",
+      "disassembler",
+      "ghidra",
+      "python"
+    ],
+    "updated_at": "2026-04-16T06:17:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nationalsecurityagency/ghidra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/ghidra-python",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker-PyPi-Build-Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "term": "Docker-PyPi-Build-Publish"
+    },
+    {
+      "context_snippet": "Pytest Local Repo Devcontainer Across Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-all.yml",
+      "term": "Pytest Local Repo Devcontainer Across Versions"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompiler"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disassembler"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghidra"
+    }
+  ]
+}

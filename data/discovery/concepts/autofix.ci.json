@@ -19,12 +19,30 @@
       "source_repo": "codespell-project/codespell",
       "status": "candidate-context",
       "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "dev tools, env vars, task runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
+      "status": "candidate-context",
+      "text": "autofix.ci"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "codespell-project/codespell",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdx/mise",
       "status": "candidate",
       "text": "autofix.ci"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "codespell-project/codespell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "jdx/mise"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

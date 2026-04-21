@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clean up Prettier, Size-limit, and Api-Extractor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clean up Prettier, Size-limit, and Api-Extractor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39745,
+      "status": "candidate",
+      "text": "makeup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38421,
+      "status": "candidate",
+      "text": "refurbish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30221,
+      "status": "candidate",
+      "text": "cleaned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29421,
+      "status": "candidate",
+      "text": "cleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29421,
+      "status": "candidate",
+      "text": "mop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean up Prettier, Size-limit, and Api-Extractor",
+      "sense_id": "clean-up-prettier-size-limit-and-api-extractor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-up-prettier-size-limit-and-api-extractor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-up-prettier-size-limit-and-api-extractor",
+  "observation_id": "3b731619ec6d631b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Clean up Prettier, Size-limit, and Api-Extractor",
+  "source_context_snippet": "Clean up Prettier, Size-limit, and Api-Extractor",
+  "source_file": ".github/workflows/cleanup-checks.yml",
+  "source_repo": "apollographql/apollo-client",
+  "source_repo_description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mksglu/context-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyhuynhgiabuu/proxypal"
     }
   ],
   "term": "antigravity"

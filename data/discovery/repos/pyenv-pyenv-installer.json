@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyenv/pyenv-installer",
+      "target": "rbenv/rbenv-installer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:27:25.879288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This tool is used to install `pyenv` and friends.",
+    "fork": false,
+    "full_name": "pyenv/pyenv-installer",
+    "html_url": "https://github.com/pyenv/pyenv-installer",
+    "language": "Shell",
+    "pushed_at": "2025-09-05T19:23:22Z",
+    "stargazers_count": 4114,
+    "topics": [],
+    "updated_at": "2026-04-20T15:05:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbenv/rbenv-installer",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

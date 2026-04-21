@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "falcon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050472,
+      "status": "candidate",
+      "text": "hawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050410,
+      "status": "candidate",
+      "text": "lanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050295,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049484,
+      "status": "candidate",
+      "text": "nighthawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049343,
+      "status": "candidate",
+      "text": "hawkish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "falcon",
+  "concept_id": "falcon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/text-generation-inference"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "falcon",
+      "sense_id": "falcon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

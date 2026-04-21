@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "chetan/git-restore-mtime-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cosmocc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cosmocc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "chetan/git-restore-mtime-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cosmocc.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cosmocc.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "actions/upload-artifact@v4.3.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cosmocc.yml",
+      "source_repo": "jart/cosmopolitan",
+      "target": "Nightly cosmocc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "bios",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "darwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "netbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "polyglot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jart/cosmopolitan",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:09.544737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7733
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1713
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 353
+    },
+    {
+      "path": ".github/workflows/nightly-cosmocc.yml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "build-once run-anywhere c library",
+    "fork": false,
+    "full_name": "jart/cosmopolitan",
+    "html_url": "https://github.com/jart/cosmopolitan",
+    "language": "C",
+    "pushed_at": "2026-03-06T00:18:22Z",
+    "stargazers_count": 20766,
+    "topics": [
+      "bios",
+      "containers",
+      "darwin",
+      "efi",
+      "freebsd",
+      "libc",
+      "linux",
+      "netbsd",
+      "openbsd",
+      "polyglot",
+      "windows",
+      "zip"
+    ],
+    "updated_at": "2026-04-21T08:48:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Nightly cosmocc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cosmocc.yml",
+      "term": "Nightly cosmocc"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bios"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darwin"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netbsd"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyglot"
+    },
+    {
+      "context_snippet": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

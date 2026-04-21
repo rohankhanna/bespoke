@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "vedantmgoyal9/winget-releaser@19e706d4c9121098010096f9c495a70a7518b30f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changelog-for-PRs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/bat",
+      "target": "sharkdp/fd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/bat",
+      "target": "eth-p/bat-extras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/bat",
+      "target": "tellnobody1/sublime-purescript-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/bat",
+      "target": "greggb/sublime-snazzy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "vedantmgoyal9/winget-releaser@19e706d4c9121098010096f9c495a70a7518b30f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "CICD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changelog-for-PRs.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-changelog-for-PRs.yml",
+      "source_repo": "sharkdp/bat",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/bat",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:35:57.788315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33275
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3790
+    },
+    {
+      "path": ".github/workflows/CICD.yml",
+      "size": 20094
+    },
+    {
+      "path": ".github/workflows/require-changelog-for-PRs.yml",
+      "size": 1199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cat(1) clone with wings.",
+    "fork": false,
+    "full_name": "sharkdp/bat",
+    "html_url": "https://github.com/sharkdp/bat",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T02:09:54Z",
+    "stargazers_count": 58412,
+    "topics": [
+      "cli",
+      "command-line",
+      "git",
+      "hacktoberfest",
+      "rust",
+      "syntax-highlighting",
+      "terminal",
+      "tool"
+    ],
+    "updated_at": "2026-04-21T10:38:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eth-p/bat-extras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greggb/sublime-snazzy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sharkdp/fd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tellnobody1/sublime-purescript-syntax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CICD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CICD.yml",
+      "term": "CICD"
+    },
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-changelog-for-PRs.yml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

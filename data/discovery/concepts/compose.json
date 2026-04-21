@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "compose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "{:.no_toc}"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate",
+      "text": "{:.no_toc}"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008116,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006700,
+      "status": "candidate",
+      "text": "draw up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006120,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999171,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995579,
+      "status": "candidate",
+      "text": "indite"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28041,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25085,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "indite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7066,
+      "status": "candidate",
+      "text": "pen"
+    }
+  ],
+  "canonical_name": "compose",
+  "concept_id": "compose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compose",
+      "sense_id": "compose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

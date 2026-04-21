@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@miri",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "dtolnay/rust-toolchain@miri",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/rust-csv",
+      "target": "rust-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:19.839217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2632
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 952
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CSV parser for Rust, with Serde support.",
+    "fork": false,
+    "full_name": "BurntSushi/rust-csv",
+    "html_url": "https://github.com/BurntSushi/rust-csv",
+    "language": "Rust",
+    "pushed_at": "2025-10-17T13:56:11Z",
+    "stargazers_count": 1927,
+    "topics": [
+      "csv",
+      "library",
+      "rust",
+      "rust-library"
+    ],
+    "updated_at": "2026-04-20T16:29:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "csv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "csv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "csv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    }
+  ]
+}

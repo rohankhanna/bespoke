@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-cliproxyapi.yml",
       "source_repo": "automazeio/vibeproxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stripe/openapi"
     }
   ]
 }

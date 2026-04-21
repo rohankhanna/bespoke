@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:39:15.106807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2488
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 321
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mesop app scaffold for studio apps",
+    "fork": false,
+    "full_name": "ghchinoy/studio-scaffold",
+    "html_url": "https://github.com/ghchinoy/studio-scaffold",
+    "language": "Python",
+    "pushed_at": "2025-04-13T20:36:20Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-03-25T09:06:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

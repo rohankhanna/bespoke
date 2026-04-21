@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "yara"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate-context",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate-context",
+      "text": "Yara integrated software to handle archive file data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate-context",
+      "text": "yextend"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/binaryalert",
+      "status": "candidate",
+      "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayshoreNetworks/yextend",
+      "status": "candidate",
+      "text": "yextend"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9358639,
+      "status": "candidate",
+      "text": "yareli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9358638,
+      "status": "candidate",
+      "text": "zara"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9358637,
+      "status": "candidate",
+      "text": "yaya"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9358636,
+      "status": "candidate",
+      "text": "aarah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9358635,
+      "status": "candidate",
+      "text": "zariyah"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "yara",
+  "concept_id": "yara",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "BayshoreNetworks/yextend"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yara",
+      "sense_id": "yara#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

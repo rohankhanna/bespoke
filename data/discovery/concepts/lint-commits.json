@@ -31,6 +31,18 @@
       "source_repo": "rust-cli/env_logger",
       "status": "candidate-context",
       "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "Nitpicking commit history since beabf39"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
+      "status": "candidate-context",
+      "text": "Lint Commits"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-cli/env_logger",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/committed",
       "status": "candidate",
       "text": "Lint Commits"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "rust-cli/env_logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "crate-ci/committed"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

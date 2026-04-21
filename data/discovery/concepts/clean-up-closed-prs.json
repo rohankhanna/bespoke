@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean up closed PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate-context",
+      "text": "Clean up closed PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate",
+      "text": "Clean up closed PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37557,
+      "status": "candidate",
+      "text": "cleaned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36757,
+      "status": "candidate",
+      "text": "mop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35644,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35557,
+      "status": "candidate",
+      "text": "bathe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35303,
+      "status": "candidate",
+      "text": "removed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean up closed PRs",
+  "concept_id": "clean-up-closed-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-core"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean up closed PRs",
+      "sense_id": "clean-up-closed-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

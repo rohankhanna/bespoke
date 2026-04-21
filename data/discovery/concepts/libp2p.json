@@ -43,6 +43,18 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate-context",
       "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate",
       "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "libp2p/rust-libp2p"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "berty/berty"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

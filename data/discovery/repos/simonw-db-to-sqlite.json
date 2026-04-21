@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "simonw/datasette",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "simonw/sqlite-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "simonw/csvs-to-sqlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "datasette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "datasette-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "datasette-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "sqlalchemy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/db-to-sqlite",
+      "target": "sqlite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:39:13.329110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7301
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2495
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLI tool for exporting tables or queries from any SQL database to a SQLite file",
+    "fork": false,
+    "full_name": "simonw/db-to-sqlite",
+    "html_url": "https://github.com/simonw/db-to-sqlite",
+    "language": "Python",
+    "pushed_at": "2023-02-28T07:16:21Z",
+    "stargazers_count": 491,
+    "topics": [
+      "datasette",
+      "datasette-io",
+      "datasette-tool",
+      "sqlalchemy",
+      "sqlite"
+    ],
+    "updated_at": "2026-04-20T04:48:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/csvs-to-sqlite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/datasette",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/sqlite-utils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette-io"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette-tool"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlalchemy"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    }
+  ]
+}

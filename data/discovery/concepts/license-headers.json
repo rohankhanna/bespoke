@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "License Headers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "status": "candidate-context",
+      "text": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "status": "candidate-context",
+      "text": "License Headers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/OpenShell-Community",
+      "status": "candidate",
+      "text": "License Headers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13960,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13960,
+      "status": "candidate",
+      "text": "trimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "acephalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "actuator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "License Headers",
+  "concept_id": "license-headers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "NVIDIA/OpenShell-Community"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Headers",
+      "sense_id": "license-headers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Play chess in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./assets/gambit.png?raw=true\" alt=\"Gambit: Play chess in your terminal\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./assets/gambit.png?raw=true\" alt=\"Gambit: Play chess in your terminal\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886126,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045913,
+      "status": "candidate",
+      "text": "bromus secalinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045913,
+      "status": "candidate",
+      "text": "chess game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045912,
+      "status": "candidate",
+      "text": "chessboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045518,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chess",
+      "sense_id": "chess#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "bromus secalinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "chess game"
+    }
+  ],
+  "concept_id": "chess",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chess",
+  "observation_id": "cf4a3f5a879c34a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "chess",
+  "source_context_snippet": "<img src=\"./assets/gambit.png?raw=true\" alt=\"Gambit: Play chess in your terminal\" />",
+  "source_file": null,
+  "source_repo": "maaslalani/gambit",
+  "source_repo_description": "Play chess in your terminal"
+}

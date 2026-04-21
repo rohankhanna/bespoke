@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bindings Tests (Ruby)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bindings Tests (Ruby)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "black and white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "bookmaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "collation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings Tests (Ruby)",
+      "sense_id": "bindings-tests-ruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings-tests-ruby",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings-tests-ruby",
+  "observation_id": "7ac1b608454e6399",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Bindings Tests (Ruby)",
+  "source_context_snippet": "Bindings Tests (Ruby)",
+  "source_file": ".github/workflows/bindings-ruby.yml",
+  "source_repo": "ggml-org/whisper.cpp",
+  "source_repo_description": "Port of OpenAI's Whisper model in C/C++"
+}

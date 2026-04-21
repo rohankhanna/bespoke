@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "PR Title Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "Bee is a Swarm client implemented in Go. It\u2019s the basic building block for the Swarm network: a private; decentralized; and self-sustaining network for permissionless publishing and access to your (application) data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate-context",
+      "text": "PR Title Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate-context",
+      "text": "\"PR Title Lint\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethersphere/bee",
+      "status": "candidate",
+      "text": "PR Title Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagentsjs",
+      "status": "candidate",
+      "text": "\"PR Title Lint\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22931,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14879,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14461,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14419,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14419,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Title Lint",
+  "concept_id": "pr-title-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "langchain-ai/deepagentsjs"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Lint",
+      "sense_id": "pr-title-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

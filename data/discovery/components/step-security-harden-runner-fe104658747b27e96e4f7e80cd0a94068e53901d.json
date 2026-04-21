@@ -1,0 +1,37 @@
+{
+  "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-picker.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-review-labeler.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-helper.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bazelbuild/bazel"
+    }
+  ]
+}

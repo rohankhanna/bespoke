@@ -1,15 +1,120 @@
 {
   "aliases": [
-    "Android"
+    "Android",
+    "android"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "tool-component",
+    "capability",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "The official Allegro 5 git repository. Pull requests welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate-context",
+      "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liballeg/allegro5",
+      "status": "candidate",
+      "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39838146,
+      "status": "candidate",
+      "text": "humanoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941074,
+      "status": "candidate",
+      "text": "mechanical man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941073,
+      "status": "candidate",
+      "text": "droid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29848409,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941077,
+      "status": "candidate",
+      "text": "manbot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7028,
+      "status": "candidate",
+      "text": "humanoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "mechanical man"
+    }
+  ],
   "canonical_name": "Android",
   "concept_id": "android",
   "definition_status": "unresolved",
@@ -19,12 +124,32 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/android_build.yml",
       "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "liballeg/allegro5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "berty/berty"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

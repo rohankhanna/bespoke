@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "deploy development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udc08 A collection of LLM inference providers and models "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate-context",
+      "text": "deploy development"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/catwalk",
+      "status": "candidate",
+      "text": "deploy development"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "array"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "deploy development",
+  "concept_id": "deploy-development",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "charmbracelet/catwalk"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deploy development",
+      "sense_id": "deploy-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "trailofbits/buttercup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostty"
     }
   ]
 }

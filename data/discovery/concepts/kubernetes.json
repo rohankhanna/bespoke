@@ -91,6 +91,66 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate-context",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "A docker-powered PaaS that helps you build and manage the lifecycle of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "The Compose specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate-context",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate-context",
+      "text": "K3s - Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "Programmatically generated handy kubectl PowerShell aliases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate-context",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "okd-project/okd",
+      "status": "candidate-context",
+      "text": "The self-managing, auto-upgrading, Kubernetes distribution for everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okd-project/okd",
+      "status": "candidate-context",
+      "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "ethpandaops/ethereum-helm-charts",
       "status": "candidate",
       "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dokku/dokku",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compose-spec/compose-spec",
+      "status": "candidate",
+      "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k3s-io/k3s",
+      "status": "candidate",
+      "text": "K3s - Lightweight Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "status": "candidate",
+      "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okd-project/okd",
+      "status": "candidate",
+      "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +340,41 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "k3s-io/k3s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "foundry-rs/foundry",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
       "target": "layr-labs/incredible-squaring-avs-rust",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "layr-labs/eigenlayer-contracts",
+      "target": "layr-labs/rust-bls-bn254",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
-      "target": "layr-labs/eigensdk-rs",
+      "target": "layr-labs/incredible-squaring-avs-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
+      "target": "layr-labs/rust-bls-bn254",
       "target_type": "repository"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
   "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
 }

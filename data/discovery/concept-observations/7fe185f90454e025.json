@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026308,
+      "status": "candidate",
+      "text": "almach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026307,
+      "status": "candidate",
+      "text": "ras algethi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026306,
+      "status": "candidate",
+      "text": "eltanin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026305,
+      "status": "candidate",
+      "text": "betelgeuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026304,
+      "status": "candidate",
+      "text": "seven stars"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "altair",
+      "sense_id": "altair#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "altair",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "altair",
+  "observation_id": "7fe185f90454e025",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "altair",
+  "source_context_snippet": "The Los Angeles Times' open-source archive of California coronavirus data",
+  "source_file": null,
+  "source_repo": "datadesk/california-coronavirus-data",
+  "source_repo_description": "The Los Angeles Times' open-source archive of California coronavirus data"
+}

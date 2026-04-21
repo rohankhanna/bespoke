@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml"
+    },
+    {
+      "component": "strands-agents/devtools/authorization-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml"
+    },
+    {
+      "component": "strands-agents/devtools/strands-command/actions/strands-input-parser@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml"
+    },
+    {
+      "component": "strands-agents/devtools/strands-command/actions/strands-agent-runner@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml"
+    },
+    {
+      "component": "strands-agents/devtools/strands-command/actions/strands-finalize@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strands-agents/tools",
+      "target": "microsoft/semantic-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "Secure Integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "Pull Request and Push Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "PR Title Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish-on-release.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/devtools/authorization-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/devtools/strands-command/actions/strands-input-parser@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/devtools/strands-command/actions/strands-agent-runner@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents/devtools/strands-command/actions/strands-finalize@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "Strands Command Handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "strands-agents/tools",
+      "target": "Test and Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "litellm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/tools",
+      "target": "strands-agents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:06.174022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 54478
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6729
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 2775
+    },
+    {
+      "path": ".github/workflows/pr-and-push.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/pypi-publish-on-release.yml",
+      "size": 1889
+    },
+    {
+      "path": ".github/workflows/strands-command.yml",
+      "size": 2939
+    },
+    {
+      "path": ".github/workflows/test-lint.yml",
+      "size": 3481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of tools that gives agents powerful capabilities.",
+    "fork": false,
+    "full_name": "strands-agents/tools",
+    "html_url": "https://github.com/strands-agents/tools",
+    "language": "Python",
+    "pushed_at": "2026-04-17T20:40:03Z",
+    "stargazers_count": 1024,
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "autonomous-agents",
+      "bedrock",
+      "genai",
+      "litellm",
+      "llama",
+      "llm",
+      "machine-learning",
+      "mcp",
+      "multi-agent-systems",
+      "ollama",
+      "openai",
+      "opentelemetry",
+      "python",
+      "strands-agents"
+    ],
+    "updated_at": "2026-04-21T07:55:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/semantic-kernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strands-agents/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strands-agents/docs",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Secure Integration test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Secure Integration test"
+    },
+    {
+      "context_snippet": "Pull Request and Push Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "term": "Pull Request and Push Action"
+    },
+    {
+      "context_snippet": "PR Title Conventional Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR Title Conventional Commits"
+    },
+    {
+      "context_snippet": "Strands Command Handler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/strands-command.yml",
+      "term": "Strands Command Handler"
+    },
+    {
+      "context_snippet": "Test and Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-lint.yml",
+      "term": "Test and Lint"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litellm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strands-agents"
+    }
+  ]
+}

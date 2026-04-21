@@ -43,6 +43,30 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "Go implementation of the XDG Base Directory Specification and XDG user directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Piebald-AI/gemini-cli-desktop",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrg/xdg",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +166,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

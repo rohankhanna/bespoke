@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/cargo"
+    }
+  ]
+}

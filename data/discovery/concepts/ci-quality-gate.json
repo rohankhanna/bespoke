@@ -19,6 +19,18 @@
       "source_repo": "alirezarezvani/claude-skills",
       "status": "candidate-context",
       "text": "CI Quality Gate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "CI Quality Gate"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +39,51 @@
       "source_repo": "alirezarezvani/claude-skills",
       "status": "candidate",
       "text": "CI Quality Gate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "CI Quality Gate"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22514,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19354,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15356,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "nobel"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "CI Quality Gate",
   "concept_id": "ci-quality-gate",
@@ -40,12 +94,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/ci-quality-gate.yml",
       "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

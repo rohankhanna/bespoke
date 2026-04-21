@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish packages to PyPI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate-context",
+      "text": "High level asynchronous concurrency and networking framework that works on top of either Trio or asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate-context",
+      "text": "Publish packages to PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agronholm/anyio",
+      "status": "candidate",
+      "text": "Publish packages to PyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "broached"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish packages to PyPI",
+  "concept_id": "publish-packages-to-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agronholm/anyio"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish packages to PyPI",
+      "sense_id": "publish-packages-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

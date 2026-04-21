@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "serenity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f Ethereum Consensus client for the Zig and TypeScript ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023228,
+      "status": "candidate",
+      "text": "placidity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023227,
+      "status": "candidate",
+      "text": "peacefulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023205,
+      "status": "candidate",
+      "text": "tranquility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023203,
+      "status": "candidate",
+      "text": "peace of mind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023183,
+      "status": "candidate",
+      "text": "ataraxis"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 100035,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46009,
+      "status": "candidate",
+      "text": "ataraxis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36021,
+      "status": "candidate",
+      "text": "tranquility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20024,
+      "status": "candidate",
+      "text": "placidity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18048,
+      "status": "candidate",
+      "text": "quiet"
+    }
+  ],
+  "canonical_name": "serenity",
+  "concept_id": "serenity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ChainSafe/lodestar"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serenity",
+      "sense_id": "serenity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clean up closed PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clean up closed PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37557,
+      "status": "candidate",
+      "text": "cleaned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36757,
+      "status": "candidate",
+      "text": "mop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35644,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35557,
+      "status": "candidate",
+      "text": "bathe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35303,
+      "status": "candidate",
+      "text": "removed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean up closed PRs",
+      "sense_id": "clean-up-closed-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-up-closed-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-up-closed-prs",
+  "observation_id": "01346f6abf8b0b8c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Clean up closed PRs",
+  "source_context_snippet": "Clean up closed PRs",
+  "source_file": ".github/workflows/clean-up-closed-prs.yml",
+  "source_repo": "Homebrew/homebrew-core",
+  "source_repo_description": "\ud83c\udf7b Default formulae for the missing package manager for macOS (or Linux)"
+}

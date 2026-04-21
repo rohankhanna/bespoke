@@ -1,0 +1,668 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/find-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cc.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-reminder.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-reminder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-project.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-project.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-updated.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cupy/cupy",
+      "target": "conda-forge/cupy-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cupy/cupy",
+      "target": "awthomp/cusignal-icassp-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cc.yml",
+      "source_repo": "cupy/cupy",
+      "target": "peter-evans/find-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cc.yml",
+      "source_repo": "cupy/cupy",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cc.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Auto Notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-reminder.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-reminder.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-reminder.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Backport Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml",
+      "source_repo": "cupy/cupy",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flexci.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flexci.yml",
+      "source_repo": "cupy/cupy",
+      "target": "FlexCI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-project.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-project.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-project.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Project (Pull-Request)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-updated.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-updated.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Pull-Request Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yml",
+      "source_repo": "cupy/cupy",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pretest.yml",
+      "source_repo": "cupy/cupy",
+      "target": "Pre-review Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cublas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cudnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "curand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cusolver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cusparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cusparselt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "cutensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "nccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "nvrtc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "nvtx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "scipy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cupy/cupy",
+      "target": "tensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:04.555688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6444
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5414
+    },
+    {
+      "path": ".github/workflows/auto-cc.yml",
+      "size": 1160
+    },
+    {
+      "path": ".github/workflows/backport-reminder.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1201
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/flexci.yml",
+      "size": 2118
+    },
+    {
+      "path": ".github/workflows/pr-project.yml",
+      "size": 3681
+    },
+    {
+      "path": ".github/workflows/pr-updated.yml",
+      "size": 1214
+    },
+    {
+      "path": ".github/workflows/pretest.yml",
+      "size": 3830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NumPy & SciPy for GPU",
+    "fork": false,
+    "full_name": "cupy/cupy",
+    "html_url": "https://github.com/cupy/cupy",
+    "language": "Python",
+    "pushed_at": "2026-04-21T11:24:11Z",
+    "stargazers_count": 10905,
+    "topics": [
+      "cublas",
+      "cuda",
+      "cudnn",
+      "cupy",
+      "curand",
+      "cusolver",
+      "cusparse",
+      "cusparselt",
+      "cutensor",
+      "gpu",
+      "nccl",
+      "numpy",
+      "nvrtc",
+      "nvtx",
+      "python",
+      "rocm",
+      "scipy",
+      "tensor"
+    ],
+    "updated_at": "2026-04-21T07:33:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awthomp/cusignal-icassp-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/cupy-feedstock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto Notify\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cc.yml",
+      "term": "Auto Notify"
+    },
+    {
+      "context_snippet": "\"Backport Reminder\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-reminder.yml",
+      "term": "Backport Reminder"
+    },
+    {
+      "context_snippet": "\"Backport\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "\"FlexCI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flexci.yml",
+      "term": "FlexCI"
+    },
+    {
+      "context_snippet": "\"Project (Pull-Request)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-project.yml",
+      "term": "Project (Pull-Request)"
+    },
+    {
+      "context_snippet": "\"Pull-Request Update\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-updated.yml",
+      "term": "Pull-Request Update"
+    },
+    {
+      "context_snippet": "\"Pre-review Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pretest.yml",
+      "term": "Pre-review Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cublas"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cudnn"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curand"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cusolver"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cusparse"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cusparselt"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cutensor"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nccl"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvrtc"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvtx"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scipy"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    }
+  ]
+}

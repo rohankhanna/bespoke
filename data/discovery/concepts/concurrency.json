@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "concurrency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "Node.js test runner that lets you develop with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate-context",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/asyncio",
+      "status": "candidate-context",
+      "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/asyncio",
+      "status": "candidate-context",
+      "text": "asyncio historical repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avajs/ava",
+      "status": "candidate",
+      "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/asyncio",
+      "status": "candidate",
+      "text": "asyncio historical repository"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019485,
+      "status": "candidate",
+      "text": "concurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019332,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014589,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007798,
+      "status": "candidate",
+      "text": "attendance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998506,
+      "status": "candidate",
+      "text": "intersectional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "concurrency",
+  "concept_id": "concurrency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "python/asyncio"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "concurrency",
+      "sense_id": "concurrency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

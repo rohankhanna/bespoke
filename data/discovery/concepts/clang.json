@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "clang"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "clangd language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate-context",
+      "text": "clangd is a language server, and provides C++ IDE features to editors."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/clangd",
+      "status": "candidate",
+      "text": "clangd is a language server, and provides C++ IDE features to editors."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042040,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041964,
+      "status": "candidate",
+      "text": "clangour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041811,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041641,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041636,
+      "status": "candidate",
+      "text": "jangle"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14071,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "jangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10033,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9021,
+      "status": "candidate",
+      "text": "clangour"
+    }
+  ],
+  "canonical_name": "clang",
+  "concept_id": "clang",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "clangd/clangd"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clang",
+      "sense_id": "clang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

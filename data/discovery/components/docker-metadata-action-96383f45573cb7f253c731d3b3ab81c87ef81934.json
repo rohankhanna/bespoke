@@ -1,0 +1,12 @@
+{
+  "component": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-publish.yaml",
+      "source_repo": "clearbluejar/ghidrecomp"
+    }
+  ]
+}

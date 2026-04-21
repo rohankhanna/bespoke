@@ -370,6 +370,108 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate-context",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate-context",
+      "text": "> A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate-context",
+      "text": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate-context",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Universal memory runtime for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate-context",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Model Context Protocol Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate-context",
+      "text": "Secure, high-throughput, and decentralized Data Availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -522,6 +624,60 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "> A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Digidai/product-manager-skills",
+      "status": "candidate",
+      "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "major7apps/pensyve",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate",
+      "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/servers",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenda",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate",
+      "text": "Claude Code"
     }
   ],
   "candidate_related_terms": [
@@ -937,11 +1093,89 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "Digidai/product-manager-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "major7apps/pensyve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/servers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

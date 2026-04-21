@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aws-actions/configure-aws-credentials@67fbcbb121271f7775d2e7715933280b06314838",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/setup-buildx-action@f211e3e9ded2d9377c8cadc4489a4e38014bc4c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "Continuous Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-monitoring.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-monitoring.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aws-actions/configure-aws-credentials@a03048d87541d1d9fcf2ecf528a4a65ba9bd7838",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aws-actions/aws-secretsmanager-get-secrets@a9a7eb4e2f2871d30dc5b892576fde60a2ecc802",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aquasecurity/trivy-action@97e0b3872f55f89b95b2f65b3dbab56962816478",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-scan.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "Daily scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "aws-actions/configure-aws-credentials@67fbcbb121271f7775d2e7715933280b06314838",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/setup-buildx-action@f211e3e9ded2d9377c8cadc4489a4e38014bc4c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "aws/aws-xray-daemon",
+      "target": "Release build and publish",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "aws/aws-xray-daemon"
+}

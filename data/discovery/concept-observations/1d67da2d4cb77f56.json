@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenZeppelin Contracts is a library for secure smart contract development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026264,
+      "status": "candidate",
+      "text": "solidness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024387,
+      "status": "candidate",
+      "text": "resilience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022782,
+      "status": "candidate",
+      "text": "stability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021986,
+      "status": "candidate",
+      "text": "closeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021283,
+      "status": "candidate",
+      "text": "firmness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solidity",
+      "sense_id": "solidity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "solidness"
+    }
+  ],
+  "concept_id": "solidity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "solidity",
+  "observation_id": "1d67da2d4cb77f56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "solidity",
+  "source_context_snippet": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)",
+  "source_file": null,
+  "source_repo": "OpenZeppelin/openzeppelin-contracts",
+  "source_repo_description": "OpenZeppelin Contracts is a library for secure smart contract development."
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "codequality"
+    "codequality",
+    "CodeQuality"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "tahv/typos-gitlab-code-quality",
       "status": "candidate-context",
       "text": "Generate [GitLab Code Quality report](https://docs.gitlab.com/ci/testing/code_quality/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "A simple, performant and scalable Jax LLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "CodeQuality"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "tahv/typos-gitlab-code-quality",
       "status": "candidate",
       "text": "Generate [GitLab Code Quality report](https://docs.gitlab.com/ci/testing/code_quality/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate",
+      "text": "CodeQuality"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tahv/typos-gitlab-code-quality"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/CodeQuality.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close_stale_issues.yml",
       "source_repo": "letta-ai/letta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issues_close.yml",
+      "source_repo": "Chanzhaoyu/chatgpt-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "invoke-ai/InvokeAI"
     }
   ],
   "term": "Close inactive issues"

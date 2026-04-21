@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,96 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "protocolbuffers/protobuf-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pyenv-win/pyenv-win"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/terraform-provider-azapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "madneal/gshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-code-scanning.yml",
+      "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bentoml/BentoML"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "buffer/thug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Chia-Network/chia-blockchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/web-team"
     }
   ],
   "term": "CodeQL"

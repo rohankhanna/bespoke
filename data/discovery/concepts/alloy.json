@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "alloy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39508525,
+      "status": "candidate",
+      "text": "admixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39414179,
+      "status": "candidate",
+      "text": "debase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29646295,
+      "status": "candidate",
+      "text": "metal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29645666,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29523081,
+      "status": "candidate",
+      "text": "bullion"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "debase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2038,
+      "status": "candidate",
+      "text": "admixture"
+    }
+  ],
+  "canonical_name": "alloy",
+  "concept_id": "alloy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alloy",
+      "sense_id": "alloy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

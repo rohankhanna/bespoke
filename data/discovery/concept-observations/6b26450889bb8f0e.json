@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is an unofficial LumaAI Dream Machine API based on Golang and Gin. It currently supports generating videos. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufeff# Luma API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufeff# Luma API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029633,
+      "status": "candidate",
+      "text": "sah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029632,
+      "status": "candidate",
+      "text": "dram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029631,
+      "status": "candidate",
+      "text": "tetri"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029630,
+      "status": "candidate",
+      "text": "lepton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029629,
+      "status": "candidate",
+      "text": "litra"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "luma",
+      "sense_id": "luma#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "luma",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "luma",
+  "observation_id": "6b26450889bb8f0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "luma",
+  "source_context_snippet": "\ufeff# Luma API",
+  "source_file": null,
+  "source_repo": "LumaAI-API/Luma-API",
+  "source_repo_description": "This is an unofficial LumaAI Dream Machine API based on Golang and Gin. It currently supports generating videos. "
+}

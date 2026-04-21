@@ -1,0 +1,12 @@
+{
+  "component": "warpdotdev/oz-agent-action@ce1621abf6a8ed8afdd4e4cc994545ede8fe1c6f",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-template-check.yml",
+      "source_repo": "vitejs/vite"
+    }
+  ]
+}

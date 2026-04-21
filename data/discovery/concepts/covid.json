@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "covid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate-context",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datadesk/california-coronavirus-data",
+      "status": "candidate",
+      "text": "The Los Angeles Times' open-source archive of California coronavirus data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904648,
+      "status": "candidate",
+      "text": "covit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904647,
+      "status": "candidate",
+      "text": "cubit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904646,
+      "status": "candidate",
+      "text": "coudee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904645,
+      "status": "candidate",
+      "text": "royal cubit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904644,
+      "status": "candidate",
+      "text": "cubage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "covid",
+  "concept_id": "covid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "datadesk/california-coronavirus-data"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "covid",
+      "sense_id": "covid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

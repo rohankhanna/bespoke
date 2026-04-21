@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040277,
+      "status": "candidate",
+      "text": "courageous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040265,
+      "status": "candidate",
+      "text": "stouthearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040238,
+      "status": "candidate",
+      "text": "lionhearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040209,
+      "status": "candidate",
+      "text": "valiant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040202,
+      "status": "candidate",
+      "text": "intrepid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brave",
+      "sense_id": "brave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 82034,
+      "status": "candidate",
+      "text": "audacious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37034,
+      "status": "candidate",
+      "text": "intrepid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32052,
+      "status": "candidate",
+      "text": "gay"
+    }
+  ],
+  "concept_id": "brave",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brave",
+  "observation_id": "7606837c18d2ef13",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "brave",
+  "source_context_snippet": ".. SPDX-License-Identifier: AGPL-3.0-or-later",
+  "source_file": null,
+  "source_repo": "searxng/searxng",
+  "source_repo_description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -51,6 +51,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadow1ng/fscan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "airbnb/binaryalert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenZeppelin/openzeppelin-contracts"
     }
   ],
   "term": "security"

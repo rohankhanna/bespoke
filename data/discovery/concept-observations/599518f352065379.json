@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LIBPNG: Portable Network Graphics support, official libpng repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Verifying libpng on Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Verifying libpng on Linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "linkwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10388,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ankle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10365,
+      "status": "candidate",
+      "text": "ben"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verifying libpng on Linux",
+      "sense_id": "verifying-libpng-on-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verifying-libpng-on-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verifying-libpng-on-linux",
+  "observation_id": "599518f352065379",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "Verifying libpng on Linux",
+  "source_context_snippet": "Verifying libpng on Linux",
+  "source_file": ".github/workflows/verify-linux.yml",
+  "source_repo": "pnggroup/libpng",
+  "source_repo_description": "LIBPNG: Portable Network Graphics support, official libpng repository"
+}

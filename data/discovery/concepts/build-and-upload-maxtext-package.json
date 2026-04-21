@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Upload MaxText Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "A simple, performant and scalable Jax LLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate-context",
+      "text": "Build and Upload MaxText Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxtext",
+      "status": "candidate",
+      "text": "Build and Upload MaxText Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23098,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22608,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22608,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Upload MaxText Package",
+  "concept_id": "build-and-upload-maxtext-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "AI-Hypercomputer/maxtext"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Upload MaxText Package",
+      "sense_id": "build-and-upload-maxtext-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

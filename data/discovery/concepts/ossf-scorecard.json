@@ -19,12 +19,30 @@
       "source_repo": "open-telemetry/opentelemetry-rust",
       "status": "candidate-context",
       "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OpenTelemetry community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/community",
       "status": "candidate",
       "text": "OSSF Scorecard"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/community"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

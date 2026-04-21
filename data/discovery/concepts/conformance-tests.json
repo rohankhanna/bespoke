@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Conformance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate-context",
+      "text": "Conformance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate",
+      "text": "Conformance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11627,
+      "status": "candidate",
+      "text": "kosher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11627,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11627,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11627,
+      "status": "candidate",
+      "text": "standardise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11585,
+      "status": "candidate",
+      "text": "compliance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Conformance Tests",
+  "concept_id": "conformance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conformance Tests",
+      "sense_id": "conformance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

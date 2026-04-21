@@ -1,0 +1,12 @@
+{
+  "component": "tsickert/discord-webhook@c840d45a03a323fbc3f7507ac7769dbd91bfb164",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flax_publish.yml",
+      "source_repo": "google/flax"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsegov/autoresearch-win-rtx",
+      "target": "karpathy/nanochat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:30:57.639110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8119
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AI agents running research on single-GPU nanochat training automatically",
+    "fork": true,
+    "full_name": "jsegov/autoresearch-win-rtx",
+    "html_url": "https://github.com/jsegov/autoresearch-win-rtx",
+    "language": "Python",
+    "pushed_at": "2026-03-14T17:47:24Z",
+    "stargazers_count": 561,
+    "topics": [],
+    "updated_at": "2026-04-21T09:44:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/nanochat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

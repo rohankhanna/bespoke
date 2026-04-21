@@ -19,6 +19,18 @@
       "source_repo": "ConnectAI-E/MidJourney-Web",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "status": "candidate-context",
+      "text": "midjourney-proxy\u7684\u5148\u884c\u7248"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ConnectAI-E/MidJourney-Web",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "litter-coder/midjourney-proxy-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "ConnectAI-E/MidJourney-Web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "litter-coder/midjourney-proxy-plus"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

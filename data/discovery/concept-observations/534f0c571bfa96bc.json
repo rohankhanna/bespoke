@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf4e \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "labelme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pytorch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "opencog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openai codex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gpt-2"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midjourney",
+      "sense_id": "midjourney#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "midjourney",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "midjourney",
+  "observation_id": "534f0c571bfa96bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "midjourney",
+  "source_context_snippet": "\ud83c\udf4b \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848",
+  "source_file": null,
+  "source_repo": "ConnectAI-E/Dingtalk-Midjourney",
+  "source_repo_description": "\ud83c\udf4e \u4e00\u5957\u8ba9\u9489\u9489\u8c03\u7528 midjourney \u7684\u5b9e\u73b0\u65b9\u6848"
+}

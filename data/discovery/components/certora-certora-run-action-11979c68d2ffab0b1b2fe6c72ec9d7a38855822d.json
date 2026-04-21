@@ -1,0 +1,12 @@
+{
+  "component": "Certora/certora-run-action@11979c68d2ffab0b1b2fe6c72ec9d7a38855822d",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/certora-prover.yml",
+      "source_repo": "Layr-Labs/eigenlayer-contracts"
+    }
+  ]
+}

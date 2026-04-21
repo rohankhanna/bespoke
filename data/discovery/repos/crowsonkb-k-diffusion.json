@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-regex-match@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "shi-labs/natten",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "crowsonkb/v-diffusion-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "openai/guided-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "compvis/latent-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "actions-ecosystem/action-regex-match@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/k-diffusion",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:32:58.127347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7309
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 81
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Karras et al. (2022) diffusion models for PyTorch",
+    "fork": false,
+    "full_name": "crowsonkb/k-diffusion",
+    "html_url": "https://github.com/crowsonkb/k-diffusion",
+    "language": "Python",
+    "pushed_at": "2026-02-12T18:38:38Z",
+    "stargazers_count": 2584,
+    "topics": [],
+    "updated_at": "2026-04-19T22:09:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compvis/latent-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crowsonkb/v-diffusion-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/guided-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shi-labs/natten",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Release"
+    }
+  ]
+}

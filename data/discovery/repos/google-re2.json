@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/re2",
+      "target": "abseil/abseil-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/re2",
+      "target": "bazelbuild/bazelisk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/re2",
+      "target": "dukesoferl/re2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/re2",
+      "target": "dgl/re-engine-re2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "bazel-contrib/setup-bazel@0.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "actions/setup-python@v5.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "CI (Bazel)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cmake.yml",
+      "source_repo": "google/re2",
+      "target": "CI (CMake)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2",
+      "target": "bazel-contrib/setup-bazel@0.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2",
+      "target": "actions/upload-pages-artifact@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2",
+      "target": "actions/deploy-pages@v4.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "google/re2",
+      "target": "Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "bazel-contrib/setup-bazel@0.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "actions/upload-artifact@v4.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "actions/setup-python@v5.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "actions/download-artifact@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "google/re2",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bazel.yml",
+      "source_repo": "google/re2",
+      "target": "Release (Bazel)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/re2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/re2",
+      "target": "sigstore/gh-action-sigstore-python@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/re2",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:29:56.477408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11410
+    },
+    {
+      "path": ".github/workflows/ci-bazel.yml",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/ci-cmake.yml",
+      "size": 1672
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2392
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "size": 9609
+    },
+    {
+      "path": ".github/workflows/release-bazel.yml",
+      "size": 1497
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",
+    "fork": false,
+    "full_name": "google/re2",
+    "html_url": "https://github.com/google/re2",
+    "language": "C++",
+    "pushed_at": "2026-01-22T23:28:54Z",
+    "stargazers_count": 9651,
+    "topics": [],
+    "updated_at": "2026-04-21T09:38:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abseil/abseil-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazelisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgl/re-engine-re2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dukesoferl/re2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI (Bazel)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bazel.yml",
+      "term": "CI (Bazel)"
+    },
+    {
+      "context_snippet": "CI (CMake)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cmake.yml",
+      "term": "CI (CMake)"
+    },
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Pages"
+    },
+    {
+      "context_snippet": "Release (Bazel)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-bazel.yml",
+      "term": "Release (Bazel)"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

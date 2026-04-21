@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CodeQL Security Analysis For Github Actions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CodeQL Security Analysis For Github Actions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33900,
+      "status": "candidate",
+      "text": "only"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25896,
+      "status": "candidate",
+      "text": "behaviourism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25826,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17933,
+      "status": "candidate",
+      "text": "agenda"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeQL Security Analysis For Github Actions",
+      "sense_id": "codeql-security-analysis-for-github-actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codeql-security-analysis-for-github-actions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codeql-security-analysis-for-github-actions",
+  "observation_id": "8de332b89f673daa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "CodeQL Security Analysis For Github Actions",
+  "source_context_snippet": "CodeQL Security Analysis For Github Actions",
+  "source_file": ".github/workflows/codeql.yml",
+  "source_repo": "huggingface/text-generation-inference",
+  "source_repo_description": "Large Language Model Text Generation Inference"
+}

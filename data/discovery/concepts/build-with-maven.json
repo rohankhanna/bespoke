@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build with Maven"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "status": "candidate-context",
+      "text": "MCP Server for Ghidra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "status": "candidate-context",
+      "text": "Build with Maven"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurieWired/GhidraMCP",
+      "status": "candidate",
+      "text": "Build with Maven"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11819,
+      "status": "candidate",
+      "text": "tout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11001,
+      "status": "candidate",
+      "text": "mavin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10886,
+      "status": "candidate",
+      "text": "adrogate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10886,
+      "status": "candidate",
+      "text": "anatomist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10886,
+      "status": "candidate",
+      "text": "architectonic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build with Maven",
+  "concept_id": "build-with-maven",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LaurieWired/GhidraMCP"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build with Maven",
+      "sense_id": "build-with-maven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

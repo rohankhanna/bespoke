@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "target": "deepresearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imlrz/DeepResearch-Bench-II",
+      "target": "llmagent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:28:14.819634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13342
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepResearch Bench II (DRB2) is the follow-up to DeepResearch Bench, with a stronger focus on measuring the gap between deep research systems and human experts. It does so by decomposing expert-written reports into hierarchical rubrics covering presentation, analysis, and evidence, and using them to evaluate model-generated.",
+    "fork": false,
+    "full_name": "imlrz/DeepResearch-Bench-II",
+    "html_url": "https://github.com/imlrz/DeepResearch-Bench-II",
+    "language": "Python",
+    "pushed_at": "2026-02-24T09:01:12Z",
+    "stargazers_count": 44,
+    "topics": [
+      "benchmark",
+      "deepresearch",
+      "llm",
+      "llmagent"
+    ],
+    "updated_at": "2026-04-15T10:49:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepresearch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmagent"
+    }
+  ]
+}

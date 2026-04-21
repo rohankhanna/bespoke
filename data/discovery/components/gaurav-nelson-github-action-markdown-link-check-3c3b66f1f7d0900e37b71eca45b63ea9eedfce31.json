@@ -1,0 +1,12 @@
+{
+  "component": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "strands-agents/sdk-python"
+    }
+  ]
+}

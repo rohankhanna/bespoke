@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "embedded"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "ClickHouse\u00ae is a real-time analytics database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963928,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934312,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994390,
+      "status": "candidate",
+      "text": "established"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992346,
+      "status": "candidate",
+      "text": "composed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990962,
+      "status": "candidate",
+      "text": "disposed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18022,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14040,
+      "status": "candidate",
+      "text": "integrated"
+    }
+  ],
+  "canonical_name": "embedded",
+  "concept_id": "embedded",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ClickHouse"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedded",
+      "sense_id": "embedded#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

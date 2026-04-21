@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "target": "claude-skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:34:25.006304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7306
+    },
+    {
+      "path": "requirements.txt",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Claude Skill that automatically analyzes uploaded CSV files \u2014 generating summary statistics, detecting missing data, and creating quick visualizations using Python and pandas.",
+    "fork": false,
+    "full_name": "coffeefuelbump/csv-data-summarizer-claude-skill",
+    "html_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+    "language": "Python",
+    "pushed_at": "2025-10-16T20:20:06Z",
+    "stargazers_count": 351,
+    "topics": [
+      "claude-skills"
+    ],
+    "updated_at": "2026-04-21T06:44:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    }
+  ]
+}

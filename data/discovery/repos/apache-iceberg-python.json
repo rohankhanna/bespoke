@@ -1,0 +1,630 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/allowlist-check@4e9c961f587f72b170874b6f5cd4ac15f7f26eb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-md-link.yml"
+    },
+    {
+      "component": "tcort/github-action-markdown-link-check@e7c7a18363c842693fadde5d41a3bd3573a7a225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-md-link.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "apache/iceberg-python",
+      "target": "apache/arrow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "apache/infrastructure-actions/allowlist-check@4e9c961f587f72b170874b6f5cd4ac15f7f26eb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "ASF Allowlist Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-md-link.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-md-link.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "tcort/github-action-markdown-link-check@e7c7a18363c842693fadde5d41a3bd3573a7a225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "Run License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "Nightly PyPI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "Build PyPI Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci-docs.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "apache/iceberg-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python",
+      "target": "iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/iceberg-python",
+      "target": "pyiceberg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:50.528799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1219
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6026
+    },
+    {
+      "path": ".github/workflows/asf-allowlist-check.yml",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/check-md-link.yml",
+      "size": 1371
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1613
+    },
+    {
+      "path": ".github/workflows/license_check.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/nightly-pypi-build.yml",
+      "size": 4430
+    },
+    {
+      "path": ".github/workflows/pypi-build-artifacts.yml",
+      "size": 3553
+    },
+    {
+      "path": ".github/workflows/python-ci-docs.yml",
+      "size": 1549
+    },
+    {
+      "path": ".github/workflows/python-ci.yml",
+      "size": 8990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyIceberg",
+    "fork": false,
+    "full_name": "apache/iceberg-python",
+    "html_url": "https://github.com/apache/iceberg-python",
+    "language": "Python",
+    "pushed_at": "2026-04-19T19:22:38Z",
+    "stargazers_count": 1037,
+    "topics": [
+      "apache",
+      "hacktoberfest",
+      "iceberg",
+      "pyiceberg"
+    ],
+    "updated_at": "2026-04-20T05:44:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"ASF Allowlist Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "term": "ASF Allowlist Check"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Run License Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "term": "Run License Check"
+    },
+    {
+      "context_snippet": "\"Nightly PyPI Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-pypi-build.yml",
+      "term": "Nightly PyPI Build"
+    },
+    {
+      "context_snippet": "\"Build PyPI Artifacts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-build-artifacts.yml",
+      "term": "Build PyPI Artifacts"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iceberg"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyiceberg"
+    }
+  ]
+}

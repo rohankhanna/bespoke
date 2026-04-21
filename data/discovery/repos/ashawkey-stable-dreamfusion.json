@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "nvlabs/tiny-cuda-nn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "nvlabs/nvdiffrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "openai/clip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "dreamfusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/stable-dreamfusion",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:33:06.651847+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion.",
+    "fork": false,
+    "full_name": "ashawkey/stable-dreamfusion",
+    "html_url": "https://github.com/ashawkey/stable-dreamfusion",
+    "language": "Python",
+    "pushed_at": "2023-12-10T23:17:27Z",
+    "stargazers_count": 8825,
+    "topics": [
+      "dreamfusion",
+      "gui",
+      "image-to-3d",
+      "nerf",
+      "stable-diffusion",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-04-21T05:56:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/nvdiffrast",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/tiny-cuda-nn",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/clip",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dreamfusion"
+    },
+    {
+      "context_snippet": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "anthropics/claude-code-action@2f8ba26a219c06cfb0f468eef8d97055fa814f97",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-release.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Comment on PRs in Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Conformance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs-manually.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Publish Docs manually",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Publishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Shared Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-lockfile-update.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-lockfile-update.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-lockfile-update.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-lockfile-update.yml",
+      "source_repo": "modelcontextprotocol/python-sdk",
+      "target": "Weekly Lockfile Update",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "source_repo": "modelcontextprotocol/python-sdk"
+}

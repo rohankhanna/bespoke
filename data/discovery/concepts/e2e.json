@@ -32,6 +32,30 @@
       "source_repo": "docker/cli",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "Set up a modern web app by running one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate-context",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "Live tail GitHub Action runs on 'git push'. It's cursed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/cli",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/create-react-app",
+      "status": "candidate",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getbettr/octotail",
       "status": "candidate",
       "text": "e2e"
     }
@@ -107,11 +143,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "docker/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getbettr/octotail"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate-context",
+      "text": "Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searxng",
+      "status": "candidate",
+      "text": "Container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042202,
+      "status": "candidate",
+      "text": "reservoir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042069,
+      "status": "candidate",
+      "text": "enclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041921,
+      "status": "candidate",
+      "text": "containment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041866,
+      "status": "candidate",
+      "text": "containing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041638,
+      "status": "candidate",
+      "text": "contain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Container",
+  "concept_id": "container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "searxng/searxng"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Container",
+      "sense_id": "container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

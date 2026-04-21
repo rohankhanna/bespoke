@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "target": "aliases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shanoor/kubectl-aliases-powershell",
+      "target": "powershell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:38:13.989804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Programmatically generated handy kubectl PowerShell aliases",
+    "fork": true,
+    "full_name": "shanoor/kubectl-aliases-powershell",
+    "html_url": "https://github.com/shanoor/kubectl-aliases-powershell",
+    "language": "PowerShell",
+    "pushed_at": "2021-11-16T09:44:43Z",
+    "stargazers_count": 78,
+    "topics": [
+      "aliases",
+      "kubectl",
+      "kubernetes",
+      "powershell"
+    ],
+    "updated_at": "2025-11-22T17:06:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_Forked from: https://github.com/ahmetb/kubectl-aliases_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliases"
+    },
+    {
+      "context_snippet": "_Forked from: https://github.com/ahmetb/kubectl-aliases_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "_Forked from: https://github.com/ahmetb/kubectl-aliases_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "_Forked from: https://github.com/ahmetb/kubectl-aliases_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    }
+  ]
+}

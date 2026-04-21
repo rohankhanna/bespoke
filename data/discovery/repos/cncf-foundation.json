@@ -1,0 +1,434 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-csv.yml"
+    },
+    {
+      "component": "krook/csv-lint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-csv.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-exceptions.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-exceptions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/foundation",
+      "target": "cncf/toc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "License Exceptions Site Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "source_repo": "cncf/foundation",
+      "target": "E2E Tests - License Exceptions Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "source_repo": "cncf/foundation",
+      "target": "License Exception Decision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "source_repo": "cncf/foundation",
+      "target": "License Exception Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-csv.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-csv.yml",
+      "source_repo": "cncf/foundation",
+      "target": "krook/csv-lint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-csv.yml",
+      "source_repo": "cncf/foundation",
+      "target": "CSV Formatting Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "source_repo": "cncf/foundation",
+      "target": "Validate License Exceptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "cncf/foundation",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "source_repo": "cncf/foundation",
+      "target": "Maintainer PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/foundation",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/foundation",
+      "target": "governance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:26:49.853483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2079
+    },
+    {
+      "path": ".github/workflows/deploy-license-site.yml",
+      "size": 1083
+    },
+    {
+      "path": ".github/workflows/e2e-license-site.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/license-exception-approved.yml",
+      "size": 6466
+    },
+    {
+      "path": ".github/workflows/license-exception-triage.yml",
+      "size": 4460
+    },
+    {
+      "path": ".github/workflows/validate-csv.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/validate-exceptions.yml",
+      "size": 3726
+    },
+    {
+      "path": ".github/workflows/validate-maintainers.yml",
+      "size": 14046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2601\ufe0f\u266e\ud83c\udfdb This repo contains several documents related to the operation of the CNCF. File non-technical issues related to CNCF here.",
+    "fork": false,
+    "full_name": "cncf/foundation",
+    "html_url": "https://github.com/cncf/foundation",
+    "language": "Rich Text Format",
+    "pushed_at": "2026-04-20T17:11:46Z",
+    "stargazers_count": 671,
+    "topics": [
+      "cncf",
+      "governance"
+    ],
+    "updated_at": "2026-04-21T09:39:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/toc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "License Exceptions Site Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-license-site.yml",
+      "term": "License Exceptions Site Tests"
+    },
+    {
+      "context_snippet": "E2E Tests - License Exceptions Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-license-site.yml",
+      "term": "E2E Tests - License Exceptions Site"
+    },
+    {
+      "context_snippet": "License Exception Decision",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-exception-approved.yml",
+      "term": "License Exception Decision"
+    },
+    {
+      "context_snippet": "License Exception Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-exception-triage.yml",
+      "term": "License Exception Triage"
+    },
+    {
+      "context_snippet": "CSV Formatting Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-csv.yml",
+      "term": "CSV Formatting Validation"
+    },
+    {
+      "context_snippet": "Validate License Exceptions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-exceptions.yml",
+      "term": "Validate License Exceptions"
+    },
+    {
+      "context_snippet": "Maintainer PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-maintainers.yml",
+      "term": "Maintainer PR Validation"
+    },
+    {
+      "context_snippet": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    }
+  ]
+}

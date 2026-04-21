@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T11:28:11.035900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2422
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common infrastructure to build documentation for the Pydantic projects",
+    "fork": false,
+    "full_name": "pydantic/pydantic-docs",
+    "html_url": "https://github.com/pydantic/pydantic-docs",
+    "language": "Python",
+    "pushed_at": "2026-01-23T10:39:01Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-23T10:39:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

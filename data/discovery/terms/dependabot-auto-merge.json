@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "data-apis/array-api-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp-demos"
     }
   ],
   "term": "Dependabot Auto Merge"

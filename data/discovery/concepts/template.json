@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate-context",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/trust",
+      "status": "candidate",
+      "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985635,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38011097,
+      "status": "candidate",
+      "text": "templet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001710,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000077,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998733,
+      "status": "candidate",
+      "text": "example"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2026,
+      "status": "candidate",
+      "text": "templet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "guide"
+    }
+  ],
+  "canonical_name": "template",
+  "concept_id": "template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": null,
+      "source_repo": "japaric/trust"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "template",
+      "sense_id": "template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

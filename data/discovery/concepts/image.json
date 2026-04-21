@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate-context",
+      "text": "contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate-context",
+      "text": "image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/nerdctl",
+      "status": "candidate",
+      "text": "image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030449,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029012,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028955,
+      "status": "candidate",
+      "text": "effigy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026523,
+      "status": "candidate",
+      "text": "simulacrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023319,
+      "status": "candidate",
+      "text": "double"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 77057,
+      "status": "candidate",
+      "text": "paradigm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51040,
+      "status": "candidate",
+      "text": "epitome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "fancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38048,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33043,
+      "status": "candidate",
+      "text": "persona"
+    }
+  ],
+  "canonical_name": "image",
+  "concept_id": "image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/ghcr-image-build-and-publish.yml",
+      "source_repo": "containerd/nerdctl"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "image",
+      "sense_id": "image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

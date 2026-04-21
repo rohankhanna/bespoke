@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "svaningelgem/logprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "EvolvingLMMs-Lab/lmms-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KabakaWilliam/trajectorykit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/synthetic-data-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crytic/solc-select"
     }
   ],
   "term": "Publish to PyPI"

@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.18.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "Slashgear/action-check-pr-title@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-required.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "pypa/cibuildwheel@v2.18.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "Build and upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-required.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "Slashgear/action-check-pr-title@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-required.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "ci-required",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "modin-project/unidist",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modin-project/unidist",
+      "target": "dask-distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modin-project/unidist",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modin-project/unidist",
+      "target": "multiprocessing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T11:37:42.299097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6755
+    },
+    {
+      "path": "requirements.txt",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 3356
+    },
+    {
+      "path": ".github/workflows/ci-required.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unified Distributed Execution",
+    "fork": false,
+    "full_name": "modin-project/unidist",
+    "html_url": "https://github.com/modin-project/unidist",
+    "language": "Python",
+    "pushed_at": "2024-10-21T15:29:31Z",
+    "stargazers_count": 57,
+    "topics": [
+      "dask-distributed",
+      "distributed",
+      "mpi",
+      "multiprocessing",
+      "python",
+      "ray"
+    ],
+    "updated_at": "2025-11-19T11:15:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "term": "Build and upload to PyPI"
+    },
+    {
+      "context_snippet": "ci-required",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-required.yml",
+      "term": "ci-required"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask-distributed"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiprocessing"
+    }
+  ]
+}

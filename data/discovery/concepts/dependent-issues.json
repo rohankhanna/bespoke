@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependent Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate-context",
+      "text": "Dependent Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "Dependent Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "long"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "technical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "conditions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11558,
+      "status": "candidate",
+      "text": "litigation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependent Issues",
+  "concept_id": "dependent-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T11:24:10.450489+00:00",
+      "source_file": ".github/workflows/dependent-issues.yml",
+      "source_repo": "berty/berty"
+    }
+  ],
+  "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependent Issues",
+      "sense_id": "dependent-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

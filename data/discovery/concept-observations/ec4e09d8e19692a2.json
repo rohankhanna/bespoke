@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A basic calendar view implementation for cursive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869363,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868377,
+      "status": "candidate",
+      "text": "longhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012443,
+      "status": "candidate",
+      "text": "joined up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012442,
+      "status": "candidate",
+      "text": "curly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012441,
+      "status": "candidate",
+      "text": "semicursive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cursive",
+      "sense_id": "cursive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3038,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "longhand"
+    }
+  ],
+  "concept_id": "cursive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cursive",
+  "observation_id": "ec4e09d8e19692a2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_text": "cursive",
+  "source_context_snippet": "[![cursive-calendar-view on crates.io][cratesio-image]][cratesio]",
+  "source_file": null,
+  "source_repo": "BonsaiDen/cursive_calendar_view",
+  "source_repo_description": "A basic calendar view implementation for cursive."
+}
