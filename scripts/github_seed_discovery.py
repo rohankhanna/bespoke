@@ -57,6 +57,30 @@ def api_get_json(url):
         return json.loads(resp.read().decode("utf-8"))
 
 
+def is_transient_github_http_error(error):
+    return error.code in {403, 429} or error.code >= 500
+
+
+def summarize_github_http_error(error):
+    retry_after = None
+    rate_limit_remaining = None
+    rate_limit_reset = None
+    try:
+        retry_after = error.headers.get("Retry-After")
+        rate_limit_remaining = error.headers.get("X-RateLimit-Remaining")
+        rate_limit_reset = error.headers.get("X-RateLimit-Reset")
+    except Exception:
+        pass
+    return {
+        "url": getattr(error, "url", None),
+        "http_status": error.code,
+        "reason": getattr(error, "reason", None),
+        "retry_after": retry_after,
+        "rate_limit_remaining": rate_limit_remaining,
+        "rate_limit_reset": rate_limit_reset,
+    }
+
+
 def api_get_json_generic(url, headers=None):
     request_headers = {"User-Agent": UA}
     if headers:
@@ -198,13 +222,14 @@ def explicit_repo_exists(full_name):
         if e.code == 404:
             EXPLICIT_REPO_EXISTS_CACHE[canonical] = False
             return False
-        if e.code in {403, 429} or e.code >= 500:
+        if is_transient_github_http_error(e):
             EXPLICIT_REPO_EXISTS_DEGRADED = True
-            EXPLICIT_REPO_EXISTS_FALLBACKS.append({
+            fallback_record = summarize_github_http_error(e)
+            fallback_record.update({
                 "full_name": canonical,
-                "http_status": e.code,
                 "fallback": "plausible-candidate-pass-through",
             })
+            EXPLICIT_REPO_EXISTS_FALLBACKS.append(fallback_record)
             EXPLICIT_REPO_EXISTS_CACHE[canonical] = True
             return True
         raise
@@ -1297,6 +1322,9 @@ def main():
     skipped_repositories = []
     stale_repositories_pruned = sorted(pruned_stale_repo_keys)
     stopped_due_to_budget = False
+    stopped_due_to_api = False
+    stop_reason = None
+    api_stop_detail = None
     deferred_entries = []
     repo_timings = []
     batch_count = 0
@@ -1304,6 +1332,7 @@ def main():
     while pending:
         if should_stop_before_repo(budget):
             stopped_due_to_budget = True
+            stop_reason = "budget"
             deferred_entries = pending
             break
 
@@ -1316,6 +1345,7 @@ def main():
         for index, entry in enumerate(to_process):
             if should_stop_before_repo(budget):
                 stopped_due_to_budget = True
+                stop_reason = "budget"
                 deferred_entries = to_process[index:]
                 break
             repo_started = time.monotonic()
@@ -1342,6 +1372,16 @@ def main():
                         "discovered_via": entry.get("discovered_via"),
                     })
                     continue
+                if is_transient_github_http_error(e):
+                    stopped_due_to_api = True
+                    stop_reason = "github_api_error"
+                    api_stop_detail = summarize_github_http_error(e)
+                    api_stop_detail.update({
+                        "full_name": owner_repo,
+                        "discovered_via": entry.get("discovered_via"),
+                    })
+                    deferred_entries = to_process[index:]
+                    break
                 raise
 
             canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
@@ -1402,6 +1442,7 @@ def main():
 
             if past_hard_stop(budget):
                 stopped_due_to_budget = True
+                stop_reason = "budget"
                 deferred_entries = to_process[index + 1 :]
                 break
 
@@ -1412,7 +1453,7 @@ def main():
             if repo_identity_key(item.get("full_name")) not in known_repo_keys
         ]
 
-        if stopped_due_to_budget:
+        if stopped_due_to_budget or stopped_due_to_api:
             break
 
     next_pending = pending
@@ -1445,6 +1486,9 @@ def main():
         "budget_seconds": budget["budget_seconds"],
         "remaining_budget_seconds": round(remaining_seconds(budget), 3),
         "stopped_due_to_budget": stopped_due_to_budget,
+        "stopped_due_to_api": stopped_due_to_api,
+        "stop_reason": stop_reason,
+        "api_stop_detail": api_stop_detail,
         "repo_timing_summary": summarize_repo_timings(repo_timings),
         "slow_repo_threshold_seconds": SLOW_REPO_THRESHOLD_SECONDS,
         "slow_repositories": slow_repo_annotations(repo_timings),
