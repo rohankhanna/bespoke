@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
+    "components": 45,
     "concepts": 42,
     "observations": 42,
-    "repos": 6,
-    "terms": 49
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/can-i-help",
     "agent-sh/onboard",
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
-    "seunghunbae-3svs/solo-cto-agent"
+    "anojndr/grok-to-openai",
+    "gauravrathod674/custom-chatbot",
+    "seunghunbae-3svs/solo-cto-agent",
+    "stealabra5019/grok-enhancer"
   ]
 }

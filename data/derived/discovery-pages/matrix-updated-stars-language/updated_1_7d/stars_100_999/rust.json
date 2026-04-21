@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 22,
-    "observations": 24,
-    "repos": 8,
-    "terms": 35
+    "components": 83,
+    "concepts": 28,
+    "observations": 30,
+    "repos": 9,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agent-sh/agnix",
+    "cargo-bins/cargo-quickinstall",
     "dtormoen/tsk-tsk",
     "Kampfkarren/full-moon",
     "nielsgroen/claude-tmux",

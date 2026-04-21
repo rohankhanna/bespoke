@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 3,
-    "terms": 29
+    "components": 39,
+    "concepts": 63,
+    "observations": 64,
+    "repos": 5,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "aider-ai/aider",
-    "delgan/loguru",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
+    "dask/dask",
     "letta-ai/letta"
   ]
 }

@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 8,
-    "terms": 25
+    "components": 43,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 9,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "aaronrsun/spec-kit-confluence",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "b2agi/exist-is-charter_kr",
-    "danielrosehill/claude-code-sysadmin-workspaces-index",
+    "ethpandaops/xatu-cbt",
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

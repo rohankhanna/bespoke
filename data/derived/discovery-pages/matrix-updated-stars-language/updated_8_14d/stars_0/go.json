@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "abraxas-365/claudio-screenshot",
-    "ethpandaops/xatu-cbt"
+    "abraxas-365/claudio-screenshot"
   ]
 }

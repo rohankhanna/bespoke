@@ -130,7 +130,7 @@
       "size": 1213
     }
   ],
-  "metadata_refreshed_at": "2026-04-20T05:28:11.871689+00:00",
+  "metadata_refreshed_at": "2026-04-21T05:18:01.432094+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -141,7 +141,7 @@
     "html_url": "https://github.com/dustinblackman/cargo-run-bin",
     "language": "Rust",
     "pushed_at": "2025-12-19T02:30:12Z",
-    "stargazers_count": 231,
+    "stargazers_count": 230,
     "topics": [
       "cache",
       "cargo",
@@ -149,7 +149,7 @@
       "developer-tools",
       "rust"
     ],
-    "updated_at": "2026-04-07T14:31:54Z"
+    "updated_at": "2026-04-20T07:49:39Z"
   },
   "repo_links": [
     {

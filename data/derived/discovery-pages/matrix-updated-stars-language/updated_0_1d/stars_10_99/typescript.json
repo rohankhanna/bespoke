@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
+    "components": 37,
     "concepts": 7,
-    "observations": 7,
+    "observations": 8,
     "repos": 2,
-    "terms": 11
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "almogdepaz/wolfpack",
-    "overseedai/viwo"
+    "hashintel/labs",
+    "slopus/slopus.github.io"
   ]
 }

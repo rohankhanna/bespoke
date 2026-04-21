@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 8,
-    "terms": 35
+    "components": 1019,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 22,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,29 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "badlogic/pi-mono",
+    "everyinc/compound-engineering-plugin",
     "fission-ai/openspec",
+    "garrytan/gstack",
+    "iOfficeAI/AionUi",
+    "langchain-ai/langchainjs",
+    "lobehub/lobehub",
     "microsoft/playwright-mcp",
+    "multica-ai/multica",
+    "nvidia/nemoclaw",
+    "qwenlm/qwen-code",
+    "qwibitai/nanoclaw",
+    "recharts/recharts",
+    "ryoppippi/ccusage",
     "shareai-lab/learn-claude-code",
     "slopus/happy",
+    "tanweai/pua",
     "toon-format/toon",
     "upstash/context7",
     "vadimdemedes/ink",
-    "vercel-labs/skills"
+    "vercel-labs/skills",
+    "withastro/astro"
   ]
 }

@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 7,
-    "terms": 6
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 6,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "aaronrsun/spec-kit-confluence",
     "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",
     "cdeust/cortex-know-when-to-stop-training-model",
-    "ethpandaops/xatu-cbt",
+    "mitchuski/agentprivacy-skills",
     "piebald-ai/piebald",
     "wencuecryforme/mysoul.skill"
   ]

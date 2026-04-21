@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 25,
-    "observations": 27,
-    "repos": 9,
-    "terms": 51
+    "components": 243,
+    "concepts": 27,
+    "observations": 28,
+    "repos": 10,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
+    "almogdepaz/wolfpack",
     "dokploy/cli",
-    "hashintel/labs",
     "huangguang1999/ccstatusline-zh",
     "jkheadley/instar",
     "lobehub/lobe-lint",
+    "overseedai/viwo",
     "sgcarstrends/sgcarstrends",
     "ylsssq926/relic.skill",
     "zuplo/docs"

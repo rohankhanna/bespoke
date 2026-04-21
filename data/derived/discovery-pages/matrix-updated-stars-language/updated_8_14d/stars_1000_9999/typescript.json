@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 141,
+    "components": 201,
     "concepts": 14,
     "observations": 14,
-    "repos": 4,
+    "repos": 5,
     "terms": 22
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "google-github-actions/run-gemini-cli",
+    "googleapis/release-please",
     "lobehub/lobe-icons",
     "opactorai/claudable",
     "thx/resvg-js"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 15,
-    "terms": 168
+    "components": 282,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 17,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "abraxas-365/langchain-rust",
     "BoundaryML/baml",
     "cargo-bins/cargo-binstall",
     "cedar-policy/cedar",
     "crate-ci/typos",
     "eventual-inc/daft",
+    "hashintel/hash",
     "johnnymorganz/stylua",
     "libp2p/rust-libp2p",
     "mikeyobrien/ralph-orchestrator",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 21,
-    "terms": 106
+    "components": 144,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 23,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "agenmod/immortal-skill",
     "agiletec-inc/airis-mcp-gateway",
-    "AgriciDaniel/banana-claude",
-    "AgriciDaniel/claude-blog",
+    "albumentations-team/AlbumentationsX",
+    "alistaitsacle/free-llm-api-keys",
     "ayanami0730/deep_research_bench",
     "beamuswayne/simp-skill",
     "bmad-code-org/bmad-builder",
+    "clearbluejar/pyghidra-mcp",
+    "daaain/claude-code-log",
     "fatiando/pooch",
     "fcakyon/claude-codex-settings",
     "jezweb/claude-skills",

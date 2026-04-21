@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
+    "components": 42,
     "concepts": 12,
     "observations": 12,
-    "repos": 3,
-    "terms": 14
+    "repos": 5,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "browser-use/benchmark",
     "cloudartisan/cloudartisan.github.io",
-    "libp2p/test-plans"
+    "dreamiurg/claude-mountaineering-skills",
+    "libp2p/test-plans",
+    "mem0ai/memory-benchmarks"
   ]
 }

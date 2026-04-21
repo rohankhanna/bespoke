@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 22,
-    "observations": 23,
-    "repos": 10,
-    "terms": 28
+    "components": 86,
+    "concepts": 26,
+    "observations": 27,
+    "repos": 11,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "ddollar/forego",
     "google-github-actions/auth",
@@ -22,6 +22,7 @@
     "numman-ali/openskills",
     "omnara-ai/omnara",
     "protectai/llm-guard",
+    "protocolbuffers/protobuf-go",
     "steipete/claude-code-mcp"
   ]
 }

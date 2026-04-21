@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 13,
-    "terms": 27
+    "components": 51,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 20,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,25 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "bryanh9111/engram",
+    "caesar0301/soothe",
+    "cafitac/hermit-agent",
     "cjtruheart/abundance-codex",
-    "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
+    "floxym/financial-chat",
+    "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
     "kelp/webdown",
+    "momentique/source-code-security-audit-reviewer",
+    "penpoen/llm-sugarscape",
+    "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
+    "rrsaldanha/burp-mcp-agents",
     "sunthinks/kvmind",
     "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"

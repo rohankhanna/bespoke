@@ -1,29 +1,36 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 12,
-    "terms": 34
+    "components": 55,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 19,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "adoptium/adoptium",
+    "AgriciDaniel/banana-claude",
+    "AgriciDaniel/claude-blog",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
+    "astro-han/claude-pace",
     "astro-han/karpathy-llm-wiki",
+    "badlogic/pi-share-hf",
+    "charmbracelet/colorprofile",
     "ethpandaops/ethereum-helm-charts",
+    "evmts/tevm-monorepo",
     "gowaylee/cchooks",
     "muratcankoylan/ralph-wiggum-marketer",
     "paretosecurity/pareto-mac",
-    "trailofbits/claude-code-devcontainer"
+    "trailofbits/claude-code-devcontainer",
+    "undeadlist/claude-code-agents"
   ]
 }

@@ -244,7 +244,7 @@
       "size": 322
     }
   ],
-  "metadata_refreshed_at": "2026-04-20T05:28:41.680806+00:00",
+  "metadata_refreshed_at": "2026-04-21T05:18:16.810379+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -254,14 +254,14 @@
     "full_name": "lunarmodules/luacheck",
     "html_url": "https://github.com/lunarmodules/luacheck",
     "language": "Lua",
-    "pushed_at": "2026-04-14T12:53:39Z",
-    "stargazers_count": 442,
+    "pushed_at": "2026-04-20T10:49:49Z",
+    "stargazers_count": 443,
     "topics": [
       "linting",
       "lua",
       "static-analysis"
     ],
-    "updated_at": "2026-04-14T13:08:03Z"
+    "updated_at": "2026-04-21T00:51:47Z"
   },
   "repo_links": [
     {

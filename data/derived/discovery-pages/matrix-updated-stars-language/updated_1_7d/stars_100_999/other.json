@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 16,
-    "observations": 16,
+    "components": 43,
+    "concepts": 22,
+    "observations": 22,
     "repos": 9,
-    "terms": 41
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "aws-samples/anthropic-on-aws",
+    "biopragmatics/bioregistry",
+    "danielrosehill/claude-code-projects-index",
     "harperreed/dotfiles",
     "jeremymailen/kotlinter-gradle",
     "jsonbored/claudepro-directory",
-    "lunarmodules/luacheck",
-    "mongodb/homebrew-brew",
     "openclaw/nix-openclaw",
     "stevemolitor/claude-code.el",
     "stevemolitor/monet"

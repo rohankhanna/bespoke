@@ -1,28 +1,32 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 11,
-    "terms": 38
+    "components": 183,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 15,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "askroundtable/expert-skills",
-    "beyondcode/claude-hooks-sdk",
     "browser-use/benchmark",
     "buddingnewinsights/proxypal",
     "cedar-policy/cedar-docs",
     "cloudartisan/cloudartisan.github.io",
+    "dreamiurg/claude-mountaineering-skills",
+    "eigenfoundation/elips",
     "ethpandaops/xatu",
+    "fgrehm/clotilde",
     "jerseycheese/narraitor",
-    "libp2p/test-plans"
+    "libp2p/test-plans",
+    "mem0ai/memory-benchmarks",
+    "tianrking/weixin-agent-rs"
   ]
 }

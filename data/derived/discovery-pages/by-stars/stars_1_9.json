@@ -3,14 +3,14 @@
     "components": 1003,
     "concepts": 200,
     "observations": 200,
-    "repos": 131,
+    "repos": 132,
     "terms": 265
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "1sh1ro/liangxi-skills",
@@ -54,6 +54,7 @@
     "danielrosehill/claude-agent-picker-pattern",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-app-optimiser",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/Subindices",
     "ddisisto/si",

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 8,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "repo_ids": [
+    "ethpandaops/xatu-cbt"
+  ]
+}

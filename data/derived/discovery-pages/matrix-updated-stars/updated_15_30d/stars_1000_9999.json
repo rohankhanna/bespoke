@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 54,
-    "observations": 55,
-    "repos": 20,
-    "terms": 65
+    "components": 184,
+    "concepts": 63,
+    "observations": 64,
+    "repos": 23,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "azure/aztfexport",
     "behisecc/awesome-claude-skills",
+    "django/daphne",
     "dooy/chatgpt-web-midjourney-proxy",
     "dtolnay/anyhow",
     "dtolnay/thiserror",
@@ -26,7 +27,9 @@
     "jeffallan/claude-skills",
     "jonmosco/kube-ps1",
     "kubernetes-sigs/krew",
+    "luarocks/luarocks",
     "manzaltu/claude-code-ide.el",
+    "nabijaczleweli/cargo-update",
     "smtg-ai/claude-squad",
     "steipete/peekaboo",
     "stripe/stripe-mock",

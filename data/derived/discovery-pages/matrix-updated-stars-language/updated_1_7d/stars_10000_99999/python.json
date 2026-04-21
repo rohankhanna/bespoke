@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 198,
-    "observations": 199,
-    "repos": 22,
-    "terms": 217
+    "components": 344,
+    "concepts": 261,
+    "observations": 262,
+    "repos": 29,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,36 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
-    "alchaincyf/nuwa-skill",
-    "alirezarezvani/claude-skills",
+    "aio-libs/aiohttp",
     "anthropics/claude-plugins-official",
     "astral-sh/ty",
     "axolotl-ai-cloud/axolotl",
     "browser-use/browser-use",
-    "dask/dask",
+    "caronc/apprise",
     "davila7/claude-code-templates",
+    "django/django",
     "getzep/graphiti",
     "github/spec-kit",
+    "hesreallyhim/awesome-claude-code",
     "k-dense-ai/scientific-agent-skills",
     "langchain-ai/deepagents",
+    "langchain-ai/langgraph",
     "mem0ai/mem0",
     "microsoft/pyright",
+    "onyx-dot-app/onyx",
     "openai/openai-python",
+    "oraios/serena",
     "pandas-dev/pandas",
     "psf/black",
     "pydantic/pydantic-ai",
     "python/mypy",
+    "sgl-project/sglang",
     "titanwings/colleague-skill",
+    "vega/altair",
+    "vllm-project/vllm",
     "wshobson/agents"
   ]
 }

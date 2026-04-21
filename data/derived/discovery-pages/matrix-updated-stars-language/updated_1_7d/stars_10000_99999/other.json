@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 49,
-    "observations": 50,
-    "repos": 7,
-    "terms": 49
+    "components": 476,
+    "concepts": 71,
+    "observations": 72,
+    "repos": 10,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "actions/runner-images",
     "anthropics/claude-cookbooks",
     "apache/spark",
     "apple/container",
     "kubernetes/community",
     "meta-llama/llama-cookbook",
+    "metabase/metabase",
+    "oven-sh/bun",
     "rubocop/rubocop",
     "semgrep/semgrep"
   ]

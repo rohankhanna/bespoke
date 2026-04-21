@@ -1,21 +1,26 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 6,
-    "terms": 68
+    "components": 95,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 11,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "abiosoft/colima",
     "aider-ai/aider",
-    "delgan/loguru",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
+    "charmbracelet/gum",
+    "dask/dask",
     "guidance-ai/guidance",
+    "hibiken/asynq",
     "letta-ai/letta",
     "ruvnet/ruflo",
     "tobi/qmd"

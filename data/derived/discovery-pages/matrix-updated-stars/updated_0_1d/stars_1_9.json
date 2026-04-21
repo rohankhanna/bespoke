@@ -1,45 +1,20 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 28,
-    "terms": 44
+    "components": 39,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "abraxas-365/claudio",
-    "anojndr/grok-to-openai",
-    "caesar0301/soothe",
-    "cafitac/hermit-agent",
-    "cyber404/che-apple-mail-mcp",
-    "danielrosehill/Subindices",
-    "eikarna/hermes-rs",
-    "enxs969/skiller",
-    "erikceballos/nano-banana-cli",
-    "floxym/financial-chat",
-    "floxym/financial-chat-finance-nlp-chatbots",
-    "frank-syncmarket/skills",
-    "gauravrathod674/custom-chatbot",
-    "gbrobro119-star/darksword-kexploit",
-    "graveyardsfocrdpktv/ethereum-mempool-bot",
-    "k8nstantin/openpraxis",
-    "kimosahy/railroaded",
-    "klodr/mercury-invoicing-mcp",
-    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-    "lonewolf-jp/convopeq",
-    "momentique/source-code-security-audit-reviewer",
-    "penpoen/llm-sugarscape",
-    "piqrypt/aiss-standard",
-    "rrsaldanha/burp-mcp-agents",
-    "saminiscool/twitter-ai-agent",
-    "serpro69/capy",
-    "stealabra5019/grok-enhancer",
+    "dreamiurg/mountaineers-mcp",
+    "dreamiurg/peakbagger-cli",
     "tarikmanoar/tarikmanoar"
   ]
 }

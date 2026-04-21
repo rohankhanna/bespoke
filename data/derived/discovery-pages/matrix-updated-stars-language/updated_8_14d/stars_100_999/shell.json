@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
+    "components": 4,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "repos": 3,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "trailofbits/claude-code-devcontainer"
+    "astro-han/claude-pace",
+    "trailofbits/claude-code-devcontainer",
+    "undeadlist/claude-code-agents"
   ]
 }

@@ -1,30 +1,20 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 13,
-    "terms": 79
+    "components": 84,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
-    "albumentations-team/AlbumentationsX",
-    "alistaitsacle/free-llm-api-keys",
-    "biopragmatics/bioregistry",
-    "cargo-bins/cargo-quickinstall",
-    "clearbluejar/pyghidra-mcp",
-    "daaain/claude-code-log",
-    "danielrosehill/claude-code-projects-index",
     "elizaos/elizaos.github.io",
-    "ericbuess/claude-code-docs",
-    "grubersjoe/react-activity-calendar",
-    "nodejs/admin",
-    "serpro69/claude-toolbox",
-    "tony1223/better-agent-terminal"
+    "lunarmodules/luacheck",
+    "mongodb/homebrew-brew"
   ]
 }

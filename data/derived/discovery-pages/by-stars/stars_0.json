@@ -3,14 +3,14 @@
     "components": 387,
     "concepts": 81,
     "observations": 81,
-    "repos": 78,
+    "repos": 77,
     "terms": 113
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "aaronrsun/spec-kit-confluence",
@@ -41,7 +41,6 @@
     "damacol/xai-org-grok-2",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/batch-claudemd-repo-creator",
-    "danielrosehill/claude-code-sysadmin-workspaces-index",
     "ethpandaops/xatu-cbt",
     "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",

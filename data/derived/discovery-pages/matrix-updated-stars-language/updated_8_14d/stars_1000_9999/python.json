@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 4,
-    "terms": 15
+    "components": 31,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 5,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "cisco-ai-defense/skill-scanner",
-    "django/daphne",
+    "containers/podman-compose",
     "getzep/zep",
+    "nousresearch/atropos",
     "therealxiaomanchu/ex-skill"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 11
+    "components": 17,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "delgan/loguru",
     "encode/httpx",
     "karpathy/autoresearch",
     "superclaude-org/superclaude_framework"

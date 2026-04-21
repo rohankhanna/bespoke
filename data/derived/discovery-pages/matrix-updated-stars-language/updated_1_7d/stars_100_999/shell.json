@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 24,
-    "observations": 24,
+    "components": 24,
+    "concepts": 42,
+    "observations": 42,
     "repos": 6,
-    "terms": 35
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "alfredolopez80/multi-agent-ralph-loop",
-    "astro-han/claude-pace",
+    "ericbuess/claude-code-docs",
     "kubernetes/sig-release",
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
-    "undeadlist/claude-code-agents"
+    "serpro69/claude-toolbox"
   ]
 }

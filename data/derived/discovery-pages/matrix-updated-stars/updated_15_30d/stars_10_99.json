@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 10,
-    "terms": 25
+    "components": 16,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 9,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "astro-han/diffpane",
     "automazeio/proof",
@@ -21,7 +21,6 @@
     "nousresearch/tinker-atropos",
     "onyx-dot-app/onyx_deep_research_bench",
     "robertguss/claude-code-toolkit",
-    "slopus/slopus.github.io",
     "w1ndys/ex-cure-skill"
   ]
 }

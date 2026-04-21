@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 116,
-    "observations": 117,
-    "repos": 53,
-    "terms": 165
+    "components": 349,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 54,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "anthropics/courses",
     "arustydev/pre-commit-hooks",
@@ -53,6 +53,7 @@
     "omnara-ai/omnara",
     "parruda/ruby_llm",
     "protectai/llm-guard",
+    "protocolbuffers/protobuf-go",
     "scopecraft/command",
     "slunsford/coffee-analytics",
     "steipete/claude-code-mcp",

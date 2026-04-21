@@ -91,7 +91,7 @@
       "size": 2397
     }
   ],
-  "metadata_refreshed_at": "2026-04-20T05:28:27.037066+00:00",
+  "metadata_refreshed_at": "2026-04-21T05:18:09.350760+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -102,14 +102,14 @@
     "html_url": "https://github.com/beyondgrep/ack3",
     "language": "Perl",
     "pushed_at": "2025-08-19T02:57:32Z",
-    "stargazers_count": 814,
+    "stargazers_count": 813,
     "topics": [
       "ack",
       "cli",
       "grep",
       "perl"
     ],
-    "updated_at": "2026-04-11T16:15:42Z"
+    "updated_at": "2026-04-20T13:20:37Z"
   },
   "repo_links": [],
   "terms": [

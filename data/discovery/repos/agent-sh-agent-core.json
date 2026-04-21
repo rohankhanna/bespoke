@@ -171,6 +171,7 @@
       "size": 2183
     }
   ],
+  "metadata_refreshed_at": "2026-04-21T05:18:19.545290+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -181,7 +182,7 @@
     "html_url": "https://github.com/agent-sh/agent-core",
     "language": "JavaScript",
     "pushed_at": "2026-04-14T23:27:14Z",
-    "stargazers_count": 4,
+    "stargazers_count": 5,
     "topics": [
       "agent",
       "ai",
@@ -194,7 +195,7 @@
       "sdk",
       "shared-library"
     ],
-    "updated_at": "2026-04-14T23:27:18Z"
+    "updated_at": "2026-04-20T21:49:13Z"
   },
   "repo_links": [],
   "terms": [

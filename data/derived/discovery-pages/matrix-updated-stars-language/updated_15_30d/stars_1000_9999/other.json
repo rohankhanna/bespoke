@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 4,
-    "terms": 4
+    "components": 58,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 5,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "haleclipse/claudix",
+    "luarocks/luarocks",
     "manzaltu/claude-code-ide.el",
     "steipete/peekaboo",
     "zarazhangrui/codebase-to-course"

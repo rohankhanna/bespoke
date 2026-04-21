@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 277,
-    "concepts": 109,
-    "observations": 109,
+    "concepts": 106,
+    "observations": 106,
     "repos": 39,
-    "terms": 131
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "agrimsingh/ralph-wiggum-cursor",
     "alonw0/web-asset-generator",
@@ -38,7 +38,6 @@
     "panaversity/claude-code-agent-teams-exercises",
     "parruda/swarm",
     "piebald-ai/.github",
-    "protocolbuffers/protobuf-go",
     "sculptdotfun/viberank",
     "shareAI-lab/Kode-Agent",
     "simonw/claude-code-transcripts",
@@ -47,6 +46,7 @@
     "superclaude-org/supergemini_framework",
     "tony/claude-code-riper-5",
     "touchlab/droidconkotlin",
+    "unicode-rs/unicode-width",
     "VirusTotal/yara",
     "withastro/.github",
     "zeng3ld/claude-session-restore",

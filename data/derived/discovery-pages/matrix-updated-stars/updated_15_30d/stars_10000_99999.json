@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 6,
-    "terms": 37
+    "components": 138,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 7,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "andymik90/aperant",
     "dandavison/delta",
+    "delgan/loguru",
     "encode/httpx",
     "eyaltoledano/claude-task-master",
     "karpathy/autoresearch",

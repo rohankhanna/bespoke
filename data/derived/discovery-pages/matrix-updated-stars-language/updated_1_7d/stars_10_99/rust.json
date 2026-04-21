@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 6,
-    "terms": 22
+    "components": 51,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "cloudllm-ai/mentisdb",
     "hagan/claudia-statusline",
     "phiat/claude-esp-rs",
-    "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "vaporif/parry-guard"
   ]

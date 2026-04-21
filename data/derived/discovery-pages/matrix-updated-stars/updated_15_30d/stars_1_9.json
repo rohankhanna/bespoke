@@ -3,7 +3,7 @@
     "components": 35,
     "concepts": 18,
     "observations": 18,
-    "repos": 8,
+    "repos": 10,
     "terms": 17
   },
   "facet_version": 1,
@@ -11,11 +11,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-checkpoint",
+    "abraxas-365/claudio-codex",
     "archestra-ai/terraform-provider-archestra",
     "azure/homebrew-bicep",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/claude-slash-commands",
     "ethpandaops/cbt",
     "langchain-ai/.github",

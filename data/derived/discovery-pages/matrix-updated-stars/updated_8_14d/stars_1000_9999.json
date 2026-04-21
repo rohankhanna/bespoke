@@ -1,28 +1,32 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 15,
-    "terms": 60
+    "components": 285,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 19,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "alexellis/arkade",
     "asg017/sqlite-vec",
+    "awslabs/eks-node-viewer",
+    "bensadeh/circumflex",
     "cisco-ai-defense/skill-scanner",
+    "containers/podman-compose",
     "crossterm-rs/crossterm",
-    "django/daphne",
+    "frankbria/ralph-claude-code",
     "getzep/zep",
     "google-github-actions/run-gemini-cli",
+    "googleapis/release-please",
     "linebender/resvg",
     "lobehub/lobe-icons",
-    "luarocks/luarocks",
-    "nabijaczleweli/cargo-update",
+    "nousresearch/atropos",
     "nvie/git-toolbelt",
     "opactorai/claudable",
     "skills-directory/skill-codex",

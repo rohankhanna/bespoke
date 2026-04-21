@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 6,
     "observations": 6,
-    "repos": 4,
+    "repos": 5,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "askroundtable/expert-skills",
-    "cedar-policy/cedar-docs"
+    "cedar-policy/cedar-docs",
+    "eigenfoundation/elips"
   ]
 }

@@ -3,8 +3,8 @@
     "components": 8,
     "concepts": 0,
     "observations": 0,
-    "repos": 10,
-    "terms": 8
+    "repos": 23,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "begmyratb/floweye-yyyxxx.cc",
+    "biparous-blaxploitation156/ciphermind",
+    "carloandremoreyra/xx",
+    "chafingdishposition355/go-skills",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
@@ -23,6 +28,14 @@
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
-    "damacol/xai-org-grok-2"
+    "damacol/xai-org-grok-2",
+    "foundersieve687/skill-gateway",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "narutoxdd6/nyro",
+    "pragmatical-transshipment598/claude-code-workflows",
+    "shouted-numberone752/wechat-agent-connector",
+    "vivianalaced749/vk-calls-tunnel",
+    "wendyalbanez/clawui"
   ]
 }

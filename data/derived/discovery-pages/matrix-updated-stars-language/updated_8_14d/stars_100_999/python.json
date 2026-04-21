@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 3
+    "components": 6,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
+    "AgriciDaniel/banana-claude",
+    "AgriciDaniel/claude-blog",
     "gowaylee/cchooks"
   ]
 }

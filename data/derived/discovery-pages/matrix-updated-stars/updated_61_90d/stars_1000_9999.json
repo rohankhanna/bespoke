@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 13,
-    "terms": 54
+    "components": 128,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 12,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-21T05:18:19.620579+00:00",
   "repo_ids": [
     "alteryx/featuretools",
     "anthropics/claude-code-security-review",
@@ -21,7 +21,6 @@
     "meta-llama/llama-models",
     "ollama/ollama-python",
     "parruda/swarm",
-    "protocolbuffers/protobuf-go",
     "shareAI-lab/Kode-Agent",
     "simonw/claude-code-transcripts",
     "touchlab/droidconkotlin",
