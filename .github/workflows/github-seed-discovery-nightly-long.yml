@@ -1,6 +1,7 @@
 name: github-seed-discovery-nightly-long
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 18 * * *'
 
