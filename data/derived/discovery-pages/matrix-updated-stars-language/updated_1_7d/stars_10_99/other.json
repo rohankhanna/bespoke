@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
+    "components": 12,
     "concepts": 2,
     "observations": 2,
-    "repos": 5,
-    "terms": 7
+    "repos": 6,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
+    "beyondcode/claude-hooks-sdk",
     "chaos2cured/freelattice",
     "ethpandaops/xatu-data",
     "musicman3/emarket",

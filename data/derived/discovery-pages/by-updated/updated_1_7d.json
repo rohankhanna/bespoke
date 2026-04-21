@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 6342,
-    "concepts": 1766,
-    "observations": 1774,
+    "components": 6340,
+    "concepts": 1765,
+    "observations": 1773,
     "repos": 461,
-    "terms": 2350
+    "terms": 2353
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -93,9 +93,9 @@
     "basicmachines-co/basic-memory",
     "beamuswayne/simp-skill",
     "begmyratb/floweye-yyyxxx.cc",
+    "beyondcode/claude-hooks-sdk",
     "biopragmatics/bioregistry",
     "biparous-blaxploitation156/ciphermind",
-    "BLAKE3-team/BLAKE3",
     "blockprotocol/blockprotocol",
     "bmad-code-org/bmad-builder",
     "bmad-code-org/bmad-method",

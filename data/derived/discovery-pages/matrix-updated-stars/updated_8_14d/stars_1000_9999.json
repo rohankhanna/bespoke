@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 285,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 19,
-    "terms": 101
+    "components": 293,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 20,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "alexellis/arkade",
     "asg017/sqlite-vec",
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
+    "BLAKE3-team/BLAKE3",
     "cisco-ai-defense/skill-scanner",
     "containers/podman-compose",
     "crossterm-rs/crossterm",

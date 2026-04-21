@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1786,
-    "concepts": 520,
-    "observations": 522,
-    "repos": 98,
-    "terms": 694
+    "components": 1778,
+    "concepts": 519,
+    "observations": 521,
+    "repos": 97,
+    "terms": 693
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "abraxas-365/langchain-rust",
     "actions/runner",
@@ -26,7 +26,6 @@
     "arogozhnikov/einops",
     "automazeio/vibeproxy",
     "basicmachines-co/basic-memory",
-    "BLAKE3-team/BLAKE3",
     "blockprotocol/blockprotocol",
     "BoundaryML/baml",
     "cargo-bins/cargo-binstall",

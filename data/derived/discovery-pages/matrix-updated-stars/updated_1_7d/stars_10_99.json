@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 465,
+    "components": 471,
     "concepts": 65,
     "observations": 66,
-    "repos": 38,
-    "terms": 140
+    "repos": 39,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "agricidaniel/claude-cybersecurity",
     "allenreder/cliproxyapi-quota-inspector",
     "almogdepaz/wolfpack",
+    "beyondcode/claude-hooks-sdk",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "cdeust/cortex",

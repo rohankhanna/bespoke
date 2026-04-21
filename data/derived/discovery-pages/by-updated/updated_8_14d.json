@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 669,
-    "concepts": 277,
-    "observations": 278,
-    "repos": 80,
-    "terms": 337
+    "components": 677,
+    "concepts": 278,
+    "observations": 279,
+    "repos": 81,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -39,6 +39,7 @@
     "awslabs/eks-node-viewer",
     "badlogic/pi-share-hf",
     "bensadeh/circumflex",
+    "BLAKE3-team/BLAKE3",
     "browser-use/benchmark",
     "buddingnewinsights/proxypal",
     "cdeust/cortex-cowork",

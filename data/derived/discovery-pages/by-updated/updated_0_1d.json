@@ -1,18 +1,17 @@
 {
   "counts": {
-    "components": 166,
+    "components": 160,
     "concepts": 56,
     "observations": 57,
-    "repos": 10,
-    "terms": 65
+    "repos": 9,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
-    "beyondcode/claude-hooks-sdk",
     "dreamiurg/mountaineers-mcp",
     "dreamiurg/peakbagger-cli",
     "elizaos/elizaos.github.io",

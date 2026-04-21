@@ -1,6 +1,6 @@
 {
   "facet_version": 1,
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "language_counts": {
     "c_cpp": 29,
     "go": 77,
@@ -28,13 +28,13 @@
     "stars_unknown": 15
   },
   "updated_counts": {
-    "updated_0_1d": 10,
+    "updated_0_1d": 9,
     "updated_15_30d": 75,
     "updated_181d_plus": 144,
     "updated_1_7d": 461,
     "updated_31_60d": 63,
     "updated_61_90d": 39,
-    "updated_8_14d": 80,
+    "updated_8_14d": 81,
     "updated_91_180d": 54
   }
 }

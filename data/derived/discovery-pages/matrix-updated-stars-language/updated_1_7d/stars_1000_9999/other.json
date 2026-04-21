@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 36,
-    "observations": 37,
-    "repos": 9,
-    "terms": 44
+    "components": 37,
+    "concepts": 35,
+    "observations": 36,
+    "repos": 8,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T05:18:19.620579+00:00",
+  "generated_at": "2026-04-21T07:07:17.825929+00:00",
   "repo_ids": [
     "actions/runner",
     "alchaincyf/darwin-skill",
     "automazeio/vibeproxy",
-    "BLAKE3-team/BLAKE3",
     "GoogleCloudPlatform/vertex-ai-creative-studio",
     "junegunn/seoul256.vim",
     "pinterest/ktlint",
