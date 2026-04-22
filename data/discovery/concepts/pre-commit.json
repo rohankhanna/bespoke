@@ -142,6 +142,18 @@
       "source_repo": "agentica-project/rllm",
       "status": "candidate-context",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "agentica-project/rllm",
       "status": "candidate",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -319,11 +337,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "agentica-project/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/pre-commit-terraform"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

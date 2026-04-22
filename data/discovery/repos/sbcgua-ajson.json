@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbcgua/ajson",
+      "target": "abaplint/abaplint-abap-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbcgua/ajson",
+      "target": "abaplint/transpiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "abaplint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "Test pages deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sbcgua/ajson",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbcgua/ajson",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbcgua/ajson",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbcgua/ajson",
+      "target": "json-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:00:27.324333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4038
+    },
+    {
+      "path": ".github/workflows/abaplint.yml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/deploy-gh-pages.yml",
+      "size": 1615
+    },
+    {
+      "path": ".github/workflows/test-deploy-gh-pages.yml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet another json parser serializer for ABAP",
+    "fork": false,
+    "full_name": "sbcgua/ajson",
+    "html_url": "https://github.com/sbcgua/ajson",
+    "language": "ABAP",
+    "pushed_at": "2026-04-13T17:12:39Z",
+    "stargazers_count": 68,
+    "topics": [
+      "abap",
+      "hacktoberfest",
+      "json-parser"
+    ],
+    "updated_at": "2026-04-13T17:12:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abaplint/abaplint-abap-backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abaplint/transpiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "abaplint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abaplint.yml",
+      "term": "abaplint"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Test pages deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-deploy-gh-pages.yml",
+      "term": "Test pages deployment"
+    },
+    {
+      "context_snippet": "testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "testing"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    }
+  ]
+}

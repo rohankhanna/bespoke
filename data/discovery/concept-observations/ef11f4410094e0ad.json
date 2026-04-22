@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041707,
+      "status": "candidate",
+      "text": "order of business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037247,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033686,
+      "status": "candidate",
+      "text": "schedule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040796,
+      "status": "candidate",
+      "text": "program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040573,
+      "status": "candidate",
+      "text": "timetable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agenda",
+      "sense_id": "agenda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9052,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "agendum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "order of business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "schedule"
+    }
+  ],
+  "concept_id": "agenda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agenda",
+  "observation_id": "ef11f4410094e0ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "agenda",
+  "source_context_snippet": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers",
+  "source_file": null,
+  "source_repo": "graphql/graphql-wg",
+  "source_repo_description": "Working group notes for GraphQL"
+}

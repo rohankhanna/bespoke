@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "bincode-org/bincode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "rust-lang/flate2-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "servo/ipc-channel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "ajeetdsouza/zoxide",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "bgw/bincode"
+}

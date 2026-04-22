@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "docopt/docopt.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Actionlint.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Actionlint.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "reviewdog/action-actionlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Actionlint.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "ActionLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "peter-murray/workflow-application-token-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Determine-Compatibility.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Determine-Compatibility.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "Determine glibc and architecture package compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gen-Token.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "peter-murray/workflow-application-token-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gen-Token.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "gliech/create-github-secret-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gen-Token.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "Generate GitHub Actions Token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "peter-murray/workflow-application-token-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "Generate PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linter-Handoff.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linter-Handoff.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linter-Handoff.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "Linter-Handoff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Markdown-lint.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Markdown-lint.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "reviewdog/action-markdownlint@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/No-Compile-Needed.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/No-Compile-Needed.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/No-Compile-Needed.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/No-Compile-Needed.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "peter-murray/workflow-application-token-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/No-Compile-Needed.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "No-Compile-Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Package-Dependencies-Updater.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Package-Dependencies-Updater.yml",
+      "source_repo": "chromebrew/chromebrew",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "chromebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "chromeos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "crew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "chromebrew/chromebrew"
+}

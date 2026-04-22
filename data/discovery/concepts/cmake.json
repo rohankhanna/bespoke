@@ -82,6 +82,18 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate-context",
       "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "status": "candidate-context",
+      "text": "C/C++ libraries for working with Linux Tracepoints and user_events"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "status": "candidate-context",
+      "text": "CMake"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LinuxTracepoints",
       "status": "candidate",
       "text": "CMake"
     }
@@ -199,11 +217,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/CMake.yml",
+      "source_repo": "microsoft/LinuxTracepoints"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

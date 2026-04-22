@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Refresh dependents data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "A spiritual successor to the standardjs javascript style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "Refresh dependents data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate",
+      "text": "Refresh dependents data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22026,
+      "status": "candidate",
+      "text": "vital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22005,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22005,
+      "status": "candidate",
+      "text": "rested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21615,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21615,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Refresh dependents data",
+  "concept_id": "refresh-dependents-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/sync-refresh.yml",
+      "source_repo": "neostandard/neostandard"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refresh dependents data",
+      "sense_id": "refresh-dependents-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

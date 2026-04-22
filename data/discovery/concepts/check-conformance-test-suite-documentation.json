@@ -19,12 +19,30 @@
       "source_repo": "cncf/k8s-conformance",
       "status": "candidate-context",
       "text": "check-conformance-test-suite-documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/k8s-conformance-archive",
+      "status": "candidate-context",
+      "text": "\ud83e\uddeaCNCF K8s Conformance Working Group Archive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/k8s-conformance-archive",
+      "status": "candidate-context",
+      "text": "check-conformance-test-suite-documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cncf/k8s-conformance",
+      "status": "candidate",
+      "text": "check-conformance-test-suite-documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/k8s-conformance-archive",
       "status": "candidate",
       "text": "check-conformance-test-suite-documentation"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
       "source_repo": "cncf/k8s-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance-archive"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

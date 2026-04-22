@@ -164,6 +164,30 @@
       "source_repo": "mrjones2014/codesettings.nvim",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "Bazel rules to build Swift on Apple and Linux platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/Cbc",
+      "status": "candidate-context",
+      "text": "COIN-OR Branch-and-Cut solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/Cbc",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +266,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/Cbc",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -377,11 +413,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mrjones2014/codesettings.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/Cbc"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

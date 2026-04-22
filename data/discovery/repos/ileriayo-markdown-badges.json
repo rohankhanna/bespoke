@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml"
+    },
+    {
+      "component": "TimonVS/pr-labeler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "\ud83d\udccb Check Badge List Alphabetical Order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "TimonVS/pr-labeler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "badges-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "branding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "developer-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "github-profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:16:09.523592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 299274
+    },
+    {
+      "path": ".github/workflows/badge-order.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/prettier.yml",
+      "size": 451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Badges for your personal developer branding, profile, and projects.",
+    "fork": false,
+    "full_name": "Ileriayo/markdown-badges",
+    "html_url": "https://github.com/Ileriayo/markdown-badges",
+    "language": "SCSS",
+    "pushed_at": "2026-03-26T06:06:43Z",
+    "stargazers_count": 16475,
+    "topics": [
+      "badges-markdown",
+      "branding",
+      "developer-portfolio",
+      "github-profile",
+      "github-profile-readme",
+      "hacktoberfest",
+      "markdown"
+    ],
+    "updated_at": "2026-04-22T17:40:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udccb Check Badge List Alphabetical Order",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-order.yml",
+      "term": "\ud83d\udccb Check Badge List Alphabetical Order"
+    },
+    {
+      "context_snippet": "PR Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges-markdown"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "branding"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-portfolio"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile-readme"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

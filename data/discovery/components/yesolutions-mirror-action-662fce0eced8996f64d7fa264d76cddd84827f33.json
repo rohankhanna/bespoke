@@ -1,0 +1,12 @@
+{
+  "component": "yesolutions/mirror-action@662fce0eced8996f64d7fa264d76cddd84827f33",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mirrors.yaml",
+      "source_repo": "syncthing/syncthing"
+    }
+  ]
+}

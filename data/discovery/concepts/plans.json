@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "plans"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate-context",
+      "text": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033938,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024408,
+      "status": "candidate",
+      "text": "program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003300,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9971215,
+      "status": "candidate",
+      "text": "programme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9965526,
+      "status": "candidate",
+      "text": "contrive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "plans",
+  "concept_id": "plans",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Architectural-Plans-Index"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plans",
+      "sense_id": "plans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

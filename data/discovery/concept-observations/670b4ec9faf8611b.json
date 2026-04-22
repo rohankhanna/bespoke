@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webhooks",
+      "sense_id": "webhooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webhooks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webhooks",
+  "observation_id": "670b4ec9faf8611b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "webhooks",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Afnanksalal/co-op",
+  "source_repo_description": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+}

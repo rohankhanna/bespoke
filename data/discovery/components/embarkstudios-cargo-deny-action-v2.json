@@ -1,7 +1,7 @@
 {
   "component": "EmbarkStudios/cargo-deny-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "chronotope/chrono"
     }
   ]
 }

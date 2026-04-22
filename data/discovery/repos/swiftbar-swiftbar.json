@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "matryer/bitbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "amebalabs/swiftkey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "amebalabs/trex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "amebalabs/esse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar",
+      "target": "scripting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:12:33.949797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Powerful macOS menu bar customization tool",
+    "fork": false,
+    "full_name": "swiftbar/SwiftBar",
+    "html_url": "https://github.com/swiftbar/SwiftBar",
+    "language": "Swift",
+    "pushed_at": "2026-04-04T20:28:24Z",
+    "stargazers_count": 4002,
+    "topics": [
+      "macos",
+      "productivity",
+      "scripting"
+    ],
+    "updated_at": "2026-04-22T12:59:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amebalabs/esse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amebalabs/swiftkey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amebalabs/trex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matryer/bitbar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    }
+  ]
+}

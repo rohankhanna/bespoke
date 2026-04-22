@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "meteoswiss-mdr/pyart",
+      "target": "meteoswiss/pyart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "meteoswiss-mdr/pyart",
+      "target": "meteoswiss-mdr/pyrad",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "meteoswiss-mdr/pyart"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Zig validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Zig validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10524,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10380,
+      "status": "candidate",
+      "text": "beat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10380,
+      "status": "candidate",
+      "text": "beats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10380,
+      "status": "candidate",
+      "text": "dogleg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10380,
+      "status": "candidate",
+      "text": "indenture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Zig validation",
+      "sense_id": "zig-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zig-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zig-validation",
+  "observation_id": "3f4df98d75507017",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Zig validation",
+  "source_context_snippet": "Zig validation",
+  "source_file": ".github/workflows/zig_validation.yml",
+  "source_repo": "termux/termux-packages",
+  "source_repo_description": "A package build system for Termux."
+}

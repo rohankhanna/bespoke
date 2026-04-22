@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "powerline/fonts",
+      "target": "tonsky/firacode",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "belak/prezto-contrib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "denysdovhan/dotfiles",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "matchai/spacefish",
+      "target": "starship/starship",
       "target_type": "repository"
     },
     {
@@ -211,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "spaceship-prompt/spaceship-prompt"
 }

@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -482,6 +482,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mrjones2014/codesettings.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-npm.yml",
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tsonglew/dutis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "HoangTheQuyen/think-better"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-security.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "coder/code-marketplace"
     }
   ]
 }

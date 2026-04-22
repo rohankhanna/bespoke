@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "commandline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BeayemX/GitViper",
+      "status": "candidate-context",
+      "text": "Enhanced git experience using the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeayemX/GitViper",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeayemX/GitViper",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "command line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "command prompt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "commands"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "command performance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "commandline",
+  "concept_id": "commandline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BeayemX/GitViper"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "commandline",
+      "sense_id": "commandline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

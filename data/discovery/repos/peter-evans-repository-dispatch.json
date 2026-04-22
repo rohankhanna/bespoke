@@ -1,0 +1,529 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-circus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-repository-dispatch.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "eslint-plugin-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "jest-circus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "peter-evans/enable-pull-request-automerge@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "Auto-merge Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-repository-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-repository-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "Repository Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "peter-evans/slash-command-dispatch@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "Slash Command Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "Test Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "Update Major Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "github-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "repository-dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/repository-dispatch",
+      "target": "webhook-events",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:04:39.252282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6769
+    },
+    {
+      "path": "package.json",
+      "size": 1414
+    },
+    {
+      "path": ".github/workflows/automerge-dependabot.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2432
+    },
+    {
+      "path": ".github/workflows/on-repository-dispatch.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/slash-command-dispatch.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/test-dispatch.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/update-major-version.yml",
+      "size": 905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub action to create a repository dispatch event",
+    "fork": false,
+    "full_name": "peter-evans/repository-dispatch",
+    "html_url": "https://github.com/peter-evans/repository-dispatch",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-01T11:04:08Z",
+    "stargazers_count": 1179,
+    "topics": [
+      "github-action",
+      "github-api",
+      "repository-dispatch",
+      "webhook-events"
+    ],
+    "updated_at": "2026-04-20T13:21:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "term": "Auto-merge Dependabot"
+    },
+    {
+      "context_snippet": "Repository Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-repository-dispatch.yml",
+      "term": "Repository Dispatch"
+    },
+    {
+      "context_snippet": "Slash Command Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "term": "Slash Command Dispatch"
+    },
+    {
+      "context_snippet": "Test Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "term": "Test Dispatch"
+    },
+    {
+      "context_snippet": "Update Major Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "term": "Update Major Version"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/repository-dispatch/workflows/CI/badge.svg)](https://github.com/peter-evans/repository-dispatch/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/repository-dispatch/workflows/CI/badge.svg)](https://github.com/peter-evans/repository-dispatch/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-api"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/repository-dispatch/workflows/CI/badge.svg)](https://github.com/peter-evans/repository-dispatch/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-dispatch"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/repository-dispatch/workflows/CI/badge.svg)](https://github.com/peter-evans/repository-dispatch/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webhook-events"
+    }
+  ]
+}

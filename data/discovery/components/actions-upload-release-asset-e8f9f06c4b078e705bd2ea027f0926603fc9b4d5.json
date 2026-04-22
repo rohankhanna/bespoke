@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

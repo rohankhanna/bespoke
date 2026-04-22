@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Agenda auto-merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Agenda auto-merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate",
+      "text": "Agenda auto-merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "agendas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "cheng"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "concerns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "curricula"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Agenda auto-merge",
+  "concept_id": "agenda-auto-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/graphql-wg"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agenda auto-merge",
+      "sense_id": "agenda-auto-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

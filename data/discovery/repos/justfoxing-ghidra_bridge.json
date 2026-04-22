@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "justfoxing/jfx_bridge_ida",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "justfoxing/jfx_bridge_jeb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "justfoxing/jfx_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "Test and build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "ghidra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justfoxing/ghidra_bridge",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:23.876318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13537
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 4380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python 3 bridge to Ghidra's Python scripting",
+    "fork": false,
+    "full_name": "justfoxing/ghidra_bridge",
+    "html_url": "https://github.com/justfoxing/ghidra_bridge",
+    "language": "Python",
+    "pushed_at": "2023-01-30T03:49:10Z",
+    "stargazers_count": 362,
+    "topics": [
+      "ghidra",
+      "python3",
+      "reverse-engineering"
+    ],
+    "updated_at": "2026-04-22T13:35:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justfoxing/jfx_bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justfoxing/jfx_bridge_ida",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justfoxing/jfx_bridge_jeb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "term": "Test and build"
+    },
+    {
+      "context_snippet": "Ghidra Bridge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghidra"
+    },
+    {
+      "context_snippet": "Ghidra Bridge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Ghidra Bridge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    }
+  ]
+}

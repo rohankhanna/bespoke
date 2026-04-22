@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package manager for Chrome OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025054,
+      "status": "candidate",
+      "text": "smartbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025053,
+      "status": "candidate",
+      "text": "webbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025052,
+      "status": "candidate",
+      "text": "cyberbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025051,
+      "status": "candidate",
+      "text": "glass terminal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025050,
+      "status": "candidate",
+      "text": "glass teletype"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chromebook",
+      "sense_id": "chromebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chromebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chromebook",
+  "observation_id": "9f771e2e936c0718",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "chromebook",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "chromebrew/chromebrew",
+  "source_repo_description": "Package manager for Chrome OS"
+}

@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "lumen"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "Pug view adapter for Laravel and Lumen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "[![Packagist](https://img.shields.io/packagist/v/bkwld/laravel-pug.svg)](https://packagist.org/packages/bkwld/laravel-pug)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate",
+      "text": "[![Packagist](https://img.shields.io/packagist/v/bkwld/laravel-pug.svg)](https://packagist.org/packages/bkwld/laravel-pug)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049460,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048572,
+      "status": "candidate",
+      "text": "sunlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028196,
+      "status": "candidate",
+      "text": "spotlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027533,
+      "status": "candidate",
+      "text": "daylight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lumen",
+  "concept_id": "lumen",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BKWLD/laravel-pug"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lumen",
+      "sense_id": "lumen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

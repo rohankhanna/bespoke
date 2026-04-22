@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Database connectivity API standard and libraries for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dev ADBC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dev ADBC"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "deev"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "observant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "eire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dev ADBC",
+      "sense_id": "dev-adbc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dev-adbc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dev-adbc",
+  "observation_id": "0f8786c1b4041c22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Dev ADBC",
+  "source_context_snippet": "Dev ADBC",
+  "source_file": ".github/workflows/dev_adbc.yml",
+  "source_repo": "apache/arrow-adbc",
+  "source_repo_description": "Database connectivity API standard and libraries for Apache Arrow"
+}

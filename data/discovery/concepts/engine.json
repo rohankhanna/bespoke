@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "Simulate anything, for $1 & less than 10 min \u2014 Universal Swarm Intelligence Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799992,
+      "status": "candidate",
+      "text": "locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811459,
+      "status": "candidate",
+      "text": "locomotive engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811459,
+      "status": "candidate",
+      "text": "railway locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811458,
+      "status": "candidate",
+      "text": "crankcase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811301,
+      "status": "candidate",
+      "text": "powertrain"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5041,
+      "status": "candidate",
+      "text": "locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "locomotive engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "railway locomotive"
+    }
+  ],
+  "canonical_name": "engine",
+  "concept_id": "engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aaronjmars/MiroShark"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "engine",
+      "sense_id": "engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

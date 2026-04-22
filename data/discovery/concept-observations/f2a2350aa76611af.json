@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Wheel Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Wheel Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33851,
+      "status": "candidate",
+      "text": "backstop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19075,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19010,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18973,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18004,
+      "status": "candidate",
+      "text": "assemble"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Wheel Check",
+      "sense_id": "build-wheel-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-wheel-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-wheel-check",
+  "observation_id": "f2a2350aa76611af",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Build Wheel Check",
+  "source_context_snippet": "Build Wheel Check",
+  "source_file": ".github/workflows/build-wheel-check.yml",
+  "source_repo": "anthropics/claude-agent-sdk-python",
+  "source_repo_description": null
+}

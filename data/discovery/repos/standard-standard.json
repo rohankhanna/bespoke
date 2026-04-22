@@ -138,21 +138,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "sindresorhus/globals",
+      "target": "standard/eslint-config-standard",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "pre-commit/mirrors-eslint",
+      "target": "standard/eslint-config-standard-jsx",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "standard/.github",
+      "target": "standard/awesome-standard",
       "target_type": "repository"
     },
     {
@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:22:42.429407+00:00",
+  "fetched_at": "2026-04-22T19:15:32.427359+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -445,7 +445,7 @@
     "html_url": "https://github.com/standard/standard",
     "language": "JavaScript",
     "pushed_at": "2025-07-11T08:28:23Z",
-    "stargazers_count": 29440,
+    "stargazers_count": 29439,
     "topics": [
       "development",
       "ecmascript",
@@ -458,7 +458,7 @@
       "static-code-analysis",
       "style-guide"
     ],
-    "updated_at": "2026-04-21T21:01:49Z"
+    "updated_at": "2026-04-22T13:57:37Z"
   },
   "repo_links": [
     {
@@ -468,17 +468,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pre-commit/mirrors-eslint",
+      "full_name": "standard/awesome-standard",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sindresorhus/globals",
+      "full_name": "standard/eslint-config-standard",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standard/.github",
+      "full_name": "standard/eslint-config-standard-jsx",
       "source_file": "README.md"
     }
   ],

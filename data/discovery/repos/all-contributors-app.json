@@ -1,0 +1,453 @@
+{
+  "components": [
+    {
+      "component": "all-contributors-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commit-conv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "compromise",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "probot",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "smee-client",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vercel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@dbe1369d7be17e7823f8c1ee1ae8bec5779239dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gr2m/app-stats-action@v1.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml"
+    },
+    {
+      "component": "logflare/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@dbe1369d7be17e7823f8c1ee1ae8bec5779239dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "all-contributors/app",
+      "target": "all-contributors/all-contributors-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "all-contributors/app",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "all-contributors-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "commit-conv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "compromise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "probot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "smee-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/app",
+      "target": "vercel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app",
+      "target": "actions/setup-node@dbe1369d7be17e7823f8c1ee1ae8bec5779239dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "all-contributors/app",
+      "target": "gr2m/app-stats-action@v1.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "all-contributors/app",
+      "target": "logflare/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "all-contributors/app",
+      "target": "Stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app",
+      "target": "actions/setup-node@dbe1369d7be17e7823f8c1ee1ae8bec5779239dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app",
+      "target": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "acknowledgements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "all-contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "github-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "open-source-tooling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "opensource-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "probot-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "all-contributors/app",
+      "target": "recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:14:01.195265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18791
+    },
+    {
+      "path": "package.json",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 476
+    },
+    {
+      "path": ".github/workflows/stats.yml",
+      "size": 1100
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 A GitHub App to automate acknowledging contributors to your open source projects",
+    "fork": false,
+    "full_name": "all-contributors/app",
+    "html_url": "https://github.com/all-contributors/app",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-10T03:29:33Z",
+    "stargazers_count": 622,
+    "topics": [
+      "acknowledgements",
+      "all-contributors",
+      "contributors",
+      "github-apps",
+      "open-source-tooling",
+      "opensource",
+      "opensource-management",
+      "probot-app",
+      "recognition"
+    ],
+    "updated_at": "2026-04-14T07:37:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors-bot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Stats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "term": "Stats"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acknowledgements"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "all-contributors"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributors"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-apps"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-tooling"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource-management"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probot-app"
+    },
+    {
+      "context_snippet": "<table>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    }
+  ]
+}

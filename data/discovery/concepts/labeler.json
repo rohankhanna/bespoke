@@ -44,6 +44,30 @@
       "source_repo": "cncf/tag-app-delivery",
       "status": "candidate-context",
       "text": "labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +88,18 @@
       "source_repo": "cncf/tag-app-delivery",
       "status": "candidate",
       "text": "labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate",
+      "text": "labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +161,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "cncf/tag-app-delivery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "hairyhenderson/gomplate"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "fonsp/pluto.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "jupyterlab/jupyterlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "davidanthoff/julia-pkgbutler@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Run the Julia Package Butler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Run CI on main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Run CI on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-codeformat@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Code Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Run CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "julia-actions/julia-docdeploy@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "queryverse/VegaLite.jl"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "complete"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jayli/vim-easycomplete",
+      "status": "candidate-context",
+      "text": "\u676d\u5dde\u5e02\u4f59\u676d\u533a\u6700\u597d\u7528\u7684 VIM/NVIM \u4ee3\u7801\u8865\u5168\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayli/vim-easycomplete",
+      "status": "candidate-context",
+      "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayli/vim-easycomplete",
+      "status": "candidate",
+      "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031951,
+      "status": "candidate",
+      "text": "finished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031442,
+      "status": "candidate",
+      "text": "accomplished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030747,
+      "status": "candidate",
+      "text": "finish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030590,
+      "status": "candidate",
+      "text": "ended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029687,
+      "status": "candidate",
+      "text": "over"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61040,
+      "status": "candidate",
+      "text": "stark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55063,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35038,
+      "status": "candidate",
+      "text": "hearty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30038,
+      "status": "candidate",
+      "text": "consummate"
+    }
+  ],
+  "canonical_name": "complete",
+  "concept_id": "complete",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jayli/vim-easycomplete"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "complete",
+      "sense_id": "complete#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

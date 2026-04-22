@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oidc",
+      "sense_id": "oidc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oidc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oidc",
+  "observation_id": "33d2e77da6498bc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "oidc",
+  "source_context_snippet": "Casbin",
+  "source_file": null,
+  "source_repo": "apache/casbin",
+  "source_repo_description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+}

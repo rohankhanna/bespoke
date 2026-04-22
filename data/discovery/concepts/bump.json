@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Bump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate-context",
+      "text": "AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator\u3001 Claude Chrome and Agent Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate-context",
+      "text": "Bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate",
+      "text": "Bump"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029200,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028847,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024863,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022699,
+      "status": "candidate",
+      "text": "jut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021270,
+      "status": "candidate",
+      "text": "protrusion"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46079,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "encounter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23055,
+      "status": "candidate",
+      "text": "chance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21081,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21049,
+      "status": "candidate",
+      "text": "bulge"
+    }
+  ],
+  "canonical_name": "Bump",
+  "concept_id": "bump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump",
+      "sense_id": "bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,370 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers/features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers/images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers/feature-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "copyfiles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "jsonc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "handlebars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-features-regression.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-features-regression.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Container Features Regression Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-features.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-features.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "microsoft/publish-dev-container-features-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-features.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-features.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Deploy Devcontainer Features (Manually)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Run Patches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Re-push image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/create-release@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "microsoft/publish-dev-container-features-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Release Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/upload-artifact@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Build and push \"dev\" images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-templates.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-templates.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-templates.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Release dev container community templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script-library-pr-alpine.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/script-library-pr-alpine.yml",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "Test script library (Alpine) for PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "codespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "dev-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "devcontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "github-codespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "remote-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "visual-studio-codespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "microsoft/vscode-dev-containers"
+}

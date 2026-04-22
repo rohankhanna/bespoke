@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:02:36.503899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Caml on the Web (COW) is a set of parsers and syntax extensions to let you manipulate HTML, CSS, XML, JSON and Markdown directly from OCaml code.",
+    "fork": false,
+    "full_name": "mirage/ocaml-cow",
+    "html_url": "https://github.com/mirage/ocaml-cow",
+    "language": "OCaml",
+    "pushed_at": "2023-12-07T19:45:03Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-04-03T21:47:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

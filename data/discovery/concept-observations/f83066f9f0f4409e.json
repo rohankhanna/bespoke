@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024211,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024186,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021196,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016222,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015883,
+      "status": "candidate",
+      "text": "incite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompt",
+      "sense_id": "prompt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50045,
+      "status": "candidate",
+      "text": "incite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41035,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27033,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23028,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22039,
+      "status": "candidate",
+      "text": "efficient"
+    }
+  ],
+  "concept_id": "prompt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prompt",
+  "observation_id": "f83066f9f0f4409e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "prompt",
+  "source_context_snippet": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026",
+  "source_file": null,
+  "source_repo": "oh-my-fish/oh-my-fish",
+  "source_repo_description": "The Fish Shell Framework"
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042863,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037585,
+      "status": "candidate",
+      "text": "license"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043683,
+      "status": "candidate",
+      "text": "authorization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043647,
+      "status": "candidate",
+      "text": "grant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043624,
+      "status": "candidate",
+      "text": "authorize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "permission",
+      "sense_id": "permission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2062,
+      "status": "candidate",
+      "text": "license"
+    }
+  ],
+  "concept_id": "permission",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "permission",
+  "observation_id": "66a4b4845a64e8d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "permission",
+  "source_context_snippet": "Casbin",
+  "source_file": null,
+  "source_repo": "apache/casbin",
+  "source_repo_description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+}

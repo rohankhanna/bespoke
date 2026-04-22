@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub release][5]][6]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub release][5]][6]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043347,
+      "status": "candidate",
+      "text": "coalesce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043344,
+      "status": "candidate",
+      "text": "meld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043339,
+      "status": "candidate",
+      "text": "combine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043338,
+      "status": "candidate",
+      "text": "conflate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043060,
+      "status": "candidate",
+      "text": "unify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "merge",
+      "sense_id": "merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59037,
+      "status": "candidate",
+      "text": "coalesce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28030,
+      "status": "candidate",
+      "text": "conflate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13031,
+      "status": "candidate",
+      "text": "commingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "unite"
+    }
+  ],
+  "concept_id": "merge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge",
+  "observation_id": "e82366135050d232",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "merge",
+  "source_context_snippet": "[![GitHub release][5]][6]",
+  "source_file": null,
+  "source_repo": "darccio/mergo",
+  "source_repo_description": "Mergo: merging Go structs and maps since 2013"
+}

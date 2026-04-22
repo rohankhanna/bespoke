@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Static AST checker for a11y rules on JSX elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Tests: readme'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Tests: readme'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "notepad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests: readme",
+      "sense_id": "tests-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tests-readme",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tests-readme",
+  "observation_id": "e8b0fde83d4d09d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Tests: readme",
+  "source_context_snippet": "'Tests: readme'",
+  "source_file": ".github/workflows/readme.yml",
+  "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+  "source_repo_description": "Static AST checker for a11y rules on JSX elements."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ethers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Complete Ethereum library and wallet implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "The Ethers Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "The Ethers Project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978490,
+      "status": "candidate",
+      "text": "aether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9900017,
+      "status": "candidate",
+      "text": "quintessence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9888124,
+      "status": "candidate",
+      "text": "ethoxyethane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9884314,
+      "status": "candidate",
+      "text": "ethyl ether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "divinyl ether"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ethers",
+  "concept_id": "ethers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethers",
+      "sense_id": "ethers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

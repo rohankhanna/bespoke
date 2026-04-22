@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "binaries"
+    "binaries",
+    "Binaries"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate-context",
       "text": "binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "Binaries"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate",
       "text": "binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "Binaries"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +113,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/binaries.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "1mcp-app/agent"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

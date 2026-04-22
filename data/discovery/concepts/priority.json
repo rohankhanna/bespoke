@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "priority"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "Node.js tool for easy binary deployment of C++ addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml/badge.svg)](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml) [![S3 Bucket Test](https://github.com/mapbox/node-pre-gyp/actions/workflows/s3-bucket.yml/badge.svg)](https://github.com/mapbox/nod\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml/badge.svg)](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml) [![S3 Bucket Test](https://github.com/mapbox/node-pre-gyp/actions/workflows/s3-bucket.yml/badge.svg)](https://github.com/mapbox/nod\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044976,
+      "status": "candidate",
+      "text": "precedency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044970,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044560,
+      "status": "candidate",
+      "text": "anteriority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040425,
+      "status": "candidate",
+      "text": "antecedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039954,
+      "status": "candidate",
+      "text": "antecedency"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "antecedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "anteriority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "precedency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "antecedency"
+    }
+  ],
+  "canonical_name": "priority",
+  "concept_id": "priority",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/node-pre-gyp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "priority",
+      "sense_id": "priority#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

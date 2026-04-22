@@ -379,6 +379,114 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seebi/dircolors-solarized",
+      "status": "candidate-context",
+      "text": "This is a repository of themes for GNU ls (configured via GNU dircolors) that support Ethan Schoonover\u2019s Solarized color scheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seebi/dircolors-solarized",
+      "status": "candidate-context",
+      "text": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "Rust library for displaying images in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "![ci](https://github.com/atanunq/viuer/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "Chafa WebAssembly module to convert images to text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate-context",
+      "text": "A posix script to find and watch youtube videos from the terminal. (Without API)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate-context",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Directory-based environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "Build terminal user interfaces and dashboards using Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +675,60 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seebi/dircolors-solarized",
+      "status": "candidate",
+      "text": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate",
+      "text": "![ci](https://github.com/atanunq/viuer/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate",
+      "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -856,11 +1018,77 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "seebi/dircolors-solarized"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "atanunq/viuer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hectorm/chafa-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

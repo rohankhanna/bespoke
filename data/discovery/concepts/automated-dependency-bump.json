@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automated Dependency Bump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "\"Automated Dependency Bump\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "\"Automated Dependency Bump\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17979,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17921,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automated Dependency Bump",
+  "concept_id": "automated-dependency-bump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-dependencies.yaml",
+      "source_repo": "eza-community/eza"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated Dependency Bump",
+      "sense_id": "automated-dependency-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

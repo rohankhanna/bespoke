@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "darccio/mergo"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release dev container community templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "\"Release dev container community templates\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "\"Release dev container community templates\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43624,
+      "status": "candidate",
+      "text": "expansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33204,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30625,
+      "status": "candidate",
+      "text": "pyx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30529,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30517,
+      "status": "candidate",
+      "text": "formation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release dev container community templates",
+  "concept_id": "release-dev-container-community-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-templates.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release dev container community templates",
+      "sense_id": "release-dev-container-community-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

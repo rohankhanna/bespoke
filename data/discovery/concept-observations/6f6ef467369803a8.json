@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows Subsystem for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Process new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Process new issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56931,
+      "status": "candidate",
+      "text": "rollover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35961,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35748,
+      "status": "candidate",
+      "text": "vote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35397,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35374,
+      "status": "candidate",
+      "text": "assimilation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process new issue",
+      "sense_id": "process-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-new-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-new-issue",
+  "observation_id": "6f6ef467369803a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Process new issue",
+  "source_context_snippet": "Process new issue",
+  "source_file": ".github/workflows/new_issue.yml",
+  "source_repo": "microsoft/WSL",
+  "source_repo_description": "Windows Subsystem for Linux"
+}

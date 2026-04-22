@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JS Testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate-context",
+      "text": "In-browser literate notebooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate-context",
+      "text": "JS Testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate",
+      "text": "JS Testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "aviator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15284,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15284,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15284,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "ace"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JS Testing",
+  "concept_id": "js-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JS Testing",
+      "sense_id": "js-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -43,6 +43,42 @@
       "source_repo": "crytic/echidna",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "crytic/echidna",
       "status": "candidate",
       "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

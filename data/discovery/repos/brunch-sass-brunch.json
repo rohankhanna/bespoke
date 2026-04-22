@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "anymatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-sass-glob-importer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-modules",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "progeny",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-brunch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brunch/sass-brunch",
+      "target": "css-modules/postcss-modules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brunch/sass-brunch",
+      "target": "es128/anymatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "anymatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "node-sass-glob-importer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "postcss-modules",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "progeny",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "eslint-config-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "brunch/sass-brunch",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "brunch/sass-brunch",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "brunch/sass-brunch",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "brunch/sass-brunch",
+      "target": "Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "brunch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "brunch-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "brunch-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "libsass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "node-sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brunch/sass-brunch",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:12:43.978059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2210
+    },
+    {
+      "path": "package.json",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Adds Sass / Scss support to brunch",
+    "fork": false,
+    "full_name": "brunch/sass-brunch",
+    "html_url": "https://github.com/brunch/sass-brunch",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-25T18:40:39Z",
+    "stargazers_count": 98,
+    "topics": [
+      "brunch",
+      "brunch-compiler",
+      "brunch-plugin",
+      "libsass",
+      "node-sass",
+      "sass",
+      "scss"
+    ],
+    "updated_at": "2025-10-05T21:22:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "css-modules/postcss-modules",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "es128/anymatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brunch"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brunch-compiler"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brunch-plugin"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsass"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-sass"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

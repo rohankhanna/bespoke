@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "circuit-breaker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022117,
+      "status": "candidate",
+      "text": "circuitry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995284,
+      "status": "candidate",
+      "text": "circuit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024425,
+      "status": "candidate",
+      "text": "fuse box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024424,
+      "status": "candidate",
+      "text": "interruptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024423,
+      "status": "candidate",
+      "text": "lightswitch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "circuit-breaker",
+  "concept_id": "circuit-breaker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "circuit-breaker",
+      "sense_id": "circuit-breaker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

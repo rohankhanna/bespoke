@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999720,
+      "status": "candidate",
+      "text": "coin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999719,
+      "status": "candidate",
+      "text": "coinage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999718,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999717,
+      "status": "candidate",
+      "text": "cryptoasset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999716,
+      "status": "candidate",
+      "text": "coinbase"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitcoin",
+      "sense_id": "bitcoin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bitcoin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bitcoin",
+  "observation_id": "673dc4b5c815768b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "bitcoin",
+  "source_context_snippet": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol.",
+  "source_file": null,
+  "source_repo": "ElementsProject/lightning",
+  "source_repo_description": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance"
+}

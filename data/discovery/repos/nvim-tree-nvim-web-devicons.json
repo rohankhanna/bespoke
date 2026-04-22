@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr-subject.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "ryanoasis/vim-devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "devicons/devicon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "leafo/gh-actions-lua@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "Pre-commit autoupdate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr-subject.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "amannn/action-semantic-pull-request@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr-subject.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "Semantic Pull Request Subject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "neovim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "target": "nerd-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:58.655941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9620
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/pre-commit-autoupdate.yml",
+      "size": 675
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/semantic-pr-subject.yml",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides Nerd Font icons (glyphs) for use by neovim plugins",
+    "fork": false,
+    "full_name": "nvim-tree/nvim-web-devicons",
+    "html_url": "https://github.com/nvim-tree/nvim-web-devicons",
+    "language": "Lua",
+    "pushed_at": "2026-04-09T23:35:20Z",
+    "stargazers_count": 2650,
+    "topics": [
+      "icons",
+      "lua",
+      "neovim",
+      "neovim-plugins",
+      "nerd-fonts"
+    ],
+    "updated_at": "2026-04-22T18:07:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devicons/devicon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ryanoasis/vim-devicons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-commit autoupdate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "term": "Pre-commit autoupdate"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Semantic Pull Request Subject",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr-subject.yml",
+      "term": "Semantic Pull Request Subject"
+    },
+    {
+      "context_snippet": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugins"
+    },
+    {
+      "context_snippet": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerd-fonts"
+    }
+  ]
+}

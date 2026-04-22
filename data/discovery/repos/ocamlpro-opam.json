@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OCamlPro/opam",
+      "target": "ocaml/opam2web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OCamlPro/opam",
+      "target": "ocaml/opam-rt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OCamlPro/opam",
+      "target": "altgr/opam-publish",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:02:34.770081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OPAM is a source-based package manager for OCaml. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.",
+    "fork": true,
+    "full_name": "OCamlPro/opam",
+    "html_url": "https://github.com/OCamlPro/opam",
+    "language": "OCaml",
+    "pushed_at": "2022-05-03T18:00:55Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2024-02-25T20:16:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altgr/opam-publish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/opam-rt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/opam2web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

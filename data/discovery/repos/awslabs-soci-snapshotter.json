@@ -1,0 +1,548 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comparision-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comparision-test.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-pull-requests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "opencontainers/wg-reference-types",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "containerd/stargz-snapshotter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "intel/isa-l",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "mxmlnkn/rapidgzip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Visualize Benchmark and upload results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-deps.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Bump Deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comparision-test.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comparision-test.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comparision-test.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Comparision Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-pull-requests.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-pull-requests.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "New Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Pre-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:11:59.092456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4838
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4947
+    },
+    {
+      "path": "go.mod",
+      "size": 5447
+    },
+    {
+      "path": ".github/workflows/benchmark-visualization.yml",
+      "size": 3869
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2950
+    },
+    {
+      "path": ".github/workflows/bump-deps.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/comparision-test.yml",
+      "size": 545
+    },
+    {
+      "path": ".github/workflows/new-pull-requests.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/prebuild.yml",
+      "size": 2408
+    },
+    {
+      "path": ".github/workflows/releases.yml",
+      "size": 3285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A containerd snapshotter plugin which enables standard OCI images to be lazily loaded without requiring a build-time conversion step.",
+    "fork": false,
+    "full_name": "awslabs/soci-snapshotter",
+    "html_url": "https://github.com/awslabs/soci-snapshotter",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:28:57Z",
+    "stargazers_count": 720,
+    "topics": [],
+    "updated_at": "2026-04-21T13:51:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containerd/stargz-snapshotter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/wg-reference-types",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/isa-l",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxmlnkn/rapidgzip",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Visualize Benchmark and upload results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-visualization.yml",
+      "term": "Visualize Benchmark and upload results"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Bump Deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-deps.yml",
+      "term": "Bump Deps"
+    },
+    {
+      "context_snippet": "Comparision Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comparision-test.yml",
+      "term": "Comparision Tests"
+    },
+    {
+      "context_snippet": "\"New Pull Requests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-pull-requests.yml",
+      "term": "New Pull Requests"
+    },
+    {
+      "context_snippet": "Pre-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "term": "Pre-build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releases.yml",
+      "term": "Release"
+    }
+  ]
+}

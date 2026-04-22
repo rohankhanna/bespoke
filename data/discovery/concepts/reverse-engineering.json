@@ -31,6 +31,18 @@
       "source_repo": "NationalSecurityAgency/ghidra",
       "status": "candidate-context",
       "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "status": "candidate-context",
+      "text": "Python 3 bridge to Ghidra's Python scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "status": "candidate-context",
+      "text": "Ghidra Bridge"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "NationalSecurityAgency/ghidra",
       "status": "candidate",
       "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justfoxing/ghidra_bridge",
+      "status": "candidate",
+      "text": "Ghidra Bridge"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justfoxing/ghidra_bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

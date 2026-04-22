@@ -1,0 +1,12 @@
+{
+  "component": "EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    }
+  ]
+}

@@ -55,6 +55,18 @@
       "source_repo": "simonw/sqlite-utils",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate-context",
+      "text": "Datasette running in your browser using WebAssembly and Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate-context",
+      "text": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "simonw/sqlite-utils",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate",
+      "text": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "simonw/datasette-lite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

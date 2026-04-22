@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udccb Check Badge List Alphabetical Order"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "Badges for your personal developer branding, profile, and projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb Check Badge List Alphabetical Order"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate",
+      "text": "\ud83d\udccb Check Badge List Alphabetical Order"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 65940,
+      "status": "candidate",
+      "text": "dictionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 62091,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52184,
+      "status": "candidate",
+      "text": "lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48563,
+      "status": "candidate",
+      "text": "catalogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48218,
+      "status": "candidate",
+      "text": "placed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udccb Check Badge List Alphabetical Order",
+  "concept_id": "check-badge-list-alphabetical-order",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udccb Check Badge List Alphabetical Order",
+      "sense_id": "check-badge-list-alphabetical-order#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

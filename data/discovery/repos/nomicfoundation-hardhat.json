@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cspell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "verdaccio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-issues.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changeset-added.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-to-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-peer-bumps.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-v2-with-latest-dependencies.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-v2-with-latest-dependencies.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "verdaccio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "Add label to new issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-issues.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoassign-issues.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "Issue autoassignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-prs.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoassign-prs.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "PR autoassignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changeset-added.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-to-docs.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-peer-bumps.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-v2-with-latest-dependencies.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-v2-with-latest-dependencies.yml",
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "dapps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "smart-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "solidity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "task-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:09:50.476991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1172
+    },
+    {
+      "path": "package.json",
+      "size": 2075
+    },
+    {
+      "path": ".github/workflows/add-label-to-new-issue.yml",
+      "size": 1027
+    },
+    {
+      "path": ".github/workflows/autoassign-issues.yml",
+      "size": 1865
+    },
+    {
+      "path": ".github/workflows/autoassign-prs.yml",
+      "size": 1564
+    },
+    {
+      "path": ".github/workflows/cache.yml",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/check-changeset-added.yml",
+      "size": 1196
+    },
+    {
+      "path": ".github/workflows/check-links-to-docs.yml",
+      "size": 1196
+    },
+    {
+      "path": ".github/workflows/check-peer-bumps.yml",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/check-v2-with-latest-dependencies.yml",
+      "size": 1481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. ",
+    "fork": false,
+    "full_name": "NomicFoundation/hardhat",
+    "html_url": "https://github.com/NomicFoundation/hardhat",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T19:07:35Z",
+    "stargazers_count": 8466,
+    "topics": [
+      "blockchain",
+      "dapps",
+      "debugging",
+      "ethereum",
+      "javascript",
+      "smart-contracts",
+      "solidity",
+      "task-runner",
+      "tooling",
+      "typescript"
+    ],
+    "updated_at": "2026-04-22T16:46:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add label to new issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml",
+      "term": "Add label to new issue"
+    },
+    {
+      "context_snippet": "Issue autoassignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoassign-issues.yml",
+      "term": "Issue autoassignment"
+    },
+    {
+      "context_snippet": "PR autoassignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoassign-prs.yml",
+      "term": "PR autoassignment"
+    },
+    {
+      "context_snippet": "Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "term": "Cache"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dapps"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-contracts"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-runner"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

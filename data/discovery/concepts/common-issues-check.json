@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Common issues check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "Common issues check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "Common issues check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "other"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19426,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19426,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Common issues check",
+  "concept_id": "common-issues-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common issues check",
+      "sense_id": "common-issues-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

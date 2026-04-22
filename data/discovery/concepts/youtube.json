@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "youtube"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate-context",
+      "text": "A posix script to find and watch youtube videos from the terminal. (Without API)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate-context",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pystardust/ytfzf",
+      "status": "candidate",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999790,
+      "status": "candidate",
+      "text": "videos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999788,
+      "status": "candidate",
+      "text": "vimeo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999787,
+      "status": "candidate",
+      "text": "tiktok"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999786,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999785,
+      "status": "candidate",
+      "text": "videoblog"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "youtube",
+  "concept_id": "youtube",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "youtube",
+      "sense_id": "youtube#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

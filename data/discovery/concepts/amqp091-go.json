@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "amqp091-go"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "An AMQP 0-9-1 Go client maintained by the RabbitMQ team. Originally by @streadway: `streadway/amqp`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "amqp091-go"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate",
+      "text": "amqp091-go"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "amqp091-go",
+  "concept_id": "amqp091-go",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rabbitmq/amqp091-go"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "amqp091-go",
+      "sense_id": "amqp091-go#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

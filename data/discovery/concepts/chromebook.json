@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chromebook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "Package manager for Chrome OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025054,
+      "status": "candidate",
+      "text": "smartbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025053,
+      "status": "candidate",
+      "text": "webbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025052,
+      "status": "candidate",
+      "text": "cyberbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025051,
+      "status": "candidate",
+      "text": "glass terminal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025050,
+      "status": "candidate",
+      "text": "glass teletype"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chromebook",
+  "concept_id": "chromebook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chromebook",
+      "sense_id": "chromebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

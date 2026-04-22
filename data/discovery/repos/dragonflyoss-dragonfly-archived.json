@@ -1,0 +1,134 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "dragonflyoss/dragonfly2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "dragonflyoss/dragonfly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "pouch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "target": "registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:11:41.222835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 175
+    },
+    {
+      "path": "Dockerfile",
+      "size": 803
+    },
+    {
+      "path": "go.mod",
+      "size": 2651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2.",
+    "fork": false,
+    "full_name": "dragonflyoss/dragonfly-archived",
+    "html_url": "https://github.com/dragonflyoss/dragonfly-archived",
+    "language": "Go",
+    "pushed_at": "2023-02-27T11:07:29Z",
+    "stargazers_count": 5942,
+    "topics": [
+      "cloud-native",
+      "cncf",
+      "docker-image",
+      "p2p",
+      "pouch",
+      "registry"
+    ],
+    "updated_at": "2026-04-20T13:21:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dragonflyoss/dragonfly2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dragonflyoss/dragonfly",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pouch"
+    },
+    {
+      "context_snippet": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registry"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "aerobounce/Sublime-Pretty-Shell",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Directory-based environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Magic per-project shell environments."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "aerobounce/Sublime-Pretty-Shell",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate",
+      "text": "Magic per-project shell environments."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Pretty-Shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

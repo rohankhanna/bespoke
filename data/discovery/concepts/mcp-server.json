@@ -175,6 +175,66 @@
       "source_repo": "adityasugandhi/skillsync-mcp",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "OpenSource MCP Marketplace | MCP Servers Tools Meta Dataset | Web API | Web Client Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate-context",
+      "text": "Discover Exceptional MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate-context",
+      "text": "<img src=\"./public/logo.png\" width=\"68\" alt=\"mcpsvr logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "adityasugandhi/skillsync-mcp",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate",
+      "text": "<img src=\"./public/logo.png\" width=\"68\" alt=\"mcpsvr logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +490,53 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "adityasugandhi/skillsync-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nanbingxyz/mcpsvr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

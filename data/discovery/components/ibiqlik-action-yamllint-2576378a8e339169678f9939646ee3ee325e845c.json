@@ -1,12 +1,17 @@
 {
   "component": "ibiqlik/action-yamllint@2576378a8e339169678f9939646ee3ee325e845c",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "containernetworking/cni"
     }
   ]
 }

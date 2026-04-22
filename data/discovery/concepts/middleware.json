@@ -19,6 +19,30 @@
       "source_repo": "labstack/echo",
       "status": "candidate-context",
       "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "labstack/echo",
       "status": "candidate",
       "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "labstack/echo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "brpaz/echozap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darkweak/souin"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

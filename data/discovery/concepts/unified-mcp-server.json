@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "unified-mcp-server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "unified-mcp-server",
+  "concept_id": "unified-mcp-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "1mcp-app/agent"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unified-mcp-server",
+      "sense_id": "unified-mcp-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,12 +19,54 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate-context",
+      "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "status": "candidate-context",
+      "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kastalien-Research/thoughtbox",
+      "status": "candidate-context",
+      "text": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kastalien-Research/thoughtbox",
+      "status": "candidate-context",
+      "text": "Claude Issue Triage"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "lobehub/lobehub",
+      "status": "candidate",
+      "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate",
+      "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "status": "candidate",
+      "text": "Claude Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kastalien-Research/thoughtbox",
       "status": "candidate",
       "text": "Claude Issue Triage"
     }
@@ -100,11 +142,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

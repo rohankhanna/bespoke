@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026264,
+      "status": "candidate",
+      "text": "solidness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024387,
+      "status": "candidate",
+      "text": "resilience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022782,
+      "status": "candidate",
+      "text": "stability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021986,
+      "status": "candidate",
+      "text": "closeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021283,
+      "status": "candidate",
+      "text": "firmness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solidity",
+      "sense_id": "solidity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "solidness"
+    }
+  ],
+  "concept_id": "solidity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "solidity",
+  "observation_id": "3cda7304102d065f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "solidity",
+  "source_context_snippet": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates.",
+  "source_file": null,
+  "source_repo": "foundry-rs/foundry-core",
+  "source_repo_description": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+}

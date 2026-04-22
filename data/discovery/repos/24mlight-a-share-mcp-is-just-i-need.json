@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:01:16.303399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11119
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "24mlight/a-share-mcp-is-just-i-need",
+    "html_url": "https://github.com/24mlight/a-share-mcp-is-just-i-need",
+    "language": "Python",
+    "pushed_at": "2025-12-25T08:54:00Z",
+    "stargazers_count": 642,
+    "topics": [],
+    "updated_at": "2026-04-21T07:35:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

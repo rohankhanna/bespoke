@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/wasm-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "ashleygwilliams/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/console_error_panic_hook",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:24:42.328575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2643
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "a template for starting a rust-wasm project to be used with wasm-pack",
+    "fork": false,
+    "full_name": "rustwasm/wasm-pack-template",
+    "html_url": "https://github.com/rustwasm/wasm-pack-template",
+    "language": "Rust",
+    "pushed_at": "2023-08-29T15:11:36Z",
+    "stargazers_count": 675,
+    "topics": [],
+    "updated_at": "2026-04-12T19:35:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleygwilliams/cargo-generate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/console_error_panic_hook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-bindgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

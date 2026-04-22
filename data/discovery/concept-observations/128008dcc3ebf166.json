@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Build buildroot containers'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Build buildroot containers'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "cans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "containership"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "nox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build buildroot containers",
+      "sense_id": "build-buildroot-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-buildroot-containers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-buildroot-containers",
+  "observation_id": "128008dcc3ebf166",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Build buildroot containers",
+  "source_context_snippet": "'Build buildroot containers'",
+  "source_file": ".github/workflows/container.yaml",
+  "source_repo": "void-linux/void-packages",
+  "source_repo_description": "The Void source packages collection"
+}

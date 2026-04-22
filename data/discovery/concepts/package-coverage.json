@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package:coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/tools",
+      "status": "candidate-context",
+      "text": "This repository is home to tooling related Dart packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/tools",
+      "status": "candidate-context",
+      "text": "package:coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/tools",
+      "status": "candidate",
+      "text": "package:coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997497,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997277,
+      "status": "candidate",
+      "text": "record book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997134,
+      "status": "candidate",
+      "text": "headlines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997096,
+      "status": "candidate",
+      "text": "and finally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994861,
+      "status": "candidate",
+      "text": "jot down"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package:coverage",
+  "concept_id": "package-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:coverage",
+      "sense_id": "package-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate bootstrap archives (android-7)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "Generate bootstrap archives (android-7)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate",
+      "text": "Generate bootstrap archives (android-7)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20080,
+      "status": "candidate",
+      "text": "factory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18027,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12917,
+      "status": "candidate",
+      "text": "biot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12917,
+      "status": "candidate",
+      "text": "boot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate bootstrap archives (android-7)",
+  "concept_id": "generate-bootstrap-archives-android-7",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "source_repo": "termux/termux-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate bootstrap archives (android-7)",
+      "sense_id": "generate-bootstrap-archives-android-7#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

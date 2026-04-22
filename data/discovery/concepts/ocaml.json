@@ -67,6 +67,30 @@
       "source_repo": "ocaml/ocaml",
       "status": "candidate-context",
       "text": "Cross compilers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Pure OCaml regular expressions, with support for Perl and POSIX-style strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Description"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "Common interface for tracing/instrumentation libraries in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ocaml/ocaml",
       "status": "candidate",
       "text": "Cross compilers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate",
+      "text": "Description"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ocaml/ocaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/ocaml-re"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

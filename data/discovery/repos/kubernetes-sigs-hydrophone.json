@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "Update Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "Weekly Trivy Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "k8s-sig-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "k8s-sig-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:10.403523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3838
+    },
+    {
+      "path": "Dockerfile",
+      "size": 250
+    },
+    {
+      "path": "go.mod",
+      "size": 2449
+    },
+    {
+      "path": ".github/workflows/update-deps.yml",
+      "size": 1229
+    },
+    {
+      "path": ".github/workflows/weekly-trivy-scan.yml",
+      "size": 936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hydrophone is a lightweight Kubernetes conformance tests runner",
+    "fork": false,
+    "full_name": "kubernetes-sigs/hydrophone",
+    "html_url": "https://github.com/kubernetes-sigs/hydrophone",
+    "language": "Go",
+    "pushed_at": "2026-03-22T18:34:14Z",
+    "stargazers_count": 116,
+    "topics": [
+      "k8s-sig-release",
+      "k8s-sig-testing"
+    ],
+    "updated_at": "2026-04-03T06:36:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Update Dependencies'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-deps.yml",
+      "term": "Update Dependencies"
+    },
+    {
+      "context_snippet": "Weekly Trivy Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "term": "Weekly Trivy Scan"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-release"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-testing"
+    }
+  ]
+}

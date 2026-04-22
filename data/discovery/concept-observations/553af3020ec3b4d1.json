@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015447,
+      "status": "candidate",
+      "text": "synchronal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014617,
+      "status": "candidate",
+      "text": "synchronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014594,
+      "status": "candidate",
+      "text": "synchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013591,
+      "status": "candidate",
+      "text": "collateral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012941,
+      "status": "candidate",
+      "text": "duplicate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parallel",
+      "sense_id": "parallel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19077,
+      "status": "candidate",
+      "text": "collateral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18063,
+      "status": "candidate",
+      "text": "analog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "synchronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13052,
+      "status": "candidate",
+      "text": "synchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "duplicate"
+    }
+  ],
+  "concept_id": "parallel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parallel",
+  "observation_id": "553af3020ec3b4d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "parallel",
+  "source_context_snippet": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)",
+  "source_file": null,
+  "source_repo": "jaredpalmer/razzle",
+  "source_repo_description": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+}

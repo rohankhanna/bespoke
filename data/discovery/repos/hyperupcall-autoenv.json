@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "@hyperupcall/bats-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperupcall/autoenv",
+      "target": "loopbit/autoenv_fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperupcall/autoenv",
+      "target": "@hyperupcall/bats-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyperupcall/autoenv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "shell-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "shell-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:07:37.515564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7221
+    },
+    {
+      "path": "package.json",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Directory-based environments.",
+    "fork": false,
+    "full_name": "hyperupcall/autoenv",
+    "html_url": "https://github.com/hyperupcall/autoenv",
+    "language": "Shell",
+    "pushed_at": "2025-11-20T09:05:30Z",
+    "stargazers_count": 6025,
+    "topics": [
+      "bash",
+      "cd",
+      "environment",
+      "shell",
+      "shell-extension",
+      "shell-script",
+      "shell-scripts",
+      "terminal",
+      "zsh"
+    ],
+    "updated_at": "2026-04-22T09:55:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loopbit/autoenv_fish",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-extension"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-scripts"
+    },
+    {
+      "context_snippet": "Magic per-project shell environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

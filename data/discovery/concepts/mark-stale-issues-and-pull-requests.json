@@ -43,6 +43,18 @@
       "source_repo": "gorhom/react-native-bottom-sheet",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "gorhom/react-native-bottom-sheet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "containers/buildah"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

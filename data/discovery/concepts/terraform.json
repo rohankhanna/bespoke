@@ -139,6 +139,30 @@
       "source_repo": "hashicorp/terraform-provider-random",
       "status": "candidate-context",
       "text": "The Random provider supports the use of randomness within Terraform configurations. The"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "Curated list of resources on HashiCorp's Terraform and OpenTofu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "hashicorp/terraform-provider-random",
       "status": "candidate",
       "text": "The Random provider supports the use of randomness within Terraform configurations. The"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +352,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

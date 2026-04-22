@@ -19,6 +19,18 @@
       "source_repo": "onecli/onecli",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "onecli/onecli",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

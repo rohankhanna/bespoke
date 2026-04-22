@@ -1,12 +1,32 @@
 {
   "component": "azure/login@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tag.yml",
       "source_repo": "filhodanuvem/polyglot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-and-package.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
     }
   ]
 }

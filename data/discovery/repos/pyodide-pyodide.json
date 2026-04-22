@@ -274,30 +274,16 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "pyodide/pyodide",
-      "target": "pyodide/pyodide-build",
+      "target": "seleniumhq/selenium_manager_artifacts",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "pyodide/pyodide",
-      "target": "pyodide/pytest-pyodide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyodide/pyodide",
-      "target": "pyodide/micropip",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyodide/pyodide",
-      "target": "iodide-project/iodide",
+      "target": "webassembly/wabt",
       "target_type": "repository"
     },
     {
@@ -546,7 +532,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:37:55.528025+00:00",
+  "fetched_at": "2026-04-22T19:05:35.780002+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -594,34 +580,24 @@
     "full_name": "pyodide/pyodide",
     "html_url": "https://github.com/pyodide/pyodide",
     "language": "Python",
-    "pushed_at": "2026-04-21T07:52:06Z",
-    "stargazers_count": 14538,
+    "pushed_at": "2026-04-22T03:23:14Z",
+    "stargazers_count": 14542,
     "topics": [
       "python",
       "webassembly"
     ],
-    "updated_at": "2026-04-21T08:57:27Z"
+    "updated_at": "2026-04-22T10:46:19Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iodide-project/iodide",
-      "source_file": "README.md"
+      "full_name": "seleniumhq/selenium_manager_artifacts",
+      "source_file": "Dockerfile"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pyodide/micropip",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyodide/pyodide-build",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyodide/pytest-pyodide",
-      "source_file": "README.md"
+      "full_name": "webassembly/wabt",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": [

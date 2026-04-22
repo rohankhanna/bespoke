@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/Sentinel",
+      "target": "alibaba/sentinel-golang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/Sentinel",
+      "target": "alibaba/sentinel-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/Sentinel",
+      "target": "sentinel-group/sentinel-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "Sentinel CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document-lint.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document-lint.yml",
+      "source_repo": "alibaba/Sentinel",
+      "target": "document-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "circuit-breaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "rate-limiting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "reliability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel",
+      "target": "resiliency",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:00:48.312335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10557
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2189
+    },
+    {
+      "path": ".github/workflows/document-lint.yml",
+      "size": 572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1.8",
+    "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)",
+    "fork": false,
+    "full_name": "alibaba/Sentinel",
+    "html_url": "https://github.com/alibaba/Sentinel",
+    "language": "Java",
+    "pushed_at": "2026-03-20T05:47:26Z",
+    "stargazers_count": 23107,
+    "topics": [
+      "alibaba",
+      "circuit-breaker",
+      "cloud-native",
+      "java",
+      "microservice",
+      "microservices",
+      "rate-limiting",
+      "reliability",
+      "resiliency"
+    ],
+    "updated_at": "2026-04-22T13:18:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/sentinel-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/sentinel-golang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sentinel-group/sentinel-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sentinel CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Sentinel CI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "document-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document-lint.yml",
+      "term": "document-lint"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circuit-breaker"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rate-limiting"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliability"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resiliency"
+    }
+  ]
+}

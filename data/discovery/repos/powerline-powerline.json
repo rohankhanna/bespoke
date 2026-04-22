@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "powerline/powerline",
+      "target": "vim-airline/vim-airline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline",
+      "target": "Build and Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powerline/powerline",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:02:19.015426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5642
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile.",
+    "fork": false,
+    "full_name": "powerline/powerline",
+    "html_url": "https://github.com/powerline/powerline",
+    "language": "Python",
+    "pushed_at": "2026-03-11T01:18:21Z",
+    "stargazers_count": 14738,
+    "topics": [
+      "bash",
+      "fish",
+      "ipython",
+      "powerline",
+      "prompt",
+      "python",
+      "statusline",
+      "tmux",
+      "vim",
+      "zsh"
+    ],
+    "updated_at": "2026-04-22T14:49:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-airline/vim-airline",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Build and Publish to PyPI"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    },
+    {
+      "context_snippet": "Powerline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

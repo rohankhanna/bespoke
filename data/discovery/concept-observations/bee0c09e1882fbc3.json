@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Jest specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Jest specs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "gaud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "gibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "sports"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jest specs",
+      "sense_id": "jest-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jest-specs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jest-specs",
+  "observation_id": "bee0c09e1882fbc3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Jest specs",
+  "source_context_snippet": "Jest specs",
+  "source_file": ".github/workflows/jest.yml",
+  "source_repo": "rails/webpacker",
+  "source_repo_description": "Use Webpack to manage app-like JavaScript modules in Rails"
+}

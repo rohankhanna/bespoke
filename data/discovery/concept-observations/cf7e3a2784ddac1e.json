@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990659,
+      "status": "candidate",
+      "text": "rtc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990055,
+      "status": "candidate",
+      "text": "cet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907073,
+      "status": "candidate",
+      "text": "tec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19574556,
+      "status": "candidate",
+      "text": "bti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9992459,
+      "status": "candidate",
+      "text": "work-in-progress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wips",
+      "sense_id": "wips#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wips",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wips",
+  "observation_id": "cf7e3a2784ddac1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "wips",
+  "source_context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Architectural-Plans-Index",
+  "source_repo_description": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents"
+}

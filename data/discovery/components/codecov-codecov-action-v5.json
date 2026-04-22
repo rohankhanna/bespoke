@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v5",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-pr.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "BKWLD/laravel-pug"
     }
   ]
 }

@@ -67,6 +67,54 @@
       "source_repo": "microsoft/LMOps",
       "status": "candidate-context",
       "text": "<!--# LMOps: Enabling AI w/ LLMs-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "microsoft/LMOps",
       "status": "candidate",
       "text": "<!--# LMOps: Enabling AI w/ LLMs-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate",
+      "text": "Powerline"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +280,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "microsoft/LMOps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR helper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR helper"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10693,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10693,
+      "status": "candidate",
+      "text": "spinmeister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "asserter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "compress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR helper",
+      "sense_id": "pr-helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-helper",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-helper",
+  "observation_id": "476a5fb5cc3a9ec1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "PR helper",
+  "source_context_snippet": "PR helper",
+  "source_file": ".github/workflows/pr_helper.yml",
+  "source_repo": "google/oss-fuzz",
+  "source_repo_description": "OSS-Fuzz - continuous fuzzing for open source software."
+}

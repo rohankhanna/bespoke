@@ -535,6 +535,114 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatih/color",
+      "status": "candidate-context",
+      "text": "Color package for Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/color",
+      "status": "candidate-context",
+      "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "Command line tool for adding Windows resources to executable files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +909,60 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/color",
+      "status": "candidate",
+      "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate",
+      "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1090,11 +1252,65 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "fatih/color"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "brpaz/echozap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

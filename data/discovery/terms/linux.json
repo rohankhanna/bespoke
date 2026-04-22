@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "glfw/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "gabime/spdlog"
     }
   ],
   "term": "linux"

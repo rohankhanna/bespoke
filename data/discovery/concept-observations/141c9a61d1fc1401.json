@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sentinel CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sentinel CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4774,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4664,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sentinel CI",
+      "sense_id": "sentinel-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sentinel-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sentinel-ci",
+  "observation_id": "141c9a61d1fc1401",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Sentinel CI",
+  "source_context_snippet": "Sentinel CI",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "alibaba/Sentinel",
+  "source_repo_description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+}

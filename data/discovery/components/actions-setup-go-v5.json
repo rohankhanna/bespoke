@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -617,6 +617,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checksum.yml",
       "source_repo": "2noise/ChatTTS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cpuguy83/go-md2man"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ethereum/go-ethereum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "HoangTheQuyen/think-better"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "HoangTheQuyen/think-better"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "coder/envbuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance-pr.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin"
     }
   ]
 }

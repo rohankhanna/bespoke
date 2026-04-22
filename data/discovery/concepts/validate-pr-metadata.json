@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate PR metadata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Validate PR metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "Validate PR metadata"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "advantage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "competition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "match game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "outstanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "paragon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate PR metadata",
+  "concept_id": "validate-pr-metadata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/commitlint.yaml",
+      "source_repo": "ApeWorX/ape"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate PR metadata",
+      "sense_id": "validate-pr-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

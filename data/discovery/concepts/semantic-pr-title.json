@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "semantic pr title",
+    "Semantic PR title"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "\"semantic pr title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Accessibility engine for automated Web UI testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Semantic PR title"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "\"semantic pr title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate",
+      "text": "Semantic PR title"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22090,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13591,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13591,
+      "status": "candidate",
+      "text": "intensifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13591,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13591,
+      "status": "candidate",
+      "text": "meaning"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "semantic pr title",
+  "concept_id": "semantic-pr-title",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/semantic-pr-title.yml",
+      "source_repo": "dequelabs/axe-core"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "semantic pr title",
+      "sense_id": "semantic-pr-title#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

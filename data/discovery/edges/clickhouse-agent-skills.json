@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "clickhouse/clickhousectl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "cline/cline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "block/goose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "ClickHouse Best Practices CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "Daily External Links Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/agent-skills",
+      "target": "clickhouse",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "ClickHouse/agent-skills"
+}

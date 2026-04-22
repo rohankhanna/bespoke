@@ -1,12 +1,17 @@
 {
   "component": "super-linter/super-linter/slim@v8",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/hello-world-javascript-action"
     }
   ]
 }

@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "opencontainers/.github",
-      "target": "opencontainers/tob",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-22T01:23:42.747962+00:00",
+  "edges": [],
+  "fetched_at": "2026-04-22T19:19:28.828215+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -32,12 +24,6 @@
     ],
     "updated_at": "2026-03-16T21:53:35Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opencontainers/tob",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

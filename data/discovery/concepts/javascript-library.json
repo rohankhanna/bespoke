@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "javascript-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "javascript-library",
+  "concept_id": "javascript-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "SBoudrias/Inquirer.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "javascript-library",
+      "sense_id": "javascript-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

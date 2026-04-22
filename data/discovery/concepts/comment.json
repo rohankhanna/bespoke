@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048771,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048444,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037772,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029759,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004881,
+      "status": "candidate",
+      "text": "gossip"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15035,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13022,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "scuttlebutt"
+    }
+  ],
+  "canonical_name": "Comment",
+  "concept_id": "comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "NixOS/nixpkgs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment",
+      "sense_id": "comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

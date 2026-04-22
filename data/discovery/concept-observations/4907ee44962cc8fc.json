@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ci-cd",
+      "sense_id": "ci-cd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-cd",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-cd",
+  "observation_id": "4907ee44962cc8fc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ci-cd",
+  "source_context_snippet": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)",
+  "source_file": null,
+  "source_repo": "helm/kind-action",
+  "source_repo_description": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+}

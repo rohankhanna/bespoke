@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39763196,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924229,
+      "status": "candidate",
+      "text": "shellac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922637,
+      "status": "candidate",
+      "text": "veneer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920499,
+      "status": "candidate",
+      "text": "glaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920179,
+      "status": "candidate",
+      "text": "paint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "varnish",
+      "sense_id": "varnish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17082,
+      "status": "candidate",
+      "text": "seal"
+    }
+  ],
+  "concept_id": "varnish",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "varnish",
+  "observation_id": "8d9b4acded2bc122",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "varnish",
+  "source_context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+  "source_file": null,
+  "source_repo": "darkweak/souin",
+  "source_repo_description": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+}

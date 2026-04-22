@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sentinel CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "Sentinel CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate",
+      "text": "Sentinel CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4774,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4664,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sentinel CI",
+  "concept_id": "sentinel-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sentinel CI",
+      "sense_id": "sentinel-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

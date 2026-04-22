@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "visual-studio-code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "visual-studio-code",
+  "concept_id": "visual-studio-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-studio-code",
+      "sense_id": "visual-studio-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

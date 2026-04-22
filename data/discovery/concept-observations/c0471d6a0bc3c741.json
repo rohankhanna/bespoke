@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Infrastructure Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Infrastructure Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19145,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19041,
+      "status": "candidate",
+      "text": "construction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18706,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18706,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18654,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Infrastructure Images",
+      "sense_id": "build-infrastructure-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-infrastructure-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-infrastructure-images",
+  "observation_id": "c0471d6a0bc3c741",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Build Infrastructure Images",
+  "source_context_snippet": "Build Infrastructure Images",
+  "source_file": ".github/workflows/build-infra-dockers.yaml",
+  "source_repo": "syncthing/syncthing",
+  "source_repo_description": "Open Source Continuous File Synchronization"
+}

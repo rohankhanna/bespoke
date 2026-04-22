@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:02:35.686964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RFC3986 URI parsing library for OCaml",
+    "fork": true,
+    "full_name": "avsm/ocaml-uri",
+    "html_url": "https://github.com/avsm/ocaml-uri",
+    "language": "OCaml",
+    "pushed_at": "2022-03-05T22:01:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2016-03-11T17:21:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

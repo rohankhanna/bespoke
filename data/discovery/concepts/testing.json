@@ -166,6 +166,78 @@
       "source_repo": "d0c-s4vage/lookatme",
       "status": "candidate-context",
       "text": "\"testing\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "Yet another json parser serializer for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "The property-based testing library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxqt/qterminal",
+      "status": "candidate-context",
+      "text": "A lightweight Qt-based terminal emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxqt/qterminal",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxqt/qtermwidget",
+      "status": "candidate-context",
+      "text": "The terminal widget for QTerminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxqt/qtermwidget",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ts-jest</h1>"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +318,42 @@
       "source_repo": "d0c-s4vage/lookatme",
       "status": "candidate",
       "text": "\"testing\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxqt/qterminal",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxqt/qtermwidget",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ts-jest</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -381,11 +489,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sbcgua/ajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "HypothesisWorks/hypothesis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lxqt/qterminal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lxqt/qtermwidget"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "kulshekhar/ts-jest"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

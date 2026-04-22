@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "transformer-typescript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate-context",
+      "text": "Over TypeScript tool to use custom transformers in the tsconfig.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate-context",
+      "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate",
+      "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "transformer-typescript",
+  "concept_id": "transformer-typescript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "cevek/ttypescript"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transformer-typescript",
+      "sense_id": "transformer-typescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

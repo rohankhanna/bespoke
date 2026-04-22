@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041457,
+      "status": "candidate",
+      "text": "makefile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008911,
+      "status": "candidate",
+      "text": "configuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005728,
+      "status": "candidate",
+      "text": "configurational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20004660,
+      "status": "candidate",
+      "text": "configure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002847,
+      "status": "candidate",
+      "text": "setting"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "config",
   "concept_id": "config",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

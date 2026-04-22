@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy odoc to GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Pure OCaml regular expressions, with support for Perl and POSIX-style strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Deploy odoc to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate",
+      "text": "Deploy odoc to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "beeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy odoc to GitHub Pages",
+  "concept_id": "deploy-odoc-to-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml/ocaml-re"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy odoc to GitHub Pages",
+      "sense_id": "deploy-odoc-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

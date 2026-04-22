@@ -19,12 +19,30 @@
       "source_repo": "docker/compose",
       "status": "candidate-context",
       "text": "docs-upstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "docs-upstream"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "docs-upstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
       "status": "candidate",
       "text": "docs-upstream"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docs-upstream.yml",
       "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "source_repo": "moby/buildkit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

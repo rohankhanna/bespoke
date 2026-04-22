@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "browser-actions/setup-chrome@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "JS Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "literate-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "starboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gzuidhof/starboard-notebook",
+      "target": "starboard-notebook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:05:28.913520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1680
+    },
+    {
+      "path": "package.json",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/js-ci.yml",
+      "size": 1879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "In-browser literate notebooks",
+    "fork": false,
+    "full_name": "gzuidhof/starboard-notebook",
+    "html_url": "https://github.com/gzuidhof/starboard-notebook",
+    "language": "TypeScript",
+    "pushed_at": "2024-03-08T23:38:07Z",
+    "stargazers_count": 1347,
+    "topics": [
+      "literate-programming",
+      "notebook",
+      "starboard",
+      "starboard-notebook"
+    ],
+    "updated_at": "2026-04-20T07:49:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JS Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-ci.yml",
+      "term": "JS Testing"
+    },
+    {
+      "context_snippet": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "literate-programming"
+    },
+    {
+      "context_snippet": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook"
+    },
+    {
+      "context_snippet": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starboard"
+    },
+    {
+      "context_snippet": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starboard-notebook"
+    }
+  ]
+}

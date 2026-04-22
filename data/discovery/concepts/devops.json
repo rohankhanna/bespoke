@@ -79,6 +79,30 @@
       "source_repo": "antonbabenko/terraform-skill",
       "status": "candidate-context",
       "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "Curated list of resources on HashiCorp's Terraform and OpenTofu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "antonbabenko/terraform-skill",
       "status": "candidate",
       "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -189,11 +225,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/terraform-skill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable Compatibility"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "A spiritual successor to the standardjs javascript style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "Reusable Compatibility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate",
+      "text": "Reusable Compatibility"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "armature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "scores"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "scoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable Compatibility",
+  "concept_id": "reusable-compatibility",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "neostandard/neostandard"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Compatibility",
+      "sense_id": "reusable-compatibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -462,6 +462,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-go-tests.yml",
       "source_repo": "in-toto/attestation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-check.yml",
+      "source_repo": "kubernetes-sigs/verify-conformance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kubernetes-sigs/verify-conformance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-go-version.yml",
+      "source_repo": "kubernetes-sigs/verify-conformance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-test.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/system-test.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/client_golang"
     }
   ]
 }

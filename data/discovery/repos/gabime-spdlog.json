@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity_scan.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gabime/spdlog",
+      "target": "fmtlib/fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "coverity-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "gabime/spdlog",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabime/spdlog",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabime/spdlog",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabime/spdlog",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabime/spdlog",
+      "target": "spdlog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:05.322619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19411
+    },
+    {
+      "path": ".github/workflows/coverity_scan.yml",
+      "size": 1712
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3631
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 2643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.x",
+    "description": "Fast C++ logging library.",
+    "fork": false,
+    "full_name": "gabime/spdlog",
+    "html_url": "https://github.com/gabime/spdlog",
+    "language": "C++",
+    "pushed_at": "2026-04-18T18:58:37Z",
+    "stargazers_count": 28683,
+    "topics": [
+      "cpp",
+      "cpp11",
+      "header-only",
+      "logging",
+      "spdlog"
+    ],
+    "updated_at": "2026-04-22T13:22:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fmtlib/fmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "coverity-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "term": "coverity-linux"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spdlog"
+    }
+  ]
+}

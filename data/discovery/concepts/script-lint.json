@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Script Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "Solus Package Monorepo & Issue Tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "Script Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate",
+      "text": "Script Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10729,
+      "status": "candidate",
+      "text": "aramaic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10729,
+      "status": "candidate",
+      "text": "rune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "cadence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "feather"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Script Lint",
+  "concept_id": "script-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Script Lint",
+      "sense_id": "script-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

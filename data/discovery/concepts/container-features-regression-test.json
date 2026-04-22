@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Container Features Regression Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "Container Features Regression Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "Container Features Regression Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31702,
+      "status": "candidate",
+      "text": "spill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31702,
+      "status": "candidate",
+      "text": "spilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31663,
+      "status": "candidate",
+      "text": "liner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31663,
+      "status": "candidate",
+      "text": "shank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31593,
+      "status": "candidate",
+      "text": "battery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Container Features Regression Test",
+  "concept_id": "container-features-regression-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/container-features-regression.yml",
+      "source_repo": "microsoft/vscode-dev-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Container Features Regression Test",
+      "sense_id": "container-features-regression-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

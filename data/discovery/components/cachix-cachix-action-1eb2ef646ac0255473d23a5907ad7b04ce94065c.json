@@ -1,7 +1,7 @@
 {
   "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eval.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NixOS/nixpkgs"
     }
   ]
 }

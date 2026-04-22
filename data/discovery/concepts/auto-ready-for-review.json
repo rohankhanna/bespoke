@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Ready for Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Auto Ready for Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "Auto Ready for Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18110,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18110,
+      "status": "candidate",
+      "text": "used"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "crank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "map"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Ready for Review",
+  "concept_id": "auto-ready-for-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "aquasecurity/trivy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Ready for Review",
+      "sense_id": "auto-ready-for-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "release-swarmsdk-gem",
   "observation_id": "9543e13d15c44b84",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "Release SwarmSDK Gem",
   "source_context_snippet": "Release SwarmSDK Gem",
   "source_file": ".github/workflows/release-swarm-sdk.yml",

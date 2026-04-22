@@ -1,0 +1,598 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml"
+    },
+    {
+      "component": "webiny/action-conventional-commits@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml"
+    },
+    {
+      "component": "docker/login-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml"
+    },
+    {
+      "component": "docker/login-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "igrigorik/ga-beacon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "go-yaml/yaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "go benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "webiny/action-conventional-commits@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "docker/setup-qemu-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "docker/setup-buildx-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-main.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "docker/login-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-main.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "Docker Main Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "peaceiris/actions-hugo@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "Docs Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "boltdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "consul",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "devops-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "sysadmin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "sysops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "templating",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate",
+      "target": "vault",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:08.022349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5594
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2122
+    },
+    {
+      "path": "go.mod",
+      "size": 10251
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1059
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2278
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/docker-main.yml",
+      "size": 1525
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2177
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources.",
+    "fork": false,
+    "full_name": "hairyhenderson/gomplate",
+    "html_url": "https://github.com/hairyhenderson/gomplate",
+    "language": "Go",
+    "pushed_at": "2026-04-17T22:42:07Z",
+    "stargazers_count": 3135,
+    "topics": [
+      "boltdb",
+      "cli",
+      "cloud",
+      "config",
+      "consul",
+      "devops",
+      "devops-tools",
+      "docker",
+      "go",
+      "golang",
+      "sysadmin",
+      "sysops",
+      "template",
+      "templating",
+      "vault"
+    ],
+    "updated_at": "2026-04-20T18:31:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igrigorik/ga-beacon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-yaml/yaml",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "go benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "go benchmarks"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Conventional Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "term": "Conventional Commits"
+    },
+    {
+      "context_snippet": "Docker Main Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-main.yml",
+      "term": "Docker Main Build"
+    },
+    {
+      "context_snippet": "Docs Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs Checks"
+    },
+    {
+      "context_snippet": "govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "govulncheck"
+    },
+    {
+      "context_snippet": "Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boltdb"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consul"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops-tools"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sysadmin"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sysops"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templating"
+    },
+    {
+      "context_snippet": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vault"
+    }
+  ]
+}

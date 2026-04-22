@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "egor-tensin/vs-shell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cbc",
+      "target": "coin-or/coinbrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cbc",
+      "target": "coin-or/aimmslinks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cbc",
+      "target": "coin-or/cmpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cbc",
+      "target": "coin-or/coin-or-optimizationsuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "Linux build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "egor-tensin/vs-shell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "Windows build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Cbc",
+      "target": "Windows MSVS build and test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:23:29.378243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28561
+    },
+    {
+      "path": ".github/workflows/linux-ci.yml",
+      "size": 3871
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/windows-ci.yml",
+      "size": 4349
+    },
+    {
+      "path": ".github/workflows/windows-msvs-ci.yml",
+      "size": 4956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COIN-OR Branch-and-Cut solver",
+    "fork": false,
+    "full_name": "coin-or/Cbc",
+    "html_url": "https://github.com/coin-or/Cbc",
+    "language": "C++",
+    "pushed_at": "2026-04-20T19:47:50Z",
+    "stargazers_count": 987,
+    "topics": [],
+    "updated_at": "2026-04-20T19:47:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/aimmslinks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/cmpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/coin-or-optimizationsuite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/coinbrew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "term": "Linux build and test"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Windows build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "term": "Windows build and test"
+    },
+    {
+      "context_snippet": "Windows MSVS build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "term": "Windows MSVS build and test"
+    }
+  ]
+}

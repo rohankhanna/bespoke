@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solus Package Monorepo & Issue Tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049195,
+      "status": "candidate",
+      "text": "alone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049196,
+      "status": "candidate",
+      "text": "unaccompanied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049195,
+      "status": "candidate",
+      "text": "lone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049194,
+      "status": "candidate",
+      "text": "solitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049193,
+      "status": "candidate",
+      "text": "solitaire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solus",
+      "sense_id": "solus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "solus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "solus",
+  "observation_id": "70285844224c2844",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "solus",
+  "source_context_snippet": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">",
+  "source_file": null,
+  "source_repo": "getsolus/packages",
+  "source_repo_description": "Solus Package Monorepo & Issue Tracker"
+}

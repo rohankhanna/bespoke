@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Java Semantic Kernel Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Deploy Java Semantic Kernel Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate",
+      "text": "Deploy Java Semantic Kernel Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18828,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18694,
+      "status": "candidate",
+      "text": "interpolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "prefix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Java Semantic Kernel Package",
+  "concept_id": "deploy-java-semantic-kernel-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Java Semantic Kernel Package",
+      "sense_id": "deploy-java-semantic-kernel-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

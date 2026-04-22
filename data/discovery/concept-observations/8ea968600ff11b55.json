@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add label to new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add label to new issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44159,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43390,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34372,
+      "status": "candidate",
+      "text": "provisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33864,
+      "status": "candidate",
+      "text": "insert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33737,
+      "status": "candidate",
+      "text": "reinforce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add label to new issue",
+      "sense_id": "add-label-to-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-label-to-new-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-label-to-new-issue",
+  "observation_id": "8ea968600ff11b55",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Add label to new issue",
+  "source_context_snippet": "Add label to new issue",
+  "source_file": ".github/workflows/add-label-to-new-issue.yml",
+  "source_repo": "NomicFoundation/hardhat",
+  "source_repo_description": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+}

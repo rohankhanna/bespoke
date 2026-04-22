@@ -7,10 +7,74 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright-python",
+      "status": "candidate-context",
+      "text": "Python version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-python",
+      "status": "candidate-context",
+      "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright-python",
+      "status": "candidate",
+      "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048585,
+      "status": "candidate",
+      "text": "dramatist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048890,
+      "status": "candidate",
+      "text": "drama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047494,
+      "status": "candidate",
+      "text": "theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043793,
+      "status": "candidate",
+      "text": "tragedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038943,
+      "status": "candidate",
+      "text": "screenwriter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "dramatist"
+    }
+  ],
   "canonical_name": "playwright",
   "concept_id": "playwright",
   "definition_status": "unresolved",
@@ -26,12 +90,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "microsoft/playwright-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

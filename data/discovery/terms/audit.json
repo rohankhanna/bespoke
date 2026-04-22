@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -66,6 +66,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "tauri-apps/create-tauri-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy"
     }
   ],
   "term": "Audit"

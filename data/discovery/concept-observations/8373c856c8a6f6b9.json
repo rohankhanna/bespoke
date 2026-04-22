@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "deficiencies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "difficulties"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "disabilities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "drawbacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "failings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulnerabilities",
+      "sense_id": "vulnerabilities#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulnerabilities",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulnerabilities",
+  "observation_id": "8373c856c8a6f6b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "vulnerabilities",
+  "source_context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+  "source_file": null,
+  "source_repo": "google/oss-fuzz",
+  "source_repo_description": "OSS-Fuzz - continuous fuzzing for open source software."
+}

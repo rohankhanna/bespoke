@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirrors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "Mirrors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate",
+      "text": "Mirrors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51367,
+      "status": "candidate",
+      "text": "reflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "apes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "captures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "ching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "corresponds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirrors",
+  "concept_id": "mirrors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/mirrors.yaml",
+      "source_repo": "syncthing/syncthing"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirrors",
+      "sense_id": "mirrors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

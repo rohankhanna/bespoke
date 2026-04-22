@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "JetBrains/spotbugs-intellij-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.1.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.2.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.3.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator"
     }
   ]
 }

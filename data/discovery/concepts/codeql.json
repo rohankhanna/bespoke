@@ -843,6 +843,174 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "codeql"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higress-group/higress-console",
+      "status": "candidate-context",
+      "text": "higress console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higress-group/higress-console",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "Rofi: A window switcher, application launcher and dmenu replacement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/hello-world-javascript-action",
+      "status": "candidate-context",
+      "text": "A template to demonstrate how to build a JavaScript action."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/hello-world-javascript-action",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "A simple utility for running and debugging a GitHub Action locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "Node.js tool for easy binary deployment of C++ addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "An AMQP 0-9-1 Go client maintained by the RabbitMQ team. Originally by @streadway: `streadway/amqp`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "CodeQL"
     }
   ],
   "candidate_glosses": [
@@ -1265,6 +1433,90 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "codeql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higress-group/higress-console",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/hello-world-javascript-action",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "CodeQL"
     }
   ],
   "candidate_related_terms": [],
@@ -1764,11 +2016,101 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/hello-world-javascript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/local-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/node-pre-gyp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "prometheus/client_golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rabbitmq/amqp091-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "antonbabenko/pre-commit-terraform"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

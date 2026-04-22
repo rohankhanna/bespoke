@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "abap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "Git client for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Standalone static analysis for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "Yet another json parser serializer for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate",
+      "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020336,
+      "status": "candidate",
+      "text": "aabp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020335,
+      "status": "candidate",
+      "text": "abac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020334,
+      "status": "candidate",
+      "text": "cpad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020333,
+      "status": "candidate",
+      "text": "dbal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020332,
+      "status": "candidate",
+      "text": "abpc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "abap",
+  "concept_id": "abap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "sbcgua/ajson"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abap",
+      "sense_id": "abap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

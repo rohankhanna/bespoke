@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fivethirtyeight/data",
+      "target": "data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:13.391919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Data and code behind the articles and graphics at FiveThirtyEight",
+    "fork": false,
+    "full_name": "fivethirtyeight/data",
+    "html_url": "https://github.com/fivethirtyeight/data",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-25T19:40:33Z",
+    "stargazers_count": 17346,
+    "topics": [
+      "data"
+    ],
+    "updated_at": "2026-04-22T18:50:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/fivethirtyeight/data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    }
+  ]
+}

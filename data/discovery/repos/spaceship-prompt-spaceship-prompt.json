@@ -66,28 +66,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "powerline/fonts",
+      "target": "tonsky/firacode",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "belak/prezto-contrib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "denysdovhan/dotfiles",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "matchai/spacefish",
+      "target": "starship/starship",
       "target_type": "repository"
     },
     {
@@ -273,7 +259,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:36:02.508712+00:00",
+  "fetched_at": "2026-04-22T19:01:57.703996+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -322,7 +308,7 @@
     "html_url": "https://github.com/spaceship-prompt/spaceship-prompt",
     "language": "Shell",
     "pushed_at": "2026-04-02T16:17:11Z",
-    "stargazers_count": 20470,
+    "stargazers_count": 20474,
     "topics": [
       "oh-my-zsh",
       "prompt",
@@ -335,27 +321,17 @@
       "zsh-theme",
       "zsh-users"
     ],
-    "updated_at": "2026-04-21T02:28:50Z"
+    "updated_at": "2026-04-22T10:57:40Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "belak/prezto-contrib",
+      "full_name": "starship/starship",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "denysdovhan/dotfiles",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "matchai/spacefish",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "powerline/fonts",
+      "full_name": "tonsky/firacode",
       "source_file": "README.md"
     }
   ],

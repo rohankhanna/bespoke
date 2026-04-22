@@ -13,9 +13,28 @@
       "source_repo": "vincent-k2026/codachi",
       "status": "candidate-context",
       "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "Chafa WebAssembly module to convert images to text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "ascii-art",
@@ -27,12 +46,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "vincent-k2026/codachi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hectorm/chafa-wasm"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

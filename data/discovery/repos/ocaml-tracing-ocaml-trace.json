@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "janestreet/tracing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "imandra-ai/tldrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "imandra-ai/catapult",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "ocaml-tracing/ocaml-opentelemetry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "catapult",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "target": "tracy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:32.567142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4803
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 285
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 801
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common interface for tracing/instrumentation libraries in OCaml",
+    "fork": false,
+    "full_name": "ocaml-tracing/ocaml-trace",
+    "html_url": "https://github.com/ocaml-tracing/ocaml-trace",
+    "language": "OCaml",
+    "pushed_at": "2026-04-21T21:01:57Z",
+    "stargazers_count": 35,
+    "topics": [
+      "catapult",
+      "ocaml",
+      "tef",
+      "tracing",
+      "tracy"
+    ],
+    "updated_at": "2026-04-21T21:00:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imandra-ai/catapult",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imandra-ai/tldrs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janestreet/tracing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml-tracing/ocaml-opentelemetry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "format"
+    },
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catapult"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracy"
+    }
+  ]
+}

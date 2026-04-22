@@ -99,6 +99,42 @@
       "source_repo": "oras-project/oras",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "An AMQP 0-9-1 Go client maintained by the RabbitMQ team. Originally by @streadway: `streadway/amqp`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rabbitmq/amqp091-go",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -198,11 +252,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/client_golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "rabbitmq/amqp091-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

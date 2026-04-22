@@ -127,6 +127,30 @@
       "source_repo": "expo/expo",
       "status": "candidate-context",
       "text": "<!-- Banner Image -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo",
+      "status": "candidate-context",
+      "text": "The java implementation of Apache Dubbo. An RPC and microservice framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo",
+      "status": "candidate-context",
+      "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "expo/expo",
       "status": "candidate",
       "text": "<!-- Banner Image -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo",
+      "status": "candidate",
+      "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +388,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

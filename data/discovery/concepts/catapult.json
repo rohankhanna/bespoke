@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "catapult"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "Common interface for tracing/instrumentation libraries in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046690,
+      "status": "candidate",
+      "text": "bricole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044426,
+      "status": "candidate",
+      "text": "launcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044422,
+      "status": "candidate",
+      "text": "slingshot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043394,
+      "status": "candidate",
+      "text": "sling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002595,
+      "status": "candidate",
+      "text": "onager"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6051,
+      "status": "candidate",
+      "text": "sling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "bricole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "onager"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "launcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "slingshot"
+    }
+  ],
+  "canonical_name": "catapult",
+  "concept_id": "catapult",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "catapult",
+      "sense_id": "catapult#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

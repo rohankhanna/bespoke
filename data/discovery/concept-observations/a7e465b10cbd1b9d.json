@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package manager for Chrome OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986628,
+      "status": "candidate",
+      "text": "bunch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986070,
+      "status": "candidate",
+      "text": "work party"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976721,
+      "status": "candidate",
+      "text": "gang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974157,
+      "status": "candidate",
+      "text": "crowd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998667,
+      "status": "candidate",
+      "text": "posse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crew",
+      "sense_id": "crew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17049,
+      "status": "candidate",
+      "text": "bunch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12046,
+      "status": "candidate",
+      "text": "crowd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9047,
+      "status": "candidate",
+      "text": "gang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "work party"
+    }
+  ],
+  "concept_id": "crew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crew",
+  "observation_id": "a7e465b10cbd1b9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "crew",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "chromebrew/chromebrew",
+  "source_repo_description": "Package manager for Chrome OS"
+}

@@ -79,6 +79,18 @@
       "source_repo": "strands-agents/docs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadmau/autocouncil",
+      "status": "candidate-context",
+      "text": "Self-improvement loops for OpenClaw agents via multi-model LLM council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadmau/autocouncil",
+      "status": "candidate-context",
+      "text": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "strands-agents/docs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadmau/autocouncil",
+      "status": "candidate",
+      "text": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "shadmau/autocouncil"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

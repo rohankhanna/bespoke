@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette-lite",
+      "target": "nytimes/covid-19-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette-lite",
+      "target": "simonw/scrape-san-mateo-fire-dispatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette-lite",
+      "target": "teradata/kylo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette-lite",
+      "target": "datasette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette-lite",
+      "target": "pyodide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette-lite",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:16.118844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17174
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Datasette running in your browser using WebAssembly and Pyodide",
+    "fork": false,
+    "full_name": "simonw/datasette-lite",
+    "html_url": "https://github.com/simonw/datasette-lite",
+    "language": "CSS",
+    "pushed_at": "2026-01-02T05:23:12Z",
+    "stargazers_count": 399,
+    "topics": [
+      "datasette",
+      "pyodide",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-03T16:46:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nytimes/covid-19-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/scrape-san-mateo-fire-dispatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teradata/kylo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette"
+    },
+    {
+      "context_snippet": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyodide"
+    },
+    {
+      "context_snippet": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

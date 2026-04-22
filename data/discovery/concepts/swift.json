@@ -31,6 +31,30 @@
       "source_repo": "ChatGPTNextWeb/NextChat-iOS",
       "status": "candidate-context",
       "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "MacOS Niri and Hyprland inspired tiling window manager that's developer signed and notorized (safe for managed enterprise environments). Aiming for parity and extra innovation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "Bazel rules to build Swift on Apple and Linux platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ChatGPTNextWeb/NextChat-iOS",
       "status": "candidate",
       "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +178,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat-iOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_swift"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

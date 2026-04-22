@@ -139,6 +139,18 @@
       "source_repo": "fwcd/tree-sitter-kotlin",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/container-libs",
+      "status": "candidate-context",
+      "text": "Monorepository with libraries used by the containers projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/container-libs",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/container-libs",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -322,11 +340,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fwcd/tree-sitter-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "containers/container-libs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

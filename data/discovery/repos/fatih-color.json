@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "dominikh/staticcheck-action@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fatih/color",
+      "target": "mattn/go-colorable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "fatih/color",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "fatih/color",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "fatih/color",
+      "target": "dominikh/staticcheck-action@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "fatih/color",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatih/color",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatih/color",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatih/color",
+      "target": "coloring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatih/color",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:19:31.420682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5508
+    },
+    {
+      "path": "go.mod",
+      "size": 155
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Color package for Go (golang)",
+    "fork": false,
+    "full_name": "fatih/color",
+    "html_url": "https://github.com/fatih/color",
+    "language": "Go",
+    "pushed_at": "2026-04-09T01:02:33Z",
+    "stargazers_count": 7946,
+    "topics": [
+      "ansi",
+      "color",
+      "coloring",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-04-22T11:17:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/go-colorable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Color lets you use colorized outputs in terms of [ANSI Escape",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "Color lets you use colorized outputs in terms of [ANSI Escape",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "Color lets you use colorized outputs in terms of [ANSI Escape",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coloring"
+    },
+    {
+      "context_snippet": "Color lets you use colorized outputs in terms of [ANSI Escape",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

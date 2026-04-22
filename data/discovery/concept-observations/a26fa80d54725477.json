@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050740,
+      "status": "candidate",
+      "text": "sea captain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958246,
+      "status": "candidate",
+      "text": "captain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891185,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050696,
+      "status": "candidate",
+      "text": "sailor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050665,
+      "status": "candidate",
+      "text": "coxswain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skipper",
+      "sense_id": "skipper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24076,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "sea captain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "captain"
+    }
+  ],
+  "concept_id": "skipper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skipper",
+  "observation_id": "a26fa80d54725477",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "skipper",
+  "source_context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+  "source_file": null,
+  "source_repo": "darkweak/souin",
+  "source_repo_description": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+}

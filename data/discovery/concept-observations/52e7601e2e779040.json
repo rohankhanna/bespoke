@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Definitional implementation of Cedar language and utilities for DRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Corpus Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Corpus Generation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18985,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "catastasis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concatenation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concurrency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Corpus Generation",
+      "sense_id": "test-corpus-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-corpus-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-corpus-generation",
+  "observation_id": "52e7601e2e779040",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Test Corpus Generation",
+  "source_context_snippet": "Test Corpus Generation",
+  "source_file": ".github/workflows/corpus_generation_test_reusable.yml",
+  "source_repo": "cedar-policy/cedar-spec",
+  "source_repo_description": "Definitional implementation of Cedar language and utilities for DRT"
+}

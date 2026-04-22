@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "Check build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "Check build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11700,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11700,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11700,
+      "status": "candidate",
+      "text": "harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11700,
+      "status": "candidate",
+      "text": "harnessed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11700,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check build",
+  "concept_id": "check-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "void-linux/void-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check build",
+      "sense_id": "check-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

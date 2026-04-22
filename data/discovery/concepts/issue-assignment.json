@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Assignment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "\"Issue Assignment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "\"Issue Assignment\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "designation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "dall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "essay"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Assignment",
+  "concept_id": "issue-assignment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/issue-assign.yml",
+      "source_repo": "alibaba/nacos"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Assignment",
+      "sense_id": "issue-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

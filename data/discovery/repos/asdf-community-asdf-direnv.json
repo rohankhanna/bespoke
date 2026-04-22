@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "asdf-vm/actions/plugin-test@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "asdf-vm/actions/setup@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "Main workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-direnv",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:07:33.077892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12628
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 1727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "direnv plugin for the asdf version manager [maintainer=@jfly, @michi-zuri, @vic]",
+    "fork": false,
+    "full_name": "asdf-community/asdf-direnv",
+    "html_url": "https://github.com/asdf-community/asdf-direnv",
+    "language": "Shell",
+    "pushed_at": "2025-11-21T01:11:24Z",
+    "stargazers_count": 573,
+    "topics": [
+      "asdf",
+      "asdf-plugin"
+    ],
+    "updated_at": "2026-04-13T08:58:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Main workflow"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -319,6 +319,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/adversarial-review.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-docs-check.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-cache.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-and-publish.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kulshekhar/ts-jest"
     }
   ]
 }

@@ -115,6 +115,30 @@
       "source_repo": "prettier/prettier",
       "status": "candidate-context",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate-context",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate-context",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "prettier/prettier",
       "status": "candidate",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-wg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-multipart-request-spec"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

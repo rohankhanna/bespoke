@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-order.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "\ud83d\udccb Check Badge List Alphabetical Order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "TimonVS/pr-labeler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "badges-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "branding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "developer-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "github-profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "Ileriayo/markdown-badges"
+}

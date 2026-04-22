@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/rustwide",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rust-lang/rustwide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:04:48.147161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 856
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1431
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1693
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Execute your code on the Rust ecosystem.",
+    "fork": false,
+    "full_name": "rust-lang/rustwide",
+    "html_url": "https://github.com/rust-lang/rustwide",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T06:09:27Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-04-20T06:06:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

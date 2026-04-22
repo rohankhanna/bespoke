@@ -68,6 +68,30 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Official core lightning application by Blockstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +124,18 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate",
+      "text": "Unit tests"
     }
   ],
   "candidate_related_terms": [
@@ -185,11 +221,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ElementsProject/cln-application"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

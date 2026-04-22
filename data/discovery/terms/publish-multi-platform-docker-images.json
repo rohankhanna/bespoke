@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-release.yml",
       "source_repo": "8144225309/lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ElementsProject/lightning"
     }
   ],
   "term": "Publish multi-platform docker images"

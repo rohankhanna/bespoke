@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "agenda"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041707,
+      "status": "candidate",
+      "text": "order of business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037247,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033686,
+      "status": "candidate",
+      "text": "schedule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040796,
+      "status": "candidate",
+      "text": "program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040573,
+      "status": "candidate",
+      "text": "timetable"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9052,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "agendum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "order of business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "schedule"
+    }
+  ],
+  "canonical_name": "agenda",
+  "concept_id": "agenda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-wg"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agenda",
+      "sense_id": "agenda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

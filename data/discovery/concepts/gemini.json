@@ -217,6 +217,30 @@
       "source_repo": "zhayujie/CowAgent",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Afnanksalal/co-op",
+      "status": "candidate-context",
+      "text": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Afnanksalal/co-op",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more \u2014 structured multi-round deliberation with genuine model diversity. One command: /council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +345,18 @@
       "source_repo": "zhayujie/CowAgent",
       "status": "candidate",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Afnanksalal/co-op",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -582,11 +618,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Afnanksalal/co-op"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

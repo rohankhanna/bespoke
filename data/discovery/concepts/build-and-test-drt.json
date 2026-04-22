@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Test DRT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Definitional implementation of Cedar language and utilities for DRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Build and Test DRT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate",
+      "text": "Build and Test DRT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490,
+      "status": "candidate",
+      "text": "casework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "algebra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "controller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10418,
+      "status": "candidate",
+      "text": "epitaxy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Test DRT",
+  "concept_id": "build-and-test-drt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test DRT",
+      "sense_id": "build-and-test-drt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

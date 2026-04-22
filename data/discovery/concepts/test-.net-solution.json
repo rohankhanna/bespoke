@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test .NET solution"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "\"Test .NET solution\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate",
+      "text": "\"Test .NET solution\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26035,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25966,
+      "status": "candidate",
+      "text": "nesslerize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "fish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "tare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "bust"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test .NET solution",
+  "concept_id": "test-.net-solution",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bottlenoselabs/c2cs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test .NET solution",
+      "sense_id": "test-.net-solution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

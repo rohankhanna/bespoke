@@ -733,6 +733,234 @@
       "source_repo": "dolfies/discord.py-self",
       "status": "candidate-context",
       "text": "discord.py-self"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "Git client for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Standalone static analysis for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "Yet another json parser serializer for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "Solus Package Monorepo & Issue Tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "The Rust package registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "This repository contains the XBPS source packages collection to build binary packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate-context",
+      "text": "The Microsoft community Windows Package Manager manifest repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://img.shields.io/gitter/room/Microsoft/winget-pkgs)](https://gitter.im/Microsoft/winget-pkgs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "Package manager for Chrome OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "Badges for your personal developer branding, profile, and projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "The official command line interface for the DigitalOcean API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Static AST checker for a11y rules on JSX elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1095,6 +1323,120 @@
       "source_repo": "dolfies/discord.py-self",
       "status": "candidate",
       "text": "discord.py-self"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate",
+      "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/ajson",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate",
+      "text": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "This repository contains the XBPS source packages collection to build binary packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate",
+      "text": "[![Gitter](https://img.shields.io/gitter/room/Microsoft/winget-pkgs)](https://gitter.im/Microsoft/winget-pkgs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate",
+      "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate",
+      "text": "[![GitHub release][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1510,11 +1852,143 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dolfies/discord.py-self"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "sbcgua/ajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "getsolus/packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/crates.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "termux/termux-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "void-linux/void-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/winget-pkgs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

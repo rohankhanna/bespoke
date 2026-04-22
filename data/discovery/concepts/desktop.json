@@ -55,6 +55,18 @@
       "source_repo": "flutter/flutter",
       "status": "candidate-context",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "flutter/flutter",
       "status": "candidate",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "unxsist/jet-pilot"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

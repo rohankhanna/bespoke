@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "rubocop"
+    "rubocop",
+    "Rubocop"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Rubocop"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Rubocop"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rails/webpacker"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

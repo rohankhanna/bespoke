@@ -84,7 +84,7 @@
   "normalized_form": "check-stale-pull-requests",
   "observation_id": "f8479225ea31a8da",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "Check stale pull requests",
   "source_context_snippet": "Check stale pull requests",
   "source_file": ".github/workflows/stale.yml",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Security"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "Release Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "Release Security"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30834,
+      "status": "candidate",
+      "text": "bail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28013,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28013,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "secure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Security",
+  "concept_id": "release-security",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-security.yml",
+      "source_repo": "amiable-dev/llm-council"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Security",
+      "sense_id": "release-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

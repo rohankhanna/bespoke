@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is home to tooling related Dart packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "package:coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "package:coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997497,
+      "status": "candidate",
+      "text": "fourth estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997277,
+      "status": "candidate",
+      "text": "record book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997134,
+      "status": "candidate",
+      "text": "headlines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997096,
+      "status": "candidate",
+      "text": "and finally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994861,
+      "status": "candidate",
+      "text": "jot down"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:coverage",
+      "sense_id": "package-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-coverage",
+  "observation_id": "cce49040d88c2d81",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "package:coverage",
+  "source_context_snippet": "package:coverage",
+  "source_file": ".github/workflows/coverage.yaml",
+  "source_repo": "dart-lang/tools",
+  "source_repo_description": "This repository is home to tooling related Dart packages."
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/crates-build-env",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/crates-build-env",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/crates-build-env",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/crates-build-env",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/crates-build-env",
+      "target": "rust-infra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:04:46.048242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1793
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build environment for third-party Rust crates",
+    "fork": false,
+    "full_name": "rust-lang/crates-build-env",
+    "html_url": "https://github.com/rust-lang/crates-build-env",
+    "language": "Dockerfile",
+    "pushed_at": "2026-03-06T15:53:56Z",
+    "stargazers_count": 78,
+    "topics": [
+      "rust-infra"
+    ],
+    "updated_at": "2026-03-22T18:06:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the source code and the tooling to produce the Docker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-infra"
+    }
+  ]
+}

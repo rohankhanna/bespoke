@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "higress console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Artifacts to OSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Artifacts to OSS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17845,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "administrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "anonymous file transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "anonymous ftp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "authoring language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Artifacts to OSS",
+      "sense_id": "deploy-artifacts-to-oss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-artifacts-to-oss",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-artifacts-to-oss",
+  "observation_id": "1e41f9b3e807f86c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Deploy Artifacts to OSS",
+  "source_context_snippet": "Deploy Artifacts to OSS",
+  "source_file": ".github/workflows/deploy-to-oss.yaml",
+  "source_repo": "higress-group/higress-console",
+  "source_repo_description": "higress console"
+}

@@ -43,6 +43,18 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate-context",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "derekstavis/plugin-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

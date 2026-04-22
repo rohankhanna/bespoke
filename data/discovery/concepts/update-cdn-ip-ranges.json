@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update CDN IP Ranges"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "The Rust package registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "Update CDN IP Ranges"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate",
+      "text": "Update CDN IP Ranges"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21531,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21498,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "convertible currency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update CDN IP Ranges",
+  "concept_id": "update-cdn-ip-ranges",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-cdn-ip-ranges.yml",
+      "source_repo": "rust-lang/crates.io"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CDN IP Ranges",
+      "sense_id": "update-cdn-ip-ranges#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

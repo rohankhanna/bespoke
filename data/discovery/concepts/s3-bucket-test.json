@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "S3 Bucket Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "Node.js tool for easy binary deployment of C++ addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "S3 Bucket Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate",
+      "text": "S3 Bucket Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22397,
+      "status": "candidate",
+      "text": "maund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22363,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22352,
+      "status": "candidate",
+      "text": "james"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14515,
+      "status": "candidate",
+      "text": "lemon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14341,
+      "status": "candidate",
+      "text": "alva"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "S3 Bucket Test",
+  "concept_id": "s3-bucket-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/s3-bucket.yml",
+      "source_repo": "mapbox/node-pre-gyp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "S3 Bucket Test",
+      "sense_id": "s3-bucket-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

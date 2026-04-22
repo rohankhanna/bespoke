@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides Nerd Font icons (glyphs) for use by neovim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pre-commit autoupdate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pre-commit autoupdate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pre-commit autoupdate",
+      "sense_id": "pre-commit-autoupdate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pre-commit-autoupdate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pre-commit-autoupdate",
+  "observation_id": "6ba04bb0fd9931a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Pre-commit autoupdate",
+  "source_context_snippet": "Pre-commit autoupdate",
+  "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+  "source_repo": "nvim-tree/nvim-web-devicons",
+  "source_repo_description": "Provides Nerd Font icons (glyphs) for use by neovim plugins"
+}

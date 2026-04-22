@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release and publish"
+    "release and publish",
+    "release-and-publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Dokploy/cli",
       "status": "candidate-context",
       "text": "release and publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "release-and-publish"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Dokploy/cli",
       "status": "candidate",
       "text": "release and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate",
+      "text": "release-and-publish"
     }
   ],
   "candidate_related_terms": [],
@@ -40,12 +59,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/onPushToMain.yml",
       "source_repo": "Dokploy/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-and-publish.yml",
+      "source_repo": "kulshekhar/ts-jest"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

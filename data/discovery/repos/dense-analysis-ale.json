@@ -16,20 +16,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dense-analysis/ale",
-      "target": "hrsh7th/nvim-cmp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dense-analysis/ale",
-      "target": "itchyny/lightline.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dense-analysis/ale",
       "target": "maximbaz/lightline-ale",
       "target_type": "repository"
     },
@@ -37,7 +23,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dense-analysis/ale",
-      "target": "neoclide/coc.nvim",
+      "target": "neovim/nvim-lspconfig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dense-analysis/ale",
+      "target": "prabirshrestha/vim-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dense-analysis/ale",
+      "target": "rhysd/vim-lsp-ale",
       "target_type": "repository"
     },
     {
@@ -118,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:40:26.920807+00:00",
+  "fetched_at": "2026-04-22T19:13:28.881188+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,7 +143,7 @@
     "html_url": "https://github.com/dense-analysis/ale",
     "language": "Vim Script",
     "pushed_at": "2026-04-15T13:04:59Z",
-    "stargazers_count": 13989,
+    "stargazers_count": 13990,
     "topics": [
       "autocomplete",
       "language-server-protocol",
@@ -158,19 +158,9 @@
       "vim-plugin",
       "vim-plugins"
     ],
-    "updated_at": "2026-04-20T14:16:39Z"
+    "updated_at": "2026-04-21T16:27:14Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hrsh7th/nvim-cmp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "itchyny/lightline.vim",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "maximbaz/lightline-ale",
@@ -178,7 +168,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "neoclide/coc.nvim",
+      "full_name": "neovim/nvim-lspconfig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prabirshrestha/vim-lsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/vim-lsp-ale",
       "source_file": "README.md"
     }
   ],

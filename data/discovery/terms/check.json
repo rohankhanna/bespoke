@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Canop/bacon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "NixOS/nixpkgs"
     }
   ],
   "term": "Check"

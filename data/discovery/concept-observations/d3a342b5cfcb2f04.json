@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ruby specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ruby specs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10900,
+      "status": "candidate",
+      "text": "anaglyph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10900,
+      "status": "candidate",
+      "text": "anthocyanin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10900,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10900,
+      "status": "candidate",
+      "text": "pink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10900,
+      "status": "candidate",
+      "text": "primary colour"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ruby specs",
+      "sense_id": "ruby-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ruby-specs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ruby-specs",
+  "observation_id": "d3a342b5cfcb2f04",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Ruby specs",
+  "source_context_snippet": "Ruby specs",
+  "source_file": ".github/workflows/ruby.yml",
+  "source_repo": "rails/webpacker",
+  "source_repo_description": "Use Webpack to manage app-like JavaScript modules in Rails"
+}

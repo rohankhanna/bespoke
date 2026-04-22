@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "Integration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "Integration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28474,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28331,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12086,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12086,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11063,
+      "status": "candidate",
+      "text": "accession"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration Test",
+  "concept_id": "integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/it-new.yml",
+      "source_repo": "alibaba/nacos"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration Test",
+      "sense_id": "integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/canary.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "neostandard/neostandard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Bearer/bearer"
     }
   ],
   "term": "Canary"

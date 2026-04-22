@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notaryproject/notary",
+      "target": "theupdateframework/specification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notaryproject/notary",
+      "target": "theupdateframework/notary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "notaryproject/notary",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "notaryproject/notary",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "notaryproject/notary",
+      "target": "trust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:57.260065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8749
+    },
+    {
+      "path": "Dockerfile",
+      "size": 727
+    },
+    {
+      "path": "go.mod",
+      "size": 3481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Notary is a project that allows anyone to have trust over arbitrary collections of data",
+    "fork": false,
+    "full_name": "notaryproject/notary",
+    "html_url": "https://github.com/notaryproject/notary",
+    "language": "Go",
+    "pushed_at": "2024-08-07T19:02:32Z",
+    "stargazers_count": 3289,
+    "topics": [
+      "cncf",
+      "docker",
+      "trust"
+    ],
+    "updated_at": "2026-04-13T20:57:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theupdateframework/notary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theupdateframework/specification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trust"
+    }
+  ]
+}

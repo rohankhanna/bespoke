@@ -1,0 +1,106 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BeayemX/GitViper",
+      "target": "jmoiron/humanize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeayemX/GitViper",
+      "target": "commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeayemX/GitViper",
+      "target": "commandline-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeayemX/GitViper",
+      "target": "gitpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeayemX/GitViper",
+      "target": "todo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:50.154090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6664
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enhanced git experience using the command line",
+    "fork": false,
+    "full_name": "BeayemX/GitViper",
+    "html_url": "https://github.com/BeayemX/GitViper",
+    "language": "Python",
+    "pushed_at": "2025-10-28T16:48:29Z",
+    "stargazers_count": 39,
+    "topics": [
+      "cli",
+      "commandline",
+      "commandline-interface",
+      "git",
+      "gitpython",
+      "python",
+      "todo"
+    ],
+    "updated_at": "2024-12-29T19:40:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmoiron/humanize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline-interface"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitpython"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todo"
+    }
+  ]
+}

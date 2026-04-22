@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Draft release"
+    "Draft release",
+    "Draft Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate-context",
       "text": "'Draft release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate-context",
+      "text": "A collection of Safe singleton deployments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate-context",
+      "text": "Draft Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "Draft release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate",
       "text": "'Draft release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate",
+      "text": "Draft Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate",
+      "text": "Draft release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/draft-release.yml",
       "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/draft_release.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coder/code-server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

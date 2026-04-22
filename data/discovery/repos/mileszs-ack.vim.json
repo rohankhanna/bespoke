@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mileszs/ack.vim",
+      "target": "tpope/vim-dispatch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:35.198625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin for the Perl module / CLI script 'ack'",
+    "fork": false,
+    "full_name": "mileszs/ack.vim",
+    "html_url": "https://github.com/mileszs/ack.vim",
+    "language": "Vim script",
+    "pushed_at": "2024-03-12T02:12:15Z",
+    "stargazers_count": 3091,
+    "topics": [],
+    "updated_at": "2026-04-10T18:04:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-dispatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills"
     }
   ]
 }

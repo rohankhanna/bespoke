@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "mattgodbolt/jsbeeb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
     }
   ],
   "term": "Claude Issue Triage"

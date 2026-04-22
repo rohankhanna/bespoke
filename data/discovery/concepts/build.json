@@ -1115,6 +1115,258 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 asdf-vm plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "TypeScript library files for Relay Modern Offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Pure OCaml regular expressions, with support for Perl and POSIX-style strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Symbolic and concrete EVM execution engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Automatically gets credentials for Amazon ECR on docker push/docker pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "A containerd snapshotter plugin which enables standard OCI images to be lazily loaded without requiring a build-time conversion step."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "Package manager for Chrome OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatih/color",
+      "status": "candidate-context",
+      "text": "Color package for Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/color",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "Open source extension marketplace for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "Automatically updated C# bindings for ImGui https://github.com/ocornut/imgui based on cimgui with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "Common interface for tracing/instrumentation libraries in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Official core lightning application by Blockstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 How to minimize Rust binary size \ud83d\udce6 https://github.com/johnthagen/min-sized-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -1675,6 +1927,132 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromebrew/chromebrew",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatih/color",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -2401,11 +2779,149 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "morrys/react-relay-offline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "glfw/glfw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml/ocaml-re"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "awslabs/amazon-ecr-credential-helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "awslabs/soci-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "fatih/color"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bottlenoselabs/imgui-cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "johnthagen/min-sized-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Softeria/ms-365-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -136,6 +136,18 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "A spiritual successor to the standardjs javascript style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +216,12 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate",
+      "text": "Release Please"
     }
   ],
   "candidate_related_terms": [
@@ -337,11 +355,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "neostandard/neostandard"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

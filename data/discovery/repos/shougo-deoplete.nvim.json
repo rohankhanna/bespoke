@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "deoplete-plugins/deoplete-jedi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "archseer/nvim-elixir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "mhartington/deoplete-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "callmekohei/deoplete-fsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "auto-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "deoplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoplete.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:08:04.223795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8",
+    "fork": false,
+    "full_name": "Shougo/deoplete.nvim",
+    "html_url": "https://github.com/Shougo/deoplete.nvim",
+    "language": "Python",
+    "pushed_at": "2024-06-05T23:46:12Z",
+    "stargazers_count": 5911,
+    "topics": [
+      "auto-completion",
+      "deoplete",
+      "nvim",
+      "python",
+      "vim"
+    ],
+    "updated_at": "2026-04-22T09:52:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archseer/nvim-elixir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "callmekohei/deoplete-fsharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deoplete-plugins/deoplete-jedi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhartington/deoplete-typescript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Dark powered asynchronous completion framework for neovim/Vim8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-completion"
+    },
+    {
+      "context_snippet": "> Dark powered asynchronous completion framework for neovim/Vim8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete"
+    },
+    {
+      "context_snippet": "> Dark powered asynchronous completion framework for neovim/Vim8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

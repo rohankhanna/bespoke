@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@c793b717bc78562f491db7b0e93a3a178b099162",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-marketplace"
+    }
+  ]
+}

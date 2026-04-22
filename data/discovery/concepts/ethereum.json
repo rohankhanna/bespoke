@@ -235,6 +235,126 @@
       "source_repo": "eth-brownie/brownie",
       "status": "candidate-context",
       "text": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Complete Ethereum library and wallet implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "The Ethers Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate-context",
+      "text": "Complete Ethereum & Celo library and wallet implementation in Rust. https://docs.rs/ethers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate-context",
+      "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "A fast, secure, and portable multichain light client for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/a16z/helios/actions/workflows/test.yml/badge.svg)](https://github.com/a16z/helios/actions/workflows/test.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![chat](https://img.shield\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/pyevmasm",
+      "status": "candidate-context",
+      "text": "Ethereum Virtual Machine (EVM) disassembler and assembler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/pyevmasm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0c TypeScript bindings for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/go-ethereum",
+      "status": "candidate-context",
+      "text": "Go implementation of the Ethereum protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/go-ethereum",
+      "status": "candidate-context",
+      "text": "Golang execution layer implementation of the Ethereum protocol."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +471,66 @@
       "source_repo": "eth-brownie/brownie",
       "status": "candidate",
       "text": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "The Ethers Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate",
+      "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate",
+      "text": "[![build](https://github.com/a16z/helios/actions/workflows/test.yml/badge.svg)](https://github.com/a16z/helios/actions/workflows/test.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![chat](https://img.shield\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/pyevmasm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/go-ethereum",
+      "status": "candidate",
+      "text": "Golang execution layer implementation of the Ethereum protocol."
     }
   ],
   "candidate_related_terms": [
@@ -520,11 +700,89 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/reth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "gakonst/ethers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/go-ethereum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

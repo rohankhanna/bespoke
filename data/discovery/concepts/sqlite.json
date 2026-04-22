@@ -223,6 +223,18 @@
       "source_repo": "sql-js/react-sqljs-demo",
       "status": "candidate-context",
       "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "Ergonomic bindings to SQLite for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "sql-js/react-sqljs-demo",
       "status": "candidate",
       "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +532,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "sql-js/react-sqljs-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rusqlite/rusqlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

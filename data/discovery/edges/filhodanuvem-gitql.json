@@ -8,20 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "filhodanuvem/gitql",
-      "target": "filhodanuvem/polyglot",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "filhodanuvem/gitql",
-      "target": "dinedal/textql",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "filhodanuvem/gitql",
@@ -85,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "filhodanuvem/gitql"
 }

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Bindgen"
+    "Bindgen",
+    "bindgen"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate-context",
       "text": "\"Bindgen\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "Automatically updated C# bindings for ImGui https://github.com/ocornut/imgui based on cimgui with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "\"Bindgen\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate",
       "text": "\"Bindgen\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate",
+      "text": "\"Bindgen\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +79,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/bindgen.yml",
       "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "bottlenoselabs/imgui-cs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

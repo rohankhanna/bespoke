@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cycle Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "'Cycle Check'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "'Cycle Check'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28057,
+      "status": "candidate",
+      "text": "countercyclical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11766,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11766,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11766,
+      "status": "candidate",
+      "text": "ride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11766,
+      "status": "candidate",
+      "text": "round"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cycle Check",
+  "concept_id": "cycle-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/cycles.yaml",
+      "source_repo": "void-linux/void-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cycle Check",
+      "sense_id": "cycle-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

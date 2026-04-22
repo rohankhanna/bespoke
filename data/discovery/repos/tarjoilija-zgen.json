@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarjoilija/zgen",
+      "target": "unixorn/awesome-zsh-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarjoilija/zgen",
+      "target": "unixorn/zsh-quickstart-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarjoilija/zgen",
+      "target": "unixorn/autoupdate-zgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarjoilija/zgen",
+      "target": "b4b4r07/zplug",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:52.967886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight and simple plugin manager for ZSH",
+    "fork": false,
+    "full_name": "tarjoilija/zgen",
+    "html_url": "https://github.com/tarjoilija/zgen",
+    "language": "Shell",
+    "pushed_at": "2021-07-21T03:56:30Z",
+    "stargazers_count": 1520,
+    "topics": [],
+    "updated_at": "2026-04-22T14:00:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b4b4r07/zplug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unixorn/autoupdate-zgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unixorn/awesome-zsh-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unixorn/zsh-quickstart-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

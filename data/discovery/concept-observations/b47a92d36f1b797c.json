@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042040,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041964,
+      "status": "candidate",
+      "text": "clangour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041811,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041641,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041636,
+      "status": "candidate",
+      "text": "jangle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clang",
+      "sense_id": "clang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14071,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "jangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10033,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9021,
+      "status": "candidate",
+      "text": "clangour"
+    }
+  ],
+  "concept_id": "clang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang",
+  "observation_id": "b47a92d36f1b797c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "clang",
+  "source_context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
+  "source_file": null,
+  "source_repo": "bottlenoselabs/c2cs",
+  "source_repo_description": "Generate C# bindings from a C header."
+}

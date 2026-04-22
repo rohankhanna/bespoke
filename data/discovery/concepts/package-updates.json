@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "Package updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate",
+      "text": "Package updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12634,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11513,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11513,
+      "status": "candidate",
+      "text": "upgrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11340,
+      "status": "candidate",
+      "text": "ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11289,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package updates",
+  "concept_id": "package-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/package_updates.yml",
+      "source_repo": "termux/termux-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package updates",
+      "sense_id": "package-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

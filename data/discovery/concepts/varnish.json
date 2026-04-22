@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "varnish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39763196,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924229,
+      "status": "candidate",
+      "text": "shellac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922637,
+      "status": "candidate",
+      "text": "veneer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920499,
+      "status": "candidate",
+      "text": "glaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920179,
+      "status": "candidate",
+      "text": "paint"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17082,
+      "status": "candidate",
+      "text": "seal"
+    }
+  ],
+  "canonical_name": "varnish",
+  "concept_id": "varnish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darkweak/souin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "varnish",
+      "sense_id": "varnish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Workspace"
+    "Workspace",
+    "workspace"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "RustCrypto/RSA",
       "status": "candidate-context",
       "text": "Workspace"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "RustCrypto/RSA",
       "status": "candidate",
       "text": "Workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/workspace.yml",
       "source_repo": "RustCrypto/RSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

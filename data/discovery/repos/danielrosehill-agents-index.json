@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-deploy",
+      "target": "danielrosehill/agentic-context-development-interview-demo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-handover-demo",
+      "target": "danielrosehill/ai-agent-ideation-agent",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-sdk-env-setup",
+      "target": "danielrosehill/ai-agent-un",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agentic-ai-architecture-visualisation",
+      "target": "danielrosehill/ai-agent-virtual-panel-configs",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:53:31.080327+00:00",
+  "fetched_at": "2026-04-22T19:17:52.205820+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -74,22 +74,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agent-deploy",
+      "full_name": "danielrosehill/agentic-context-development-interview-demo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agent-handover-demo",
+      "full_name": "danielrosehill/ai-agent-ideation-agent",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agent-sdk-env-setup",
+      "full_name": "danielrosehill/ai-agent-un",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agentic-ai-architecture-visualisation",
+      "full_name": "danielrosehill/ai-agent-virtual-panel-configs",
       "source_file": "README.md"
     }
   ],

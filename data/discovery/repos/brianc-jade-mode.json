@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brianc/jade-mode",
+      "target": "flycheck/flycheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:12:40.541151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs major mode for jade template highlighting",
+    "fork": false,
+    "full_name": "brianc/jade-mode",
+    "html_url": "https://github.com/brianc/jade-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2021-10-19T21:13:24Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2025-10-28T14:01:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flycheck/flycheck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

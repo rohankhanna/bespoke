@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -141,6 +141,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "glfw/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gabime/spdlog"
     }
   ],
   "term": "macos"

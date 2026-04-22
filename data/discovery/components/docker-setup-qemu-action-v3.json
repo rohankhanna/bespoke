@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -202,6 +202,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "akfamily/akquant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0xBigBoss/vscode-bootty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "fontforge/fontforge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker.yml",
+      "source_repo": "microsoft/playwright-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "666ghj/MiroFish"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "aaronjmars/MiroShark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ElementsProject/lightning"
     }
   ]
 }

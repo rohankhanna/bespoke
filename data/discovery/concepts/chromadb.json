@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "al1-nasir/Research_council",
+      "status": "candidate-context",
+      "text": "GraphRAG + 4-agent LLM council for biomedical research.  Find contradictions, validate hypotheses, and get  confidence-scored answers, cited to real papers.  Built on Neo4j, LangGraph, Groq & OpenRouter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "al1-nasir/Research_council",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "al1-nasir/Research_council",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "chromadb",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "roampal-ai/roampal-labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

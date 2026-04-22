@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "go-woo/protoc-gen-ent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "ent/ent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "envoyproxy/protoc-gen-validate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "google/gnostic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "automatic-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "echo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "go-generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "low-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "protoc-gen-echo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:16.443702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6891
+    },
+    {
+      "path": "go.mod",
+      "size": 812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate Echo backend code",
+    "fork": false,
+    "full_name": "go-woo/protoc-gen-echo",
+    "html_url": "https://github.com/go-woo/protoc-gen-echo",
+    "language": "Go",
+    "pushed_at": "2022-08-15T09:00:26Z",
+    "stargazers_count": 38,
+    "topics": [
+      "automatic-generation",
+      "echo",
+      "generate",
+      "go-generate",
+      "low-code",
+      "protobuf",
+      "protoc-gen-echo",
+      "protocol-buffers"
+    ],
+    "updated_at": "2026-02-21T09:08:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ent/ent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "envoyproxy/protoc-gen-validate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-woo/protoc-gen-ent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gnostic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-generation"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echo"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generate"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-generate"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-code"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc-gen-echo"
+    },
+    {
+      "context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

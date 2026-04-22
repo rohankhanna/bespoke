@@ -1,12 +1,22 @@
 {
   "component": "oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "badlogic/pi-mono"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/external-links-check.yml",
+      "source_repo": "ClickHouse/agent-skills"
     }
   ]
 }

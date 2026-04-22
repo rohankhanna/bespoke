@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -121,6 +121,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "k8gege/Ladon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "term": "security"

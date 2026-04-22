@@ -19,6 +19,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/razzle"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

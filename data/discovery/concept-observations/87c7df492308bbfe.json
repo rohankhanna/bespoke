@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Definitional implementation of Cedar language and utilities for DRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test Cedar Lean CLI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test Cedar Lean CLI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26437,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26437,
+      "status": "candidate",
+      "text": "thinned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26437,
+      "status": "candidate",
+      "text": "thinning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "overlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "broth"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Cedar Lean CLI",
+      "sense_id": "build-and-test-cedar-lean-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-cedar-lean-cli",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-cedar-lean-cli",
+  "observation_id": "87c7df492308bbfe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Build and Test Cedar Lean CLI",
+  "source_context_snippet": "Build and Test Cedar Lean CLI",
+  "source_file": ".github/workflows/build_and_test_cli_reusable.yml",
+  "source_repo": "cedar-policy/cedar-spec",
+  "source_repo_description": "Definitional implementation of Cedar language and utilities for DRT"
+}

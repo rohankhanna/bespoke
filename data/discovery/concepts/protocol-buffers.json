@@ -55,6 +55,18 @@
       "source_repo": "googleapis/googleapis",
       "status": "candidate-context",
       "text": "This repository contains the original interface definitions of public"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "Generate Echo backend code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "googleapis/googleapis",
       "status": "candidate",
       "text": "This repository contains the original interface definitions of public"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

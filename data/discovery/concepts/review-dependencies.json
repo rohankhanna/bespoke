@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Review dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Automatically gets credentials for Amazon ECR on docker push/docker pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Review dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate",
+      "text": "Review dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14407,
+      "status": "candidate",
+      "text": "dollar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14407,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14407,
+      "status": "candidate",
+      "text": "imperialism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14407,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14407,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Review dependencies",
+  "concept_id": "review-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/review-dependencies.yml",
+      "source_repo": "awslabs/amazon-ecr-credential-helper"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Review dependencies",
+      "sense_id": "review-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

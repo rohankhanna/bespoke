@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -96,6 +96,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "adityasugandhi/skillsync-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanbingxyz/mcpsvr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
     }
   ],
   "term": "mcp-server"

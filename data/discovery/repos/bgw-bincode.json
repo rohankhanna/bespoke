@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "bincode-org/bincode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "rust-lang/flate2-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "servo/ipc-channel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgw/bincode",
+      "target": "ajeetdsouza/zoxide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:38.576103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6078
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1843
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/cross_platform.yml",
+      "size": 10573
+    },
+    {
+      "path": ".github/workflows/miri.yml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 4656
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fork of Bincode 2.0.1, with added functionality and bugfixes",
+    "fork": false,
+    "full_name": "bgw/bincode",
+    "html_url": "https://github.com/bgw/bincode",
+    "language": "Rust",
+    "pushed_at": "2026-02-11T10:45:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-09T23:00:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajeetdsouza/zoxide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bincode-org/bincode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/flate2-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servo/ipc-channel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

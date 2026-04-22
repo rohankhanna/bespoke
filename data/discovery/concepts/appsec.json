@@ -31,6 +31,18 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate-context",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "agamm/claude-code-owasp",
       "status": "candidate",
       "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agamm/claude-code-owasp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

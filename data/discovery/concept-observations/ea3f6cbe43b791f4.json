@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Issue Assignment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Issue Assignment\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "designation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "dall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "essay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Assignment",
+      "sense_id": "issue-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-assignment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-assignment",
+  "observation_id": "ea3f6cbe43b791f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Issue Assignment",
+  "source_context_snippet": "\"Issue Assignment\"",
+  "source_file": ".github/workflows/issue-assign.yml",
+  "source_repo": "alibaba/nacos",
+  "source_repo_description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+}

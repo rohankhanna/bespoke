@@ -2,30 +2,16 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "pyodide/pyodide",
-      "target": "pyodide/pyodide-build",
+      "target": "seleniumhq/selenium_manager_artifacts",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "pyodide/pyodide",
-      "target": "pyodide/pytest-pyodide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyodide/pyodide",
-      "target": "pyodide/micropip",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyodide/pyodide",
-      "target": "iodide-project/iodide",
+      "target": "webassembly/wabt",
       "target_type": "repository"
     },
     {
@@ -274,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "pyodide/pyodide"
 }

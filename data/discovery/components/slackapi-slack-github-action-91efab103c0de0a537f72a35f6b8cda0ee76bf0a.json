@@ -1,0 +1,17 @@
+{
+  "component": "slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clickhouse-best-practices-ci.yml",
+      "source_repo": "ClickHouse/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slack-issue-notification.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript"
+    }
+  ]
+}

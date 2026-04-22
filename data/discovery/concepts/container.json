@@ -58,6 +58,18 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containers/buildah"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "8144225309/lightning",
       "status": "candidate-context",
       "text": "\"Release Rust \ud83e\udd80\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElementsProject/lightning",
+      "status": "candidate-context",
+      "text": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/lightning",
+      "status": "candidate-context",
+      "text": "\"Release Rust \ud83e\udd80\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "8144225309/lightning",
+      "status": "candidate",
+      "text": "\"Release Rust \ud83e\udd80\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/lightning",
       "status": "candidate",
       "text": "\"Release Rust \ud83e\udd80\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/crate-io.yml",
       "source_repo": "8144225309/lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/crate-io.yml",
+      "source_repo": "ElementsProject/lightning"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

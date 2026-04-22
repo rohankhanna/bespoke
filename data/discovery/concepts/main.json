@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "main"
+    "main",
+    "Main"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,66 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate-context",
       "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Standalone static analysis for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "Chafa WebAssembly module to convert images to text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate-context",
+      "text": "\"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "status": "candidate-context",
+      "text": "Mirror of eslint node package for pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "\"Main\""
     }
   ],
   "candidate_glosses": [
@@ -99,6 +160,36 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate",
       "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hectorm/chafa-wasm",
+      "status": "candidate",
+      "text": "\"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate",
+      "text": "\"Main\""
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +311,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hectorm/chafa-wasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ArcadeAI/arcade-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bottlenoselabs/c2cs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

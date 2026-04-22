@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39740960,
+      "status": "candidate",
+      "text": "virago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847481,
+      "status": "candidate",
+      "text": "amazon river"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847480,
+      "status": "candidate",
+      "text": "amazonian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29664825,
+      "status": "candidate",
+      "text": "amazonia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29647216,
+      "status": "candidate",
+      "text": "amazonas"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "amazon",
+      "sense_id": "amazon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "virago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "amazon river"
+    }
+  ],
+  "concept_id": "amazon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "amazon",
+  "observation_id": "4e32be82cd8e75b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "amazon",
+  "source_context_snippet": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience",
+  "source_file": null,
+  "source_repo": "adamlui/ai-web-extensions",
+  "source_repo_description": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+}

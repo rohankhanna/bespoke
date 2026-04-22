@@ -67,6 +67,18 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">typescript-eslint</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Static AST checker for a11y rules on JSX elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate",
       "text": "<h1 align=\"center\">typescript-eslint</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

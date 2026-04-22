@@ -1,0 +1,1131 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_release.sh"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "jakejarvis/wait-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "nick-invision/assert-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "matt-ball/newman-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins-master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins-master.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "matt-ball/newman-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "matt-ball/newman-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "mujo-code/puppeteer-headful@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "flameddd/screenshots-ci-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "edunad/actions-image@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "matt-ball/newman-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "matt-ball/newman-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "pnpm/action-setup@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "mujo-code/puppeteer-headful@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "flameddd/screenshots-ci-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    },
+    {
+      "component": "edunad/actions-image@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "darkweak/souin",
+      "target": "darkweak/go-esi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "darkweak/souin",
+      "target": "darkweak/storages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "darkweak/souin",
+      "target": "buraksezer/olric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "darkweak/souin",
+      "target": "etcd-io/etcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/souin",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/souin",
+      "target": "Tag submodules on release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/souin",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "jakejarvis/wait-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "nick-invision/assert-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "matt-ball/newman-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "source_repo": "darkweak/souin",
+      "target": "Atomic plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins-master.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins-master.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugins-master.yml",
+      "source_repo": "darkweak/souin",
+      "target": "Build and validate Souin as plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "matt-ball/newman-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "pnpm/action-setup@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "mujo-code/puppeteer-headful@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "flameddd/screenshots-ci-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "edunad/actions-image@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "Build and validate Souin as plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "goreleaser/goreleaser-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_plugins.yml",
+      "source_repo": "darkweak/souin",
+      "target": "Tag submodules on release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "matt-ball/newman-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "pnpm/action-setup@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "mujo-code/puppeteer-headful@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "flameddd/screenshots-ci-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "edunad/actions-image@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin",
+      "target": "Build and validate Souin as plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "caddy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "caddy-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "caddy-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "caddy-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "caddyserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "echo-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "gin-gonic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "gin-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "http-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "labstack-echo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "skipper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "souin-instance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "traefik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "traefik-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "traefik-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "tyk-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/souin",
+      "target": "varnish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:05.872722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79295
+    },
+    {
+      "path": "go.mod",
+      "size": 5919
+    },
+    {
+      "path": ".github/workflows/generate_release.sh",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/non-regression.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/plugin_template.yml",
+      "size": 2363
+    },
+    {
+      "path": ".github/workflows/plugins-master.yml",
+      "size": 1291
+    },
+    {
+      "path": ".github/workflows/plugins.yml",
+      "size": 8689
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3545
+    },
+    {
+      "path": ".github/workflows/release_plugins.yml",
+      "size": 6813
+    },
+    {
+      "path": ".github/workflows/workflow_plugins_generator.sh",
+      "size": 7499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache",
+    "fork": false,
+    "full_name": "darkweak/souin",
+    "html_url": "https://github.com/darkweak/souin",
+    "language": "Go",
+    "pushed_at": "2026-04-16T23:45:10Z",
+    "stargazers_count": 958,
+    "topics": [
+      "cache",
+      "caddy",
+      "caddy-module",
+      "caddy-plugin",
+      "caddy-server",
+      "caddyserver",
+      "echo-framework",
+      "gin-gonic",
+      "gin-middleware",
+      "http-cache",
+      "labstack-echo",
+      "middleware",
+      "skipper",
+      "souin-instance",
+      "traefik",
+      "traefik-plugin",
+      "traefik-v2",
+      "tyk",
+      "tyk-gateway",
+      "varnish"
+    ],
+    "updated_at": "2026-04-16T21:50:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buraksezer/olric",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkweak/go-esi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkweak/storages",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etcd-io/etcd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tag submodules on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_release.sh",
+      "term": "Tag submodules on release"
+    },
+    {
+      "context_snippet": "Atomic plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin_template.yml",
+      "term": "Atomic plugin"
+    },
+    {
+      "context_snippet": "Build and validate Souin as plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugins-master.yml",
+      "term": "Build and validate Souin as plugins"
+    },
+    {
+      "context_snippet": "Build and validate Souin as plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugins.yml",
+      "term": "Build and validate Souin as plugins"
+    },
+    {
+      "context_snippet": "Tag submodules on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_plugins.yml",
+      "term": "Tag submodules on release"
+    },
+    {
+      "context_snippet": "Build and validate Souin as plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "term": "Build and validate Souin as plugins"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy-module"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy-plugin"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy-server"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddyserver"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echo-framework"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gin-gonic"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gin-middleware"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-cache"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labstack-echo"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skipper"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "souin-instance"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traefik"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traefik-plugin"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traefik-v2"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tyk-gateway"
+    },
+    {
+      "context_snippet": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "varnish"
+    }
+  ]
+}

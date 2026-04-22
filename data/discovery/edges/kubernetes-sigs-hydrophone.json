@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "Update Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-trivy-scan.yml",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "Weekly Trivy Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "k8s-sig-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "target": "k8s-sig-testing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "kubernetes-sigs/hydrophone"
+}

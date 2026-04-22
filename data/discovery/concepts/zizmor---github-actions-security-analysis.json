@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "zizmor - GitHub Actions Security Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "zizmor - GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "zizmor - GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26246,
+      "status": "candidate",
+      "text": "behaviourism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "only"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17884,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "zizmor - GitHub Actions Security Analysis",
+  "concept_id": "zizmor---github-actions-security-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pypa/cibuildwheel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "zizmor - GitHub Actions Security Analysis",
+      "sense_id": "zizmor---github-actions-security-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

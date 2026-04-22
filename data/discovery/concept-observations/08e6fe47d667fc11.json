@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smart-contracts",
+      "sense_id": "smart-contracts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smart-contracts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smart-contracts",
+  "observation_id": "08e6fe47d667fc11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "smart-contracts",
+  "source_context_snippet": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)",
+  "source_file": null,
+  "source_repo": "NomicFoundation/hardhat",
+  "source_repo_description": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+}

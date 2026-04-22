@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Consensys/ethereum-dissectors",
-      "target": "wireshark/wireshark",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:42:14.554548+00:00",
+  "fetched_at": "2026-04-22T19:22:25.441912+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,11 +78,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "consensys/devp2p-dissectors",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wireshark/wireshark",
       "source_file": "README.md"
     }
   ],

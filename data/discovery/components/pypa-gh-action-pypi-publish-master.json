@@ -1,0 +1,12 @@
+{
+  "component": "pypa/gh-action-pypi-publish@master",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Command Doc Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Command Doc Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "Command Doc Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18780,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "mandate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "prescribe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Command Doc Check",
+  "concept_id": "command-doc-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/command_doc_check.yml",
+      "source_repo": "Bearer/bearer"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Command Doc Check",
+      "sense_id": "command-doc-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

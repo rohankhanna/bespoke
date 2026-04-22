@@ -48,7 +48,7 @@
   "normalized_form": "deploy-release",
   "observation_id": "19a28c8dc8258f17",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "deploy-release",
   "source_context_snippet": "deploy-release",
   "source_file": ".github/workflows/deploy_release.yml",

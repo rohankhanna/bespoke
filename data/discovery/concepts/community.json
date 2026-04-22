@@ -34,6 +34,18 @@
       "source_repo": "berty/community",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "Convenience shortname repository for asdf community plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "berty/community",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
     }
   ],
   "candidate_related_terms": [
@@ -145,11 +163,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "berty/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

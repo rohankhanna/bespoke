@@ -929,6 +929,120 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 asdf-vm plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "Convenience shortname repository for asdf community plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Official Go implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Example code for using alloy and alloy-core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Official core lightning application by Blockstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "Date and time library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "lint"
     }
   ],
   "candidate_glosses": [
@@ -1391,6 +1505,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "asdf-vm/actions",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/cln-application",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
       "status": "candidate",
       "text": "lint"
     }
@@ -2065,11 +2239,95 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/semantic-pr.yaml",
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "alloy-rs/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Bearer/bearer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "chronotope/chrono"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

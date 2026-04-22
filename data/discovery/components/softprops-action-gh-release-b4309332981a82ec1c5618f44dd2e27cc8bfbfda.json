@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-tip.yml",
       "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit"
     }
   ]
 }

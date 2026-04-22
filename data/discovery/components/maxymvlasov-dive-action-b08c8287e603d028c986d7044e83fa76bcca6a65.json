@@ -1,0 +1,12 @@
+{
+  "component": "MaxymVlasov/dive-action@b08c8287e603d028c986d7044e83fa76bcca6a65",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image-test.yaml",
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    }
+  ]
+}

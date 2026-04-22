@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -297,6 +297,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/php-tests.yml",
       "source_repo": "fukuball/jieba-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/it.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-pr.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.1.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.2.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.3.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "fontforge/fontforge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml",
+      "source_repo": "Layr-Labs/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "justfoxing/ghidra_bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "HypothesisWorks/hypothesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coder/envbuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bottlenoselabs/imgui-cs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ElementsProject/cln-application"
     }
   ]
 }

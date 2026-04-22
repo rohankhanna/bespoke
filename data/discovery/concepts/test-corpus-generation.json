@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Corpus Generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Definitional implementation of Cedar language and utilities for DRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Test Corpus Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate",
+      "text": "Test Corpus Generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18985,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "catastasis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concatenation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18953,
+      "status": "candidate",
+      "text": "concurrency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Corpus Generation",
+  "concept_id": "test-corpus-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Corpus Generation",
+      "sense_id": "test-corpus-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

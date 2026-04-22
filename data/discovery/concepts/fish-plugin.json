@@ -19,6 +19,18 @@
       "source_repo": "matchai/spacefish",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate-context",
+      "text": "A plugin manager for Fish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate-context",
+      "text": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "matchai/spacefish",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate",
+      "text": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "matchai/spacefish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/fisher"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

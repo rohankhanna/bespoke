@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neovim plugin to manage the file system and other tree like structures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "EmmyLua Analyzer Diagnostics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "EmmyLua Analyzer Diagnostics"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "analyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "cca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "analyst"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EmmyLua Analyzer Diagnostics",
+      "sense_id": "emmylua-analyzer-diagnostics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emmylua-analyzer-diagnostics",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emmylua-analyzer-diagnostics",
+  "observation_id": "d523696c3bd57ad2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "EmmyLua Analyzer Diagnostics",
+  "source_context_snippet": "EmmyLua Analyzer Diagnostics",
+  "source_file": ".github/workflows/emmylua-check.yml",
+  "source_repo": "nvim-neo-tree/neo-tree.nvim",
+  "source_repo_description": "Neovim plugin to manage the file system and other tree like structures."
+}

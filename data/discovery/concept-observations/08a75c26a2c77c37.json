@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make Ranger running in a floating window to communicate with Neovim via RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924219,
+      "status": "candidate",
+      "text": "commando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "fire warden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "forest fire fighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "texas ranger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959873,
+      "status": "candidate",
+      "text": "prowler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ranger",
+      "sense_id": "ranger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6035,
+      "status": "candidate",
+      "text": "commando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "fire warden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "forest fire fighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "texas ranger"
+    }
+  ],
+  "concept_id": "ranger",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ranger",
+  "observation_id": "08a75c26a2c77c37",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ranger",
+  "source_context_snippet": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.",
+  "source_file": null,
+  "source_repo": "kevinhwang91/rnvimr",
+  "source_repo_description": "Make Ranger running in a floating window to communicate with Neovim via RPC"
+}

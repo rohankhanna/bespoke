@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "cowboy/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "alrra/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "gf3/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "janmoesen/tilde",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles",
+      "target": "macos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:41.638202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS",
+    "fork": false,
+    "full_name": "mathiasbynens/dotfiles",
+    "html_url": "https://github.com/mathiasbynens/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2024-08-05T19:06:13Z",
+    "stargazers_count": 31316,
+    "topics": [
+      "bash",
+      "dotfiles",
+      "macos"
+    ],
+    "updated_at": "2026-04-21T16:11:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alrra/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cowboy/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gf3/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janmoesen/tilde",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    }
+  ]
+}

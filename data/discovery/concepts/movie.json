@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "movie"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017423,
+      "status": "candidate",
+      "text": "motion picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013810,
+      "status": "candidate",
+      "text": "moving picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012655,
+      "status": "candidate",
+      "text": "picture show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009997,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973823,
+      "status": "candidate",
+      "text": "film"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4052,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "motion picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "moving picture"
+    }
+  ],
+  "canonical_name": "movie",
+  "concept_id": "movie",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "movie",
+      "sense_id": "movie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

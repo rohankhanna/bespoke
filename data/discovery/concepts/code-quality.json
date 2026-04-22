@@ -82,6 +82,18 @@
       "source_repo": "agent-sh/enhance",
       "status": "candidate-context",
       "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "agent-sh/enhance",
       "status": "candidate",
       "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +235,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "agent-sh/enhance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

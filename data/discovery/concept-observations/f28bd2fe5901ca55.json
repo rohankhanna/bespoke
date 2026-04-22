@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby gem to cache and verify the licenses of dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Licensed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Licensed"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972586,
+      "status": "candidate",
+      "text": "licenced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966220,
+      "status": "candidate",
+      "text": "accredited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964026,
+      "status": "candidate",
+      "text": "authorized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977031,
+      "status": "candidate",
+      "text": "commissioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977030,
+      "status": "candidate",
+      "text": "licensee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Licensed",
+      "sense_id": "licensed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "accredited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "authorized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "commissioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "licenced"
+    }
+  ],
+  "concept_id": "licensed",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "licensed",
+  "observation_id": "f28bd2fe5901ca55",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Licensed",
+  "source_context_snippet": "Licensed",
+  "source_file": ".github/workflows/licensed.yml",
+  "source_repo": "licensee/licensed",
+  "source_repo_description": "A Ruby gem to cache and verify the licenses of dependencies"
+}

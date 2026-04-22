@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A posix script to find and watch youtube videos from the terminal. (Without API)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dmenu",
+      "sense_id": "dmenu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dmenu",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dmenu",
+  "observation_id": "a9c426c1ad434dca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "dmenu",
+  "source_context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+  "source_file": null,
+  "source_repo": "pystardust/ytfzf",
+  "source_repo_description": "A posix script to find and watch youtube videos from the terminal. (Without API)"
+}

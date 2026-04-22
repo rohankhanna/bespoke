@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-tracecontext-testsuite.yml",
       "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rc.yml",
+      "source_repo": "apache/arrow-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "int128/kubelogin"
     }
   ]
 }

@@ -69,6 +69,30 @@
       "source_repo": "mozilla/sccache",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Official Go implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "A fast, secure, and portable multichain light client for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +125,18 @@
       "source_repo": "mozilla/sccache",
       "status": "candidate",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate",
+      "text": "benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -221,11 +257,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "a16z/helios"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

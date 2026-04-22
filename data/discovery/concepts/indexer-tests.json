@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "indexer tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "indexer tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "indexer tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "achievement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "programmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "rorschach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "indexer tests",
+  "concept_id": "indexer-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/index_build_tests.yml",
+      "source_repo": "google/oss-fuzz"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "indexer tests",
+      "sense_id": "indexer-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

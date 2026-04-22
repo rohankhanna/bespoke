@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Symbolic and concrete EVM execution engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "\"Check Dependencies\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate",
+      "text": "\"Check Dependencies\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16660,
+      "status": "candidate",
+      "text": "imperialism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16660,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16660,
+      "status": "candidate",
+      "text": "pounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15136,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15136,
+      "status": "candidate",
+      "text": "bet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Dependencies",
+  "concept_id": "check-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check-dependencies.yml",
+      "source_repo": "argotorg/hevm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Dependencies",
+      "sense_id": "check-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

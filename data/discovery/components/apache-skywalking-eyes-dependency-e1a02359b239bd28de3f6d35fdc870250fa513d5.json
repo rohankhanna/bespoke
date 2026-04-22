@@ -1,0 +1,12 @@
+{
+  "component": "apache/skywalking-eyes/dependency@e1a02359b239bd28de3f6d35fdc870250fa513d5",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-pr.yml",
+      "source_repo": "apache/dubbo"
+    }
+  ]
+}

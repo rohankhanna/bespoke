@@ -31,6 +31,18 @@
       "source_repo": "danielrosehill/AI-Projects-Index",
       "status": "candidate-context",
       "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "Indexing repo of backup related projects and scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "danielrosehill/AI-Projects-Index",
       "status": "candidate",
       "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

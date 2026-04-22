@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-client-kotlin",
+      "target": "meta-llama/llama-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-client-kotlin",
+      "target": "meta-llama/llama-stack-client-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-client-kotlin",
+      "target": "meta-llama/llama-stack-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-client-kotlin",
+      "target": "objectbox/objectbox-java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:03:26.127960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kotlin SDK for Llama Stack",
+    "fork": false,
+    "full_name": "llamastack/llama-stack-client-kotlin",
+    "html_url": "https://github.com/llamastack/llama-stack-client-kotlin",
+    "language": "Kotlin",
+    "pushed_at": "2025-10-20T21:39:04Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-03-22T19:08:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-kotlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

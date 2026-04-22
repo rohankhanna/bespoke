@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/crate-bump.yml",
       "source_repo": "8144225309/lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "HypothesisWorks/hypothesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sindresorhus/globals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crate-bump.yml",
+      "source_repo": "ElementsProject/lightning"
     }
   ]
 }

@@ -79,6 +79,18 @@
       "source_repo": "ekalinin/github-markdown-toc",
       "status": "candidate-context",
       "text": "gh-md-toc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ekalinin/github-markdown-toc",
       "status": "candidate",
       "text": "gh-md-toc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ekalinin/github-markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

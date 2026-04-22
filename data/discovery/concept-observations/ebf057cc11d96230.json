@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Patches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Patches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12571,
+      "status": "candidate",
+      "text": "spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12329,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12268,
+      "status": "candidate",
+      "text": "psoriasis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12165,
+      "status": "candidate",
+      "text": "ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12165,
+      "status": "candidate",
+      "text": "sewn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Patches",
+      "sense_id": "run-patches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-patches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-patches",
+  "observation_id": "ebf057cc11d96230",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Run Patches",
+  "source_context_snippet": "Run Patches",
+  "source_file": ".github/workflows/patch.yml",
+  "source_repo": "microsoft/vscode-dev-containers",
+  "source_repo_description": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+}

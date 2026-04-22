@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CLI Integration (No Auth)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "CLI Integration (No Auth)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "CLI Integration (No Auth)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "committee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "honesty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "honor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CLI Integration (No Auth)",
+  "concept_id": "cli-integration-no-auth",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/cli-integration-no-auth.yml",
+      "source_repo": "ArcadeAI/arcade-mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CLI Integration (No Auth)",
+      "sense_id": "cli-integration-no-auth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

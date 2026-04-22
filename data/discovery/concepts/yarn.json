@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "yarn"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933243,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39760211,
+      "status": "candidate",
+      "text": "story"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39757078,
+      "status": "candidate",
+      "text": "tale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755754,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755470,
+      "status": "candidate",
+      "text": "narrative"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30039,
+      "status": "candidate",
+      "text": "narrative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17071,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "tale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "story"
+    }
+  ],
+  "canonical_name": "yarn",
+  "concept_id": "yarn",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rails/webpacker"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yarn",
+      "sense_id": "yarn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

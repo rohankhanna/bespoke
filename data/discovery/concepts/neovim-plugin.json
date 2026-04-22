@@ -103,6 +103,42 @@
       "source_repo": "mrjones2014/codesettings.nvim",
       "status": "candidate-context",
       "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate-context",
+      "text": "Navigate and manipulate file system. Part of 'mini.nvim' library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-files_readme.png?raw=true\" alt=\"mini.files\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate-context",
+      "text": "Icon provider. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-icons_readme.png?raw=true\" alt=\"mini.icons\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddbc\ufe0f Bringing images to Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds image support to Neovim using [Kitty's Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) or [ueberzugpp](https://github.com/jstkdng/ueberzugpp)."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "mrjones2014/codesettings.nvim",
       "status": "candidate",
       "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-files_readme.png?raw=true\" alt=\"mini.files\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-icons_readme.png?raw=true\" alt=\"mini.icons\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate",
+      "text": "This plugin adds image support to Neovim using [Kitty's Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) or [ueberzugpp](https://github.com/jstkdng/ueberzugpp)."
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +268,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mrjones2014/codesettings.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "3rd/image.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

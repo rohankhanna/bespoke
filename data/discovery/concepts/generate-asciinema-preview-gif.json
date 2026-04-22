@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate asciinema preview gif"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benthayer/git-gud",
+      "status": "candidate-context",
+      "text": "Wanna git gud? Then get git-gud, and git gud at git!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benthayer/git-gud",
+      "status": "candidate-context",
+      "text": "Generate asciinema preview gif"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benthayer/git-gud",
+      "status": "candidate",
+      "text": "Generate asciinema preview gif"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "aconite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "cube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "curare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "lloyd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate asciinema preview gif",
+  "concept_id": "generate-asciinema-preview-gif",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate asciinema preview gif",
+      "sense_id": "generate-asciinema-preview-gif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The GitHub ToolKit for developing GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cache-windows-bsd-unit-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cache-windows-bsd-unit-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cache-windows-bsd-unit-tests",
+      "sense_id": "cache-windows-bsd-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cache-windows-bsd-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cache-windows-bsd-unit-tests",
+  "observation_id": "81d4523e44fa4ce4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "cache-windows-bsd-unit-tests",
+  "source_context_snippet": "cache-windows-bsd-unit-tests",
+  "source_file": ".github/workflows/cache-windows-test.yml",
+  "source_repo": "actions/toolkit",
+  "source_repo_description": "The GitHub ToolKit for developing GitHub Actions."
+}

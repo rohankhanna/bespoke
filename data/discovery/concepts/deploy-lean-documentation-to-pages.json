@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Lean Documentation to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Definitional implementation of Cedar language and utilities for DRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate-context",
+      "text": "Deploy Lean Documentation to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-spec",
+      "status": "candidate",
+      "text": "Deploy Lean Documentation to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43600,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28997,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28986,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28968,
+      "status": "candidate",
+      "text": "fly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28938,
+      "status": "candidate",
+      "text": "justify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Lean Documentation to Pages",
+  "concept_id": "deploy-lean-documentation-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Lean Documentation to Pages",
+      "sense_id": "deploy-lean-documentation-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

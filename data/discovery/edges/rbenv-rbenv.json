@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rbenv/rbenv",
-      "target": "rbenv/rbenv-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rbenv/rbenv",
-      "target": "rbenv/ruby-build",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rbenv/rbenv",
@@ -92,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "rbenv/rbenv"
 }

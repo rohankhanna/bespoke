@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "eth-sync-test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "eth-sync-test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate",
+      "text": "eth-sync-test"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "eth-sync-test",
+  "concept_id": "eth-sync-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/eth-sync.yml",
+      "source_repo": "boundless-xyz/reth"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "eth-sync-test",
+      "sense_id": "eth-sync-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

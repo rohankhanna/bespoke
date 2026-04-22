@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:23:31.698982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COIN-OR build and installation script",
+    "fork": false,
+    "full_name": "coin-or/coinbrew",
+    "html_url": "https://github.com/coin-or/coinbrew",
+    "language": "Shell",
+    "pushed_at": "2026-03-11T19:19:33Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-03-11T19:19:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -32,6 +32,18 @@
       "source_repo": "Kampfkarren/selene",
       "status": "candidate-context",
       "text": "Generate documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Complete Ethereum library and wallet implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Generate Documentation"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "Kampfkarren/selene",
       "status": "candidate",
       "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "Generate Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/generate-docs.yml",
       "source_repo": "Kampfkarren/selene"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

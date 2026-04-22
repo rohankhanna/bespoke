@@ -1,12 +1,17 @@
 {
   "component": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kubernetes-sigs/verify-conformance"
     }
   ]
 }

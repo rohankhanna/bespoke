@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-eslint",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:15:23.286218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1256
+    },
+    {
+      "path": "package.json",
+      "size": 133
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of eslint node package for pre-commit.",
+    "fork": false,
+    "full_name": "pre-commit/mirrors-eslint",
+    "html_url": "https://github.com/pre-commit/mirrors-eslint",
+    "language": null,
+    "pushed_at": "2026-04-18T08:30:05Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-18T08:30:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

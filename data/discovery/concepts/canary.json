@@ -19,12 +19,48 @@
       "source_repo": "dart-lang/ecosystem",
       "status": "candidate-context",
       "text": "Canary"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "A spiritual successor to the standardjs javascript style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "Canary"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Canary"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/ecosystem",
+      "status": "candidate",
+      "text": "Canary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate",
+      "text": "Canary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
       "status": "candidate",
       "text": "Canary"
     }
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/canary.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "neostandard/neostandard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

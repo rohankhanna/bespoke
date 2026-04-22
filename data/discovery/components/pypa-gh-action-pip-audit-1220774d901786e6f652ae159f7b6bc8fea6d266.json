@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pip-audit.yml",
       "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/pyevmasm"
     }
   ]
 }

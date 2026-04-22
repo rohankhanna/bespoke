@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "Stale Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "Stale Cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "dishpan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10550,
+      "status": "candidate",
+      "text": "abuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10550,
+      "status": "candidate",
+      "text": "acupuncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10550,
+      "status": "candidate",
+      "text": "alar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10550,
+      "status": "candidate",
+      "text": "albeit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Cleanup",
+  "concept_id": "stale-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "void-linux/void-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Cleanup",
+      "sense_id": "stale-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

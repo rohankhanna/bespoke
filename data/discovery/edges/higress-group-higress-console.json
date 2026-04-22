@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "wahyd4/kubectl-helm-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Deploy Artifacts to K8s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "stefanprodan/kube-tools@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "engineerd/setup-kind@v0.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Deploy Artifacts to OSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Frontend Code Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "apache/skywalking-eyes/header@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "apache/skywalking-eyes/dependency@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "higress-group/higress-console"
+}

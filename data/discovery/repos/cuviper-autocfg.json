@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.87.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cuviper/autocfg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cuviper/autocfg",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cuviper/autocfg",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cuviper/autocfg",
+      "target": "dtolnay/rust-toolchain@1.87.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:13:43.881689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3699
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatic cfg for Rust compiler features",
+    "fork": false,
+    "full_name": "cuviper/autocfg",
+    "html_url": "https://github.com/cuviper/autocfg",
+    "language": "Rust",
+    "pushed_at": "2026-02-05T23:34:11Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-03-02T08:05:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

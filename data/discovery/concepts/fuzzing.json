@@ -34,6 +34,36 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "The property-based testing library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "Fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +76,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "foundry-rs/foundry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate",
+      "text": "Fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -103,11 +151,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "HypothesisWorks/hypothesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "HypothesisWorks/hypothesis"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

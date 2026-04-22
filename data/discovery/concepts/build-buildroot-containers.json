@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build buildroot containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "'Build buildroot containers'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "'Build buildroot containers'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "cans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "containership"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "nox"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build buildroot containers",
+  "concept_id": "build-buildroot-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build buildroot containers",
+      "sense_id": "build-buildroot-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

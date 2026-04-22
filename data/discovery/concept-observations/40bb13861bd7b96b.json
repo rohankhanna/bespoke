@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wanna git gud? Then get git-gud, and git gud at git!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate asciinema preview gif"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate asciinema preview gif"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "aconite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "cube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "curare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "lloyd"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate asciinema preview gif",
+      "sense_id": "generate-asciinema-preview-gif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-asciinema-preview-gif",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-asciinema-preview-gif",
+  "observation_id": "40bb13861bd7b96b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Generate asciinema preview gif",
+  "source_context_snippet": "Generate asciinema preview gif",
+  "source_file": ".github/workflows/generate-preview.yml",
+  "source_repo": "benthayer/git-gud",
+  "source_repo_description": "Wanna git gud? Then get git-gud, and git gud at git!"
+}

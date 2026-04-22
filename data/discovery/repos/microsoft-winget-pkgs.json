@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pesterTests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scriptAnalyzer.yaml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellCheck.yaml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellCheck.yaml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellCheck.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pesterTests.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pesterTests.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "Pester Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scriptAnalyzer.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scriptAnalyzer.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "PSScriptAnalyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellCheck.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "check-spelling/check-spelling@v0.0.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellCheck.yaml",
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "Spell Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-pkgs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:38.447427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3538
+    },
+    {
+      "path": ".github/workflows/pesterTests.yaml",
+      "size": 1468
+    },
+    {
+      "path": ".github/workflows/scriptAnalyzer.yaml",
+      "size": 1389
+    },
+    {
+      "path": ".github/workflows/spellCheck.yaml",
+      "size": 4023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Microsoft community Windows Package Manager manifest repository",
+    "fork": false,
+    "full_name": "microsoft/winget-pkgs",
+    "html_url": "https://github.com/microsoft/winget-pkgs",
+    "language": null,
+    "pushed_at": "2026-04-22T18:50:58Z",
+    "stargazers_count": 10504,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-22T18:51:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pester Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pesterTests.yaml",
+      "term": "Pester Tests"
+    },
+    {
+      "context_snippet": "PSScriptAnalyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scriptAnalyzer.yaml",
+      "term": "PSScriptAnalyzer"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellCheck.yaml",
+      "term": "Spell Checking"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/gitter/room/Microsoft/winget-pkgs)](https://gitter.im/Microsoft/winget-pkgs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

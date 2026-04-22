@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "syncthing/syncthing",
+      "target": "syncthing/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "syncthing/syncthing",
+      "target": "gobwas/glob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "syncthing/syncthing",
+      "target": "jackpal/gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-infra-dockers.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Build Infrastructure Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nightly.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Build Syncthing (Nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/checkout`)",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "azure/trusted-signing-action@0d74250c661747df006298d0fb49944c10f16e03",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "vmactions/omnios-vm@68da93c6d9812b29fc90c5b5141b093f84a590fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker://ghcr.io/kastelo/ezapt:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "ruby/setup-ruby@eab2afb99481ca09a4e91171a8e0aee0e89bfedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker://docker.io/rclone/rclone:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/attest-build-provenance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker://docker.io/regclient/regsync:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Build Syncthing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirrors.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirrors.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "yesolutions/mirror-action@662fce0eced8996f64d7fa264d76cddd84827f33",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirrors.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Mirrors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-members.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "docker://ghcr.io/calmh/github-org-members:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-members.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Org membership recommendations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "srvaroa/labeler@9c29ad1ef33d169f9ef33c52722faf47a566bcf3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "PR metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-syncthing.yaml",
+      "source_repo": "syncthing/syncthing",
+      "target": "Release Syncthing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syncthing/syncthing",
+      "target": "peer-to-peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syncthing/syncthing",
+      "target": "synchronization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "syncthing/syncthing"
+}

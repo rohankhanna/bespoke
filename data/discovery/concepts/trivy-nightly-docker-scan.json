@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trivy Nightly Docker Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "Trivy Nightly Docker Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate",
+      "text": "Trivy Nightly Docker Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17987,
+      "status": "candidate",
+      "text": "miner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10253,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10253,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10188,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10188,
+      "status": "candidate",
+      "text": "mac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trivy Nightly Docker Scan",
+  "concept_id": "trivy-nightly-docker-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/trivy-docker.yaml",
+      "source_repo": "coder/code-server"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trivy Nightly Docker Scan",
+      "sense_id": "trivy-nightly-docker-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

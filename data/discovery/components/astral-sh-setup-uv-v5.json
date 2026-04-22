@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/merge.yaml",
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AdamStrojek/rust-agentai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-security.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ElementsProject/lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-nightly.yaml",
+      "source_repo": "ElementsProject/lightning"
     }
   ]
 }

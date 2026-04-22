@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050621,
+      "status": "candidate",
+      "text": "keel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050574,
+      "status": "candidate",
+      "text": "pilothouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050570,
+      "status": "candidate",
+      "text": "aport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050556,
+      "status": "candidate",
+      "text": "amidships"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050189,
+      "status": "candidate",
+      "text": "rudder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helm",
+      "sense_id": "helm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm",
+  "observation_id": "03b8d311e672f8d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "helm",
+  "source_context_snippet": "<!-- markdownlint-disable MD041 -->",
+  "source_file": null,
+  "source_repo": "helm/hub",
+  "source_repo_description": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/"
+}

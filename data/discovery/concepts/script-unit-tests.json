@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Script unit tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "Script unit tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate",
+      "text": "Script unit tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28317,
+      "status": "candidate",
+      "text": "letter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28317,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28317,
+      "status": "candidate",
+      "text": "scene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21653,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21653,
+      "status": "candidate",
+      "text": "secretary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Script unit tests",
+  "concept_id": "script-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scripts.yaml",
+      "source_repo": "coder/code-server"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Script unit tests",
+      "sense_id": "script-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR helper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "PR helper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "PR helper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10693,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10693,
+      "status": "candidate",
+      "text": "spinmeister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "asserter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "compress"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR helper",
+  "concept_id": "pr-helper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR helper",
+      "sense_id": "pr-helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

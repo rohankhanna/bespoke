@@ -19,6 +19,18 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "status": "candidate-context",
       "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "status": "candidate",
       "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

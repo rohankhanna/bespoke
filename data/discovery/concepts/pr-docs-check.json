@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR docs check \ud83d\udd0d"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "PR docs check \ud83d\udd0d"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate",
+      "text": "PR docs check \ud83d\udd0d"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22741,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22741,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22700,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22700,
+      "status": "candidate",
+      "text": "predominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16056,
+      "status": "candidate",
+      "text": "med"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR docs check \ud83d\udd0d",
+  "concept_id": "pr-docs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pr-docs-check.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR docs check \ud83d\udd0d",
+      "sense_id": "pr-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

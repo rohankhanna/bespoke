@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Staking app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "contracts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "contracts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048726,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044312,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038314,
+      "status": "candidate",
+      "text": "sign up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026798,
+      "status": "candidate",
+      "text": "undertake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023626,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contracts",
+      "sense_id": "contracts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contracts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contracts",
+  "observation_id": "c288d71e920bd527",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "contracts",
+  "source_context_snippet": "contracts",
+  "source_file": ".github/workflows/ci_contracts.yml",
+  "source_repo": "aragon/staking",
+  "source_repo_description": "Staking app"
+}

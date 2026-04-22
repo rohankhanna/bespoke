@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pystardust/ytfzf",
+      "target": "curl/curl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pystardust/ytfzf",
+      "target": "mpv-player/mpv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pystardust/ytfzf",
+      "target": "posva/catimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pystardust/ytfzf",
+      "target": "artemsen/swayimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-check.yml",
+      "source_repo": "pystardust/ytfzf",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-check.yml",
+      "source_repo": "pystardust/ytfzf",
+      "target": "full-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf",
+      "target": "dmenu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf",
+      "target": "ueberzug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pystardust/ytfzf",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:07:29.386306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8198
+    },
+    {
+      "path": ".github/workflows/full-check.yml",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A posix script to find and watch youtube videos from the terminal. (Without API)",
+    "fork": false,
+    "full_name": "pystardust/ytfzf",
+    "html_url": "https://github.com/pystardust/ytfzf",
+    "language": "Shell",
+    "pushed_at": "2024-09-27T07:00:01Z",
+    "stargazers_count": 4083,
+    "topics": [
+      "cli",
+      "dmenu",
+      "fzf",
+      "posix",
+      "terminal",
+      "ueberzug",
+      "youtube"
+    ],
+    "updated_at": "2026-04-22T09:53:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artemsen/swayimg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "curl/curl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpv-player/mpv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "posva/catimg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "full-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-check.yml",
+      "term": "full-check"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dmenu"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ueberzug"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained, it should still work for the foreseeable future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtube"
+    }
+  ]
+}

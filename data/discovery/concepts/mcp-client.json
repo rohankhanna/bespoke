@@ -19,6 +19,42 @@
       "source_repo": "nanbingxyz/5ire",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "OpenSource MCP Marketplace | MCP Servers Tools Meta Dataset | Web API | Web Client Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "nanbingxyz/5ire",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +100,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "nanbingxyz/5ire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

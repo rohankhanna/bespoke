@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neovim plugin to manage the file system and other tree like structures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Neo-tree is a Neovim plugin to browse the file system and other tree like"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Neo-tree is a Neovim plugin to browse the file system and other tree like"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-explorer",
+      "sense_id": "file-explorer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-explorer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-explorer",
+  "observation_id": "31f199f7eb981571",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "file-explorer",
+  "source_context_snippet": "Neo-tree is a Neovim plugin to browse the file system and other tree like",
+  "source_file": null,
+  "source_repo": "nvim-neo-tree/neo-tree.nvim",
+  "source_repo_description": "Neovim plugin to manage the file system and other tree like structures."
+}

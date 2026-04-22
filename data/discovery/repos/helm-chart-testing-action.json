@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-testing-action",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-testing-action",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-testing-action",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-testing-action",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-testing-action",
+      "target": "test-chart-testing-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "chart-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action",
+      "target": "lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:32.502166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3255
+    },
+    {
+      "path": ".github/workflows/test-action.yml",
+      "size": 3319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub Action to lint and test Helm charts",
+    "fork": false,
+    "full_name": "helm/chart-testing-action",
+    "html_url": "https://github.com/helm/chart-testing-action",
+    "language": "Shell",
+    "pushed_at": "2026-03-30T01:04:11Z",
+    "stargazers_count": 291,
+    "topics": [
+      "actions",
+      "chart-testing",
+      "charts",
+      "ci-cd",
+      "github-actions",
+      "helm",
+      "kubernetes",
+      "lint"
+    ],
+    "updated_at": "2026-04-16T14:16:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-chart-testing-action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yml",
+      "term": "test-chart-testing-action"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart-testing"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    }
+  ]
+}

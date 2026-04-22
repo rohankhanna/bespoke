@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "rails"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048027,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "avenues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "barriers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "bars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "booms"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23072,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14070,
+      "status": "candidate",
+      "text": "rail"
+    }
+  ],
+  "canonical_name": "rails",
+  "concept_id": "rails",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rails/webpacker"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rails",
+      "sense_id": "rails#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

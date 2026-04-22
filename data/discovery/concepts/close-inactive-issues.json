@@ -92,6 +92,42 @@
       "source_repo": "2noise/ChatTTS",
       "status": "candidate-context",
       "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "An Ethereum portal client: a json-rpc server with nearly instant sync, and low CPU & storage usage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +172,24 @@
       "source_repo": "2noise/ChatTTS",
       "status": "candidate",
       "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +281,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/close-issue.yml",
       "source_repo": "2noise/ChatTTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/trin"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

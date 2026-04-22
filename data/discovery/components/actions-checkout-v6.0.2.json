@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6.0.2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_check.yml",
       "source_repo": "facebook/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rc.yaml",
+      "source_repo": "apache/arrow-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-on-push-pr.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-amazongpt-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-autoclear-chatgpt-history-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-brave-omnibox-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-bravegpt-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-bump-script-changes-to-userscripts.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-changes-to-gitlab.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-chatgpt-auto-continue-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-chatgpt-auto-refresh-changes-to-repos.yml",
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "coder/code-marketplace"
     }
   ]
 }

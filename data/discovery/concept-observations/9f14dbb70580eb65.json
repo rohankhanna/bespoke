@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004888,
+      "status": "candidate",
+      "text": "nspcc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004887,
+      "status": "candidate",
+      "text": "cncs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004886,
+      "status": "candidate",
+      "text": "cnaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004885,
+      "status": "candidate",
+      "text": "unicef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004884,
+      "status": "candidate",
+      "text": "cabf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cncf",
+      "sense_id": "cncf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cncf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cncf",
+  "observation_id": "9f14dbb70580eb65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "cncf",
+  "source_context_snippet": "<!-- markdownlint-disable MD041 -->",
+  "source_file": null,
+  "source_repo": "helm/hub",
+  "source_repo_description": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/"
+}

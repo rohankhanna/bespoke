@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Base OS Consistency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "'Check Base OS Consistency'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "'Check Base OS Consistency'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31132,
+      "status": "candidate",
+      "text": "soy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21871,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21796,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21746,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21729,
+      "status": "candidate",
+      "text": "mac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Base OS Consistency",
+  "concept_id": "check-base-os-consistency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check_base_os.yml",
+      "source_repo": "google/oss-fuzz"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Base OS Consistency",
+      "sense_id": "check-base-os-consistency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

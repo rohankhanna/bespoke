@@ -19,6 +19,18 @@
       "source_repo": "void-linux/xbps",
       "status": "candidate-context",
       "text": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "The Void source packages collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate-context",
+      "text": "This repository contains the XBPS source packages collection to build binary packages"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "void-linux/xbps",
       "status": "candidate",
       "text": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/void-packages",
+      "status": "candidate",
+      "text": "This repository contains the XBPS source packages collection to build binary packages"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "void-linux/xbps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "void-linux/void-packages"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:13:46.462627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3302
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Objective-C Runtime bindings and wrapper for Rust.",
+    "fork": true,
+    "full_name": "glandium/rust-objc",
+    "html_url": "https://github.com/glandium/rust-objc",
+    "language": null,
+    "pushed_at": "2025-01-07T00:59:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-07T00:59:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

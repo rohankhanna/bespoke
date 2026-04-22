@@ -19,6 +19,30 @@
       "source_repo": "ceylonai/ceylon",
       "status": "candidate-context",
       "text": "> Empowering Collaboration, Simplifying Complexity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo",
+      "status": "candidate-context",
+      "text": "The java implementation of Apache Dubbo. An RPC and microservice framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo",
+      "status": "candidate-context",
+      "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ceylonai/ceylon",
       "status": "candidate",
       "text": "> Empowering Collaboration, Simplifying Complexity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo",
+      "status": "candidate",
+      "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ceylonai/ceylon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/reth"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

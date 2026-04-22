@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "solus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "Solus Package Monorepo & Issue Tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate-context",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsolus/packages",
+      "status": "candidate",
+      "text": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049195,
+      "status": "candidate",
+      "text": "alone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049196,
+      "status": "candidate",
+      "text": "unaccompanied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049195,
+      "status": "candidate",
+      "text": "lone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049194,
+      "status": "candidate",
+      "text": "solitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049193,
+      "status": "candidate",
+      "text": "solitaire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "solus",
+  "concept_id": "solus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "getsolus/packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solus",
+      "sense_id": "solus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

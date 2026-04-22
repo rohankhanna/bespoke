@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Label PRs from globs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Label PRs from globs\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22304,
+      "status": "candidate",
+      "text": "classified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22304,
+      "status": "candidate",
+      "text": "prt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "appellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "asap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "assort"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label PRs from globs",
+      "sense_id": "label-prs-from-globs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-prs-from-globs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-prs-from-globs",
+  "observation_id": "84e34ec39c12a419",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Label PRs from globs",
+  "source_context_snippet": "\"Label PRs from globs\"",
+  "source_file": ".github/workflows/label.yml",
+  "source_repo": "jaredpalmer/razzle",
+  "source_repo_description": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+}

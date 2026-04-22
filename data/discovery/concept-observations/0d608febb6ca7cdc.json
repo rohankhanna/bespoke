@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cibuildwheel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cibuildwheel"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-wheels",
+      "sense_id": "python-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python-wheels",
+  "observation_id": "0d608febb6ca7cdc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "python-wheels",
+  "source_context_snippet": "cibuildwheel",
+  "source_file": null,
+  "source_repo": "pypa/cibuildwheel",
+  "source_repo_description": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+}

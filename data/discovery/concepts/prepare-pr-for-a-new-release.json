@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prepare PR for a new release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate-context",
+      "text": "AgentAI is a Rust library designed to simplify the creation of AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate-context",
+      "text": "Prepare PR for a new release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate",
+      "text": "Prepare PR for a new release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33779,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33474,
+      "status": "candidate",
+      "text": "rearm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33474,
+      "status": "candidate",
+      "text": "retrain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33474,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33474,
+      "status": "candidate",
+      "text": "stripped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prepare PR for a new release",
+  "concept_id": "prepare-pr-for-a-new-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-release.yml",
+      "source_repo": "AdamStrojek/rust-agentai"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare PR for a new release",
+      "sense_id": "prepare-pr-for-a-new-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

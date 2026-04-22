@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "target": "maintained",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:43.230881+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A spec for GraphQL multipart form requests (file uploads).",
+    "fork": false,
+    "full_name": "jaydenseric/graphql-multipart-request-spec",
+    "html_url": "https://github.com/jaydenseric/graphql-multipart-request-spec",
+    "language": null,
+    "pushed_at": "2025-03-05T06:37:13Z",
+    "stargazers_count": 1054,
+    "topics": [
+      "graphql",
+      "maintained"
+    ],
+    "updated_at": "2026-04-22T07:43:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A spec for GraphQL multipart form requests (file uploads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "A spec for GraphQL multipart form requests (file uploads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maintained"
+    }
+  ]
+}

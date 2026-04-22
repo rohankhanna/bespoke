@@ -19,12 +19,30 @@
       "source_repo": "containerd/containerd",
       "status": "candidate-context",
       "text": "\"CodeQL Scan\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Automatically gets credentials for Amazon ECR on docker push/docker pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "\"CodeQL Scan\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "containerd/containerd",
+      "status": "candidate",
+      "text": "\"CodeQL Scan\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
       "status": "candidate",
       "text": "\"CodeQL Scan\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "awslabs/amazon-ecr-credential-helper"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

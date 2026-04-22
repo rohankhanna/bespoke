@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-unit-tests.yml",
       "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/it-new.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-pr.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.1.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.2.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-scheduled-3.3.yml",
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "apache/dubbo"
     }
   ]
 }

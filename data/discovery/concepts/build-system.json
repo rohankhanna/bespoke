@@ -19,6 +19,18 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate-context",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anaminus/rbxmk",
+      "status": "candidate-context",
+      "text": "A tool for processing Roblox files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anaminus/rbxmk",
+      "status": "candidate-context",
+      "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anaminus/rbxmk",
+      "status": "candidate",
+      "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

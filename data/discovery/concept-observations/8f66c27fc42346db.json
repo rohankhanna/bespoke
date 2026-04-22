@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A starter template for building real-time rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Soak Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Soak Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032164,
+      "status": "candidate",
+      "text": "soak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032163,
+      "status": "candidate",
+      "text": "salt spray test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032162,
+      "status": "candidate",
+      "text": "soap test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032161,
+      "status": "candidate",
+      "text": "presoak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032160,
+      "status": "candidate",
+      "text": "flood test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Soak Test",
+      "sense_id": "soak-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "soak-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "soak-test",
+  "observation_id": "8f66c27fc42346db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Soak Test",
+  "source_context_snippet": "Soak Test",
+  "source_file": ".github/workflows/soak-test.yml",
+  "source_repo": "Sovereign-Labs/rollup-starter",
+  "source_repo_description": "A starter template for building real-time rollups"
+}

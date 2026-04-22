@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "altercation/solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "huyz/dircolors-solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "solarized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seebi/dircolors-solarized",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:37.402844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a repository of themes for GNU ls (configured via GNU dircolors) that support Ethan Schoonover\u2019s Solarized color scheme.",
+    "fork": false,
+    "full_name": "seebi/dircolors-solarized",
+    "html_url": "https://github.com/seebi/dircolors-solarized",
+    "language": "Makefile",
+    "pushed_at": "2025-09-22T11:53:29Z",
+    "stargazers_count": 2865,
+    "topics": [
+      "color-scheme",
+      "solarized",
+      "terminal",
+      "theme"
+    ],
+    "updated_at": "2026-04-14T13:38:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altercation/solarized",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huyz/dircolors-solarized",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solarized"
+    },
+    {
+      "context_snippet": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

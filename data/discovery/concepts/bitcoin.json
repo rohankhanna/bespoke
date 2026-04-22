@@ -79,6 +79,30 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElementsProject/lightning",
+      "status": "candidate-context",
+      "text": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/lightning",
+      "status": "candidate-context",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightning/bolts",
+      "status": "candidate-context",
+      "text": "BOLT: Basis of Lightning Technology (Lightning Network Specifications)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightning/bolts",
+      "status": "candidate-context",
+      "text": "The specifications are currently a work-in-progress and currently being"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElementsProject/lightning",
+      "status": "candidate",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightning/bolts",
+      "status": "candidate",
+      "text": "The specifications are currently a work-in-progress and currently being"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "8144225309/superscalar-wallet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ElementsProject/lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

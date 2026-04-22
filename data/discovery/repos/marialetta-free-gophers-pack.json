@@ -1,0 +1,284 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "marialetta/mega-doodles-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "character",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "course",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "gopher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "gophers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "goroutine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "illustration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "illustrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "mascot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "presentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "social-media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:19:33.465057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more.",
+    "fork": false,
+    "full_name": "MariaLetta/free-gophers-pack",
+    "html_url": "https://github.com/MariaLetta/free-gophers-pack",
+    "language": "Go",
+    "pushed_at": "2024-12-22T15:03:59Z",
+    "stargazers_count": 3926,
+    "topics": [
+      "blog",
+      "character",
+      "course",
+      "education",
+      "emoji",
+      "free",
+      "go",
+      "golang",
+      "gopher",
+      "gophers",
+      "goroutine",
+      "illustration",
+      "illustrations",
+      "mascot",
+      "png",
+      "presentation",
+      "raster",
+      "social-media",
+      "svg",
+      "vector"
+    ],
+    "updated_at": "2026-04-22T13:33:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marialetta/mega-doodles-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "course"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gopher"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gophers"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goroutine"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "illustration"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "illustrations"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mascot"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentation"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social-media"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

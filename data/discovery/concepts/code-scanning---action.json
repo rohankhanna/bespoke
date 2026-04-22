@@ -32,6 +32,18 @@
       "source_repo": "nlohmann/json",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/toolkit",
+      "status": "candidate-context",
+      "text": "The GitHub ToolKit for developing GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/toolkit",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "nlohmann/json",
       "status": "candidate",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/toolkit",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +125,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "actions/toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

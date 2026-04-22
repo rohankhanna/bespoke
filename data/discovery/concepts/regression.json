@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Regression"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Standalone static analysis for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Regression"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "Regression"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043171,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043040,
+      "status": "candidate",
+      "text": "reversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042946,
+      "status": "candidate",
+      "text": "retroversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042900,
+      "status": "candidate",
+      "text": "retrogression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031221,
+      "status": "candidate",
+      "text": "fixation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32047,
+      "status": "candidate",
+      "text": "fixation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26041,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14052,
+      "status": "candidate",
+      "text": "reversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "retrogression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "retroversion"
+    }
+  ],
+  "canonical_name": "Regression",
+  "concept_id": "regression",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/abaplint"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regression",
+      "sense_id": "regression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

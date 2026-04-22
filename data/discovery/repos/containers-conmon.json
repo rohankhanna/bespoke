@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/conmon",
+      "target": "opencontainers/runc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/conmon",
+      "target": "alvistack/ansible-role-conmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "containers/conmon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "containers/conmon",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "containers/conmon",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "containers/conmon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "containers/conmon",
+      "target": "validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:57:55.257964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3895
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An OCI container runtime monitor.",
+    "fork": false,
+    "full_name": "containers/conmon",
+    "html_url": "https://github.com/containers/conmon",
+    "language": "C",
+    "pushed_at": "2026-04-03T01:56:52Z",
+    "stargazers_count": 477,
+    "topics": [],
+    "updated_at": "2026-04-05T05:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alvistack/ansible-role-conmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/runc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "integration"
+    },
+    {
+      "context_snippet": "validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "validate"
+    }
+  ]
+}

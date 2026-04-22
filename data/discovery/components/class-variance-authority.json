@@ -1,7 +1,7 @@
 {
   "component": "class-variance-authority",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -72,6 +72,26 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "alexpinel/Dot"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nanbingxyz/mcpsvr"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "addyosmani/chatty"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Azzedde/brainstormers"
     }
   ]
 }

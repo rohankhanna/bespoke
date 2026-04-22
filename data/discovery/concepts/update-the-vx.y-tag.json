@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update the vX.Y tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "Update the vX.Y tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "Update the vX.Y tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11669,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11609,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "etd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update the vX.Y tag",
+  "concept_id": "update-the-vx.y-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-major-minor-tag.yml",
+      "source_repo": "pypa/cibuildwheel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update the vX.Y tag",
+      "sense_id": "update-the-vx.y-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

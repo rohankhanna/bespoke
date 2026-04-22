@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:12:59.608891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1781
+    },
+    {
+      "path": "Dockerfile",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GitHub Action for interacting with npm",
+    "fork": true,
+    "full_name": "isaacs/npm",
+    "html_url": "https://github.com/isaacs/npm",
+    "language": "Shell",
+    "pushed_at": "2024-02-26T05:45:09Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2025-12-11T09:27:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39574904,
+      "status": "candidate",
+      "text": "isomorphous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840458,
+      "status": "candidate",
+      "text": "equivalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840457,
+      "status": "candidate",
+      "text": "isostructural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840456,
+      "status": "candidate",
+      "text": "equipotent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840455,
+      "status": "candidate",
+      "text": "homologous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "isomorphic",
+      "sense_id": "isomorphic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "isomorphous"
+    }
+  ],
+  "concept_id": "isomorphic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "isomorphic",
+  "observation_id": "8d7099928ce557aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "isomorphic",
+  "source_context_snippet": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)",
+  "source_file": null,
+  "source_repo": "jaredpalmer/razzle",
+  "source_repo_description": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "anthropics/claude-code-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "Claude Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/non-write-users-check.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "Non-write Users Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-issue-notification.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-issue-notification.yml",
+      "source_repo": "anthropics/claude-agent-sdk-typescript",
+      "target": "Post new issues to Slack",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "anthropics/claude-agent-sdk-typescript"
+}

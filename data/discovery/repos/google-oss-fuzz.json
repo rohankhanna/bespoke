@@ -1,0 +1,598 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_base_os.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_base_os.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index_build_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index_build_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/oss-fuzz",
+      "target": "aflplusplus/aflplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/oss-fuzz",
+      "target": "google/honggfuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/oss-fuzz",
+      "target": "google/sanitizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/oss-fuzz",
+      "target": "google/clusterfuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_base_os.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_base_os.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_base_os.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "Check Base OS Consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index_build_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index_build_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/index_build_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "indexer tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer_build.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer_build.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "indexer build tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "Infra tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "PR helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "Presubmit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project_tests.yml",
+      "source_repo": "google/oss-fuzz",
+      "target": "Project tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "fuzz-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "oss-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "stability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:02:53.553114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4679
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1841
+    },
+    {
+      "path": ".github/workflows/check_base_os.yml",
+      "size": 2134
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/index_build_tests.yml",
+      "size": 1144
+    },
+    {
+      "path": ".github/workflows/indexer_build.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/infra_tests.yml",
+      "size": 1548
+    },
+    {
+      "path": ".github/workflows/pr_helper.yml",
+      "size": 1964
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/project_tests.yml",
+      "size": 2534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OSS-Fuzz - continuous fuzzing for open source software.",
+    "fork": false,
+    "full_name": "google/oss-fuzz",
+    "html_url": "https://github.com/google/oss-fuzz",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T12:55:47Z",
+    "stargazers_count": 12166,
+    "topics": [
+      "fuzz-testing",
+      "fuzzing",
+      "oss-fuzz",
+      "security",
+      "stability",
+      "vulnerabilities"
+    ],
+    "updated_at": "2026-04-22T12:55:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aflplusplus/aflplusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/clusterfuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/honggfuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/sanitizers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "'Check Base OS Consistency'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_base_os.yml",
+      "term": "Check Base OS Consistency"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "indexer tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/index_build_tests.yml",
+      "term": "indexer tests"
+    },
+    {
+      "context_snippet": "indexer build tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer_build.yml",
+      "term": "indexer build tests"
+    },
+    {
+      "context_snippet": "Infra tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "term": "Infra tests"
+    },
+    {
+      "context_snippet": "PR helper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_helper.yml",
+      "term": "PR helper"
+    },
+    {
+      "context_snippet": "Presubmit checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit checks"
+    },
+    {
+      "context_snippet": "Project tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project_tests.yml",
+      "term": "Project tests"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzz-testing"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oss-fuzz"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stability"
+    },
+    {
+      "context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    }
+  ]
+}

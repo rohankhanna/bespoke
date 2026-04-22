@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:20:42.154295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7206
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "davidlattimore/duplicate-function-checker",
+    "html_url": "https://github.com/davidlattimore/duplicate-function-checker",
+    "language": "Rust",
+    "pushed_at": "2024-06-07T00:46:59Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-22T07:50:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

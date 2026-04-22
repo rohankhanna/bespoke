@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:00:32.428120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OneKey MCP Router Helps you with One Access Key to Access Various Commercial MCPs with Free Tier or Discounted API prices",
+    "fork": false,
+    "full_name": "aiagenta2z/onekey_mcp_router",
+    "html_url": "https://github.com/aiagenta2z/onekey_mcp_router",
+    "language": "Python",
+    "pushed_at": "2025-12-04T04:45:41Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-23T13:50:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

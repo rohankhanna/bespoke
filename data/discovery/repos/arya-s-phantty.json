@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T18:59:59.675645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Windows renderer for libghostty-vt",
+    "fork": false,
+    "full_name": "arya-s/phantty",
+    "html_url": "https://github.com/arya-s/phantty",
+    "language": "Zig",
+    "pushed_at": "2026-02-12T21:34:16Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-22T09:22:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -289,6 +289,30 @@
       "source_repo": "electron/electron",
       "status": "candidate-context",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "senchalabs/connect",
+      "status": "candidate-context",
+      "text": "Connect is an extensible HTTP server framework for node using \"plugins\" known as middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "senchalabs/connect",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -429,6 +453,18 @@
       "source_repo": "electron/electron",
       "status": "candidate",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "senchalabs/connect",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -628,11 +664,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "senchalabs/connect"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040277,
+      "status": "candidate",
+      "text": "courageous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040265,
+      "status": "candidate",
+      "text": "stouthearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040238,
+      "status": "candidate",
+      "text": "lionhearted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040209,
+      "status": "candidate",
+      "text": "valiant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040202,
+      "status": "candidate",
+      "text": "intrepid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brave",
+      "sense_id": "brave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 82034,
+      "status": "candidate",
+      "text": "audacious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37034,
+      "status": "candidate",
+      "text": "intrepid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32052,
+      "status": "candidate",
+      "text": "gay"
+    }
+  ],
+  "concept_id": "brave",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brave",
+  "observation_id": "cf99a9d9f3171744",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "brave",
+  "source_context_snippet": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience",
+  "source_file": null,
+  "source_repo": "adamlui/ai-web-extensions",
+  "source_repo_description": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+}

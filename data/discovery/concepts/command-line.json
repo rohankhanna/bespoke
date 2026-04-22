@@ -127,6 +127,42 @@
       "source_repo": "d0c-s4vage/lookatme",
       "status": "candidate-context",
       "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "The official command line interface for the DigitalOcean API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">doctl</h1>"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +219,24 @@
       "source_repo": "d0c-s4vage/lookatme",
       "status": "candidate",
       "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">doctl</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +330,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

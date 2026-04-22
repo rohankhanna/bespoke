@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Push Images to ghcr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/optimism",
+      "status": "candidate-context",
+      "text": "Optimism is Ethereum, scaled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/optimism",
+      "status": "candidate-context",
+      "text": "Push Images to ghcr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/optimism",
+      "status": "candidate",
+      "text": "Push Images to ghcr"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11670,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10610,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10610,
+      "status": "candidate",
+      "text": "sink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10540,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10540,
+      "status": "candidate",
+      "text": "idolater"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push Images to ghcr",
+  "concept_id": "push-images-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/optimism"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push Images to ghcr",
+      "sense_id": "push-images-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

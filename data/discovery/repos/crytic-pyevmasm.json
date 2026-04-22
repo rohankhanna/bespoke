@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@57714a7c8a2e59f32539362ba31877a1957dded1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@57714a7c8a2e59f32539362ba31877a1957dded1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "astral-sh/ruff-action@57714a7c8a2e59f32539362ba31877a1957dded1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/pyevmasm",
+      "target": "Scan dependencies for vulnerabilities with pip-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm",
+      "target": "assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm",
+      "target": "dissassembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm",
+      "target": "ethereum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:11:06.444997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3213
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1881
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1500
+    },
+    {
+      "path": ".github/workflows/pip-audit.yml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ethereum Virtual Machine (EVM) disassembler and assembler",
+    "fork": false,
+    "full_name": "crytic/pyevmasm",
+    "html_url": "https://github.com/crytic/pyevmasm",
+    "language": "Python",
+    "pushed_at": "2026-04-17T13:27:15Z",
+    "stargazers_count": 386,
+    "topics": [
+      "assembler",
+      "dissassembler",
+      "ethereum",
+      "evm",
+      "python"
+    ],
+    "updated_at": "2026-04-14T04:50:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scan dependencies for vulnerabilities with pip-audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "term": "Scan dependencies for vulnerabilities with pip-audit"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembler"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dissassembler"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    }
+  ]
+}

@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Complete Ethereum library and wallet implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "CI Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "CI Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12984,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "CI Tests",
   "concept_id": "ci-tests",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "shareAI-lab/kode-agent-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

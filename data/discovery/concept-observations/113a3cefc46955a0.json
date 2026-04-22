@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Maintainer Edits Enabled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Maintainer Edits Enabled"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23575,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23575,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23575,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23454,
+      "status": "candidate",
+      "text": "compensation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23454,
+      "status": "candidate",
+      "text": "face"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Maintainer Edits Enabled",
+      "sense_id": "check-maintainer-edits-enabled#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-maintainer-edits-enabled",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-maintainer-edits-enabled",
+  "observation_id": "113a3cefc46955a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Check Maintainer Edits Enabled",
+  "source_context_snippet": "Check Maintainer Edits Enabled",
+  "source_file": ".github/workflows/check-maintainer-edits.yml",
+  "source_repo": "taylorwilsdon/google_workspace_mcp",
+  "source_repo_description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+}

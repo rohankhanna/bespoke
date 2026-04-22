@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "jaredpalmer/razzle"
+    }
+  ],
+  "term": "Test examples on trigger"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Java Integration Tests and Samples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate-context",
+      "text": "Run Java Integration Tests and Samples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate",
+      "text": "Run Java Integration Tests and Samples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43511,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40459,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40133,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35828,
+      "status": "candidate",
+      "text": "trier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34615,
+      "status": "candidate",
+      "text": "battleship"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Java Integration Tests and Samples",
+  "concept_id": "run-java-integration-tests-and-samples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/java-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Java Integration Tests and Samples",
+      "sense_id": "run-java-integration-tests-and-samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

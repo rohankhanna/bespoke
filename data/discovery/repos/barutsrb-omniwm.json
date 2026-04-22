@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "aerospace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "desktop-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "dwindle-layout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "hyprland",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "niri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "paperwm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "tiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "tiling-window-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "window-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "window-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM",
+      "target": "workspace-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:00:00.774329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MacOS Niri and Hyprland inspired tiling window manager that's developer signed and notorized (safe for managed enterprise environments). Aiming for parity and extra innovation.",
+    "fork": false,
+    "full_name": "BarutSRB/OmniWM",
+    "html_url": "https://github.com/BarutSRB/OmniWM",
+    "language": "Swift",
+    "pushed_at": "2026-04-22T02:42:44Z",
+    "stargazers_count": 1532,
+    "topics": [
+      "aerospace",
+      "desktop-environment",
+      "dwindle-layout",
+      "hyprland",
+      "mac",
+      "macos",
+      "niri",
+      "paperwm",
+      "productivity",
+      "swift",
+      "tiling",
+      "tiling-window-manager",
+      "window-management",
+      "window-manager",
+      "workspace-manager"
+    ],
+    "updated_at": "2026-04-22T18:08:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerospace"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-environment"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dwindle-layout"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyprland"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "niri"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paperwm"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling-window-manager"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "window-management"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "window-manager"
+    },
+    {
+      "context_snippet": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workspace-manager"
+    }
+  ]
+}

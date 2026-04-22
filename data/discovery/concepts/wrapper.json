@@ -31,6 +31,18 @@
       "source_repo": "gfx-rs/wgpu-rs",
       "status": "candidate-context",
       "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "Ergonomic bindings to SQLite for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "gfx-rs/wgpu-rs",
       "status": "candidate",
       "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "gfx-rs/wgpu-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rusqlite/rusqlite"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

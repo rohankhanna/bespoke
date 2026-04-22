@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Automated Dependency Bump\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Automated Dependency Bump\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17979,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17921,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated Dependency Bump",
+      "sense_id": "automated-dependency-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automated-dependency-bump",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automated-dependency-bump",
+  "observation_id": "e42a5f7898d1840d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Automated Dependency Bump",
+  "source_context_snippet": "\"Automated Dependency Bump\"",
+  "source_file": ".github/workflows/update-dependencies.yaml",
+  "source_repo": "eza-community/eza",
+  "source_repo_description": "A modern alternative to ls"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate PR metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate PR metadata"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "advantage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "competition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "match game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "outstanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10226,
+      "status": "candidate",
+      "text": "paragon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate PR metadata",
+      "sense_id": "validate-pr-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-pr-metadata",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-pr-metadata",
+  "observation_id": "3f1267ab3f46ea63",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Validate PR metadata",
+  "source_context_snippet": "Validate PR metadata",
+  "source_file": ".github/workflows/commitlint.yaml",
+  "source_repo": "ApeWorX/ape",
+  "source_repo_description": "Build and explore on-chain with Python"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "test-chart-testing-action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "test-chart-testing-action"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-chart-testing-action",
+      "sense_id": "test-chart-testing-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-chart-testing-action",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-chart-testing-action",
+  "observation_id": "61672d9e9337d1f5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "test-chart-testing-action",
+  "source_context_snippet": "test-chart-testing-action",
+  "source_file": ".github/workflows/test-action.yml",
+  "source_repo": "helm/chart-testing-action",
+  "source_repo_description": "A GitHub Action to lint and test Helm charts"
+}

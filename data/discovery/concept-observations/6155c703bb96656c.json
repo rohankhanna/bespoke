@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "adn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "amd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "and"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "ane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "ans"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Docs",
+      "sense_id": "lint-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-docs",
+  "observation_id": "6155c703bb96656c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Lint Docs",
+  "source_context_snippet": "Lint Docs",
+  "source_file": ".github/workflows/lint_docs.yml",
+  "source_repo": "Bearer/bearer",
+  "source_repo_description": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+}

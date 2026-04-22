@@ -84,7 +84,7 @@
   "normalized_form": "block-internal-prs",
   "observation_id": "6d76a7c5836c35ec",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "Block Internal PRs",
   "source_context_snippet": "Block Internal PRs",
   "source_file": ".github/workflows/block-internal-prs.yml",

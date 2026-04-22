@@ -214,6 +214,18 @@
       "source_repo": "alacritty/vtebench",
       "status": "candidate-context",
       "text": "A tool for benchmarking terminal emulator PTY read performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/benchmark",
+      "status": "candidate-context",
+      "text": "A microbenchmark support library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/benchmark",
+      "status": "candidate-context",
+      "text": "[![build-and-test](https://github.com/google/benchmark/workflows/build-and-test/badge.svg)](https://github.com/google/benchmark/actions?query=workflow%3Abuild-and-test)"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +330,12 @@
       "source_repo": "alacritty/vtebench",
       "status": "candidate",
       "text": "A tool for benchmarking terminal emulator PTY read performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/benchmark",
+      "status": "candidate",
+      "text": "[![build-and-test](https://github.com/google/benchmark/workflows/build-and-test/badge.svg)](https://github.com/google/benchmark/actions?query=workflow%3Abuild-and-test)"
     }
   ],
   "candidate_related_terms": [
@@ -525,11 +543,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "alacritty/vtebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "google/benchmark"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2,7 +2,8 @@
   "aliases": [
     "deploy-docs",
     "Deploy Docs",
-    "Deploy docs"
+    "Deploy docs",
+    "Deploy docs \ud83d\ude80"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -93,6 +94,18 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "Deploy docs \ud83d\ude80"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +150,12 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate",
+      "text": "Deploy docs \ud83d\ude80"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +241,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "kulshekhar/ts-jest"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

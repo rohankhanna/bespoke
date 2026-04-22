@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and validate Souin as plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and validate Souin as plugins"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "accession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "accessions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "adorn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "alcazar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and validate Souin as plugins",
+      "sense_id": "build-and-validate-souin-as-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-validate-souin-as-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-validate-souin-as-plugins",
+  "observation_id": "3e1fca19bc6fc7a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Build and validate Souin as plugins",
+  "source_context_snippet": "Build and validate Souin as plugins",
+  "source_file": ".github/workflows/plugins-master.yml",
+  "source_repo": "darkweak/souin",
+  "source_repo_description": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+}

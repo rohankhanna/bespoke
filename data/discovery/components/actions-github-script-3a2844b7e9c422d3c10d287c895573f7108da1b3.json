@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/branch-created.yml",
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edited.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eval.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Ethereum portal client: a json-rpc server with nearly instant sync, and low CPU & storage usage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Monthly Block Root Update\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Monthly Block Root Update\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29525,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29155,
+      "status": "candidate",
+      "text": "quarters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29154,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29154,
+      "status": "candidate",
+      "text": "changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29066,
+      "status": "candidate",
+      "text": "month"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly Block Root Update",
+      "sense_id": "monthly-block-root-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monthly-block-root-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monthly-block-root-update",
+  "observation_id": "bf112179c7c11ee3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Monthly Block Root Update",
+  "source_context_snippet": "\"Monthly Block Root Update\"",
+  "source_file": ".github/workflows/monthly_block_root_update.yml",
+  "source_repo": "ethereum/trin",
+  "source_repo_description": "An Ethereum portal client: a json-rpc server with nearly instant sync, and low CPU & storage usage"
+}

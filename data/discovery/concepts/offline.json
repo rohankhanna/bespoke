@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "offline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "TypeScript library files for Relay Modern Offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877474,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872946,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872466,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870790,
+      "status": "candidate",
+      "text": "disconnection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869763,
+      "status": "candidate",
+      "text": "deferred"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "offline",
+  "concept_id": "offline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "morrys/react-relay-offline"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "offline",
+      "sense_id": "offline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

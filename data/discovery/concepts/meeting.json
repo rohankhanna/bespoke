@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "meeting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020669,
+      "status": "candidate",
+      "text": "coming together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020252,
+      "status": "candidate",
+      "text": "junction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017988,
+      "status": "candidate",
+      "text": "merging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001584,
+      "status": "candidate",
+      "text": "encounter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975528,
+      "status": "candidate",
+      "text": "get together"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29042,
+      "status": "candidate",
+      "text": "confluence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "encounter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7030,
+      "status": "candidate",
+      "text": "get together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "merging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "coming together"
+    }
+  ],
+  "canonical_name": "meeting",
+  "concept_id": "meeting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-wg"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meeting",
+      "sense_id": "meeting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

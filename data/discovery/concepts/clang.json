@@ -43,6 +43,18 @@
       "source_repo": "ccache/ccache",
       "status": "candidate-context",
       "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ccache/ccache",
       "status": "candidate",
       "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate",
+      "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ccache/ccache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

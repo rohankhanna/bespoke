@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rbac"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Casbin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020934,
+      "status": "candidate",
+      "text": "sspi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020933,
+      "status": "candidate",
+      "text": "ldap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020932,
+      "status": "candidate",
+      "text": "ldif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020931,
+      "status": "candidate",
+      "text": "sccs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020930,
+      "status": "candidate",
+      "text": "cmdb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rbac",
+  "concept_id": "rbac",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbac",
+      "sense_id": "rbac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

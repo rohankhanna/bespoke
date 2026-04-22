@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HypothesisWorks/hypothesis"
+    }
+  ]
+}

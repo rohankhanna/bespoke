@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "embarkstudios/ash-molten",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "embarkstudios/buildkite-jobify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "embarkstudios/cargo-about",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "embarkstudios/cargo-deny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:08:41.300284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust wants & tracking for Embark \ud83e\udd80",
+    "fork": false,
+    "full_name": "EmbarkStudios/rust-ecosystem",
+    "html_url": "https://github.com/EmbarkStudios/rust-ecosystem",
+    "language": "Rust",
+    "pushed_at": "2025-01-22T14:10:57Z",
+    "stargazers_count": 1026,
+    "topics": [
+      "gamedev",
+      "rust"
+    ],
+    "updated_at": "2026-04-21T06:14:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/ash-molten",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/buildkite-jobify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/cargo-about",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/cargo-deny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

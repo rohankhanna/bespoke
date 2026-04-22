@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Edited base branch\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Edited base branch\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35136,
+      "status": "candidate",
+      "text": "offset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35136,
+      "status": "candidate",
+      "text": "stolon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35116,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35116,
+      "status": "candidate",
+      "text": "sheath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34716,
+      "status": "candidate",
+      "text": "recurrent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Edited base branch",
+      "sense_id": "edited-base-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "edited-base-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "edited-base-branch",
+  "observation_id": "ffde9eb1565ed35d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Edited base branch",
+  "source_context_snippet": "\"Edited base branch\"",
+  "source_file": ".github/workflows/edited.yml",
+  "source_repo": "NixOS/nixpkgs",
+  "source_repo_description": "Nix Packages collection & NixOS"
+}

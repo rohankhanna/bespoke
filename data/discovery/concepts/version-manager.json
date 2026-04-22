@@ -79,6 +79,18 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate-context",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "Convenience shortname repository for asdf community plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "derekstavis/plugin-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

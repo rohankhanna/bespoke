@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish a new release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate-context",
+      "text": "AgentAI is a Rust library designed to simplify the creation of AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate-context",
+      "text": "Publish a new release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdamStrojek/rust-agentai",
+      "status": "candidate",
+      "text": "Publish a new release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37371,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37371,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37034,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36208,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25895,
+      "status": "candidate",
+      "text": "parolee"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish a new release",
+  "concept_id": "publish-a-new-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/crate-release.yml",
+      "source_repo": "AdamStrojek/rust-agentai"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish a new release",
+      "sense_id": "publish-a-new-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

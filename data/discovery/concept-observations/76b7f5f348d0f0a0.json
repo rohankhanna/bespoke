@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "release-and-publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "release-and-publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-and-publish",
+      "sense_id": "release-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-and-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-and-publish",
+  "observation_id": "76b7f5f348d0f0a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "release-and-publish",
+  "source_context_snippet": "release-and-publish",
+  "source_file": ".github/workflows/release-and-publish.yml",
+  "source_repo": "kulshekhar/ts-jest",
+  "source_repo_description": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+}

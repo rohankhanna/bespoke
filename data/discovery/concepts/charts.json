@@ -55,6 +55,42 @@
       "source_repo": "prometheus-community/helm-charts",
       "status": "candidate-context",
       "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/prometheus-community)](https://artifacthub.io/packages/search?org=prometheus&cncf=true) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/li\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to turn a GitHub project into a self-hosted Helm chart repo, using helm/chart-releaser CLI tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "prometheus-community/helm-charts",
       "status": "candidate",
       "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/prometheus-community)](https://artifacthub.io/packages/search?org=prometheus&cncf=true) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/li\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "prometheus-community/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/kind-action"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

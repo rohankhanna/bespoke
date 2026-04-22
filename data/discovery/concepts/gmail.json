@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gmail"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967225,
+      "status": "candidate",
+      "text": "g-mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967223,
+      "status": "candidate",
+      "text": "google"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967222,
+      "status": "candidate",
+      "text": "gmailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967221,
+      "status": "candidate",
+      "text": "gtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967220,
+      "status": "candidate",
+      "text": "gchat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gmail",
+  "concept_id": "gmail",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gmail",
+      "sense_id": "gmail#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

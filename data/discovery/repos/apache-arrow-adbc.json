@@ -1,0 +1,884 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/allowlist-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "apache/infrastructure-actions/allowlist-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Check actions are on ASF allowlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Comment Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Dev ADBC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "JavaScript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc",
+      "target": "Native Libraries (Unix)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/arrow-adbc",
+      "target": "arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/arrow-adbc",
+      "target": "database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:05:09.419056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3200
+    },
+    {
+      "path": ".github/workflows/asf-allowlist-check.yml",
+      "size": 1437
+    },
+    {
+      "path": ".github/workflows/comment_bot.yml",
+      "size": 1476
+    },
+    {
+      "path": ".github/workflows/csharp.yml",
+      "size": 2043
+    },
+    {
+      "path": ".github/workflows/dev.yml",
+      "size": 3160
+    },
+    {
+      "path": ".github/workflows/dev_adbc.yml",
+      "size": 2047
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 13432
+    },
+    {
+      "path": ".github/workflows/java.yml",
+      "size": 8294
+    },
+    {
+      "path": ".github/workflows/javascript.yml",
+      "size": 6877
+    },
+    {
+      "path": ".github/workflows/native-unix.yml",
+      "size": 25845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Database connectivity API standard and libraries for Apache Arrow",
+    "fork": false,
+    "full_name": "apache/arrow-adbc",
+    "html_url": "https://github.com/apache/arrow-adbc",
+    "language": "C#",
+    "pushed_at": "2026-04-22T01:16:40Z",
+    "stargazers_count": 588,
+    "topics": [
+      "arrow",
+      "database"
+    ],
+    "updated_at": "2026-04-22T02:24:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Check actions are on ASF allowlist\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "term": "Check actions are on ASF allowlist"
+    },
+    {
+      "context_snippet": "Comment Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "term": "Comment Bot"
+    },
+    {
+      "context_snippet": "Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "term": "Dev"
+    },
+    {
+      "context_snippet": "Dev ADBC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "term": "Dev ADBC"
+    },
+    {
+      "context_snippet": "Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration"
+    },
+    {
+      "context_snippet": "Java",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java.yml",
+      "term": "Java"
+    },
+    {
+      "context_snippet": "JavaScript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/javascript.yml",
+      "term": "JavaScript"
+    },
+    {
+      "context_snippet": "Native Libraries (Unix)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-unix.yml",
+      "term": "Native Libraries (Unix)"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrow"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    }
+  ]
+}

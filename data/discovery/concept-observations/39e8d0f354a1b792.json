@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source repository for smart contracts used by Circle's stablecoins on EVM-compatible blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12930,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12930,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "fint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR",
+      "sense_id": "check-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-pr",
+  "observation_id": "39e8d0f354a1b792",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Check PR",
+  "source_context_snippet": "Check PR",
+  "source_file": ".github/workflows/check-pr.yml",
+  "source_repo": "circlefin/stablecoin-evm",
+  "source_repo_description": "Source repository for smart contracts used by Circle's stablecoins on EVM-compatible blockchains"
+}

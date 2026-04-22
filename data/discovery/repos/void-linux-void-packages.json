@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "classabbyamp/treeless-checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "classabbyamp/treeless-checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "classabbyamp/treeless-checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "docker/bake-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml"
+    },
+    {
+      "component": "classabbyamp/treeless-checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cycles.yaml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "void-linux/void-packages",
+      "target": "containers/bubblewrap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "classabbyamp/treeless-checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "Check build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "classabbyamp/treeless-checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "docker/bake-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "Build buildroot containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cycles.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "classabbyamp/treeless-checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cycles.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "Cycle Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "void-linux/void-packages",
+      "target": "Stale Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "void-linux/void-packages",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "void-linux/void-packages",
+      "target": "voidlinux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:30.072444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20199
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 4576
+    },
+    {
+      "path": ".github/workflows/container.yaml",
+      "size": 3142
+    },
+    {
+      "path": ".github/workflows/cycles.yaml",
+      "size": 1465
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Void source packages collection",
+    "fork": false,
+    "full_name": "void-linux/void-packages",
+    "html_url": "https://github.com/void-linux/void-packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T18:16:44Z",
+    "stargazers_count": 3172,
+    "topics": [
+      "hacktoberfest",
+      "voidlinux"
+    ],
+    "updated_at": "2026-04-22T18:16:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/bubblewrap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Check build"
+    },
+    {
+      "context_snippet": "'Build buildroot containers'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yaml",
+      "term": "Build buildroot containers"
+    },
+    {
+      "context_snippet": "'Cycle Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cycles.yaml",
+      "term": "Cycle Check"
+    },
+    {
+      "context_snippet": "Stale Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Stale Cleanup"
+    },
+    {
+      "context_snippet": "This repository contains the XBPS source packages collection to build binary packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This repository contains the XBPS source packages collection to build binary packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voidlinux"
+    }
+  ]
+}

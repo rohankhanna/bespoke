@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "ranger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate-context",
+      "text": "Make Ranger running in a floating window to communicate with Neovim via RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate-context",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924219,
+      "status": "candidate",
+      "text": "commando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "fire warden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "forest fire fighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959874,
+      "status": "candidate",
+      "text": "texas ranger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959873,
+      "status": "candidate",
+      "text": "prowler"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6035,
+      "status": "candidate",
+      "text": "commando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "fire warden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "forest fire fighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "texas ranger"
+    }
+  ],
+  "canonical_name": "ranger",
+  "concept_id": "ranger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ranger",
+      "sense_id": "ranger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

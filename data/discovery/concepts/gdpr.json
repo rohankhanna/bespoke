@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gdpr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884589,
+      "status": "candidate",
+      "text": "ccpa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884588,
+      "status": "candidate",
+      "text": "pipa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884587,
+      "status": "candidate",
+      "text": "lgpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884586,
+      "status": "candidate",
+      "text": "gnu gpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884585,
+      "status": "candidate",
+      "text": "ferpa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gdpr",
+  "concept_id": "gdpr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gdpr",
+      "sense_id": "gdpr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

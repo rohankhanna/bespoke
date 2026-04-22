@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "8144225309/superscalar-wallet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElementsProject/lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "term": "bitcoin"

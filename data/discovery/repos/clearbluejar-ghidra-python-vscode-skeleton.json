@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-skeleton",
+      "target": "vdoo-connected-trust/ghidra-pyi-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-skeleton",
+      "target": "ghidra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-skeleton",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:21.073076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12324
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Ghidra Headless Python Script VScode Skeleton",
+    "fork": false,
+    "full_name": "clearbluejar/ghidra-python-vscode-skeleton",
+    "html_url": "https://github.com/clearbluejar/ghidra-python-vscode-skeleton",
+    "language": "Python",
+    "pushed_at": "2022-07-12T20:36:02Z",
+    "stargazers_count": 3,
+    "topics": [
+      "ghidra",
+      "python",
+      "vscode"
+    ],
+    "updated_at": "2026-02-07T04:05:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vdoo-connected-trust/ghidra-pyi-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple template to provide a vscode Ghidra python scripting environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghidra"
+    },
+    {
+      "context_snippet": "A simple template to provide a vscode Ghidra python scripting environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

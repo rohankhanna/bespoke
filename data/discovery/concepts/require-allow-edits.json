@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Require \u201cAllow Edits\u201d"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Static AST checker for a11y rules on JSX elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Require \u201cAllow Edits\u201d"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate",
+      "text": "Require \u201cAllow Edits\u201d"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "appropriate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "asked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "asking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Require \u201cAllow Edits\u201d",
+  "concept_id": "require-allow-edits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Require \u201cAllow Edits\u201d",
+      "sense_id": "require-allow-edits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

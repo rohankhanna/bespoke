@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "node"
+    "node",
+    "Node"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -163,6 +166,18 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate-context",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunch/sass-brunch",
+      "status": "candidate-context",
+      "text": "Adds Sass / Scss support to brunch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/sass-brunch",
+      "status": "candidate-context",
+      "text": "Node"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +258,12 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/sass-brunch",
+      "status": "candidate",
+      "text": "Node"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +439,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "brunch/sass-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

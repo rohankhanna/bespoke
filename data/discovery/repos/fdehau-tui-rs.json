@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "hecrj/setup-rust-action@967aec96c6a27a0ce15c1dac3aaba332d60565e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@967aec96c6a27a0ce15c1dac3aaba332d60565e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fdehau/tui-rs",
+      "target": "bvaisvil/zenith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fdehau/tui-rs",
+      "target": "24seconds/rust-sadari-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fdehau/tui-rs",
+      "target": "aryakaul/rusty-krab-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fdehau/tui-rs",
+      "target": "blacknon/hwatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fdehau/tui-rs",
+      "target": "hecrj/setup-rust-action@967aec96c6a27a0ce15c1dac3aaba332d60565e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fdehau/tui-rs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fdehau/tui-rs",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs",
+      "target": "dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:24:29.393049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7011
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1810
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Build terminal user interfaces and dashboards using Rust",
+    "fork": false,
+    "full_name": "fdehau/tui-rs",
+    "html_url": "https://github.com/fdehau/tui-rs",
+    "language": "Rust",
+    "pushed_at": "2023-08-06T07:35:02Z",
+    "stargazers_count": 10878,
+    "topics": [
+      "dashboard",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-21T11:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "24seconds/rust-sadari-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aryakaul/rusty-krab-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blacknon/hwatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bvaisvil/zenith",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dashboard"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

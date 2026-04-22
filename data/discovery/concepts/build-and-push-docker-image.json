@@ -1,15 +1,90 @@
 {
   "aliases": [
-    "Build and Push Docker Image"
+    "Build and Push Docker Image",
+    "Build and push Docker image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "666ghj/MiroFish",
+      "status": "candidate-context",
+      "text": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "666ghj/MiroFish",
+      "status": "candidate-context",
+      "text": "Build and push Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "Simulate anything, for $1 & less than 10 min \u2014 Universal Swarm Intelligence Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "Build and push Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "666ghj/MiroFish",
+      "status": "candidate",
+      "text": "Build and push Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate",
+      "text": "Build and push Docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22165,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22120,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17646,
+      "status": "candidate",
+      "text": "farmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17586,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17008,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Build and Push Docker Image",
   "concept_id": "build-and-push-docker-image",
@@ -20,12 +95,26 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "agiletec-inc/airis-mcp-gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "666ghj/MiroFish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "aaronjmars/MiroShark"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

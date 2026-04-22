@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043848,
+      "status": "candidate",
+      "text": "fiber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037342,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026742,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026081,
+      "status": "candidate",
+      "text": "fluffy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006155,
+      "status": "candidate",
+      "text": "stuffed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lint",
+      "sense_id": "lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint",
+  "observation_id": "8610f97ad996c930",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "lint",
+  "source_context_snippet": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool.",
+  "source_file": null,
+  "source_repo": "helm/chart-testing-action",
+  "source_repo_description": "A GitHub Action to lint and test Helm charts"
+}

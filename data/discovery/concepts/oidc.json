@@ -19,6 +19,30 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Casbin"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dexidp/dex",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Casbin"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

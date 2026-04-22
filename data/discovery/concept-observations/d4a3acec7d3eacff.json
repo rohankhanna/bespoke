@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Check Base OS Consistency'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Check Base OS Consistency'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31132,
+      "status": "candidate",
+      "text": "soy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21871,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21796,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21746,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21729,
+      "status": "candidate",
+      "text": "mac"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Base OS Consistency",
+      "sense_id": "check-base-os-consistency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-base-os-consistency",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-base-os-consistency",
+  "observation_id": "d4a3acec7d3eacff",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Check Base OS Consistency",
+  "source_context_snippet": "'Check Base OS Consistency'",
+  "source_file": ".github/workflows/check_base_os.yml",
+  "source_repo": "google/oss-fuzz",
+  "source_repo_description": "OSS-Fuzz - continuous fuzzing for open source software."
+}

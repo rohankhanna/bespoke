@@ -1246,6 +1246,186 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "A snapshot testing library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "Ergonomic bindings to SQLite for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "The Rust package registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rfcbot-rs",
+      "status": "candidate-context",
+      "text": "Coordinates asynchronous decision making on Rust repositories. Status of tracked issues and PRs can be viewed at https://rfcbot.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcbot-rs",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "A modern alternative to ls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "Rust library for displaying images in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "![ci](https://github.com/atanunq/viuer/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "status": "candidate-context",
+      "text": "A starter template for building real-time rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "status": "candidate-context",
+      "text": "Rust wants & tracking for Embark \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "status": "candidate-context",
+      "text": "[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate-context",
+      "text": "Complete Ethereum & Celo library and wallet implementation in Rust. https://docs.rs/ethers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate-context",
+      "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "Date and time library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serde-rs/json",
+      "status": "candidate-context",
+      "text": "Strongly typed JSON library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json",
+      "status": "candidate-context",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "Build terminal user interfaces and dashboards using Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 How to minimize Rust binary size \ud83d\udce6 https://github.com/johnthagen/min-sized-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
     }
   ],
   "candidate_glosses": [
@@ -1884,6 +2064,96 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusqlite/rusqlite",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcbot-rs",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate",
+      "text": "![ci](https://github.com/atanunq/viuer/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-ecosystem",
+      "status": "candidate",
+      "text": "[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate",
+      "text": "[![bench status](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml/badge.svg)](https://github.com/paradigmxyz/reth/actions/workflows/bench.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gakonst/ethers-rs",
+      "status": "candidate",
+      "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate",
+      "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json",
+      "status": "candidate",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnthagen/min-sized-rust",
+      "status": "candidate",
+      "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -2809,11 +3079,131 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "mitsuhiko/insta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rusqlite/rusqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/crates.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcbot-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "atanunq/viuer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-ecosystem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "paradigmxyz/reth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "gakonst/ethers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "chronotope/chrono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "serde-rs/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "johnthagen/min-sized-rust"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

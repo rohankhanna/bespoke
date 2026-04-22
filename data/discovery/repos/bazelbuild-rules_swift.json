@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "cgrindel/rules_swift_package_manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_swift",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:04:30.234173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4453
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel rules to build Swift on Apple and Linux platforms",
+    "fork": false,
+    "full_name": "bazelbuild/rules_swift",
+    "html_url": "https://github.com/bazelbuild/rules_swift",
+    "language": "Starlark",
+    "pushed_at": "2026-04-21T19:47:12Z",
+    "stargazers_count": 347,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "swift"
+    ],
+    "updated_at": "2026-04-21T19:47:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgrindel/rules_swift_package_manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

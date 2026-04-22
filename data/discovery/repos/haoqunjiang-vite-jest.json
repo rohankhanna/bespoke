@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "pnpm/action-setup@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "jest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "jest-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest",
+      "target": "vite-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:27.690916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "First-class Vite integration for Jest",
+    "fork": false,
+    "full_name": "haoqunjiang/vite-jest",
+    "html_url": "https://github.com/haoqunjiang/vite-jest",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-07T14:39:49Z",
+    "stargazers_count": 405,
+    "topics": [
+      "jest",
+      "jest-transformer",
+      "vite",
+      "vite-test"
+    ],
+    "updated_at": "2026-04-06T22:10:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "First-class Vite integration for Jest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest"
+    },
+    {
+      "context_snippet": "First-class Vite integration for Jest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest-transformer"
+    },
+    {
+      "context_snippet": "First-class Vite integration for Jest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "First-class Vite integration for Jest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite-test"
+    }
+  ]
+}

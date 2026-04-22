@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -136,6 +136,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "2noise/ChatTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamlui/ai-web-extensions"
     }
   ],
   "term": "chatgpt"

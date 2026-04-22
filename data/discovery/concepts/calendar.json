@@ -19,6 +19,18 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate-context",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "Date and time library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate-context",
+      "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronotope/chrono",
+      "status": "candidate",
+      "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "chronotope/chrono"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

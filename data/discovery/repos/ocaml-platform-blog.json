@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:02:41.156907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for the Platform blog",
+    "fork": false,
+    "full_name": "ocaml/platform-blog",
+    "html_url": "https://github.com/ocaml/platform-blog",
+    "language": null,
+    "pushed_at": "2026-04-16T21:48:33Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-16T21:48:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

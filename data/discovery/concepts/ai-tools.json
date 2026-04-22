@@ -79,6 +79,18 @@
       "source_repo": "adityasugandhi/skillsync-mcp",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "The Operating System for Clear Thinking & Better Decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "adityasugandhi/skillsync-mcp",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "adityasugandhi/skillsync-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "HoangTheQuyen/think-better"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

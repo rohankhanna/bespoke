@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
+    }
+  ],
+  "term": "Tests: node.js"
+}

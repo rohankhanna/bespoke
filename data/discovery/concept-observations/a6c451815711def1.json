@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Installer integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Installer integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12052,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11030,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10775,
+      "status": "candidate",
+      "text": "construction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10775,
+      "status": "candidate",
+      "text": "inclusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10775,
+      "status": "candidate",
+      "text": "insertion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Installer integration",
+      "sense_id": "installer-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "installer-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "installer-integration",
+  "observation_id": "a6c451815711def1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Installer integration",
+  "source_context_snippet": "Installer integration",
+  "source_file": ".github/workflows/installer.yaml",
+  "source_repo": "coder/code-server",
+  "source_repo_description": "VS Code in the browser"
+}

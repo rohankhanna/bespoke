@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "container-image",
+      "sense_id": "container-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container-image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container-image",
+  "observation_id": "12e18774c6c8e35e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "container-image",
+  "source_context_snippet": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)",
+  "source_file": null,
+  "source_repo": "containers/buildah",
+  "source_repo_description": "A tool that facilitates building OCI images."
+}

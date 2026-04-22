@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release on Version Change"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "Release on Version Change"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "Release on Version Change"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34808,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34808,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27594,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26909,
+      "status": "candidate",
+      "text": "linspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19092,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release on Version Change",
+  "concept_id": "release-on-version-change",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release on Version Change",
+      "sense_id": "release-on-version-change#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

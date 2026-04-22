@@ -128,6 +128,18 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate-context",
       "text": "'Lock threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "Rofi: A window switcher, application launcher and dmenu replacement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +202,12 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate",
       "text": "'Lock threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_related_terms": [
@@ -299,11 +317,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "davatorium/rofi"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

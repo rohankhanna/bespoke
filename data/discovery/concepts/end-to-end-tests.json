@@ -1,7 +1,8 @@
 {
   "aliases": [
     "End-to-end tests",
-    "End to end tests"
+    "End to end tests",
+    "End to end Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "blockprotocol/blockprotocol",
       "status": "candidate-context",
       "text": "End to end tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "End to end Tests"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "blockprotocol/blockprotocol",
       "status": "candidate",
       "text": "End to end tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "End to end Tests"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +155,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "blockprotocol/blockprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/e2e_test.yml",
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "vega/vega-datasets",
       "status": "candidate-context",
       "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "vega/vega-datasets",
       "status": "candidate",
       "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/vega-datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pr-semantic.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/lint_pr.yml",
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

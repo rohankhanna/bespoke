@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/binaries.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "1mcp-app/agent"
     }
   ],
   "term": "binaries"

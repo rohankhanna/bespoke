@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v5",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dotnet-integration-tests.yml",
       "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/csharp.yml",
+      "source_repo": "apache/arrow-adbc"
     }
   ]
 }

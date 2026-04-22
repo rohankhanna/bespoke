@@ -1,0 +1,12 @@
+{
+  "component": "threeal/cmake-action@725d1314ccf9ea922805d7e3f9d9bcbca892b406",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "google/benchmark"
+    }
+  ]
+}

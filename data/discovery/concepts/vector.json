@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004058,
+      "status": "candidate",
+      "text": "medium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993861,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991920,
+      "status": "candidate",
+      "text": "aspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978735,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971709,
+      "status": "candidate",
+      "text": "resulting"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "vector",
   "concept_id": "vector",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "ruvnet/RuVector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

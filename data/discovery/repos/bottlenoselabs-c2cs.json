@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@c43d7637b9b9ce3e953168c325d27253a5d48d8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "softprops/action-gh-release@c43d7637b9b9ce3e953168c325d27253a5d48d8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "Test .NET solution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "bindgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs",
+      "target": "csharp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:27.563136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 216
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2845
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate C# bindings from a C header.",
+    "fork": false,
+    "full_name": "bottlenoselabs/c2cs",
+    "html_url": "https://github.com/bottlenoselabs/c2cs",
+    "language": "C#",
+    "pushed_at": "2025-09-08T18:34:25Z",
+    "stargazers_count": 300,
+    "topics": [
+      "bindgen",
+      "c",
+      "clang",
+      "codegen",
+      "csharp",
+      "ffi"
+    ],
+    "updated_at": "2026-04-22T06:18:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Main\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\"Test .NET solution\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test .NET solution"
+    },
+    {
+      "context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindgen"
+    },
+    {
+      "context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dockerd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dockerd"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dockerd",
+      "sense_id": "dockerd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dockerd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dockerd",
+  "observation_id": "6673d4a26d75e344",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "dockerd",
+  "source_context_snippet": "dockerd",
+  "source_file": ".github/workflows/dockerd.yml",
+  "source_repo": "moby/buildkit",
+  "source_repo_description": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+}

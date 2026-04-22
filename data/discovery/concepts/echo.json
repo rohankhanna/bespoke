@@ -19,6 +19,18 @@
       "source_repo": "labstack/echo",
       "status": "candidate-context",
       "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "Generate Echo backend code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "labstack/echo",
       "status": "candidate",
       "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "labstack/echo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-pr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "Git client for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate-context",
+      "text": "test-pr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/abapGit",
+      "status": "candidate",
+      "text": "test-pr"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-pr",
+  "concept_id": "test-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "abapGit/abapGit"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-pr",
+      "sense_id": "test-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

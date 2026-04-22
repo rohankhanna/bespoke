@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy compose application on ECS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ECS integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ECS integration tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "demos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "livable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "math"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "sat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ECS integration tests",
+      "sense_id": "ecs-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecs-integration-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecs-integration-tests",
+  "observation_id": "86c3cda0040f6e28",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ECS integration tests",
+  "source_context_snippet": "ECS integration tests",
+  "source_file": ".github/workflows/ecs-tests.yml",
+  "source_repo": "docker-archive-public/docker.compose-ecs",
+  "source_repo_description": "Deploy compose application on ECS"
+}

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "hyper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "hyper-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "snazzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "terminal-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:20.541092+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elegant Hyper theme with bright colors",
+    "fork": false,
+    "full_name": "sindresorhus/hyper-snazzy",
+    "html_url": "https://github.com/sindresorhus/hyper-snazzy",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-11T17:52:00Z",
+    "stargazers_count": 1484,
+    "topics": [
+      "color-scheme",
+      "hyper",
+      "hyper-theme",
+      "snazzy",
+      "terminal",
+      "terminal-theme",
+      "theme"
+    ],
+    "updated_at": "2026-04-16T16:28:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyper"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyper-theme"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snazzy"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-theme"
+    },
+    {
+      "context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

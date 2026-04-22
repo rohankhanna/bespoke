@@ -232,6 +232,66 @@
       "source_repo": "k8gege/Ladon",
       "status": "candidate-context",
       "text": "![](https://k8gege.github.io/k8img/Ladon/Dragon.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "Open source extension marketplace for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "VS Code in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +396,36 @@
       "source_repo": "k8gege/Ladon",
       "status": "candidate",
       "text": "![](https://k8gege.github.io/k8img/Ladon/Dragon.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-server",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +637,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "k8gege/Ladon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "configuration-management",
+      "sense_id": "configuration-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "configuration-management",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "configuration-management",
+  "observation_id": "47b63c6653267357",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "configuration-management",
+  "source_context_snippet": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />",
+  "source_file": null,
+  "source_repo": "alibaba/nacos",
+  "source_repo_description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+}

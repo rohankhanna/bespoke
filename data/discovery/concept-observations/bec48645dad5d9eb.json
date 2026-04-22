@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chafa WebAssembly module to convert images to text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928090,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904743,
+      "status": "candidate",
+      "text": "lumen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998257,
+      "status": "candidate",
+      "text": "lumens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998256,
+      "status": "candidate",
+      "text": "twitchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998255,
+      "status": "candidate",
+      "text": "agitated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ansi",
+      "sense_id": "ansi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ansi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ansi",
+  "observation_id": "bec48645dad5d9eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ansi",
+  "source_context_snippet": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can.",
+  "source_file": null,
+  "source_repo": "hectorm/chafa-wasm",
+  "source_repo_description": "Chafa WebAssembly module to convert images to text."
+}

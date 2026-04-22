@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "pozetroninc/github-action-get-latest-release@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pozetroninc/github-action-get-latest-release@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "er28-0652/setup-ghidra@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "justfoxing/ghidra_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "vdoo-connected-trust/ghidra-pyi-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "pozetroninc/github-action-get-latest-release@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "er28-0652/setup-ghidra@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "Publish Release for each Ghidra Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-pyi-generator",
+      "target": "ghidra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:19.138695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4217
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 4112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Builds the latest `.pyi` type stubs for the entire Ghidra API - Uses latest Ghidra",
+    "fork": true,
+    "full_name": "clearbluejar/ghidra-pyi-generator",
+    "html_url": "https://github.com/clearbluejar/ghidra-pyi-generator",
+    "language": "Python",
+    "pushed_at": "2022-11-16T13:39:58Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ghidra",
+      "python"
+    ],
+    "updated_at": "2022-06-15T20:37:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justfoxing/ghidra_bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vdoo-connected-trust/ghidra-pyi-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Release for each Ghidra Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Release for each Ghidra Build"
+    },
+    {
+      "context_snippet": "The Ghidra `.pyi` Generator generates `.pyi` [type stubs][pep-0484]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghidra"
+    }
+  ]
+}

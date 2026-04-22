@@ -91,6 +91,30 @@
       "source_repo": "PyCQA/bandit",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "Standalone static analysis for ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "PyCQA/bandit",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

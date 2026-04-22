@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "rtomayko/tilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/hello-world-javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Generate-PR.yml",
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Package-Dependencies-Updater.yml",
+      "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "rails/webpacker"
     }
   ]
 }

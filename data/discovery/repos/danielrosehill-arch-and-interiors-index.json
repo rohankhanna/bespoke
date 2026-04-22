@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Arch-And-Interiors-Index",
+      "target": "zlzeng/deepfloorplan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:17:01.061750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Resource list for sharing with my favorite architect (my wife) \u2014 tools, repos, and mad dabblings.",
+    "fork": false,
+    "full_name": "danielrosehill/Arch-And-Interiors-Index",
+    "html_url": "https://github.com/danielrosehill/Arch-And-Interiors-Index",
+    "language": null,
+    "pushed_at": "2026-04-19T17:18:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T17:18:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zlzeng/deepfloorplan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

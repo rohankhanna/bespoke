@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml"
+    },
+    {
+      "component": "wow-actions/auto-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml",
+      "source_repo": "Kapeli/Dash-User-Contributions",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml",
+      "source_repo": "Kapeli/Dash-User-Contributions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docsets.yml",
+      "source_repo": "Kapeli/Dash-User-Contributions",
+      "target": "wow-actions/auto-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docsets.yml",
+      "source_repo": "Kapeli/Dash-User-Contributions",
+      "target": "Dash User Contributions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:03:00.048431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2569
+    },
+    {
+      "path": ".github/workflows/test-docsets.yml",
+      "size": 1641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dash repo of user contributed docsets",
+    "fork": false,
+    "full_name": "Kapeli/Dash-User-Contributions",
+    "html_url": "https://github.com/Kapeli/Dash-User-Contributions",
+    "language": "Python",
+    "pushed_at": "2026-04-08T15:35:52Z",
+    "stargazers_count": 2053,
+    "topics": [],
+    "updated_at": "2026-04-17T17:41:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dash User Contributions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docsets.yml",
+      "term": "Dash User Contributions"
+    }
+  ]
+}

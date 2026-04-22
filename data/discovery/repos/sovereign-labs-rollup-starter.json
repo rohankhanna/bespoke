@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-job.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-job.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "paradigmxyz/reth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "namespacelabs/nscloud-cache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "E2E Frontend Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-job.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-job.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "namespacelabs/nscloud-cache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-job.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "Reusable Job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/soak-test.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter",
+      "target": "Soak Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:08:22.807037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9769
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 8486
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2702
+    },
+    {
+      "path": ".github/workflows/e2e-frontend.yml",
+      "size": 3853
+    },
+    {
+      "path": ".github/workflows/reusable-job.yml",
+      "size": 1131
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 4172
+    },
+    {
+      "path": ".github/workflows/soak-test.yml",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A starter template for building real-time rollups",
+    "fork": false,
+    "full_name": "Sovereign-Labs/rollup-starter",
+    "html_url": "https://github.com/Sovereign-Labs/rollup-starter",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T09:09:12Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-22T07:50:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paradigmxyz/reth",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "E2E Frontend Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "term": "E2E Frontend Tests"
+    },
+    {
+      "context_snippet": "Reusable Job",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-job.yml",
+      "term": "Reusable Job"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Soak Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/soak-test.yml",
+      "term": "Soak Test"
+    }
+  ]
+}

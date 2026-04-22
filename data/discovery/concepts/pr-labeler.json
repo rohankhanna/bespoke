@@ -68,6 +68,30 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate-context",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "status": "candidate-context",
+      "text": "Deploy compose application on ECS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "status": "candidate-context",
+      "text": "'PR labeler'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "Badges for your personal developer branding, profile, and projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "PR Labeler"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +124,18 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "status": "candidate",
+      "text": "'PR labeler'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate",
+      "text": "PR Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -203,11 +239,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "LazyVim/LazyVim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "Ileriayo/markdown-badges"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

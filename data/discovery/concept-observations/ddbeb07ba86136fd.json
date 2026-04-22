@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948309,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923756,
+      "status": "candidate",
+      "text": "aoa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29826528,
+      "status": "candidate",
+      "text": "saa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29812045,
+      "status": "candidate",
+      "text": "handle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29618967,
+      "status": "candidate",
+      "text": "zermatt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "saas",
+      "sense_id": "saas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "saas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "saas",
+  "observation_id": "ddbeb07ba86136fd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "saas",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Afnanksalal/co-op",
+  "source_repo_description": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+}

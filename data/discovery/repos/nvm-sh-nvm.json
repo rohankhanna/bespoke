@@ -181,13 +181,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
-      "target": "edc/bass",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvm-sh/nvm",
       "target": "brigand/fast-nvm-fish",
       "target_type": "repository"
     },
@@ -195,7 +188,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
-      "target": "derekstavis/plugin-nvm",
+      "target": "fabioantunes/fish-nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "git/git",
       "target_type": "repository"
     },
     {
@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:10:25.708806+00:00",
+  "fetched_at": "2026-04-22T19:15:44.673447+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -553,7 +553,7 @@
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
     "pushed_at": "2026-04-04T15:37:46Z",
-    "stargazers_count": 93026,
+    "stargazers_count": 93036,
     "topics": [
       "bash",
       "install",
@@ -569,7 +569,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-04-22T01:07:03Z"
+    "updated_at": "2026-04-22T17:47:48Z"
   },
   "repo_links": [
     {
@@ -579,17 +579,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "derekstavis/plugin-nvm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dotphiles/dotzsh",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "edc/bass",
+      "full_name": "fabioantunes/fish-nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git/git",
       "source_file": "README.md"
     }
   ],

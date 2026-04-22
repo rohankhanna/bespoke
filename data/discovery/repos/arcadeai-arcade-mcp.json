@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-integration-no-auth.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-integration-no-auth.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-integration-no-auth.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "CLI Integration (No Auth)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylon-sync.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "slackapi/slack-github-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "Release on Version Change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "Stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install.yml",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "Test Installation (Cross-Platform)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "ai-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "arcade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "arcade-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "llm-tool-call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "llm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "mcp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "mcp-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "mcp-runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "mcp-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "mcp-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "model-context-protocol-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "target": "toolcalling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:18:08.161036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7993
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3739
+    },
+    {
+      "path": ".github/workflows/cli-integration-no-auth.yml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1387
+    },
+    {
+      "path": ".github/workflows/pylon-sync.yml",
+      "size": 1188
+    },
+    {
+      "path": ".github/workflows/release-on-version-change.yml",
+      "size": 6397
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 950
+    },
+    {
+      "path": ".github/workflows/test-install.yml",
+      "size": 1123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The best way to create, deploy, and share MCP Servers",
+    "fork": false,
+    "full_name": "ArcadeAI/arcade-mcp",
+    "html_url": "https://github.com/ArcadeAI/arcade-mcp",
+    "language": "Python",
+    "pushed_at": "2026-04-22T00:37:21Z",
+    "stargazers_count": 864,
+    "topics": [
+      "ai",
+      "ai-gateway",
+      "arcade",
+      "arcade-ai",
+      "llm-tool-call",
+      "llm-tools",
+      "mcp",
+      "mcp-client",
+      "mcp-gateway",
+      "mcp-runtime",
+      "mcp-servers",
+      "mcp-tools",
+      "model-context-protocol",
+      "model-context-protocol-sdk",
+      "toolcalling"
+    ],
+    "updated_at": "2026-04-21T06:44:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLI Integration (No Auth)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-integration-no-auth.yml",
+      "term": "CLI Integration (No Auth)"
+    },
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Release on Version Change",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "term": "Release on Version Change"
+    },
+    {
+      "context_snippet": "Stale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale"
+    },
+    {
+      "context_snippet": "Test Installation (Cross-Platform)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install.yml",
+      "term": "Test Installation (Cross-Platform)"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-gateway"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcade"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcade-ai"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-tool-call"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-tools"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-client"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-gateway"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-runtime"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-servers"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-tools"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol-sdk"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolcalling"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_repository_health.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_not_found.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_validation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_updates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_updates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zig_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zig_validation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zig_validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "termux/termux-packages",
+      "target": "termux/repology-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "termux/termux-packages",
+      "target": "termux/termux-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "termux/termux-packages",
+      "target": "termux/termux-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "termux/termux-packages",
+      "target": "warpdotdev/brand-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Generate bootstrap archives (android-7)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_repository_health.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_repository_health.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Check Repository Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "CodeQL analysis of GitHub action jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_not_found.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command_not_found.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Command Not Found Rebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Golang validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_updates.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_updates.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Package updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zig_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zig_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zig_validation.yml",
+      "source_repo": "termux/termux-packages",
+      "target": "Zig validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "linux-distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "termux/termux-packages",
+      "target": "termux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:22.618703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4184
+    },
+    {
+      "path": ".github/workflows/bootstrap_archives.yml",
+      "size": 2105
+    },
+    {
+      "path": ".github/workflows/check_repository_health.yml",
+      "size": 2011
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3486
+    },
+    {
+      "path": ".github/workflows/command_not_found.yml",
+      "size": 914
+    },
+    {
+      "path": ".github/workflows/docker_image.yml",
+      "size": 3980
+    },
+    {
+      "path": ".github/workflows/golang_validation.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/package_updates.yml",
+      "size": 5981
+    },
+    {
+      "path": ".github/workflows/packages.yml",
+      "size": 19917
+    },
+    {
+      "path": ".github/workflows/zig_validation.yml",
+      "size": 1899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A package build system for Termux.",
+    "fork": false,
+    "full_name": "termux/termux-packages",
+    "html_url": "https://github.com/termux/termux-packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T16:03:08Z",
+    "stargazers_count": 16091,
+    "topics": [
+      "android",
+      "hacktoberfest",
+      "linux",
+      "linux-distribution",
+      "packages",
+      "termux"
+    ],
+    "updated_at": "2026-04-22T18:05:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termux/repology-metadata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termux/termux-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termux/termux-community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "warpdotdev/brand-assets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate bootstrap archives (android-7)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_archives.yml",
+      "term": "Generate bootstrap archives (android-7)"
+    },
+    {
+      "context_snippet": "Check Repository Health",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_repository_health.yml",
+      "term": "Check Repository Health"
+    },
+    {
+      "context_snippet": "\"CodeQL analysis of GitHub action jobs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL analysis of GitHub action jobs"
+    },
+    {
+      "context_snippet": "Command Not Found Rebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command_not_found.yml",
+      "term": "Command Not Found Rebuild"
+    },
+    {
+      "context_snippet": "Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_image.yml",
+      "term": "Docker image"
+    },
+    {
+      "context_snippet": "Golang validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_validation.yml",
+      "term": "Golang validation"
+    },
+    {
+      "context_snippet": "Package updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_updates.yml",
+      "term": "Package updates"
+    },
+    {
+      "context_snippet": "Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "term": "Packages"
+    },
+    {
+      "context_snippet": "Zig validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zig_validation.yml",
+      "term": "Zig validation"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-distribution"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packages"
+    },
+    {
+      "context_snippet": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "termux"
+    }
+  ]
+}

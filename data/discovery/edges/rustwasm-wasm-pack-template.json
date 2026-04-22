@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/wasm-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "ashleygwilliams/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rustwasm/wasm-pack-template",
+      "target": "rustwasm/console_error_panic_hook",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "rustwasm/wasm-pack-template"
+}

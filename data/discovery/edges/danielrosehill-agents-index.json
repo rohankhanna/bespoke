@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-deploy",
+      "target": "danielrosehill/agentic-context-development-interview-demo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-handover-demo",
+      "target": "danielrosehill/ai-agent-ideation-agent",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agent-sdk-env-setup",
+      "target": "danielrosehill/ai-agent-un",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Agents-Index",
-      "target": "danielrosehill/agentic-ai-architecture-visualisation",
+      "target": "danielrosehill/ai-agent-virtual-panel-configs",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "danielrosehill/Agents-Index"
 }

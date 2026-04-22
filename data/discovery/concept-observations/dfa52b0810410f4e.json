@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post Benchmark Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post Benchmark Comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21515,
+      "status": "candidate",
+      "text": "footnote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21218,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21093,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21066,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21016,
+      "status": "candidate",
+      "text": "background"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Benchmark Comment",
+      "sense_id": "post-benchmark-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-benchmark-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-benchmark-comment",
+  "observation_id": "dfa52b0810410f4e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Post Benchmark Comment",
+  "source_context_snippet": "Post Benchmark Comment",
+  "source_file": ".github/workflows/comment.yml",
+  "source_repo": "apache/casbin",
+  "source_repo_description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+}

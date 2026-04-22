@@ -151,6 +151,18 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "Badges for your personal developer branding, profile, and projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate-context",
+      "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate",
+      "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +370,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Ileriayo/markdown-badges"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "cloudflare/wrangler-action@v3",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-scripts-worker.yml",
       "source_repo": "tauri-apps/create-tauri-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "1mcp-app/agent"
     }
   ]
 }

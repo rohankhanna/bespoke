@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/hub",
+      "target": "artifacthub/hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helm/hub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/hub",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/hub",
+      "target": "helm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:36.129637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2955
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/",
+    "fork": false,
+    "full_name": "helm/hub",
+    "html_url": "https://github.com/helm/hub",
+    "language": null,
+    "pushed_at": "2021-07-01T20:07:44Z",
+    "stargazers_count": 252,
+    "topics": [
+      "cncf",
+      "helm"
+    ],
+    "updated_at": "2025-05-29T10:55:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artifacthub/hub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    }
+  ]
+}

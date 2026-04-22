@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "golang/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo"
     }
   ],
   "term": "protobuf"

@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "docker://rhysd/actionlint:1.6.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all-plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "0ghny/asdf-gitconfig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "0ghny/asdf-gobackup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "1oglop1/asdf-pdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "0ghny/asdf-tlsgcli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "asdf-vm/actions/install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "docker://rhysd/actionlint:1.6.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "amannn/action-semantic-pull-request@v5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all-plugins.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all-plugins.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:57:22.181567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 129001
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 565
+    },
+    {
+      "path": ".github/workflows/semantic-pr.yml",
+      "size": 282
+    },
+    {
+      "path": ".github/workflows/test-all-plugins.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convenience shortname repository for asdf community plugins",
+    "fork": false,
+    "full_name": "asdf-vm/asdf-plugins",
+    "html_url": "https://github.com/asdf-vm/asdf-plugins",
+    "language": "Shell",
+    "pushed_at": "2025-12-01T11:25:24Z",
+    "stargazers_count": 1432,
+    "topics": [
+      "asdf",
+      "asdf-plugin",
+      "community",
+      "version-manager"
+    ],
+    "updated_at": "2026-04-22T17:19:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ghny/asdf-gitconfig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ghny/asdf-gobackup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ghny/asdf-tlsgcli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1oglop1/asdf-pdm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all-plugins.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    },
+    {
+      "context_snippet": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    }
+  ]
+}

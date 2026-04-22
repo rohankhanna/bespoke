@@ -19,12 +19,30 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "Claude Issue Dedupe"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kastalien-Research/thoughtbox",
+      "status": "candidate-context",
+      "text": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kastalien-Research/thoughtbox",
+      "status": "candidate-context",
+      "text": "Claude Issue Dedupe"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "lobehub/lobehub",
+      "status": "candidate",
+      "text": "Claude Issue Dedupe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kastalien-Research/thoughtbox",
       "status": "candidate",
       "text": "Claude Issue Dedupe"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/claude-dedupe-issues.yml",
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

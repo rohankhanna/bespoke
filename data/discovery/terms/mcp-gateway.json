@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp"
+    }
+  ],
+  "term": "mcp-gateway"
+}

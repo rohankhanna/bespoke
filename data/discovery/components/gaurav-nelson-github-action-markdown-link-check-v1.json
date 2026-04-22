@@ -1,0 +1,12 @@
+{
+  "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    }
+  ]
+}

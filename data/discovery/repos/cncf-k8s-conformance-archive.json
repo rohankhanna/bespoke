@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance-archive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance-archive",
+      "target": "check-conformance-test-suite-documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:08.048270+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "size": 1677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\uddeaCNCF K8s Conformance Working Group Archive",
+    "fork": true,
+    "full_name": "cncf/k8s-conformance-archive",
+    "html_url": "https://github.com/cncf/k8s-conformance-archive",
+    "language": null,
+    "pushed_at": "2026-03-09T18:25:57Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-11-14T05:44:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check-conformance-test-suite-documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "term": "check-conformance-test-suite-documentation"
+    }
+  ]
+}

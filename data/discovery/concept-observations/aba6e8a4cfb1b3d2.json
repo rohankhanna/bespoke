@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label title prefix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label title prefix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25732,
+      "status": "candidate",
+      "text": "nasi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19441,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18620,
+      "status": "candidate",
+      "text": "appellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18590,
+      "status": "candidate",
+      "text": "concept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18561,
+      "status": "candidate",
+      "text": "epithet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label title prefix",
+      "sense_id": "label-title-prefix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-title-prefix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-title-prefix",
+  "observation_id": "aba6e8a4cfb1b3d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Label title prefix",
+  "source_context_snippet": "Label title prefix",
+  "source_file": ".github/workflows/label-title-prefix.yml",
+  "source_repo": "microsoft/semantic-kernel-java",
+  "source_repo_description": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel."
+}

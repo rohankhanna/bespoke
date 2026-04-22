@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "bgw/virtue",
+      "target": "bincode-org/virtue",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:40.866584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2084
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 5507
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "A sinless derive helper",
+    "fork": true,
+    "full_name": "bgw/virtue",
+    "html_url": "https://github.com/bgw/virtue",
+    "language": null,
+    "pushed_at": "2025-10-29T23:57:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-29T23:56:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bincode-org/virtue",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

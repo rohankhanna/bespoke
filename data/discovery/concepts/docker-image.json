@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "docker-image"
+    "docker-image",
+    "Docker image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -33,6 +34,30 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate-context",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
     }
   ],
   "candidate_glosses": [
@@ -47,9 +72,57 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate",
+      "text": "Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15284,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "docker-image",
   "concept_id": "docker-image",
@@ -72,11 +145,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "termux/termux-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

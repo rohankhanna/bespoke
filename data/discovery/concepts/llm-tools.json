@@ -31,6 +31,42 @@
       "source_repo": "aralyekta/prompttester",
       "status": "candidate-context",
       "text": "![PromptTester Demo](img/promptTester.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "aralyekta/prompttester",
       "status": "candidate",
       "text": "![PromptTester Demo](img/promptTester.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "aralyekta/prompttester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ArcadeAI/arcade-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

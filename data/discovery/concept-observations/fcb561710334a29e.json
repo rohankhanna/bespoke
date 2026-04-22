@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "COIN-OR Branch-and-Cut solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Linux build and test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Linux build and test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23366,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "minix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22433,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22433,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22433,
+      "status": "candidate",
+      "text": "par"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux build and test",
+      "sense_id": "linux-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux-build-and-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux-build-and-test",
+  "observation_id": "fcb561710334a29e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Linux build and test",
+  "source_context_snippet": "Linux build and test",
+  "source_file": ".github/workflows/linux-ci.yml",
+  "source_repo": "coin-or/Cbc",
+  "source_repo_description": "COIN-OR Branch-and-Cut solver"
+}

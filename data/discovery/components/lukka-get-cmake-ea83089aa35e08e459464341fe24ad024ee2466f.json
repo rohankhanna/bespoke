@@ -1,0 +1,17 @@
+{
+  "component": "lukka/get-cmake@ea83089aa35e08e459464341fe24ad024ee2466f",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-min-cmake.yml",
+      "source_repo": "google/benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "google/benchmark"
+    }
+  ]
+}

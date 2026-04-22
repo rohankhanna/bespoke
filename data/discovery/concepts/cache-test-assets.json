@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cache test assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Cache test assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "Cache test assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "treasure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19611,
+      "status": "candidate",
+      "text": "reserves"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cache test assets",
+  "concept_id": "cache-test-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "source_repo": "aquasecurity/trivy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache test assets",
+      "sense_id": "cache-test-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

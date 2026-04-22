@@ -19,6 +19,18 @@
       "source_repo": "babel/notes",
       "status": "candidate-context",
       "text": "> Please check out our [team page](https://babeljs.io/team)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "Working group notes for GraphQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate-context",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "babel/notes",
       "status": "candidate",
       "text": "> Please check out our [team page](https://babeljs.io/team)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-wg",
+      "status": "candidate",
+      "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "babel/notes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-wg"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,10 +19,65 @@
       "source_repo": "AskRoundtable/expert-skills",
       "status": "candidate-context",
       "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more \u2014 structured multi-round deliberation with genuine model diversity. One command: /council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980022,
+      "status": "candidate",
+      "text": "decisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977703,
+      "status": "candidate",
+      "text": "responsibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977675,
+      "status": "candidate",
+      "text": "disposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977614,
+      "status": "candidate",
+      "text": "decision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976575,
+      "status": "candidate",
+      "text": "reception"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "decision-making",
   "concept_id": "decision-making",
@@ -39,12 +94,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "AskRoundtable/expert-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update pinned dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "The property-based testing library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate-context",
+      "text": "Update pinned dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate",
+      "text": "Update pinned dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "ban"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "bann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "banned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update pinned dependencies",
+  "concept_id": "update-pinned-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "HypothesisWorks/hypothesis"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update pinned dependencies",
+      "sense_id": "update-pinned-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

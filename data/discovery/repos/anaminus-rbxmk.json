@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "Create draft release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Anaminus/rbxmk",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "rbxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "rbxlx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "rbxm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "rbxmk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "rbxmx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "roblox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anaminus/rbxmk",
+      "target": "roblox-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:57:25.828127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4085
+    },
+    {
+      "path": "go.mod",
+      "size": 1280
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3070
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "imperative",
+    "description": "A tool for processing Roblox files.",
+    "fork": false,
+    "full_name": "Anaminus/rbxmk",
+    "html_url": "https://github.com/Anaminus/rbxmk",
+    "language": "Go",
+    "pushed_at": "2024-01-22T16:12:37Z",
+    "stargazers_count": 128,
+    "topics": [
+      "build-system",
+      "build-tool",
+      "game-development",
+      "go",
+      "lua",
+      "rbxl",
+      "rbxlx",
+      "rbxm",
+      "rbxmk",
+      "rbxmx",
+      "roblox",
+      "roblox-studio"
+    ],
+    "updated_at": "2026-04-05T13:22:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create draft release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create draft release"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxl"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxlx"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxm"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxmk"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxmx"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roblox"
+    },
+    {
+      "context_snippet": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roblox-studio"
+    }
+  ]
+}

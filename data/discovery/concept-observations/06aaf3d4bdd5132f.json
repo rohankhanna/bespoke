@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Container Features Regression Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Container Features Regression Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31702,
+      "status": "candidate",
+      "text": "spill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31702,
+      "status": "candidate",
+      "text": "spilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31663,
+      "status": "candidate",
+      "text": "liner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31663,
+      "status": "candidate",
+      "text": "shank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31593,
+      "status": "candidate",
+      "text": "battery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Container Features Regression Test",
+      "sense_id": "container-features-regression-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container-features-regression-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container-features-regression-test",
+  "observation_id": "06aaf3d4bdd5132f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Container Features Regression Test",
+  "source_context_snippet": "Container Features Regression Test",
+  "source_file": ".github/workflows/container-features-regression.yml",
+  "source_repo": "microsoft/vscode-dev-containers",
+  "source_repo_description": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+}

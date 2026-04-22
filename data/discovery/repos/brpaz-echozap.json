@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codfish/semantic-release-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brpaz/echozap",
+      "target": "semantic-release/semantic-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brpaz/echozap",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brpaz/echozap",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brpaz/echozap",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brpaz/echozap",
+      "target": "codfish/semantic-release-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brpaz/echozap",
+      "target": "echo-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brpaz/echozap",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brpaz/echozap",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brpaz/echozap",
+      "target": "middleware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:44.960613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2668
+    },
+    {
+      "path": "go.mod",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests",
+    "fork": false,
+    "full_name": "brpaz/echozap",
+    "html_url": "https://github.com/brpaz/echozap",
+    "language": "Go",
+    "pushed_at": "2025-02-09T19:05:47Z",
+    "stargazers_count": 67,
+    "topics": [
+      "echo-framework",
+      "golang",
+      "logging",
+      "middleware"
+    ],
+    "updated_at": "2026-04-16T19:09:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semantic-release/semantic-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echo-framework"
+    },
+    {
+      "context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    }
+  ]
+}

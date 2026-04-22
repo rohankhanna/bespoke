@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "isomorphic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39574904,
+      "status": "candidate",
+      "text": "isomorphous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840458,
+      "status": "candidate",
+      "text": "equivalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840457,
+      "status": "candidate",
+      "text": "isostructural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840456,
+      "status": "candidate",
+      "text": "equipotent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840455,
+      "status": "candidate",
+      "text": "homologous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "isomorphous"
+    }
+  ],
+  "canonical_name": "isomorphic",
+  "concept_id": "isomorphic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/razzle"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "isomorphic",
+      "sense_id": "isomorphic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "int128/update-generated-files-action@0f1bbcef10eaff55c52bc9f9278a6ceeeb1beda3",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "int128/kubelogin"
+    }
+  ]
+}

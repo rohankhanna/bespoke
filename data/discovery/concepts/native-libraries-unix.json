@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Native Libraries (Unix)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Database connectivity API standard and libraries for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Native Libraries (Unix)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate",
+      "text": "Native Libraries (Unix)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17304,
+      "status": "candidate",
+      "text": "library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "carnegie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "quiet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Native Libraries (Unix)",
+  "concept_id": "native-libraries-unix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native Libraries (Unix)",
+      "sense_id": "native-libraries-unix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

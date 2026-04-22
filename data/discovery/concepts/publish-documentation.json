@@ -38,6 +38,18 @@
       "source_repo": "electron/rebuild",
       "status": "candidate-context",
       "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Symbolic and concrete EVM execution engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Publish Documentation"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "electron/rebuild",
       "status": "candidate",
       "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate",
+      "text": "Publish Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "argotorg/hevm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

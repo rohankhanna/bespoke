@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate-context",
       "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "cibuildwheel"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate",
       "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "cibuildwheel"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +60,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "pypa/cibuildwheel"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

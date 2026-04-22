@@ -43,6 +43,30 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate-context",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate-context",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addyosmani/chatty",
+      "status": "candidate-context",
+      "text": "ChattyUI - your private AI chat for running LLMs in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/chatty",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/chatty",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "addyosmani/chatty"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -142,6 +142,30 @@
       "source_repo": "bentoml/OpenLLM",
       "status": "candidate-context",
       "text": "Dependabot Auto merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "A collection of common interactive command line user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +228,18 @@
       "source_repo": "bentoml/OpenLLM",
       "status": "candidate",
       "text": "Dependabot Auto merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SBoudrias/Inquirer.js",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_related_terms": [
@@ -313,11 +349,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "bentoml/OpenLLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "prometheus/client_golang"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "oci-image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "oci-image",
+  "concept_id": "oci-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containers/buildah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "moby/buildkit"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oci-image",
+      "sense_id": "oci-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

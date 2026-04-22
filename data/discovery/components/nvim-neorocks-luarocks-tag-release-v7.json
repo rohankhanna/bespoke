@@ -1,12 +1,27 @@
 {
   "component": "nvim-neorocks/luarocks-tag-release@v7",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/luarocks-release.yaml",
       "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "3rd/image.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "3rd/image.nvim"
     }
   ]
 }

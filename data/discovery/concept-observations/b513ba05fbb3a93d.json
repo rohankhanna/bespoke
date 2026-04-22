@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016772,
+      "status": "candidate",
+      "text": "stumpage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012774,
+      "status": "candidate",
+      "text": "mowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006847,
+      "status": "candidate",
+      "text": "mining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003718,
+      "status": "candidate",
+      "text": "felling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001922,
+      "status": "candidate",
+      "text": "harvesting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logging",
+      "sense_id": "logging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "logging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "logging",
+  "observation_id": "b513ba05fbb3a93d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "logging",
+  "source_context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+  "source_file": null,
+  "source_repo": "brpaz/echozap",
+  "source_repo_description": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+}

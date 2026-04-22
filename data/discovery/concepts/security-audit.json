@@ -131,6 +131,42 @@
       "source_repo": "bitfield/gotestdox",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Rust implementation of bors used for various Rust components (e.g. the compiler)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "Rust library for displaying images in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +223,24 @@
       "source_repo": "bitfield/gotestdox",
       "status": "candidate",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viuer",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -308,11 +362,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-lang/bors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "atanunq/viuer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Bearer/bearer"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

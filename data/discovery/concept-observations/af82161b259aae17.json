@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simulate anything, for $1 & less than 10 min \u2014 Universal Swarm Intelligence Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39630527,
+      "status": "candidate",
+      "text": "drove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39532992,
+      "status": "candidate",
+      "text": "pour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39502101,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39417896,
+      "status": "candidate",
+      "text": "teem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39389778,
+      "status": "candidate",
+      "text": "horde"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swarm",
+      "sense_id": "swarm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19057,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "horde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "drove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "pour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7041,
+      "status": "candidate",
+      "text": "teem"
+    }
+  ],
+  "concept_id": "swarm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swarm",
+  "observation_id": "af82161b259aae17",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "swarm",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "aaronjmars/MiroShark",
+  "source_repo_description": "Simulate anything, for $1 & less than 10 min \u2014 Universal Swarm Intelligence Engine"
+}

@@ -43,6 +43,30 @@
       "source_repo": "sql-js/react-sqljs-demo",
       "status": "candidate-context",
       "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "sql-js/react-sqljs-demo",
       "status": "candidate",
       "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "sql-js/react-sqljs-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rails/webpacker"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

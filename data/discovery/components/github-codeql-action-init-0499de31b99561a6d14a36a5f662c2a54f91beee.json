@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@0499de31b99561a6d14a36a5f662c2a54f91beee",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "darccio/mergo"
+    }
+  ]
+}

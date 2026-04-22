@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-base-action@beta",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "mattgodbolt/jsbeeb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
     }
   ]
 }

@@ -133,6 +133,42 @@
       "source_repo": "gitui-org/gitui",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Directory-based environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate-context",
+      "text": "Magic per-project shell environments."
     }
   ],
   "candidate_glosses": [
@@ -195,6 +231,24 @@
       "source_repo": "gitui-org/gitui",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate",
+      "text": "Powerline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperupcall/autoenv",
+      "status": "candidate",
+      "text": "Magic per-project shell environments."
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +400,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

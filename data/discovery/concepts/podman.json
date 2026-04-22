@@ -19,6 +19,18 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate-context",
       "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate",
       "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "containers/podman-compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containers/buildah"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

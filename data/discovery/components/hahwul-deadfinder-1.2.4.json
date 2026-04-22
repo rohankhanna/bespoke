@@ -1,0 +1,12 @@
+{
+  "component": "hahwul/deadfinder@1.2.4",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "justchokingaround/lobster"
+    }
+  ]
+}

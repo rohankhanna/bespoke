@@ -106,6 +106,18 @@
       "source_repo": "Canop/bacon",
       "status": "candidate-context",
       "text": "![bacon][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "Canop/bacon",
       "status": "candidate",
       "text": "![bacon][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "Check"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +301,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "Canop/bacon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "NixOS/nixpkgs"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

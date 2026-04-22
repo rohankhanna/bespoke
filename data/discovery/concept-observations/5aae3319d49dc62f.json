@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39508525,
+      "status": "candidate",
+      "text": "admixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39414179,
+      "status": "candidate",
+      "text": "debase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29646295,
+      "status": "candidate",
+      "text": "metal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29645666,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29523081,
+      "status": "candidate",
+      "text": "bullion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alloy",
+      "sense_id": "alloy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "debase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2038,
+      "status": "candidate",
+      "text": "admixture"
+    }
+  ],
+  "concept_id": "alloy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alloy",
+  "observation_id": "5aae3319d49dc62f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "alloy",
+  "source_context_snippet": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates.",
+  "source_file": null,
+  "source_repo": "foundry-rs/foundry-core",
+  "source_repo_description": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+}

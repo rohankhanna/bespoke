@@ -19,6 +19,18 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate-context",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "Command line tool for adding Windows resources to executable files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "akavel/rsrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

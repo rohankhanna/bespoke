@@ -151,6 +151,42 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "Container Network Interface - networking for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +259,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JakeChampion/fetch",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -370,11 +424,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "prometheus/client_golang"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core traits and libraries extracted from Foundry, published as crates so they can be depended on without git references."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate-context",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/foundry-core",
+      "status": "candidate",
+      "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "foundry-rs/foundry-core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

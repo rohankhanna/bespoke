@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_cli_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_cli_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_ffi_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_ffi_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_cli_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_cli_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Build and Test Cedar Lean CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Build and Test DRT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_ffi_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_ffi_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Build and Test Cedar Lean FFI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Build and Test cedar-spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Test Corpus Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Deploy Lean Documentation to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml",
+      "source_repo": "cedar-policy/cedar-spec",
+      "target": "Run Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:51.873331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3393
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1627
+    },
+    {
+      "path": ".github/workflows/build_and_test_cli_reusable.yml",
+      "size": 2664
+    },
+    {
+      "path": ".github/workflows/build_and_test_drt_reusable.yml",
+      "size": 2935
+    },
+    {
+      "path": ".github/workflows/build_and_test_ffi_reusable.yml",
+      "size": 2630
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4632
+    },
+    {
+      "path": ".github/workflows/corpus_generation_test_reusable.yml",
+      "size": 3096
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 1846
+    },
+    {
+      "path": ".github/workflows/run_integration_tests_reusable.yml",
+      "size": 2312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Definitional implementation of Cedar language and utilities for DRT",
+    "fork": false,
+    "full_name": "cedar-policy/cedar-spec",
+    "html_url": "https://github.com/cedar-policy/cedar-spec",
+    "language": "Lean",
+    "pushed_at": "2026-04-22T19:16:55Z",
+    "stargazers_count": 172,
+    "topics": [],
+    "updated_at": "2026-04-21T15:01:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Cedar Lean CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_cli_reusable.yml",
+      "term": "Build and Test Cedar Lean CLI"
+    },
+    {
+      "context_snippet": "Build and Test DRT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_drt_reusable.yml",
+      "term": "Build and Test DRT"
+    },
+    {
+      "context_snippet": "Build and Test Cedar Lean FFI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_ffi_reusable.yml",
+      "term": "Build and Test Cedar Lean FFI"
+    },
+    {
+      "context_snippet": "Build and Test cedar-spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build and Test cedar-spec"
+    },
+    {
+      "context_snippet": "Test Corpus Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus_generation_test_reusable.yml",
+      "term": "Test Corpus Generation"
+    },
+    {
+      "context_snippet": "Deploy Lean Documentation to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "term": "Deploy Lean Documentation to Pages"
+    },
+    {
+      "context_snippet": "Run Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_integration_tests_reusable.yml",
+      "term": "Run Integration Tests"
+    }
+  ]
+}

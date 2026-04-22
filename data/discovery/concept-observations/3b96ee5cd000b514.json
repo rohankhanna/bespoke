@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chafa WebAssembly module to convert images to text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicode-art",
+      "sense_id": "unicode-art#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicode-art",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicode-art",
+  "observation_id": "3b96ee5cd000b514",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "unicode-art",
+  "source_context_snippet": "Have you ever wanted to convert an image into a much less efficient and lower quality text representation? No? Well, with this module you can.",
+  "source_file": null,
+  "source_repo": "hectorm/chafa-wasm",
+  "source_repo_description": "Chafa WebAssembly module to convert images to text."
+}

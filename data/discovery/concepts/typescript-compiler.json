@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "typescript-compiler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate-context",
+      "text": "Compile multiple TypeScript projects into multiple targets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/npm/v/tsc-multi.svg)](https://www.npmjs.com/package/tsc-multi) ![Test](https://github.com/tommy351/tsc-multi/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/npm/v/tsc-multi.svg)](https://www.npmjs.com/package/tsc-multi) ![Test](https://github.com/tommy351/tsc-multi/workflows/Test/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "typescript-compiler",
+  "concept_id": "typescript-compiler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "tommy351/tsc-multi"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typescript-compiler",
+      "sense_id": "typescript-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

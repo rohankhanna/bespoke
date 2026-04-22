@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cache"
+    "cache",
+    "Cache"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,30 @@
       "source_repo": "ccache/ccache",
       "status": "candidate-context",
       "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +72,18 @@
       "source_repo": "ccache/ccache",
       "status": "candidate",
       "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate",
+      "text": "Cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +175,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ccache/ccache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darkweak/souin"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "update go version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/verify-conformance",
+      "status": "candidate-context",
+      "text": "CNCF CI bot for verifying Kubernetes conformance product submissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/verify-conformance",
+      "status": "candidate-context",
+      "text": "update go version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/verify-conformance",
+      "status": "candidate",
+      "text": "update go version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "gin rummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24307,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24264,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24253,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24101,
+      "status": "candidate",
+      "text": "redo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "update go version",
+  "concept_id": "update-go-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-go-version.yml",
+      "source_repo": "kubernetes-sigs/verify-conformance"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update go version",
+      "sense_id": "update-go-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

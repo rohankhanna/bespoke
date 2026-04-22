@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "danielrosehill/ai-model-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "danielrosehill/ai-workspace-planning-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "danielrosehill/claude-rescue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "danielrosehill/agent-journal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "indexes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "plans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "target": "wips",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:17:09.748567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents",
+    "fork": false,
+    "full_name": "danielrosehill/Architectural-Plans-Index",
+    "html_url": "https://github.com/danielrosehill/Architectural-Plans-Index",
+    "language": null,
+    "pushed_at": "2026-04-08T14:23:07Z",
+    "stargazers_count": 1,
+    "topics": [
+      "indexes",
+      "plans",
+      "wips"
+    ],
+    "updated_at": "2026-04-08T14:23:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-journal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-model-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-workspace-planning-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-rescue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plans"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wips"
+    }
+  ]
+}

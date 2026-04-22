@@ -1,0 +1,490 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issue.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-labels.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquasecurity/trivy",
+      "target": "aquasecurity/trivy-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquasecurity/trivy",
+      "target": "aquasecurity/trivy-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquasecurity/trivy",
+      "target": "aquasecurity/trivy-vscode-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquasecurity/trivy",
+      "target": "aquasecurity/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Auto-close issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Auto Ready for Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Auto-update labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Automatic Backporting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-cla.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "CLA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-test.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "source_repo": "aquasecurity/trivy",
+      "target": "Cache test assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "devsecops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "misconfiguration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "vulnerability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "vulnerability-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy",
+      "target": "vulnerability-scanners",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:25:27.521134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5629
+    },
+    {
+      "path": "Dockerfile",
+      "size": 143
+    },
+    {
+      "path": "go.mod",
+      "size": 26361
+    },
+    {
+      "path": ".github/workflows/auto-close-issue.yaml",
+      "size": 1819
+    },
+    {
+      "path": ".github/workflows/auto-ready-for-review.yaml",
+      "size": 6380
+    },
+    {
+      "path": ".github/workflows/auto-update-labels.yaml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/backport.yaml",
+      "size": 2434
+    },
+    {
+      "path": ".github/workflows/bypass-cla.yaml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/bypass-test.yaml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/cache-test-assets.yaml",
+      "size": 3323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "fork": false,
+    "full_name": "aquasecurity/trivy",
+    "html_url": "https://github.com/aquasecurity/trivy",
+    "language": "Go",
+    "pushed_at": "2026-04-20T10:21:52Z",
+    "stargazers_count": 34667,
+    "topics": [
+      "containers",
+      "devsecops",
+      "docker",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "iac",
+      "infrastructure-as-code",
+      "kubernetes",
+      "misconfiguration",
+      "security",
+      "security-tools",
+      "vulnerability",
+      "vulnerability-detection",
+      "vulnerability-scanners"
+    ],
+    "updated_at": "2026-04-22T17:07:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/trivy-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/trivy-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/trivy-vscode-extension",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-close issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "term": "Auto-close issues"
+    },
+    {
+      "context_snippet": "Auto Ready for Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "term": "Auto Ready for Review"
+    },
+    {
+      "context_snippet": "Auto-update labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "term": "Auto-update labels"
+    },
+    {
+      "context_snippet": "Automatic Backporting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "term": "Automatic Backporting"
+    },
+    {
+      "context_snippet": "CLA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-cla.yaml",
+      "term": "CLA"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Cache test assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-test-assets.yaml",
+      "term": "Cache test assets"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devsecops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misconfiguration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-scanners"
+    }
+  ]
+}

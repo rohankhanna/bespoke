@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "OSS-Fuzz"
+    "OSS-Fuzz",
+    "oss-fuzz"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate-context",
       "text": "OSS-Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate-context",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate",
       "text": "OSS-Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-fuzz",
+      "status": "candidate",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +85,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "google/oss-fuzz"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

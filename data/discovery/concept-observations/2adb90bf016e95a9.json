@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Issue Dedupe"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Issue Dedupe"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12412,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12412,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11947,
+      "status": "candidate",
+      "text": "rains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11926,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11926,
+      "status": "candidate",
+      "text": "structuralism"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Issue Dedupe",
+      "sense_id": "claude-issue-dedupe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-issue-dedupe",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-issue-dedupe",
+  "observation_id": "2adb90bf016e95a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Claude Issue Dedupe",
+  "source_context_snippet": "Claude Issue Dedupe",
+  "source_file": ".github/workflows/claude-dedupe-issues.yml",
+  "source_repo": "Kastalien-Research/thoughtbox",
+  "source_repo_description": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+}

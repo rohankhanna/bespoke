@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Builds the latest `.pyi` type stubs for the entire Ghidra API - Uses latest Ghidra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Release for each Ghidra Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Release for each Ghidra Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35037,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29189,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29026,
+      "status": "candidate",
+      "text": "disclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29010,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29010,
+      "status": "candidate",
+      "text": "published"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Release for each Ghidra Build",
+      "sense_id": "publish-release-for-each-ghidra-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-release-for-each-ghidra-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-release-for-each-ghidra-build",
+  "observation_id": "dea5cf9686f14d7b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Publish Release for each Ghidra Build",
+  "source_context_snippet": "Publish Release for each Ghidra Build",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "clearbluejar/ghidra-pyi-generator",
+  "source_repo_description": "Builds the latest `.pyi` type stubs for the entire Ghidra API - Uses latest Ghidra"
+}

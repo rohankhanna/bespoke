@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Complete Ethereum & Celo library and wallet implementation in Rust. https://docs.rs/ethers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "deps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "deps"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030256,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025408,
+      "status": "candidate",
+      "text": "department"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025359,
+      "status": "candidate",
+      "text": "dept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021819,
+      "status": "candidate",
+      "text": "pol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989304,
+      "status": "candidate",
+      "text": "rep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deps",
+      "sense_id": "deps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deps",
+  "observation_id": "a99c6754409532f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "deps",
+  "source_context_snippet": "deps",
+  "source_file": ".github/workflows/deps.yml",
+  "source_repo": "gakonst/ethers-rs",
+  "source_repo_description": "Complete Ethereum & Celo library and wallet implementation in Rust. https://docs.rs/ethers"
+}

@@ -31,6 +31,18 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate-context",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mfontanini/presenterm",
       "status": "candidate",
       "text": "presenterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

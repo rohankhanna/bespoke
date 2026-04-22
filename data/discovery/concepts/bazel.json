@@ -7,7 +7,8 @@
   "buckets": [
     "workflow-process",
     "tool-component",
-    "capability"
+    "capability",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -57,6 +58,30 @@
       "source_repo": "bazelbuild/bazel-skylib",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/benchmark",
+      "status": "candidate-context",
+      "text": "A microbenchmark support library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/benchmark",
+      "status": "candidate-context",
+      "text": "bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "Bazel rules to build Swift on Apple and Linux platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +108,18 @@
       "source_repo": "bazelbuild/bazel-skylib",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/benchmark",
+      "status": "candidate",
+      "text": "bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_swift",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +193,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/bazel-skylib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "google/benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_swift"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

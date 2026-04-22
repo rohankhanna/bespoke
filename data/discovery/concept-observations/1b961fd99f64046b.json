@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf29\ufe0f A list of awesome online development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994896,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989701,
+      "status": "candidate",
+      "text": "inclination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986588,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9981663,
+      "status": "candidate",
+      "text": "leaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878744,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lists",
+      "sense_id": "lists#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lists",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lists",
+  "observation_id": "1b961fd99f64046b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "lists",
+  "source_context_snippet": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">",
+  "source_file": null,
+  "source_repo": "styfle/awesome-online-ide",
+  "source_repo_description": "\ud83c\udf29\ufe0f A list of awesome online development environments"
+}

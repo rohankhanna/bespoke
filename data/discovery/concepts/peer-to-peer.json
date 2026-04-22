@@ -19,6 +19,18 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate-context",
       "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "[![Syncthing][14]][15]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "libp2p/rust-libp2p",
       "status": "candidate",
       "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate",
+      "text": "[![Syncthing][14]][15]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "libp2p/rust-libp2p"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "syncthing/syncthing"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

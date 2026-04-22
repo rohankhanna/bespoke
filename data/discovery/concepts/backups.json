@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "backups"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "Indexing repo of backup related projects and scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028691,
+      "status": "candidate",
+      "text": "fill-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027285,
+      "status": "candidate",
+      "text": "substitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012604,
+      "status": "candidate",
+      "text": "stand-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008307,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "backup man"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "backups",
+  "concept_id": "backups",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backups",
+      "sense_id": "backups#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

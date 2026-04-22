@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "In-browser literate notebooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028695,
+      "status": "candidate",
+      "text": "notebook computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048556,
+      "status": "candidate",
+      "text": "scrapbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048255,
+      "status": "candidate",
+      "text": "booklet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048032,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048026,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notebook",
+      "sense_id": "notebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "notebook computer"
+    }
+  ],
+  "concept_id": "notebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notebook",
+  "observation_id": "c1c9f9b723693173",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "notebook",
+  "source_context_snippet": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)",
+  "source_file": null,
+  "source_repo": "gzuidhof/starboard-notebook",
+  "source_repo_description": "In-browser literate notebooks"
+}

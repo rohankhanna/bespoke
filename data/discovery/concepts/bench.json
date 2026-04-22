@@ -31,6 +31,30 @@
       "source_repo": "ctz/graviola",
       "status": "candidate-context",
       "text": "bench"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "bench"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "bench"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ctz/graviola",
+      "status": "candidate",
+      "text": "bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate",
+      "text": "bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
       "status": "candidate",
       "text": "bench"
     }
@@ -135,11 +171,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "ctz/graviola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "paradigmxyz/reth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "boundless-xyz/reth"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

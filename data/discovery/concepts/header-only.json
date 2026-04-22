@@ -19,6 +19,18 @@
       "source_repo": "nlohmann/json",
       "status": "candidate-context",
       "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "Fast C++ logging library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nlohmann/json",
       "status": "candidate",
       "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "gabime/spdlog"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

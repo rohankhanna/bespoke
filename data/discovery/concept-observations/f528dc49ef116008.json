@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solus Package Monorepo & Issue Tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Script Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Script Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10729,
+      "status": "candidate",
+      "text": "aramaic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10729,
+      "status": "candidate",
+      "text": "rune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "cadence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "feather"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Script Lint",
+      "sense_id": "script-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "script-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "script-lint",
+  "observation_id": "f528dc49ef116008",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Script Lint",
+  "source_context_snippet": "Script Lint",
+  "source_file": ".github/workflows/script_lint.yml",
+  "source_repo": "getsolus/packages",
+  "source_repo_description": "Solus Package Monorepo & Issue Tracker"
+}

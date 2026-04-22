@@ -403,6 +403,102 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "Container Network Interface - networking for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate-context",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to turn a GitHub project into a self-hosted Helm chart repo, using helm/chart-releaser CLI tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +699,54 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate",
+      "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate",
+      "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -886,11 +1030,59 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/kind-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

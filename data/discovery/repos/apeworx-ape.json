@@ -1,0 +1,553 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "snok/container-retention-policy@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "apeworx/sphinx-ape@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-prs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "snok/container-retention-policy@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Container Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Validate PR metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "apeworx/sphinx-ape@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "ApeWorX/ape",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "apeworx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "brownie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "defi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "smart-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "solidity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "vyper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApeWorX/ape",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:11:26.163554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6612
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3111
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7559
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 5423
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 618
+    },
+    {
+      "path": ".github/workflows/commitlint.yaml",
+      "size": 526
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/draft.yaml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/stale-prs.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build and explore on-chain with Python",
+    "fork": false,
+    "full_name": "ApeWorX/ape",
+    "html_url": "https://github.com/ApeWorX/ape",
+    "language": "Python",
+    "pushed_at": "2026-04-01T03:06:43Z",
+    "stargazers_count": 1034,
+    "topics": [
+      "ape",
+      "apeworx",
+      "brownie",
+      "defi",
+      "developer-tools",
+      "ethereum",
+      "framework",
+      "nft",
+      "python",
+      "smart-contracts",
+      "solidity",
+      "vyper",
+      "web3"
+    ],
+    "updated_at": "2026-04-21T12:22:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Container Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Container Images"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Validate PR metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yaml",
+      "term": "Validate PR metadata"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft.yaml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\"Close stale PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "term": "Close stale PRs"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apeworx"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brownie"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defi"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-contracts"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vyper"
+    },
+    {
+      "context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

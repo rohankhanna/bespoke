@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cha0ran/fd-zh",
+      "target": "sharkdp/fd-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cha0ran/fd-zh",
+      "target": "seebi/dircolors-solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cha0ran/fd-zh",
+      "target": "davatorium/rofi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cha0ran/fd-zh",
+      "target": "jez/as-tree",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:26.120770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fd Chinese document",
+    "fork": false,
+    "full_name": "cha0ran/fd-zh",
+    "html_url": "https://github.com/cha0ran/fd-zh",
+    "language": null,
+    "pushed_at": "2023-05-10T14:03:44Z",
+    "stargazers_count": 157,
+    "topics": [],
+    "updated_at": "2026-04-10T06:09:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davatorium/rofi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jez/as-tree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seebi/dircolors-solarized",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sharkdp/fd-benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

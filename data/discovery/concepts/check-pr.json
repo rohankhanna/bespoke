@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "circlefin/stablecoin-evm",
+      "status": "candidate-context",
+      "text": "Source repository for smart contracts used by Circle's stablecoins on EVM-compatible blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "circlefin/stablecoin-evm",
+      "status": "candidate-context",
+      "text": "Check PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "circlefin/stablecoin-evm",
+      "status": "candidate",
+      "text": "Check PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12930,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12930,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "fint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12051,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR",
+  "concept_id": "check-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "circlefin/stablecoin-evm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR",
+      "sense_id": "check-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -104,6 +104,18 @@
       "source_repo": "tauri-apps/create-tauri-app",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/confy",
+      "status": "candidate-context",
+      "text": "\ud83d\udecb Zero-boilerplate configuration management in Rust "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/confy",
+      "status": "candidate-context",
+      "text": "Audit"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +166,12 @@
       "source_repo": "tauri-apps/create-tauri-app",
       "status": "candidate",
       "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/confy",
+      "status": "candidate",
+      "text": "Audit"
     }
   ],
   "candidate_related_terms": [
@@ -291,11 +309,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "tauri-apps/create-tauri-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Enhanced git experience using the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29443894,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29424219,
+      "status": "candidate",
+      "text": "flap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29423933,
+      "status": "candidate",
+      "text": "all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29418152,
+      "status": "candidate",
+      "text": "entire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29412008,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "todo",
+      "sense_id": "todo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "todo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "todo",
+  "observation_id": "3a16ee1fd5470221",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "todo",
+  "source_context_snippet": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)",
+  "source_file": null,
+  "source_repo": "BeayemX/GitViper",
+  "source_repo_description": "Enhanced git experience using the command line"
+}

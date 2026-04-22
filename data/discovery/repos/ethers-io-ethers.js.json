@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "@adraffy/ens-normalize",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@noble/curves",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@noble/hashes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aes-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "ethers-io/sync-s3-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml"
+    },
+    {
+      "component": "ethers-io/run-geth-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "ethers-io/run-geth-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "ethers-io/run-geth-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "ethers-io/sync-s3-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    },
+    {
+      "component": "ethers-io/hijack-npm-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    },
+    {
+      "component": "ethers-io/hijack-npm-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/ext-provider-multicall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/ext-provider-plugin-multicoin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/ext-provider-ganache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/ext-signer-ledger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@adraffy/ens-normalize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@noble/curves",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@noble/hashes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "aes-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/sync-s3-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "Generate Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/run-geth-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-browser.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "Browser Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/run-geth-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/sync-s3-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers-io/hijack-npm-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js",
+      "target": "Environment Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js",
+      "target": "ethers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ethers.js",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:09:17.609035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6067
+    },
+    {
+      "path": "package.json",
+      "size": 4944
+    },
+    {
+      "path": ".github/workflows/generate-docs.yml",
+      "size": 1216
+    },
+    {
+      "path": ".github/workflows/test-browser.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/test-ci.yml",
+      "size": 2598
+    },
+    {
+      "path": ".github/workflows/test-env.yml",
+      "size": 1948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Complete Ethereum library and wallet implementation in JavaScript.",
+    "fork": false,
+    "full_name": "ethers-io/ethers.js",
+    "html_url": "https://github.com/ethers-io/ethers.js",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-10T00:11:59Z",
+    "stargazers_count": 8655,
+    "topics": [
+      "blockchain",
+      "ethereum",
+      "ethers",
+      "javascript",
+      "typescript",
+      "web3"
+    ],
+    "updated_at": "2026-04-22T19:06:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethers-io/ext-provider-ganache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethers-io/ext-provider-multicall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethers-io/ext-provider-plugin-multicoin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethers-io/ext-signer-ledger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "term": "Generate Documentation"
+    },
+    {
+      "context_snippet": "Browser Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-browser.yml",
+      "term": "Browser Tests"
+    },
+    {
+      "context_snippet": "CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ci.yml",
+      "term": "CI Tests"
+    },
+    {
+      "context_snippet": "Environment Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-env.yml",
+      "term": "Environment Tests"
+    },
+    {
+      "context_snippet": "The Ethers Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "The Ethers Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "The Ethers Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethers"
+    },
+    {
+      "context_snippet": "The Ethers Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

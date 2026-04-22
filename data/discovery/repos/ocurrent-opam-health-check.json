@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:02:32.113341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4027
+    },
+    {
+      "path": "Dockerfile",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toolchain to check for broken opam packages",
+    "fork": false,
+    "full_name": "ocurrent/opam-health-check",
+    "html_url": "https://github.com/ocurrent/opam-health-check",
+    "language": "OCaml",
+    "pushed_at": "2026-03-06T17:06:45Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-03-06T17:06:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "automatic-approve",
   "observation_id": "55cba10907e91cc6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "Automatic Approve",
   "source_context_snippet": "Automatic Approve",
   "source_file": ".github/workflows/approve.yml",

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "snazzy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987253,
+      "status": "candidate",
+      "text": "stylish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986689,
+      "status": "candidate",
+      "text": "fashionable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987413,
+      "status": "candidate",
+      "text": "classy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986498,
+      "status": "candidate",
+      "text": "eye-catching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985916,
+      "status": "candidate",
+      "text": "nifty"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "stylish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "fashionable"
+    }
+  ],
+  "canonical_name": "snazzy",
+  "concept_id": "snazzy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snazzy",
+      "sense_id": "snazzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

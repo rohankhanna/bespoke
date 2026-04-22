@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itchyny/vim-gitbranch",
+      "target": "vim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itchyny/vim-gitbranch",
+      "target": "vim-scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:13:19.383830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides the branch name of the current git repository",
+    "fork": false,
+    "full_name": "itchyny/vim-gitbranch",
+    "html_url": "https://github.com/itchyny/vim-gitbranch",
+    "language": "Vim script",
+    "pushed_at": "2021-11-30T01:27:18Z",
+    "stargazers_count": 211,
+    "topics": [
+      "vim",
+      "vim-plugins",
+      "vim-scripts"
+    ],
+    "updated_at": "2026-03-13T14:11:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This plugin provides a function which returns the name of the git branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    },
+    {
+      "context_snippet": "This plugin provides a function which returns the name of the git branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-scripts"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993054,
+      "status": "candidate",
+      "text": "of course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989083,
+      "status": "candidate",
+      "text": "naturally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971655,
+      "status": "candidate",
+      "text": "trend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969971,
+      "status": "candidate",
+      "text": "class"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928290,
+      "status": "candidate",
+      "text": "row"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "course",
+      "sense_id": "course#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34091,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32072,
+      "status": "candidate",
+      "text": "flow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27083,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23072,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "naturally"
+    }
+  ],
+  "concept_id": "course",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "course",
+  "observation_id": "90765c2a7b35745b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "course",
+  "source_context_snippet": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)",
+  "source_file": null,
+  "source_repo": "MariaLetta/free-gophers-pack",
+  "source_repo_description": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+}

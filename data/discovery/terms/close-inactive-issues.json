@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-issue.yml",
       "source_repo": "2noise/ChatTTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/trin"
     }
   ],
   "term": "Close inactive issues"

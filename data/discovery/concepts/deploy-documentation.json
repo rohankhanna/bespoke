@@ -104,6 +104,42 @@
       "source_repo": "AgentR1/Agent-R1",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/VegaLite.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to Vega-Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaLite.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +188,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AgentR1/Agent-R1",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaLite.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -269,11 +323,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "AgentR1/Agent-R1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "amiable-dev/llm-council"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

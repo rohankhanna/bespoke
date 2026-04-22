@@ -1,12 +1,17 @@
 {
   "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-templates.yml",
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
     }
   ]
 }

@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-title-prefix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Build Java Semantic Kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Run Java Integration Tests and Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Deploy Java Semantic Kernel Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Label issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-title-prefix.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-title-prefix.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Label title prefix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/semantic-kernel-java",
+      "target": "Check .md links",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:05:57.347970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5661
+    },
+    {
+      "path": ".github/workflows/close-inactive-issues.yml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3151
+    },
+    {
+      "path": ".github/workflows/java-build.yml",
+      "size": 1871
+    },
+    {
+      "path": ".github/workflows/java-integration-tests.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/java-publish-package.yml",
+      "size": 1128
+    },
+    {
+      "path": ".github/workflows/label-issues.yml",
+      "size": 2167
+    },
+    {
+      "path": ".github/workflows/label-title-prefix.yml",
+      "size": 2485
+    },
+    {
+      "path": ".github/workflows/markdown-link-check-config.json",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/markdown-link-check.yml",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Semantic Kernel for Java. Integrate cutting-edge LLM technology quickly and easily into your Java based apps. See https://aka.ms/semantic-kernel.",
+    "fork": false,
+    "full_name": "microsoft/semantic-kernel-java",
+    "html_url": "https://github.com/microsoft/semantic-kernel-java",
+    "language": "Java",
+    "pushed_at": "2026-04-22T17:33:07Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-04-22T17:33:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Build Java Semantic Kernel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-build.yml",
+      "term": "Build Java Semantic Kernel"
+    },
+    {
+      "context_snippet": "Run Java Integration Tests and Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-integration-tests.yml",
+      "term": "Run Java Integration Tests and Samples"
+    },
+    {
+      "context_snippet": "Deploy Java Semantic Kernel Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-publish-package.yml",
+      "term": "Deploy Java Semantic Kernel Package"
+    },
+    {
+      "context_snippet": "Label issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "term": "Label issues"
+    },
+    {
+      "context_snippet": "Label title prefix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-title-prefix.yml",
+      "term": "Label title prefix"
+    },
+    {
+      "context_snippet": "Check .md links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "term": "Check .md links"
+    }
+  ]
+}

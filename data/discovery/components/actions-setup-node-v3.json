@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -422,6 +422,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tommy351/tsc-multi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "GuillaumeGomez/browser-UI-test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "rust-lang/rustc-perf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gakonst/ethers-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jest.yml",
+      "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-lint.yml",
+      "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/semantic-release.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
     }
   ]
 }

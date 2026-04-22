@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Performance Comparison for Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Performance Comparison for Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27703,
+      "status": "candidate",
+      "text": "solicit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27614,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "practicing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Comparison for Pull Requests",
+      "sense_id": "performance-comparison-for-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "performance-comparison-for-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance-comparison-for-pull-requests",
+  "observation_id": "f693b5244ff0a372",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Performance Comparison for Pull Requests",
+  "source_context_snippet": "Performance Comparison for Pull Requests",
+  "source_file": ".github/workflows/performance-pr.yml",
+  "source_repo": "apache/casbin",
+  "source_repo_description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+}

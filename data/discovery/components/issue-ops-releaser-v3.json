@@ -1,0 +1,12 @@
+{
+  "component": "issue-ops/releaser@v3",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-delivery.yml",
+      "source_repo": "github/local-action"
+    }
+  ]
+}

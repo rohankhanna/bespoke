@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command line tool for adding Windows resources to executable files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "3a8b58b4a24835f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+  "source_file": null,
+  "source_repo": "tc-hib/go-winres",
+  "source_repo_description": "Command line tool for adding Windows resources to executable files"
+}

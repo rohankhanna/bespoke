@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "meteoswiss-mdr/pyart",
+      "target": "meteoswiss/pyart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "meteoswiss-mdr/pyart",
+      "target": "meteoswiss-mdr/pyrad",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:23:19.969446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " MeteoSwiss version of The Python-ARM Radar Toolkit. A data model driven interactive toolkit for working with weather radar data.",
+    "fork": true,
+    "full_name": "meteoswiss-mdr/pyart",
+    "html_url": "https://github.com/meteoswiss-mdr/pyart",
+    "language": "Python",
+    "pushed_at": "2022-07-06T18:55:00Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2021-02-25T14:13:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meteoswiss-mdr/pyrad",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meteoswiss/pyart",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

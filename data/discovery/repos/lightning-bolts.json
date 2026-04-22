@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "cryptocurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "lightning-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightning/bolts",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:23:39.482988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BOLT: Basis of Lightning Technology (Lightning Network Specifications)",
+    "fork": false,
+    "full_name": "lightning/bolts",
+    "html_url": "https://github.com/lightning/bolts",
+    "language": "Markdown",
+    "pushed_at": "2026-03-23T08:27:48Z",
+    "stargazers_count": 2233,
+    "topics": [
+      "bitcoin",
+      "blockchain",
+      "cryptocurrency",
+      "cryptography",
+      "lightning",
+      "lightning-network",
+      "protocol"
+    ],
+    "updated_at": "2026-04-11T08:12:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrency"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning-network"
+    },
+    {
+      "context_snippet": "The specifications are currently a work-in-progress and currently being",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

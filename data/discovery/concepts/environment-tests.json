@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Environment Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Complete Ethereum library and wallet implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate-context",
+      "text": "Environment Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "Environment Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11588,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "arena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "background"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Environment Tests",
+  "concept_id": "environment-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Environment Tests",
+      "sense_id": "environment-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

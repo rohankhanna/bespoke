@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR metadata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "PR metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate",
+      "text": "PR metadata"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4804,
+      "status": "candidate",
+      "text": "meta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4689,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4689,
+      "status": "candidate",
+      "text": "manifest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4689,
+      "status": "candidate",
+      "text": "sidecar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4689,
+      "status": "candidate",
+      "text": "superblock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR metadata",
+  "concept_id": "pr-metadata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pr-metadata.yaml",
+      "source_repo": "syncthing/syncthing"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR metadata",
+      "sense_id": "pr-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

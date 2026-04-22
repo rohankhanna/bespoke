@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "docker://protolambda/forkdiff:0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "succinctlabs/op-succinct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "risc0/kailua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "layr-labs/hokulea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis-devnet.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "Kurtosis Devnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "docker://protolambda/forkdiff:0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "Build & publish forkdiff github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "Push Images to ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml",
+      "source_repo": "Layr-Labs/optimism",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:09:05.912201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7144
+    },
+    {
+      "path": "go.mod",
+      "size": 16152
+    },
+    {
+      "path": ".github/workflows/kurtosis-devnet.yml",
+      "size": 4024
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/push-ghcr.yml",
+      "size": 775
+    },
+    {
+      "path": ".github/workflows/test-golang.yml",
+      "size": 3698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "eigenda-develop",
+    "description": "Optimism is Ethereum, scaled.",
+    "fork": true,
+    "full_name": "Layr-Labs/optimism",
+    "html_url": "https://github.com/Layr-Labs/optimism",
+    "language": "Go",
+    "pushed_at": "2025-11-19T16:41:33Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-23T13:57:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/hokulea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "risc0/kailua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "succinctlabs/op-succinct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Kurtosis Devnet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis-devnet.yml",
+      "term": "Kurtosis Devnet"
+    },
+    {
+      "context_snippet": "Build & publish forkdiff github-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Build & publish forkdiff github-pages"
+    },
+    {
+      "context_snippet": "Push Images to ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "term": "Push Images to ghcr"
+    }
+  ]
+}

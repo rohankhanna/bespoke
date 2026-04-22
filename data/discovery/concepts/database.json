@@ -79,6 +79,18 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Database connectivity API standard and libraries for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "apache/arrow-adbc"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

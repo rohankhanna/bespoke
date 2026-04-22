@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Build and Push to GHCR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate-context",
+      "text": "Docker Build and Push to GHCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "Docker Build and Push to GHCR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23362,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22329,
+      "status": "candidate",
+      "text": "screw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22329,
+      "status": "candidate",
+      "text": "screwed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22295,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22295,
+      "status": "candidate",
+      "text": "scoop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Build and Push to GHCR",
+  "concept_id": "docker-build-and-push-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Build and Push to GHCR",
+      "sense_id": "docker-build-and-push-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

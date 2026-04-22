@@ -19,6 +19,18 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

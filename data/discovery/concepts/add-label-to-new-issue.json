@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add label to new issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate-context",
+      "text": "Add label to new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NomicFoundation/hardhat",
+      "status": "candidate",
+      "text": "Add label to new issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44159,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43390,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34372,
+      "status": "candidate",
+      "text": "provisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33864,
+      "status": "candidate",
+      "text": "insert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33737,
+      "status": "candidate",
+      "text": "reinforce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add label to new issue",
+  "concept_id": "add-label-to-new-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml",
+      "source_repo": "NomicFoundation/hardhat"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add label to new issue",
+      "sense_id": "add-label-to-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

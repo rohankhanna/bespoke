@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "assert-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "extsprintf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "verror",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "davepacheco/node-getopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "davepacheco/node-extsprintf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "davepacheco/jsstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "davepacheco/javascriptlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "assert-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "extsprintf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-cmdutil",
+      "target": "verror",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:13.296876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12102
+    },
+    {
+      "path": "package.json",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "common command-line program functions",
+    "fork": false,
+    "full_name": "TritonDataCenter/node-cmdutil",
+    "html_url": "https://github.com/TritonDataCenter/node-cmdutil",
+    "language": "Shell",
+    "pushed_at": "2021-11-02T21:55:37Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2022-04-26T00:42:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/javascriptlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/jsstyle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/node-extsprintf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/node-getopt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

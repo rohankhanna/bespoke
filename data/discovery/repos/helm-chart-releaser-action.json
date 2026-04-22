@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/chart-releaser-action",
+      "target": "helm/chart-releaser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-releaser-action",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "helm/chart-releaser-action",
+      "target": "test-chart-releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "helm-repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:29.051135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5003
+    },
+    {
+      "path": ".github/workflows/test-action.yml",
+      "size": 1467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub Action to turn a GitHub project into a self-hosted Helm chart repo, using helm/chart-releaser CLI tool",
+    "fork": false,
+    "full_name": "helm/chart-releaser-action",
+    "html_url": "https://github.com/helm/chart-releaser-action",
+    "language": "Shell",
+    "pushed_at": "2026-01-22T19:13:53Z",
+    "stargazers_count": 665,
+    "topics": [
+      "actions",
+      "charts",
+      "ci-cd",
+      "github-pages",
+      "helm",
+      "helm-repositories",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-19T14:17:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helm/chart-releaser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test-chart-releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yml",
+      "term": "test-chart-releaser"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm-repositories"
+    },
+    {
+      "context_snippet": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

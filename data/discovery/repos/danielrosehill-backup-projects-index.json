@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "danielrosehill/back-up-your-saas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "danielrosehill/better-hashnode-backups",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "danielrosehill/btrfs-snapper-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "danielrosehill/cloud-backup-scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "backup-utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "backups",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "target": "indexes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:17:17.880884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Indexing repo of backup related projects and scripts",
+    "fork": false,
+    "full_name": "danielrosehill/Backup-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Backup-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:14:49Z",
+    "stargazers_count": 0,
+    "topics": [
+      "backup-utilities",
+      "backups",
+      "index",
+      "indexes"
+    ],
+    "updated_at": "2026-03-27T17:14:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/back-up-your-saas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/better-hashnode-backups",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/btrfs-snapper-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/cloud-backup-scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup-utilities"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backups"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    }
+  ]
+}

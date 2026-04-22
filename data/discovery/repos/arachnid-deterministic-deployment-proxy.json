@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "@types/elliptic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zoltu/rlp-encoder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elliptic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-sha3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "@types/elliptic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "@zoltu/rlp-encoder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "elliptic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "js-sha3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "solc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Arachnid/deterministic-deployment-proxy",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:08:06.082443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3349
+    },
+    {
+      "path": "package.json",
+      "size": 637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Ethereum proxy contract that can be used for deploying contracts to a deterministic address on any chain.",
+    "fork": true,
+    "full_name": "Arachnid/deterministic-deployment-proxy",
+    "html_url": "https://github.com/Arachnid/deterministic-deployment-proxy",
+    "language": "TypeScript",
+    "pushed_at": "2024-06-12T12:07:24Z",
+    "stargazers_count": 363,
+    "topics": [],
+    "updated_at": "2026-04-21T09:41:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

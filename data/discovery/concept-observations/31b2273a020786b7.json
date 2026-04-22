@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Test .NET solution\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Test .NET solution\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26035,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25966,
+      "status": "candidate",
+      "text": "nesslerize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "fish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "tare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "bust"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test .NET solution",
+      "sense_id": "test-.net-solution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-.net-solution",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-.net-solution",
+  "observation_id": "31b2273a020786b7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Test .NET solution",
+  "source_context_snippet": "\"Test .NET solution\"",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "bottlenoselabs/c2cs",
+  "source_repo_description": "Generate C# bindings from a C header."
+}

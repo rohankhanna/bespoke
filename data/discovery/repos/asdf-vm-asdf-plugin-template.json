@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "docker://rhysd/actionlint:1.6.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "koalaman/shellcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "luizm/asdf-shellcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "luizm/asdf-shfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "asdf-vm/actions/install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "docker://rhysd/actionlint:1.6.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "amannn/action-semantic-pull-request@v5.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "asdf-vm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:52:33.014226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1743
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/semantic-pr.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udce6 asdf-vm plugin template with GitHub Actions and more!",
+    "fork": false,
+    "full_name": "asdf-vm/asdf-plugin-template",
+    "html_url": "https://github.com/asdf-vm/asdf-plugin-template",
+    "language": "Shell",
+    "pushed_at": "2025-06-27T01:42:55Z",
+    "stargazers_count": 133,
+    "topics": [
+      "asdf",
+      "asdf-plugin",
+      "asdf-vm",
+      "template"
+    ],
+    "updated_at": "2026-04-21T09:41:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koalaman/shellcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luizm/asdf-shellcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luizm/asdf-shfmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    },
+    {
+      "context_snippet": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-vm"
+    },
+    {
+      "context_snippet": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

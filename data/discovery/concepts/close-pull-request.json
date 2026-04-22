@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "close pull request"
+    "close pull request",
+    "Close Pull Request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "mozilla/gecko-dev",
       "status": "candidate-context",
       "text": "close pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/image",
+      "status": "candidate-context",
+      "text": "Work with containers' images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/image",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "mozilla/gecko-dev",
       "status": "candidate",
       "text": "close pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/image",
+      "status": "candidate",
+      "text": "Close Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/close-pr.yml",
       "source_repo": "mozilla/gecko-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/image"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

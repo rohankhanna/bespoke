@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":stars: Dark powered asynchronous completion framework for neovim/Vim8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Dark powered asynchronous completion framework for neovim/Vim8"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Dark powered asynchronous completion framework for neovim/Vim8"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deoplete",
+      "sense_id": "deoplete#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deoplete",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deoplete",
+  "observation_id": "4a1ced444f1196c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "deoplete",
+  "source_context_snippet": "> Dark powered asynchronous completion framework for neovim/Vim8",
+  "source_file": null,
+  "source_repo": "Shougo/deoplete.nvim",
+  "source_repo_description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8"
+}

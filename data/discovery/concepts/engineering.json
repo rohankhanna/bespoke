@@ -7,10 +7,95 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "The Operating System for Clear Thinking & Better Decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035042,
+      "status": "candidate",
+      "text": "technology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027454,
+      "status": "candidate",
+      "text": "applied science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927952,
+      "status": "candidate",
+      "text": "engine room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041689,
+      "status": "candidate",
+      "text": "engineering science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041688,
+      "status": "candidate",
+      "text": "technician"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7057,
+      "status": "candidate",
+      "text": "technology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3012,
+      "status": "candidate",
+      "text": "applied science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "engine room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "engineering science"
+    }
+  ],
   "canonical_name": "engineering",
   "concept_id": "engineering",
   "definition_status": "unresolved",
@@ -26,12 +111,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "Fission-AI/OpenSpec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "HoangTheQuyen/think-better"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "deliberation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more \u2014 structured multi-round deliberation with genuine model diversity. One command: /council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024410,
+      "status": "candidate",
+      "text": "deliberateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024351,
+      "status": "candidate",
+      "text": "advisement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981608,
+      "status": "candidate",
+      "text": "weighing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959016,
+      "status": "candidate",
+      "text": "slowness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954816,
+      "status": "candidate",
+      "text": "unhurriedness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5011,
+      "status": "candidate",
+      "text": "unhurriedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "slowness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3020,
+      "status": "candidate",
+      "text": "deliberateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "advisement"
+    }
+  ],
+  "canonical_name": "deliberation",
+  "concept_id": "deliberation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deliberation",
+      "sense_id": "deliberation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

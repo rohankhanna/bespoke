@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Lint test",
-    "Lint Test"
+    "Lint Test",
+    "Lint & Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "modelscope/ms-enclave",
       "status": "candidate-context",
       "text": "Lint Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate-context",
+      "text": ":zap: Dark powered Vim/Neovim plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate-context",
+      "text": "Lint & Test"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "modelscope/ms-enclave",
       "status": "candidate",
       "text": "Lint Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate",
+      "text": "Lint & Test"
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +156,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "Shougo/dein.vim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

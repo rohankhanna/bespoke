@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Performance Comparison for Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Performance Comparison for Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Performance Comparison for Pull Requests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27703,
+      "status": "candidate",
+      "text": "solicit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27614,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27582,
+      "status": "candidate",
+      "text": "practicing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Performance Comparison for Pull Requests",
+  "concept_id": "performance-comparison-for-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/performance-pr.yml",
+      "source_repo": "apache/casbin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Comparison for Pull Requests",
+      "sense_id": "performance-comparison-for-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

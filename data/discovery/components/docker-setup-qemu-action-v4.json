@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v4",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "ccache/ccache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ElementsProject/cln-application"
     }
   ]
 }

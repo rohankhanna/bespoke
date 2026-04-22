@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964728,
+      "status": "candidate",
+      "text": "technofinance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964727,
+      "status": "candidate",
+      "text": "foodtech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964726,
+      "status": "candidate",
+      "text": "femtech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964725,
+      "status": "candidate",
+      "text": "fintwit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964724,
+      "status": "candidate",
+      "text": "financialization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fintech",
+      "sense_id": "fintech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fintech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fintech",
+  "observation_id": "9e999fe22a43ce8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "fintech",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Afnanksalal/co-op",
+  "source_repo_description": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+}

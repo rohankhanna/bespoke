@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixup-merge-block.yml"
+    },
+    {
+      "component": "13rac1/block-fixup-merge-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixup-merge-block.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-cli/confy",
+      "target": "dtolnay/serde-yaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-cli/confy",
+      "target": "toml-rs/toml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixup-merge-block.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "actions/checkout@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixup-merge-block.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "13rac1/block-fixup-merge-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fixup-merge-block.yml",
+      "source_repo": "rust-cli/confy",
+      "target": "Git Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-cli/confy",
+      "target": "configuration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:24:07.367240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5547
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2615
+    },
+    {
+      "path": ".github/workflows/fixup-merge-block.yml",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udecb Zero-boilerplate configuration management in Rust ",
+    "fork": false,
+    "full_name": "rust-cli/confy",
+    "html_url": "https://github.com/rust-cli/confy",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T12:46:24Z",
+    "stargazers_count": 1031,
+    "topics": [
+      "cli",
+      "configuration"
+    ],
+    "updated_at": "2026-04-18T12:42:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dtolnay/serde-yaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "toml-rs/toml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Audit"
+    },
+    {
+      "context_snippet": "Git Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fixup-merge-block.yml",
+      "term": "Git Checks"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/confy)](https://crates.io/crates/confy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    }
+  ]
+}

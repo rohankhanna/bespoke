@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "stale"
+    "stale",
+    "Stale"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "eslint/js",
       "status": "candidate-context",
       "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate-context",
+      "text": "Stale"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "eslint/js",
       "status": "candidate",
       "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArcadeAI/arcade-mcp",
+      "status": "candidate",
+      "text": "Stale"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +185,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ArcadeAI/arcade-mcp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

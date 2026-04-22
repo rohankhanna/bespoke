@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "beurdouche/nss-gk-api",
+      "target": "mozilla/nss-gk-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:13:42.384298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 535
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust API for NSS primarily for use in Gecko",
+    "fork": true,
+    "full_name": "beurdouche/nss-gk-api",
+    "html_url": "https://github.com/beurdouche/nss-gk-api",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T15:33:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-25T15:42:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/nss-gk-api",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

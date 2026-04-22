@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v1",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "ariya/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "morrys/react-relay-offline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-ci.yml",
+      "source_repo": "gzuidhof/starboard-notebook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jayli/vim-easycomplete"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-browser.yml",
+      "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-env.yml",
+      "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "brunch/sass-brunch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples_node14.yml",
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "jaredpalmer/razzle"
     }
   ]
 }

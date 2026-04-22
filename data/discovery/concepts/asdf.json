@@ -19,6 +19,42 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "[![GitHub Release](https://img.shields.io/github/release/asdf-vm/actions.svg?color=green)](https://github.com/asdf-vm/actions/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 asdf-vm plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate-context",
+      "text": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "Convenience shortname repository for asdf community plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-community/asdf-direnv",
+      "status": "candidate-context",
+      "text": "direnv plugin for the asdf version manager [maintainer=@jfly, @michi-zuri, @vic]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-direnv",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "[![GitHub Release](https://img.shields.io/github/release/asdf-vm/actions.svg?color=green)](https://github.com/asdf-vm/actions/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugin-template",
+      "status": "candidate",
+      "text": "This is an [asdf-vm plugin](https://asdf-vm.com/#/plugins-create) template with CI to run [Shellcheck](https://github.com/koalaman/shellcheck) and testing with the [asdf test GitHub Action](https://github.com/asdf-vm/actions)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate",
+      "text": "The purpose of the [asdf](https://github.com/asdf-vm/asdf) plugins repository is to enable shorthand installation of plugins with:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-direnv",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-direnv"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

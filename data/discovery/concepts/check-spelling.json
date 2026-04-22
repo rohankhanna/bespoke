@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check Spelling"
+    "Check Spelling",
+    "Check spelling"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/winget-cli",
       "status": "candidate-context",
       "text": "Check Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "The official command line interface for the DigitalOcean API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "Check spelling"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "microsoft/winget-cli",
       "status": "candidate",
       "text": "Check Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate",
+      "text": "Check spelling"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/spelling3.yml",
       "source_repo": "microsoft/winget-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "digitalocean/doctl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

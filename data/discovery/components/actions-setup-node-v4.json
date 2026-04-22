@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1837,6 +1837,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/find-similar-issues.yml",
       "source_repo": "dotnet/machinelearning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0xBigBoss/vscode-bootty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ClickHouse/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft_release.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-registry.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "safe-fndn/safe-singleton-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-transaction.yml",
+      "source_repo": "safe-fndn/safe-singleton-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-frontend.yml",
+      "source_repo": "Sovereign-Labs/rollup-starter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Automattic/node-canvas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sindresorhus/globals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sindresorhus/globals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "styfle/awesome-online-ide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AmElmo/proofshot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow_plugins_generator.sh",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Softeria/ms-365-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Softeria/ms-365-mcp-server"
     }
   ]
 }

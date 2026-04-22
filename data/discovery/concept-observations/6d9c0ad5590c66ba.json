@@ -84,7 +84,7 @@
   "normalized_form": "lint-and-format",
   "observation_id": "6d9c0ad5590c66ba",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "lint and format",
   "source_context_snippet": "lint and format",
   "source_file": ".github/workflows/lint.yml",

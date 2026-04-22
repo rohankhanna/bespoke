@@ -514,6 +514,138 @@
       "source_repo": "krallin/tini",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "A tool that facilitates building OCI images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate-context",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "Container Network Interface - networking for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate-context",
+      "text": "CLI tool for spawning and running containers according to the OCI specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/opencontainers/runc)](https://goreportcard.com/report/github.com/opencontainers/runc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "NOTE: Most of the contents of this repository have been migrated to the new devcontainers GitHub org (https://github.com/devcontainers). See https://github.com/devcontainers/template-starter and https://github.com/devcontainers/feature-starter for information on creating your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate-context",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "Notary is a project that allows anyone to have trust over arbitrary collections of data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -768,6 +900,72 @@
       "source_repo": "krallin/tini",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate",
+      "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/opencontainers/runc)](https://goreportcard.com/report/github.com/opencontainers/runc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1165,11 +1363,95 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containers/buildah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/runc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

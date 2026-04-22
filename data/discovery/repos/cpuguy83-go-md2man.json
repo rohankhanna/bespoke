@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpuguy83/go-md2man",
+      "target": "russross/blackfriday",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cpuguy83/go-md2man",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cpuguy83/go-md2man",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cpuguy83/go-md2man",
+      "target": "golangci/golangci-lint-action@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:57:47.118452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 552
+    },
+    {
+      "path": "Dockerfile",
+      "size": 453
+    },
+    {
+      "path": "go.mod",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cpuguy83/go-md2man",
+    "html_url": "https://github.com/cpuguy83/go-md2man",
+    "language": "Go",
+    "pushed_at": "2025-11-24T22:07:49Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2026-04-10T07:41:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "russross/blackfriday",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

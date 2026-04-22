@@ -151,6 +151,90 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate-context",
+      "text": "Navigate and manipulate file system. Part of 'mini.nvim' library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-files_readme.png?raw=true\" alt=\"mini.files\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate-context",
+      "text": "Icon provider. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-icons_readme.png?raw=true\" alt=\"mini.icons\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to manage the file system and other tree like structures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate-context",
+      "text": "Neo-tree is a Neovim plugin to browse the file system and other tree like"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate-context",
+      "text": "Provides Nerd Font icons (glyphs) for use by neovim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate-context",
+      "text": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddbc\ufe0f Bringing images to Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds image support to Neovim using [Kitty's Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) or [ueberzugpp](https://github.com/jstkdng/ueberzugpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate-context",
+      "text": "Make Ranger running in a floating window to communicate with Neovim via RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate-context",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate-context",
+      "text": ":zap: Dark powered Vim/Neovim plugin manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +309,48 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.files",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-files_readme.png?raw=true\" alt=\"mini.files\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.icons",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-icons_readme.png?raw=true\" alt=\"mini.icons\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate",
+      "text": "Neo-tree is a Neovim plugin to browse the file system and other tree like"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate",
+      "text": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate",
+      "text": "This plugin adds image support to Neovim using [Kitty's Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) or [ueberzugpp](https://github.com/jstkdng/ueberzugpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/rnvimr",
+      "status": "candidate",
+      "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dein.vim",
+      "status": "candidate",
+      "text": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +436,59 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "LazyVim/LazyVim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "3rd/image.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dein.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

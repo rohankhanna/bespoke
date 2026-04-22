@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hydrophone is a lightweight Kubernetes conformance tests runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Weekly Trivy Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Weekly Trivy Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "newsmagazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "alt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "eds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weekly Trivy Scan",
+      "sense_id": "weekly-trivy-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "weekly-trivy-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "weekly-trivy-scan",
+  "observation_id": "51d7424d6887318b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Weekly Trivy Scan",
+  "source_context_snippet": "Weekly Trivy Scan",
+  "source_file": ".github/workflows/weekly-trivy-scan.yml",
+  "source_repo": "kubernetes-sigs/hydrophone",
+  "source_repo_description": "Hydrophone is a lightweight Kubernetes conformance tests runner"
+}

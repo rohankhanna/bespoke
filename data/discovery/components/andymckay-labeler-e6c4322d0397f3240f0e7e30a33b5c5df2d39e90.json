@@ -1,0 +1,12 @@
+{
+  "component": "andymckay/labeler@e6c4322d0397f3240f0e7e30a33b5c5df2d39e90",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-extension-linter-issues.yml",
+      "source_repo": "dequelabs/axe-core"
+    }
+  ]
+}

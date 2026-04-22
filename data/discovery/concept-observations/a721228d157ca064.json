@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Rust package registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update CDN IP Ranges"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update CDN IP Ranges"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21531,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21498,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21493,
+      "status": "candidate",
+      "text": "convertible currency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CDN IP Ranges",
+      "sense_id": "update-cdn-ip-ranges#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-cdn-ip-ranges",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-cdn-ip-ranges",
+  "observation_id": "a721228d157ca064",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Update CDN IP Ranges",
+  "source_context_snippet": "Update CDN IP Ranges",
+  "source_file": ".github/workflows/update-cdn-ip-ranges.yml",
+  "source_repo": "rust-lang/crates.io",
+  "source_repo_description": "The Rust package registry"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941428,
+      "status": "candidate",
+      "text": "imp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39888569,
+      "status": "candidate",
+      "text": "hob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39824571,
+      "status": "candidate",
+      "text": "pixy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39767095,
+      "status": "candidate",
+      "text": "pixie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39759740,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brownie",
+      "sense_id": "brownie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13035,
+      "status": "candidate",
+      "text": "pixie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7041,
+      "status": "candidate",
+      "text": "hob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4035,
+      "status": "candidate",
+      "text": "gremlin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "pixy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
+  "concept_id": "brownie",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brownie",
+  "observation_id": "f8b8ed1d6ce2dc21",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "brownie",
+  "source_context_snippet": "[![Pypi.org][pypi-badge]][pypi-url]",
+  "source_file": null,
+  "source_repo": "ApeWorX/ape",
+  "source_repo_description": "Build and explore on-chain with Python"
+}

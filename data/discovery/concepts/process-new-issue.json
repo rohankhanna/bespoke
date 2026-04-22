@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Process new issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WSL",
+      "status": "candidate-context",
+      "text": "Windows Subsystem for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WSL",
+      "status": "candidate-context",
+      "text": "Process new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WSL",
+      "status": "candidate",
+      "text": "Process new issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56931,
+      "status": "candidate",
+      "text": "rollover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35961,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35748,
+      "status": "candidate",
+      "text": "vote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35397,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35374,
+      "status": "candidate",
+      "text": "assimilation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Process new issue",
+  "concept_id": "process-new-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "microsoft/WSL"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process new issue",
+      "sense_id": "process-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows Subsystem for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Process edited issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Process edited issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41166,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26290,
+      "status": "candidate",
+      "text": "arbitration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26290,
+      "status": "candidate",
+      "text": "vote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26225,
+      "status": "candidate",
+      "text": "rollover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25631,
+      "status": "candidate",
+      "text": "edit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process edited issue",
+      "sense_id": "process-edited-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-edited-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-edited-issue",
+  "observation_id": "bd3062ce8b1a16c0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Process edited issue",
+  "source_context_snippet": "Process edited issue",
+  "source_file": ".github/workflows/issue_edited.yml",
+  "source_repo": "microsoft/WSL",
+  "source_repo_description": "Windows Subsystem for Linux"
+}

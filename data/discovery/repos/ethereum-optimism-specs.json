@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "doctoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cspell",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "thlorenz/doctoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "davidanson/markdownlint-cli2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "lycheeverse/lychee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "davidanson/markdownlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "doctoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethereum-optimism/specs",
+      "target": "cspell",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:09:02.046228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3900
+    },
+    {
+      "path": "package.json",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OP Stack Specifications",
+    "fork": false,
+    "full_name": "ethereum-optimism/specs",
+    "html_url": "https://github.com/ethereum-optimism/specs",
+    "language": "Python",
+    "pushed_at": "2026-04-19T19:02:28Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-21T09:43:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidanson/markdownlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidanson/markdownlint-cli2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lycheeverse/lychee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thlorenz/doctoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

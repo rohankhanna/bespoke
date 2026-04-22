@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "ajaxorg/ace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "88250/wide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "atheos/atheos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "agentcooper/typescript-play",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styfle/awesome-online-ide",
+      "target": "lists",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:16:24.153948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19668
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf29\ufe0f A list of awesome online development environments",
+    "fork": false,
+    "full_name": "styfle/awesome-online-ide",
+    "html_url": "https://github.com/styfle/awesome-online-ide",
+    "language": null,
+    "pushed_at": "2024-12-03T22:54:05Z",
+    "stargazers_count": 3487,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "ide",
+      "list",
+      "lists"
+    ],
+    "updated_at": "2026-04-21T21:16:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "88250/wide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentcooper/typescript-play",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajaxorg/ace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atheos/atheos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "<img width=\"128\" height=\"128\" src=\"https://cdn.jsdelivr.net/npm/simple-icons@1.2.7/icons/codeschool.svg\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lists"
+    }
+  ]
+}

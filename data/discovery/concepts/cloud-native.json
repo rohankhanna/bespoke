@@ -55,6 +55,42 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (\u9762\u5411\u4e91\u539f\u751f\u5fae\u670d\u52a1\u7684\u9ad8\u53ef\u7528\u6d41\u63a7\u9632\u62a4\u7ec4\u4ef6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate-context",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/Sentinel",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/buildkit",
+      "status": "candidate",
+      "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "moby/buildkit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "target": "aiagenta2z/onekey-mcp-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "target": "mcp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "target": "mcp-marketplace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:00:30.555630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenSource MCP Marketplace | MCP Servers Tools Meta Dataset | Web API | Web Client Integration",
+    "fork": false,
+    "full_name": "aiagenta2z/mcp-marketplace",
+    "html_url": "https://github.com/aiagenta2z/mcp-marketplace",
+    "language": "Python",
+    "pushed_at": "2026-04-10T08:39:46Z",
+    "stargazers_count": 31,
+    "topics": [
+      "mcp",
+      "mcp-client",
+      "mcp-marketplace",
+      "mcp-server"
+    ],
+    "updated_at": "2026-04-10T08:43:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiagenta2z/onekey-mcp-router",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-client"
+    },
+    {
+      "context_snippet": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-marketplace"
+    },
+    {
+      "context_snippet": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

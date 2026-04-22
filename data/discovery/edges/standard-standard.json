@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "sindresorhus/globals",
+      "target": "standard/eslint-config-standard",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "pre-commit/mirrors-eslint",
+      "target": "standard/eslint-config-standard-jsx",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "standard/.github",
+      "target": "standard/awesome-standard",
       "target_type": "repository"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "standard/standard"
 }

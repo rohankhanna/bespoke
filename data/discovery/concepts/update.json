@@ -19,6 +19,18 @@
       "source_repo": "nix-community/NUR",
       "status": "candidate-context",
       "text": "\"Update\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/globals",
+      "status": "candidate-context",
+      "text": "Global identifiers from different JavaScript environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globals",
+      "status": "candidate-context",
+      "text": "Update"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nix-community/NUR",
       "status": "candidate",
       "text": "\"Update\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globals",
+      "status": "candidate",
+      "text": "Update"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "nix-community/NUR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sindresorhus/globals"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

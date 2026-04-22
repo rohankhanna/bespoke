@@ -19,12 +19,30 @@
       "source_repo": "python/mypy",
       "status": "candidate-context",
       "text": "Sync typeshed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hauntsaninja/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python 3 and 2 (PEP 484)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy",
+      "status": "candidate-context",
+      "text": "Sync typeshed"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python/mypy",
+      "status": "candidate",
+      "text": "Sync typeshed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy",
       "status": "candidate",
       "text": "Sync typeshed"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/sync_typeshed.yml",
       "source_repo": "python/mypy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/sync_typeshed.yml",
+      "source_repo": "hauntsaninja/mypy"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

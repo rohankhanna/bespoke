@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    },
+    {
+      "component": "py-actions/flake8@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    },
+    {
+      "component": "jpetrucciani/mypy-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getsolus/packages",
+      "target": "buddiesofbudgie/budgie-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getsolus/packages",
+      "target": "buddiesofbudgie/budgie-desktop-view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "Package Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "py-actions/flake8@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "jpetrucciani/mypy-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "Script Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsolus/packages",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsolus/packages",
+      "target": "solus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:34.655594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3326
+    },
+    {
+      "path": ".github/workflows/package_lint.yml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/script_lint.yml",
+      "size": 1582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Solus Package Monorepo & Issue Tracker",
+    "fork": false,
+    "full_name": "getsolus/packages",
+    "html_url": "https://github.com/getsolus/packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T17:30:44Z",
+    "stargazers_count": 126,
+    "topics": [
+      "hacktoberfest",
+      "solus"
+    ],
+    "updated_at": "2026-04-22T17:31:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buddiesofbudgie/budgie-desktop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buddiesofbudgie/budgie-desktop-view",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Package Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_lint.yml",
+      "term": "Package Lint"
+    },
+    {
+      "context_snippet": "Script Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/script_lint.yml",
+      "term": "Script Lint"
+    },
+    {
+      "context_snippet": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<img src=\"https://getsol.us/imgs/Solus_With_Text.svg\" alt=\"Solus logo with text\" width=\"250px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solus"
+    }
+  ]
+}

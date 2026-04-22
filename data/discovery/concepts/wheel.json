@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "wheel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "cibuildwheel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "cibuildwheel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041282,
+      "status": "candidate",
+      "text": "steering wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039251,
+      "status": "candidate",
+      "text": "wheel around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037361,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033311,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032396,
+      "status": "candidate",
+      "text": "cycle"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21065,
+      "status": "candidate",
+      "text": "rack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11076,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "pedal"
+    }
+  ],
+  "canonical_name": "wheel",
+  "concept_id": "wheel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "pypa/cibuildwheel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wheel",
+      "sense_id": "wheel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

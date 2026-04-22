@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Security Scanning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Security Scanning"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12644,
+      "status": "candidate",
+      "text": "tsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12008,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11764,
+      "status": "candidate",
+      "text": "scansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "age"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security Scanning",
+      "sense_id": "security-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "security-scanning",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "security-scanning",
+  "observation_id": "48ca8115f4d9b5e5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Security Scanning",
+  "source_context_snippet": "Security Scanning",
+  "source_file": ".github/workflows/security.yml",
+  "source_repo": "amiable-dev/llm-council",
+  "source_repo_description": "The LLM Council works together to answer your hardest questions"
+}

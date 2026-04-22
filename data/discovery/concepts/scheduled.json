@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "scheduled"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate-context",
+      "text": "CLI tool for spawning and running containers according to the OCI specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate-context",
+      "text": "scheduled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runc",
+      "status": "candidate",
+      "text": "scheduled"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900568,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983745,
+      "status": "candidate",
+      "text": "slated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981932,
+      "status": "candidate",
+      "text": "arrangement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981580,
+      "status": "candidate",
+      "text": "planning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981017,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "regular"
+    }
+  ],
+  "canonical_name": "scheduled",
+  "concept_id": "scheduled",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "opencontainers/runc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "scheduled",
+      "sense_id": "scheduled#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

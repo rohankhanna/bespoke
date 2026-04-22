@@ -13,10 +13,65 @@
       "source_repo": "jpanther/congo",
       "status": "candidate-context",
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005412,
+      "status": "candidate",
+      "text": "emoticon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005411,
+      "status": "candidate",
+      "text": "emoji sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005410,
+      "status": "candidate",
+      "text": "emote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005409,
+      "status": "candidate",
+      "text": "emojification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005408,
+      "status": "candidate",
+      "text": "emoji flag sequence"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "emoji",
   "concept_id": "emoji",
@@ -27,12 +82,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "jpanther/congo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

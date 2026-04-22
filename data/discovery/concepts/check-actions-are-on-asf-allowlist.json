@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check actions are on ASF allowlist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Database connectivity API standard and libraries for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "\"Check actions are on ASF allowlist\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate",
+      "text": "\"Check actions are on ASF allowlist\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22646,
+      "status": "candidate",
+      "text": "constraint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22646,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "damp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "damped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "damping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check actions are on ASF allowlist",
+  "concept_id": "check-actions-are-on-asf-allowlist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/asf-allowlist-check.yml",
+      "source_repo": "apache/arrow-adbc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check actions are on ASF allowlist",
+      "sense_id": "check-actions-are-on-asf-allowlist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

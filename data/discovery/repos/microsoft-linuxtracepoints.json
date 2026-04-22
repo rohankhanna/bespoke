@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "microsoft/linuxtracepoints-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "microsoft/linuxtracepoints-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CMake.yml",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CMake.yml",
+      "source_repo": "microsoft/LinuxTracepoints",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:21:00.031396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11174
+    },
+    {
+      "path": ".github/workflows/CMake.yml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C/C++ libraries for working with Linux Tracepoints and user_events",
+    "fork": false,
+    "full_name": "microsoft/LinuxTracepoints",
+    "html_url": "https://github.com/microsoft/LinuxTracepoints",
+    "language": "C++",
+    "pushed_at": "2025-03-18T02:46:06Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-20T12:26:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/linuxtracepoints-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/linuxtracepoints-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CMake.yml",
+      "term": "CMake"
+    }
+  ]
+}

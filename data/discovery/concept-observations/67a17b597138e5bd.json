@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987253,
+      "status": "candidate",
+      "text": "stylish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986689,
+      "status": "candidate",
+      "text": "fashionable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987413,
+      "status": "candidate",
+      "text": "classy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986498,
+      "status": "candidate",
+      "text": "eye-catching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985916,
+      "status": "candidate",
+      "text": "nifty"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snazzy",
+      "sense_id": "snazzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "stylish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "fashionable"
+    }
+  ],
+  "concept_id": "snazzy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snazzy",
+  "observation_id": "67a17b597138e5bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "snazzy",
+  "source_context_snippet": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors",
+  "source_file": null,
+  "source_repo": "sindresorhus/hyper-snazzy",
+  "source_repo_description": "Elegant Hyper theme with bright colors"
+}

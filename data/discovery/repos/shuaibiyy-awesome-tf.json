@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "adinhodovic/terraform-cloudflare-maintenance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "28mm/blast-radius",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "alexnabokikh/tfsort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "adamibs/vscode-terraform-live-graph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "hashicorp-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "opentofu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf",
+      "target": "terraform-modules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:26:11.265192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 71071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+    "fork": false,
+    "full_name": "shuaibiyy/awesome-tf",
+    "html_url": "https://github.com/shuaibiyy/awesome-tf",
+    "language": null,
+    "pushed_at": "2026-04-20T07:52:26Z",
+    "stargazers_count": 6361,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "devops",
+      "hashicorp-terraform",
+      "infrastructure-as-code",
+      "opentofu",
+      "terraform",
+      "terraform-modules"
+    ],
+    "updated_at": "2026-04-21T17:07:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "28mm/blast-radius",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamibs/vscode-terraform-live-graph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adinhodovic/terraform-cloudflare-maintenance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexnabokikh/tfsort",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-terraform"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentofu"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-modules"
+    }
+  ]
+}

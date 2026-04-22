@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/adb-ops-plugin",
+      "target": "danielrosehill/claude-ai-attribution-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/backup-planner",
+      "target": "danielrosehill/claude-ai-engineering-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/ai-ideation-runs",
+      "target": "danielrosehill/claude-audio-production-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/ai-memory-planning-0426",
+      "target": "danielrosehill/claude-agent-blueprints",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "danielrosehill/Claude-Code-Projects-Index"
 }

@@ -80,6 +80,18 @@
       "source_repo": "neovim/neovim",
       "status": "candidate-context",
       "text": "backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Nix Packages collection & NixOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "neovim/neovim",
       "status": "candidate",
       "text": "backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixpkgs",
+      "status": "candidate",
+      "text": "Backport"
     }
   ],
   "candidate_related_terms": [
@@ -203,11 +221,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "neovim/neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "NixOS/nixpkgs"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

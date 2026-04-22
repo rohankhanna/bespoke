@@ -1,0 +1,12 @@
+{
+  "component": "int128/docker-build-cache-config-action@b12e96bc520d2d4631f0b6492fa95be246c432ae",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "int128/kubelogin"
+    }
+  ]
+}

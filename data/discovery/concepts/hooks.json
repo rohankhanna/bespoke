@@ -19,6 +19,18 @@
       "source_repo": "relay-tools/relay-hooks",
       "status": "candidate-context",
       "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate-context",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "relay-tools/relay-hooks",
       "status": "candidate",
       "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/pre-commit-terraform",
+      "status": "candidate",
+      "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "relay-tools/relay-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/pre-commit-terraform"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "artificialintelligence"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate-context",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamlui/ai-web-extensions",
+      "status": "candidate",
+      "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "artificialintelligence",
+  "concept_id": "artificialintelligence",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "adamlui/ai-web-extensions"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificialintelligence",
+      "sense_id": "artificialintelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

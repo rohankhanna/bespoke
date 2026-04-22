@@ -898,6 +898,258 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "Convenience shortname repository for asdf community plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "Container Network Interface - networking for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate-context",
+      "text": "Compile multiple TypeScript projects into multiple targets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "licensee/licensed",
+      "status": "candidate-context",
+      "text": "A Ruby gem to cache and verify the licenses of dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensed",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Rust implementation of bors used for various Rust components (e.g. the compiler)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate-context",
+      "text": "Official .NET implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Official Go implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate-context",
+      "text": "Official Java implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate-context",
+      "text": "A collection of Safe singleton deployments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Example code for using alloy and alloy-core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "A fast, secure, and portable multichain light client for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datasette/datasette-studio",
+      "status": "candidate-context",
+      "text": "Datasette pre-configured with useful plugins. Experimental alpha."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datasette/datasette-studio",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate-context",
+      "text": "Datasette running in your browser using WebAssembly and Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/node-canvas",
+      "status": "candidate-context",
+      "text": "Node canvas is a Cairo backed Canvas implementation for NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/node-canvas",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A GitHub App to automate acknowledging contributors to your open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "A Jest transformer with source map support that lets you use Jest to test projects written in TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -1344,6 +1596,132 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf-plugins",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/cni",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tommy351/tsc-multi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensed",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-global/safe-deployments",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datasette/datasette-studio",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette-lite",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/node-canvas",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kulshekhar/ts-jest",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/client_golang",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "Test"
     }
   ],
   "candidate_related_terms": [
@@ -1933,11 +2311,143 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test-all-plugins.yml",
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tommy351/tsc-multi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/bors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "apache/arrow-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/arrow-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alloy-rs/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datasette/datasette-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/datasette-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Automattic/node-canvas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "helm/kind-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prometheus/client_golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/bypass-test.yaml",
+      "source_repo": "aquasecurity/trivy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

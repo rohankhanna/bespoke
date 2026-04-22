@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "notebook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate-context",
+      "text": "In-browser literate notebooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate-context",
+      "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gzuidhof/starboard-notebook",
+      "status": "candidate",
+      "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028695,
+      "status": "candidate",
+      "text": "notebook computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048556,
+      "status": "candidate",
+      "text": "scrapbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048255,
+      "status": "candidate",
+      "text": "booklet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048032,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048026,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "notebook computer"
+    }
+  ],
+  "canonical_name": "notebook",
+  "concept_id": "notebook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "gzuidhof/starboard-notebook"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notebook",
+      "sense_id": "notebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

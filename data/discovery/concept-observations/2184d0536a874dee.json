@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync changes to GitLab"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync changes to GitLab"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15955,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15955,
+      "status": "candidate",
+      "text": "attuned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15955,
+      "status": "candidate",
+      "text": "jibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15955,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15955,
+      "status": "candidate",
+      "text": "timed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync changes to GitLab",
+      "sense_id": "sync-changes-to-gitlab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-changes-to-gitlab",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-changes-to-gitlab",
+  "observation_id": "2184d0536a874dee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Sync changes to GitLab",
+  "source_context_snippet": "Sync changes to GitLab",
+  "source_file": ".github/workflows/sync-changes-to-gitlab.yml",
+  "source_repo": "adamlui/ai-web-extensions",
+  "source_repo_description": "\ud83e\udd16 AI browser extensions & userscripts to augment your web experience"
+}

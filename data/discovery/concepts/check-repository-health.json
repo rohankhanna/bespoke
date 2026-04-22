@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Repository Health"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate-context",
+      "text": "Check Repository Health"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-packages",
+      "status": "candidate",
+      "text": "Check Repository Health"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26444,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "medicare check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "medicare payment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Repository Health",
+  "concept_id": "check-repository-health",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/check_repository_health.yml",
+      "source_repo": "termux/termux-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Repository Health",
+      "sense_id": "check-repository-health#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

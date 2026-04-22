@@ -1,0 +1,407 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lobster.yml"
+    },
+    {
+      "component": "luizm/action-sh-checker@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lobster.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lobster.yml"
+    },
+    {
+      "component": "hahwul/deadfinder@1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml"
+    },
+    {
+      "component": "ocular-d/trailing-spaces@0.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justchokingaround/lobster",
+      "target": "mpv-android/mpv-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inverse-lobster.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "lobster checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lobster.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lobster.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "luizm/action-sh-checker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lobster.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "lobster checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "hahwul/deadfinder@1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "ocular-d/trailing-spaces@0.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "semantic pr title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "justchokingaround/lobster",
+      "target": "lobster checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "movie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "movies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "shellscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "tvshow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "tvshows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "ueberzugpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:07:18.791647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19231
+    },
+    {
+      "path": ".github/workflows/inverse-lobster.yml",
+      "size": 756
+    },
+    {
+      "path": ".github/workflows/inverse-md.yml",
+      "size": 637
+    },
+    {
+      "path": ".github/workflows/lobster.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/markdown.yml",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/title.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/version.yml",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mmm lobster",
+    "fork": false,
+    "full_name": "justchokingaround/lobster",
+    "html_url": "https://github.com/justchokingaround/lobster",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T11:16:58Z",
+    "stargazers_count": 873,
+    "topics": [
+      "free",
+      "linux",
+      "macos",
+      "movie",
+      "movies",
+      "mpv",
+      "scraper",
+      "series",
+      "shell",
+      "shell-script",
+      "shellscript",
+      "tv",
+      "tvshow",
+      "tvshows",
+      "ueberzugpp",
+      "windows"
+    ],
+    "updated_at": "2026-04-22T10:02:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpv-android/mpv-android",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"lobster checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inverse-lobster.yml",
+      "term": "lobster checks"
+    },
+    {
+      "context_snippet": "\"lobster checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lobster.yml",
+      "term": "lobster checks"
+    },
+    {
+      "context_snippet": "\"semantic pr title\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "term": "semantic pr title"
+    },
+    {
+      "context_snippet": "\"lobster checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yml",
+      "term": "lobster checks"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "movie"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "movies"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraper"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "series"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shellscript"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvshow"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvshows"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ueberzugpp"
+    },
+    {
+      "context_snippet": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "modelcontextprotocol"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate-context",
+      "text": "Discover Exceptional MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate-context",
+      "text": "<img src=\"./public/logo.png\" width=\"68\" alt=\"mcpsvr logo\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/mcpsvr",
+      "status": "candidate",
+      "text": "<img src=\"./public/logo.png\" width=\"68\" alt=\"mcpsvr logo\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "modelcontextprotocol",
+  "concept_id": "modelcontextprotocol",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "nanbingxyz/mcpsvr"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modelcontextprotocol",
+      "sense_id": "modelcontextprotocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

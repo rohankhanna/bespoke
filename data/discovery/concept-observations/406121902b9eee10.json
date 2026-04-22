@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "echo-framework",
+      "sense_id": "echo-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "echo-framework",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "echo-framework",
+  "observation_id": "406121902b9eee10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "echo-framework",
+  "source_context_snippet": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests.",
+  "source_file": null,
+  "source_repo": "brpaz/echozap",
+  "source_repo_description": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+}

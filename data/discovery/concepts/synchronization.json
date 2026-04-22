@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "synchronization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate-context",
+      "text": "[![Syncthing][14]][15]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/syncthing",
+      "status": "candidate",
+      "text": "[![Syncthing][14]][15]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953904,
+      "status": "candidate",
+      "text": "synchroneity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953821,
+      "status": "candidate",
+      "text": "synchronism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953800,
+      "status": "candidate",
+      "text": "synchrony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953743,
+      "status": "candidate",
+      "text": "synchronicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899928,
+      "status": "candidate",
+      "text": "synchronisation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "synchronicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "synchronism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "synchrony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2017,
+      "status": "candidate",
+      "text": "synchronisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "synchronizing"
+    }
+  ],
+  "canonical_name": "synchronization",
+  "concept_id": "synchronization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "syncthing/syncthing"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synchronization",
+      "sense_id": "synchronization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

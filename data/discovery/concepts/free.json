@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "free"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "\u2728 This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to Go Programming Language: presentations, posts in blogs or social media, courses, videos and many, many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MariaLetta/free-gophers-pack",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046934,
+      "status": "candidate",
+      "text": "unrestricted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046930,
+      "status": "candidate",
+      "text": "unfettered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046885,
+      "status": "candidate",
+      "text": "unconstrained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046875,
+      "status": "candidate",
+      "text": "exempt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046846,
+      "status": "candidate",
+      "text": "unbound"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45042,
+      "status": "candidate",
+      "text": "gratuitous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43072,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35033,
+      "status": "candidate",
+      "text": "detached"
+    }
+  ],
+  "canonical_name": "free",
+  "concept_id": "free",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "MariaLetta/free-gophers-pack"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "free",
+      "sense_id": "free#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

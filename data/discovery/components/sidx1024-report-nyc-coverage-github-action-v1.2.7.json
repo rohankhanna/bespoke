@@ -1,0 +1,12 @@
+{
+  "component": "sidx1024/report-nyc-coverage-github-action@v1.2.7",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "circlefin/stablecoin-evm"
+    }
+  ]
+}

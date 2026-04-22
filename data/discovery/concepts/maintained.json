@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "maintained"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate-context",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate-context",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-multipart-request-spec",
+      "status": "candidate",
+      "text": "A spec for GraphQL multipart form requests (file uploads)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971881,
+      "status": "candidate",
+      "text": "serviceable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951642,
+      "status": "candidate",
+      "text": "well-kept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981841,
+      "status": "candidate",
+      "text": "kept up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981841,
+      "status": "candidate",
+      "text": "preserved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981841,
+      "status": "candidate",
+      "text": "repaired"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10025,
+      "status": "candidate",
+      "text": "preserved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8022,
+      "status": "candidate",
+      "text": "retained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "serviceable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "well-kept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "repaired"
+    }
+  ],
+  "canonical_name": "maintained",
+  "concept_id": "maintained",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-multipart-request-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maintained",
+      "sense_id": "maintained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

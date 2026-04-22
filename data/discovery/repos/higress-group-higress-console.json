@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "wahyd4/kubectl-helm-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "stefanprodan/kube-tools@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "engineerd/setup-kind@v0.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "wahyd4/kubectl-helm-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Deploy Artifacts to K8s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "stefanprodan/kube-tools@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "engineerd/setup-kind@v0.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Deploy Artifacts to OSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "Frontend Code Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "apache/skywalking-eyes/header@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "apache/skywalking-eyes/dependency@25edfc2fd8d52fb266653fb5f6c42da633d85c07",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "higress-group/higress-console",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:01:04.618050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 172502
+    },
+    {
+      "path": ".github/workflows/build-and-test.yaml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yaml",
+      "size": 2585
+    },
+    {
+      "path": ".github/workflows/deploy-to-k8s.yaml",
+      "size": 3640
+    },
+    {
+      "path": ".github/workflows/deploy-to-oss.yaml",
+      "size": 3209
+    },
+    {
+      "path": ".github/workflows/frontend-code-checker.yaml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/license-checker.yaml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "higress console",
+    "fork": false,
+    "full_name": "higress-group/higress-console",
+    "html_url": "https://github.com/higress-group/higress-console",
+    "language": "Java",
+    "pushed_at": "2026-04-16T05:59:31Z",
+    "stargazers_count": 168,
+    "topics": [],
+    "updated_at": "2026-04-18T00:11:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build and Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy Artifacts to K8s",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "term": "Deploy Artifacts to K8s"
+    },
+    {
+      "context_snippet": "Deploy Artifacts to OSS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "term": "Deploy Artifacts to OSS"
+    },
+    {
+      "context_snippet": "\"Frontend Code Checker\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-code-checker.yaml",
+      "term": "Frontend Code Checker"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "term": "License checker"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "ranger/ranger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "neovim/pynvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "seebye/ueberzug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "jguer/yay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/rnvimr",
+      "target": "ranger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:07:25.363216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make Ranger running in a floating window to communicate with Neovim via RPC",
+    "fork": false,
+    "full_name": "kevinhwang91/rnvimr",
+    "html_url": "https://github.com/kevinhwang91/rnvimr",
+    "language": "Python",
+    "pushed_at": "2026-01-11T07:22:39Z",
+    "stargazers_count": 843,
+    "topics": [
+      "neovim",
+      "nvim",
+      "nvim-plugin",
+      "python",
+      "ranger",
+      "vim"
+    ],
+    "updated_at": "2026-04-14T18:42:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jguer/yay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/pynvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ranger/ranger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seebye/ueberzug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranger"
+    }
+  ]
+}

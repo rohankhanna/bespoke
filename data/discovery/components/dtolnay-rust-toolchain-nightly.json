@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@nightly",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/merge.yaml",
       "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "paradigmxyz/reth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "alloy-rs/examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "alloy-rs/examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gakonst/ethers-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chronotope/chrono"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "serde-rs/json"
     }
   ]
 }

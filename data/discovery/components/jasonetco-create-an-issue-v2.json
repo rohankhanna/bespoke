@@ -1,7 +1,7 @@
 {
   "component": "JasonEtco/create-an-issue@v2",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cargo-publish-dry-run.yml",
       "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-issue.yml",
+      "source_repo": "safe-fndn/safe-singleton-factory"
     }
   ]
 }

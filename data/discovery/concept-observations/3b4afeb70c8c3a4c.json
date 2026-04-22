@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Builds the latest `.pyi` type stubs for the entire Ghidra API - Uses latest Ghidra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Ghidra `.pyi` Generator generates `.pyi` [type stubs][pep-0484]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Ghidra `.pyi` Generator generates `.pyi` [type stubs][pep-0484]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "boundless informant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "doublepulsar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "eternalblue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "blarney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "sentient"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ghidra",
+      "sense_id": "ghidra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ghidra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ghidra",
+  "observation_id": "3b4afeb70c8c3a4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ghidra",
+  "source_context_snippet": "The Ghidra `.pyi` Generator generates `.pyi` [type stubs][pep-0484]",
+  "source_file": null,
+  "source_repo": "clearbluejar/ghidra-pyi-generator",
+  "source_repo_description": "Builds the latest `.pyi` type stubs for the entire Ghidra API - Uses latest Ghidra"
+}

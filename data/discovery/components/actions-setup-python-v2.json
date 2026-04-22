@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functional-tests.yml",
+      "source_repo": "benthayer/git-gud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "benthayer/git-gud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clearbluejar/ghidra-pyi-generator"
     }
   ]
 }

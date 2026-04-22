@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Common interface for tracing/instrumentation libraries in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023283,
+      "status": "candidate",
+      "text": "caml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023282,
+      "status": "candidate",
+      "text": "common lisp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023281,
+      "status": "candidate",
+      "text": "haskell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023280,
+      "status": "candidate",
+      "text": "standard ml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023279,
+      "status": "candidate",
+      "text": "computer language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ocaml",
+      "sense_id": "ocaml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ocaml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ocaml",
+  "observation_id": "21bf5b7746e91424",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "ocaml",
+  "source_context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
+  "source_file": null,
+  "source_repo": "ocaml-tracing/ocaml-trace",
+  "source_repo_description": "Common interface for tracing/instrumentation libraries in OCaml"
+}

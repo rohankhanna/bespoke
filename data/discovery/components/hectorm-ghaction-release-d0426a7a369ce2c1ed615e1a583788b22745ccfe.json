@@ -1,0 +1,12 @@
+{
+  "component": "hectorm/ghaction-release@d0426a7a369ce2c1ed615e1a583788b22745ccfe",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hectorm/chafa-wasm"
+    }
+  ]
+}

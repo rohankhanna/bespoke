@@ -19,6 +19,18 @@
       "source_repo": "all-contributors/allcontributors.org",
       "status": "candidate-context",
       "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A GitHub App to automate acknowledging contributors to your open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "<table>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "all-contributors/allcontributors.org",
       "status": "candidate",
       "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate",
+      "text": "<table>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc-hib/go-winres",
+      "target": "tc-hib/winres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc-hib/go-winres",
+      "target": "nfnt/resize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc-hib/go-winres",
+      "target": "urfave/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres",
+      "target": "manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres",
+      "target": "rsrc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:15.781063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8685
+    },
+    {
+      "path": "go.mod",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command line tool for adding Windows resources to executable files",
+    "fork": false,
+    "full_name": "tc-hib/go-winres",
+    "html_url": "https://github.com/tc-hib/go-winres",
+    "language": "Go",
+    "pushed_at": "2024-04-11T12:06:10Z",
+    "stargazers_count": 397,
+    "topics": [
+      "golang",
+      "icon",
+      "manifest",
+      "rsrc",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T22:48:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nfnt/resize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc-hib/winres",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "urfave/cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon"
+    },
+    {
+      "context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifest"
+    },
+    {
+      "context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsrc"
+    },
+    {
+      "context_snippet": "A simple command line tool for embedding usual resources in Windows executables built with Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

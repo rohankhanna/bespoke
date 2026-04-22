@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate Echo backend code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protobuf",
+      "sense_id": "protobuf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protobuf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protobuf",
+  "observation_id": "fe43c5389ea7865d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "protobuf",
+  "source_context_snippet": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code",
+  "source_file": null,
+  "source_repo": "go-woo/protoc-gen-echo",
+  "source_repo_description": "Generate Echo backend code"
+}

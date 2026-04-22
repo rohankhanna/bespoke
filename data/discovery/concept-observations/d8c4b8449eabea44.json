@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The best way to create, deploy, and share MCP Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release on Version Change"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release on Version Change"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34808,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34808,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27594,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26909,
+      "status": "candidate",
+      "text": "linspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19092,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release on Version Change",
+      "sense_id": "release-on-version-change#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-on-version-change",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-on-version-change",
+  "observation_id": "d8c4b8449eabea44",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Release on Version Change",
+  "source_context_snippet": "Release on Version Change",
+  "source_file": ".github/workflows/release-on-version-change.yml",
+  "source_repo": "ArcadeAI/arcade-mcp",
+  "source_repo_description": "The best way to create, deploy, and share MCP Servers"
+}

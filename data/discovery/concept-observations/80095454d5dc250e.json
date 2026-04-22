@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Color package for Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029208,
+      "status": "candidate",
+      "text": "food coloring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028541,
+      "status": "candidate",
+      "text": "colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002043,
+      "status": "candidate",
+      "text": "food colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911824,
+      "status": "candidate",
+      "text": "colour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029803,
+      "status": "candidate",
+      "text": "food color"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coloring",
+      "sense_id": "coloring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7077,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1047,
+      "status": "candidate",
+      "text": "colour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1013,
+      "status": "candidate",
+      "text": "food coloring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "food colouring"
+    }
+  ],
+  "concept_id": "coloring",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coloring",
+  "observation_id": "80095454d5dc250e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "coloring",
+  "source_context_snippet": "Color lets you use colorized outputs in terms of [ANSI Escape",
+  "source_file": null,
+  "source_repo": "fatih/color",
+  "source_repo_description": "Color package for Go (golang)"
+}

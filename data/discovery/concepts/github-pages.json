@@ -1,12 +1,15 @@
 {
   "aliases": [
     "GitHub Pages",
-    "github-pages"
+    "github-pages",
+    "github pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -50,6 +53,30 @@
       "source_repo": "alibaba/ROLL",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "Common interface for tracing/instrumentation libraries in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to turn a GitHub project into a self-hosted Helm chart repo, using helm/chart-releaser CLI tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate-context",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
     }
   ],
   "candidate_glosses": [
@@ -70,6 +97,18 @@
       "source_repo": "alibaba/ROLL",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-trace",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser-action",
+      "status": "candidate",
+      "text": "A GitHub action to turn a GitHub project into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool."
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +176,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "alibaba/ROLL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser-action"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

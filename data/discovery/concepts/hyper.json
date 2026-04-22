@@ -19,6 +19,18 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate-context",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/hyper-snazzy",
+      "status": "candidate",
+      "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/hyper-snazzy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ethereum Virtual Machine (EVM) disassembler and assembler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dissassembler",
+      "sense_id": "dissassembler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dissassembler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dissassembler",
+  "observation_id": "ff47fe024e2d328b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "dissassembler",
+  "source_context_snippet": "[![Build Status](https://github.com/crytic/pyevmasm/workflows/CI/badge.svg)](https://github.com/crytic/pyevmasm/actions?query=workflow%3ACI)",
+  "source_file": null,
+  "source_repo": "crytic/pyevmasm",
+  "source_repo_description": "Ethereum Virtual Machine (EVM) disassembler and assembler"
+}

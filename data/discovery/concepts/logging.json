@@ -91,6 +91,30 @@
       "source_repo": "apex/log",
       "status": "candidate-context",
       "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "Fast C++ logging library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "Middleware for Golang Echo framework that provides integration with Uber\u00b4s Zap logging library for logging HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate-context",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "apex/log",
       "status": "candidate",
       "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/gabime/spdlog/actions/workflows/linux.yml/badge.svg)](https://github.com/gabime/spdlog/actions/workflows/linux.yml)&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brpaz/echozap",
+      "status": "candidate",
+      "text": "> Middleware for Golang [Echo](https://echo.labstack.com/) framework that provides integration with Uber\u00b4s [Zap](https://github.com/uber-go/zap) logging library for logging HTTP requests."
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +262,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "apex/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "gabime/spdlog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "brpaz/echozap"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

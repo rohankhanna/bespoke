@@ -31,6 +31,18 @@
       "source_repo": "huggingface/peft",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate-context",
+      "text": "Over TypeScript tool to use custom transformers in the tsconfig.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate-context",
+      "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "huggingface/peft",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cevek/ttypescript",
+      "status": "candidate",
+      "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "huggingface/peft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "cevek/ttypescript"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

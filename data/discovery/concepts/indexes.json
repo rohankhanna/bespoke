@@ -19,6 +19,30 @@
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
       "status": "candidate-context",
       "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate-context",
+      "text": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "Indexing repo of backup related projects and scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
       "status": "candidate",
       "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Architectural-Plans-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Backup-Projects-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Architectural-Plans-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Backup-Projects-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

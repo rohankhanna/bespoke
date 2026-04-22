@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking",
+      "target": "contracts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:10:47.503953+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/ci_contracts.yml",
+      "size": 625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Staking app",
+    "fork": false,
+    "full_name": "aragon/staking",
+    "html_url": "https://github.com/aragon/staking",
+    "language": "Solidity",
+    "pushed_at": "2023-03-08T16:47:44Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-08-24T06:48:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "contracts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "term": "contracts"
+    }
+  ]
+}

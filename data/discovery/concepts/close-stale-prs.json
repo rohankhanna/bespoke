@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "close-stale-prs"
+    "close-stale-prs",
+    "Close stale PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate-context",
       "text": "close-stale-prs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "\"Close stale PRs\""
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate",
       "text": "close-stale-prs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "\"Close stale PRs\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "pagoda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11182,
+      "status": "candidate",
+      "text": "blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11061,
+      "status": "candidate",
+      "text": "flatten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11061,
+      "status": "candidate",
+      "text": "flattening"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "close-stale-prs",
   "concept_id": "close-stale-prs",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/close-stale-prs.yml",
       "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "ApeWorX/ape"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment on Pull Request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openelections/openelections-data-sd",
+      "status": "candidate-context",
+      "text": "Election results for South Dakota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openelections/openelections-data-sd",
+      "status": "candidate-context",
+      "text": "Comment on Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openelections/openelections-data-sd",
+      "status": "candidate",
+      "text": "Comment on Pull Request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "dig"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment on Pull Request",
+  "concept_id": "comment-on-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/pull_request_comment.yml",
+      "source_repo": "openelections/openelections-data-sd"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on Pull Request",
+      "sense_id": "comment-on-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

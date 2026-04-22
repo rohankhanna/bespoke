@@ -55,6 +55,18 @@
       "source_repo": "C2SP/wycheproof",
       "status": "candidate-context",
       "text": "Project Wycheproof is a [community managed](https://github.com/C2SP) repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightning/bolts",
+      "status": "candidate-context",
+      "text": "BOLT: Basis of Lightning Technology (Lightning Network Specifications)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightning/bolts",
+      "status": "candidate-context",
+      "text": "The specifications are currently a work-in-progress and currently being"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "C2SP/wycheproof",
       "status": "candidate",
       "text": "Project Wycheproof is a [community managed](https://github.com/C2SP) repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightning/bolts",
+      "status": "candidate",
+      "text": "The specifications are currently a work-in-progress and currently being"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "C2SP/wycheproof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

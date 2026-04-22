@@ -1718,6 +1718,366 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "A snapshot testing library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xBigBoss/vscode-bootty",
+      "status": "candidate-context",
+      "text": "An alternative terminal extension for VS Code powered by Ghostty's terminal emulation (libghostty-vt) via WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xBigBoss/vscode-bootty",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsonglew/dutis",
+      "status": "candidate-context",
+      "text": "MacOS Application Extension Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsonglew/dutis",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "licensee/licensed",
+      "status": "candidate-context",
+      "text": "A Ruby gem to cache and verify the licenses of dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensed",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate-context",
+      "text": "Official .NET implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Official Go implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate-context",
+      "text": "Official Java implementation of Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate-context",
+      "text": "Provides Nerd Font icons (glyphs) for use by neovim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddbc\ufe0f Bringing images to Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "A fast, secure, and portable multichain light client for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "An Ethereum portal client: a json-rpc server with nearly instant sync, and low CPU & storage usage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Symbolic and concrete EVM execution engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0c TypeScript bindings for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Build and explore on-chain with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "A containerd snapshotter plugin which enables standard OCI images to be lazily loaded without requiring a build-time conversion step."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "Node.js tool for easy binary deployment of C++ addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A GitHub App to automate acknowledging contributors to your open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "JET Pilot is an open-source Kubernetes desktop client that focuses on less clutter, speed and good looks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate-context",
+      "text": "AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator\u3001 Claude Chrome and Agent Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "The Operating System for Clear Thinking & Better Decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate-context",
+      "text": "large population models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/coder-logstream-kube",
+      "status": "candidate-context",
+      "text": "Stream Kubernetes Pod events to the Coder startup logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder-logstream-kube",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/envbuilder",
+      "status": "candidate-context",
+      "text": "Build development environments from a Dockerfile on Docker, Kubernetes, and OpenShift. Enable developers to modify their development environment quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/envbuilder",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "Automatically updated C# bindings for ImGui https://github.com/ocornut/imgui based on cimgui with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "Generate C# bindings from a C header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -2566,6 +2926,186 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xBigBoss/vscode-bootty",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mcp-app/agent",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsonglew/dutis",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensed",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-dotnet",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-go",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-java",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/node-pre-gyp",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/app",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unxsist/jet-pilot",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIPexStudio/AIPex",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoangTheQuyen/think-better",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder-logstream-kube",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/envbuilder",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "int128/kubelogin",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/imgui-cs",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bottlenoselabs/c2cs",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate",
+      "text": "Release"
     }
   ],
   "candidate_related_terms": [
@@ -3827,11 +4367,263 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mitsuhiko/insta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0xBigBoss/vscode-bootty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish-to-npm.yml",
+      "source_repo": "1mcp-app/agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tsonglew/dutis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "apache/arrow-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/arrow-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/arrow-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "3rd/image.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "a16z/helios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/trin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "awslabs/soci-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mapbox/node-pre-gyp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AIPexStudio/AIPex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "HoangTheQuyen/think-better"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coder/coder-logstream-kube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coder/envbuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/imgui-cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bottlenoselabs/c2cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Softeria/ms-365-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

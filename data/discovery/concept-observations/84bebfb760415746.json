@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post new issues to Slack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post new issues to Slack"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33723,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33528,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33528,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33382,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33382,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post new issues to Slack",
+      "sense_id": "post-new-issues-to-slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-new-issues-to-slack",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-new-issues-to-slack",
+  "observation_id": "84bebfb760415746",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Post new issues to Slack",
+  "source_context_snippet": "Post new issues to Slack",
+  "source_file": ".github/workflows/slack-issue-notification.yml",
+  "source_repo": "anthropics/claude-agent-sdk-typescript",
+  "source_repo_description": null
+}

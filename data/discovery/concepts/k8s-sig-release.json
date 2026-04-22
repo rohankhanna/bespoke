@@ -19,6 +19,18 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate-context",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate-context",
+      "text": "Hydrophone is a lightweight Kubernetes conformance tests runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate-context",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/hydrophone"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

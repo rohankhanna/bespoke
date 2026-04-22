@@ -384,7 +384,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:17:38.404187+00:00",
+  "fetched_at": "2026-04-22T19:04:05.022918+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -425,7 +425,7 @@
     "html_url": "https://github.com/vaporif/parry-guard",
     "language": "Rust",
     "pushed_at": "2026-04-21T14:20:54Z",
-    "stargazers_count": 33,
+    "stargazers_count": 34,
     "topics": [
       "claude-code",
       "nix",
@@ -433,7 +433,7 @@
       "prompt-injection-llm-security",
       "rust"
     ],
-    "updated_at": "2026-04-21T14:16:05Z"
+    "updated_at": "2026-04-22T18:57:00Z"
   },
   "repo_links": [
     {

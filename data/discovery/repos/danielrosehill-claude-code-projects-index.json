@@ -11,28 +11,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/adb-ops-plugin",
+      "target": "danielrosehill/claude-ai-attribution-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/backup-planner",
+      "target": "danielrosehill/claude-ai-engineering-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/ai-ideation-runs",
+      "target": "danielrosehill/claude-audio-production-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/ai-memory-planning-0426",
+      "target": "danielrosehill/claude-agent-blueprints",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:52:54.562679+00:00",
+  "fetched_at": "2026-04-22T19:16:59.067555+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,22 +96,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/adb-ops-plugin",
+      "full_name": "danielrosehill/claude-agent-blueprints",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-ideation-runs",
+      "full_name": "danielrosehill/claude-ai-attribution-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-memory-planning-0426",
+      "full_name": "danielrosehill/claude-ai-engineering-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/backup-planner",
+      "full_name": "danielrosehill/claude-audio-production-plugin",
       "source_file": "README.md"
     }
   ],

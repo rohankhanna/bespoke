@@ -1,12 +1,22 @@
 {
   "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/health_base.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml",
+      "source_repo": "dart-lang/tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools"
     }
   ]
 }

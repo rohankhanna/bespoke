@@ -157,6 +157,24 @@
       "source_repo": "yashsinghcodes/wik",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -229,6 +247,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yashsinghcodes/wik",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -370,11 +400,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "yashsinghcodes/wik"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "amiable-dev/llm-council"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -139,6 +139,42 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/hub",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f(OBSOLETE) Former distributed charts search for hub.helm.sh. Now see https://artifacthub.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/hub",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "Notary is a project that allows anyone to have trust over arbitrary collections of data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/hub",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +376,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

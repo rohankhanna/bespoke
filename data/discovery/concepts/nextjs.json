@@ -67,6 +67,18 @@
       "source_repo": "labring/FastGPT",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azzedde/brainstormers",
+      "status": "candidate-context",
+      "text": "This repository hosts a suite of specialized agents designed to power your brainstorming sessions. Each agent brings a unique perspective and tailored approach to generate creative, targeted solutions for diverse challenges. Choose the right agent for your specific brainstorming needs and unlock innovative ideas with precision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azzedde/brainstormers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "labring/FastGPT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azzedde/brainstormers",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "Azzedde/brainstormers"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

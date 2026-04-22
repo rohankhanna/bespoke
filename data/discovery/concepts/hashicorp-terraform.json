@@ -19,6 +19,18 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate-context",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "Curated list of resources on HashiCorp's Terraform and OpenTofu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate-context",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuaibiyy/awesome-tf",
+      "status": "candidate",
+      "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "shuaibiyy/awesome-tf"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

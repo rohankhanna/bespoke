@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:06:01.238242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enhancements tracking repository for OKD",
+    "fork": false,
+    "full_name": "openshift/enhancements",
+    "html_url": "https://github.com/openshift/enhancements",
+    "language": "Go",
+    "pushed_at": "2026-04-22T17:11:57Z",
+    "stargazers_count": 205,
+    "topics": [],
+    "updated_at": "2026-04-22T17:12:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

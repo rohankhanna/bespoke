@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "trust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "Notary is a project that allows anyone to have trust over arbitrary collections of data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notary",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/theupdateframework/notary?status.svg)](https://godoc.org/github.com/theupdateframework/notary)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998481,
+      "status": "candidate",
+      "text": "rely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998064,
+      "status": "candidate",
+      "text": "trustingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998052,
+      "status": "candidate",
+      "text": "trustfulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997814,
+      "status": "candidate",
+      "text": "reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997503,
+      "status": "candidate",
+      "text": "entrust"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66042,
+      "status": "candidate",
+      "text": "desire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23041,
+      "status": "candidate",
+      "text": "confidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18041,
+      "status": "candidate",
+      "text": "believe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16078,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12047,
+      "status": "candidate",
+      "text": "commit"
+    }
+  ],
+  "canonical_name": "trust",
+  "concept_id": "trust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trust",
+      "sense_id": "trust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

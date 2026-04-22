@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adds Sass / Scss support to brunch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brunch-compiler",
+      "sense_id": "brunch-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "brunch-compiler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brunch-compiler",
+  "observation_id": "82541c06dfe6124d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "brunch-compiler",
+  "source_context_snippet": "Adds Sass support to [Brunch](https://brunch.io).",
+  "source_file": null,
+  "source_repo": "brunch/sass-brunch",
+  "source_repo_description": "Adds Sass / Scss support to brunch"
+}

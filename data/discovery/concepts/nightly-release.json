@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Nightly Release"
+    "Nightly Release",
+    "Nightly release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate-context",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "Website for graphing performance of rustc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "Nightly release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate",
+      "text": "Nightly release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/nightly-release.yml",
       "source_repo": "flashinfer-ai/flashinfer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "rust-lang/rustc-perf"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

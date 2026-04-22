@@ -1,0 +1,12 @@
+{
+  "component": "int128/go-release-action/create-draft-release@9e1d6ec29fc6ffc2ba55f631baf4a73017d228e1",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "int128/kubelogin"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BOLT: Basis of Lightning Technology (Lightning Network Specifications)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The specifications are currently a work-in-progress and currently being"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The specifications are currently a work-in-progress and currently being"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049044,
+      "status": "candidate",
+      "text": "encryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049018,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048881,
+      "status": "candidate",
+      "text": "cryptographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048836,
+      "status": "candidate",
+      "text": "encrypted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048735,
+      "status": "candidate",
+      "text": "cipher"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cryptography",
+      "sense_id": "cryptography#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cryptography",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cryptography",
+  "observation_id": "797bfa918269607d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "cryptography",
+  "source_context_snippet": "The specifications are currently a work-in-progress and currently being",
+  "source_file": null,
+  "source_repo": "lightning/bolts",
+  "source_repo_description": "BOLT: Basis of Lightning Technology (Lightning Network Specifications)"
+}

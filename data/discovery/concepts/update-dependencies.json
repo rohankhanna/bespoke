@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Update dependencies"
+    "Update dependencies",
+    "Update Dependencies"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,66 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate-context",
+      "text": "Hydrophone is a lightweight Kubernetes conformance tests runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate-context",
+      "text": "'Update Dependencies'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "Update dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate-context",
+      "text": "Update Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate-context",
+      "text": "Update Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "An Ethereum portal client: a json-rpc server with nearly instant sync, and low CPU & storage usage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate-context",
+      "text": "Update Dependencies"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +88,36 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/hydrophone",
+      "status": "candidate",
+      "text": "'Update Dependencies'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "Update dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paradigmxyz/reth",
+      "status": "candidate",
+      "text": "Update Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/reth",
+      "status": "candidate",
+      "text": "Update Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/trin",
+      "status": "candidate",
+      "text": "Update Dependencies"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +173,47 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/hydrophone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "paradigmxyz/reth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "boundless-xyz/reth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ethereum/trin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

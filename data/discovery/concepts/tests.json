@@ -639,6 +639,90 @@
       "source_repo": "ariya/esprima",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "A snapshot testing library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hauntsaninja/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python 3 and 2 (PEP 484)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "Pug view adapter for Laravel and Lumen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "Simulate anything, for $1 & less than 10 min \u2014 Universal Swarm Intelligence Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate-context",
+      "text": "large population models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "Mergo: merging Go structs and maps since 2013"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate-context",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Accessibility engine for automated Web UI testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -951,6 +1035,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ariya/esprima",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/insta",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjmars/MiroShark",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentTorch/AgentTorch",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darccio/mergo",
+      "status": "candidate",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
       "status": "candidate",
       "text": "Tests"
     }
@@ -1385,11 +1511,65 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "ariya/esprima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mitsuhiko/insta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hauntsaninja/mypy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "BKWLD/laravel-pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "aaronjmars/MiroShark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "AgentTorch/AgentTorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dequelabs/axe-core"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-image.yml",
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-k8s.yaml",
+      "source_repo": "higress-group/higress-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yaml",
+      "source_repo": "void-linux/void-packages"
     }
   ]
 }

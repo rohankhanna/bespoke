@@ -1,0 +1,492 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-maintainer-edits.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-maintainer-edits.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-maintainer-edits.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "Check Maintainer Edits Enabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "Docker Build and Push to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-mcp-registry.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-mcp-registry.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "Publish PyPI + MCP Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "g-suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "gmail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-drive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-sheets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "google-workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "gsuite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "llm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "model-context-protocol-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "model-context-protocol-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "target": "workspace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:24:48.815893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 68604
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1250
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3222
+    },
+    {
+      "path": ".github/workflows/check-maintainer-edits.yml",
+      "size": 2239
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1717
+    },
+    {
+      "path": ".github/workflows/publish-mcp-registry.yml",
+      "size": 3116
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 1287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
+    "fork": false,
+    "full_name": "taylorwilsdon/google_workspace_mcp",
+    "html_url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+    "language": "Python",
+    "pushed_at": "2026-04-22T13:55:30Z",
+    "stargazers_count": 2186,
+    "topics": [
+      "ai",
+      "g-suite",
+      "gmail",
+      "google-calendar",
+      "google-chat",
+      "google-docs",
+      "google-drive",
+      "google-forms",
+      "google-sheets",
+      "google-tasks",
+      "google-workspace",
+      "gsuite",
+      "llm",
+      "llm-tools",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "model-context-protocol-server",
+      "model-context-protocol-servers",
+      "workspace"
+    ],
+    "updated_at": "2026-04-22T19:20:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Maintainer Edits Enabled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-maintainer-edits.yml",
+      "term": "Check Maintainer Edits Enabled"
+    },
+    {
+      "context_snippet": "Docker Build and Push to GHCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker Build and Push to GHCR"
+    },
+    {
+      "context_snippet": "Publish PyPI + MCP Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-mcp-registry.yml",
+      "term": "Publish PyPI + MCP Registry"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "g-suite"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gmail"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-calendar"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-chat"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-docs"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-drive"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-forms"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-sheets"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-tasks"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-workspace"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gsuite"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-tools"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol-server"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol-servers"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workspace"
+    }
+  ]
+}

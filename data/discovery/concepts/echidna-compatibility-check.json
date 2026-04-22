@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Echidna Compatibility Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Symbolic and concrete EVM execution engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate-context",
+      "text": "Echidna Compatibility Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argotorg/hevm",
+      "status": "candidate",
+      "text": "Echidna Compatibility Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "teeth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19556,
+      "status": "candidate",
+      "text": "bat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14544,
+      "status": "candidate",
+      "text": "loggerhead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Echidna Compatibility Check",
+  "concept_id": "echidna-compatibility-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/echidna-compat.yml",
+      "source_repo": "argotorg/hevm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Echidna Compatibility Check",
+      "sense_id": "echidna-compatibility-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

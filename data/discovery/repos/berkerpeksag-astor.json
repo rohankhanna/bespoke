@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "berkerpeksag/astor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "berkerpeksag/astor",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "berkerpeksag/astor",
+      "target": "Astor CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:13:18.299177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2367
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python AST read/write",
+    "fork": false,
+    "full_name": "berkerpeksag/astor",
+    "html_url": "https://github.com/berkerpeksag/astor",
+    "language": "Python",
+    "pushed_at": "2026-02-17T23:52:44Z",
+    "stargazers_count": 864,
+    "topics": [],
+    "updated_at": "2026-04-19T13:42:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Astor CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Astor CI"
+    }
+  ]
+}

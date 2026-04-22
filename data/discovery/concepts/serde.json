@@ -19,6 +19,18 @@
       "source_repo": "GREsau/schemars",
       "status": "candidate-context",
       "text": "[![CI Build](https://img.shields.io/github/actions/workflow/status/GREsau/schemars/ci.yml?branch=master&logo=GitHub)](https://github.com/GREsau/schemars/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serde-rs/json",
+      "status": "candidate-context",
+      "text": "Strongly typed JSON library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json",
+      "status": "candidate-context",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "GREsau/schemars",
       "status": "candidate",
       "text": "[![CI Build](https://img.shields.io/github/actions/workflow/status/GREsau/schemars/ci.yml?branch=master&logo=GitHub)](https://github.com/GREsau/schemars/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json",
+      "status": "candidate",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "GREsau/schemars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "serde-rs/json"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

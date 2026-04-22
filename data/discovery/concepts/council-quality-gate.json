@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Council Quality Gate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "Council Quality Gate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "Council Quality Gate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884,
+      "status": "candidate",
+      "text": "dam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884,
+      "status": "candidate",
+      "text": "floodgate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884,
+      "status": "candidate",
+      "text": "paddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884,
+      "status": "candidate",
+      "text": "sluice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19884,
+      "status": "candidate",
+      "text": "sluicing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Council Quality Gate",
+  "concept_id": "council-quality-gate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/council-gate.yml",
+      "source_repo": "amiable-dev/llm-council"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Council Quality Gate",
+      "sense_id": "council-quality-gate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

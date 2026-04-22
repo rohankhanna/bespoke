@@ -84,7 +84,7 @@
   "normalized_form": "release-swarmcli-gem",
   "observation_id": "45b318e2b06833f3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
   "observed_text": "Release SwarmCLI Gem",
   "source_context_snippet": "Release SwarmCLI Gem",
   "source_file": ".github/workflows/release-swarm-cli.yml",

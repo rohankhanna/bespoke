@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Release on CLI Bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Release on CLI Bump"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17563,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17533,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17473,
+      "status": "candidate",
+      "text": "branding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17307,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17297,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Release on CLI Bump",
+      "sense_id": "auto-release-on-cli-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-release-on-cli-bump",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-release-on-cli-bump",
+  "observation_id": "39cbc64207d97986",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Auto Release on CLI Bump",
+  "source_context_snippet": "Auto Release on CLI Bump",
+  "source_file": ".github/workflows/auto-release.yml",
+  "source_repo": "anthropics/claude-agent-sdk-python",
+  "source_repo_description": null
+}

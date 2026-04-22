@@ -43,6 +43,18 @@
       "source_repo": "crytic/medusa",
       "status": "candidate-context",
       "text": "Nix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Pure OCaml regular expressions, with support for Perl and POSIX-style strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
+      "status": "candidate-context",
+      "text": "Nix"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/medusa",
+      "status": "candidate",
+      "text": "Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-re",
       "status": "candidate",
       "text": "Nix"
     }
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "crytic/medusa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ocaml/ocaml-re"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

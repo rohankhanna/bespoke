@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "agent-based-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "ai-agents-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "autograd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "differentiable-simulations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentTorch/AgentTorch",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:19:12.006166+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 1271
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "large population models",
+    "fork": false,
+    "full_name": "AgentTorch/AgentTorch",
+    "html_url": "https://github.com/AgentTorch/AgentTorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-02T01:28:36Z",
+    "stargazers_count": 605,
+    "topics": [
+      "agent-based-modeling",
+      "ai-agents-framework",
+      "autograd",
+      "differentiable-simulations",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-22T02:21:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "term": "pages"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-based-modeling"
+    },
+    {
+      "context_snippet": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agents-framework"
+    },
+    {
+      "context_snippet": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autograd"
+    },
+    {
+      "context_snippet": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-simulations"
+    },
+    {
+      "context_snippet": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

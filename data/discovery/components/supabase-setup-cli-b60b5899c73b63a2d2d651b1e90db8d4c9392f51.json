@@ -1,7 +1,7 @@
 {
   "component": "supabase/setup-cli@b60b5899c73b63a2d2d651b1e90db8d4c9392f51",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/database-ci.yml",
       "source_repo": "liam-hq/liam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
     }
   ]
 }

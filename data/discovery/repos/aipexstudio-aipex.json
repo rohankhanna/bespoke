@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@j178/prek",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chrome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bumpp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "knip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tinyglobby",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "buttercannfly/aipex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "@j178/prek",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "@types/chrome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "bumpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "knip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "tinyglobby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "Bump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "accessbility-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "agent-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "browser-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "browser-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "chatgpt-atlas-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "chrome-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "claude-chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "gemini-chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "openclaw-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIPexStudio/AIPex",
+      "target": "tab-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:18:27.490408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6998
+    },
+    {
+      "path": "package.json",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/bump.yml",
+      "size": 2106
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator\u3001 Claude Chrome and Agent Browser",
+    "fork": false,
+    "full_name": "AIPexStudio/AIPex",
+    "html_url": "https://github.com/AIPexStudio/AIPex",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-13T07:16:03Z",
+    "stargazers_count": 1152,
+    "topics": [
+      "accessbility-testing",
+      "agent-browser",
+      "agent-skills",
+      "browser-automation",
+      "browser-use",
+      "chatgpt-atlas-alternative",
+      "chrome-extension",
+      "claude-chrome",
+      "gemini-chrome",
+      "mcp",
+      "openclaw-alternative",
+      "tab-management"
+    ],
+    "updated_at": "2026-04-22T16:38:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buttercannfly/aipex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "term": "Bump"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accessbility-testing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-browser"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-automation"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-use"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-atlas-alternative"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-chrome"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-chrome"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw-alternative"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tab-management"
+    }
+  ]
+}

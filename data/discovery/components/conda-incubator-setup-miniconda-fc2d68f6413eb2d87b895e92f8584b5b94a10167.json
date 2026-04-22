@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "conda-forge/miniforge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_adbc.yml",
+      "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/javascript.yml",
+      "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-unix.yml",
+      "source_repo": "apache/arrow-adbc"
     }
   ]
 }

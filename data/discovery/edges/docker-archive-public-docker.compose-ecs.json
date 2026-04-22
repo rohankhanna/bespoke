@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "docker/compose-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "docker/compose-ecs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "ECS integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "actions/labeler@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs",
+      "target": "PR labeler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "docker-archive-public/docker.compose-ecs"
+}

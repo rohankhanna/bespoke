@@ -1,7 +1,7 @@
 {
   "discovered_via": "github-hosted-files",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -28,6 +28,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "crytic/medusa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ocaml/ocaml-re"
     }
   ],
   "term": "Nix"

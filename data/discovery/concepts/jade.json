@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "jade"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "Pug view adapter for Laravel and Lumen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate-context",
+      "text": "[![Packagist](https://img.shields.io/packagist/v/bkwld/laravel-pug.svg)](https://packagist.org/packages/bkwld/laravel-pug)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BKWLD/laravel-pug",
+      "status": "candidate",
+      "text": "[![Packagist](https://img.shields.io/packagist/v/bkwld/laravel-pug.svg)](https://packagist.org/packages/bkwld/laravel-pug)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39744840,
+      "status": "candidate",
+      "text": "jadestone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39658378,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39649162,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39626545,
+      "status": "candidate",
+      "text": "plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39591280,
+      "status": "candidate",
+      "text": "hack"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31037,
+      "status": "candidate",
+      "text": "weary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30047,
+      "status": "candidate",
+      "text": "pall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "hussy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "hack"
+    }
+  ],
+  "canonical_name": "jade",
+  "concept_id": "jade",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BKWLD/laravel-pug"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jade",
+      "sense_id": "jade#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

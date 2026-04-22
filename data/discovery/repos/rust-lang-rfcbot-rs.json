@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcbot-rs",
+      "target": "diesel-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcbot-rs",
+      "target": "rfc-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcbot-rs",
+      "target": "rocket-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcbot-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:04:59.421128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5911
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 775
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coordinates asynchronous decision making on Rust repositories. Status of tracked issues and PRs can be viewed at https://rfcbot.rs.",
+    "fork": false,
+    "full_name": "rust-lang/rfcbot-rs",
+    "html_url": "https://github.com/rust-lang/rfcbot-rs",
+    "language": "Rust",
+    "pushed_at": "2026-03-19T23:41:39Z",
+    "stargazers_count": 166,
+    "topics": [
+      "bot",
+      "diesel-rs",
+      "rfc-process",
+      "rocket-rs",
+      "rust"
+    ],
+    "updated_at": "2026-03-19T23:41:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diesel-rs"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-process"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocket-rs"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

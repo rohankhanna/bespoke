@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/dein.vim",
+      "target": "shougo/dpp.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/dein.vim",
+      "target": "shougo/dein-installer.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "Shougo/dein.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "Shougo/dein.vim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "Shougo/dein.vim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "Shougo/dein.vim",
+      "target": "Lint & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dein.vim",
+      "target": "dein",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dein.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dein.vim",
+      "target": "plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:13:23.858430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4222
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":zap: Dark powered Vim/Neovim plugin manager",
+    "fork": false,
+    "full_name": "Shougo/dein.vim",
+    "html_url": "https://github.com/Shougo/dein.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-09-13T00:40:44Z",
+    "stargazers_count": 3434,
+    "topics": [
+      "dein",
+      "neovim",
+      "plugin-manager",
+      "vim"
+    ],
+    "updated_at": "2026-04-18T04:56:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/dein-installer.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/dpp.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "Lint & Test"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dein"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    }
+  ]
+}

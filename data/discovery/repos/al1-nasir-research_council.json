@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "al1-nasir/Research_council",
+      "target": "karpathy/llm-council",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "al1-nasir/Research_council",
+      "target": "microsoft/graphrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "al1-nasir/Research_council",
+      "target": "langchain-ai/langgraph-bigtool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "big-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "chromadb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "graphrag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "langgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "al1-nasir/Research_council",
+      "target": "neo4j",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:19:16.411389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8695
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GraphRAG + 4-agent LLM council for biomedical research.  Find contradictions, validate hypotheses, and get  confidence-scored answers, cited to real papers.  Built on Neo4j, LangGraph, Groq & OpenRouter.",
+    "fork": false,
+    "full_name": "al1-nasir/Research_council",
+    "html_url": "https://github.com/al1-nasir/Research_council",
+    "language": "Python",
+    "pushed_at": "2026-03-10T15:49:20Z",
+    "stargazers_count": 5,
+    "topics": [
+      "big-tool",
+      "chromadb",
+      "graphrag",
+      "langgraph",
+      "multi-agent",
+      "neo4j"
+    ],
+    "updated_at": "2026-03-12T08:33:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/llm-council",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/langgraph-bigtool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/graphrag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-tool"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromadb"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphrag"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neo4j"
+    }
+  ]
+}

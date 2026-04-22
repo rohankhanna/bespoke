@@ -1,0 +1,27 @@
+{
+  "component": "nixbuild/nix-quick-install-action@v34",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-dependencies.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/echidna-compat.yml",
+      "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argotorg/hevm"
+    }
+  ]
+}

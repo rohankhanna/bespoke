@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test stable benchmarks with beta"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "Website for graphing performance of rustc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "Test stable benchmarks with beta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate",
+      "text": "Test stable benchmarks with beta"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30831,
+      "status": "candidate",
+      "text": "repair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26917,
+      "status": "candidate",
+      "text": "tryout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26851,
+      "status": "candidate",
+      "text": "beta testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21499,
+      "status": "candidate",
+      "text": "tenement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test stable benchmarks with beta",
+  "concept_id": "test-stable-benchmarks-with-beta",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/beta-stable-benchmarks.yml",
+      "source_repo": "rust-lang/rustc-perf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test stable benchmarks with beta",
+      "sense_id": "test-stable-benchmarks-with-beta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

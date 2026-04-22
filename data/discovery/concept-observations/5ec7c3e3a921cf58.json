@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Common issues check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Common issues check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "other"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19482,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19426,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19426,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common issues check",
+      "sense_id": "common-issues-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "common-issues-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "common-issues-check",
+  "observation_id": "5ec7c3e3a921cf58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Common issues check",
+  "source_context_snippet": "Common issues check",
+  "source_file": ".github/workflows/pre-commit.yaml",
+  "source_repo": "antonbabenko/pre-commit-terraform",
+  "source_repo_description": "pre-commit git hooks to take care of Terraform configurations \ud83c\uddfa\ud83c\udde6"
+}

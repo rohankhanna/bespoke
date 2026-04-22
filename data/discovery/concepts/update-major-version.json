@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Major Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/repository-dispatch",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a repository dispatch event"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/repository-dispatch",
+      "status": "candidate-context",
+      "text": "Update Major Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/repository-dispatch",
+      "status": "candidate",
+      "text": "Update Major Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20272,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19298,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19298,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19245,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19201,
+      "status": "candidate",
+      "text": "maintaining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Major Version",
+  "concept_id": "update-major-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "source_repo": "peter-evans/repository-dispatch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Major Version",
+      "sense_id": "update-major-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

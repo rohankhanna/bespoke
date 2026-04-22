@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable npm run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "A spiritual successor to the standardjs javascript style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate-context",
+      "text": "Reusable npm run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neostandard/neostandard",
+      "status": "candidate",
+      "text": "Reusable npm run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "leh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "actuator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "refit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable npm run",
+  "concept_id": "reusable-npm-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/reusable-npm-run.yml",
+      "source_repo": "neostandard/neostandard"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable npm run",
+      "sense_id": "reusable-npm-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

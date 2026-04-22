@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "truffle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0c TypeScript bindings for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/TypeChain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968049,
+      "status": "candidate",
+      "text": "earthnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932697,
+      "status": "candidate",
+      "text": "chocolate truffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990467,
+      "status": "candidate",
+      "text": "earth-ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29935102,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707339,
+      "status": "candidate",
+      "text": "jerk"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "earthnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "chocolate truffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "earth-ball"
+    }
+  ],
+  "canonical_name": "truffle",
+  "concept_id": "truffle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "truffle",
+      "sense_id": "truffle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

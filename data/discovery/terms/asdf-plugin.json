@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-direnv"
+    }
+  ],
+  "term": "asdf-plugin"
+}

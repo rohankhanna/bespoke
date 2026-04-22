@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -547,6 +547,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/api-node-template.yml",
       "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/anti-spam.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-assign.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "hauntsaninja/mypy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-label-to-new-issue.yml",
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-issues.yml",
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoassign-prs.yml",
+      "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "circlefin/stablecoin-evm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "ethereum/go-ethereum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/council-gate.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_plugins.yml",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-maintainer-edits.yml",
+      "source_repo": "taylorwilsdon/google_workspace_mcp"
     }
   ]
 }

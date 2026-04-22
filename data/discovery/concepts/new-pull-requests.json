@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "New Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "Automatically gets credentials for Amazon ECR on docker push/docker pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate-context",
+      "text": "\"New Pull Requests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "A containerd snapshotter plugin which enables standard OCI images to be lazily loaded without requiring a build-time conversion step."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate-context",
+      "text": "\"New Pull Requests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-ecr-credential-helper",
+      "status": "candidate",
+      "text": "\"New Pull Requests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/soci-snapshotter",
+      "status": "candidate",
+      "text": "\"New Pull Requests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27844,
+      "status": "candidate",
+      "text": "applications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27782,
+      "status": "candidate",
+      "text": "demands"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20652,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047,
+      "status": "candidate",
+      "text": "tease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047,
+      "status": "candidate",
+      "text": "teased"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "New Pull Requests",
+  "concept_id": "new-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/new-pull-requests.yml",
+      "source_repo": "awslabs/amazon-ecr-credential-helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/new-pull-requests.yml",
+      "source_repo": "awslabs/soci-snapshotter"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New Pull Requests",
+      "sense_id": "new-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

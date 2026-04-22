@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish docs via GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "Rofi: A window switcher, application launcher and dmenu replacement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate-context",
+      "text": "Publish docs via GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davatorium/rofi",
+      "status": "candidate",
+      "text": "Publish docs via GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30233,
+      "status": "candidate",
+      "text": "fax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30223,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30198,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29945,
+      "status": "candidate",
+      "text": "binding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish docs via GitHub Pages",
+  "concept_id": "publish-docs-via-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "davatorium/rofi"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish docs via GitHub Pages",
+      "sense_id": "publish-docs-via-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

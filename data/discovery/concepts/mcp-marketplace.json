@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mcp-marketplace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "OpenSource MCP Marketplace | MCP Servers Tools Meta Dataset | Web API | Web Client Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate-context",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiagenta2z/mcp-marketplace",
+      "status": "candidate",
+      "text": "[![MCP Marketplace User Review Rating Badge](https://www.deepnlp.org/api/marketplace/svg?name=ai-agent-marketplace-index/ai-agent-marketplace-index)](https://www.deepnlp.org/store/mcp-server/mcp-server/pub-ai-agent-marketplace-index/ai-agent-marketplace-index) |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mcp-marketplace",
+  "concept_id": "mcp-marketplace",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "aiagenta2z/mcp-marketplace"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mcp-marketplace",
+      "sense_id": "mcp-marketplace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

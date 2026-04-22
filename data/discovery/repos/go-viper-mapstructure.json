@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@b20883b0cd1f46c72ae0ba6d1090936928f9fa30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-viper/mapstructure",
+      "target": "mitchellh/mapstructure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "github/codeql-action/upload-sarif@b20883b0cd1f46c72ae0ba6d1090936928f9fa30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "OpenSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "go-viper/mapstructure",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:23:00.077545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3647
+    },
+    {
+      "path": "go.mod",
+      "size": 52
+    },
+    {
+      "path": ".github/workflows/analysis-scorecard.yaml",
+      "size": 1179
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go library for decoding generic map values into native Go structures and vice versa.",
+    "fork": true,
+    "full_name": "go-viper/mapstructure",
+    "html_url": "https://github.com/go-viper/mapstructure",
+    "language": "Go",
+    "pushed_at": "2026-04-16T04:36:32Z",
+    "stargazers_count": 461,
+    "topics": [],
+    "updated_at": "2026-04-20T10:27:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mitchellh/mapstructure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "term": "OpenSSF Scorecard"
+    }
+  ]
+}

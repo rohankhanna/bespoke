@@ -19,12 +19,30 @@
       "source_repo": "strands-agents/sdk-typescript",
       "status": "candidate-context",
       "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "A fast, secure, and portable multichain light client for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
+      "status": "candidate-context",
+      "text": "Publish NPM Package"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate",
+      "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/helios",
       "status": "candidate",
       "text": "Publish NPM Package"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/npm-publish-on-release.yml",
       "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a16z/helios"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

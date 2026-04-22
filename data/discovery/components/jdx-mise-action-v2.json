@@ -1,7 +1,7 @@
 {
   "component": "jdx/mise-action@v2",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/per-pr.yml",
       "source_repo": "Layr-Labs/eigenda-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis-devnet.yml",
+      "source_repo": "Layr-Labs/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-golang.yml",
+      "source_repo": "Layr-Labs/optimism"
     }
   ]
 }

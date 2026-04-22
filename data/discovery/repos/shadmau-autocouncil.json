@@ -1,0 +1,64 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadmau/autocouncil",
+      "target": "litellm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadmau/autocouncil",
+      "target": "openclaw",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:18:50.404880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7803
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-improvement loops for OpenClaw agents via multi-model LLM council",
+    "fork": false,
+    "full_name": "shadmau/autocouncil",
+    "html_url": "https://github.com/shadmau/autocouncil",
+    "language": "Python",
+    "pushed_at": "2026-03-16T16:00:19Z",
+    "stargazers_count": 7,
+    "topics": [
+      "ai-agents",
+      "litellm",
+      "llm",
+      "openclaw"
+    ],
+    "updated_at": "2026-03-16T16:01:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litellm"
+    },
+    {
+      "context_snippet": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    }
+  ]
+}

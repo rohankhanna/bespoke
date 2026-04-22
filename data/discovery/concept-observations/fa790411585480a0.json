@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows Subsystem for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Process new comment on issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Process new comment on issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54959,
+      "status": "candidate",
+      "text": "rollover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44750,
+      "status": "candidate",
+      "text": "assimilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44750,
+      "status": "candidate",
+      "text": "invention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44353,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44211,
+      "status": "candidate",
+      "text": "reissue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process new comment on issue",
+      "sense_id": "process-new-comment-on-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-new-comment-on-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-new-comment-on-issue",
+  "observation_id": "fa790411585480a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Process new comment on issue",
+  "source_context_snippet": "Process new comment on issue",
+  "source_file": ".github/workflows/new_issue_comment.yml",
+  "source_repo": "microsoft/WSL",
+  "source_repo_description": "Windows Subsystem for Linux"
+}

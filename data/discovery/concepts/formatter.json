@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "formatter"
+    "formatter",
+    "Formatter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +118,18 @@
       "source_repo": "google/gts",
       "status": "candidate-context",
       "text": "> Google TypeScript Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Accessibility engine for automated Web UI testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate-context",
+      "text": "Formatter"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +186,12 @@
       "source_repo": "google/gts",
       "status": "candidate",
       "text": "> Google TypeScript Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core",
+      "status": "candidate",
+      "text": "Formatter"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +307,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "dequelabs/axe-core"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

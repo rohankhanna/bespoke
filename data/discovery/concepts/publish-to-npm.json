@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Publish to npm"
+    "Publish to npm",
+    "Publish to NPM"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmElmo/proofshot",
+      "status": "candidate-context",
+      "text": "Give AI coding agents eyes. Records browser sessions, captures screenshots, collects errors, and bundles proof artifacts \u2014 so humans can verify what the agent built."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmElmo/proofshot",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmElmo/proofshot",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "chatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "derrick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Publish to npm",
   "concept_id": "publish-to-npm",
@@ -26,12 +83,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "klaudworks/ralph-meets-rex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AmElmo/proofshot"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

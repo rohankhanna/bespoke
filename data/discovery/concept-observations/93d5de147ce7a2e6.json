@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd80 How to minimize Rust binary size \ud83d\udce6 https://github.com/johnthagen/min-sized-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001610,
+      "status": "candidate",
+      "text": "opencast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994720,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974896,
+      "status": "candidate",
+      "text": "leach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971945,
+      "status": "candidate",
+      "text": "rifle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970035,
+      "status": "candidate",
+      "text": "loot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strip",
+      "sense_id": "strip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39081,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32048,
+      "status": "candidate",
+      "text": "bare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21033,
+      "status": "candidate",
+      "text": "foray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "plunder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17074,
+      "status": "candidate",
+      "text": "clean"
+    }
+  ],
+  "concept_id": "strip",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "strip",
+  "observation_id": "93d5de147ce7a2e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "strip",
+  "source_context_snippet": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)",
+  "source_file": null,
+  "source_repo": "johnthagen/min-sized-rust",
+  "source_repo_description": "\ud83e\udd80 How to minimize Rust binary size \ud83d\udce6 https://github.com/johnthagen/min-sized-rust"
+}

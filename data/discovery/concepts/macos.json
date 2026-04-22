@@ -274,6 +274,78 @@
       "source_repo": "flutter/flutter",
       "status": "candidate-context",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/glfw/glfw/actions/workflows/build.yml/badge.svg)](https://github.com/glfw/glfw/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "MacOS Niri and Hyprland inspired tiling window manager that's developer signed and notorized (safe for managed enterprise environments). Aiming for parity and extra innovation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": ":wrench: .files, including ~/.macos \u2014 sensible hacker defaults for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate-context",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate-context",
+      "text": "Powerful macOS menu bar customization tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "Fast C++ logging library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "macos"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +480,42 @@
       "source_repo": "flutter/flutter",
       "status": "candidate",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/glfw/glfw/actions/workflows/build.yml/badge.svg)](https://github.com/glfw/glfw/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/dotfiles",
+      "status": "candidate",
+      "text": "![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate",
+      "text": "macos"
     }
   ],
   "candidate_related_terms": [
@@ -613,11 +721,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "glfw/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "mathiasbynens/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gabime/spdlog"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

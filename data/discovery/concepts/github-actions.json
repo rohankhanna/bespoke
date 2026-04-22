@@ -55,6 +55,30 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate-context",
       "text": "[![GitHub Release](https://img.shields.io/github/release/asdf-vm/actions.svg?color=green)](https://github.com/asdf-vm/actions/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa1 Build Python wheels for all the platforms with minimal configuration. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate-context",
+      "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to lint and test Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "asdf-vm/actions",
       "status": "candidate",
       "text": "[![GitHub Release](https://img.shields.io/github/release/asdf-vm/actions.svg?color=green)](https://github.com/asdf-vm/actions/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/cibuildwheel",
+      "status": "candidate",
+      "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing-action",
+      "status": "candidate",
+      "text": "A GitHub Action for installing the [helm/chart-testing](https://github.com/helm/chart-testing) CLI tool."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

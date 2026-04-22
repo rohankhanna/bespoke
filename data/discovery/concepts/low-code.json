@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "low-code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "Generate Echo backend code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate-context",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-echo",
+      "status": "candidate",
+      "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "no-code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "user-friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "high-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "low-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "pseudographical"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "low-code",
+  "concept_id": "low-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-echo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "low-code",
+      "sense_id": "low-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

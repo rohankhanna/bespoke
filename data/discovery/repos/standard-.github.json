@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "navikt/github-app-token-generator@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "standard/.github",
+      "target": "navikt/github-app-token-generator@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "standard/.github",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:15:26.751579+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "standard/.github",
+    "html_url": "https://github.com/standard/.github",
+    "language": null,
+    "pushed_at": "2023-11-04T06:54:24Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-02-27T03:55:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

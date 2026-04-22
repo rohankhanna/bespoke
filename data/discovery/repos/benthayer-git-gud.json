@@ -1,0 +1,267 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "dgzlopes/asciicast-to-gif-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-osai.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional-tests.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional-tests.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional-tests.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "Run OS tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "dgzlopes/asciicast-to-gif-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "Generate asciinema preview gif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-osai.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "benthayer/git-gud",
+      "target": "Check PEP8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:54.013049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3325
+    },
+    {
+      "path": ".github/workflows/functional-tests.yml",
+      "size": 1129
+    },
+    {
+      "path": ".github/workflows/generate-preview.yml",
+      "size": 2803
+    },
+    {
+      "path": ".github/workflows/mirror-osai.yml",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 1082
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wanna git gud? Then get git-gud, and git gud at git!",
+    "fork": false,
+    "full_name": "benthayer/git-gud",
+    "html_url": "https://github.com/benthayer/git-gud",
+    "language": "Python",
+    "pushed_at": "2024-10-04T12:58:31Z",
+    "stargazers_count": 546,
+    "topics": [],
+    "updated_at": "2026-04-22T16:34:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run OS tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional-tests.yml",
+      "term": "Run OS tests"
+    },
+    {
+      "context_snippet": "Generate asciinema preview gif",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-preview.yml",
+      "term": "Generate asciinema preview gif"
+    },
+    {
+      "context_snippet": "Check PEP8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "Check PEP8"
+    }
+  ]
+}

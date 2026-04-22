@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -297,6 +297,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-triage.agent.lock.yml",
       "source_repo": "dotnet/machinelearning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hectorm/chafa-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "aquasecurity/trivy"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "tremorlabs/tremor",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "Build terminal user interfaces and dashboards using Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tremorlabs/tremor",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fdehau/tui-rs",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f **August 2023: This crate is no longer maintained. See https://github.com/ratatui-org/ratatui for an actively maintained fork.** \u26a0\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tremorlabs/tremor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "fdehau/tui-rs"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

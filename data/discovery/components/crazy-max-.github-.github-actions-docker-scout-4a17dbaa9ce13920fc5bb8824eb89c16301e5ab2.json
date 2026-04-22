@@ -1,0 +1,17 @@
+{
+  "component": "crazy-max/.github/.github/actions/docker-scout@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit"
+    }
+  ]
+}

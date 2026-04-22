@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "PSScriptAnalyzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate-context",
+      "text": "The Microsoft community Windows Package Manager manifest repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate-context",
+      "text": "PSScriptAnalyzer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-pkgs",
+      "status": "candidate",
+      "text": "PSScriptAnalyzer"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "PSScriptAnalyzer",
+  "concept_id": "psscriptanalyzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scriptAnalyzer.yaml",
+      "source_repo": "microsoft/winget-pkgs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PSScriptAnalyzer",
+      "sense_id": "psscriptanalyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

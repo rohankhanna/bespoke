@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "decision-making",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "deliberation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "multi-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/council-of-high-intelligence",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:19:02.604307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more \u2014 structured multi-round deliberation with genuine model diversity. One command: /council",
+    "fork": false,
+    "full_name": "0xNyk/council-of-high-intelligence",
+    "html_url": "https://github.com/0xNyk/council-of-high-intelligence",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T19:19:28Z",
+    "stargazers_count": 446,
+    "topics": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "decision-making",
+      "deliberation",
+      "gemini",
+      "multi-llm",
+      "ollama",
+      "openai",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-04-22T17:55:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-making"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deliberation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-llm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

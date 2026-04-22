@@ -274,6 +274,54 @@
       "source_repo": "coreybutler/node-windows",
       "status": "candidate-context",
       "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/glfw/glfw/actions/workflows/build.yml/badge.svg)](https://github.com/glfw/glfw/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "mmm lobster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate-context",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "Command line tool for adding Windows resources to executable files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate-context",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "Fast C++ logging library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate-context",
+      "text": "windows"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +456,30 @@
       "source_repo": "coreybutler/node-windows",
       "status": "candidate",
       "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glfw/glfw",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/glfw/glfw/actions/workflows/build.yml/badge.svg)](https://github.com/glfw/glfw/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justchokingaround/lobster",
+      "status": "candidate",
+      "text": "https://github.com/justchokingaround/lobster/assets/44473782/d597335c-42a9-4e45-8948-122744aa5ca9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/go-winres",
+      "status": "candidate",
+      "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabime/spdlog",
+      "status": "candidate",
+      "text": "windows"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +691,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "glfw/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "justchokingaround/lobster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "tc-hib/go-winres"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "gabime/spdlog"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

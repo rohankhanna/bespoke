@@ -31,6 +31,18 @@
       "source_repo": "callstack/react-native-builder-bob",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Static AST checker for a11y rules on JSX elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -100,11 +118,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

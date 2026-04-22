@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "contracts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aragon/staking",
+      "status": "candidate-context",
+      "text": "Staking app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aragon/staking",
+      "status": "candidate-context",
+      "text": "contracts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aragon/staking",
+      "status": "candidate",
+      "text": "contracts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048726,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044312,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038314,
+      "status": "candidate",
+      "text": "sign up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026798,
+      "status": "candidate",
+      "text": "undertake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023626,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "contracts",
+  "concept_id": "contracts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/ci_contracts.yml",
+      "source_repo": "aragon/staking"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contracts",
+      "sense_id": "contracts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

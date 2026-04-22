@@ -1,0 +1,967 @@
+{
+  "components": [
+    {
+      "component": "aria-query",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array-includes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array.prototype.flatmap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ast-types-flow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axe-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axobject-query",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "damerau-levenshtein",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emoji-regex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hasown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsx-ast-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "language-tags",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.fromentries",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "safe-regex-test",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string.prototype.includes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/eslint-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-transform-flow-strip-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "auto-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-add-module-exports",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-airbnb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserslist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-doc-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-flowtype",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "estraverse",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flow-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "in-publish",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jackspeak",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jscodeshift",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mock-property",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npmignore",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.assign",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.entries",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "safe-publish-latest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "to-ast",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ljharb/actions/node/matrix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/engines@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "ljharb/rebase@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "ljharb/require-allow-edits@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-allow-edits.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ari-os310/eslint-plugin-jsx-a11y",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "airbnb/javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "a11yance/aria-query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "a11yance/axobject-query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "aria-query",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "array-includes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "array.prototype.flatmap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ast-types-flow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "axe-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "axobject-query",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "damerau-levenshtein",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "emoji-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "hasown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "jsx-ast-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "language-tags",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "object.fromentries",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "safe-regex-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "string.prototype.includes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "@babel/eslint-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "@babel/plugin-transform-flow-strip-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "@babel/register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "auto-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "babel-plugin-add-module-exports",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "babel-preset-airbnb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "browserslist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint-doc-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint-plugin-eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint-plugin-flowtype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "estraverse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "flow-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "in-publish",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "jackspeak",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "jscodeshift",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "mock-property",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "npmignore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "object.assign",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "object.entries",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "safe-publish-latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "to-ast",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/actions/node/matrix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "codecov/codecov-action@v3.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node-4+.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "Tests: node.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/actions/node/engines@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "Tests: readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/rebase@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "ljharb/require-allow-edits@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "Require \u201cAllow Edits\u201d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "a11y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "accessibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "aria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target": "react",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:25:06.269771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23658
+    },
+    {
+      "path": "package.json",
+      "size": 4255
+    },
+    {
+      "path": ".github/workflows/node-4+.yml",
+      "size": 3485
+    },
+    {
+      "path": ".github/workflows/node-pretest.yml",
+      "size": 1302
+    },
+    {
+      "path": ".github/workflows/readme.yml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 257
+    },
+    {
+      "path": ".github/workflows/require-allow-edits.yml",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Static AST checker for a11y rules on JSX elements.",
+    "fork": false,
+    "full_name": "jsx-eslint/eslint-plugin-jsx-a11y",
+    "html_url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-06T02:25:30Z",
+    "stargazers_count": 3579,
+    "topics": [
+      "a11y",
+      "accessibility",
+      "aria",
+      "eslint",
+      "hacktoberfest",
+      "jsx",
+      "react"
+    ],
+    "updated_at": "2026-04-22T08:52:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a11yance/aria-query",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a11yance/axobject-query",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airbnb/javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ari-os310/eslint-plugin-jsx-a11y",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Tests: node.js'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node-4+.yml",
+      "term": "Tests: node.js"
+    },
+    {
+      "context_snippet": "'Tests: readme'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme.yml",
+      "term": "Tests: readme"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
+    },
+    {
+      "context_snippet": "Require \u201cAllow Edits\u201d",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "term": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a11y"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accessibility"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aria"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    }
+  ]
+}

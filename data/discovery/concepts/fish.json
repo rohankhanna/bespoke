@@ -79,6 +79,42 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate-context",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate-context",
+      "text": "A plugin manager for Fish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate-context",
+      "text": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "The Fish Shell Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate-context",
+      "text": "Powerline"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/fisher",
+      "status": "candidate",
+      "text": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/oh-my-fish",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f Oh My Fish has been unmaintained for years, and certain parts of it may not work for you. A few themes and packages are currently broken, and the code is due a significant overhaul. The current set of maintainers have ran out of steam, so if you are interested in becoming a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powerline/powerline",
+      "status": "candidate",
+      "text": "Powerline"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +286,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "derekstavis/plugin-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/fisher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

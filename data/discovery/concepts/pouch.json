@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "pouch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate-context",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly-archived",
+      "status": "candidate",
+      "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904672,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904226,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39853714,
+      "status": "candidate",
+      "text": "bulge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39846542,
+      "status": "candidate",
+      "text": "protrude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780443,
+      "status": "candidate",
+      "text": "sac"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21049,
+      "status": "candidate",
+      "text": "bulge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11053,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8037,
+      "status": "candidate",
+      "text": "protrude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4057,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sac"
+    }
+  ],
+  "canonical_name": "pouch",
+  "concept_id": "pouch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pouch",
+      "sense_id": "pouch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

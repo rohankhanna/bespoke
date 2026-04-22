@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Multi-agent collaborative reasoning that's auditable.** Thoughtbox is a Docker-based MCP server where AI agents coordinate through shared workspaces \u2014 claiming problems, proposing solutions, reviewing each other's work, and reaching consensus. Every step is recorded as a struc\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Multi-agent collaborative reasoning that's auditable.** Thoughtbox is a Docker-based MCP server where AI agents coordinate through shared workspaces \u2014 claiming problems, proposing solutions, reviewing each other's work, and reaching consensus. Every step is recorded as a struc\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-code",
+      "sense_id": "claude-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-code",
+  "observation_id": "9e75270de3ecabb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "claude-code",
+  "source_context_snippet": "**Multi-agent collaborative reasoning that's auditable.** Thoughtbox is a Docker-based MCP server where AI agents coordinate through shared workspaces \u2014 claiming problems, proposing solutions, reviewing each other's work, and reaching consensus. Every step is recorded as a struc\u2026",
+  "source_file": null,
+  "source_repo": "Kastalien-Research/thoughtbox",
+  "source_repo_description": "Thoughtbox is an intention ledger for agents. Evaluate AI's decisions against its decision-making."
+}

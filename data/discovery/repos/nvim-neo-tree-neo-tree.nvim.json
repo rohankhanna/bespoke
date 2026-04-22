@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "muniftanjim/nui.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "antosha417/nvim-lsp-file-operations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "3rd/image.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "noib3/nvim-cokeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "luarocks/gh-actions-lua@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "EmmyLua Analyzer Diagnostics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "luarocks/gh-actions-lua@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luals-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luals-check.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "Lua Language Server Diagnostics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protect_release_branches.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "No PRs to Release Branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "file-explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:06:53.632164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39231
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1118
+    },
+    {
+      "path": ".github/workflows/.luarc-5.1.json",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/.luarc-luajit-master.json",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1294
+    },
+    {
+      "path": ".github/workflows/emmylua-check.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/luals-check.yml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/protect_release_branches.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim plugin to manage the file system and other tree like structures.",
+    "fork": false,
+    "full_name": "nvim-neo-tree/neo-tree.nvim",
+    "html_url": "https://github.com/nvim-neo-tree/neo-tree.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-17T08:03:37Z",
+    "stargazers_count": 5391,
+    "topics": [
+      "file-explorer",
+      "lua",
+      "neovim",
+      "plugin"
+    ],
+    "updated_at": "2026-04-22T11:57:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3rd/image.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antosha417/nvim-lsp-file-operations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muniftanjim/nui.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noib3/nvim-cokeline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "EmmyLua Analyzer Diagnostics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emmylua-check.yml",
+      "term": "EmmyLua Analyzer Diagnostics"
+    },
+    {
+      "context_snippet": "Lua Language Server Diagnostics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luals-check.yml",
+      "term": "Lua Language Server Diagnostics"
+    },
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "No PRs to Release Branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protect_release_branches.yml",
+      "term": "No PRs to Release Branches"
+    },
+    {
+      "context_snippet": "Neo-tree is a Neovim plugin to browse the file system and other tree like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-explorer"
+    },
+    {
+      "context_snippet": "Neo-tree is a Neovim plugin to browse the file system and other tree like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Neo-tree is a Neovim plugin to browse the file system and other tree like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

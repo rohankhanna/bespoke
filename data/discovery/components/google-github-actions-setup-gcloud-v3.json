@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/setup-gcloud@v3\",",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "voxel51/fiftyone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/infra_tests.yml",
+      "source_repo": "google/oss-fuzz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coder/coder-logstream-kube"
     }
   ]
 }

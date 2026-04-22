@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distributions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_edited.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modern-distributions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue_comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/WSL",
+      "target": "microsoft/wsl2-linux-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/WSL",
+      "target": "microsoft/wslg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/WSL",
+      "target": "microsoftdocs/wsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distributions.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distributions.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Validate distributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_edited.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_edited.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Process edited issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modern-distributions.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modern-distributions.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Validate tar based distributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Process new issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue_comment.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue_comment.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Process new comment on issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "microsoft/WSL",
+      "target": "Publish to WinGet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:12:04.888682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3436
+    },
+    {
+      "path": ".github/workflows/distributions.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/issue_edited.yml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/modern-distributions.yml",
+      "size": 711
+    },
+    {
+      "path": ".github/workflows/new_issue.yml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/new_issue_comment.yml",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 1117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Windows Subsystem for Linux",
+    "fork": false,
+    "full_name": "microsoft/WSL",
+    "html_url": "https://github.com/microsoft/WSL",
+    "language": "C++",
+    "pushed_at": "2026-04-22T19:02:57Z",
+    "stargazers_count": 31958,
+    "topics": [],
+    "updated_at": "2026-04-22T18:16:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/wsl2-linux-kernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/wslg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftdocs/wsl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate distributions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distributions.yml",
+      "term": "Validate distributions"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Process edited issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_edited.yml",
+      "term": "Process edited issue"
+    },
+    {
+      "context_snippet": "Validate tar based distributions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modern-distributions.yml",
+      "term": "Validate tar based distributions"
+    },
+    {
+      "context_snippet": "Process new issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "term": "Process new issue"
+    },
+    {
+      "context_snippet": "Process new comment on issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue_comment.yml",
+      "term": "Process new comment on issue"
+    },
+    {
+      "context_snippet": "Publish to WinGet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish to WinGet"
+    }
+  ]
+}

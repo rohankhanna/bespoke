@@ -1,0 +1,449 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_worker.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_worker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_launcher.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_launcher.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/shelf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_worker.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_worker.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_harness.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boolean_selector.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_launcher.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_launcher.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_config.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli_util.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clock.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clock.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "package:clock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_builder.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "dart-lang/tools",
+      "target": "package:coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:20:48.112150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17664
+    },
+    {
+      "path": ".github/workflows/bazel_worker.yaml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/benchmark_harness.yaml",
+      "size": 2473
+    },
+    {
+      "path": ".github/workflows/boolean_selector.yaml",
+      "size": 2022
+    },
+    {
+      "path": ".github/workflows/browser_launcher.yaml",
+      "size": 1035
+    },
+    {
+      "path": ".github/workflows/cli_config.yaml",
+      "size": 2000
+    },
+    {
+      "path": ".github/workflows/cli_util.yaml",
+      "size": 1650
+    },
+    {
+      "path": ".github/workflows/clock.yaml",
+      "size": 2097
+    },
+    {
+      "path": ".github/workflows/code_builder.yaml",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 2734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is home to tooling related Dart packages.",
+    "fork": false,
+    "full_name": "dart-lang/tools",
+    "html_url": "https://github.com/dart-lang/tools",
+    "language": "Dart",
+    "pushed_at": "2026-04-22T18:27:37Z",
+    "stargazers_count": 104,
+    "topics": [],
+    "updated_at": "2026-04-21T12:17:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/shelf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "package:clock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clock.yaml",
+      "term": "package:clock"
+    },
+    {
+      "context_snippet": "package:coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "package:coverage"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-prs.yml"
+    },
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/image",
+      "target": "containers/skopeo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/image",
+      "target": "ueno/podman-sequoia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/image",
+      "target": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/image",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/image",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/image",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/image",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/image",
+      "target": "Codespell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T18:58:01.859334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4634
+    },
+    {
+      "path": "go.mod",
+      "size": 5982
+    },
+    {
+      "path": ".github/workflows/auto-close-issues.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/auto-close-prs.yml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Work with containers' images",
+    "fork": false,
+    "full_name": "containers/image",
+    "html_url": "https://github.com/containers/image",
+    "language": "Go",
+    "pushed_at": "2025-09-02T20:22:35Z",
+    "stargazers_count": 962,
+    "topics": [],
+    "updated_at": "2026-04-22T14:45:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/skopeo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ueno/podman-sequoia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    }
+  ]
+}

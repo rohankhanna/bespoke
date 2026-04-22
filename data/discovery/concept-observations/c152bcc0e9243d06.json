@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A package build system for Termux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Command Not Found Rebuild"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Command Not Found Rebuild"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45726,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45726,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38021,
+      "status": "candidate",
+      "text": "non est inventus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35031,
+      "status": "candidate",
+      "text": "lost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34772,
+      "status": "candidate",
+      "text": "unkept"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Command Not Found Rebuild",
+      "sense_id": "command-not-found-rebuild#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "command-not-found-rebuild",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "command-not-found-rebuild",
+  "observation_id": "c152bcc0e9243d06",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Command Not Found Rebuild",
+  "source_context_snippet": "Command Not Found Rebuild",
+  "source_file": ".github/workflows/command_not_found.yml",
+  "source_repo": "termux/termux-packages",
+  "source_repo_description": "A package build system for Termux."
+}

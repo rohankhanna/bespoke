@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Tag submodules on release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "Tag submodules on release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "Tag submodules on release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15063,
+      "status": "candidate",
+      "text": "noetherian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15063,
+      "status": "candidate",
+      "text": "socle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011,
+      "status": "candidate",
+      "text": "modules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9870,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9847,
+      "status": "candidate",
+      "text": "cards"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag submodules on release",
+  "concept_id": "tag-submodules-on-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/release_plugins.yml",
+      "source_repo": "darkweak/souin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag submodules on release",
+      "sense_id": "tag-submodules-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

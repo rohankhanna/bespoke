@@ -1,12 +1,17 @@
 {
   "component": "dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-automerge.yml",
       "source_repo": "AgriciDaniel/claude-ads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "prometheus/client_golang"
     }
   ]
 }

@@ -43,6 +43,18 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningd/plugins",
+      "status": "candidate-context",
+      "text": "Community curated plugins for core-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningd/plugins",
+      "status": "candidate-context",
+      "text": "Community curated plugins for Core-Lightning."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningd/plugins",
+      "status": "candidate",
+      "text": "Community curated plugins for Core-Lightning."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "8144225309/superscalar-wallet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "lightningd/plugins"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getsolus/packages",
+      "target": "buddiesofbudgie/budgie-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getsolus/packages",
+      "target": "buddiesofbudgie/budgie-desktop-view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "Package Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "py-actions/flake8@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "jpetrucciani/mypy-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/script_lint.yml",
+      "source_repo": "getsolus/packages",
+      "target": "Script Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsolus/packages",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsolus/packages",
+      "target": "solus",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "source_repo": "getsolus/packages"
+}

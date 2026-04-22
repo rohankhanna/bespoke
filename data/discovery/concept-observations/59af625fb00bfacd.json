@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Continuous File Synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mirrors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mirrors"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51367,
+      "status": "candidate",
+      "text": "reflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "apes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "captures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "ching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "corresponds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirrors",
+      "sense_id": "mirrors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirrors",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirrors",
+  "observation_id": "59af625fb00bfacd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Mirrors",
+  "source_context_snippet": "Mirrors",
+  "source_file": ".github/workflows/mirrors.yaml",
+  "source_repo": "syncthing/syncthing",
+  "source_repo_description": "Open Source Continuous File Synchronization"
+}

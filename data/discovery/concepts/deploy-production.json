@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "deploy production"
+    "deploy production",
+    "Deploy production"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "charmbracelet/catwalk",
       "status": "candidate-context",
       "text": "deploy production"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Rust implementation of bors used for various Rust components (e.g. the compiler)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate-context",
+      "text": "Deploy production"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "charmbracelet/catwalk",
       "status": "candidate",
       "text": "deploy production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/bors",
+      "status": "candidate",
+      "text": "Deploy production"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "charmbracelet/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "rust-lang/bors"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

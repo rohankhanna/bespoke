@@ -1,0 +1,556 @@
+{
+  "components": [
+    {
+      "component": "@abaplint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/database-sqlite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/transpiler-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "abapmerge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@694eabb15673ec601ea19d4cd949969141372512",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/abapGit",
+      "target": "larshp/abapgitserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/abapGit",
+      "target": "abapgit/adt_frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/abapGit",
+      "target": "sbcgua/abap-string-map",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/abapGit",
+      "target": "sap/abap-file-formats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "@abaplint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "@abaplint/database-sqlite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "@abaplint/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "@abaplint/transpiler-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "abapmerge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abapGit/abapGit",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ajson_mirror.yaml",
+      "source_repo": "abapGit/abapGit",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ajson_mirror.yaml",
+      "source_repo": "abapGit/abapGit",
+      "target": "ajson mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "main-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "fsfe/reuse-action@694eabb15673ec601ea19d4cd949969141372512",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "abapGit/abapGit",
+      "target": "test-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "abapgit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "git-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit",
+      "target": "sap-gui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:00:12.868372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3562
+    },
+    {
+      "path": "package.json",
+      "size": 1369
+    },
+    {
+      "path": ".github/workflows/ajson_mirror.yaml",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/main-build.yml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/test-pr.yml",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Git client for ABAP",
+    "fork": false,
+    "full_name": "abapGit/abapGit",
+    "html_url": "https://github.com/abapGit/abapGit",
+    "language": "ABAP",
+    "pushed_at": "2026-04-20T06:51:46Z",
+    "stargazers_count": 1817,
+    "topics": [
+      "abap",
+      "abapgit",
+      "git-client",
+      "hacktoberfest",
+      "platform",
+      "sap",
+      "sap-gui"
+    ],
+    "updated_at": "2026-04-22T12:27:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abapgit/adt_frontend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgitserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sap/abap-file-formats",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbcgua/abap-string-map",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ajson mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ajson_mirror.yaml",
+      "term": "ajson mirror"
+    },
+    {
+      "context_snippet": "main-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-build.yml",
+      "term": "main-build"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "test-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "term": "test-pr"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-client"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "platform"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sap-gui"
+    }
+  ]
+}

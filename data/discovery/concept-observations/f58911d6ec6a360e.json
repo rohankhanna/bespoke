@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows Subsystem for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate distributions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate distributions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10552,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10552,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10552,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "chi-square test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "distribution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate distributions",
+      "sense_id": "validate-distributions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-distributions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-distributions",
+  "observation_id": "f58911d6ec6a360e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Validate distributions",
+  "source_context_snippet": "Validate distributions",
+  "source_file": ".github/workflows/distributions.yml",
+  "source_repo": "microsoft/WSL",
+  "source_repo_description": "Windows Subsystem for Linux"
+}

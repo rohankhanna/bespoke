@@ -1,12 +1,17 @@
 {
   "component": "leafo/gh-actions-luarocks@v4",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "lewis6991/pckr.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
     }
   ]
 }

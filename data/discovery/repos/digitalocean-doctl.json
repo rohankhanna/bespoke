@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "snapcore/action-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "snapcore/action-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml"
+    },
+    {
+      "component": "snapcore/action-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml"
+    },
+    {
+      "component": "snapcore/action-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.23.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "snapcore/action-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "snapcore/action-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "tagged-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "snapcore/action-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapcraft-candidate.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "snapcore/action-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapcraft-candidate.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "snapcraft-candidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "crate-ci/typos@v1.23.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "digitalocean/doctl",
+      "target": "Check spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl",
+      "target": "digitalocean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl",
+      "target": "infrastructure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:22:52.540663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17518
+    },
+    {
+      "path": "Dockerfile",
+      "size": 656
+    },
+    {
+      "path": "go.mod",
+      "size": 5927
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2067
+    },
+    {
+      "path": ".github/workflows/snapcraft-candidate.yml",
+      "size": 719
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official command line interface for the DigitalOcean API.",
+    "fork": false,
+    "full_name": "digitalocean/doctl",
+    "html_url": "https://github.com/digitalocean/doctl",
+    "language": "Go",
+    "pushed_at": "2026-04-16T11:17:34Z",
+    "stargazers_count": 3414,
+    "topics": [
+      "cloud",
+      "command-line",
+      "digitalocean",
+      "hacktoberfest",
+      "infrastructure"
+    ],
+    "updated_at": "2026-04-20T15:06:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tagged-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "tagged-release"
+    },
+    {
+      "context_snippet": "snapcraft-candidate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapcraft-candidate.yml",
+      "term": "snapcraft-candidate"
+    },
+    {
+      "context_snippet": "Check spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "term": "Check spelling"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">doctl</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">doctl</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">doctl</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digitalocean"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">doctl</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">doctl</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    }
+  ]
+}

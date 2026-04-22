@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993595,
+      "status": "candidate",
+      "text": "gemini the twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993594,
+      "status": "candidate",
+      "text": "telescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936087,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796640,
+      "status": "candidate",
+      "text": "titan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29732180,
+      "status": "candidate",
+      "text": "orion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemini",
+      "sense_id": "gemini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "gemini the twins"
+    }
+  ],
+  "concept_id": "gemini",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini",
+  "observation_id": "f704d0be2c97a27c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "gemini",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Afnanksalal/co-op",
+  "source_repo_description": "Expert guidance across legal, finance, investor relations, and competitive analysis. Powered by a multi-model LLM Council architecture with mandatory cross-critique."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AgentAI is a Rust library designed to simplify the creation of AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish a new release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish a new release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37371,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37371,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37034,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36208,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25895,
+      "status": "candidate",
+      "text": "parolee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish a new release",
+      "sense_id": "publish-a-new-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-a-new-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-a-new-release",
+  "observation_id": "fa82ac0a089eeb16",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Publish a new release",
+  "source_context_snippet": "Publish a new release",
+  "source_file": ".github/workflows/crate-release.yml",
+  "source_repo": "AdamStrojek/rust-agentai",
+  "source_repo_description": "AgentAI is a Rust library designed to simplify the creation of AI agents"
+}

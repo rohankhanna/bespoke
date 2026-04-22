@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "caddy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "An HTTP cache system, RFC compliant, compatible with @tyktechnologies, @traefik, @caddyserver, @go-chi, @bnkamalesh, @beego, @devfeel, @labstack, @gofiber, @go-goyave, @go-kratos, @gin-gonic, @roadrunner-server, @zalando, @zeromicro, @nginx and @apache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate-context",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "![Souin logo](https://github.com/darkweak/souin/blob/master/docs/img/logo.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39693959,
+      "status": "candidate",
+      "text": "tea caddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954659,
+      "status": "candidate",
+      "text": "cadillac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29925380,
+      "status": "candidate",
+      "text": "cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916334,
+      "status": "candidate",
+      "text": "carrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870624,
+      "status": "candidate",
+      "text": "bearer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34,
+      "status": "candidate",
+      "text": "caddie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "tea caddy"
+    }
+  ],
+  "canonical_name": "caddy",
+  "concept_id": "caddy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "darkweak/souin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caddy",
+      "sense_id": "caddy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

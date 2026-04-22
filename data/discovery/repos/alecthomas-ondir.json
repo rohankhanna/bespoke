@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T19:07:31.748365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OnDir is a small program to automate tasks specific to certain directories",
+    "fork": false,
+    "full_name": "alecthomas/ondir",
+    "html_url": "https://github.com/alecthomas/ondir",
+    "language": "C",
+    "pushed_at": "2023-12-01T21:53:56Z",
+    "stargazers_count": 240,
+    "topics": [],
+    "updated_at": "2026-04-17T12:40:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

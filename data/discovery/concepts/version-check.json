@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Version Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "A simple utility for running and debugging a GitHub Action locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "Version Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate",
+      "text": "Version Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "revision"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version Check",
+  "concept_id": "version-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/version-check.yml",
+      "source_repo": "github/local-action"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Check",
+      "sense_id": "version-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

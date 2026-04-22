@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Pipeline"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12389,
+      "status": "candidate",
+      "text": "terminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "aorta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "gas main"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "go-devil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "line"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Pipeline",
+      "sense_id": "release-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-pipeline",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-pipeline",
+  "observation_id": "d653e3c3eec703f5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "Release Pipeline",
+  "source_context_snippet": "Release Pipeline",
+  "source_file": ".github/workflows/release-pipeline.yml",
+  "source_repo": "1mcp-app/agent",
+  "source_repo_description": "A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+}

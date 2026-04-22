@@ -109,6 +109,30 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate-context",
       "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "MacOS Niri and Hyprland inspired tiling window manager that's developer signed and notorized (safe for managed enterprise environments). Aiming for parity and extra innovation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate-context",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate-context",
+      "text": "Powerful macOS menu bar customization tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate",
       "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BarutSRB/OmniWM",
+      "status": "candidate",
+      "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftbar/SwiftBar",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/swiftbar/SwiftBar.svg)](https://github.com/swiftbar/SwiftBar/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +318,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "swiftbar/SwiftBar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

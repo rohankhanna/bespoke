@@ -19,12 +19,66 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "The LLM Council works together to answer your hardest questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "Open source extension marketplace for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-viper/mapstructure",
+      "status": "candidate-context",
+      "text": "Go library for decoding generic map values into native Go structures and vice versa."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-viper/mapstructure",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/code-marketplace",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-viper/mapstructure",
       "status": "candidate",
       "text": "OpenSSF Scorecard"
     }
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/analysis-scorecard.yaml",
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "go-viper/mapstructure"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

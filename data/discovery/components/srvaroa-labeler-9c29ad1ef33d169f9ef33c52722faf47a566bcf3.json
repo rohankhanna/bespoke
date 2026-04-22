@@ -1,0 +1,12 @@
+{
+  "component": "srvaroa/labeler@9c29ad1ef33d169f9ef33c52722faf47a566bcf3",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yaml",
+      "source_repo": "syncthing/syncthing"
+    }
+  ]
+}

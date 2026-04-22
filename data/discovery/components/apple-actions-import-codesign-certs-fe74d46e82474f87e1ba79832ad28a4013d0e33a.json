@@ -1,0 +1,12 @@
+{
+  "component": "Apple-Actions/import-codesign-certs@fe74d46e82474f87e1ba79832ad28a4013d0e33a",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Bearer/bearer"
+    }
+  ]
+}

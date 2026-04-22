@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Jest specs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate-context",
+      "text": "Jest specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/webpacker",
+      "status": "candidate",
+      "text": "Jest specs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "gaud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "gibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "sports"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Jest specs",
+  "concept_id": "jest-specs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/jest.yml",
+      "source_repo": "rails/webpacker"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jest specs",
+      "sense_id": "jest-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

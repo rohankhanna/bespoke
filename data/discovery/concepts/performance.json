@@ -91,6 +91,18 @@
       "source_repo": "oskarnp/odin-tracy",
       "status": "candidate-context",
       "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "Website for graphing performance of rustc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate-context",
+      "text": "This repository contains two primary crates:"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "oskarnp/odin-tracy",
       "status": "candidate",
       "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustc-perf",
+      "status": "candidate",
+      "text": "This repository contains two primary crates:"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "oskarnp/odin-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustc-perf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

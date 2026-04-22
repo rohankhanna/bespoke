@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Push to Luarocks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to manage the file system and other tree like structures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddbc\ufe0f Bringing images to Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/image.nvim",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "boost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "button"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push to Luarocks",
+  "concept_id": "push-to-luarocks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neo-tree/neo-tree.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "3rd/image.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push to Luarocks",
+      "sense_id": "push-to-luarocks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

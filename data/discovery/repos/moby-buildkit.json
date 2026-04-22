@@ -1,0 +1,840 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "crazy-max/.github/.github/actions/gotest-annotations@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/bake-action/subaction/matrix@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "crazy-max/.github/.github/actions/docker-scout@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml"
+    },
+    {
+      "component": "docker/docs/.github/workflows/validate-upstream.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-upstream.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "crazy-max/.github/.github/actions/docker-scout@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/buildkit",
+      "target": "containerbuilding/cbi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/buildkit",
+      "target": "alibaba/pouch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/buildkit",
+      "target": "cmdjulian/mopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/buildkit",
+      "target": "actions/cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "crazy-max/.github/.github/actions/gotest-annotations@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/bake-action/subaction/matrix@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "crazy-max/.github/.github/actions/docker-scout@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/buildkit",
+      "target": "buildkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "source_repo": "moby/buildkit",
+      "target": "buildx-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerd.yml",
+      "source_repo": "moby/buildkit",
+      "target": "dockerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/docs/.github/workflows/validate-upstream.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docs-upstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/github-builder/.github/workflows/bake.yml@7d2a02426d4b989616ba5aaee4e879afd4134b0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "crazy-max/.github/.github/actions/docker-scout@4a17dbaa9ce13920fc5bb8824eb89c16301e5ab2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "moby/buildkit",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "moby/buildkit",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "moby/buildkit",
+      "target": "labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "buildkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/buildkit",
+      "target": "oci-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:12:25.117365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39726
+    },
+    {
+      "path": "Dockerfile",
+      "size": 20245
+    },
+    {
+      "path": "go.mod",
+      "size": 13043
+    },
+    {
+      "path": ".github/workflows/.test.yml",
+      "size": 7238
+    },
+    {
+      "path": ".github/workflows/buildkit.yml",
+      "size": 11386
+    },
+    {
+      "path": ".github/workflows/buildx-image.yml",
+      "size": 3332
+    },
+    {
+      "path": ".github/workflows/dockerd.yml",
+      "size": 4311
+    },
+    {
+      "path": ".github/workflows/docs-upstream.yml",
+      "size": 1261
+    },
+    {
+      "path": ".github/workflows/frontend.yml",
+      "size": 8455
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit",
+    "fork": false,
+    "full_name": "moby/buildkit",
+    "html_url": "https://github.com/moby/buildkit",
+    "language": "Go",
+    "pushed_at": "2026-04-22T08:16:33Z",
+    "stargazers_count": 9916,
+    "topics": [
+      "builder",
+      "buildkit",
+      "cloud-native",
+      "containers",
+      "docker",
+      "dockerfile",
+      "go",
+      "golang",
+      "oci",
+      "oci-image"
+    ],
+    "updated_at": "2026-04-22T14:19:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/cache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/pouch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmdjulian/mopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containerbuilding/cbi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "buildkit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkit.yml",
+      "term": "buildkit"
+    },
+    {
+      "context_snippet": "buildx-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildx-image.yml",
+      "term": "buildx-image"
+    },
+    {
+      "context_snippet": "dockerd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerd.yml",
+      "term": "dockerd"
+    },
+    {
+      "context_snippet": "docs-upstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "term": "docs-upstream"
+    },
+    {
+      "context_snippet": "frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "term": "frontend"
+    },
+    {
+      "context_snippet": "labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "labeler"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builder"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildkit"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oci-image"
+    }
+  ]
+}

@@ -68,6 +68,42 @@
       "source_repo": "hrsh7th/nvim-cmp",
       "status": "candidate-context",
       "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/conmon",
+      "status": "candidate-context",
+      "text": "An OCI container runtime monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/conmon",
+      "status": "candidate-context",
+      "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Database connectivity API standard and libraries for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Example code for using alloy and alloy-core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate-context",
+      "text": "Integration"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +136,24 @@
       "source_repo": "hrsh7th/nvim-cmp",
       "status": "candidate",
       "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/conmon",
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-adbc",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/examples",
+      "status": "candidate",
+      "text": "Integration"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +255,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "containers/conmon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "alloy-rs/examples"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

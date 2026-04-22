@@ -1,0 +1,17 @@
+{
+  "component": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-on-version-change.yml",
+      "source_repo": "ArcadeAI/arcade-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image-test.yaml",
+      "source_repo": "antonbabenko/pre-commit-terraform"
+    }
+  ]
+}

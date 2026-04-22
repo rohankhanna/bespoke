@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "kind"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/kind-action",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015544,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012594,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002833,
+      "status": "candidate",
+      "text": "variety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000900,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998525,
+      "status": "candidate",
+      "text": "helpful"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 82034,
+      "status": "candidate",
+      "text": "benevolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61038,
+      "status": "candidate",
+      "text": "genial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58035,
+      "status": "candidate",
+      "text": "gracious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55063,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46060,
+      "status": "candidate",
+      "text": "benign"
+    }
+  ],
+  "canonical_name": "kind",
+  "concept_id": "kind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "helm/kind-action"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kind",
+      "sense_id": "kind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

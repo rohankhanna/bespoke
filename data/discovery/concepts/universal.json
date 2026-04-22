@@ -31,6 +31,18 @@
       "source_repo": "expo/expo",
       "status": "candidate-context",
       "text": "<!-- Banner Image -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "\u2728 Create server-rendered universal JavaScript applications with no configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate-context",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "expo/expo",
       "status": "candidate",
       "text": "<!-- Banner Image -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/razzle",
+      "status": "candidate",
+      "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/razzle"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],

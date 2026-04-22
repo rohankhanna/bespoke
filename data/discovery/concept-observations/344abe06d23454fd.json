@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OSS-Fuzz - continuous fuzzing for open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Fuzz testing] is a well-known technique for uncovering programming errors in"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700164,
+      "status": "candidate",
+      "text": "hair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39681038,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39649096,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39648601,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39601505,
+      "status": "candidate",
+      "text": "tomentum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fuzzing",
+      "sense_id": "fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fuzzing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzzing",
+  "observation_id": "344abe06d23454fd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_text": "fuzzing",
+  "source_context_snippet": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+  "source_file": null,
+  "source_repo": "google/oss-fuzz",
+  "source_repo_description": "OSS-Fuzz - continuous fuzzing for open source software."
+}

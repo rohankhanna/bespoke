@@ -1,0 +1,12 @@
+{
+  "component": "int128/docker-build-metadata-action@3702b0b7c3bb37d88d1af7b9ad9472d11c92d741",
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "int128/kubelogin"
+    }
+  ]
+}

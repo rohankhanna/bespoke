@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/fisher",
+      "target": "jorgebucaran/awsm.fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/fisher",
+      "target": "fish-shell/fish-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/fisher",
+      "target": "oh-my-fish/oh-my-fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jorgebucaran/fisher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/fisher",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/fisher",
+      "target": "fish-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/fisher",
+      "target": "plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T19:02:03.506776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7887
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A plugin manager for Fish",
+    "fork": false,
+    "full_name": "jorgebucaran/fisher",
+    "html_url": "https://github.com/jorgebucaran/fisher",
+    "language": "Shell",
+    "pushed_at": "2026-01-31T04:23:23Z",
+    "stargazers_count": 9178,
+    "topics": [
+      "fish",
+      "fish-plugin",
+      "plugin-manager"
+    ],
+    "updated_at": "2026-04-21T18:44:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fish-shell/fish-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jorgebucaran/awsm.fish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oh-my-fish/oh-my-fish",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-plugin"
+    },
+    {
+      "context_snippet": "> A plugin manager for [Fish](https://fishshell.com)\u2014your friendly interactive shell. [Snag fresh plugins!](https://github.com/jorgebucaran/awsm.fish#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    }
+  ]
+}

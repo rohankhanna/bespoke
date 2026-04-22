@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/hello-world-javascript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/local-action"
     }
   ],
   "term": "Lint Codebase"

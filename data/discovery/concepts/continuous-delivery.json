@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Continuous Delivery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "A simple utility for running and debugging a GitHub Action locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/local-action",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10053178,
+      "status": "candidate",
+      "text": "cadence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10053177,
+      "status": "candidate",
+      "text": "continuous integration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10053176,
+      "status": "candidate",
+      "text": "extreme programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10053175,
+      "status": "candidate",
+      "text": "sprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10053174,
+      "status": "candidate",
+      "text": "scrum"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Continuous Delivery",
+  "concept_id": "continuous-delivery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/continuous-delivery.yml",
+      "source_repo": "github/local-action"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Delivery",
+      "sense_id": "continuous-delivery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

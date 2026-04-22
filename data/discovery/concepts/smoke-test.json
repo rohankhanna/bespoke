@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Smoke Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "The Rust package registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate-context",
+      "text": "Smoke Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/crates.io",
+      "status": "candidate",
+      "text": "Smoke Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730224,
+      "status": "candidate",
+      "text": "smokepipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730223,
+      "status": "candidate",
+      "text": "pipesmoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730222,
+      "status": "candidate",
+      "text": "smoke signal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730221,
+      "status": "candidate",
+      "text": "blowpipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730220,
+      "status": "candidate",
+      "text": "bubble pipe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Smoke Test",
+  "concept_id": "smoke-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "rust-lang/crates.io"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Smoke Test",
+      "sense_id": "smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

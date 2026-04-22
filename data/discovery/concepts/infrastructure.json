@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "infrastructure"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "The official command line interface for the DigitalOcean API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">doctl</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/doctl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">doctl</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885501,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29909003,
+      "status": "candidate",
+      "text": "infrastructural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29908487,
+      "status": "candidate",
+      "text": "facilities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907673,
+      "status": "candidate",
+      "text": "infostructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901667,
+      "status": "candidate",
+      "text": "structure"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "canonical_name": "infrastructure",
+  "concept_id": "infrastructure",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/doctl"
+    }
+  ],
+  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infrastructure",
+      "sense_id": "infrastructure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate-context",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "TypeScript library files for Relay Modern Offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/react-relay-offline",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "graphql-python/graphene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T18:52:26.467154+00:00",
+      "source_file": null,
+      "source_repo": "morrys/react-relay-offline"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "lexical_providers": [
     "datamuse"
   ],
