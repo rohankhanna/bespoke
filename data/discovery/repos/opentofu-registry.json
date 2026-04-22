@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml"
+    },
+    {
+      "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml"
+    },
+    {
+      "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry",
+      "target": "Bump Provider and Module Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "source_repo": "opentofu/registry",
+      "target": "Generate and Sync Recent Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "source_repo": "opentofu/registry",
+      "target": "Generate and Sync Files with Delete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry",
+      "target": "Generate and Sync Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "Issue Submission to Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "opentofu/registry",
+      "target": "Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml",
+      "source_repo": "opentofu/registry",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:27.865124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2667
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 635
+    },
+    {
+      "path": ".github/workflows/bump-versions.sh",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/bump-versions.yml",
+      "size": 1397
+    },
+    {
+      "path": ".github/workflows/generate-and-deploy-recent.yml",
+      "size": 2938
+    },
+    {
+      "path": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "size": 1625
+    },
+    {
+      "path": ".github/workflows/generate-and-deploy.yml",
+      "size": 2208
+    },
+    {
+      "path": ".github/workflows/issue-to-pr.yaml",
+      "size": 3235
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/verify-pr-json.yaml",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Metadata and tooling for the OpenTofu registry",
+    "fork": false,
+    "full_name": "opentofu/registry",
+    "html_url": "https://github.com/opentofu/registry",
+    "language": "Go",
+    "pushed_at": "2026-04-22T01:01:13Z",
+    "stargazers_count": 402,
+    "topics": [],
+    "updated_at": "2026-04-22T01:01:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Bump Provider and Module Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "term": "Bump Provider and Module Versions"
+    },
+    {
+      "context_snippet": "Generate and Sync Recent Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "term": "Generate and Sync Recent Changes"
+    },
+    {
+      "context_snippet": "Generate and Sync Files with Delete",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "term": "Generate and Sync Files with Delete"
+    },
+    {
+      "context_snippet": "Generate and Sync Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "term": "Generate and Sync Files"
+    },
+    {
+      "context_snippet": "Issue Submission to Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "term": "Issue Submission to Pull Request"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "Shellcheck"
+    }
+  ]
+}

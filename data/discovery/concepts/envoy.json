@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "envoy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953694,
+      "status": "candidate",
+      "text": "emissary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864375,
+      "status": "candidate",
+      "text": "envoi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955167,
+      "status": "candidate",
+      "text": "envoy extraordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955167,
+      "status": "candidate",
+      "text": "minister plenipotentiary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955166,
+      "status": "candidate",
+      "text": "ambassador"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28040,
+      "status": "candidate",
+      "text": "emissary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "envoi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "minister plenipotentiary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "envoy extraordinary"
+    }
+  ],
+  "canonical_name": "envoy",
+  "concept_id": "envoy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/higress"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "envoy",
+      "sense_id": "envoy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

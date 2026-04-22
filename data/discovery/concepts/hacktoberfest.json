@@ -385,6 +385,210 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate-context",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/python.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-python/dep\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "libgit2 - the Git linkable library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "A simple, physics-based animation library \ud83c\udfbc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "Harmonica"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "Raw ANSI sequence helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/ansi.svg)](https://github.com/muesli/ansi/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate-context",
+      "text": "A blazing-fast modern Lua linter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate-context",
+      "text": "selene is a blazing-fast modern Lua linter written in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/cri",
+      "status": "candidate-context",
+      "text": "Moved to https://github.com/containerd/containerd/tree/master/pkg/cri . If you wish to submit issues/PRs, please submit to https://github.com/containerd/containerd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/cri",
+      "status": "candidate-context",
+      "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate-context",
+      "text": "What are your favorite programming languages? \ud83d\udc45"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h1>Polyglot <img src=\"https://github.com/filhodanuvem/polyglot/workflows/CI/badge.svg\"></h1></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Bash scripts that integrate bat with various command line tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Bash scripts that integrate [bat](https://github.com/sharkdp/bat) with various command line tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "A simple, fast and user-friendly alternative to 'find'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "The tool for managing conda-forge feedstocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "xbar/Swiftbar plugin to control lima-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +777,108 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/python.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-python/dep\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate",
+      "text": "libgit2 - the Git linkable library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate",
+      "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate",
+      "text": "Harmonica"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/ansi.svg)](https://github.com/muesli/ansi/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate",
+      "text": "selene is a blazing-fast modern Lua linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/cri",
+      "status": "candidate",
+      "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h1>Polyglot <img src=\"https://github.com/filhodanuvem/polyglot/workflows/CI/badge.svg\"></h1></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate",
+      "text": "Bash scripts that integrate [bat](https://github.com/sharkdp/bat) with various command line tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate",
+      "text": "Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +1102,119 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "avelino/awesome-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/ansi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Kampfkarren/selene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containerd/cri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/polyglot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "eth-p/bat-extras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-smithy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dexidp/dex"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

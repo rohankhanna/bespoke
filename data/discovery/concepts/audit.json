@@ -44,6 +44,54 @@
       "source_repo": "Piebald-AI/muda",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "Cross-platform WebView library in Rust for Tauri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate-context",
+      "text": "crates.io documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "audit"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +110,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Piebald-AI/muda",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
       "status": "candidate",
       "text": "audit"
     }
@@ -165,11 +237,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "Piebald-AI/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-lang/docs.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/muda"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,475 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "bottlenoselabs/imgui-cs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "lithiumtoast/c2cs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "Bindgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "EndBug/add-and-commit@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "Commit generated C# code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "net7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "net70",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "profiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "tracy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:25:13.128068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1713
+    },
+    {
+      "path": ".github/workflows/bindgen.yml",
+      "size": 3142
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2675
+    },
+    {
+      "path": ".github/workflows/commit.yml",
+      "size": 768
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries.",
+    "fork": false,
+    "full_name": "clibequilibrium/Tracy-CSharp",
+    "html_url": "https://github.com/clibequilibrium/Tracy-CSharp",
+    "language": "C#",
+    "pushed_at": "2024-12-13T00:10:49Z",
+    "stargazers_count": 82,
+    "topics": [
+      "bindings",
+      "csharp",
+      "dotnet",
+      "net",
+      "net7",
+      "net70",
+      "profiler",
+      "tracy",
+      "wrapper"
+    ],
+    "updated_at": "2026-04-11T09:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bottlenoselabs/imgui-cs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lithiumtoast/c2cs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Bindgen\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindgen.yml",
+      "term": "Bindgen"
+    },
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"Commit generated C# code\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit.yml",
+      "term": "Commit generated C# code"
+    },
+    {
+      "context_snippet": "\"Pull request\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "Pull request"
+    },
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "net7"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "net70"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiler"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracy"
+    },
+    {
+      "context_snippet": "![](Header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

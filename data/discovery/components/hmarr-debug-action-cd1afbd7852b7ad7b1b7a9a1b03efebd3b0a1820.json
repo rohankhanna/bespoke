@@ -1,0 +1,12 @@
+{
+  "component": "hmarr/debug-action@cd1afbd7852b7ad7b1b7a9a1b03efebd3b0a1820",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    }
+  ]
+}

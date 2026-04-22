@@ -67,6 +67,30 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate-context",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Catch common Java mistakes as compile-time errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Error Prone is a static analysis tool for Java that catches common programming"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +117,18 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate",
+      "text": "Error Prone is a static analysis tool for Java that catches common programming"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +178,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "davidhalter/jedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "google/error-prone"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

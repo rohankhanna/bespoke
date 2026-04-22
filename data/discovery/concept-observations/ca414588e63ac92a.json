@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump to -dev version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump to -dev version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bonk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bumps"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump to -dev version",
+      "sense_id": "bump-to--dev-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-to--dev-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-to--dev-version",
+  "observation_id": "ca414588e63ac92a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Bump to -dev version",
+  "source_context_snippet": "Bump to -dev version",
+  "source_file": ".github/workflows/dev-bump.yml",
+  "source_repo": "containers/podman",
+  "source_repo_description": "Podman: A tool for managing OCI containers and pods."
+}

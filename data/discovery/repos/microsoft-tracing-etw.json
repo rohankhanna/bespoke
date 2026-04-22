@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/tracing-etw",
+      "target": "microsoft/linuxtracepoints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/tracing-etw",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/tracing-etw",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/tracing-etw",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:25:02.423019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1521
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2019
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ETW and EventHeader formatted user_events layer for tokio-tracing.",
+    "fork": false,
+    "full_name": "microsoft/tracing-etw",
+    "html_url": "https://github.com/microsoft/tracing-etw",
+    "language": "Rust",
+    "pushed_at": "2026-03-09T11:23:34Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-11T05:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/linuxtracepoints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
       "status": "candidate-context",
       "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
       "status": "candidate",
       "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

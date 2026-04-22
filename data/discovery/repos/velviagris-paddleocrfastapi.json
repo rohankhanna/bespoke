@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "cgcel/paddleocrfastapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "mushroomcat9998/paddleocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "paddlepaddle/paddleocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "paddleocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:26.363710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3576
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1367
+    },
+    {
+      "path": "requirements.txt",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple way to deploy PaddleOCR based on FastAPI. (PaddleOCR \u7684 FastAPI \u5feb\u901f\u90e8\u7f72\u65b9\u6848)",
+    "fork": false,
+    "full_name": "velviagris/PaddleOCRFastAPI",
+    "html_url": "https://github.com/velviagris/PaddleOCRFastAPI",
+    "language": "Python",
+    "pushed_at": "2025-10-08T13:27:01Z",
+    "stargazers_count": 168,
+    "topics": [
+      "docker",
+      "docker-compose",
+      "dockerfile",
+      "fastapi",
+      "ocr",
+      "paddleocr"
+    ],
+    "updated_at": "2026-04-11T17:42:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgcel/paddleocrfastapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mushroomcat9998/paddleocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddleocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddleocr"
+    }
+  ]
+}

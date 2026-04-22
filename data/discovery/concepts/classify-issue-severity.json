@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Classify Issue Severity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "Secure environments for developers and their agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "Classify Issue Severity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate",
+      "text": "Classify Issue Severity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "placed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "placing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "ranged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Classify Issue Severity",
+  "concept_id": "classify-issue-severity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/classify-issue-severity.yml",
+      "source_repo": "coder/coder"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classify Issue Severity",
+      "sense_id": "classify-issue-severity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

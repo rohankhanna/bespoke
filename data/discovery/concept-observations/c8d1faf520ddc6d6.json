@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "outdent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "indent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "deformat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "deboss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "reindent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dedent",
+      "sense_id": "dedent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dedent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dedent",
+  "observation_id": "c8d1faf520ddc6d6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "dedent",
+  "source_context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+  "source_file": null,
+  "source_repo": "muesli/reflow",
+  "source_repo_description": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+}

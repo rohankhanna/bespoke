@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "snapshot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951375,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049483,
+      "status": "candidate",
+      "text": "hair-trigger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027092,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023747,
+      "status": "candidate",
+      "text": "ride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019623,
+      "status": "candidate",
+      "text": "snap"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10062,
+      "status": "candidate",
+      "text": "shot"
+    }
+  ],
+  "canonical_name": "snapshot",
+  "concept_id": "snapshot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snapshot",
+      "sense_id": "snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -73,6 +75,18 @@
       "source_repo": "helm/helm",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +113,12 @@
       "source_repo": "helm/helm",
       "status": "candidate",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +168,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

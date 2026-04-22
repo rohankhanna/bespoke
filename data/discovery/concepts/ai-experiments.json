@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-experiments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "status": "candidate-context",
+      "text": "Collection/resource list of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolirtical actors, including simulated policy fora"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "status": "candidate-context",
+      "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "status": "candidate",
+      "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-experiments",
+  "concept_id": "ai-experiments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Geopol-Projects"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-experiments",
+      "sense_id": "ai-experiments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

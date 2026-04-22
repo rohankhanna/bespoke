@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node Nightly CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Node Nightly CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "Node Nightly CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10287,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036,
+      "status": "candidate",
+      "text": "polonium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node Nightly CI",
+  "concept_id": "node-nightly-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jestjs/jest"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node Nightly CI",
+      "sense_id": "node-nightly-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

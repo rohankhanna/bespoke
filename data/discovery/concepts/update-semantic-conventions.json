@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update semantic conventions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "Update semantic conventions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "Update semantic conventions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17662,
+      "status": "candidate",
+      "text": "grammar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9710,
+      "status": "candidate",
+      "text": "intensifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9661,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9660,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9653,
+      "status": "candidate",
+      "text": "amend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update semantic conventions",
+  "concept_id": "update-semantic-conventions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update semantic conventions",
+      "sense_id": "update-semantic-conventions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

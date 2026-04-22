@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Metrics Container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "Build Metrics Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate",
+      "text": "Build Metrics Container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26501,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26101,
+      "status": "candidate",
+      "text": "escaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26013,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26013,
+      "status": "candidate",
+      "text": "escape valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26013,
+      "status": "candidate",
+      "text": "relief valve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Metrics Container",
+  "concept_id": "build-metrics-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "llvm/llvm-project"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Metrics Container",
+      "sense_id": "build-metrics-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

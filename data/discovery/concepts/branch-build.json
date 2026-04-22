@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "branch build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate-context",
+      "text": "Optimism is Ethereum, scaled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate-context",
+      "text": "branch build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/optimism",
+      "status": "candidate-context",
+      "text": "Optimism is Ethereum, scaled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/optimism",
+      "status": "candidate-context",
+      "text": "branch build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate",
+      "text": "branch build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/optimism",
+      "status": "candidate",
+      "text": "branch build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "broaden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "ell"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "branch build",
+  "concept_id": "branch-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "branch build",
+      "sense_id": "branch-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

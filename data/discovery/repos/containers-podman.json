@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-bump.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-bump.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml"
+    },
+    {
+      "component": "github/issue-labeler@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeler.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman",
+      "target": "containers/image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman",
+      "target": "containers/buildah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman",
+      "target": "containers/conmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman",
+      "target": "containers/container-libs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "containers/podman",
+      "target": "Assign Command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/podman",
+      "target": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "containers/podman",
+      "target": "Cherry Pick to Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-bump.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-bump.yml",
+      "source_repo": "containers/podman",
+      "target": "Bump to -dev version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman",
+      "target": "Generate Contributor Certificate Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "source_repo": "containers/podman",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "source_repo": "containers/podman",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman",
+      "target": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman",
+      "target": "Lock closed issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:25.889218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12921
+    },
+    {
+      "path": "go.mod",
+      "size": 9074
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 169
+    },
+    {
+      "path": ".github/workflows/assign.yml",
+      "size": 1669
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 3551
+    },
+    {
+      "path": ".github/workflows/cherry-pick.yml",
+      "size": 13609
+    },
+    {
+      "path": ".github/workflows/dev-bump.yml",
+      "size": 6541
+    },
+    {
+      "path": ".github/workflows/first_contrib_cert_generator.yml",
+      "size": 13687
+    },
+    {
+      "path": ".github/workflows/issue-labeler.yml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/issue_pr_lock.yml",
+      "size": 3202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Podman: A tool for managing OCI containers and pods.",
+    "fork": false,
+    "full_name": "containers/podman",
+    "html_url": "https://github.com/containers/podman",
+    "language": "Go",
+    "pushed_at": "2026-04-21T20:58:25Z",
+    "stargazers_count": 31457,
+    "topics": [
+      "containers",
+      "docker",
+      "kubernetes",
+      "linux",
+      "oci"
+    ],
+    "updated_at": "2026-04-22T01:11:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/buildah",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/conmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/container-libs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/image",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Assign Command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "term": "Assign Command"
+    },
+    {
+      "context_snippet": "Cherry Pick to Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "term": "Cherry Pick to Release Branch"
+    },
+    {
+      "context_snippet": "Bump to -dev version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-bump.yml",
+      "term": "Bump to -dev version"
+    },
+    {
+      "context_snippet": "Generate Contributor Certificate Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "term": "Generate Contributor Certificate Preview"
+    },
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "\"Lock closed issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "term": "Lock closed issues and PRs"
+    },
+    {
+      "context_snippet": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    }
+  ]
+}

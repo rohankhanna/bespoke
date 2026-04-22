@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Authoritative dns server for A/AAAA container records. Forwards other request to host's /etc/resolv.conf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042202,
+      "status": "candidate",
+      "text": "reservoir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042069,
+      "status": "candidate",
+      "text": "enclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041921,
+      "status": "candidate",
+      "text": "containment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041866,
+      "status": "candidate",
+      "text": "containing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041638,
+      "status": "candidate",
+      "text": "contain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "container",
+      "sense_id": "container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container",
+  "observation_id": "c6755407b5a4150d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "container",
+  "source_context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+  "source_file": null,
+  "source_repo": "containers/aardvark-dns",
+  "source_repo_description": "Authoritative dns server for A/AAAA container records. Forwards other request to host's /etc/resolv.conf"
+}

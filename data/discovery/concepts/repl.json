@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "REPL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "REPL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate",
+      "text": "REPL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021177,
+      "status": "candidate",
+      "text": "readline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021176,
+      "status": "candidate",
+      "text": "println"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021175,
+      "status": "candidate",
+      "text": "repr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021174,
+      "status": "candidate",
+      "text": "lein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021173,
+      "status": "candidate",
+      "text": "mongo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "REPL",
+  "concept_id": "repl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/repl.yml",
+      "source_repo": "babel/babel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "REPL",
+      "sense_id": "repl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Branch Time"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/boringssl",
+      "status": "candidate-context",
+      "text": "Mirror of BoringSSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/boringssl",
+      "status": "candidate-context",
+      "text": "Check Branch Time"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/boringssl",
+      "status": "candidate",
+      "text": "Check Branch Time"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34711,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34711,
+      "status": "candidate",
+      "text": "endgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27447,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27270,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26647,
+      "status": "candidate",
+      "text": "antedate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Branch Time",
+  "concept_id": "check-branch-time",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/branch-time.yml",
+      "source_repo": "google/boringssl"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Branch Time",
+      "sense_id": "check-branch-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

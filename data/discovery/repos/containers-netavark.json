@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/netavark",
+      "target": "containers/podman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/netavark",
+      "target": "cpuguy83/go-md2man",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/netavark",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/netavark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/netavark",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/netavark",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/netavark",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:20.854211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1940
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2109
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Container network stack",
+    "fork": false,
+    "full_name": "containers/netavark",
+    "html_url": "https://github.com/containers/netavark",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T11:03:16Z",
+    "stargazers_count": 725,
+    "topics": [],
+    "updated_at": "2026-04-21T11:03:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/podman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpuguy83/go-md2man",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

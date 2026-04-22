@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast GPU cached text rendering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fast cached text rendering."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fast cached text rendering."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038355,
+      "status": "candidate",
+      "text": "generate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037202,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036597,
+      "status": "candidate",
+      "text": "supply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034238,
+      "status": "candidate",
+      "text": "furnish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032313,
+      "status": "candidate",
+      "text": "give"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "render",
+      "sense_id": "render#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72086,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26039,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25046,
+      "status": "candidate",
+      "text": "waive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24067,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "concept_id": "render",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "render",
+  "observation_id": "74b46f9488af3410",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "render",
+  "source_context_snippet": "Fast cached text rendering.",
+  "source_file": null,
+  "source_repo": "alexheretic/glyph-brush",
+  "source_repo_description": "Fast GPU cached text rendering"
+}

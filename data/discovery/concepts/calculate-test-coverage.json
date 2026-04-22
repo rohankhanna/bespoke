@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Calculate test coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Calculate test coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "Calculate test coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18850,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18850,
+      "status": "candidate",
+      "text": "rates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "evaluate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Calculate test coverage",
+  "concept_id": "calculate-test-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "simonw/sqlite-utils"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Calculate test coverage",
+      "sense_id": "calculate-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

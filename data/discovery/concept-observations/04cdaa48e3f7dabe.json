@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build compute kernels and load them from the Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Check build variants\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Check build variants\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20649,
+      "status": "candidate",
+      "text": "shogi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19880,
+      "status": "candidate",
+      "text": "select"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19880,
+      "status": "candidate",
+      "text": "selected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19751,
+      "status": "candidate",
+      "text": "asker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19751,
+      "status": "candidate",
+      "text": "axe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check build variants",
+      "sense_id": "check-build-variants#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-build-variants",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-build-variants",
+  "observation_id": "04cdaa48e3f7dabe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Check build variants",
+  "source_context_snippet": "\"Check build variants\"",
+  "source_file": ".github/workflows/check_variants.yaml",
+  "source_repo": "huggingface/kernels",
+  "source_repo_description": "Build compute kernels and load them from the Hub."
+}

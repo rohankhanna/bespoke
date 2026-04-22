@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap-ai/mcp",
+      "target": "sbcgua/ajson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap-ai/mcp",
+      "target": "abaplint/abaplint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap-ai/mcp",
+      "target": "abapgit/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml",
+      "source_repo": "abap-ai/mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml",
+      "source_repo": "abap-ai/mcp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml",
+      "source_repo": "abap-ai/mcp",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downport.yml",
+      "source_repo": "abap-ai/mcp",
+      "target": "downport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:15:41.374292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2765
+    },
+    {
+      "path": ".github/workflows/downport.yml",
+      "size": 1269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ABAP MCP - Model Context Protocol - Server SDK",
+    "fork": false,
+    "full_name": "abap-ai/mcp",
+    "html_url": "https://github.com/abap-ai/mcp",
+    "language": "ABAP",
+    "pushed_at": "2025-07-20T08:33:33Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-20T14:41:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abapgit/abapgit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abaplint/abaplint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbcgua/ajson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "downport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downport.yml",
+      "term": "downport"
+    }
+  ]
+}

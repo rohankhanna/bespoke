@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gamedevelopment",
+      "sense_id": "gamedevelopment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gamedevelopment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gamedevelopment",
+  "observation_id": "088dcca5bf1be9fa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "gamedevelopment",
+  "source_context_snippet": "Tracy profiler bindings/wrapper for the Odin programming language",
+  "source_file": null,
+  "source_repo": "oskarnp/odin-tracy",
+  "source_repo_description": "Tracy profiler bindings/wrapper for the Odin programming language"
+}

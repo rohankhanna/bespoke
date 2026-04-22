@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "No Response"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "No Response"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73346,
+      "status": "candidate",
+      "text": "nonresponse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73345,
+      "status": "candidate",
+      "text": "nonresponsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73344,
+      "status": "candidate",
+      "text": "unresponsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73343,
+      "status": "candidate",
+      "text": "unresponsiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73342,
+      "status": "candidate",
+      "text": "no dice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "No Response",
+      "sense_id": "no-response#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "no-response",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "no-response",
+  "observation_id": "6ee18c99250717d7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "No Response",
+  "source_context_snippet": "No Response",
+  "source_file": ".github/workflows/no-response.yml",
+  "source_repo": "dart-lang/build",
+  "source_repo_description": "A build system for Dart written in Dart"
+}

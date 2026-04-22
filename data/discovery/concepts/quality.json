@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Quality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "The code coverage tool for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "\"Quality\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate",
+      "text": "\"Quality\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024595,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024441,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020106,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011063,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010429,
+      "status": "candidate",
+      "text": "upper-class"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47051,
+      "status": "candidate",
+      "text": "timbre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31061,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24074,
+      "status": "candidate",
+      "text": "tone"
+    }
+  ],
+  "canonical_name": "Quality",
+  "concept_id": "quality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "coveragepy/coveragepy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quality",
+      "sense_id": "quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ctz/graviola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "coveragepy/coveragepy"
     }
   ],
   "term": "coverage"

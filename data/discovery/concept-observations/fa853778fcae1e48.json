@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048089,
+      "status": "candidate",
+      "text": "enquirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047993,
+      "status": "candidate",
+      "text": "asker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047954,
+      "status": "candidate",
+      "text": "questioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048049,
+      "status": "candidate",
+      "text": "querist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042185,
+      "status": "candidate",
+      "text": "requestor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inquirer",
+      "sense_id": "inquirer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "enquirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "asker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "questioner"
+    }
+  ],
+  "concept_id": "inquirer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inquirer",
+  "observation_id": "fa853778fcae1e48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "inquirer",
+  "source_context_snippet": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)",
+  "source_file": null,
+  "source_repo": "Lutetium-Vanadium/requestty",
+  "source_repo_description": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+}

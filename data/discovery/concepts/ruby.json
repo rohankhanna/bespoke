@@ -73,6 +73,18 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate-context",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +117,12 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

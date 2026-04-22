@@ -31,6 +31,18 @@
       "source_repo": "knownsec/404StarLink-Project",
       "status": "candidate-context",
       "text": "![](./logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "\u2728 The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "knownsec/404StarLink-Project",
       "status": "candidate",
       "text": "![](./logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate",
+      "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "knownsec/404StarLink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "knownsec/404StarLink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

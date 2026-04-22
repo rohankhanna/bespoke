@@ -1,7 +1,7 @@
 {
   "component": "typescript-eslint",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -152,6 +152,36 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

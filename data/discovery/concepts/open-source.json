@@ -91,6 +91,18 @@
       "source_repo": "AgriciDaniel/claude-blog",
       "status": "candidate-context",
       "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "AgriciDaniel/claude-blog",
       "status": "candidate",
       "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "AgriciDaniel/claude-blog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

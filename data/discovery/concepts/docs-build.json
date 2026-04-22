@@ -1,14 +1,35 @@
 {
   "aliases": [
-    "Docs Build"
+    "Docs Build",
+    "docs-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for Elasticsearch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "docs-build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "docs-build"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "Docs Build",
@@ -20,12 +41,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/go-elasticsearch"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

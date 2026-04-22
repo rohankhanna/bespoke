@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928090,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904743,
+      "status": "candidate",
+      "text": "lumen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998257,
+      "status": "candidate",
+      "text": "lumens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998256,
+      "status": "candidate",
+      "text": "twitchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998255,
+      "status": "candidate",
+      "text": "agitated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ansi",
+      "sense_id": "ansi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ansi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ansi",
+  "observation_id": "f73a6db5bbf80425",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "ansi",
+  "source_context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+  "source_file": null,
+  "source_repo": "muesli/reflow",
+  "source_repo_description": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+}

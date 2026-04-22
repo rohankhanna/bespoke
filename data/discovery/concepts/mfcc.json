@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mfcc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "End-to-end speech model training pipeline built on Burn \u2014 MFCC features, CTC loss, LibriSpeech loader, SpeechOcean762 evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021305,
+      "status": "candidate",
+      "text": "fmic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021304,
+      "status": "candidate",
+      "text": "cmfb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021303,
+      "status": "candidate",
+      "text": "mdct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021302,
+      "status": "candidate",
+      "text": "flac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021301,
+      "status": "candidate",
+      "text": "msfc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mfcc",
+  "concept_id": "mfcc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dnvt/burn-speech-training"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mfcc",
+      "sense_id": "mfcc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

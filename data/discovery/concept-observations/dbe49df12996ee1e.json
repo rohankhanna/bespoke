@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerfile best-practices for writing production-worthy Docker images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dockerfile",
+      "sense_id": "dockerfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dockerfile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dockerfile",
+  "observation_id": "dbe49df12996ee1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "dockerfile",
+  "source_context_snippet": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026",
+  "source_file": null,
+  "source_repo": "hexops-graveyard/dockerfile",
+  "source_repo_description": "Dockerfile best-practices for writing production-worthy Docker images."
+}

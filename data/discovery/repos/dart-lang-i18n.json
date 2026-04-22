@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "actions/checkout@7739b9ba2efcda9dde65ad1e3c2dbe65b41dfba7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "actions/checkout@7739b9ba2efcda9dde65ad1e3c2dbe65b41dfba7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "actions/deploy-pages@854d7aa1b99e4509c4d1b53d69b7ba4eaf39215a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl_translation.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl_translation.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml"
+    },
+    {
+      "component": "flutter-actions/setup-flutter@d4e97a6e7467ef062618c9af927f90bc9651b876",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_builder.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_builder.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_serializer.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_serializer.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_shrinker.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_shrinker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@7739b9ba2efcda9dde65ad1e3c2dbe65b41dfba7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "Unicode Conformance Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/i18n",
+      "target": "Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intl.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "package:intl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/deploy-pages@854d7aa1b99e4509c4d1b53d69b7ba4eaf39215a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "package:intl4x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl_translation.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl_translation.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "flutter-actions/setup-flutter@d4e97a6e7467ef062618c9af927f90bc9651b876",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/messages.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "package:messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_builder.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_builder.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_serializer.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_serializer.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_shrinker.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/messages_shrinker.yml",
+      "source_repo": "dart-lang/i18n",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:24:58.233550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3462
+    },
+    {
+      "path": ".github/workflows/conformance.yml",
+      "size": 1930
+    },
+    {
+      "path": ".github/workflows/health.yaml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/intl.yml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/intl4x.yml",
+      "size": 4494
+    },
+    {
+      "path": ".github/workflows/intl_translation.yml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/messages.yml",
+      "size": 1294
+    },
+    {
+      "path": ".github/workflows/messages_builder.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/messages_serializer.yml",
+      "size": 1039
+    },
+    {
+      "path": ".github/workflows/messages_shrinker.yml",
+      "size": 1027
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A general mono-repo for Dart i18n and l10n packages.",
+    "fork": false,
+    "full_name": "dart-lang/i18n",
+    "html_url": "https://github.com/dart-lang/i18n",
+    "language": "Dart",
+    "pushed_at": "2026-04-20T14:35:23Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-12T00:28:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unicode Conformance Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yml",
+      "term": "Unicode Conformance Testing"
+    },
+    {
+      "context_snippet": "Health",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "term": "Health"
+    },
+    {
+      "context_snippet": "package:intl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intl.yml",
+      "term": "package:intl"
+    },
+    {
+      "context_snippet": "package:intl4x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intl4x.yml",
+      "term": "package:intl4x"
+    },
+    {
+      "context_snippet": "package:messages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/messages.yml",
+      "term": "package:messages"
+    }
+  ]
+}

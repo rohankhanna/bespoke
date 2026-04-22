@@ -31,6 +31,18 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "foundry-rs/foundry",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crytic/echidna"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

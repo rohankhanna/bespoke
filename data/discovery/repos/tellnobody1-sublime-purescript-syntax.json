@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:16:20.608910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tellnobody1/sublime-purescript-syntax",
+    "html_url": "https://github.com/tellnobody1/sublime-purescript-syntax",
+    "language": null,
+    "pushed_at": "2024-03-04T23:44:28Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-11-11T18:11:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Graphene SQLAlchemy integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024765,
+      "status": "candidate",
+      "text": "nanographene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024764,
+      "status": "candidate",
+      "text": "graphyne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024763,
+      "status": "candidate",
+      "text": "graphane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024762,
+      "status": "candidate",
+      "text": "graphene layer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024761,
+      "status": "candidate",
+      "text": "polycarbon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphene",
+      "sense_id": "graphene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphene",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphene",
+  "observation_id": "ce3e46244e2a9d95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "graphene",
+  "source_context_snippet": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming",
+  "source_file": null,
+  "source_repo": "graphql-python/graphene-sqlalchemy",
+  "source_repo_description": "Graphene SQLAlchemy integration"
+}

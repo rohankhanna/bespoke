@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "trifectatechfoundation/benchmarker-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@2c09a5e66da6c8016428a2172bd76e5e4f14bb17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@56ab7930c591507f833cbaed864d201386d518a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@2c09a5e66da6c8016428a2172bd76e5e4f14bb17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@0dce2577a4760a2749d8cfb7a84b7d5585ebcb7d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "madler/zlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "zlib-ng/zlib-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "trifectatechfoundation/benchmarker-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "dtolnay/rust-toolchain@be73d7920c329f220ce78e0234b8f96b7ae60248",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "taiki-e/install-action@d12e869b89167df346dd0ff65da342d1fb1202fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "awalsh128/cache-apt-pkgs-action@2c09a5e66da6c8016428a2172bd76e5e4f14bb17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "taiki-e/install-action@56ab7930c591507f833cbaed864d201386d518a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "zizmorcore/zizmor-action@0dce2577a4760a2749d8cfb7a84b7d5585ebcb7d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "target": "zizmor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:53.382621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3073
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 2876
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 27248
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A zlib implementation in rust available as a C dynamic library and as a rust crate",
+    "fork": false,
+    "full_name": "trifectatechfoundation/zlib-rs",
+    "html_url": "https://github.com/trifectatechfoundation/zlib-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T12:30:35Z",
+    "stargazers_count": 623,
+    "topics": [],
+    "updated_at": "2026-04-21T11:36:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madler/zlib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zlib-ng/zlib-ng",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "checks"
+    },
+    {
+      "context_snippet": "zizmor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "zizmor"
+    }
+  ]
+}

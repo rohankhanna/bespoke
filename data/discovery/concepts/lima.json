@@ -19,6 +19,18 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate-context",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "xbar/Swiftbar plugin to control lima-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

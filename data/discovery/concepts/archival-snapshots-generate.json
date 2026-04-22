@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "archival snapshots generate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "archival snapshots generate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate",
+      "text": "archival snapshots generate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20601,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20384,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20384,
+      "status": "candidate",
+      "text": "archives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19913,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19913,
+      "status": "candidate",
+      "text": "history"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "archival snapshots generate",
+  "concept_id": "archival-snapshots-generate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check-archival-snapshots-generate.yml",
+      "source_repo": "ChainSafe/forest-iac"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "archival snapshots generate",
+      "sense_id": "archival-snapshots-generate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -131,21 +131,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Dao-AILab/flash-attention",
-      "target": "rocm/composable_kernel",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Dao-AILab/flash-attention",
-      "target": "rocm/aiter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Dao-AILab/flash-attention",
-      "target": "huggingface/kernels",
+      "target": "ssiu/flash-attention-turing",
       "target_type": "repository"
     },
     {
@@ -338,7 +324,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:28:28.632652+00:00",
+  "fetched_at": "2026-04-22T01:05:29.944617+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -382,17 +368,12 @@
     "full_name": "Dao-AILab/flash-attention",
     "html_url": "https://github.com/Dao-AILab/flash-attention",
     "language": "Python",
-    "pushed_at": "2026-04-20T18:08:03Z",
-    "stargazers_count": 23457,
+    "pushed_at": "2026-04-21T17:21:19Z",
+    "stargazers_count": 23460,
     "topics": [],
-    "updated_at": "2026-04-21T08:59:00Z"
+    "updated_at": "2026-04-21T20:00:46Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "huggingface/kernels",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "openai/triton",
@@ -400,12 +381,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rocm/aiter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/composable_kernel",
+      "full_name": "ssiu/flash-attention-turing",
       "source_file": "README.md"
     }
   ],

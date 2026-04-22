@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "book"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "book"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39778825,
+      "status": "candidate",
+      "text": "daybook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39776030,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39774168,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39762617,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39757486,
+      "status": "candidate",
+      "text": "ledger"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34075,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10022,
+      "status": "candidate",
+      "text": "leger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9062,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6078,
+      "status": "candidate",
+      "text": "volume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6026,
+      "status": "candidate",
+      "text": "daybook"
+    }
+  ],
+  "canonical_name": "book",
+  "concept_id": "book",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bluealloy/revm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "book",
+      "sense_id": "book#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-and-deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "build-and-deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate",
+      "text": "build-and-deploy"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-and-deploy",
+  "concept_id": "build-and-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-and-deploy",
+      "sense_id": "build-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

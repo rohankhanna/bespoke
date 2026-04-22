@@ -19,12 +19,30 @@
       "source_repo": "Layr-Labs/incredible-squaring-avs",
       "status": "candidate-context",
       "text": "check that make fmt was run"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for building AVSs on Eigenlayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "check that make fmt was run"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate",
+      "text": "check that make fmt was run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
       "status": "candidate",
       "text": "check that make fmt was run"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/check-fmt.yml",
       "source_repo": "Layr-Labs/incredible-squaring-avs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

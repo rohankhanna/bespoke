@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label Core Team PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label Core Team PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25918,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "classified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "pes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17669,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17669,
+      "status": "candidate",
+      "text": "min"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label Core Team PRs",
+      "sense_id": "label-core-team-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-core-team-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-core-team-prs",
+  "observation_id": "82f02693736fe0cf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Label Core Team PRs",
+  "source_context_snippet": "Label Core Team PRs",
+  "source_file": ".github/workflows/label_core_team_prs.yml",
+  "source_repo": "reactjs/react.dev",
+  "source_repo_description": "The React documentation website"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "webpack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "Tools for creating, running, and deploying universal Expo and React Native apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate",
+      "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webpack",
+  "concept_id": "webpack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "expo/expo-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "insin/nwb"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webpack",
+      "sense_id": "webpack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

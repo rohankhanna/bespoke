@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_latest.yml"
+    },
+    {
+      "component": "deadsnakes/action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookincubator/ptr",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_latest.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_latest.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "deadsnakes/action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "Hypothesis Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml",
+      "source_repo": "facebookincubator/ptr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:17:30.050967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17158
+    },
+    {
+      "path": "Dockerfile",
+      "size": 125
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 346
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1079
+    },
+    {
+      "path": ".github/workflows/ci_latest.yml",
+      "size": 1115
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/pypi_upload.yml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Python Test Runner.",
+    "fork": false,
+    "full_name": "facebookincubator/ptr",
+    "html_url": "https://github.com/facebookincubator/ptr",
+    "language": "Python",
+    "pushed_at": "2026-03-26T21:35:50Z",
+    "stargazers_count": 280,
+    "topics": [],
+    "updated_at": "2026-04-07T14:02:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hypothesis Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "Hypothesis Fuzz"
+    }
+  ]
+}

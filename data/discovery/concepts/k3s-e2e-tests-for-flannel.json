@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "k3s e2e tests for flannel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "k3s e2e tests for flannel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "k3s e2e tests for flannel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "blood test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "microcosmic salt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10621,
+      "status": "candidate",
+      "text": "autotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10621,
+      "status": "candidate",
+      "text": "djvu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "k3s e2e tests for flannel",
+  "concept_id": "k3s-e2e-tests-for-flannel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/k3s-e2eTests.yml",
+      "source_repo": "flannel-io/flannel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "k3s e2e tests for flannel",
+      "sense_id": "k3s-e2e-tests-for-flannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

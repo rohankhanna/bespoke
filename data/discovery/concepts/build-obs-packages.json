@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build OBS packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jstkdng/ueberzugpp",
+      "status": "candidate-context",
+      "text": "Drop in replacement for ueberzug written in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/ueberzugpp",
+      "status": "candidate-context",
+      "text": "'Build OBS packages'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jstkdng/ueberzugpp",
+      "status": "candidate",
+      "text": "'Build OBS packages'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "electronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "engineer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "geometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "industrial engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "industrial management"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build OBS packages",
+  "concept_id": "build-obs-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "jstkdng/ueberzugpp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build OBS packages",
+      "sense_id": "build-obs-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

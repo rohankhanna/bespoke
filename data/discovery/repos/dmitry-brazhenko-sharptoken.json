@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "openai/tiktoken",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "dotnet/machinelearning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "Build, test and publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "Reusable Build and Test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "cl100kbase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:56.967953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18921
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 700
+    },
+    {
+      "path": ".github/workflows/build-test-and-publish.yml",
+      "size": 2847
+    },
+    {
+      "path": ".github/workflows/dotnet-build-test.yml",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SharpToken is a C# library for tokenizing natural language text. It's based on the tiktoken Python library and designed to be fast and accurate. ",
+    "fork": false,
+    "full_name": "dmitry-brazhenko/SharpToken",
+    "html_url": "https://github.com/dmitry-brazhenko/SharpToken",
+    "language": "C#",
+    "pushed_at": "2026-03-25T16:25:16Z",
+    "stargazers_count": 255,
+    "topics": [
+      "cl100kbase",
+      "csharp",
+      "gpt",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "tokenizer"
+    ],
+    "updated_at": "2026-04-01T11:54:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/machinelearning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/tiktoken",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Build, test and publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "term": "Build, test and publish"
+    },
+    {
+      "context_snippet": "Reusable Build and Test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-test.yml",
+      "term": "Reusable Build and Test Workflow"
+    },
+    {
+      "context_snippet": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cl100kbase"
+    },
+    {
+      "context_snippet": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

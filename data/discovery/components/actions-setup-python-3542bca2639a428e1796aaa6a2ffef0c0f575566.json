@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-python@3542bca2639a428e1796aaa6a2ffef0c0f575566",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_release.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moretension/duti",
+      "target": "tsonglew/dutis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti",
+      "target": "Makefile CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "moretension/duti"
+}

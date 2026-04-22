@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "menu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities library for Desktop Applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate",
+      "text": "Menu Utilities library for Desktop Applications."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050766,
+      "status": "candidate",
+      "text": "bill of fare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050764,
+      "status": "candidate",
+      "text": "carte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924638,
+      "status": "candidate",
+      "text": "fare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731800,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050810,
+      "status": "candidate",
+      "text": "carte du jour"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "fare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6062,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "bill of fare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "carte du jour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "computer menu"
+    }
+  ],
+  "canonical_name": "menu",
+  "concept_id": "menu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "menu",
+      "sense_id": "menu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

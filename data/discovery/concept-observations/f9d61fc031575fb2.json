@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996707,
+      "status": "candidate",
+      "text": "proact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996706,
+      "status": "candidate",
+      "text": "preenact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996705,
+      "status": "candidate",
+      "text": "preprepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996704,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996703,
+      "status": "candidate",
+      "text": "foreprepare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preact",
+      "sense_id": "preact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preact",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preact",
+  "observation_id": "f9d61fc031575fb2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "preact",
+  "source_context_snippet": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026",
+  "source_file": null,
+  "source_repo": "insin/nwb",
+  "source_repo_description": "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)"
+}

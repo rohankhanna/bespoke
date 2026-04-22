@@ -19,12 +19,30 @@
       "source_repo": "ClickHouse/ClickHouse",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ClickHouse/ClickHouse",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-docs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

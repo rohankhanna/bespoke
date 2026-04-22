@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "starwing/luautf8",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "starwing/luautf8",
+      "target": "leafo/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "starwing/luautf8",
+      "target": "leafo/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "starwing/luautf8",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:00.400885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15952
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a utf-8 support module for Lua and LuaJIT.",
+    "fork": false,
+    "full_name": "starwing/luautf8",
+    "html_url": "https://github.com/starwing/luautf8",
+    "language": "C",
+    "pushed_at": "2026-02-26T16:04:24Z",
+    "stargazers_count": 453,
+    "topics": [],
+    "updated_at": "2026-04-21T00:12:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

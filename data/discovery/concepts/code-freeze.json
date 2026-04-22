@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Freeze"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "Code Freeze"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate",
+      "text": "Code Freeze"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11961,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11961,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11961,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10838,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10838,
+      "status": "candidate",
+      "text": "blockage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Freeze",
+  "concept_id": "code-freeze",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/code_freeze.yml",
+      "source_repo": "vercel/next.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Freeze",
+      "sense_id": "code-freeze#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

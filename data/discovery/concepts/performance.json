@@ -31,6 +31,66 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate-context",
       "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ichard26/blackbench",
+      "status": "candidate-context",
+      "text": "A benchmarking suite for Black, the Python code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/blackbench",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper - Coz employs a novel technique we call causal profiling that measures optimization potential."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate",
       "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ichard26/blackbench",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate",
+      "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ichard26/blackbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/perf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "oskarnp/odin-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

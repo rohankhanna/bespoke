@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "user-friendly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29827421,
+      "status": "candidate",
+      "text": "concise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825581,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820065,
+      "status": "candidate",
+      "text": "descriptive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29809937,
+      "status": "candidate",
+      "text": "readable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29805340,
+      "status": "candidate",
+      "text": "userfriendly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "user-friendly",
+  "concept_id": "user-friendly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "user-friendly",
+      "sense_id": "user-friendly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

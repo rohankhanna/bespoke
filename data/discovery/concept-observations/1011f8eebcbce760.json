@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ACI integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ACI integration tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "ghost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "itc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18255,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14363,
+      "status": "candidate",
+      "text": "afl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ACI integration tests",
+      "sense_id": "aci-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aci-integration-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aci-integration-tests",
+  "observation_id": "1011f8eebcbce760",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "ACI integration tests",
+  "source_context_snippet": "ACI integration tests",
+  "source_file": ".github/workflows/aci-tests.yml",
+  "source_repo": "docker-archive/compose-cli",
+  "source_repo_description": "Easily run your Compose application to the cloud with compose-cli"
+}

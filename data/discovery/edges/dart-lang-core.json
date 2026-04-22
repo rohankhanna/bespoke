@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/args.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/args.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/args.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:args",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/async.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/async.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/characters.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/characters.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/characters.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convert.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convert.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/convert.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:convert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crypto.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixnum.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixnum.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fixnum.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:fixnum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints.yaml",
+      "source_repo": "dart-lang/core",
+      "target": "package:lints",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "dart-lang/core"
+}

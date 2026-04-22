@@ -10,9 +10,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyodide/pyodide-build",
+      "status": "candidate-context",
+      "text": "Tool for building packages targeting Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide-build",
+      "status": "candidate-context",
+      "text": "Tools for building packages for use with Pyodide. You may be interested in using"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/pyodide-build",
+      "status": "candidate",
+      "text": "Tools for building packages for use with Pyodide. You may be interested in using"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998247,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998139,
+      "status": "candidate",
+      "text": "packet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996245,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995237,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998597,
+      "status": "candidate",
+      "text": "packed"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "packaging",
   "concept_id": "packaging",
@@ -29,12 +85,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/packaging.yml",
       "source_repo": "Delgan/loguru"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "pyodide/pyodide-build"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

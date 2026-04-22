@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "platypus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "Create native macOS applications from command line scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043515,
+      "status": "candidate",
+      "text": "duck-billed platypus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042623,
+      "status": "candidate",
+      "text": "duckbill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044863,
+      "status": "candidate",
+      "text": "duckbilled platypus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044863,
+      "status": "candidate",
+      "text": "ornithorhynchus anatinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750050,
+      "status": "candidate",
+      "text": "kiddo"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "duckbill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "duck-billed platypus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "duckbilled platypus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "ornithorhynchus anatinus"
+    }
+  ],
+  "canonical_name": "platypus",
+  "concept_id": "platypus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "platypus",
+      "sense_id": "platypus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

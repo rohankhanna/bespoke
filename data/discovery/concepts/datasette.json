@@ -19,6 +19,42 @@
       "source_repo": "simonw/db-to-sqlite",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "Convert CSV files into a SQLite database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "simonw/db-to-sqlite",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/sqlite-utils"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

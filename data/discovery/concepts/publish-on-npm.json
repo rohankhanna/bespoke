@@ -19,12 +19,30 @@
       "source_repo": "google/closure-library",
       "status": "candidate-context",
       "text": "Publish on NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengkx/jieba-wasm",
+      "status": "candidate-context",
+      "text": "WASM binding to jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengkx/jieba-wasm",
+      "status": "candidate-context",
+      "text": "Publish on NPM"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "google/closure-library",
+      "status": "candidate",
+      "text": "Publish on NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengkx/jieba-wasm",
       "status": "candidate",
       "text": "Publish on NPM"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/publish-on-npm.yml",
       "source_repo": "google/closure-library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "fengkx/jieba-wasm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

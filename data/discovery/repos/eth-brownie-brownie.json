@@ -1,0 +1,660 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "BobTheBuidler/mypycify@v0.2.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yaml"
+    },
+    {
+      "component": "BobTheBuidler/mypycify@v0.2.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "BobTheBuidler/mypycify@v0.2.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "BobTheBuidler/mypycify@v0.2.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "BobTheBuidler/lint-all-the-things@v0.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-brownie/brownie",
+      "target": "apeworx/ape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-brownie/brownie",
+      "target": "ethereum/solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-brownie/brownie",
+      "target": "hypothesisworks/hypothesis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-brownie/brownie",
+      "target": "nomicfoundation/hardhat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "BobTheBuidler/mypycify@v0.2.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "BobTheBuidler/mypycify@v0.2.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "Compile C Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "Core Ganache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "BobTheBuidler/mypycify@v0.2.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "evm tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "BobTheBuidler/mypycify@v0.2.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "functionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "BobTheBuidler/lint-all-the-things@v0.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eth-brownie/brownie",
+      "target": "Lint All The Things",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-brownie/brownie",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-brownie/brownie",
+      "target": "solidity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-brownie/brownie",
+      "target": "vyper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-brownie/brownie",
+      "target": "web3py",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:33.609966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6425
+    },
+    {
+      "path": "Dockerfile",
+      "size": 404
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2505
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5096
+    },
+    {
+      "path": ".github/workflows/check-lint.yaml",
+      "size": 2758
+    },
+    {
+      "path": ".github/workflows/compile.yaml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/core-ganache.yaml",
+      "size": 5676
+    },
+    {
+      "path": ".github/workflows/evm.yaml",
+      "size": 3135
+    },
+    {
+      "path": ".github/workflows/functionality.yaml",
+      "size": 2925
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.",
+    "fork": false,
+    "full_name": "eth-brownie/brownie",
+    "html_url": "https://github.com/eth-brownie/brownie",
+    "language": "C",
+    "pushed_at": "2026-04-21T15:12:51Z",
+    "stargazers_count": 2729,
+    "topics": [
+      "ethereum",
+      "solidity",
+      "vyper",
+      "web3py"
+    ],
+    "updated_at": "2026-04-19T20:48:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apeworx/ape",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/solidity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hypothesisworks/hypothesis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nomicfoundation/hardhat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "term": "linting"
+    },
+    {
+      "context_snippet": "Compile C Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yaml",
+      "term": "Compile C Files"
+    },
+    {
+      "context_snippet": "Core Ganache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "term": "Core Ganache"
+    },
+    {
+      "context_snippet": "evm tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evm.yaml",
+      "term": "evm tests"
+    },
+    {
+      "context_snippet": "functionality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functionality.yaml",
+      "term": "functionality"
+    },
+    {
+      "context_snippet": "Lint All The Things",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint All The Things"
+    },
+    {
+      "context_snippet": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solidity"
+    },
+    {
+      "context_snippet": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vyper"
+    },
+    {
+      "context_snippet": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3py"
+    }
+  ]
+}

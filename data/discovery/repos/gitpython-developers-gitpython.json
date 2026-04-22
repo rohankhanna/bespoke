@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin-test.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "Vampire/setup-wsl@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "byron/gitoxide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "axitkhurana/buster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "beayemx/gitviper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "bthayer2365/git-gud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine-test.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine-test.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "test-alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin-test.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin-test.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "cygwin/cygwin-install-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin-test.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "test-cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "Vampire/setup-wsl@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "git-plumbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "git-porcelain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitpython-developers/GitPython",
+      "target": "python-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:15:06.654244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11887
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2733
+    },
+    {
+      "path": "requirements.txt",
+      "size": 66
+    },
+    {
+      "path": ".github/workflows/alpine-test.yml",
+      "size": 2163
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4398
+    },
+    {
+      "path": ".github/workflows/cygwin-test.yml",
+      "size": 2763
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/pythonpackage.yml",
+      "size": 4033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitPython is a python library used to interact with Git repositories.",
+    "fork": false,
+    "full_name": "gitpython-developers/GitPython",
+    "html_url": "https://github.com/gitpython-developers/GitPython",
+    "language": "Python",
+    "pushed_at": "2026-04-21T02:09:46Z",
+    "stargazers_count": 5106,
+    "topics": [
+      "git-plumbing",
+      "git-porcelain",
+      "python-library"
+    ],
+    "updated_at": "2026-04-21T19:14:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axitkhurana/buster",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beayemx/gitviper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bthayer2365/git-gud",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byron/gitoxide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test-alpine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine-test.yml",
+      "term": "test-alpine"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "test-cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin-test.yml",
+      "term": "test-cygwin"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-plumbing"
+    },
+    {
+      "context_snippet": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-porcelain"
+    },
+    {
+      "context_snippet": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    }
+  ]
+}

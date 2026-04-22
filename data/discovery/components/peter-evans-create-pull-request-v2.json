@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-pull-request@v2",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php"
+    }
+  ]
+}

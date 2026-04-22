@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate-context",
+      "text": "Use Relay as React hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate-context",
+      "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate",
+      "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34780072,
+      "status": "candidate",
+      "text": "crochet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34779988,
+      "status": "candidate",
+      "text": "knock off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34779636,
+      "status": "candidate",
+      "text": "mitt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34764142,
+      "status": "candidate",
+      "text": "fleece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34763434,
+      "status": "candidate",
+      "text": "soak"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "hooks",
   "concept_id": "hooks",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "relay-tools/relay-hooks"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

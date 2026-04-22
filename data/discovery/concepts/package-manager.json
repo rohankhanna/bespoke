@@ -115,6 +115,30 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate-context",
+      "text": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate-context",
+      "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate",
+      "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

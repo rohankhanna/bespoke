@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "docker-library/postgres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "caddyserver/caddy-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "hexops/dockerfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "krallin/tini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "uids",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:40.958063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8453
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dockerfile best-practices for writing production-worthy Docker images.",
+    "fork": false,
+    "full_name": "hexops-graveyard/dockerfile",
+    "html_url": "https://github.com/hexops-graveyard/dockerfile",
+    "language": "Dockerfile",
+    "pushed_at": "2021-08-08T04:42:37Z",
+    "stargazers_count": 4090,
+    "topics": [
+      "containers",
+      "dockerfile",
+      "kubernetes",
+      "oci",
+      "uids"
+    ],
+    "updated_at": "2026-04-18T14:09:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caddyserver/caddy-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/postgres",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hexops/dockerfile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krallin/tini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uids"
+    }
+  ]
+}

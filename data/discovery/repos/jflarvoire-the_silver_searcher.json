@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "k-takata/the_silver_searcher-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "microsoft/winget-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "mileszs/ack.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "ggreer/ackmate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:46.099521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A code-searching tool similar to ack, but faster.",
+    "fork": true,
+    "full_name": "JFLarvoire/the_silver_searcher",
+    "html_url": "https://github.com/JFLarvoire/the_silver_searcher",
+    "language": "C",
+    "pushed_at": "2026-04-19T10:15:18Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-19T10:15:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggreer/ackmate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k-takata/the_silver_searcher-win32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winget-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mileszs/ack.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

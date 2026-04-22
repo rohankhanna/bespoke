@@ -1,0 +1,764 @@
+{
+  "components": [
+    {
+      "component": "all-contributors-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-patcher.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packsvgs.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packsvgs.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packsvgs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mukunku/tag-exists-action",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "EndBug/latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "fontforge/fontforge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "all-contributors-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Create Casks PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Update contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Docker release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-patcher.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/font-patcher.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Font-Patcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontjson.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fontjson.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Update gitignore and gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "dessant/lock-threads@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packsvgs.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packsvgs.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packsvgs.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "PackSVGs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "mukunku/tag-exists-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "EndBug/latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "font-awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "icon-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "iconic-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "octicons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "patched-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "patcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:31.512437+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 1795
+    },
+    {
+      "path": "package.json",
+      "size": 945
+    },
+    {
+      "path": ".github/workflows/casks.yml",
+      "size": 2822
+    },
+    {
+      "path": ".github/workflows/contributors.yml",
+      "size": 1271
+    },
+    {
+      "path": ".github/workflows/docker-release.yml",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/font-patcher.yml",
+      "size": 5872
+    },
+    {
+      "path": ".github/workflows/fontjson.yml",
+      "size": 1472
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/packsvgs.yml",
+      "size": 3565
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 15207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more",
+    "fork": false,
+    "full_name": "ryanoasis/nerd-fonts",
+    "html_url": "https://github.com/ryanoasis/nerd-fonts",
+    "language": "CSS",
+    "pushed_at": "2026-03-17T19:17:14Z",
+    "stargazers_count": 62656,
+    "topics": [
+      "font",
+      "font-awesome",
+      "fonts",
+      "hacktoberfest",
+      "icon-font",
+      "iconic-fonts",
+      "octicons",
+      "patched-fonts",
+      "patcher",
+      "powerline",
+      "python",
+      "shell",
+      "statusline"
+    ],
+    "updated_at": "2026-04-22T01:01:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fontforge/fontforge",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Casks PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/casks.yml",
+      "term": "Create Casks PR"
+    },
+    {
+      "context_snippet": "Update contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "term": "Update contributors"
+    },
+    {
+      "context_snippet": "Docker release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "term": "Docker release"
+    },
+    {
+      "context_snippet": "\"Font-Patcher\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/font-patcher.yml",
+      "term": "Font-Patcher"
+    },
+    {
+      "context_snippet": "Update gitignore and gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fontjson.yml",
+      "term": "Update gitignore and gh-pages"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "PackSVGs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packsvgs.yml",
+      "term": "PackSVGs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font-awesome"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-font"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconic-fonts"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octicons"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patched-fonts"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patcher"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

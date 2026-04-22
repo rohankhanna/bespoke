@@ -6,15 +6,8 @@
       "source_repo": "opencontainers/.github",
       "target": "opencontainers/tob",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "opencontainers/.github",
-      "target": "opencontainers/runtime-spec",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "opencontainers/.github"
 }

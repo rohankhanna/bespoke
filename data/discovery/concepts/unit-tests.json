@@ -32,6 +32,18 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "A modern replacement for \u2018ls\u2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate",
+      "text": "Unit tests"
     }
   ],
   "candidate_related_terms": [
@@ -113,11 +131,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "ogham/exa"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

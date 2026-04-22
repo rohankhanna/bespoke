@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build libc Container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "Build libc Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate",
+      "text": "Build libc Container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28499,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28099,
+      "status": "candidate",
+      "text": "escaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28011,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28011,
+      "status": "candidate",
+      "text": "escape valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28011,
+      "status": "candidate",
+      "text": "relief valve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build libc Container",
+  "concept_id": "build-libc-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "llvm/llvm-project"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build libc Container",
+      "sense_id": "build-libc-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

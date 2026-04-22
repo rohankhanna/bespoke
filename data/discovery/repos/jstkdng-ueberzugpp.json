@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "pystardust/ytfzf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "justchokingaround/lobster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "kevinhwang91/rnvimr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "3rd/image.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "Build OBS packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:01.477700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7369
+    },
+    {
+      "path": ".github/workflows/obs-upload.sh",
+      "size": 4184
+    },
+    {
+      "path": ".github/workflows/obs-upload.yml",
+      "size": 505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drop in replacement for ueberzug written in C++",
+    "fork": false,
+    "full_name": "jstkdng/ueberzugpp",
+    "html_url": "https://github.com/jstkdng/ueberzugpp",
+    "language": "C++",
+    "pushed_at": "2025-10-28T01:02:45Z",
+    "stargazers_count": 1260,
+    "topics": [],
+    "updated_at": "2026-04-19T18:29:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3rd/image.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justchokingaround/lobster",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kevinhwang91/rnvimr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pystardust/ytfzf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Build OBS packages'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "term": "Build OBS packages"
+    }
+  ]
+}

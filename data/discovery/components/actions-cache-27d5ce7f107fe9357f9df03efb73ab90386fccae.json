@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/containerd.yml",
       "source_repo": "kubernetes-sigs/cri-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-openssl/rust-openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex"
     }
   ]
 }

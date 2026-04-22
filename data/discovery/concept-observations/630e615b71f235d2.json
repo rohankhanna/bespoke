@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scripts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979529,
+      "status": "candidate",
+      "text": "handwriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979079,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970191,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739347,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985855,
+      "status": "candidate",
+      "text": "alphabets"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scripts",
+      "sense_id": "scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scripts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scripts",
+  "observation_id": "630e615b71f235d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Scripts",
+  "source_context_snippet": "Scripts",
+  "source_file": ".github/workflows/scripts-lint.yml",
+  "source_repo": "ChainSafe/forest-iac",
+  "source_repo_description": "Infrastructure as Code to support the Forest Filecoin project"
+}

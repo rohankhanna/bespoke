@@ -19,6 +19,18 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate-context",
       "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "wik is use to get information about anything on the shell using Wikipedia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate",
       "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "Builditluc/wiki-tui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

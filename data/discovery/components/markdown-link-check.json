@@ -1,12 +1,22 @@
 {
   "component": "markdown-link-check",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "open-telemetry/opentelemetry-specification"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "crytic/building-secure-contracts"
     }
   ]
 }

@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/reflow",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/reflow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/reflow",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "muesli/reflow",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "muesli/reflow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "muesli/reflow",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/reflow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/reflow",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/reflow",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "dedent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "indentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "margin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "padding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/reflow",
+      "target": "wordwrap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:20.396259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    },
+    {
+      "path": "go.mod",
+      "size": 88
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of (ANSI-sequence aware) text reflow operations & algorithms",
+    "fork": false,
+    "full_name": "muesli/reflow",
+    "html_url": "https://github.com/muesli/reflow",
+    "language": "Go",
+    "pushed_at": "2024-04-18T19:08:14Z",
+    "stargazers_count": 771,
+    "topics": [
+      "ansi",
+      "dedent",
+      "hacktoberfest",
+      "indentation",
+      "margin",
+      "padding",
+      "wordwrap"
+    ],
+    "updated_at": "2026-04-18T06:07:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dedent"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indentation"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "margin"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "padding"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordwrap"
+    }
+  ]
+}

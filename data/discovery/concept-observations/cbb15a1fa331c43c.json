@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925191,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917597,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912462,
+      "status": "candidate",
+      "text": "interpreting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910238,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830965,
+      "status": "candidate",
+      "text": "rendition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rendering",
+      "sense_id": "rendering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21041,
+      "status": "candidate",
+      "text": "rendition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11048,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6025,
+      "status": "candidate",
+      "text": "interpreting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2062,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "concept_id": "rendering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rendering",
+  "observation_id": "cbb15a1fa331c43c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "rendering",
+  "source_context_snippet": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026",
+  "source_file": null,
+  "source_repo": "NVlabs/tiny-cuda-nn",
+  "source_repo_description": "Lightning fast C++/CUDA neural network framework"
+}

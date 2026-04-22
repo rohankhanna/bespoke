@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "opam"
+    "opam",
+    "Opam"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,42 @@
       "source_repo": "ocaml/opam",
       "status": "candidate-context",
       "text": "|master|2.0|2.1|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "Opam"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/opam-repository",
+      "status": "candidate-context",
+      "text": "Main public package repository for opam, the source package manager of OCaml."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam-repository",
+      "status": "candidate-context",
+      "text": "This repository contains OCaml package and compiler metadata and is used by the default installation of [opam](https://opam.ocaml.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-opam/opam-rt",
+      "status": "candidate-context",
+      "text": "Regression Testing framework for opam"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-opam/opam-rt",
+      "status": "candidate-context",
+      "text": "The goal of opam-rt is to test for regressions in opam."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +66,24 @@
       "source_repo": "ocaml/opam",
       "status": "candidate",
       "text": "|master|2.0|2.1|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate",
+      "text": "Opam"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/opam-repository",
+      "status": "candidate",
+      "text": "This repository contains OCaml package and compiler metadata and is used by the default installation of [opam](https://opam.ocaml.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-opam/opam-rt",
+      "status": "candidate",
+      "text": "The goal of opam-rt is to test for regressions in opam."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +97,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ocaml/opam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "grain-lang/binaryen.ml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/opam-repository"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-opam/opam-rt"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

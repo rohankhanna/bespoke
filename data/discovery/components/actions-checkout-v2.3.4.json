@@ -1,0 +1,42 @@
+{
+  "component": "actions/checkout@v2.3.4",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx"
+    }
+  ]
+}

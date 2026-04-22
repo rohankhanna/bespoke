@@ -1,0 +1,577 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "agentica-project/rllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "agentica-project/verl-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "agent-rl/research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "alibaba-quark/ssp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "verl-project/verl",
+      "target": "volcengine/vemlp-github-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "verl-project/verl",
+      "target": "Your Default Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml",
+      "source_repo": "verl-project/verl",
+      "target": "volcengine/vemlp-github-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker-build-ascend-a2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:59.417201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37428
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3196
+    },
+    {
+      "path": "requirements.txt",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2406
+    },
+    {
+      "path": ".github/workflows/check-pr-title.yml",
+      "size": 2494
+    },
+    {
+      "path": ".github/workflows/cpu_unit_tests.yml",
+      "size": 4555
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 4196
+    },
+    {
+      "path": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "size": 3481
+    },
+    {
+      "path": ".github/workflows/docker-build-ascend-a2.yml",
+      "size": 5332
+    },
+    {
+      "path": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "size": 3479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
+    "fork": false,
+    "full_name": "verl-project/verl",
+    "html_url": "https://github.com/verl-project/verl",
+    "language": "Python",
+    "pushed_at": "2026-04-21T14:47:09Z",
+    "stargazers_count": 20844,
+    "topics": [],
+    "updated_at": "2026-04-22T00:55:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-rl/research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentica-project/rllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentica-project/verl-pipeline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-quark/ssp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Your Default Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/README.md",
+      "term": "Your Default Workflow"
+    },
+    {
+      "context_snippet": "docker-build-ascend-a2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "term": "docker-build-ascend-a2"
+    }
+  ]
+}

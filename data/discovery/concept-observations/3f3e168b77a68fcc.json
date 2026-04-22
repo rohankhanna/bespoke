@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981273,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979863,
+      "status": "candidate",
+      "text": "variation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979571,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978218,
+      "status": "candidate",
+      "text": "reading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978098,
+      "status": "candidate",
+      "text": "variant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "versioning",
+      "sense_id": "versioning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "versioning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "versioning",
+  "observation_id": "3f3e168b77a68fcc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "versioning",
+  "source_context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+  "source_file": null,
+  "source_repo": "coreybutler/nvm-windows",
+  "source_repo_description": "A node.js version management utility for Windows. Ironically written in Go."
+}

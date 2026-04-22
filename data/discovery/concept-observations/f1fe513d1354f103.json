@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Promote to Nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Promote to Nightly"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "pbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12610,
+      "status": "candidate",
+      "text": "favor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12489,
+      "status": "candidate",
+      "text": "dba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12489,
+      "status": "candidate",
+      "text": "hostel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote to Nightly",
+      "sense_id": "promote-to-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "promote-to-nightly",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "promote-to-nightly",
+  "observation_id": "f1fe513d1354f103",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Promote to Nightly",
+  "source_context_snippet": "Promote to Nightly",
+  "source_file": ".github/workflows/acceptance_test_promote.yml",
+  "source_repo": "Sovereign-Labs/sovereign-sdk",
+  "source_repo_description": "A flexible toolkit for building real-time blockchains"
+}

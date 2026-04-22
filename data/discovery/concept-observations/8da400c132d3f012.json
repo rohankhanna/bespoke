@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050811,
+      "status": "candidate",
+      "text": "unassembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050810,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050809,
+      "status": "candidate",
+      "text": "assembler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050808,
+      "status": "candidate",
+      "text": "decompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050807,
+      "status": "candidate",
+      "text": "decompilation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disassembler",
+      "sense_id": "disassembler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "disassembler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "disassembler",
+  "observation_id": "8da400c132d3f012",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "disassembler",
+  "source_context_snippet": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">",
+  "source_file": null,
+  "source_repo": "NationalSecurityAgency/ghidra",
+  "source_repo_description": "Ghidra is a software reverse engineering (SRE) framework"
+}

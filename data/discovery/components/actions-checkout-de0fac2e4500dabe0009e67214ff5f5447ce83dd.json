@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2472,6 +2472,941 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance-nightly.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backcompat.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundler-tests.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-or-update-release-pr.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft-change-log-entries.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-author-feedback.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-check.yaml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-s390x.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-checks.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comptests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-rustc-targets.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-openssl/rust-openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spam-check.lock.yml",
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Cyan4973/xxHash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Cyan4973/xxHash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alert-failed-test.yml",
+      "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-pr.yml",
+      "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2eTests.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/k3s-e2eTests.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_release.yml",
+      "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommits_check.yml",
+      "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-shared.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docset.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-package.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-untracked-repos.yml",
+      "source_repo": "rust-lang/team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dry-run.yml",
+      "source_repo": "rust-lang/team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/team"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nur-update"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_proxy-file-for-dependabot-tests.yml",
+      "source_repo": "conda-forge/conda-smithy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ethereum-tests.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/foundry-fork-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-website.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kit.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-nightly.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundler-friendly.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-sizes.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-cspell.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-package-test.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-test.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new-linter-checklist.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yaml",
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classify-issue-severity.yml",
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-review.yaml",
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/args.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/async.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/characters.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/convert.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fixnum.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml",
+      "source_repo": "dart-lang/http"
     }
   ]
 }

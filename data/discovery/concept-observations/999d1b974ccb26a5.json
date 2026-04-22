@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Classes Without Boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843259,
+      "status": "candidate",
+      "text": "repetitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29840738,
+      "status": "candidate",
+      "text": "iterative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006697,
+      "status": "candidate",
+      "text": "boiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006696,
+      "status": "candidate",
+      "text": "crown sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006695,
+      "status": "candidate",
+      "text": "copperplate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boilerplate",
+      "sense_id": "boilerplate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "boilerplate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "boilerplate",
+  "observation_id": "999d1b974ccb26a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "boilerplate",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "python-attrs/attrs",
+  "source_repo_description": "Python Classes Without Boilerplate"
+}

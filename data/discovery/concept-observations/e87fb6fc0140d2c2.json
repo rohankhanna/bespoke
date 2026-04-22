@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "General purpose TLS and crypto library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Trigger docs.openssl.org deployment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Trigger docs.openssl.org deployment\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "activated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "fan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "feed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "fire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger docs.openssl.org deployment",
+      "sense_id": "trigger-docs.openssl.org-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-docs.openssl.org-deployment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-docs.openssl.org-deployment",
+  "observation_id": "e87fb6fc0140d2c2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Trigger docs.openssl.org deployment",
+  "source_context_snippet": "\"Trigger docs.openssl.org deployment\"",
+  "source_file": ".github/workflows/deploy-docs-openssl-org.yml",
+  "source_repo": "openssl/openssl",
+  "source_repo_description": "General purpose TLS and crypto library"
+}

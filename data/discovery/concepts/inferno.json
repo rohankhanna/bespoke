@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "inferno"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044190,
+      "status": "candidate",
+      "text": "perdition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041605,
+      "status": "candidate",
+      "text": "nether region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039893,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918917,
+      "status": "candidate",
+      "text": "hell on earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910565,
+      "status": "candidate",
+      "text": "the pits"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29031,
+      "status": "candidate",
+      "text": "conflagration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25036,
+      "status": "candidate",
+      "text": "perdition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11011,
+      "status": "candidate",
+      "text": "nether region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10058,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "hell on earth"
+    }
+  ],
+  "canonical_name": "inferno",
+  "concept_id": "inferno",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "insin/nwb"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inferno",
+      "sense_id": "inferno#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

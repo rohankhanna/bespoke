@@ -1,0 +1,12 @@
+{
+  "component": "flutter-actions/setup-flutter@d4e97a6e7467ef062618c9af927f90bc9651b876",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml",
+      "source_repo": "dart-lang/i18n"
+    }
+  ]
+}

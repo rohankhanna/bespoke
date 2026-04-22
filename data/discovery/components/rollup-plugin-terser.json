@@ -1,7 +1,7 @@
 {
   "component": "@rollup/plugin-terser",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -22,6 +22,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vega/vega-datasets"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "relay-tools/relay-hooks"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette"
     }
   ]
 }

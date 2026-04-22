@@ -130,6 +130,54 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "A zlib implementation in rust available as a C dynamic library and as a rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "The Finch CLI is an open source client for container development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +238,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hyperium/hyper",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
       "status": "candidate",
       "text": "Benchmark"
     }
@@ -339,11 +411,41 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/bench.yml.disabled",
       "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

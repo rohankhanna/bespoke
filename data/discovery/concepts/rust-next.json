@@ -19,12 +19,30 @@
       "source_repo": "rust-cli/env_logger",
       "status": "candidate-context",
       "text": "rust-next"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/imperative",
+      "status": "candidate-context",
+      "text": "Check the mood of a word"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/imperative",
+      "status": "candidate-context",
+      "text": "rust-next"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-cli/env_logger",
+      "status": "candidate",
+      "text": "rust-next"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/imperative",
       "status": "candidate",
       "text": "rust-next"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/rust-next.yml",
       "source_repo": "rust-cli/env_logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "crate-ci/imperative"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

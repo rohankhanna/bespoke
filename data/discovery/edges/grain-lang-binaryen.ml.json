@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "webassembly/binaryen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "ocaml/ocaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "ocaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@grain/libbinaryen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@opam/dune",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@opam/dune-configurator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@opam/js_of_ocaml-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@opam/ocamlformat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "@opam/ocaml-lsp-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esy.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "Esy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "ocaml/setup-ocaml@c2e6bb92370612b89f302c3aaefa1da45ee2d702",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "Opam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "google-github-actions/release-please-action@v3.7.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "grain-lang/upload-release-action@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "ocaml/setup-ocaml@c2e6bb92370612b89f302c3aaefa1da45ee2d702",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "binaryen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "grain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "grain-lang/binaryen.ml"
+}

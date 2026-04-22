@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:06:28.381362+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A port of the RWKV v7 language model, implemented with the Burn deep learning framework",
+    "fork": false,
+    "full_name": "dymat/rwkv-burn",
+    "html_url": "https://github.com/dymat/rwkv-burn",
+    "language": "Rust",
+    "pushed_at": "2025-06-09T12:55:44Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-03-07T10:43:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

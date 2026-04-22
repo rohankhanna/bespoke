@@ -31,6 +31,18 @@
       "source_repo": "opencontainers/runtime-spec",
       "status": "candidate-context",
       "text": "[![GitHub Actions status](https://github.com/opencontainers/runtime-spec/workflows/build/badge.svg)](https://github.com/opencontainers/runtime-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate-context",
+      "text": "Technical Oversight Board (TOB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate-context",
+      "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "opencontainers/runtime-spec",
       "status": "candidate",
       "text": "[![GitHub Actions status](https://github.com/opencontainers/runtime-spec/workflows/build/badge.svg)](https://github.com/opencontainers/runtime-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate",
+      "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "opencontainers/runtime-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/tob"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

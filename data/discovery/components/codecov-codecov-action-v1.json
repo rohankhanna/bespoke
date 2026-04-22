@@ -1,0 +1,37 @@
+{
+  "component": "codecov/codecov-action@v1",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/VegaDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/VegaDatasets.jl"
+    }
+  ]
+}

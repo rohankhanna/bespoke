@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7528cel-go\u91cd\u73b0\u4e86\u957f\u4eadxray\u7684poc\u68c0\u6d4b\u529f\u80fd\u7684\u8f6e\u5b50"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "security-testing",
+      "sense_id": "security-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "security-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "security-testing",
+  "observation_id": "b3a0562ea753d048",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "security-testing",
+  "source_context_snippet": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026",
+  "source_file": null,
+  "source_repo": "jjf012/gopoc",
+  "source_repo_description": "\u7528cel-go\u91cd\u73b0\u4e86\u957f\u4eadxray\u7684poc\u68c0\u6d4b\u529f\u80fd\u7684\u8f6e\u5b50"
+}

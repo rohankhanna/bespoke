@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -397,6 +397,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "allenporter/python-google-nest-sdm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-trio/trio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik"
     }
   ]
 }

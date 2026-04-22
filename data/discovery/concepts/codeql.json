@@ -483,6 +483,198 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate-context",
+      "text": "Code signing and transparency for containers and binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "OpenTelemetry protocol (OTLP) specification and Protobuf definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate-context",
+      "text": "GitPython is a python library used to interact with Git repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "Python Classes Without Boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "Create a JavaScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate-context",
+      "text": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "xbar/Swiftbar plugin to control lima-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "The code coverage tool for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -723,6 +915,102 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vcpkg",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
       "status": "candidate",
       "text": "\"CodeQL\""
     }
@@ -1026,11 +1314,119 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

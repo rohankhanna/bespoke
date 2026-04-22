@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "hashicorp/setup-packer@c3d53c525d422944e50ee27b840746d6522b08de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Build AWS Neuron AMI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache_diffusion.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache_diffusion.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Optimum neuron SD inference cache builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache_llm.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache_llm.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Optimum neuron LLM inference cache builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Upload PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-neuron",
+      "target": "Security Checks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "huggingface/optimum-neuron"
+}

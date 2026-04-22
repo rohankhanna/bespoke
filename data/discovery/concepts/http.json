@@ -79,6 +79,42 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "A super-easy, composable, web server framework for warp speeds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "A composable API for making HTTP requests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/hyper.svg)](https://crates.io/crates/hyper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [
@@ -210,11 +264,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/http"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

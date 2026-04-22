@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast non-cryptographic hash algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045198,
+      "status": "candidate",
+      "text": "dispersal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045097,
+      "status": "candidate",
+      "text": "scattering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043322,
+      "status": "candidate",
+      "text": "dissemination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003755,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045232,
+      "status": "candidate",
+      "text": "dispersive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dispersion",
+      "sense_id": "dispersion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12032,
+      "status": "candidate",
+      "text": "dissemination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4090,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "scattering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "dispersal"
+    }
+  ],
+  "concept_id": "dispersion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dispersion",
+  "observation_id": "cec3082fec4289a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "dispersion",
+  "source_context_snippet": "xxHash - Extremely fast hash algorithm",
+  "source_file": null,
+  "source_repo": "Cyan4973/xxHash",
+  "source_repo_description": "Extremely fast non-cryptographic hash algorithm"
+}

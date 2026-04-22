@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close stale issues and PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PR'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate",
+      "text": "'Close stale issues and PR'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22114,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22114,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21126,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20887,
+      "status": "candidate",
+      "text": "disappearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20887,
+      "status": "candidate",
+      "text": "present"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close stale issues and PR",
+  "concept_id": "close-stale-issues-and-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stale issues and PR",
+      "sense_id": "close-stale-issues-and-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

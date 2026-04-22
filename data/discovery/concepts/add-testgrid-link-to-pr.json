@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Add Testgrid Link to PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate-context",
+      "text": "Add Testgrid Link to PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate",
+      "text": "Add Testgrid Link to PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19265,
+      "status": "candidate",
+      "text": "young"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19166,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19166,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19166,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19133,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add Testgrid Link to PR",
+  "concept_id": "add-testgrid-link-to-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/XLML.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Testgrid Link to PR",
+      "sense_id": "add-testgrid-link-to-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

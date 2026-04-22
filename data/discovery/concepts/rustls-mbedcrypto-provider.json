@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "rustls-mbedcrypto-provider"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fortanix/rustls-mbedtls-provider",
+      "status": "candidate-context",
+      "text": "rustls-mbedcrypto-provider"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fortanix/rustls-mbedtls-provider",
+      "status": "candidate",
+      "text": "rustls-mbedcrypto-provider"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rustls-mbedcrypto-provider",
+  "concept_id": "rustls-mbedcrypto-provider",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fortanix/rustls-mbedtls-provider"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rustls-mbedcrypto-provider",
+      "sense_id": "rustls-mbedcrypto-provider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

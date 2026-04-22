@@ -19,12 +19,84 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/escover",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa9 Coverage for EcmaScript Modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/escover",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/estrace",
+      "status": "candidate-context",
+      "text": "Trace functions in EcmaScript Modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estrace",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "convert estree ast to babel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "coderaiser/putout",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/escover",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estrace",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/escover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/estrace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/estree-to-babel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jestjs/jest"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

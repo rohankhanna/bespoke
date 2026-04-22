@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "issue ai inference"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "issue ai inference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "issue ai inference"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16075,
+      "status": "candidate",
+      "text": "robotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15231,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15108,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14986,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14985,
+      "status": "candidate",
+      "text": "prolog"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "issue ai inference",
+  "concept_id": "issue-ai-inference",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ai-inference.yml",
+      "source_repo": "microsoft/genaiscript"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "issue ai inference",
+      "sense_id": "issue-ai-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

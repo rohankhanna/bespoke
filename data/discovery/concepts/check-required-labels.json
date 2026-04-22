@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Required Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Check Required Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Check Required Labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25951,
+      "status": "candidate",
+      "text": "clearance time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22776,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22732,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22460,
+      "status": "candidate",
+      "text": "postage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21614,
+      "status": "candidate",
+      "text": "smear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Required Labels",
+  "concept_id": "check-required-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check-required-label.yml",
+      "source_repo": "jesseduffield/lazygit"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Required Labels",
+      "sense_id": "check-required-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

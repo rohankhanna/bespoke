@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release lib to crates.io"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "status": "candidate-context",
+      "text": "A macro-driven JSON-RPC client for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "status": "candidate-context",
+      "text": "\"Release lib to crates.io\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client",
+      "status": "candidate-context",
+      "text": "A macro-driven JSON-RPC client for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client",
+      "status": "candidate-context",
+      "text": "\"Release lib to crates.io\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "status": "candidate",
+      "text": "\"Release lib to crates.io\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client",
+      "status": "candidate",
+      "text": "\"Release lib to crates.io\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13570,
+      "status": "candidate",
+      "text": "ad-lib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13570,
+      "status": "candidate",
+      "text": "aside"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13570,
+      "status": "candidate",
+      "text": "cuff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13570,
+      "status": "candidate",
+      "text": "freely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13570,
+      "status": "candidate",
+      "text": "freestyle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release lib to crates.io",
+  "concept_id": "release-lib-to-crates.io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release lib to crates.io",
+      "sense_id": "release-lib-to-crates.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

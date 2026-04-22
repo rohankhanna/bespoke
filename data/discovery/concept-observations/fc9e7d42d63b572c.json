@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove pending label on answer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove pending label on answer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29849,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29616,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29600,
+      "status": "candidate",
+      "text": "cancel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29600,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29523,
+      "status": "candidate",
+      "text": "beats"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove pending label on answer",
+      "sense_id": "remove-pending-label-on-answer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-pending-label-on-answer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-pending-label-on-answer",
+  "observation_id": "fc9e7d42d63b572c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Remove pending label on answer",
+  "source_context_snippet": "Remove pending label on answer",
+  "source_file": ".github/workflows/pending_answered.yml",
+  "source_repo": "docker-archive/compose-cli",
+  "source_repo_description": "Easily run your Compose application to the cloud with compose-cli"
+}

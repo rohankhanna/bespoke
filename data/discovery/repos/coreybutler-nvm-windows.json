@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-upx@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/trusted-signing-action@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/trusted-signing-action@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml"
+    },
+    {
+      "component": "WoozyMasta/virustotal-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-virustotal@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml"
+    },
+    {
+      "component": "vedantmgoyal2009/winget-releaser@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "coreybutler/staticassets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "coreybutler/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "coreybutler/node-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "coreybutler/nodedistro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "crazy-max/ghaction-import-gpg@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "Autotag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "Close stale issues and PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "crazy-max/ghaction-upx@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "azure/trusted-signing-action@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "WoozyMasta/virustotal-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "crazy-max/ghaction-virustotal@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "Virus Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "vedantmgoyal2009/winget-releaser@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "Publish to Winget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "node-version-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "switch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "version-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:10:17.577881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20566
+    },
+    {
+      "path": ".github/workflows/autotag.yml",
+      "size": 1457
+    },
+    {
+      "path": ".github/workflows/bot.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 15604
+    },
+    {
+      "path": ".github/workflows/scanner.yml",
+      "size": 2743
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A node.js version management utility for Windows. Ironically written in Go.",
+    "fork": false,
+    "full_name": "coreybutler/nvm-windows",
+    "html_url": "https://github.com/coreybutler/nvm-windows",
+    "language": "Go",
+    "pushed_at": "2026-04-17T17:58:18Z",
+    "stargazers_count": 46037,
+    "topics": [
+      "go",
+      "management",
+      "node",
+      "node-version-manager",
+      "nodejs",
+      "nvm",
+      "switch",
+      "version",
+      "version-manager",
+      "versioning",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T15:20:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/node-windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/nodedistro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/staticassets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autotag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yml",
+      "term": "Autotag"
+    },
+    {
+      "context_snippet": "'Close stale issues and PR'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "term": "Close stale issues and PR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Virus Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scanner.yml",
+      "term": "Virus Scan"
+    },
+    {
+      "context_snippet": "Publish to Winget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish to Winget"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "management"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-version-manager"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "switch"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

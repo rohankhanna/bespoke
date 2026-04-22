@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bandit is a tool designed to find common security issues in Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test Bandit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test Bandit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "construction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19645,
+      "status": "candidate",
+      "text": "one"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Bandit",
+      "sense_id": "build-and-test-bandit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-bandit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-bandit",
+  "observation_id": "dd858bde0d04c596",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build and Test Bandit",
+  "source_context_snippet": "Build and Test Bandit",
+  "source_file": ".github/workflows/pythonpackage.yml",
+  "source_repo": "PyCQA/bandit",
+  "source_repo_description": "Bandit is a tool designed to find common security issues in Python code."
+}

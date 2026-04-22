@@ -55,6 +55,18 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate-context",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanbingxyz/5ire",
+      "status": "candidate-context",
+      "text": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/5ire",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/5ire",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nanbingxyz/5ire"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

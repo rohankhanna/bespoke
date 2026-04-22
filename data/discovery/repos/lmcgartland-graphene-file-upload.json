@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "target": "jaydenseric/graphql-multipart-request-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "target": "jaydenseric/graphql-multipart-request-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "target": "graphene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "target": "graphql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:56.012509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6481
+    },
+    {
+      "path": "README.rst",
+      "size": 7285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enhances Graphene Django GraphQL Server for intuitive file uploads via GraphQL mutations.",
+    "fork": false,
+    "full_name": "lmcgartland/graphene-file-upload",
+    "html_url": "https://github.com/lmcgartland/graphene-file-upload",
+    "language": "Python",
+    "pushed_at": "2022-12-15T15:07:49Z",
+    "stargazers_count": 287,
+    "topics": [
+      "django",
+      "graphene",
+      "graphql"
+    ],
+    "updated_at": "2026-03-20T22:20:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaydenseric/graphql-multipart-request-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaydenseric/graphql-multipart-request-spec",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphene"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    }
+  ]
+}

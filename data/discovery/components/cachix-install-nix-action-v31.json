@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@v31",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix-macos.yml",
       "source_repo": "arxanas/git-branchless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_variants.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arckoor/jsonwebtoken-botan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Mic92/nur-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nix-community/nur-packages-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-gomod2nix.yml",
+      "source_repo": "direnv/direnv"
     }
   ]
 }

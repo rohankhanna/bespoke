@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "science"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "ModelScope: bring the notion of Model-as-a-Service to life."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025852,
+      "status": "candidate",
+      "text": "skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038336,
+      "status": "candidate",
+      "text": "scientific discipline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038336,
+      "status": "candidate",
+      "text": "scientific knowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038335,
+      "status": "candidate",
+      "text": "scientifically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038306,
+      "status": "candidate",
+      "text": "scientific"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18053,
+      "status": "candidate",
+      "text": "skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scientific discipline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scientific knowledge"
+    }
+  ],
+  "canonical_name": "science",
+  "concept_id": "science",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/modelscope"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "science",
+      "sense_id": "science#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

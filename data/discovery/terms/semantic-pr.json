@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/semantic-pull-request.yml",
       "source_repo": "libp2p/js-libp2p-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-circuit-relay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-connection-encryption"
     }
   ],
   "term": "Semantic PR"

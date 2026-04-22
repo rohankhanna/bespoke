@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Esy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Esy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "dispence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14999,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "was"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Esy",
+      "sense_id": "esy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "esy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "esy",
+  "observation_id": "8e0132ae51188a19",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Esy",
+  "source_context_snippet": "Esy",
+  "source_file": ".github/workflows/esy.yml",
+  "source_repo": "grain-lang/binaryen.ml",
+  "source_repo_description": "OCaml bindings for Binaryen."
+}

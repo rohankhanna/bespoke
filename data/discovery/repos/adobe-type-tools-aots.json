@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:12:46.362539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Annotated OpenType Specification",
+    "fork": false,
+    "full_name": "adobe-type-tools/aots",
+    "html_url": "https://github.com/adobe-type-tools/aots",
+    "language": "XSLT",
+    "pushed_at": "2025-11-29T13:50:04Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2025-11-29T13:50:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

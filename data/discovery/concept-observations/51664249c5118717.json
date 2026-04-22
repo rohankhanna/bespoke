@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022275,
+      "status": "candidate",
+      "text": "bandwidth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022274,
+      "status": "candidate",
+      "text": "data rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022273,
+      "status": "candidate",
+      "text": "epsilon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022272,
+      "status": "candidate",
+      "text": "yrneh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022271,
+      "status": "candidate",
+      "text": "flux unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "erlang",
+      "sense_id": "erlang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "erlang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "erlang",
+  "observation_id": "51664249c5118717",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "erlang",
+  "source_context_snippet": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026",
+  "source_file": null,
+  "source_repo": "asdf-vm/asdf",
+  "source_repo_description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+}

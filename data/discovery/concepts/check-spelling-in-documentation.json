@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check spelling in documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Check spelling in documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "Check spelling in documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35677,
+      "status": "candidate",
+      "text": "proofread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "endorse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "postdate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19228,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19228,
+      "status": "candidate",
+      "text": "query"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check spelling in documentation",
+  "concept_id": "check-spelling-in-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "simonw/sqlite-utils"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check spelling in documentation",
+      "sense_id": "check-spelling-in-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

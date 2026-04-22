@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update repository with Cruft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update repository with Cruft"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "arms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "chest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "heels"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "outer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update repository with Cruft",
+      "sense_id": "update-repository-with-cruft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-repository-with-cruft",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-repository-with-cruft",
+  "observation_id": "dc033824b8eeae78",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Update repository with Cruft",
+  "source_context_snippet": "Update repository with Cruft",
+  "source_file": ".github/workflows/cruft.yaml",
+  "source_repo": "allenporter/python-google-nest-sdm",
+  "source_repo_description": null
+}

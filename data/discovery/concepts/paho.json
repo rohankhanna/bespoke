@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "paho"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-paho/paho.mqtt.testing",
+      "status": "candidate-context",
+      "text": "An Eclipse Paho project - a Python broker for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.testing",
+      "status": "candidate-context",
+      "text": "The Paho Testing Utilities are a collection of code and tools to help test MQTT clients and Brokers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.testing",
+      "status": "candidate",
+      "text": "The Paho Testing Utilities are a collection of code and tools to help test MQTT clients and Brokers."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007257,
+      "status": "candidate",
+      "text": "pso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006274,
+      "status": "candidate",
+      "text": "ppb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003888,
+      "status": "candidate",
+      "text": "asd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996808,
+      "status": "candidate",
+      "text": "asds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929330,
+      "status": "candidate",
+      "text": "sdo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "paho",
+  "concept_id": "paho",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.testing"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paho",
+      "sense_id": "paho#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

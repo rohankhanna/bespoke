@@ -121,6 +121,90 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate-context",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "ModelScope: bring the notion of Model-as-a-Service to life."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "CUDA Templates and Python DSLs for High-Performance Linear Algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate-context",
+      "text": "Everything you want to know about Google Cloud TPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate-context",
+      "text": "<h4 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate-context",
+      "text": "An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate-context",
+      "text": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/CLIP",
+      "status": "candidate-context",
+      "text": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/CLIP",
+      "status": "candidate-context",
+      "text": "[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +261,48 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate",
+      "text": "<h4 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate",
+      "text": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/CLIP",
+      "status": "candidate",
+      "text": "[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +376,59 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/modelscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/tiny-cuda-nn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "openai/CLIP"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

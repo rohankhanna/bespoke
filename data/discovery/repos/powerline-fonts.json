@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "powerline/fonts",
+      "target": "powerline/powerline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "powerline/fonts",
+      "target": "lokaltog/powerline-fonts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:29.690424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Patched fonts for Powerline users.",
+    "fork": false,
+    "full_name": "powerline/fonts",
+    "html_url": "https://github.com/powerline/fonts",
+    "language": "Shell",
+    "pushed_at": "2024-03-22T16:47:30Z",
+    "stargazers_count": 26275,
+    "topics": [],
+    "updated_at": "2026-04-22T01:01:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lokaltog/powerline-fonts",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powerline/powerline",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

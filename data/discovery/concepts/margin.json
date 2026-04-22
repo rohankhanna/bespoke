@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "margin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996790,
+      "status": "candidate",
+      "text": "perimeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981939,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980863,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960197,
+      "status": "candidate",
+      "text": "gross profit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948077,
+      "status": "candidate",
+      "text": "security deposit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27074,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16059,
+      "status": "candidate",
+      "text": "tolerance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14047,
+      "status": "candidate",
+      "text": "perimeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10054,
+      "status": "candidate",
+      "text": "allowance"
+    }
+  ],
+  "canonical_name": "margin",
+  "concept_id": "margin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/reflow"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "margin",
+      "sense_id": "margin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

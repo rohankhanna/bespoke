@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931621,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29802545,
+      "status": "candidate",
+      "text": "joke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29733412,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000327,
+      "status": "candidate",
+      "text": "factbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000326,
+      "status": "candidate",
+      "text": "catalogue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facebook",
+      "sense_id": "facebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "facebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "facebook",
+  "observation_id": "f586543483c12168",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "facebook",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "jestjs/jest",
+  "source_repo_description": "Delightful JavaScript Testing."
+}

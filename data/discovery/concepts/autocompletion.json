@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "autocompletion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024642,
+      "status": "candidate",
+      "text": "code completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024641,
+      "status": "candidate",
+      "text": "autocomplete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024640,
+      "status": "candidate",
+      "text": "completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024639,
+      "status": "candidate",
+      "text": "autofill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024638,
+      "status": "candidate",
+      "text": "autosuggest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "autocompletion",
+  "concept_id": "autocompletion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autocompletion",
+      "sense_id": "autocompletion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

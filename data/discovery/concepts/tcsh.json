@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "tcsh"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "direnv -- unclutter your .profile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate",
+      "text": "direnv -- unclutter your .profile"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "chsh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "comparison of command shells"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tcsh",
+  "concept_id": "tcsh",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "direnv/direnv"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tcsh",
+      "sense_id": "tcsh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,12 +1,17 @@
 {
   "component": "babel-preset-fbjs",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "facebook/relay"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "relay-tools/relay-hooks"
     }
   ]
 }

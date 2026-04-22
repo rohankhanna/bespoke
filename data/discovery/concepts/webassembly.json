@@ -19,6 +19,30 @@
       "source_repo": "pyodide/pyodide",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate-context",
+      "text": "A lightweight Python package installer for Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate-context",
+      "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "pyodide/pyodide",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate",
+      "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "pyodide/micropip"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

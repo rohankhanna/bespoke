@@ -43,6 +43,18 @@
       "source_repo": "apollographql/apollo-client",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "apollographql/apollo-client",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "apollographql/apollo-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

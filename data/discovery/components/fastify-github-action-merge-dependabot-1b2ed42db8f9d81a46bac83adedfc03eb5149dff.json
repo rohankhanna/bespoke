@@ -1,0 +1,12 @@
+{
+  "component": "fastify/github-action-merge-dependabot@1b2ed42db8f9d81a46bac83adedfc03eb5149dff",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/undici"
+    }
+  ]
+}

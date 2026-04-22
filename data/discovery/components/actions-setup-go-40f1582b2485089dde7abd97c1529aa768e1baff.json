@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "hashicorp/terraform-provider-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "source_repo": "opentofu/registry"
     }
   ]
 }

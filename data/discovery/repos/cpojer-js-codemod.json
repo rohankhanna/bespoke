@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "jscodeshift",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuclide-format-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-object-rest-spread",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fbjs-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "jscodeshift",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "nuclide-format-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "babel-plugin-transform-object-rest-spread",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "fbjs-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cpojer/js-codemod",
+      "target": "jest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:41.148722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5570
+    },
+    {
+      "path": "package.json",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Codemod scripts to transform code to next generation JS",
+    "fork": false,
+    "full_name": "cpojer/js-codemod",
+    "html_url": "https://github.com/cpojer/js-codemod",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-06T10:44:10Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-10T20:13:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package:collection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/core",
+      "status": "candidate-context",
+      "text": "This repository is home to core Dart packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/core",
+      "status": "candidate-context",
+      "text": "package:collection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/core",
+      "status": "candidate",
+      "text": "package:collection"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999359,
+      "status": "candidate",
+      "text": "round up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996795,
+      "status": "candidate",
+      "text": "flesh out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996401,
+      "status": "candidate",
+      "text": "band together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995982,
+      "status": "candidate",
+      "text": "join forces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995680,
+      "status": "candidate",
+      "text": "team up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package:collection",
+  "concept_id": "package-collection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:collection",
+      "sense_id": "package-collection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

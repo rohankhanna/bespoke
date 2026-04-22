@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch"
     }
   ],
   "term": "Benchmark"

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:18:36.101554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7194
+    },
+    {
+      "path": "Dockerfile",
+      "size": 559
+    },
+    {
+      "path": "go.mod",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples and Components for deploying into OpenShift",
+    "fork": false,
+    "full_name": "openshift/library",
+    "html_url": "https://github.com/openshift/library",
+    "language": "Go",
+    "pushed_at": "2026-04-20T15:33:07Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-20T15:33:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

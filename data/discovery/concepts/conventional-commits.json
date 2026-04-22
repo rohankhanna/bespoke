@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Conventional Commits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "abuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "pirate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "suicide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10587,
+      "status": "candidate",
+      "text": "abused"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Conventional Commits",
+  "concept_id": "conventional-commits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Uzaaft/awesome-libghostty"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conventional Commits",
+      "sense_id": "conventional-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

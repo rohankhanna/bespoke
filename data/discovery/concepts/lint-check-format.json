@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Check Format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/building-secure-contracts",
+      "status": "candidate-context",
+      "text": "Guidelines and training material to write secure smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/building-secure-contracts",
+      "status": "candidate-context",
+      "text": "Lint Check Format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/building-secure-contracts",
+      "status": "candidate",
+      "text": "Lint Check Format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20104,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19937,
+      "status": "candidate",
+      "text": "barbie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19937,
+      "status": "candidate",
+      "text": "chant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Check Format",
+  "concept_id": "lint-check-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint_format.yml",
+      "source_repo": "crytic/building-secure-contracts"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Check Format",
+      "sense_id": "lint-check-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

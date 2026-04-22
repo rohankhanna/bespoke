@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Secure environments for developers and their agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "contrib"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "contrib"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011877,
+      "status": "candidate",
+      "text": "distrib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011876,
+      "status": "candidate",
+      "text": "repo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011875,
+      "status": "candidate",
+      "text": "alioth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011874,
+      "status": "candidate",
+      "text": "devel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011873,
+      "status": "candidate",
+      "text": "submodule"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contrib",
+      "sense_id": "contrib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contrib",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contrib",
+  "observation_id": "7c69533abd2b6d85",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "contrib",
+  "source_context_snippet": "contrib",
+  "source_file": ".github/workflows/contrib.yaml",
+  "source_repo": "coder/coder",
+  "source_repo_description": "Secure environments for developers and their agents"
+}

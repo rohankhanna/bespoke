@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/agent-assisted-purchase-research-index",
+      "target": "danielrosehill/arch-and-interiors-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/agents-index",
+      "target": "danielrosehill/architectural-plans-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ai-projects-index",
+      "target": "danielrosehill/backup-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ai-resource-maps",
+      "target": "danielrosehill/bug-reports-and-fixes",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "danielrosehill/Subindices"
 }

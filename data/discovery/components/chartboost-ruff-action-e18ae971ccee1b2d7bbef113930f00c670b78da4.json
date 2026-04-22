@@ -1,0 +1,12 @@
+{
+  "component": "chartboost/ruff-action@e18ae971ccee1b2d7bbef113930f00c670b78da4",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ]
+}

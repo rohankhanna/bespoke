@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "manpage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "manpage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "manpage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024521,
+      "status": "candidate",
+      "text": "man page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024520,
+      "status": "candidate",
+      "text": "readme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024519,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024518,
+      "status": "candidate",
+      "text": "user guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024517,
+      "status": "candidate",
+      "text": "help"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "manpage",
+  "concept_id": "manpage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "manpage",
+      "sense_id": "manpage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Core Ganache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "Core Ganache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate",
+      "text": "Core Ganache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "marinade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "baize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "batter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "chocolate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Core Ganache",
+  "concept_id": "core-ganache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Core Ganache",
+      "sense_id": "core-ganache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

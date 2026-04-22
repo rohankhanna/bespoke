@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Nix and release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Nix and release\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16493,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15473,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15473,
+      "status": "candidate",
+      "text": "nic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15473,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15473,
+      "status": "candidate",
+      "text": "veto"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nix and release",
+      "sense_id": "nix-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nix-and-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nix-and-release",
+  "observation_id": "832f5173dfffba08",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Nix and release",
+  "source_context_snippet": "\"Nix and release\"",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "crytic/echidna",
+  "source_repo_description": "Ethereum smart contract fuzzer"
+}

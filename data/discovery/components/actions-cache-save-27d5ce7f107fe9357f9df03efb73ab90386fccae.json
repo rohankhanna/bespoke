@@ -1,12 +1,17 @@
 {
   "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "source_repo": "dexidp/dex"
     }
   ]
 }

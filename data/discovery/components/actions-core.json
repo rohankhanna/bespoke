@@ -1,7 +1,7 @@
 {
   "component": "@actions/core",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -32,6 +32,26 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "anthropics/claude-code-base-action"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/release-please-action"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Roblox/setup-foreman"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

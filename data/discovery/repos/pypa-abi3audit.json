@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/attest-action@f35111fb79f1e4f0150a1ee16cfd4399e3151bdb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pypa/abi3audit",
+      "target": "pypa/auditwheel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "Scan dependencies for vulnerabilities with pip-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "astral-sh/attest-action@f35111fb79f1e4f0150a1ee16cfd4399e3151bdb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pypa/abi3audit",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypa/abi3audit",
+      "target": "cpython-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypa/abi3audit",
+      "target": "cpython-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypa/abi3audit",
+      "target": "cpython-internals",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:44.593422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7682
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2244
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/pip-audit.yml",
+      "size": 885
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1384
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scans Python packages for abi3 violations and inconsistencies",
+    "fork": false,
+    "full_name": "pypa/abi3audit",
+    "html_url": "https://github.com/pypa/abi3audit",
+    "language": "Python",
+    "pushed_at": "2026-04-20T14:54:14Z",
+    "stargazers_count": 122,
+    "topics": [
+      "cpython-api",
+      "cpython-extensions",
+      "cpython-internals",
+      "python"
+    ],
+    "updated_at": "2026-04-20T14:54:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/auditwheel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Scan dependencies for vulnerabilities with pip-audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "term": "Scan dependencies for vulnerabilities with pip-audit"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<!--- @begin-badges@ --->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython-api"
+    },
+    {
+      "context_snippet": "<!--- @begin-badges@ --->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython-extensions"
+    },
+    {
+      "context_snippet": "<!--- @begin-badges@ --->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython-internals"
+    }
+  ]
+}

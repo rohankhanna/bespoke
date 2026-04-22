@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "kohakublueleaf/locon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "crate-ci/typos@v1.13.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "Typos",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "kohya-ss/sd-webui-additional-networks"
+}

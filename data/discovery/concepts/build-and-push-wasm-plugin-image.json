@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Push Wasm Plugin Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "Build and Push Wasm Plugin Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "Build and Push Wasm Plugin Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31600,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31534,
+      "status": "candidate",
+      "text": "learn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21776,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21770,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21734,
+      "status": "candidate",
+      "text": "construct"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Push Wasm Plugin Image",
+  "concept_id": "build-and-push-wasm-plugin-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-and-push-wasm-plugin-image.yaml",
+      "source_repo": "alibaba/higress"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Push Wasm Plugin Image",
+      "sense_id": "build-and-push-wasm-plugin-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

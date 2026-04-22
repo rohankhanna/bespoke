@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Regenerate target info"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Rust library for build scripts to compile C/C++ code into a Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Regenerate target info"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Fork of rust-lang/cc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Regenerate target info"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate",
+      "text": "Regenerate target info"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate",
+      "text": "Regenerate target info"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "query"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "querying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "relevance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Regenerate target info",
+  "concept_id": "regenerate-target-info",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "alexcrichton/cc-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regenerate target info",
+      "sense_id": "regenerate-target-info#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

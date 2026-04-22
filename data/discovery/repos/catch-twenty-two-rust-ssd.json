@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "burn-rs/burn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "voxel51/fiftyone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "zzowenzz/coco_tiny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "burn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "target": "single-shot-multibox-detector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:06:24.066624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10996
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust",
+    "fork": false,
+    "full_name": "catch-twenty-two/rust-ssd",
+    "html_url": "https://github.com/catch-twenty-two/rust-ssd",
+    "language": "Rust",
+    "pushed_at": "2025-12-02T18:59:15Z",
+    "stargazers_count": 13,
+    "topics": [
+      "burn",
+      "computer-vision",
+      "deep-learning",
+      "machine-learning",
+      "object-detection",
+      "rust",
+      "single-shot-multibox-detector",
+      "ssd"
+    ],
+    "updated_at": "2025-12-02T18:59:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burn-rs/burn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voxel51/fiftyone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzowenzz/coco_tiny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "burn"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-shot-multibox-detector"
+    }
+  ]
+}

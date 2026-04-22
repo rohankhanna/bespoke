@@ -19,6 +19,42 @@
       "source_repo": "hashicorp/hcl",
       "status": "candidate-context",
       "text": "HCL is a toolkit for creating structured configuration languages that are"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "hashicorp/hcl",
       "status": "candidate",
       "text": "HCL is a toolkit for creating structured configuration languages that are"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
     }
   ],
   "candidate_related_terms": [
@@ -69,11 +123,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "hashicorp/hcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

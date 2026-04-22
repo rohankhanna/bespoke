@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953778,
+      "status": "candidate",
+      "text": "reportage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953772,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908942,
+      "status": "candidate",
+      "text": "insurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956424,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956391,
+      "status": "candidate",
+      "text": "retransmission"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "coverage",
+      "sense_id": "coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "reportage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64,
+      "status": "candidate",
+      "text": "insurance"
+    }
+  ],
+  "concept_id": "coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coverage",
+  "observation_id": "69ff9d70454b6bce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "coverage",
+  "source_context_snippet": "coverage",
+  "source_file": ".github/workflows/coverage.yml",
+  "source_repo": "muesli/reflow",
+  "source_repo_description": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo",
+      "target": "profiler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:25:05.325317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coz profiler Golang wrapper - Coz employs a novel technique we call causal profiling that measures optimization potential.",
+    "fork": false,
+    "full_name": "urjitbhatia/cozgo",
+    "html_url": "https://github.com/urjitbhatia/cozgo",
+    "language": "Go",
+    "pushed_at": "2024-07-03T22:45:55Z",
+    "stargazers_count": 146,
+    "topics": [
+      "go",
+      "golang",
+      "optimization",
+      "performance",
+      "profiler"
+    ],
+    "updated_at": "2026-01-30T15:13:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Coz profiler Golang wrapper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Coz profiler Golang wrapper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "Coz profiler Golang wrapper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Coz profiler Golang wrapper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiler"
+    }
+  ]
+}

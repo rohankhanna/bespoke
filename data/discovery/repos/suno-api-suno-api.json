@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Suno-API/Suno-API",
+      "target": "calcium-ion/new-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "Suno-API/Suno-API",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "suno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "suno-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "suno-ai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API",
+      "target": "suno-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:10:47.603698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4826
+    },
+    {
+      "path": "Dockerfile",
+      "size": 516
+    },
+    {
+      "path": "go.mod",
+      "size": 3442
+    },
+    {
+      "path": ".github/workflows/deploy-docker.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an unofficial Suno AI API based on Golang. It currently supports generating songs, lyrics, and OpenAI Chat",
+    "fork": false,
+    "full_name": "Suno-API/Suno-API",
+    "html_url": "https://github.com/Suno-API/Suno-API",
+    "language": "Go",
+    "pushed_at": "2024-12-27T02:26:59Z",
+    "stargazers_count": 131,
+    "topics": [
+      "golang",
+      "music",
+      "suno",
+      "suno-ai",
+      "suno-ai-api",
+      "suno-api"
+    ],
+    "updated_at": "2026-04-16T01:32:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno"
+    },
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno-ai"
+    },
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno-ai-api"
+    },
+    {
+      "context_snippet": "\ufeff# Suno API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno-api"
+    }
+  ]
+}

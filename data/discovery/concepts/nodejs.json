@@ -181,6 +181,66 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate-context",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "convert estree ast to babel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/email",
+      "status": "candidate-context",
+      "text": "MX server management for iojs.org (and eventually nodejs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/email",
+      "status": "candidate-context",
+      "text": "**MX server management for iojs.org**"
     }
   ],
   "candidate_glosses": [
@@ -267,6 +327,36 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/email",
+      "status": "candidate",
+      "text": "**MX server management for iojs.org**"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +490,47 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/estree-to-babel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/email"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

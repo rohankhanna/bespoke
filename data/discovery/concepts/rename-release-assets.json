@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rename Release Assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate-context",
+      "text": "The open-source visual AI programming environment and TypeScript library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate-context",
+      "text": "Rename Release Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate",
+      "text": "Rename Release Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22547,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22547,
+      "status": "candidate",
+      "text": "convert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "braces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "degradation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rename Release Assets",
+  "concept_id": "rename-release-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rename-release-assets.yml",
+      "source_repo": "Ironclad/rivet"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rename Release Assets",
+      "sense_id": "rename-release-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

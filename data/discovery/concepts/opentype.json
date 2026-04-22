@@ -79,6 +79,18 @@
       "source_repo": "mooman219/fontdue",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "Documentation of OpenType shaping behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "mooman219/fontdue",
       "status": "candidate",
       "text": "[![Test](https://github.com/mooman219/fontdue/actions/workflows/build.yml/badge.svg)](https://github.com/mooman219/fontdue/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate",
+      "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "mooman219/fontdue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/ttf-parser"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

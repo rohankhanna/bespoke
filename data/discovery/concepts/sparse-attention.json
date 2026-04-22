@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sparse-attention"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "Fast Multi-dimensional Sparse Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sparse-attention",
+  "concept_id": "sparse-attention",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse-attention",
+      "sense_id": "sparse-attention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

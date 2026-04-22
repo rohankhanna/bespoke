@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "package:intl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/i18n",
+      "status": "candidate-context",
+      "text": "A general mono-repo for Dart i18n and l10n packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/i18n",
+      "status": "candidate-context",
+      "text": "package:intl"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/i18n",
+      "status": "candidate",
+      "text": "package:intl"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "package:intl",
+  "concept_id": "package-intl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/intl.yml",
+      "source_repo": "dart-lang/i18n"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:intl",
+      "sense_id": "package-intl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

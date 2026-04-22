@@ -19,6 +19,18 @@
       "source_repo": "ashawkey/stable-dreamfusion",
       "status": "candidate-context",
       "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ashawkey/stable-dreamfusion",
       "status": "candidate",
       "text": "tqdm rich ninja numpy pandas scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg torch torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-diffusion hu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ashawkey/stable-dreamfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/tiny-cuda-nn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

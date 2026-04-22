@@ -1,0 +1,656 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "huggingface/hf-workflows/.github/actions/post-slack@a88e7fa2eaee28de5a4d6142381b1fb792349b67",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@2ff1acb3ee319fa302837dad6e17c2f36c0d98ea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml"
+    },
+    {
+      "component": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml@dc6ca34688e6876c2dd18750719b44d177586c17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/diffusers",
+      "target": "deep-floyd/if",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/diffusers",
+      "target": "hojonathanho/diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/diffusers",
+      "target": "ermongroup/ddim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/diffusers",
+      "target": "heejkoo/awesome-diffusion-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Benchmarking tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "huggingface/hf-workflows/.github/actions/post-slack@a88e7fa2eaee28de5a4d6142381b1fb792349b67",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Test, build, and push Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "anthropics/claude-code-action@2ff1acb3ee319fa302837dad6e17c2f36c0d98ea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Claude PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml@dc6ca34688e6876c2dd18750719b44d177586c17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "CodeQL Security Analysis For Github Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "source_repo": "huggingface/diffusers",
+      "target": "Mirror Community Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "image2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "image2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "latent-diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "qwen-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "score-based-generative-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "stable-diffusion-diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "text2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "text2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers",
+      "target": "video2video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:57.885468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14365
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 862
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 2227
+    },
+    {
+      "path": ".github/workflows/build_docker_images.yml",
+      "size": 4147
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 1395
+    },
+    {
+      "path": ".github/workflows/claude_review.yml",
+      "size": 6367
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/issue_labeler.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/mirror_community_pipeline.yml",
+      "size": 3612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+    "fork": false,
+    "full_name": "huggingface/diffusers",
+    "html_url": "https://github.com/huggingface/diffusers",
+    "language": "Python",
+    "pushed_at": "2026-04-22T00:42:53Z",
+    "stargazers_count": 33406,
+    "topics": [
+      "deep-learning",
+      "diffusion",
+      "flux",
+      "image-generation",
+      "image2image",
+      "image2video",
+      "latent-diffusion-models",
+      "pytorch",
+      "qwen-image",
+      "score-based-generative-modeling",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text2image",
+      "text2video",
+      "video2video"
+    ],
+    "updated_at": "2026-04-22T00:39:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-floyd/if",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ermongroup/ddim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heejkoo/awesome-diffusion-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hojonathanho/diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmarking tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmarking tests"
+    },
+    {
+      "context_snippet": "Test, build, and push Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "term": "Test, build, and push Docker images"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Claude PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "term": "Claude PR Review"
+    },
+    {
+      "context_snippet": "CodeQL Security Analysis For Github Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Security Analysis For Github Actions"
+    },
+    {
+      "context_snippet": "Issue Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "Mirror Community Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "term": "Mirror Community Pipeline"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2image"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2video"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-diffusion-models"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen-image"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-based-generative-modeling"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-diffusers"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2video"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video2video"
+    }
+  ]
+}

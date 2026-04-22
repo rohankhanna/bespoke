@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "foundry-rs/foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "term": "compiler"

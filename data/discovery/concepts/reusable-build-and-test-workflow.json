@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable Build and Test Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "SharpToken is a C# library for tokenizing natural language text. It's based on the tiktoken Python library and designed to be fast and accurate. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "Reusable Build and Test Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate",
+      "text": "Reusable Build and Test Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38949,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32499,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32425,
+      "status": "candidate",
+      "text": "reconstructed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32330,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26326,
+      "status": "candidate",
+      "text": "actuator"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable Build and Test Workflow",
+  "concept_id": "reusable-build-and-test-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dotnet-build-test.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Build and Test Workflow",
+      "sense_id": "reusable-build-and-test-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

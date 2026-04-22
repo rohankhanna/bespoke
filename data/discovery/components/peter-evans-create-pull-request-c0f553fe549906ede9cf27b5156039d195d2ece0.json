@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autoupdate.yml",
       "source_repo": "conda-forge/miniforge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "crytic/building-secure-contracts"
     }
   ]
 }

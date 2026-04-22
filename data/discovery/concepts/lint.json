@@ -575,6 +575,198 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate-context",
+      "text": "Scans Python packages for abi3 violations and inconsistencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "A simple, physics-based animation library \ud83c\udfbc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "The Charm Tool and Library \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "Raw ANSI sequence helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate-context",
+      "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate-context",
+      "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "Convert Compose to Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Graphene SQLAlchemy integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate-context",
+      "text": "GitPython is a python library used to interact with Git repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for building AVSs on Eigenlayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "\u2728 The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -851,6 +1043,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rbenv/rbenv",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate",
+      "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitpython-developers/GitPython",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
       "status": "candidate",
       "text": "Lint"
     }
@@ -1297,11 +1591,137 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "albertogeniola/elmax-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "allenporter/python-google-nest-sdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/harmonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/ansi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kubernetes/kompose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gitpython-developers/GitPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

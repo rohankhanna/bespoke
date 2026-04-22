@@ -19,12 +19,30 @@
       "source_repo": "junegunn/fzf",
       "status": "candidate-context",
       "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "Publish to Winget"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "junegunn/fzf",
+      "status": "candidate",
+      "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
       "status": "candidate",
       "text": "Publish to Winget"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "junegunn/fzf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

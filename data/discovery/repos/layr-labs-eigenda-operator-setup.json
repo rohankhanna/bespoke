@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigenda-operator-setup",
+      "target": "eigenda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Layr-Labs/eigenda-operator-setup",
+      "target": "eigenlayer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:14.231977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick start setup guide for EigenDA",
+    "fork": false,
+    "full_name": "Layr-Labs/eigenda-operator-setup",
+    "html_url": "https://github.com/Layr-Labs/eigenda-operator-setup",
+    "language": "Shell",
+    "pushed_at": "2026-02-20T23:07:02Z",
+    "stargazers_count": 80,
+    "topics": [
+      "eigenda",
+      "eigenlayer"
+    ],
+    "updated_at": "2026-03-21T13:10:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Head over to our [EigenDA operator guides](https://docs.eigencloud.xyz/products/eigenda/operator-guides/overview) for installation instructions and more details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenda"
+    },
+    {
+      "context_snippet": "Head over to our [EigenDA operator guides](https://docs.eigencloud.xyz/products/eigenda/operator-guides/overview) for installation instructions and more details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenlayer"
+    }
+  ]
+}

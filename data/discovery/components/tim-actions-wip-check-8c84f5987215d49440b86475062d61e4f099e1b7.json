@@ -1,0 +1,12 @@
+{
+  "component": "tim-actions/wip-check@8c84f5987215d49440b86475062d61e4f099e1b7",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    }
+  ]
+}

@@ -7,10 +7,113 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "bench"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "High quality, fast and easy to build cryptography for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "bench"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate",
+      "text": "bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate",
+      "text": "bench"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039208,
+      "status": "candidate",
+      "text": "workbench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035214,
+      "status": "candidate",
+      "text": "terrace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39884013,
+      "status": "candidate",
+      "text": "judiciary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044663,
+      "status": "candidate",
+      "text": "work bench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044662,
+      "status": "candidate",
+      "text": "chair"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3039,
+      "status": "candidate",
+      "text": "judiciary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "workbench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "work bench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "terrace"
+    }
+  ],
   "canonical_name": "bench",
   "concept_id": "bench",
   "definition_status": "unresolved",
@@ -20,12 +123,26 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "langchain-ai/langgraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "ctz/graviola"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Trivy Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "Update Trivy Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "Update Trivy Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11547,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "etd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "refreshed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Trivy Cache",
+  "concept_id": "update-trivy-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "source_repo": "dexidp/dex"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Trivy Cache",
+      "sense_id": "update-trivy-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/latent-diffusion",
+      "target": "gradio-app/gradio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/latent-diffusion",
+      "target": "google-research/google-research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/latent-diffusion",
+      "target": "compvis/taming-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/latent-diffusion",
+      "target": "fyu/lsun",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:45.587365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "fork": false,
+    "full_name": "CompVis/latent-diffusion",
+    "html_url": "https://github.com/CompVis/latent-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-02-29T05:29:47Z",
+    "stargazers_count": 13985,
+    "topics": [],
+    "updated_at": "2026-04-21T19:00:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compvis/taming-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyu/lsun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/google-research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gradio-app/gradio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint test"
+    "Lint test",
+    "Lint Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "modelscope/ms-agent",
       "status": "candidate-context",
       "text": "Lint test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "ModelScope: bring the notion of Model-as-a-Service to life."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "Lint test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate-context",
+      "text": "A modular and stable agent sandbox runtime environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate-context",
+      "text": "Lint Test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "modelscope/ms-agent",
       "status": "candidate",
       "text": "Lint test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate",
+      "text": "Lint test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate",
+      "text": "Lint Test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/modelscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/ms-enclave"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

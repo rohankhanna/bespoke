@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EVM CFG recovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/crytic/evm_cfg_builder.svg?branch=master)](https://travis-ci.org/crytic/evm_cfg_builder)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/crytic/evm_cfg_builder.svg?branch=master)](https://travis-ci.org/crytic/evm_cfg_builder)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934013,
+      "status": "candidate",
+      "text": "revere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043364,
+      "status": "candidate",
+      "text": "reversal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042936,
+      "status": "candidate",
+      "text": "reversible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042634,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042599,
+      "status": "candidate",
+      "text": "inverting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reversing",
+      "sense_id": "reversing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reversing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reversing",
+  "observation_id": "af7da1d5a09c0e2c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "reversing",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/crytic/evm_cfg_builder.svg?branch=master)](https://travis-ci.org/crytic/evm_cfg_builder)",
+  "source_file": null,
+  "source_repo": "crytic/evm_cfg_builder",
+  "source_repo_description": "EVM CFG recovery"
+}

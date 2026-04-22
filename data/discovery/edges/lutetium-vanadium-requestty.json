@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "sboudrias/inquirer.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "mitsuhiko/insta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "Crossterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "Default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "Default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "Termion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "inquirer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "Lutetium-Vanadium/requestty"
+}

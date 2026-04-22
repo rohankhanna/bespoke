@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "managed-by-renovate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate-context",
+      "text": "My personal NUR repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/Mic92/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/Mic92/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "managed-by-renovate",
+  "concept_id": "managed-by-renovate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Mic92/nur-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "managed-by-renovate",
+      "sense_id": "managed-by-renovate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

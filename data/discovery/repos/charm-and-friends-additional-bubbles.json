@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "76creates/stickers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "calyptia/go-bubble-table",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "charmbracelet/freeze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "charmbracelet/vhs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:16.652100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fabulous, community-maintained bubbles for the https://github.com/charmbracelet/bubbletea library",
+    "fork": false,
+    "full_name": "charm-and-friends/additional-bubbles",
+    "html_url": "https://github.com/charm-and-friends/additional-bubbles",
+    "language": null,
+    "pushed_at": "2025-11-15T21:37:01Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-20T05:18:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "76creates/stickers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calyptia/go-bubble-table",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charmbracelet/freeze",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charmbracelet/vhs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

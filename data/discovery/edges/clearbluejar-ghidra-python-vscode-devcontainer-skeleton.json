@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "microsoft/vscode-dev-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "justfoxing/ghidra_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "clearbluejar/ghidra-python-vscode-skeleton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "clearbluejar/ghidra-pyi-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "build-and-push-devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "ghidra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton"
+}

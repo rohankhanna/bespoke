@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Binaries for Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Build Binaries for Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "Build Binaries for Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "ioi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Binaries for Release",
+  "concept_id": "build-binaries-for-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "asdf-vm/asdf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Binaries for Release",
+      "sense_id": "build-binaries-for-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

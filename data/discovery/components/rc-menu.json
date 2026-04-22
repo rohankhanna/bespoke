@@ -1,12 +1,17 @@
 {
   "component": "rc-menu",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobe-ui"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "litter-coder/midjourney-proxy-admin"
     }
   ]
 }

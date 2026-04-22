@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "0xnyk/council-of-high-intelligence",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "amiable-dev/llm-council",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "al1-nasir/research_council",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "agenttorch/agenttorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "indexes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:23:40.052250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection/resource list of AI projects focused on synthesising perpsectives for multi-perspective exploration",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Synthesised-Perspectives",
+    "html_url": "https://github.com/danielrosehill/AI-Synthesised-Perspectives",
+    "language": null,
+    "pushed_at": "2026-04-10T16:08:15Z",
+    "stargazers_count": 1,
+    "topics": [
+      "indexes",
+      "resources"
+    ],
+    "updated_at": "2026-04-14T11:17:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xnyk/council-of-high-intelligence",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenttorch/agenttorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "al1-nasir/research_council",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amiable-dev/llm-council",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    },
+    {
+      "context_snippet": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

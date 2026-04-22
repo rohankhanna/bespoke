@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "ethereum-optimism/factory/.github/workflows/docker.yaml@4a6713dc9a56712c9150a8007aa1d33eba6f38ea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "ethereum-optimism/factory/.github/workflows/docker.yaml@4a6713dc9a56712c9150a8007aa1d33eba6f38ea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml"
+    },
+    {
+      "component": "actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml"
+    },
+    {
+      "component": "ethereum-optimism/factory/actions/parse-tag@240b16167a5f5aa789270fa9c0efbfa9f010b7e7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml"
+    },
+    {
+      "component": "ethereum-optimism/factory/.github/workflows/docker.yaml@4a6713dc9a56712c9150a8007aa1d33eba6f38ea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foundry-rs/optimism",
+      "target": "ethereum-optimism/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foundry-rs/optimism",
+      "target": "ethereum-optimism/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "ethereum-optimism/factory/.github/workflows/docker.yaml@4a6713dc9a56712c9150a8007aa1d33eba6f38ea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "branch build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "ethereum-optimism/factory/actions/parse-tag@240b16167a5f5aa789270fa9c0efbfa9f010b7e7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "ethereum-optimism/factory/.github/workflows/docker.yaml@4a6713dc9a56712c9150a8007aa1d33eba6f38ea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism",
+      "target": "tag build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:41.463458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10923
+    },
+    {
+      "path": "go.mod",
+      "size": 14270
+    },
+    {
+      "path": ".github/workflows/branches.yaml",
+      "size": 15801
+    },
+    {
+      "path": ".github/workflows/tags.yaml",
+      "size": 1672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Optimism is Ethereum, scaled.",
+    "fork": true,
+    "full_name": "foundry-rs/optimism",
+    "html_url": "https://github.com/foundry-rs/optimism",
+    "language": "Go",
+    "pushed_at": "2026-04-17T17:21:17Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-15T19:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/specs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "branch build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branches.yaml",
+      "term": "branch build"
+    },
+    {
+      "context_snippet": "tag build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tags.yaml",
+      "term": "tag build"
+    }
+  ]
+}

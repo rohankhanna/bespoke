@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swiftly",
+      "target": "kylef/swiftenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/62_snapshot_check.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_snapshot_check.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_snapshot_check.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "Smoke Test - Nightly Swift Toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swiftly",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swiftly",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "swiftlang/swiftly"
+}

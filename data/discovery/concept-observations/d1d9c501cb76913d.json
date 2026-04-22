@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048610,
+      "status": "candidate",
+      "text": "meshwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048601,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048015,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920823,
+      "status": "candidate",
+      "text": "reticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29866359,
+      "status": "candidate",
+      "text": "web"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "network",
+      "sense_id": "network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14088,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9053,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "reticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "meshwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7,
+      "status": "candidate",
+      "text": "communications network"
+    }
+  ],
+  "concept_id": "network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "network",
+  "observation_id": "d1d9c501cb76913d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "network",
+  "source_context_snippet": "![flannel Logo](logos/flannel-horizontal-color.png)",
+  "source_file": null,
+  "source_repo": "flannel-io/flannel",
+  "source_repo_description": "flannel is a network fabric for containers, designed for Kubernetes"
+}

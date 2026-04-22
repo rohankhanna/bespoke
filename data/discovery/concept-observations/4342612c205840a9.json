@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build flannel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build flannel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "plaid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "swanskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "acolyctine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "alanine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "albication"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build flannel",
+      "sense_id": "build-flannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-flannel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-flannel",
+  "observation_id": "4342612c205840a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "build flannel",
+  "source_context_snippet": "build flannel",
+  "source_file": ".github/workflows/build.yaml",
+  "source_repo": "flannel-io/flannel",
+  "source_repo_description": "flannel is a network fabric for containers, designed for Kubernetes"
+}

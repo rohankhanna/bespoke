@@ -19,6 +19,18 @@
       "source_repo": "Roblox/foreman",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" src=\"foreman.png\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Roblox/foreman",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" src=\"foreman.png\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "Roblox/foreman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,18 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate-context",
       "text": "This repository contains tools and packages for creating Terraform plugin docs (currently only provider plugins)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "Secure environments for developers and their agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate",
       "text": "This repository contains tools and packages for creating Terraform plugin docs (currently only provider plugins)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coder/coder"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

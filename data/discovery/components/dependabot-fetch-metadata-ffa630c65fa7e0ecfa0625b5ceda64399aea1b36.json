@@ -1,12 +1,17 @@
 {
   "component": "dependabot/fetch-metadata@ffa630c65fa7e0ecfa0625b5ceda64399aea1b36",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "dreamiurg/peakbagger-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yaml",
+      "source_repo": "coder/coder"
     }
   ]
 }

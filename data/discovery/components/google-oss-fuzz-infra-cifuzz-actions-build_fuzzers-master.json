@@ -1,7 +1,7 @@
 {
   "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "UB-Mannheim/tesseract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yaml",
+      "source_repo": "mattn/go-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json"
     }
   ]
 }

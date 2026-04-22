@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Autobahn"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Autobahn"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029792,
+      "status": "candidate",
+      "text": "autostrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029791,
+      "status": "candidate",
+      "text": "autopista"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029790,
+      "status": "candidate",
+      "text": "motorway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029789,
+      "status": "candidate",
+      "text": "arterial road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029788,
+      "status": "candidate",
+      "text": "freeway"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Autobahn",
+      "sense_id": "autobahn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autobahn",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autobahn",
+  "observation_id": "a68aeec182afb300",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Autobahn",
+  "source_context_snippet": "Autobahn",
+  "source_file": ".github/workflows/autobahn.yml",
+  "source_repo": "nodejs/undici",
+  "source_repo_description": "An HTTP/1.1 client, written from scratch for Node.js"
+}

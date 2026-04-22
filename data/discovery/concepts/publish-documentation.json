@@ -1,0 +1,119 @@
+{
+  "aliases": [
+    "Publish Documentation",
+    "Publish documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate-context",
+      "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "Publish documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate",
+      "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "Publish documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "aak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "advertise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "ask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "blab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "blazon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Documentation",
+  "concept_id": "publish-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "albertogeniola/elmax-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Documentation",
+      "sense_id": "publish-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

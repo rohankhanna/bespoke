@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label Discussions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label Discussions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "judge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "trademark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label Discussions",
+      "sense_id": "label-discussions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-discussions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-discussions",
+  "observation_id": "f2e9359f5e77dd03",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Label Discussions",
+  "source_context_snippet": "Label Discussions",
+  "source_file": ".github/workflows/label-discussions.yml",
+  "source_repo": "microsoft/semantic-kernel",
+  "source_repo_description": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+}

@@ -109,6 +109,54 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "Fast Multi-dimensional Sparse Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/coremltools",
+      "status": "candidate-context",
+      "text": "Core ML tools contain supporting tools for Core ML model conversion, editing, and validation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/coremltools",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +207,30 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/coremltools",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "apple/coremltools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/tiny-cuda-nn"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dotnet-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate-context",
+      "text": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate-context",
+      "text": "dotnet-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/semantic-kernel",
+      "status": "candidate",
+      "text": "dotnet-ci"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dotnet-ci",
+  "concept_id": "dotnet-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dotnet-ci",
+      "sense_id": "dotnet-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abseil/abseil-cpp",
+      "target": "google/oss-policies-info",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:21.078024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Abseil Common Libraries (C++)",
+    "fork": false,
+    "full_name": "abseil/abseil-cpp",
+    "html_url": "https://github.com/abseil/abseil-cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-21T19:11:07Z",
+    "stargazers_count": 17209,
+    "topics": [],
+    "updated_at": "2026-04-22T00:18:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/oss-policies-info",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

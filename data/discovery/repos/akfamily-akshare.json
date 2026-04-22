@@ -1,0 +1,448 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_dev_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_dev_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akfamily/akshare",
+      "target": "akfamily/akquant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akfamily/akshare",
+      "target": "prettier/prettier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akfamily/akshare",
+      "target": "lowinli/fushare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akfamily/akshare",
+      "target": "waditu/tushare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_dev_check.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_dev_check.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_dev_check.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "Main and Dev Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "source_repo": "akfamily/akshare",
+      "target": "Release and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "academic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "akshare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "asset-pricing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "bond",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "economic-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "economics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "finance-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "financial-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "fundamental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "futures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "option",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "quant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akfamily/akshare",
+      "target": "stock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:04:46.095330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9799
+    },
+    {
+      "path": "Dockerfile",
+      "size": 607
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4105
+    },
+    {
+      "path": ".github/workflows/main_dev_check.yml",
+      "size": 928
+    },
+    {
+      "path": ".github/workflows/release_and_deploy.yml",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93",
+    "fork": false,
+    "full_name": "akfamily/akshare",
+    "html_url": "https://github.com/akfamily/akshare",
+    "language": "Python",
+    "pushed_at": "2026-04-20T08:54:14Z",
+    "stargazers_count": 18470,
+    "topics": [
+      "academic",
+      "akshare",
+      "asset-pricing",
+      "bond",
+      "currency",
+      "data",
+      "data-analysis",
+      "data-science",
+      "datasets",
+      "economic-data",
+      "economics",
+      "finance",
+      "finance-api",
+      "financial-data",
+      "fundamental",
+      "futures",
+      "option",
+      "quant",
+      "stock"
+    ],
+    "updated_at": "2026-04-21T16:55:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akfamily/akquant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lowinli/fushare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prettier/prettier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waditu/tushare",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main and Dev Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_dev_check.yml",
+      "term": "Main and Dev Checks"
+    },
+    {
+      "context_snippet": "Release and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "term": "Release and Deploy"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akshare"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asset-pricing"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bond"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "economic-data"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "economics"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance-api"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "financial-data"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fundamental"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "futures"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quant"
+    },
+    {
+      "context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock"
+    }
+  ]
+}

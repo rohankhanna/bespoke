@@ -1,12 +1,17 @@
 {
   "component": "dart-lang/ecosystem/.github/workflows/publish.yaml@main",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "dart-lang/build"
     }
   ]
 }

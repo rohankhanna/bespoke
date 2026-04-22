@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Experimental Features"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "Experimental Features"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate",
+      "text": "Experimental Features"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28094,
+      "status": "candidate",
+      "text": "little magazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11809,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11760,
+      "status": "candidate",
+      "text": "culture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11760,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11748,
+      "status": "candidate",
+      "text": "simulation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Experimental Features",
+  "concept_id": "experimental-features",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/experimental.yml",
+      "source_repo": "libgit2/libgit2"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Experimental Features",
+      "sense_id": "experimental-features#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

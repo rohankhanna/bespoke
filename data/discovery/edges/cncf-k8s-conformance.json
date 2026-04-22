@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "kubernetes-sigs/hydrophone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf-infra/verify-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf/k8s-conformance-archive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "check-conformance-test-suite-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-conformance.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "verify-conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "cncf/k8s-conformance"
+}

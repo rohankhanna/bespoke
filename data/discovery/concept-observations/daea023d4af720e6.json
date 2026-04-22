@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integration testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integration testing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036151,
+      "status": "candidate",
+      "text": "big bang testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036150,
+      "status": "candidate",
+      "text": "unit test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036149,
+      "status": "candidate",
+      "text": "unit testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036148,
+      "status": "candidate",
+      "text": "beta testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036147,
+      "status": "candidate",
+      "text": "alpha testing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration testing",
+      "sense_id": "integration-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-testing",
+  "observation_id": "daea023d4af720e6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Integration testing",
+  "source_context_snippet": "Integration testing",
+  "source_file": ".github/workflows/integrate.yml",
+  "source_repo": "jiegec/tantivy-jieba",
+  "source_repo_description": "An adapter that bridges between tantivy and jieba-rs."
+}

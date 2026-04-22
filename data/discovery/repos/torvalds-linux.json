@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:15:01.108317+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux kernel source tree",
+    "fork": false,
+    "full_name": "torvalds/linux",
+    "html_url": "https://github.com/torvalds/linux",
+    "language": "C",
+    "pushed_at": "2026-04-22T00:44:30Z",
+    "stargazers_count": 230270,
+    "topics": [],
+    "updated_at": "2026-04-22T01:08:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ghidra Python Images based on devcontiners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"build-and-push-slim-devcontainer-all-vers\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"build-and-push-slim-devcontainer-all-vers\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-and-push-slim-devcontainer-all-vers",
+      "sense_id": "build-and-push-slim-devcontainer-all-vers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-push-slim-devcontainer-all-vers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-push-slim-devcontainer-all-vers",
+  "observation_id": "065c72d59c797a5a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "build-and-push-slim-devcontainer-all-vers",
+  "source_context_snippet": "\"build-and-push-slim-devcontainer-all-vers\"",
+  "source_file": ".github/workflows/build-slim-all-vers.yaml",
+  "source_repo": "clearbluejar/ghidra-python",
+  "source_repo_description": "Ghidra Python Images based on devcontiners"
+}

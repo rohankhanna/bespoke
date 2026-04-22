@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update the tracy-client-sys crate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nagisa/rust_tracy_client",
+      "status": "candidate-context",
+      "text": "Tracy client libraries for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagisa/rust_tracy_client",
+      "status": "candidate-context",
+      "text": "Update the tracy-client-sys crate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagisa/rust_tracy_client",
+      "status": "candidate",
+      "text": "Update the tracy-client-sys crate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10650,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10650,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10605,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "bumping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update the tracy-client-sys crate",
+  "concept_id": "update-the-tracy-client-sys-crate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/sys-update.yml",
+      "source_repo": "nagisa/rust_tracy_client"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update the tracy-client-sys crate",
+      "sense_id": "update-the-tracy-client-sys-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

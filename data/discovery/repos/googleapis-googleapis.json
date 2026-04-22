@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic.yaml"
+    },
+    {
+      "component": "googleapis/code-suggester@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic_preview.yaml"
+    },
+    {
+      "component": "googleapis/code-suggester@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic_preview.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/googleapis",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/googleapis",
+      "target": "googleapis/toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/googleapis",
+      "target": "google/go-genproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "googleapis/code-suggester@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diregapic.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "DIREGAPIC Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic_preview.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diregapic_preview.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "googleapis/code-suggester@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diregapic_preview.yaml",
+      "source_repo": "googleapis/googleapis",
+      "target": "DIREGAPIC Preview Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/googleapis",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:08.665820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4186
+    },
+    {
+      "path": ".github/workflows/diregapic.yaml",
+      "size": 4055
+    },
+    {
+      "path": ".github/workflows/diregapic_preview.yaml",
+      "size": 3604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Public interface definitions of Google APIs.",
+    "fork": false,
+    "full_name": "googleapis/googleapis",
+    "html_url": "https://github.com/googleapis/googleapis",
+    "language": "Starlark",
+    "pushed_at": "2026-04-21T22:34:38Z",
+    "stargazers_count": 8529,
+    "topics": [
+      "protocol-buffers"
+    ],
+    "updated_at": "2026-04-21T18:20:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/go-genproto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DIREGAPIC Updater",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diregapic.yaml",
+      "term": "DIREGAPIC Updater"
+    },
+    {
+      "context_snippet": "DIREGAPIC Preview Updater",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diregapic_preview.yaml",
+      "term": "DIREGAPIC Preview Updater"
+    },
+    {
+      "context_snippet": "This repository contains the original interface definitions of public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

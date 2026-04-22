@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:24:26.558094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udc23 Old projects from the team at @hashintel - newer experiments at https://github.com/hashintel/labs",
+    "fork": false,
+    "full_name": "hasharchives/blockprotocol-incubator",
+    "html_url": "https://github.com/hasharchives/blockprotocol-incubator",
+    "language": "Rust",
+    "pushed_at": "2024-04-09T07:51:56Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-04-09T07:53:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

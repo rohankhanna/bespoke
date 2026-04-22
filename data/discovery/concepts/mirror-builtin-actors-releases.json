@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror Builtin Actors Releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Mirror Builtin Actors Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate",
+      "text": "Mirror Builtin Actors Releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31162,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31162,
+      "status": "candidate",
+      "text": "introduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21333,
+      "status": "candidate",
+      "text": "ingrown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21205,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21205,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror Builtin Actors Releases",
+  "concept_id": "mirror-builtin-actors-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Builtin Actors Releases",
+      "sense_id": "mirror-builtin-actors-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

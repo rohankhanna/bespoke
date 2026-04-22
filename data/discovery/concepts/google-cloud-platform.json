@@ -19,6 +19,18 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate-context",
       "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate-context",
+      "text": "Everything you want to know about Google Cloud TPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate-context",
+      "text": "<h4 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "google-github-actions/run-gemini-cli",
       "status": "candidate",
       "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayaka14732/tpu-starter",
+      "status": "candidate",
+      "text": "<h4 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

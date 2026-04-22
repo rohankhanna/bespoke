@@ -1,0 +1,381 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-archival-snapshots-generate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sync-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint-ci.yml"
+    },
+    {
+      "component": "hadolint/hadolint-action@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml"
+    },
+    {
+      "component": "terraform-linters/setup-tflint@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-archival-snapshots-generate.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-archival-snapshots-generate.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "archival snapshots generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sync-check.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-sync-check.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "Sync Check Service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint-ci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint-ci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "hadolint/hadolint-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint-ci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "Hadolint Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "terraform-linters/setup-tflint@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "hashicorp/setup-terraform@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "Mirror Builtin Actors Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "ludeeus/action-shellcheck@2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac",
+      "target": "Scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:56.368242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1433
+    },
+    {
+      "path": ".github/workflows/check-archival-snapshots-generate.yml",
+      "size": 440
+    },
+    {
+      "path": ".github/workflows/deploy-sync-check.yml",
+      "size": 1662
+    },
+    {
+      "path": ".github/workflows/hadolint-ci.yml",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/lintingci.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/mirror-builtin-actors.yml",
+      "size": 4006
+    },
+    {
+      "path": ".github/workflows/scripts-lint.yml",
+      "size": 1209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Infrastructure as Code to support the Forest Filecoin project",
+    "fork": false,
+    "full_name": "ChainSafe/forest-iac",
+    "html_url": "https://github.com/ChainSafe/forest-iac",
+    "language": "Shell",
+    "pushed_at": "2026-04-09T08:01:03Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-09T08:01:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "archival snapshots generate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-archival-snapshots-generate.yml",
+      "term": "archival snapshots generate"
+    },
+    {
+      "context_snippet": "Sync Check Service",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-sync-check.yml",
+      "term": "Sync Check Service"
+    },
+    {
+      "context_snippet": "'Hadolint Linting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint-ci.yml",
+      "term": "Hadolint Linting"
+    },
+    {
+      "context_snippet": "'Linting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lintingci.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Mirror Builtin Actors Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-builtin-actors.yml",
+      "term": "Mirror Builtin Actors Releases"
+    },
+    {
+      "context_snippet": "Scripts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "term": "Scripts"
+    }
+  ]
+}

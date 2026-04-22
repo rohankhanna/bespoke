@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "goreleaser/sponsors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-image.yml",
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex"
     }
   ]
 }

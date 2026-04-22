@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "lightline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate-context",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate-context",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate-context",
+      "text": "ALE indicator for the lightline vim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate-context",
+      "text": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate",
+      "text": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lightline",
+  "concept_id": "lightline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/lightline.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lightline",
+      "sense_id": "lightline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

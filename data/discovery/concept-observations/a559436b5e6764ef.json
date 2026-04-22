@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Tensor Engine for ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AMD CI Job Monitor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AMD CI Job Monitor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22265,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21607,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21541,
+      "status": "candidate",
+      "text": "osha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21470,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21381,
+      "status": "candidate",
+      "text": "mass"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AMD CI Job Monitor",
+      "sense_id": "amd-ci-job-monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "amd-ci-job-monitor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "amd-ci-job-monitor",
+  "observation_id": "a559436b5e6764ef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "AMD CI Job Monitor",
+  "source_context_snippet": "AMD CI Job Monitor",
+  "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+  "source_repo": "ROCm/aiter",
+  "source_repo_description": "AI Tensor Engine for ROCm"
+}

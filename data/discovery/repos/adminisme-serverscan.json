@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adminisme/ServerScan",
+      "target": "gloxec/crossc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adminisme/ServerScan",
+      "target": "malfunkt/iprange",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adminisme/ServerScan",
+      "target": "rickgray/vscan-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adminisme/ServerScan",
+      "target": "knownsec/404starlink2.0-galaxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "cobalt-strike",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "nmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "pentest-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "port-scanner-in-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "security-scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "serverscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:04:31.675718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002",
+    "fork": false,
+    "full_name": "Adminisme/ServerScan",
+    "html_url": "https://github.com/Adminisme/ServerScan",
+    "language": "Go",
+    "pushed_at": "2024-06-16T13:41:34Z",
+    "stargazers_count": 1638,
+    "topics": [
+      "cobalt-strike",
+      "golang",
+      "linux",
+      "macos",
+      "nmap",
+      "pentest-tool",
+      "port-scanner-in-go",
+      "security-scanner",
+      "serverscan",
+      "service-discovery",
+      "win"
+    ],
+    "updated_at": "2026-04-16T14:49:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gloxec/crossc2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knownsec/404starlink2.0-galaxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "malfunkt/iprange",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rickgray/vscan-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cobalt-strike"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nmap"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pentest-tool"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "port-scanner-in-go"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-scanner"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverscan"
+    },
+    {
+      "context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    }
+  ]
+}

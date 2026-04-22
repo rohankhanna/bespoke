@@ -25,6 +25,30 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Minimal web UI for ChatGPT. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "SharpToken is a C# library for tokenizing natural language text. It's based on the tiktoken Python library and designed to be fast and accurate. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +57,18 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dmitry-brazhenko/SharpToken"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

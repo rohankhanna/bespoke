@@ -1,12 +1,22 @@
 {
   "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous_benchmark.yml",
       "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
     }
   ]
 }

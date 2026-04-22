@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "Lint Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-enclave",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:00.014806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17281
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modular and stable agent sandbox runtime environment.",
+    "fork": false,
+    "full_name": "modelscope/ms-enclave",
+    "html_url": "https://github.com/modelscope/ms-enclave",
+    "language": "Python",
+    "pushed_at": "2026-01-08T07:32:32Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-21T04:29:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Test"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "release"
+    }
+  ]
+}

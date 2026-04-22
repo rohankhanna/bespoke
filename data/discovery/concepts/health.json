@@ -31,6 +31,54 @@
       "source_repo": "dart-lang/ecosystem",
       "status": "candidate-context",
       "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/core",
+      "status": "candidate-context",
+      "text": "This repository is home to core Dart packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/core",
+      "status": "candidate-context",
+      "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "A composable API for making HTTP requests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/i18n",
+      "status": "candidate-context",
+      "text": "A general mono-repo for Dart i18n and l10n packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/i18n",
+      "status": "candidate-context",
+      "text": "Health"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +91,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/ecosystem",
+      "status": "candidate",
+      "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate",
+      "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/core",
+      "status": "candidate",
+      "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate",
+      "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/i18n",
       "status": "candidate",
       "text": "Health"
     }
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/health.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/i18n"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

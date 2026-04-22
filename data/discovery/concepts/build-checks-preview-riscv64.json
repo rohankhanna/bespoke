@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build checks preview riscv64"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Build checks preview riscv64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate",
+      "text": "Build checks preview riscv64"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18939,
+      "status": "candidate",
+      "text": "sneak preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "calamanco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "muster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "mustering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build checks preview riscv64",
+  "concept_id": "build-checks-preview-riscv64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build checks preview riscv64",
+      "sense_id": "build-checks-preview-riscv64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

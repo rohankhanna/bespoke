@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Promote to Nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "Promote to Nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "Promote to Nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "pbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12610,
+      "status": "candidate",
+      "text": "favor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12489,
+      "status": "candidate",
+      "text": "dba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12489,
+      "status": "candidate",
+      "text": "hostel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Promote to Nightly",
+  "concept_id": "promote-to-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/acceptance_test_promote.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote to Nightly",
+      "sense_id": "promote-to-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

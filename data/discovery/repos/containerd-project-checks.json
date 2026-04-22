@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:23:44.559469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This cross-project repository holds utilities, scripts, and common files used across the containerd master project and many sub-projects within the containerd organization",
+    "fork": false,
+    "full_name": "containerd/project-checks",
+    "html_url": "https://github.com/containerd/project-checks",
+    "language": "Shell",
+    "pushed_at": "2025-03-04T14:18:11Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-05-14T08:45:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

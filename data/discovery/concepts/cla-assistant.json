@@ -31,6 +31,18 @@
       "source_repo": "0xPolygon/polygon-edge",
       "status": "candidate-context",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "0xPolygon/polygon-edge",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
       "status": "candidate",
       "text": "\"CLA Assistant\""
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "0xPolygon/polygon-edge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

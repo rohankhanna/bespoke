@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "addyosmani/chatty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "adamlui/ai-web-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "aipexstudio/aipex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "amelmo/proofshot",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "danielrosehill/AI-Browser-Tools"
+}

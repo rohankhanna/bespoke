@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "grain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046425,
+      "status": "candidate",
+      "text": "cereal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020648,
+      "status": "candidate",
+      "text": "granulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013999,
+      "status": "candidate",
+      "text": "caryopsis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973907,
+      "status": "candidate",
+      "text": "ingrain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047559,
+      "status": "candidate",
+      "text": "food grain"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7028,
+      "status": "candidate",
+      "text": "ingrain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "caryopsis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "granulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "food grain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "metric grain"
+    }
+  ],
+  "canonical_name": "grain",
+  "concept_id": "grain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grain",
+      "sense_id": "grain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

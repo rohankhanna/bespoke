@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "@chainsafe/libp2p-noise",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chainsafe/libp2p-yamux",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@libp2p/circuit-relay-v2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@libp2p/floodsub",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@libp2p/identify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@libp2p/webrtc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@libp2p/websockets",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@multiformats/multiaddr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@multiformats/multiaddr-matcher",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "libp2p",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uint8arrays",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "test-ipfs-example",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-semantic-pull-request.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "ipfs-examples/actions-pull-directory-from-repo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@chainsafe/libp2p-noise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@chainsafe/libp2p-yamux",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@libp2p/circuit-relay-v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@libp2p/floodsub",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@libp2p/identify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@libp2p/webrtc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@libp2p/websockets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@multiformats/multiaddr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "@multiformats/multiaddr-matcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "libp2p",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "uint8arrays",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "test-ipfs-example",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-semantic-pull-request.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "Semantic PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "ipfs-examples/actions-pull-directory-from-repo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+      "target": "pull",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:47.965227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4995
+    },
+    {
+      "path": "package.json",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yml",
+      "size": 220
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "How to use libp2p pubsub in browsers",
+    "fork": false,
+    "full_name": "libp2p/js-libp2p-example-browser-pubsub",
+    "html_url": "https://github.com/libp2p/js-libp2p-example-browser-pubsub",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-30T08:40:11Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-11-03T23:06:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Semantic PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "term": "Semantic PR"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "pull"
+    }
+  ]
+}

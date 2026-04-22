@@ -31,6 +31,42 @@
       "source_repo": "Piebald-AI/muda",
       "status": "candidate-context",
       "text": "covector status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "covector status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "Cross-platform WebView library in Rust for Tauri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "covector status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "covector status"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Piebald-AI/muda",
+      "status": "candidate",
+      "text": "covector status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate",
+      "text": "covector status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate",
+      "text": "covector status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
       "status": "candidate",
       "text": "covector status"
     }
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/covector-status.yml",
       "source_repo": "Piebald-AI/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/muda"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

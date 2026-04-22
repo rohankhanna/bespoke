@@ -97,6 +97,18 @@
       "source_repo": "agent-sh/next-task",
       "status": "candidate-context",
       "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "Complete PR workflow from commit to production with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
     }
   ],
   "candidate_glosses": [
@@ -129,6 +141,12 @@
       "source_repo": "agent-sh/next-task",
       "status": "candidate",
       "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
     }
   ],
   "candidate_related_terms": [
@@ -246,11 +264,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "agent-sh/next-task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/ship"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

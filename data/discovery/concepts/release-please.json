@@ -64,6 +64,54 @@
       "source_repo": "googleapis/release-please-action",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-github-actions/release-please-action",
+      "status": "candidate-context",
+      "text": "Archived version of release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/release-please-action",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "status": "candidate-context",
+      "text": "A completion plugin for neovim coded in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "status": "candidate-context",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint/js",
+      "status": "candidate-context",
+      "text": "Monorepo for the JS language tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/js",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "restify/node-restify",
+      "status": "candidate-context",
+      "text": "The future of Node.js REST development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restify/node-restify",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +142,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/release-please-action",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/release-please-action",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/js",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restify/node-restify",
       "status": "candidate",
       "text": "release-please"
     }
@@ -187,11 +259,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/release-please.yaml",
       "source_repo": "googleapis/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google-github-actions/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "hrsh7th/nvim-cmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "restify/node-restify"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

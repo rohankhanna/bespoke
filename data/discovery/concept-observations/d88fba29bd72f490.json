@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "k3s e2e tests for flannel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "k3s e2e tests for flannel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "blood test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "microcosmic salt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10621,
+      "status": "candidate",
+      "text": "autotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10621,
+      "status": "candidate",
+      "text": "djvu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "k3s e2e tests for flannel",
+      "sense_id": "k3s-e2e-tests-for-flannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "k3s-e2e-tests-for-flannel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "k3s-e2e-tests-for-flannel",
+  "observation_id": "d88fba29bd72f490",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "k3s e2e tests for flannel",
+  "source_context_snippet": "k3s e2e tests for flannel",
+  "source_file": ".github/workflows/k3s-e2eTests.yml",
+  "source_repo": "flannel-io/flannel",
+  "source_repo_description": "flannel is a network fabric for containers, designed for Kubernetes"
+}

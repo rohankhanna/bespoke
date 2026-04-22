@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@eea29cff9a2b68892c0845ae3e4f45fc47ee9354",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
+    }
+  ]
+}

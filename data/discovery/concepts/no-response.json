@@ -19,12 +19,66 @@
       "source_repo": "pyenv/pyenv",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate-context",
+      "text": "The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate-context",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "A composable API for making HTTP requests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pyenv/pyenv",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
       "status": "candidate",
       "text": "No Response"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "pyenv/pyenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/http"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

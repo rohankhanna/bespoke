@@ -154,6 +154,90 @@
       "source_repo": "likle/cwalk",
       "status": "candidate-context",
       "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "\u201cZero setup\u201d cross compilation and \u201ccross testing\u201d of Rust crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "A cross-platform, OpenGL terminal emulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "My lovely dots ~/.\ud83d\udc96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/toolbox",
+      "status": "candidate-context",
+      "text": "Tool for interactive command line environments on Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/toolbox",
+      "status": "candidate-context",
+      "text": "![README](data/gfx/README.gif)"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +312,48 @@
       "source_repo": "likle/cwalk",
       "status": "candidate",
       "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/toolbox",
+      "status": "candidate",
+      "text": "![README](data/gfx/README.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -367,11 +493,53 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containers/toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

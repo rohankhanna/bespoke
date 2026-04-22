@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build eigenwallet release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigenwallet/core",
+      "status": "candidate-context",
+      "text": "eigenwallet is a battle-tested Monero-Bitcoin DEX based on Atomic Swaps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/core",
+      "status": "candidate-context",
+      "text": "\"Build eigenwallet release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/core",
+      "status": "candidate",
+      "text": "\"Build eigenwallet release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "enlarge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "outreach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build eigenwallet release",
+  "concept_id": "build-eigenwallet-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "eigenwallet/core"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build eigenwallet release",
+      "sense_id": "build-eigenwallet-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

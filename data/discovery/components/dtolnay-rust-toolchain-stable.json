@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -602,6 +602,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dnvt/burn-speech-training"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/warp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/rust-mode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crate-ci/imperative"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "crate-ci/imperative"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fortanix/rustls-mbedtls-provider"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Ironclad/rivet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ethereum-tests.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
     }
   ]
 }

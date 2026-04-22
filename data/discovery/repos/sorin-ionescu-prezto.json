@@ -1,0 +1,158 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "plugin-framewoek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "prezto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "zsh-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto",
+      "target": "zsh-plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:41.482393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The configuration framework for Zsh",
+    "fork": false,
+    "full_name": "sorin-ionescu/prezto",
+    "html_url": "https://github.com/sorin-ionescu/prezto",
+    "language": "Shell",
+    "pushed_at": "2026-03-23T05:50:18Z",
+    "stargazers_count": 14513,
+    "topics": [
+      "cli",
+      "framework",
+      "plugin-framewoek",
+      "plugin-manager",
+      "prezto",
+      "shell",
+      "terminal",
+      "theme",
+      "zsh",
+      "zsh-configuration",
+      "zsh-plugin-manager"
+    ],
+    "updated_at": "2026-04-21T18:56:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-framewoek"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prezto"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-configuration"
+    },
+    {
+      "context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin-manager"
+    }
+  ]
+}

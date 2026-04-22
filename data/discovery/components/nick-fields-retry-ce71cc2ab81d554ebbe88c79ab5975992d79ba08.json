@@ -1,7 +1,7 @@
 {
   "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
     }
   ]
 }

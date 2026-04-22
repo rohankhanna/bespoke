@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Check the mood of a word"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Security audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Security audit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36940,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36939,
+      "status": "candidate",
+      "text": "audits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36938,
+      "status": "candidate",
+      "text": "security system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36937,
+      "status": "candidate",
+      "text": "cyber security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36936,
+      "status": "candidate",
+      "text": "cybersecurity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security audit",
+      "sense_id": "security-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "security-audit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "security-audit",
+  "observation_id": "87474b0008200574",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Security audit",
+  "source_context_snippet": "Security audit",
+  "source_file": ".github/workflows/audit.yml",
+  "source_repo": "crate-ci/imperative",
+  "source_repo_description": "Check the mood of a word"
+}

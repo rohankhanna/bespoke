@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reset Daily Generation Credits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "Reset Daily Generation Credits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate",
+      "text": "Reset Daily Generation Credits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29180,
+      "status": "candidate",
+      "text": "restored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28539,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28539,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28527,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28442,
+      "status": "candidate",
+      "text": "accommodation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reset Daily Generation Credits",
+  "concept_id": "reset-daily-generation-credits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/reset-credits.yml",
+      "source_repo": "f/prompts.chat"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reset Daily Generation Credits",
+      "sense_id": "reset-daily-generation-credits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

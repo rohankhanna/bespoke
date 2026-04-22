@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mislav/hub",
+      "target": "rtomayko/tilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mislav/hub",
+      "target": "github/hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mislav/hub",
+      "target": "void-linux/xbps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mislav/hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mislav/hub",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mislav/hub",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/hub",
+      "target": "github-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/hub",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/hub",
+      "target": "pull-request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:04:20.517452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5564
+    },
+    {
+      "path": "Dockerfile",
+      "size": 551
+    },
+    {
+      "path": "go.mod",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command-line tool that makes git easier to use with GitHub.",
+    "fork": false,
+    "full_name": "mislav/hub",
+    "html_url": "https://github.com/mislav/hub",
+    "language": "Go",
+    "pushed_at": "2024-02-02T21:00:44Z",
+    "stargazers_count": 22942,
+    "topics": [
+      "git",
+      "github-api",
+      "go",
+      "homebrew",
+      "pull-request"
+    ],
+    "updated_at": "2026-04-21T02:19:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtomayko/tilt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "void-linux/xbps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "hub is a command line tool that wraps `git` in order to extend it with extra",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-api"
+    },
+    {
+      "context_snippet": "hub is a command line tool that wraps `git` in order to extend it with extra",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "hub is a command line tool that wraps `git` in order to extend it with extra",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-request"
+    }
+  ]
+}

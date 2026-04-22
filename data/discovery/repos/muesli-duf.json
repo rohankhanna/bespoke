@@ -1,0 +1,445 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/setup-go@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/duf",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/setup-go@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "muesli/duf",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "muesli/duf",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/setup-go@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-soft.yml",
+      "source_repo": "muesli/duf",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-soft.yml",
+      "source_repo": "muesli/duf",
+      "target": "lint-soft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/setup-go@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/duf",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "muesli/duf",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/setup-go@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf",
+      "target": "manpage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "disk-space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "disk-usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "user-friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:33.795091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4143
+    },
+    {
+      "path": "go.mod",
+      "size": 700
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 448
+    },
+    {
+      "path": ".github/workflows/lint-soft.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/manpage.yml",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Disk Usage/Free Utility - a better 'df' alternative",
+    "fork": false,
+    "full_name": "muesli/duf",
+    "html_url": "https://github.com/muesli/duf",
+    "language": "Go",
+    "pushed_at": "2026-01-13T11:07:14Z",
+    "stargazers_count": 14961,
+    "topics": [
+      "cli",
+      "df",
+      "disk-space",
+      "disk-usage",
+      "filesystem",
+      "freebsd",
+      "hacktoberfest",
+      "linux",
+      "macos",
+      "openbsd",
+      "terminal",
+      "tui",
+      "user-friendly",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T17:55:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "lint-soft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-soft.yml",
+      "term": "lint-soft"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "manpage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpage.yml",
+      "term": "manpage"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-space"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-usage"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-friendly"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

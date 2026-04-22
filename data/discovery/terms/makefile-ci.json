@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti"
+    }
+  ],
+  "term": "Makefile CI"
+}

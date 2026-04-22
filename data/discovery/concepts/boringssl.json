@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "boringssl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "A boringssl-based rustls crypto provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "boringssl",
+  "concept_id": "boringssl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boringssl",
+      "sense_id": "boringssl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

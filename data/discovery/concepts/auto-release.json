@@ -19,12 +19,30 @@
       "source_repo": "automazeio/vibeproxy",
       "status": "candidate-context",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanbingxyz/5ire",
+      "status": "candidate-context",
+      "text": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/5ire",
+      "status": "candidate-context",
+      "text": "Auto Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "automazeio/vibeproxy",
+      "status": "candidate",
+      "text": "Auto Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanbingxyz/5ire",
       "status": "candidate",
       "text": "Auto Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/auto-release.yml",
       "source_repo": "automazeio/vibeproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "nanbingxyz/5ire"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

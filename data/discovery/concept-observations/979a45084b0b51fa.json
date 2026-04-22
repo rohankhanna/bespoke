@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983714,
+      "status": "candidate",
+      "text": "xmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983713,
+      "status": "candidate",
+      "text": "mando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983712,
+      "status": "candidate",
+      "text": "cmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983711,
+      "status": "candidate",
+      "text": "moddies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983710,
+      "status": "candidate",
+      "text": "module"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macos",
+      "sense_id": "macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos",
+  "observation_id": "979a45084b0b51fa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "macos",
+  "source_context_snippet": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)",
+  "source_file": null,
+  "source_repo": "Adminisme/ServerScan",
+  "source_repo_description": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002"
+}

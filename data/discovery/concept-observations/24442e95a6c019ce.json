@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995771,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966142,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954904,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948882,
+      "status": "candidate",
+      "text": "engineer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9941001,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reverse-engineering",
+      "sense_id": "reverse-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reverse-engineering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reverse-engineering",
+  "observation_id": "24442e95a6c019ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "reverse-engineering",
+  "source_context_snippet": "<img src=\"Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png\" width=\"400\">",
+  "source_file": null,
+  "source_repo": "NationalSecurityAgency/ghidra",
+  "source_repo_description": "Ghidra is a software reverse engineering (SRE) framework"
+}

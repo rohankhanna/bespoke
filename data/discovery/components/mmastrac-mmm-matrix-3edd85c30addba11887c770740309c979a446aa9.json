@@ -1,0 +1,12 @@
+{
+  "component": "mmastrac/mmm-matrix@3edd85c30addba11887c770740309c979a446aa9",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    }
+  ]
+}

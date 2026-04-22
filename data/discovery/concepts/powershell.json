@@ -19,6 +19,30 @@
       "source_repo": "shanoor/kubectl-aliases-powershell",
       "status": "candidate-context",
       "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfa\ud83d\uddff Terminal graphics for the 21st century."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "shanoor/kubectl-aliases-powershell",
       "status": "candidate",
       "text": "_Forked from: https://github.com/ahmetb/kubectl-aliases_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +98,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "shanoor/kubectl-aliases-powershell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

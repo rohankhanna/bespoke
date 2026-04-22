@@ -1064,6 +1064,384 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate-context",
       "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/hub",
+      "status": "candidate-context",
+      "text": "A command-line tool that makes git easier to use with GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/hub",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "ModelScope: bring the notion of Model-as-a-Service to life."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate-context",
+      "text": "A modular and stable agent sandbox runtime environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Ethereum Proof-of-Stake Consensus Specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "A Language Server for Rust using Bacon diagnostics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transitive-bullshit/agentic",
+      "status": "candidate-context",
+      "text": "Your API \u21d2 Paid MCP. Instantly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transitive-bullshit/agentic",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "v objective diffusion inference code for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate-context",
+      "text": "Scans Python packages for abi3 violations and inconsistencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate-context",
+      "text": "The open-source visual AI programming environment and TypeScript library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "A cross-platform, OpenGL terminal emulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate-context",
+      "text": "Authoritative dns server for A/AAAA container records. Forwards other request to host's /etc/resolv.conf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/netavark",
+      "status": "candidate-context",
+      "text": "Container network stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/netavark",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphiql",
+      "status": "candidate-context",
+      "text": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphiql",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Bash scripts that integrate bat with various command line tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate-context",
+      "text": "A lightweight Python package installer for Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate-context",
+      "text": "Library for writing and testing smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pugjs/pug",
+      "status": "candidate-context",
+      "text": "Pug \u2013 robust, elegant, feature rich template engine for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pugjs/pug",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "Delve is a debugger for the Go programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "\"Release\""
     }
   ],
   "candidate_glosses": [
@@ -1582,6 +1960,198 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate",
       "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/hub",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-enclave",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertogeniola/elmax-api",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transitive-bullshit/agentic",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/abi3audit",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ironclad/rivet",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/netavark",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphiql",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyodide/micropip",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pugjs/pug",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "\"Release\""
     }
   ],
   "candidate_related_terms": [
@@ -2423,11 +2993,257 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/modelscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-enclave"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "albertogeniola/elmax-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grain-lang/binaryen.ml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "transitive-bullshit/agentic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Ironclad/rivet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/aardvark-dns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/netavark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "eth-p/bat-extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rollingversions.yml",
+      "source_repo": "pugjs/pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "go-delve/delve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

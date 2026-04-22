@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fastapi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "A simple way to deploy PaddleOCR based on FastAPI. (PaddleOCR \u7684 FastAPI \u5feb\u901f\u90e8\u7f72\u65b9\u6848)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "flask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "cherrypy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "jinja"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "apache cxf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fastapi",
+  "concept_id": "fastapi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fastapi",
+      "sense_id": "fastapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

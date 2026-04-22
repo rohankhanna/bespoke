@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801112,
+      "status": "candidate",
+      "text": "stabile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731307,
+      "status": "candidate",
+      "text": "unreactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39720018,
+      "status": "candidate",
+      "text": "balanced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700632,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39689882,
+      "status": "candidate",
+      "text": "sound"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33053,
+      "status": "candidate",
+      "text": "static"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22043,
+      "status": "candidate",
+      "text": "steady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13035,
+      "status": "candidate",
+      "text": "lasting"
+    }
+  ],
+  "canonical_name": "stable",
+  "concept_id": "stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rsrc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stable",
+      "sense_id": "stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881089,
+      "status": "candidate",
+      "text": "realtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799550,
+      "status": "candidate",
+      "text": "actual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29798148,
+      "status": "candidate",
+      "text": "real-world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29795593,
+      "status": "candidate",
+      "text": "momentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794866,
+      "status": "candidate",
+      "text": "instant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "real-time",
+      "sense_id": "real-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "real-time",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "real-time",
+  "observation_id": "82d1ab08acb6ef0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "real-time",
+  "source_context_snippet": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026",
+  "source_file": null,
+  "source_repo": "NVlabs/tiny-cuda-nn",
+  "source_repo_description": "Lightning fast C++/CUDA neural network framework"
+}

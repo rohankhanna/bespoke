@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "package:http2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "A composable API for making HTTP requests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "package:http2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate",
+      "text": "package:http2"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "package:http2",
+  "concept_id": "package-http2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:http2",
+      "sense_id": "package-http2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

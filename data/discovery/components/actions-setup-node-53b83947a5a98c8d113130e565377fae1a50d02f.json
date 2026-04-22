@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -377,6 +377,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "goreleaser/sponsors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-website.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundler-friendly.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-sizes.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-cspell.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-package-test.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-test.yml",
+      "source_repo": "prettier/prettier"
     }
   ]
 }

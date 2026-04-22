@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@2ff1acb3ee319fa302837dad6e17c2f36c0d98ea",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers"
+    }
+  ]
+}

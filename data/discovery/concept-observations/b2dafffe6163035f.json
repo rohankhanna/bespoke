@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "check change tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "check change tags"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31500,
+      "status": "candidate",
+      "text": "rename"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26113,
+      "status": "candidate",
+      "text": "setback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26099,
+      "status": "candidate",
+      "text": "watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24455,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24455,
+      "status": "candidate",
+      "text": "tagging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check change tags",
+      "sense_id": "check-change-tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-change-tags",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-change-tags",
+  "observation_id": "b2dafffe6163035f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "check change tags",
+  "source_context_snippet": "check change tags",
+  "source_file": ".github/workflows/check-change-tags.yml",
+  "source_repo": "tauri-apps/tauri",
+  "source_repo_description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+}

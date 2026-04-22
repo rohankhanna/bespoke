@@ -19,6 +19,30 @@
       "source_repo": "FeeiCN/Cobra",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": "Bandit is a tool designed to find common security issues in Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "FeeiCN/Cobra",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/WhaleShark-Team/cobra.svg?branch=master)](https://travis-ci.org/WhaleShark-Team/cobra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

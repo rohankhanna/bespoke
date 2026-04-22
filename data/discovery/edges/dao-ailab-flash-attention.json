@@ -4,21 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Dao-AILab/flash-attention",
-      "target": "rocm/composable_kernel",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Dao-AILab/flash-attention",
-      "target": "rocm/aiter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Dao-AILab/flash-attention",
-      "target": "huggingface/kernels",
+      "target": "ssiu/flash-attention-turing",
       "target_type": "repository"
     },
     {
@@ -211,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "Dao-AILab/flash-attention"
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Metadata and tooling for the OpenTofu registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate and Sync Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate and Sync Files"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19266,
+      "status": "candidate",
+      "text": "grandfather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "root"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Sync Files",
+      "sense_id": "generate-and-sync-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-and-sync-files",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-and-sync-files",
+  "observation_id": "8c7f29eca96ee2ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Generate and Sync Files",
+  "source_context_snippet": "Generate and Sync Files",
+  "source_file": ".github/workflows/generate-and-deploy.yml",
+  "source_repo": "opentofu/registry",
+  "source_repo_description": "Metadata and tooling for the OpenTofu registry"
+}

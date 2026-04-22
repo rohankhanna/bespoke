@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "information"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "wik is use to get information about anything on the shell using Wikipedia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019896,
+      "status": "candidate",
+      "text": "info"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977679,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913002,
+      "status": "candidate",
+      "text": "entropy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020902,
+      "status": "candidate",
+      "text": "selective information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020674,
+      "status": "candidate",
+      "text": "identification"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32065,
+      "status": "candidate",
+      "text": "entropy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7031,
+      "status": "candidate",
+      "text": "info"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4009,
+      "status": "candidate",
+      "text": "selective information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "data"
+    }
+  ],
+  "canonical_name": "information",
+  "concept_id": "information",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "information",
+      "sense_id": "information#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -347,6 +347,136 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/explosionbot.yml",
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comptests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docset.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kit.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "coveragepy/coveragepy"
     }
   ]
 }

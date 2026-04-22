@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A general mono-repo for Dart i18n and l10n packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "package:intl4x"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "package:intl4x"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:intl4x",
+      "sense_id": "package-intl4x#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-intl4x",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-intl4x",
+  "observation_id": "ce1b44091ea94c26",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "package:intl4x",
+  "source_context_snippet": "package:intl4x",
+  "source_file": ".github/workflows/intl4x.yml",
+  "source_repo": "dart-lang/i18n",
+  "source_repo_description": "A general mono-repo for Dart i18n and l10n packages."
+}

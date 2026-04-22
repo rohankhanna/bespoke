@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Error Prone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Catch common Java mistakes as compile-time errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Release Error Prone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate",
+      "text": "Release Error Prone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34291,
+      "status": "candidate",
+      "text": "human"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "errant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26224,
+      "status": "candidate",
+      "text": "fallibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "slipped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Error Prone",
+  "concept_id": "release-error-prone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/error-prone"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Error Prone",
+      "sense_id": "release-error-prone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam2web",
+      "target": "ocaml/ocaml-re",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam2web",
+      "target": "avsm/ocaml-uri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam2web",
+      "target": "mirage/ocaml-cow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam2web",
+      "target": "ocaml/platform-blog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:52.638100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4361
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool to generate a website from an opam repository",
+    "fork": false,
+    "full_name": "ocaml-opam/opam2web",
+    "html_url": "https://github.com/ocaml-opam/opam2web",
+    "language": "OCaml",
+    "pushed_at": "2026-04-10T10:18:09Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-10T10:15:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avsm/ocaml-uri",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/ocaml-cow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/ocaml-re",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/platform-blog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

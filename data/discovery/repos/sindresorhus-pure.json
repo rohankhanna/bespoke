@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "pure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "shell-prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "shell-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:39.334342+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pretty, minimal and fast ZSH prompt",
+    "fork": false,
+    "full_name": "sindresorhus/pure",
+    "html_url": "https://github.com/sindresorhus/pure",
+    "language": "Shell",
+    "pushed_at": "2026-03-27T13:43:51Z",
+    "stargazers_count": 14202,
+    "topics": [
+      "git",
+      "minimal",
+      "prompt",
+      "pure",
+      "shell",
+      "shell-prompt",
+      "shell-theme",
+      "terminal",
+      "theme",
+      "zsh"
+    ],
+    "updated_at": "2026-04-21T21:56:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimal"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pure"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-prompt"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-theme"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

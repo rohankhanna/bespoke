@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@v3",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checkpoints.yml",
       "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trademark-cla-approval.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trademark-cla-notice.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages"
     }
   ]
 }

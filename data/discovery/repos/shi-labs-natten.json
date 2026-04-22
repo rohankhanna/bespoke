@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN",
+      "target": "neighborhood-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN",
+      "target": "sparse-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:48.469167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6417
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1378
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast Multi-dimensional Sparse Attention",
+    "fork": false,
+    "full_name": "SHI-Labs/NATTEN",
+    "html_url": "https://github.com/SHI-Labs/NATTEN",
+    "language": "C++",
+    "pushed_at": "2026-04-14T18:51:11Z",
+    "stargazers_count": 739,
+    "topics": [
+      "cuda",
+      "neighborhood-attention",
+      "pytorch",
+      "sparse-attention"
+    ],
+    "updated_at": "2026-04-21T09:00:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neighborhood-attention"
+    },
+    {
+      "context_snippet": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-attention"
+    }
+  ]
+}

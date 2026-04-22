@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "deluan/zsh-in-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "coder/coder"
     }
   ],
   "term": "vscode"

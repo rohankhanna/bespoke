@@ -91,6 +91,66 @@
       "source_repo": "nodejs/build",
       "status": "candidate-context",
       "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/email",
+      "status": "candidate-context",
+      "text": "MX server management for iojs.org (and eventually nodejs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/email",
+      "status": "candidate-context",
+      "text": "**MX server management for iojs.org**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "nodejs/build",
       "status": "candidate",
       "text": "![ARM Cluster](./static-assets/ns-arm-cluster.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/email",
+      "status": "candidate",
+      "text": "**MX server management for iojs.org**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +358,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "nodejs/build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/email"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

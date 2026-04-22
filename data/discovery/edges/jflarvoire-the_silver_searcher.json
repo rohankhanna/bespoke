@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "k-takata/the_silver_searcher-win32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "microsoft/winget-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "mileszs/ack.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JFLarvoire/the_silver_searcher",
+      "target": "ggreer/ackmate",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "JFLarvoire/the_silver_searcher"
+}

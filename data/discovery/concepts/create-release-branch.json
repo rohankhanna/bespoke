@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Release Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "Create Release Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate",
+      "text": "Create Release Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18134,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18066,
+      "status": "candidate",
+      "text": "exhale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18066,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18066,
+      "status": "candidate",
+      "text": "puff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18066,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Release Branch",
+  "concept_id": "create-release-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Release Branch",
+      "sense_id": "create-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

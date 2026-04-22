@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "release flannel and upload docker images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "release flannel and upload docker images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "release flannel and upload docker images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26029,
+      "status": "candidate",
+      "text": "automatism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22525,
+      "status": "candidate",
+      "text": "youtube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22316,
+      "status": "candidate",
+      "text": "pic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22188,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22188,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "release flannel and upload docker images",
+  "concept_id": "release-flannel-and-upload-docker-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flannel-io/flannel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release flannel and upload docker images",
+      "sense_id": "release-flannel-and-upload-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "CUDA Templates and Python DSLs for High-Performance Linear Algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "flashinfer-ai/flashinfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

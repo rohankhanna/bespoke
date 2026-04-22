@@ -33,13 +33,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coaidev/blob-service",
-      "target": "csznet/tgstate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coaidev/blob-service",
       "target": "cgcel/paddleocrfastapi",
       "target_type": "repository"
     },
@@ -100,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:32:42.847452+00:00",
+  "fetched_at": "2026-04-22T01:11:33.352895+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,11 +139,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "cgcel/paddleocrfastapi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "csznet/tgstate",
       "source_file": "README.md"
     },
     {

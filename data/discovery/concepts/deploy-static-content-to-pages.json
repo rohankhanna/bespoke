@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Deploy static content to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29176,
+      "status": "candidate",
+      "text": "dual scan display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29043,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29043,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29014,
+      "status": "candidate",
+      "text": "flip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy static content to Pages",
+  "concept_id": "deploy-static-content-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "allenporter/python-google-nest-sdm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy static content to Pages",
+      "sense_id": "deploy-static-content-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup"
     }
   ],
   "term": "agentic-ai"

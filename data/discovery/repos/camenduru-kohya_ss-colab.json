@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/kohya_ss-colab",
+      "target": "kohya-ss/sd-scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/kohya_ss-colab",
+      "target": "microsoft/lora",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:13.785979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/kohya_ss-colab",
+    "html_url": "https://github.com/camenduru/kohya_ss-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-11T04:23:30Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-20T14:45:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohya-ss/sd-scripts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/lora",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

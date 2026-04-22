@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "containerd/project-checks@v1.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/release-tool",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/release-tool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/release-tool",
+      "target": "containerd/project-checks@v1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/release-tool",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:23:45.365341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3262
+    },
+    {
+      "path": "go.mod",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A release tool for generating detailed release notes",
+    "fork": false,
+    "full_name": "containerd/release-tool",
+    "html_url": "https://github.com/containerd/release-tool",
+    "language": "Go",
+    "pushed_at": "2026-03-17T01:01:10Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-03-17T01:01:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

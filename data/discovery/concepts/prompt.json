@@ -31,6 +31,30 @@
       "source_repo": "spaceship-prompt/spaceship-prompt",
       "status": "candidate-context",
       "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "spaceship-prompt/spaceship-prompt",
       "status": "candidate",
       "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

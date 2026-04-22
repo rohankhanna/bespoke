@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Comment on the pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Comment on the pull request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "dig"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on the pull request",
+      "sense_id": "comment-on-the-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comment-on-the-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comment-on-the-pull-request",
+  "observation_id": "1feac6a3662a2bf8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Comment on the pull request",
+  "source_context_snippet": "Comment on the pull request",
+  "source_file": ".github/workflows/post_summaries.yaml",
+  "source_repo": "dart-lang/build",
+  "source_repo_description": "A build system for Dart written in Dart"
+}

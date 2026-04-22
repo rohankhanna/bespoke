@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Questions? Suggestions? Found a bug? Please"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Questions? Suggestions? Found a bug? Please"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dart-build-system",
+      "sense_id": "dart-build-system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dart-build-system",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dart-build-system",
+  "observation_id": "57700d83db7212e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "dart-build-system",
+  "source_context_snippet": "_Questions? Suggestions? Found a bug? Please",
+  "source_file": null,
+  "source_repo": "dart-lang/build",
+  "source_repo_description": "A build system for Dart written in Dart"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tags"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate-context",
+      "text": "What are your favorite programming languages? \ud83d\udc45"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate-context",
+      "text": "Tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filhodanuvem/polyglot",
+      "status": "candidate",
+      "text": "Tags"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042744,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034876,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019500,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007833,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007326,
+      "status": "candidate",
+      "text": "go after"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tags",
+  "concept_id": "tags",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/polyglot"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tags",
+      "sense_id": "tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

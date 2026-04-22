@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:22:53.571240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public archive of structured AI ideation sessions run using Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Ideation-Runs",
+    "html_url": "https://github.com/danielrosehill/AI-Ideation-Runs",
+    "language": "Typst",
+    "pushed_at": "2026-04-19T14:44:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T14:44:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

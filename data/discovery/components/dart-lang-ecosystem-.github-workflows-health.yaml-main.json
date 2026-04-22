@@ -1,12 +1,32 @@
 {
   "component": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/health.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/i18n"
     }
   ]
 }

@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4.35.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4.35.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depscan.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depscan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "github/codeql-action/init@v4.35.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "github/codeql-action/analyze@v4.35.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depscan.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depscan.yml",
+      "source_repo": "kovidgoyal/kitty",
+      "target": "Depscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "golang-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "kitty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "kitty-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "terminfo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty",
+      "target": "vt100",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:56.528986+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 1797
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1115
+    },
+    {
+      "path": ".github/workflows/ci.py",
+      "size": 11126
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6672
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2039
+    },
+    {
+      "path": ".github/workflows/depscan.yml",
+      "size": 935
+    },
+    {
+      "path": ".github/workflows/macos_crash_report.py",
+      "size": 13873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
+    "fork": false,
+    "full_name": "kovidgoyal/kitty",
+    "html_url": "https://github.com/kovidgoyal/kitty",
+    "language": "Python",
+    "pushed_at": "2026-04-21T21:25:43Z",
+    "stargazers_count": 32523,
+    "topics": [
+      "c",
+      "go",
+      "golang",
+      "golang-application",
+      "kitty",
+      "kitty-terminal",
+      "opengl",
+      "python",
+      "terminal",
+      "terminal-emulators",
+      "terminfo",
+      "vt100"
+    ],
+    "updated_at": "2026-04-22T00:57:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Depscan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depscan.yml",
+      "term": "Depscan"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-application"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitty"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitty-terminal"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminfo"
+    },
+    {
+      "context_snippet": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vt100"
+    }
+  ]
+}

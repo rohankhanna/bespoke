@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "build-and-push-devcontainer-all-vers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "build-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "build-and-push-slim-devcontainer-all-vers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python",
+      "target": "build-slim-latest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:09.310391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3121
+    },
+    {
+      "path": ".github/workflows/build-all-vers.yaml",
+      "size": 4159
+    },
+    {
+      "path": ".github/workflows/build-latest.yml",
+      "size": 1737
+    },
+    {
+      "path": ".github/workflows/build-slim-all-vers.yaml",
+      "size": 1988
+    },
+    {
+      "path": ".github/workflows/build-slim-latest.yaml",
+      "size": 1779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ghidra Python Images based on devcontiners",
+    "fork": false,
+    "full_name": "clearbluejar/ghidra-python",
+    "html_url": "https://github.com/clearbluejar/ghidra-python",
+    "language": "Slim",
+    "pushed_at": "2026-03-22T21:45:31Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-24T16:55:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"build-and-push-devcontainer-all-vers\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "term": "build-and-push-devcontainer-all-vers"
+    },
+    {
+      "context_snippet": "'build-latest'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest.yml",
+      "term": "build-latest"
+    },
+    {
+      "context_snippet": "\"build-and-push-slim-devcontainer-all-vers\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "term": "build-and-push-slim-devcontainer-all-vers"
+    },
+    {
+      "context_snippet": "'build-slim-latest'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "term": "build-slim-latest"
+    }
+  ]
+}

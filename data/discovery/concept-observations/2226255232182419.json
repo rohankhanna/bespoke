@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chinese tokenizer for tantivy, based on jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "full-text-search",
+      "sense_id": "full-text-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "full-text-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "full-text-search",
+  "observation_id": "2226255232182419",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "full-text-search",
+  "source_context_snippet": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026",
+  "source_file": null,
+  "source_repo": "DCjanus/cang-jie",
+  "source_repo_description": "Chinese tokenizer for tantivy, based on jieba-rs"
+}

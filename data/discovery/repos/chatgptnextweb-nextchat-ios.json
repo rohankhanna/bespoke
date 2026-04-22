@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "target": "ios-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "target": "nextchat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:18.614091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NextChat for iOS source",
+    "fork": false,
+    "full_name": "ChatGPTNextWeb/NextChat-iOS",
+    "html_url": "https://github.com/ChatGPTNextWeb/NextChat-iOS",
+    "language": null,
+    "pushed_at": "2025-04-19T07:51:53Z",
+    "stargazers_count": 77,
+    "topics": [
+      "ios",
+      "ios-app",
+      "nextchat",
+      "swift"
+    ],
+    "updated_at": "2026-04-11T14:56:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-app"
+    },
+    {
+      "context_snippet": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextchat"
+    },
+    {
+      "context_snippet": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

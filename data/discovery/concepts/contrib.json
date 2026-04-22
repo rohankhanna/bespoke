@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "contrib"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "Secure environments for developers and their agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "contrib"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate",
+      "text": "contrib"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011877,
+      "status": "candidate",
+      "text": "distrib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011876,
+      "status": "candidate",
+      "text": "repo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011875,
+      "status": "candidate",
+      "text": "alioth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011874,
+      "status": "candidate",
+      "text": "devel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10011873,
+      "status": "candidate",
+      "text": "submodule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "contrib",
+  "concept_id": "contrib",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/contrib.yaml",
+      "source_repo": "coder/coder"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contrib",
+      "sense_id": "contrib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

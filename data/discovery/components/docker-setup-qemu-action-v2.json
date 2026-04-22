@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pytest-devcontainer.yml",
       "source_repo": "clearbluejar/ghidrecomp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
     }
   ]
 }

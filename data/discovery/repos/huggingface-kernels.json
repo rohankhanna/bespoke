@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml"
+    },
+    {
+      "component": "huggingface/cuda-toolkit@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_variants.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_variants.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build and test kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build and test kernel (macOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build and test kernel (ROCm)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "huggingface/cuda-toolkit@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build and test kernel - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build and test kernel (XPU)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_variants.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_variants.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_variants.yaml",
+      "source_repo": "huggingface/kernels",
+      "target": "Check build variants",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:07.034987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2440
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 200
+    },
+    {
+      "path": ".github/workflows/build_documentation.yaml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/build_kernel.yaml",
+      "size": 2443
+    },
+    {
+      "path": ".github/workflows/build_kernel_macos.yaml",
+      "size": 1204
+    },
+    {
+      "path": ".github/workflows/build_kernel_rocm.yaml",
+      "size": 1342
+    },
+    {
+      "path": ".github/workflows/build_kernel_windows.yaml",
+      "size": 2515
+    },
+    {
+      "path": ".github/workflows/build_kernel_xpu.yaml",
+      "size": 1664
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yaml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/check_variants.yaml",
+      "size": 1593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build compute kernels and load them from the Hub.",
+    "fork": false,
+    "full_name": "huggingface/kernels",
+    "html_url": "https://github.com/huggingface/kernels",
+    "language": "Python",
+    "pushed_at": "2026-04-21T19:15:56Z",
+    "stargazers_count": 605,
+    "topics": [],
+    "updated_at": "2026-04-21T19:15:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "\"Build and test kernel\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "term": "Build and test kernel"
+    },
+    {
+      "context_snippet": "\"Build and test kernel (macOS)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "term": "Build and test kernel (macOS)"
+    },
+    {
+      "context_snippet": "\"Build and test kernel (ROCm)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "term": "Build and test kernel (ROCm)"
+    },
+    {
+      "context_snippet": "\"Build and test kernel - Windows\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "term": "Build and test kernel - Windows"
+    },
+    {
+      "context_snippet": "\"Build and test kernel (XPU)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "term": "Build and test kernel (XPU)"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "\"Check build variants\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_variants.yaml",
+      "term": "Check build variants"
+    }
+  ]
+}

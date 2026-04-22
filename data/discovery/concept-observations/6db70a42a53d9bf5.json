@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build checks preview riscv64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build checks preview riscv64"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18939,
+      "status": "candidate",
+      "text": "sneak preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "calamanco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "muster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "mustering"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build checks preview riscv64",
+      "sense_id": "build-checks-preview-riscv64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-checks-preview-riscv64",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-checks-preview-riscv64",
+  "observation_id": "6db70a42a53d9bf5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build checks preview riscv64",
+  "source_context_snippet": "Build checks preview riscv64",
+  "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+  "source_repo": "kata-containers/kata-containers",
+  "source_repo_description": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+}

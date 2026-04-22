@@ -19,6 +19,30 @@
       "source_repo": "muesli/termenv",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfa\ud83d\uddff Terminal graphics for the 21st century."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "muesli/termenv",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,54 @@
       "source_repo": "ElricLiu/AutoGPT-Next-Web",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "A simple way to deploy PaddleOCR based on FastAPI. (PaddleOCR \u7684 FastAPI \u5feb\u901f\u90e8\u7f72\u65b9\u6848)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "Define and run multi-container applications with Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "Convert Compose to Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "[![Build Status Widget]][Build Status] [![Coverage Status Widget]][Coverage Status] [![GoDoc Widget]][GoDoc] [![GoReportCard Widget]][GoReportCardResult]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "ElricLiu/AutoGPT-Next-Web",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate",
+      "text": "[![Build Status Widget]][Build Status] [![Coverage Status Widget]][Coverage Status] [![GoDoc Widget]][GoDoc] [![GoReportCard Widget]][GoReportCardResult]"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +160,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kompose"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

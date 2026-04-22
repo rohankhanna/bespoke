@@ -1,0 +1,328 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "kata-containers/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "kata-containers/www.katacontainers.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "kata-containers/cgroups-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "tim-actions/wip-check@8c84f5987215d49440b86475062d61e4f099e1b7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "Pull request WIP checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "raven-actions/actionlint@e01d1ea33dd6a5ed517d95b4c0c357560ac6f518",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "Lint GHA workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-s390x.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-s390x.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic-ci-s390x.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-checks-preview-riscv64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "Build checks preview riscv64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-checks.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-checks.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-checks.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "Build checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/attest-build-provenance@ef244123eb79f2f7a7e75d99086184180e6d0018",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "geekyeggo/delete-artifact@176a747ab7e287e3ff4787bf8a148716375ca118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/attest-build-provenance@ef244123eb79f2f7a7e75d99086184180e6d0018",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "geekyeggo/delete-artifact@176a747ab7e287e3ff4787bf8a148716375ca118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "acrn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "cri-o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "firecracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "qemu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "kata-containers/kata-containers"
+}

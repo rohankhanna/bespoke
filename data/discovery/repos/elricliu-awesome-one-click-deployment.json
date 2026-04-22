@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "babaohuang/geminiprochat",
+      "target": "dogtiti/autogpt-next-web",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "chanzhaoyu/chatgpt-web",
+      "target": "babaohuang/geminiprochat",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:32:30.784021+00:00",
+  "fetched_at": "2026-04-22T01:10:51.863674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -81,12 +81,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chanzhaoyu/chatgpt-web",
+      "full_name": "connectai-e/awesome-one-click-deployment",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "connectai-e/awesome-one-click-deployment",
+      "full_name": "dogtiti/autogpt-next-web",
       "source_file": "README.md"
     }
   ],

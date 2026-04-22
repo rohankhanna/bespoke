@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Bug-Catcher",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:57.590103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Desktop utility for catching bugs in the moment",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Bug-Catcher",
+    "html_url": "https://github.com/danielrosehill/Claude-Bug-Catcher",
+    "language": "Shell",
+    "pushed_at": "2025-12-31T16:03:43Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-14T10:41:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

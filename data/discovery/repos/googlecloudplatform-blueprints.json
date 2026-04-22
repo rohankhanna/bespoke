@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml"
+    },
+    {
+      "component": "actions/stale@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "target": "Lint check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "target": "actions/stale@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "target": "Close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:15.747930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 75
+    },
+    {
+      "path": ".github/workflows/schema.yml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample blueprints for Google Cloud",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/blueprints",
+    "html_url": "https://github.com/GoogleCloudPlatform/blueprints",
+    "language": "Shell",
+    "pushed_at": "2026-04-16T22:34:56Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-03T01:38:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Lint check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema.yml",
+      "term": "Lint check"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upgrade dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate-context",
+      "text": "Library for writing and testing smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate-context",
+      "text": "Upgrade dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrueFiEng/Waffle",
+      "status": "candidate",
+      "text": "Upgrade dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10638,
+      "status": "candidate",
+      "text": "accretion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10638,
+      "status": "candidate",
+      "text": "acre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10638,
+      "status": "candidate",
+      "text": "acyclic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10638,
+      "status": "candidate",
+      "text": "adventure playground"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upgrade dependencies",
+  "concept_id": "upgrade-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml",
+      "source_repo": "TrueFiEng/Waffle"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upgrade dependencies",
+      "sense_id": "upgrade-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

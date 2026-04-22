@@ -79,6 +79,30 @@
       "source_repo": "neomake/neomake",
       "status": "candidate-context",
       "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "A Language Server for Rust using Bacon diagnostics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "neomake/neomake",
       "status": "candidate",
       "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +202,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "neomake/neomake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crisidev/bacon-ls"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

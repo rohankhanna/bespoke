@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.13.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "kohakublueleaf/locon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "crate-ci/typos@v1.13.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "target": "Typos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:17.041443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11055
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kohya-ss/sd-webui-additional-networks",
+    "html_url": "https://github.com/kohya-ss/sd-webui-additional-networks",
+    "language": "Python",
+    "pushed_at": "2023-12-28T09:03:52Z",
+    "stargazers_count": 1824,
+    "topics": [],
+    "updated_at": "2026-04-03T14:33:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohakublueleaf/locon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "term": "Typos"
+    }
+  ]
+}

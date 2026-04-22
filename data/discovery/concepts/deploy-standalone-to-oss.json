@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Standalone to OSS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "Deploy Standalone to OSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "Deploy Standalone to OSS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22358,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484,
+      "status": "candidate",
+      "text": "compatible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14456,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14456,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14456,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Standalone to OSS",
+  "concept_id": "deploy-standalone-to-oss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "source_repo": "alibaba/higress"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Standalone to OSS",
+      "sense_id": "deploy-standalone-to-oss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -599,6 +599,210 @@
       "source_repo": "goreleaser/sponsors",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Metadata and tooling for the OpenTofu registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "Kotlin code completion, diagnostics and more for any editor/IDE using the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "High quality, fast and easy to build cryptography for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "A simple, physics-based animation library \ud83c\udfbc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "The Charm Tool and Library \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "Raw ANSI sequence helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate-context",
+      "text": "Use Relay as React hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "Create native macOS applications from command line scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate-context",
+      "text": "Documentation that simply works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for Elasticsearch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "Bindings to the Tracy profiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -899,6 +1103,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "goreleaser/sponsors",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/ansi",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relay-tools/relay-hooks",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
       "status": "candidate",
       "text": "build"
     }
@@ -1357,11 +1663,119 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "goreleaser/sponsors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ctz/graviola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/harmonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/ansi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "relay-tools/relay-hooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "sveinbjornt/Platypus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

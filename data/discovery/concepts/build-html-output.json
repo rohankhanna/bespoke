@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build HTML output"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "Documentation of OpenType shaping behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "\"Build HTML output\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate",
+      "text": "\"Build HTML output\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24113,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18457,
+      "status": "candidate",
+      "text": "formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18457,
+      "status": "candidate",
+      "text": "typed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18402,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build HTML output",
+  "concept_id": "build-html-output",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build HTML output",
+      "sense_id": "build-html-output#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

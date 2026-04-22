@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "efficiency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate-context",
+      "text": "An Efficient Enterprise-class Container Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971836,
+      "status": "candidate",
+      "text": "efficient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970938,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970933,
+      "status": "candidate",
+      "text": "productivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970467,
+      "status": "candidate",
+      "text": "effectiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970398,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "efficiency",
+  "concept_id": "efficiency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficiency",
+      "sense_id": "efficiency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Core Ganache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Core Ganache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "marinade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "baize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "batter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "chocolate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Core Ganache",
+      "sense_id": "core-ganache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "core-ganache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "core-ganache",
+  "observation_id": "a9a219ef8b12b3ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Core Ganache",
+  "source_context_snippet": "Core Ganache",
+  "source_file": ".github/workflows/core-ganache.yaml",
+  "source_repo": "eth-brownie/brownie",
+  "source_repo_description": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+}

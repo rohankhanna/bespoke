@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "collection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012246,
+      "status": "candidate",
+      "text": "assemblage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012155,
+      "status": "candidate",
+      "text": "collecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011905,
+      "status": "candidate",
+      "text": "assembling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011799,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005378,
+      "status": "candidate",
+      "text": "accumulation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41036,
+      "status": "candidate",
+      "text": "compendium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26043,
+      "status": "candidate",
+      "text": "assemblage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11034,
+      "status": "candidate",
+      "text": "solicitation"
+    }
+  ],
+  "canonical_name": "collection",
+  "concept_id": "collection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collection",
+      "sense_id": "collection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast non-cryptographic hash algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hash-checksum",
+      "sense_id": "hash-checksum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hash-checksum",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hash-checksum",
+  "observation_id": "1daab221a62040d7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "hash-checksum",
+  "source_context_snippet": "xxHash - Extremely fast hash algorithm",
+  "source_file": null,
+  "source_repo": "Cyan4973/xxHash",
+  "source_repo_description": "Extremely fast non-cryptographic hash algorithm"
+}

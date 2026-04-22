@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:22:15.594589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Vega, Vega-Lite and Vega-Altair Roadmap",
+    "fork": false,
+    "full_name": "vega/roadmap",
+    "html_url": "https://github.com/vega/roadmap",
+    "language": null,
+    "pushed_at": "2024-04-14T00:51:04Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-02-12T05:20:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

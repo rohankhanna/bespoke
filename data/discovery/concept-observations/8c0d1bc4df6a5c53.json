@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add new linter checklist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add new linter checklist"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35681,
+      "status": "candidate",
+      "text": "insert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26681,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26281,
+      "status": "candidate",
+      "text": "recover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26281,
+      "status": "candidate",
+      "text": "recovered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26281,
+      "status": "candidate",
+      "text": "reinforce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add new linter checklist",
+      "sense_id": "add-new-linter-checklist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-new-linter-checklist",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-new-linter-checklist",
+  "observation_id": "8c0d1bc4df6a5c53",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Add new linter checklist",
+  "source_context_snippet": "Add new linter checklist",
+  "source_file": ".github/workflows/new-linter-checklist.yml",
+  "source_repo": "golangci/golangci-lint",
+  "source_repo_description": "Fast linters runner for Go"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Formatting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Julia package for loading the standard Vega data sets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Code Formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate",
+      "text": "Code Formatting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15018,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14777,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14536,
+      "status": "candidate",
+      "text": "blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14536,
+      "status": "candidate",
+      "text": "initialization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13897,
+      "status": "candidate",
+      "text": "pal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Formatting",
+  "concept_id": "code-formatting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/VegaDatasets.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Formatting",
+      "sense_id": "code-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

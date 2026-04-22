@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "yeslogic/corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "rickstaa/sphinx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "Build HTML output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_document_sources.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_document_sources.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_document_sources.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "rickstaa/sphinx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_document_sources.yml",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "Test document sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "complex-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "opentype-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "opentype-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "n8willis/opentype-shaping-documents"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Tensor Engine for ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Flash Attention Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Flash Attention Integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18884,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18869,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "scintillation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18812,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18812,
+      "status": "candidate",
+      "text": "gun"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flash Attention Integration",
+      "sense_id": "flash-attention-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flash-attention-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flash-attention-integration",
+  "observation_id": "a330abb92e0a3249",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Flash Attention Integration",
+  "source_context_snippet": "Flash Attention Integration",
+  "source_file": ".github/workflows/flash_attention_integration.yaml",
+  "source_repo": "ROCm/aiter",
+  "source_repo_description": "AI Tensor Engine for ROCm"
+}

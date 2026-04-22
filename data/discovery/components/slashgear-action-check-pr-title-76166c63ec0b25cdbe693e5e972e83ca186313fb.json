@@ -1,0 +1,12 @@
+{
+  "component": "Slashgear/action-check-pr-title@76166c63ec0b25cdbe693e5e972e83ca186313fb",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommits_check.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ]
+}

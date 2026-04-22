@@ -1,0 +1,545 @@
+{
+  "components": [
+    {
+      "component": "@inquirer/prompts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-check-updates",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-curly",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/ai-inference@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-inference.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/anthropic.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/anthropic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai-commit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "@inquirer/prompts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "npm-check-updates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "prettier-plugin-curly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/genaiscript",
+      "target": "zx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-inference.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/ai-inference@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-inference.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "issue ai inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/anthropic.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/anthropic.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/anthropic.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "anthropic tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "azure openai tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai-commit.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai-commit.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-genai-commit.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "genai commit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-genai.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-genai.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "genai tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-test.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-test.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-test.yml",
+      "source_repo": "microsoft/genaiscript",
+      "target": "cli test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "genaistack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "gpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "llm-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "phi4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:08.458703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11163
+    },
+    {
+      "path": "Dockerfile",
+      "size": 543
+    },
+    {
+      "path": "package.json",
+      "size": 10889
+    },
+    {
+      "path": ".github/workflows/ai-inference.yml",
+      "size": 852
+    },
+    {
+      "path": ".github/workflows/anthropic.yml",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/azure.yml",
+      "size": 1196
+    },
+    {
+      "path": ".github/workflows/build-genai-commit.yml",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/build-genai.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1432
+    },
+    {
+      "path": ".github/workflows/cli-test.yml",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatable GenAI Scripting",
+    "fork": false,
+    "full_name": "microsoft/genaiscript",
+    "html_url": "https://github.com/microsoft/genaiscript",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-24T08:26:40Z",
+    "stargazers_count": 2897,
+    "topics": [
+      "agent",
+      "agents",
+      "ai",
+      "chatgpt",
+      "deepseek-r1",
+      "genai",
+      "genaistack",
+      "gpt",
+      "gpt4",
+      "javascript",
+      "llm",
+      "llm-framework",
+      "phi4",
+      "prompt-engineering",
+      "scripting",
+      "typescript",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-20T21:13:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "issue ai inference",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-inference.yml",
+      "term": "issue ai inference"
+    },
+    {
+      "context_snippet": "anthropic tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/anthropic.yml",
+      "term": "anthropic tests"
+    },
+    {
+      "context_snippet": "azure openai tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure.yml",
+      "term": "azure openai tests"
+    },
+    {
+      "context_snippet": "genai commit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-genai-commit.yml",
+      "term": "genai commit tests"
+    },
+    {
+      "context_snippet": "genai tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-genai.yml",
+      "term": "genai tests"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "cli test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-test.yml",
+      "term": "cli test"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genaistack"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-framework"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi4"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

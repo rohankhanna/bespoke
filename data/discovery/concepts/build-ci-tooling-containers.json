@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build CI Tooling Containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate-context",
+      "text": "Build CI Tooling Containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/llvm-project",
+      "status": "candidate",
+      "text": "Build CI Tooling Containers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21423,
+      "status": "candidate",
+      "text": "factory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21423,
+      "status": "candidate",
+      "text": "hardware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21423,
+      "status": "candidate",
+      "text": "mill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21423,
+      "status": "candidate",
+      "text": "observatory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build CI Tooling Containers",
+  "concept_id": "build-ci-tooling-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "llvm/llvm-project"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build CI Tooling Containers",
+      "sense_id": "build-ci-tooling-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

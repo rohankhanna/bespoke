@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1097,6 +1097,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "davidhalter/jedi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flash_attention_integration.yaml",
+      "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "verl-project/verl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
+      "source_repo": "verl-project/verl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml",
+      "source_repo": "verl-project/verl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
+      "source_repo": "verl-project/verl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kohya-ss/sd-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "ctz/graviola"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "sveinbjornt/Platypus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-sqlite-support.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autodeps.yml",
+      "source_repo": "python-trio/trio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-trio/trio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pypa/setuptools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "pypa/setuptools"
     }
   ]
 }

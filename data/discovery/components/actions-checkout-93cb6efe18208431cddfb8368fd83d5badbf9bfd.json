@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/orka-templates.yml",
       "source_repo": "nodejs/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "crytic/building-secure-contracts"
     }
   ]
 }

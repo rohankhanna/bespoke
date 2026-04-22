@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+      "target": "chatgptnextweb/chatgpt-next-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+      "target": "leezhuuuuu/code-interpreter-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:18.154340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NextChat Awesome Plugins",
+    "fork": false,
+    "full_name": "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+    "html_url": "https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins",
+    "language": null,
+    "pushed_at": "2025-04-11T07:22:05Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-04-21T23:58:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chatgptnextweb/chatgpt-next-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leezhuuuuu/code-interpreter-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

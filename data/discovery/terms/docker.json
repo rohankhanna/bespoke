@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -136,6 +136,71 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/kompose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "rust-lang/docs.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/tob"
     }
   ],
   "term": "docker"

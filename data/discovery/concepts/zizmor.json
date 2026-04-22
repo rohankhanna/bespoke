@@ -1,0 +1,89 @@
+{
+  "aliases": [
+    "zizmor",
+    "Zizmor \ud83c\udf08"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "A zlib implementation in rust available as a C dynamic library and as a rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "Python Classes Without Boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "Zizmor \ud83c\udf08"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate",
+      "text": "Zizmor \ud83c\udf08"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zizmor",
+  "concept_id": "zizmor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "python-attrs/attrs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "zizmor",
+      "sense_id": "zizmor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

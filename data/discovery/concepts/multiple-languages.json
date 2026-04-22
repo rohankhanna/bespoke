@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multiple-languages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multiple-languages",
+  "concept_id": "multiple-languages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiple-languages",
+      "sense_id": "multiple-languages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

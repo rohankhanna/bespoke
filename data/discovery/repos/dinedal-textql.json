@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:14:59.321028+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 222
+    },
+    {
+      "path": "go.mod",
+      "size": 224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Execute SQL against structured text like CSV or TSV",
+    "fork": false,
+    "full_name": "dinedal/textql",
+    "html_url": "https://github.com/dinedal/textql",
+    "language": "Go",
+    "pushed_at": "2023-10-22T22:51:40Z",
+    "stargazers_count": 9118,
+    "topics": [],
+    "updated_at": "2026-04-20T13:18:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

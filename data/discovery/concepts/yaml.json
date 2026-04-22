@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "yaml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762505,
+      "status": "candidate",
+      "text": "extensible markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762504,
+      "status": "candidate",
+      "text": "markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762503,
+      "status": "candidate",
+      "text": "ruby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762502,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762501,
+      "status": "candidate",
+      "text": "query language"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "yaml",
+  "concept_id": "yaml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yaml",
+      "sense_id": "yaml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

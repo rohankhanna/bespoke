@@ -80,6 +80,66 @@
       "source_repo": "muesli/termenv",
       "status": "candidate-context",
       "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "General purpose TLS and crypto library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "High quality, fast and easy to build cryptography for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "The Charm Tool and Library \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "The code coverage tool for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "\"Coverage\""
     }
   ],
   "candidate_glosses": [
@@ -118,6 +178,36 @@
       "source_repo": "muesli/termenv",
       "status": "candidate",
       "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctz/graviola",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/reflow",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate",
+      "text": "\"Coverage\""
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +321,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "muesli/termenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ctz/graviola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "muesli/reflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "coveragepy/coveragepy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

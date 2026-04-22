@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "suno-ai-api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "This is an unofficial Suno AI API based on Golang. It currently supports generating songs, lyrics, and OpenAI Chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "\ufeff# Suno API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate",
+      "text": "\ufeff# Suno API"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "suno-ai-api",
+  "concept_id": "suno-ai-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "suno-ai-api",
+      "sense_id": "suno-ai-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

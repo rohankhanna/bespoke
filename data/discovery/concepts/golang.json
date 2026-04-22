@@ -271,6 +271,186 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate-context",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "ServerScan\u4e00\u6b3e\u4f7f\u7528Golang\u5f00\u53d1\u7684\u9ad8\u5e76\u53d1\u7f51\u7edc\u626b\u63cf\u3001\u670d\u52a1\u63a2\u6d4b\u5de5\u5177\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate-context",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "This is an unofficial Suno AI API based on Golang. It currently supports generating songs, lyrics, and OpenAI Chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "\ufeff# Suno API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csznet/tgState",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528Telegram\u4f5c\u4e3a\u5b58\u50a8\u7684\u6587\u4ef6\u5916\u94fe\u7cfb\u7edf\uff0c\u4e0d\u9650\u5236\u6587\u4ef6\u5927\u5c0f\u548c\u683c\u5f0f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csznet/tgState",
+      "status": "candidate-context",
+      "text": "tgState"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "A simple, physics-based animation library \ud83c\udfbc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate-context",
+      "text": "Harmonica"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "The Charm Tool and Library \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate-context",
+      "text": "To continue innovating in this space and supporting our larger projects, we need to keep our team focused on the most impactful work. On **29 November 2024**, we sunset Charm Cloud."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "Define and run multi-container applications with Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uber-go/zap",
+      "status": "candidate-context",
+      "text": "Blazing fast, structured, leveled logging in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/zap",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "Delve is a debugger for the Go programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "![Delve](https://raw.githubusercontent.com/go-delve/delve/master/assets/delve_horizontal.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitfield/gotestdox",
+      "status": "candidate-context",
+      "text": "A tool for formatting Go test results as readable documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfield/gotestdox",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bitfield/gotestdox.svg)](https://pkg.go.dev/github.com/bitfield/gotestdox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "Secure environments for developers and their agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for Elasticsearch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper - Coz employs a novel technique we call causal profiling that measures optimization potential."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +585,96 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adminisme/ServerScan",
+      "status": "candidate",
+      "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate",
+      "text": "\ufeff# Suno API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csznet/tgState",
+      "status": "candidate",
+      "text": "tgState"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/harmonica",
+      "status": "candidate",
+      "text": "Harmonica"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/charm",
+      "status": "candidate",
+      "text": "To continue innovating in this space and supporting our larger projects, we need to keep our team focused on the most impactful work. On **29 November 2024**, we sunset Charm Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate",
+      "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/zap",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate",
+      "text": "![Delve](https://raw.githubusercontent.com/go-delve/delve/master/assets/delve_horizontal.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfield/gotestdox",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bitfield/gotestdox.svg)](https://pkg.go.dev/github.com/bitfield/gotestdox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/coder",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "The official Go client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate",
+      "text": "Coz profiler Golang wrapper."
     }
   ],
   "candidate_related_terms": [],
@@ -562,11 +832,101 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "avelino/awesome-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "csznet/tgState"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "uber-go/zap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "go-delve/delve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bitfield/gotestdox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

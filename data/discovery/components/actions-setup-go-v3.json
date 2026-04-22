@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v3",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/one-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/one-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/one-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "container-storage-interface/spec"
     }
   ]
 }

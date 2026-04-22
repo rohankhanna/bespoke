@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeakai/wechat-ai",
+      "target": "zhayujie/chatgpt-on-wechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeakai/wechat-ai",
+      "target": "litter-coder/wechat-ai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:40.572717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3244
+    },
+    {
+      "path": "Dockerfile",
+      "size": 77
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 161
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5fae\u4fe1\u667a\u80fd\u673a\u5668\u4eba",
+    "fork": false,
+    "full_name": "zeakai/wechat-ai",
+    "html_url": "https://github.com/zeakai/wechat-ai",
+    "language": "Python",
+    "pushed_at": "2023-12-19T11:30:32Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-03-13T10:11:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litter-coder/wechat-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhayujie/chatgpt-on-wechat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

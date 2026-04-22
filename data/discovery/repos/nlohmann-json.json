@@ -1,0 +1,863 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml"
+    },
+    {
+      "component": "david-a-wheeler/flawfinder@c57197cd6061453f10a496f30a732bc1905918d1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "srvaroa/labeler@e8fbb2561481ef6e711a770f0234e9379dc76892",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlohmann/json",
+      "target": "google/oss-fuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlohmann/json",
+      "target": "kapeli/dash-user-contributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlohmann/json",
+      "target": "edlund/amalgamate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlohmann/json",
+      "target": "google/benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Check amalgamation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "github/codeql-action/autobuild@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "github/codeql-action/analyze@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Comment Check Amalgamation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json",
+      "target": "david-a-wheeler/flawfinder@c57197cd6061453f10a496f30a732bc1905918d1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json",
+      "target": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json",
+      "target": "flawfinder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nlohmann/json",
+      "target": "srvaroa/labeler@e8fbb2561481ef6e711a770f0234e9379dc76892",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nlohmann/json",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json",
+      "target": "Publish documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "bson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-merge-patch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-patch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-pointer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "json-serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "messagepack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "msgpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "rfc-6901",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "rfc-6902",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "rfc-7049",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "rfc-7159",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "rfc-8259",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "stl-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nlohmann/json",
+      "target": "ubjson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:57.344990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 113726
+    },
+    {
+      "path": ".github/workflows/check_amalgamation.yml",
+      "size": 2659
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 930
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1324
+    },
+    {
+      "path": ".github/workflows/comment_check_amalgamation.yml",
+      "size": 2966
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/flawfinder.yml",
+      "size": 1328
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 556
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 4250
+    },
+    {
+      "path": ".github/workflows/publish_documentation.yml",
+      "size": 1219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "JSON for Modern C++",
+    "fork": false,
+    "full_name": "nlohmann/json",
+    "html_url": "https://github.com/nlohmann/json",
+    "language": "C++",
+    "pushed_at": "2026-04-10T15:44:09Z",
+    "stargazers_count": 49442,
+    "topics": [
+      "bson",
+      "cbor",
+      "header-only",
+      "json",
+      "json-diff",
+      "json-merge-patch",
+      "json-parser",
+      "json-patch",
+      "json-pointer",
+      "json-serialization",
+      "messagepack",
+      "msgpack",
+      "rfc-6901",
+      "rfc-6902",
+      "rfc-7049",
+      "rfc-7159",
+      "rfc-8259",
+      "stl-containers",
+      "ubjson"
+    ],
+    "updated_at": "2026-04-21T22:57:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edlund/amalgamate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/oss-fuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kapeli/dash-user-contributions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check amalgamation\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "term": "Check amalgamation"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "Comment Check Amalgamation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml",
+      "term": "Comment Check Amalgamation"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "flawfinder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "term": "flawfinder"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Publish documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "term": "Publish documentation"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bson"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-diff"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-merge-patch"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-patch"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-pointer"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-serialization"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messagepack"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msgpack"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-6901"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-6902"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-7049"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-7159"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-8259"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stl-containers"
+    },
+    {
+      "context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubjson"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Script to clone a few of the main ADKs (agent development kids) for testing/experimentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agentic-ai",
+      "sense_id": "agentic-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agentic-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agentic-ai",
+  "observation_id": "aa6cc46c0481b502",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "agentic-ai",
+  "source_context_snippet": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+  "source_repo_description": "Script to clone a few of the main ADKs (agent development kids) for testing/experimentation"
+}

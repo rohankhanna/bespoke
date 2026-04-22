@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Gemini Dispatch'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Gemini Dispatch'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10591,
+      "status": "candidate",
+      "text": "castor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10591,
+      "status": "candidate",
+      "text": "nasa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10591,
+      "status": "candidate",
+      "text": "taurus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10591,
+      "status": "candidate",
+      "text": "twin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gemini Dispatch",
+      "sense_id": "gemini-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemini-dispatch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini-dispatch",
+  "observation_id": "dd363aa92a42aa0a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Gemini Dispatch",
+  "source_context_snippet": "'Gemini Dispatch'",
+  "source_file": ".github/workflows/gemini-dispatch.yml",
+  "source_repo": "AI-Hypercomputer/maxdiffusion",
+  "source_repo_description": null
+}

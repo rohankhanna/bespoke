@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-go.yml",
+      "source_repo": "csznet/tgState",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "file-sharing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "file-upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "imageserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "storage-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "storage-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "telegram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "telegram-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "telegram-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "telegram-bot-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "telegrambot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csznet/tgState",
+      "target": "vercel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:28.376578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2679
+    },
+    {
+      "path": "Dockerfile",
+      "size": 277
+    },
+    {
+      "path": "go.mod",
+      "size": 99
+    },
+    {
+      "path": ".github/workflows/build-go.yml",
+      "size": 2182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4f7f\u7528Telegram\u4f5c\u4e3a\u5b58\u50a8\u7684\u6587\u4ef6\u5916\u94fe\u7cfb\u7edf\uff0c\u4e0d\u9650\u5236\u6587\u4ef6\u5927\u5c0f\u548c\u683c\u5f0f\u3002",
+    "fork": false,
+    "full_name": "csznet/tgState",
+    "html_url": "https://github.com/csznet/tgState",
+    "language": "Go",
+    "pushed_at": "2025-04-13T11:37:39Z",
+    "stargazers_count": 1043,
+    "topics": [
+      "file",
+      "file-sharing",
+      "file-upload",
+      "filesystem",
+      "go",
+      "golang",
+      "images",
+      "imageserver",
+      "img",
+      "storage",
+      "storage-api",
+      "storage-service",
+      "telegram",
+      "telegram-api",
+      "telegram-bot",
+      "telegram-bot-api",
+      "telegrambot",
+      "vercel"
+    ],
+    "updated_at": "2026-04-19T05:38:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-sharing"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-upload"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imageserver"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage-api"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage-service"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram-api"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram-bot"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram-bot-api"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegrambot"
+    },
+    {
+      "context_snippet": "tgState",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vercel"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-sdk-tools.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-sdk-tools.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-sdk-tools.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "Test Azure SDK Tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-checker.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-checker.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "azure/login@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "GitHub Event Processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "azure/azure-sdk-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "Check Enforcer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-apiview.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-apiview.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "After APIView",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "GitHub Scheduled Event Processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "azure-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-python",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "Azure/azure-sdk-for-python"
+}

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "browser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047403,
+      "status": "candidate",
+      "text": "web browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047121,
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041684,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034032,
+      "status": "candidate",
+      "text": "reviewer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010245,
+      "status": "candidate",
+      "text": "bank"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "web browser"
+    }
+  ],
+  "canonical_name": "browser",
+  "concept_id": "browser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browser",
+      "sense_id": "browser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

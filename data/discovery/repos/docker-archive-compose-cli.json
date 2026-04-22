@@ -1,0 +1,538 @@
+{
+  "components": [
+    {
+      "component": "khan/pull-request-comment-trigger@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml"
+    },
+    {
+      "component": "khan/pull-request-comment-trigger@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml"
+    },
+    {
+      "component": "khan/pull-request-comment-trigger@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml"
+    },
+    {
+      "component": "actions/labeler@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "siegerts/pending-response@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pending_answered.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker/compose-ecs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker/compose-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "khan/pull-request-comment-trigger@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "ACI integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "khan/pull-request-comment-trigger@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "ECS integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "khan/pull-request-comment-trigger@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "Kube integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "actions/labeler@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "PR labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pending_answered.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "siegerts/pending-response@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pending_answered.yml",
+      "source_repo": "docker-archive/compose-cli",
+      "target": "Remove pending label on answer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "amazon-ecs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "amazon-web-services",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "azure-aci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "docker-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli",
+      "target": "moby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:09.540657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2454
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3830
+    },
+    {
+      "path": "go.mod",
+      "size": 10859
+    },
+    {
+      "path": ".github/workflows/aci-tests.yml",
+      "size": 1487
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2314
+    },
+    {
+      "path": ".github/workflows/cli-release.yaml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/ecs-tests.yml",
+      "size": 1532
+    },
+    {
+      "path": ".github/workflows/kube-tests.yml",
+      "size": 1720
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 204
+    },
+    {
+      "path": ".github/workflows/pending_answered.yml",
+      "size": 451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Easily run your Compose application to the cloud with compose-cli",
+    "fork": false,
+    "full_name": "docker-archive/compose-cli",
+    "html_url": "https://github.com/docker-archive/compose-cli",
+    "language": "Go",
+    "pushed_at": "2023-11-27T11:12:15Z",
+    "stargazers_count": 965,
+    "topics": [
+      "aci",
+      "amazon-ecs",
+      "amazon-web-services",
+      "azure",
+      "azure-aci",
+      "cli",
+      "docker",
+      "docker-compose",
+      "docker-desktop",
+      "docker-engine",
+      "ecs",
+      "fargate",
+      "moby"
+    ],
+    "updated_at": "2026-03-22T00:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/compose-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/compose-ecs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ACI integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aci-tests.yml",
+      "term": "ACI integration tests"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "term": "Releaser"
+    },
+    {
+      "context_snippet": "ECS integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "term": "ECS integration tests"
+    },
+    {
+      "context_snippet": "Kube integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-tests.yml",
+      "term": "Kube integration tests"
+    },
+    {
+      "context_snippet": "'PR labeler'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR labeler"
+    },
+    {
+      "context_snippet": "Remove pending label on answer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pending_answered.yml",
+      "term": "Remove pending label on answer"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-ecs"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-web-services"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-aci"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-desktop"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-engine"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fargate"
+    },
+    {
+      "context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moby"
+    }
+  ]
+}

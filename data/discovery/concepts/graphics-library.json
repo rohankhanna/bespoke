@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "graphics-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfa\ud83d\uddff Terminal graphics for the 21st century."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graphics-library",
+  "concept_id": "graphics-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphics-library",
+      "sense_id": "graphics-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

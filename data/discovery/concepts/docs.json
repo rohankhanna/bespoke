@@ -178,6 +178,18 @@
       "source_repo": "absadiki/pywhispercpp",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Agent-Handover-Demo",
+      "status": "candidate-context",
+      "text": "Model for simple handover management (via docs!) between AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-Handover-Demo",
+      "status": "candidate-context",
+      "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +270,12 @@
       "source_repo": "absadiki/pywhispercpp",
       "status": "candidate",
       "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-Handover-Demo",
+      "status": "candidate",
+      "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
     }
   ],
   "candidate_related_terms": [
@@ -396,11 +414,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Handover-Demo"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

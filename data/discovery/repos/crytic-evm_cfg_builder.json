@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "github/super-linter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "github/super-linter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "github/super-linter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "github/super-linter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "trailofbits/evm_cfg_builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "trailofbits/pyevmasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "Black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "Mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "pip-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder",
+      "target": "reversing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:24.291642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2168
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 974
+    },
+    {
+      "path": ".github/workflows/pip-audit.yml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 1028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "EVM CFG recovery",
+    "fork": false,
+    "full_name": "crytic/evm_cfg_builder",
+    "html_url": "https://github.com/crytic/evm_cfg_builder",
+    "language": "Python",
+    "pushed_at": "2023-06-29T20:08:36Z",
+    "stargazers_count": 127,
+    "topics": [
+      "cfg",
+      "ethereum",
+      "evm",
+      "reversing"
+    ],
+    "updated_at": "2026-03-15T17:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trailofbits/evm_cfg_builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trailofbits/pyevmasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Black",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Black"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Mypy"
+    },
+    {
+      "context_snippet": "pip-audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "term": "pip-audit"
+    },
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/crytic/evm_cfg_builder.svg?branch=master)](https://travis-ci.org/crytic/evm_cfg_builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/crytic/evm_cfg_builder.svg?branch=master)](https://travis-ci.org/crytic/evm_cfg_builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reversing"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Commit generated C# code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "\"Commit generated C# code\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "\"Commit generated C# code\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25905,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18012,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17993,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17955,
+      "status": "candidate",
+      "text": "criminal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Commit generated C# code",
+  "concept_id": "commit-generated-c-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commit generated C# code",
+      "sense_id": "commit-generated-c-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

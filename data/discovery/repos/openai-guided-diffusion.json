@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/guided-diffusion",
+      "target": "openai/improved-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:47.675546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "openai/guided-diffusion",
+    "html_url": "https://github.com/openai/guided-diffusion",
+    "language": "Python",
+    "pushed_at": "2024-07-02T11:26:50Z",
+    "stargazers_count": 7355,
+    "topics": [],
+    "updated_at": "2026-04-21T22:32:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/improved-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

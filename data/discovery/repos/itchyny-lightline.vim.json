@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "lokaltog/vim-powerline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "powerline/powerline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "shougo/dein.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "itchyny/vim-gitbranch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "itchyny/lightline.vim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itchyny/lightline.vim",
+      "target": "lightline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itchyny/lightline.vim",
+      "target": "statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itchyny/lightline.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:21:25.280279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17546
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A light and configurable statusline/tabline plugin for Vim",
+    "fork": false,
+    "full_name": "itchyny/lightline.vim",
+    "html_url": "https://github.com/itchyny/lightline.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-12T22:25:11Z",
+    "stargazers_count": 6864,
+    "topics": [
+      "lightline",
+      "statusline",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-21T16:14:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itchyny/vim-gitbranch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lokaltog/vim-powerline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powerline/powerline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/dein.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A light and configurable statusline/tabline plugin for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightline"
+    },
+    {
+      "context_snippet": "A light and configurable statusline/tabline plugin for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    },
+    {
+      "context_snippet": "A light and configurable statusline/tabline plugin for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

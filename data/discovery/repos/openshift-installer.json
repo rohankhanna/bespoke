@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:18:35.350754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3601
+    },
+    {
+      "path": "go.mod",
+      "size": 20348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Install an OpenShift 4.x cluster",
+    "fork": false,
+    "full_name": "openshift/installer",
+    "html_url": "https://github.com/openshift/installer",
+    "language": "Go",
+    "pushed_at": "2026-04-21T20:17:15Z",
+    "stargazers_count": 1541,
+    "topics": [],
+    "updated_at": "2026-04-21T19:31:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

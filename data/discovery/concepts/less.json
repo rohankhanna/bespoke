@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "less"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008559,
+      "status": "candidate",
+      "text": "inferior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006107,
+      "status": "candidate",
+      "text": "lower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013940,
+      "status": "candidate",
+      "text": "fewer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013940,
+      "status": "candidate",
+      "text": "to a lesser extent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013939,
+      "status": "candidate",
+      "text": "diminished"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "inferior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17045,
+      "status": "candidate",
+      "text": "lower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "fewer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "to a lesser extent"
+    }
+  ],
+  "canonical_name": "less",
+  "concept_id": "less",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "less",
+      "sense_id": "less#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

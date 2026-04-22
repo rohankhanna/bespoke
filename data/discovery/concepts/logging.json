@@ -55,6 +55,18 @@
       "source_repo": "sirupsen/logrus",
       "status": "candidate-context",
       "text": "Logrus is a structured logger for Go (golang), completely API compatible with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uber-go/zap",
+      "status": "candidate-context",
+      "text": "Blazing fast, structured, leveled logging in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/zap",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "sirupsen/logrus",
       "status": "candidate",
       "text": "Logrus is a structured logger for Go (golang), completely API compatible with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/zap",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "sirupsen/logrus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "uber-go/zap"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

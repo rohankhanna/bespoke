@@ -13,9 +13,46 @@
       "source_repo": "vincent-k2026/codachi",
       "status": "candidate-context",
       "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate-context",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate-context",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/lightline.vim",
+      "status": "candidate",
+      "text": "A light and configurable statusline/tabline plugin for Vim"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "statusline",
@@ -33,12 +70,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "vincent-k2026/codachi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/lightline.vim"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

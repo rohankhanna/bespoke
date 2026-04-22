@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/merge-dependabot.yml",
       "source_repo": "vega/vega-datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "crisidev/bacon-ls"
     }
   ],
   "term": "Dependabot Auto Merge"

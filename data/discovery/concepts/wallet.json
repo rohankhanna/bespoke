@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "wallet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate-context",
+      "text": "Safe allows secure management of blockchain assets. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039911,
+      "status": "candidate",
+      "text": "billfold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039556,
+      "status": "candidate",
+      "text": "notecase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039685,
+      "status": "candidate",
+      "text": "portfolio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033054,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031821,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "billfold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "notecase"
+    }
+  ],
+  "canonical_name": "wallet",
+  "concept_id": "wallet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wallet",
+      "sense_id": "wallet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

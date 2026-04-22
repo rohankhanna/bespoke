@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimal web UI for GeminiPro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29437950,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29369591,
+      "status": "candidate",
+      "text": "straw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720556,
+      "status": "candidate",
+      "text": "angel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720555,
+      "status": "candidate",
+      "text": "athletic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720554,
+      "status": "candidate",
+      "text": "cardinal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "astro",
+      "sense_id": "astro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "astro",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "astro",
+  "observation_id": "7bd2b3d4097dc85b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "astro",
+  "source_context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+  "source_file": null,
+  "source_repo": "babaohuang/GeminiProChat",
+  "source_repo_description": "Minimal web UI for GeminiPro."
+}

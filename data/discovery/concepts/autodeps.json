@@ -19,12 +19,30 @@
       "source_repo": "CoolCat467/idlemypyextension",
       "status": "candidate-context",
       "text": "Autodeps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": "Trio \u2013 a friendly Python library for async concurrency and I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": "Autodeps"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "CoolCat467/idlemypyextension",
+      "status": "candidate",
+      "text": "Autodeps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
       "status": "candidate",
       "text": "Autodeps"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/autodeps.yml",
       "source_repo": "CoolCat467/idlemypyextension"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/autodeps.yml",
+      "source_repo": "python-trio/trio"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

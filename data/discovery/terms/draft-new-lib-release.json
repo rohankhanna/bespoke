@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    }
+  ],
+  "term": "Draft new lib release"
+}

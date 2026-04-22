@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "style-check"
+    "style-check",
+    "Style check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "AIWintermuteAI/whispercpp",
       "status": "candidate-context",
       "text": "style-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "Style check"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "AIWintermuteAI/whispercpp",
       "status": "candidate",
       "text": "style-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate",
+      "text": "Style check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48088,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "branding"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "style-check",
   "concept_id": "style-check",
@@ -64,11 +119,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "AIWintermuteAI/whispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/vale-linter.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

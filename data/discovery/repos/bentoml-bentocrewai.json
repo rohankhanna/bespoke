@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bentoml/BentoCrewAI",
+      "target": "crewaiinc/crewai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bentoml/BentoCrewAI",
+      "target": "bentoml/openllm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:12.942263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4929
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Serving CrewAI Agent as REST API with BentoML, optionally with self-host open-source LLMs",
+    "fork": false,
+    "full_name": "bentoml/BentoCrewAI",
+    "html_url": "https://github.com/bentoml/BentoCrewAI",
+    "language": "Python",
+    "pushed_at": "2024-12-23T08:01:53Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-03-01T08:27:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bentoml/openllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crewaiinc/crewai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

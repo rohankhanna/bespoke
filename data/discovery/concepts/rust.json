@@ -724,6 +724,318 @@
       "source_repo": "medialab/xan",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/medialab/xan/workflows/Tests/badge.svg)](https://github.com/medialab/xan/actions) [![DOI](https://zenodo.org/badge/140488417.svg)](https://doi.org/10.5281/zenodo.15310200)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate-context",
+      "text": "Simple, safe way to store and distribute tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate-context",
+      "text": "An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate-context",
+      "text": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "End-to-end speech model training pipeline built on Burn \u2014 MFCC features, CTC loss, LibriSpeech loader, SpeechOcean762 evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "status": "candidate-context",
+      "text": "Rust on mobile made easy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "status": "candidate-context",
+      "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "A super-easy, composable, web server framework for warp speeds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/imperative",
+      "status": "candidate-context",
+      "text": "Check the mood of a word"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/imperative",
+      "status": "candidate-context",
+      "text": "> **Check the mood of a word**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "\u201cZero setup\u201d cross compilation and \u201ccross testing\u201d of Rust crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "A Language Server for Rust using Bacon diagnostics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "A boringssl-based rustls crypto provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "Chinese tokenizer for tantivy, based on jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexheretic/glyph-brush",
+      "status": "candidate-context",
+      "text": "Fast GPU cached text rendering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/glyph-brush",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/glyph-brush",
+      "status": "candidate-context",
+      "text": "Fast cached text rendering."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pop-os/cosmic-text",
+      "status": "candidate-context",
+      "text": "Pure Rust multi-line text handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pop-os/cosmic-text",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "A cross-platform, OpenGL terminal emulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "A simple, fast and user-friendly alternative to 'find'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "A modern replacement for \u2018ls\u2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atanunq/viu",
+      "status": "candidate-context",
+      "text": "Terminal image viewer with native support for iTerm and Kitty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate-context",
+      "text": "- [Description](#description)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "![](./docs/assets/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/bluealloy/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/tracing-etw",
+      "status": "candidate-context",
+      "text": "ETW and EventHeader formatted user_events layer for tokio-tracing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tracing-etw",
+      "status": "candidate-context",
+      "text": "Rust"
     }
   ],
   "candidate_glosses": [
@@ -1086,6 +1398,174 @@
       "source_repo": "medialab/xan",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/medialab/xan/workflows/Tests/badge.svg)](https://github.com/medialab/xan/actions) [![DOI](https://zenodo.org/badge/140488417.svg)](https://doi.org/10.5281/zenodo.15310200)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catch-twenty-two/rust-ssd",
+      "status": "candidate",
+      "text": "**An implementation of Single Shot Detection (SSD) using the Burn deep learning framework in Rust.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "status": "candidate",
+      "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate",
+      "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/imperative",
+      "status": "candidate",
+      "text": "> **Check the mood of a word**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/glyph-brush",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexheretic/glyph-brush",
+      "status": "candidate",
+      "text": "Fast cached text rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pop-os/cosmic-text",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate",
+      "text": "- [Description](#description)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "![](./docs/assets/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/bluealloy/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate",
+      "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tracing-etw",
+      "status": "candidate",
+      "text": "Rust"
     }
   ],
   "candidate_related_terms": [
@@ -1657,11 +2137,221 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "medialab/xan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dnvt/burn-speech-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/imperative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jiegec/tantivy-jieba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/glyph-brush"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "pop-os/cosmic-text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ogham/exa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/tracing-etw"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -67,6 +67,42 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate-context",
+      "text": "Safe allows secure management of blockchain assets. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safe-fndn/safe-smart-account",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate",
+      "text": "[![Pypi Status](https://img.shields.io/pypi/v/eth-brownie.svg)](https://pypi.org/project/eth-brownie/) [![Docs Status](https://readthedocs.org/projects/eth-brownie/badge/?version=latest)](https://eth-brownie.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +234,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "eth-brownie/brownie"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

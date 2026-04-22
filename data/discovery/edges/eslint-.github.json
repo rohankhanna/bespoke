@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-triage.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/add-to-triage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-triage.yml",
+      "source_repo": "eslint/.github",
+      "target": "add-to-triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/.github",
+      "target": "stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/update-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "eslint/.github",
+      "target": "update-readme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "eslint/.github"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Training and inference on AWS Trainium and Inferentia chips."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build AWS Neuron AMI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build AWS Neuron AMI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18626,
+      "status": "candidate",
+      "text": "axon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "bon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "maupassant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10969,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10969,
+      "status": "candidate",
+      "text": "throw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build AWS Neuron AMI",
+      "sense_id": "build-aws-neuron-ami#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-aws-neuron-ami",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-aws-neuron-ami",
+  "observation_id": "faa2de42f4e86356",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build AWS Neuron AMI",
+  "source_context_snippet": "Build AWS Neuron AMI",
+  "source_file": ".github/workflows/build-ami.yml",
+  "source_repo": "huggingface/optimum-neuron",
+  "source_repo_description": "Training and inference on AWS Trainium and Inferentia chips."
+}

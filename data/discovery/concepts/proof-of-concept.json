@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "proof-of-concept"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jjf012/gopoc",
+      "status": "candidate-context",
+      "text": "\u7528cel-go\u91cd\u73b0\u4e86\u957f\u4eadxray\u7684poc\u68c0\u6d4b\u529f\u80fd\u7684\u8f6e\u5b50"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jjf012/gopoc",
+      "status": "candidate-context",
+      "text": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jjf012/gopoc",
+      "status": "candidate",
+      "text": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998308,
+      "status": "candidate",
+      "text": "premiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998307,
+      "status": "candidate",
+      "text": "precis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998306,
+      "status": "candidate",
+      "text": "sign-off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998305,
+      "status": "candidate",
+      "text": "doco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998304,
+      "status": "candidate",
+      "text": "abbreviation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "proof-of-concept",
+  "concept_id": "proof-of-concept",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "jjf012/gopoc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proof-of-concept",
+      "sense_id": "proof-of-concept#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

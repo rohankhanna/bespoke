@@ -13,9 +13,28 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Minimal web UI for ChatGPT. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "gpt-35-turbo",
@@ -33,12 +52,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

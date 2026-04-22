@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A macro-driven JSON-RPC client for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Draft new lib release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Draft new lib release\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33720,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33720,
+      "status": "candidate",
+      "text": "rewrite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33280,
+      "status": "candidate",
+      "text": "vamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33267,
+      "status": "candidate",
+      "text": "improvise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33167,
+      "status": "candidate",
+      "text": "releasing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Draft new lib release",
+      "sense_id": "draft-new-lib-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "draft-new-lib-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "draft-new-lib-release",
+  "observation_id": "5b98c4230523b5ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Draft new lib release",
+  "source_context_snippet": "\"Draft new lib release\"",
+  "source_file": ".github/workflows/draft-new-release.yml",
+  "source_repo": "thomaseizinger/rust-jsonrpc-client",
+  "source_repo_description": "A macro-driven JSON-RPC client for Rust."
+}

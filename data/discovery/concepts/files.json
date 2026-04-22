@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "A modern replacement for \u2018ls\u2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate-context",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogham/exa",
+      "status": "candidate",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043141,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029979,
+      "status": "candidate",
+      "text": "single file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029864,
+      "status": "candidate",
+      "text": "indian file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019297,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006878,
+      "status": "candidate",
+      "text": "file away"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "files",
   "concept_id": "files",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "chinanf-boy/ripgrep-zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ogham/exa"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/warp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/warp",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/warp",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/warp",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp",
+      "target": "server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:04.708960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1923
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5018
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A super-easy, composable, web server framework for warp speeds.",
+    "fork": false,
+    "full_name": "seanmonstar/warp",
+    "html_url": "https://github.com/seanmonstar/warp",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T18:28:02Z",
+    "stargazers_count": 10274,
+    "topics": [
+      "framework",
+      "http",
+      "rust",
+      "server"
+    ],
+    "updated_at": "2026-04-21T11:06:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    }
+  ]
+}

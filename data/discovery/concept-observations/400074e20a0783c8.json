@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "functionality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "functionality"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884407,
+      "status": "candidate",
+      "text": "function"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884395,
+      "status": "candidate",
+      "text": "operationalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884377,
+      "status": "candidate",
+      "text": "practicality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883872,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883792,
+      "status": "candidate",
+      "text": "operating"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "functionality",
+      "sense_id": "functionality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "functionality",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "functionality",
+  "observation_id": "400074e20a0783c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "functionality",
+  "source_context_snippet": "functionality",
+  "source_file": ".github/workflows/functionality.yaml",
+  "source_repo": "eth-brownie/brownie",
+  "source_repo_description": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+}

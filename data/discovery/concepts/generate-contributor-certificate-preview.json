@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Contributor Certificate Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Generate Contributor Certificate Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate",
+      "text": "Generate Contributor Certificate Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27423,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27339,
+      "status": "candidate",
+      "text": "engage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27261,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27261,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27261,
+      "status": "candidate",
+      "text": "forces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Contributor Certificate Preview",
+  "concept_id": "generate-contributor-certificate-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Contributor Certificate Preview",
+      "sense_id": "generate-contributor-certificate-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

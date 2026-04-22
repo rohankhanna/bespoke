@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "bevyengine/bevy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "gfx-rs/wgpu-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "rust-windowing/winit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "brainiumllc/bicycle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "android-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:25.683359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4292
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1864
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1724
+    },
+    {
+      "path": ".github/workflows/ignore.yml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust on mobile made easy!",
+    "fork": false,
+    "full_name": "BrainiumLLC/cargo-mobile",
+    "html_url": "https://github.com/BrainiumLLC/cargo-mobile",
+    "language": "Rust",
+    "pushed_at": "2024-01-04T21:56:21Z",
+    "stargazers_count": 1311,
+    "topics": [
+      "android",
+      "android-studio",
+      "ios",
+      "mobile",
+      "rust",
+      "xcode"
+    ],
+    "updated_at": "2026-04-21T07:25:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bevyengine/bevy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfx-rs/wgpu-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-windowing/winit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brainiumllc/bicycle",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*The answer to \"how do I use Rust on iOS and Android?\"*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "*The answer to \"how do I use Rust on iOS and Android?\"*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-studio"
+    },
+    {
+      "context_snippet": "*The answer to \"how do I use Rust on iOS and Android?\"*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "*The answer to \"how do I use Rust on iOS and Android?\"*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "*The answer to \"how do I use Rust on iOS and Android?\"*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

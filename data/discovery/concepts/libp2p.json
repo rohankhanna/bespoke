@@ -55,6 +55,18 @@
       "source_repo": "berty/berty",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "berty/berty",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/gomobile-ipfs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

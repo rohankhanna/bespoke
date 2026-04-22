@@ -50,6 +50,30 @@
       "source_repo": "conda-forge/miniforge",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "Container Storage Interface (CSI) Specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "codespell"
     }
   ],
   "candidate_glosses": [
@@ -70,6 +94,18 @@
       "source_repo": "conda-forge/miniforge",
       "status": "candidate",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate",
+      "text": "codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -107,11 +143,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "conda-forge/miniforge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "container-storage-interface/spec"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

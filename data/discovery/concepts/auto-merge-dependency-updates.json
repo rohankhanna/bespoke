@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Merge Dependency Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate-context",
+      "text": "My personal NUR repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate-context",
+      "text": "Auto Merge Dependency Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mic92/nur-packages",
+      "status": "candidate",
+      "text": "Auto Merge Dependency Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28726,
+      "status": "candidate",
+      "text": "module"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28472,
+      "status": "candidate",
+      "text": "product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28415,
+      "status": "candidate",
+      "text": "reform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28357,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28135,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Merge Dependency Updates",
+  "concept_id": "auto-merge-dependency-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "Mic92/nur-packages"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Merge Dependency Updates",
+      "sense_id": "auto-merge-dependency-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

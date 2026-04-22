@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/nanoGPT",
+      "target": "karpathy/mingpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:20.595330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+    "fork": false,
+    "full_name": "karpathy/nanoGPT",
+    "html_url": "https://github.com/karpathy/nanoGPT",
+    "language": "Python",
+    "pushed_at": "2025-11-12T19:52:34Z",
+    "stargazers_count": 56985,
+    "topics": [],
+    "updated_at": "2026-04-22T00:32:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/mingpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

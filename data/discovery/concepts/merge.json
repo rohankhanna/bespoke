@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "Define and run multi-container applications with Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043347,
+      "status": "candidate",
+      "text": "coalesce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043344,
+      "status": "candidate",
+      "text": "meld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043339,
+      "status": "candidate",
+      "text": "combine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043338,
+      "status": "candidate",
+      "text": "conflate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043060,
+      "status": "candidate",
+      "text": "unify"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59037,
+      "status": "candidate",
+      "text": "coalesce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28030,
+      "status": "candidate",
+      "text": "conflate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13031,
+      "status": "candidate",
+      "text": "commingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "unite"
+    }
+  ],
+  "canonical_name": "merge",
+  "concept_id": "merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "docker/compose"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "merge",
+      "sense_id": "merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "Rust check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "boringssl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider",
+      "target": "rustls",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:26.843094+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 2471
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A boringssl-based rustls crypto provider",
+    "fork": false,
+    "full_name": "janrueth/boring-rustls-provider",
+    "html_url": "https://github.com/janrueth/boring-rustls-provider",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T11:25:08Z",
+    "stargazers_count": 20,
+    "topics": [
+      "boringssl",
+      "cryptography",
+      "rust",
+      "rustls",
+      "ssl",
+      "tls"
+    ],
+    "updated_at": "2026-04-21T11:25:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust check"
+    },
+    {
+      "context_snippet": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boringssl"
+    },
+    {
+      "context_snippet": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rustls"
+    }
+  ]
+}

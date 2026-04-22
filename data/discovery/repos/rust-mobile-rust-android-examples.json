@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples",
+      "target": "android-actions/setup-android@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:27.329615+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various standalone Rust Android examples",
+    "fork": false,
+    "full_name": "rust-mobile/rust-android-examples",
+    "html_url": "https://github.com/rust-mobile/rust-android-examples",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T20:22:18Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2026-04-21T08:00:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

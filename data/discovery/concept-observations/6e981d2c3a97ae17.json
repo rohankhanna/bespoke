@@ -16,9 +16,51 @@
       "text": "Protocol Buffers - Google's data interchange format"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol Buffers - Google's data interchange format"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018130,
+      "status": "candidate",
+      "text": "serialisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050759,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050758,
+      "status": "candidate",
+      "text": "reserialization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050757,
+      "status": "candidate",
+      "text": "transactionalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050756,
+      "status": "candidate",
+      "text": "decoding"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -30,17 +72,27 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "serialisation"
+    }
+  ],
   "concept_id": "serialization",
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "serialization",
   "observation_id": "6e981d2c3a97ae17",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "serialization",
   "source_context_snippet": "Protocol Buffers - Google's data interchange format",
   "source_file": null,

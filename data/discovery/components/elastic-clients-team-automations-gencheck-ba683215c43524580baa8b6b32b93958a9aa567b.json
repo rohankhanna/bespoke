@@ -1,0 +1,12 @@
+{
+  "component": "elastic/clients-team-automations/gencheck@ba683215c43524580baa8b6b32b93958a9aa567b",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gencheck.yml",
+      "source_repo": "elastic/go-elasticsearch"
+    }
+  ]
+}

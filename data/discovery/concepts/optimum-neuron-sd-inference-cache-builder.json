@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Optimum neuron SD inference cache builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-neuron",
+      "status": "candidate-context",
+      "text": "Training and inference on AWS Trainium and Inferentia chips."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-neuron",
+      "status": "candidate-context",
+      "text": "Optimum neuron SD inference cache builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-neuron",
+      "status": "candidate",
+      "text": "Optimum neuron SD inference cache builder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26968,
+      "status": "candidate",
+      "text": "fines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26968,
+      "status": "candidate",
+      "text": "heavy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "pecker"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Optimum neuron SD inference cache builder",
+  "concept_id": "optimum-neuron-sd-inference-cache-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/cache_diffusion.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Optimum neuron SD inference cache builder",
+      "sense_id": "optimum-neuron-sd-inference-cache-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

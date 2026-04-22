@@ -391,23 +391,16 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/cubecl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/burn-bench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/models",
+      "target": "tracel-ai/cubek",
       "target_type": "repository"
     },
     {
@@ -719,15 +712,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T01:09:45.833127+00:00",
+  "fetched_at": "2026-04-22T01:06:17.229504+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 21483
+      "size": 21397
     },
     {
       "path": "Cargo.toml",
-      "size": 6569
+      "size": 6699
     },
     {
       "path": ".github/workflows/combine-dependabot-prs.yml",
@@ -762,7 +755,6 @@
       "size": 5122
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:24.872476+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -772,8 +764,8 @@
     "full_name": "tracel-ai/burn",
     "html_url": "https://github.com/tracel-ai/burn",
     "language": "Rust",
-    "pushed_at": "2026-04-18T16:15:08Z",
-    "stargazers_count": 14903,
+    "pushed_at": "2026-04-21T21:03:03Z",
+    "stargazers_count": 14914,
     "topics": [
       "autodiff",
       "cross-platform",
@@ -794,7 +786,7 @@
       "wasm",
       "webgpu"
     ],
-    "updated_at": "2026-04-19T13:44:19Z"
+    "updated_at": "2026-04-21T19:36:06Z"
   },
   "repo_links": [
     {
@@ -804,18 +796,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tracel-ai/burn-bench",
-      "source_file": "README.md"
+      "full_name": "tracel-ai/cubecl",
+      "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tracel-ai/burn-onnx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tracel-ai/models",
-      "source_file": "README.md"
+      "full_name": "tracel-ai/cubek",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

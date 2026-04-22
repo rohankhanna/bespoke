@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-regex-match@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "google-research-datasets/conceptual-12m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "crowsonkb/v-diffusion-jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "actions-ecosystem/action-regex-match@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "crowsonkb/v-diffusion-pytorch",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:46.844788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9481
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 81
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "v objective diffusion inference code for PyTorch.",
+    "fork": false,
+    "full_name": "crowsonkb/v-diffusion-pytorch",
+    "html_url": "https://github.com/crowsonkb/v-diffusion-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-11-29T18:00:48Z",
+    "stargazers_count": 719,
+    "topics": [],
+    "updated_at": "2026-03-23T20:36:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crowsonkb/v-diffusion-jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/conceptual-12m",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Release"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml/lint-opam@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam-publish",
+      "target": "ocaml/opam-repository",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-publish",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-publish",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-publish",
+      "target": "ocaml/setup-ocaml/lint-opam@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-publish",
+      "target": "Builds, tests & co",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:46.838634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1943
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool to ease contributions to opam repositories",
+    "fork": false,
+    "full_name": "ocaml-opam/opam-publish",
+    "html_url": "https://github.com/ocaml-opam/opam-publish",
+    "language": "OCaml",
+    "pushed_at": "2026-02-20T19:29:33Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-02-20T19:29:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/opam-repository",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Builds, tests & co",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Builds, tests & co"
+    }
+  ]
+}

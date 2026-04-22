@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for writing and testing smart contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Optimism testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Optimism testing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "hope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "optimistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10895,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10895,
+      "status": "candidate",
+      "text": "intoxicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10895,
+      "status": "candidate",
+      "text": "negative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Optimism testing",
+      "sense_id": "optimism-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimism-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimism-testing",
+  "observation_id": "ab1b9b0703255359",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Optimism testing",
+  "source_context_snippet": "Optimism testing",
+  "source_file": ".github/workflows/optimism-testing.yml",
+  "source_repo": "TrueFiEng/Waffle",
+  "source_repo_description": "Library for writing and testing smart contracts."
+}

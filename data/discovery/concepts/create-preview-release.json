@@ -19,12 +19,30 @@
       "source_repo": "comit-network/xmr-btc-swap",
       "status": "candidate-context",
       "text": "\"Create 'preview' release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigenwallet/core",
+      "status": "candidate-context",
+      "text": "eigenwallet is a battle-tested Monero-Bitcoin DEX based on Atomic Swaps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/core",
+      "status": "candidate-context",
+      "text": "\"Create 'preview' release\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "\"Create 'preview' release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/core",
       "status": "candidate",
       "text": "\"Create 'preview' release\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

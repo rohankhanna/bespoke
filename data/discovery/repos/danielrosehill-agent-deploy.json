@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:22:55.572870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prompt and model for creating agent-specific variants of Bash scripts",
+    "fork": false,
+    "full_name": "danielrosehill/Agent-Deploy",
+    "html_url": "https://github.com/danielrosehill/Agent-Deploy",
+    "language": null,
+    "pushed_at": "2026-01-09T12:59:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-09T12:59:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

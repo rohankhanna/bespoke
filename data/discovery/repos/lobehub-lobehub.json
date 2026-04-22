@@ -4661,7 +4661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:31:58.673070+00:00",
+  "fetched_at": "2026-04-22T01:10:11.562793+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4713,8 +4713,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T10:56:53Z",
-    "stargazers_count": 75428,
+    "pushed_at": "2026-04-22T00:54:15Z",
+    "stargazers_count": 75447,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4729,7 +4729,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-21T11:27:00Z"
+    "updated_at": "2026-04-22T01:03:26Z"
   },
   "repo_links": [
     {

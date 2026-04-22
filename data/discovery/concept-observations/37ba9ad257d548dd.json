@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A command-line tool that makes git easier to use with GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pull-request",
+      "sense_id": "pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request",
+  "observation_id": "37ba9ad257d548dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "pull-request",
+  "source_context_snippet": "hub is a command line tool that wraps `git` in order to extend it with extra",
+  "source_file": null,
+  "source_repo": "mislav/hub",
+  "source_repo_description": "A command-line tool that makes git easier to use with GitHub."
+}

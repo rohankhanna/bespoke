@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funcmike/swift-coz",
+      "target": "urjitbhatia/cozgo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:25:04.456069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Coz profiler Swift wrapper/bindings",
+    "fork": false,
+    "full_name": "funcmike/swift-coz",
+    "html_url": "https://github.com/funcmike/swift-coz",
+    "language": "Swift",
+    "pushed_at": "2022-02-11T19:58:57Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-07T11:59:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "urjitbhatia/cozgo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

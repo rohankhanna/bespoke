@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rfc-8259"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rfc-8259",
+  "concept_id": "rfc-8259",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nlohmann/json"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfc-8259",
+      "sense_id": "rfc-8259#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

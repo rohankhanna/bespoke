@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "google/google-api-python-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "googleapis/python-aiplatform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "googleapis/python-pubsublite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "googlecloudplatform/getting-started-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python",
+      "target": "django3.2-tests7",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "googleapis/google-cloud-python"
+}

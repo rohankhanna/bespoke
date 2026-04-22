@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "serpro69/claude-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-language-server"
     }
   ],
   "term": "kotlin"

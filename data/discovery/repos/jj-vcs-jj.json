@@ -444,7 +444,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:35:16.867631+00:00",
+  "fetched_at": "2026-04-22T01:15:17.789884+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -496,10 +496,10 @@
     "full_name": "jj-vcs/jj",
     "html_url": "https://github.com/jj-vcs/jj",
     "language": "Rust",
-    "pushed_at": "2026-04-21T10:43:36Z",
-    "stargazers_count": 28177,
+    "pushed_at": "2026-04-21T23:15:29Z",
+    "stargazers_count": 28196,
     "topics": [],
-    "updated_at": "2026-04-21T11:33:25Z"
+    "updated_at": "2026-04-21T23:48:56Z"
   },
   "repo_links": [
     {

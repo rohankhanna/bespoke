@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "Integration testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "bridges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "jieba-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba",
+      "target": "tantivy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:41.724762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1625
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/integrate.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An adapter that bridges between tantivy and jieba-rs.",
+    "fork": false,
+    "full_name": "jiegec/tantivy-jieba",
+    "html_url": "https://github.com/jiegec/tantivy-jieba",
+    "language": "Rust",
+    "pushed_at": "2026-04-01T04:07:37Z",
+    "stargazers_count": 66,
+    "topics": [
+      "bridges",
+      "crates",
+      "jieba-rs",
+      "tantivy"
+    ],
+    "updated_at": "2026-04-12T13:22:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integration testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yml",
+      "term": "Integration testing"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Crates.io version][crate-img]][crate]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bridges"
+    },
+    {
+      "context_snippet": "[![Crates.io version][crate-img]][crate]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crates"
+    },
+    {
+      "context_snippet": "[![Crates.io version][crate-img]][crate]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba-rs"
+    },
+    {
+      "context_snippet": "[![Crates.io version][crate-img]][crate]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tantivy"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A general mono-repo for Dart i18n and l10n packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unicode Conformance Testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unicode Conformance Testing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23606,
+      "status": "candidate",
+      "text": "null"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19523,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11513,
+      "status": "candidate",
+      "text": "accept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11513,
+      "status": "candidate",
+      "text": "biblical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11513,
+      "status": "candidate",
+      "text": "bus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unicode Conformance Testing",
+      "sense_id": "unicode-conformance-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicode-conformance-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicode-conformance-testing",
+  "observation_id": "adb071833a2ddbf2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Unicode Conformance Testing",
+  "source_context_snippet": "Unicode Conformance Testing",
+  "source_file": ".github/workflows/conformance.yml",
+  "source_repo": "dart-lang/i18n",
+  "source_repo_description": "A general mono-repo for Dart i18n and l10n packages."
+}

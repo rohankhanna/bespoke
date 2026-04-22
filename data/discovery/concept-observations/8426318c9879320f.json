@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily LLM Commit Summary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily LLM Commit Summary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31764,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31764,
+      "status": "candidate",
+      "text": "low"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31597,
+      "status": "candidate",
+      "text": "average"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31597,
+      "status": "candidate",
+      "text": "ordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31429,
+      "status": "candidate",
+      "text": "rate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily LLM Commit Summary",
+      "sense_id": "daily-llm-commit-summary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-llm-commit-summary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-llm-commit-summary",
+  "observation_id": "8426318c9879320f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Daily LLM Commit Summary",
+  "source_context_snippet": "Daily LLM Commit Summary",
+  "source_file": ".github/workflows/daily-summary.yml",
+  "source_repo": "nanbingxyz/5ire",
+  "source_repo_description": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers ."
+}

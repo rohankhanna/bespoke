@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Eth"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Eth"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792023,
+      "status": "candidate",
+      "text": "ethernet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29634312,
+      "status": "candidate",
+      "text": "bra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864190,
+      "status": "candidate",
+      "text": "\u0153thel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864189,
+      "status": "candidate",
+      "text": "ethel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864188,
+      "status": "candidate",
+      "text": "thulr"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Eth",
+      "sense_id": "eth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eth",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eth",
+  "observation_id": "f87f4e2fe594b945",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Eth",
+  "source_context_snippet": "Eth",
+  "source_file": ".github/workflows/ethereum-tests.yml",
+  "source_repo": "bluealloy/revm",
+  "source_repo_description": "Rust implementation of the Ethereum Virtual Machine."
+}

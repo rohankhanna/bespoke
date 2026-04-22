@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "andstor/file-existence-action@076e0072799f4942c8bc574a82233e1e4d13e9d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@13ce06bfc6bbe3ecf90edbbf1bc32fe5978ca1d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testall.yaml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testall.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "microsoft/playwright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "andstor/file-existence-action@076e0072799f4942c8bc574a82233e1e4d13e9d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "codecov/codecov-action@13ce06bfc6bbe3ecf90edbbf1bc32fe5978ca1d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testall.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testall.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testall.yaml",
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pyodide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/pytest-pyodide",
+      "target": "pytest-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:22.650547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10144
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3002
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1081
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 4605
+    },
+    {
+      "path": ".github/workflows/testall.yaml",
+      "size": 2629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytest plugin for testing applications that use Pyodide",
+    "fork": false,
+    "full_name": "pyodide/pytest-pyodide",
+    "html_url": "https://github.com/pyodide/pytest-pyodide",
+    "language": "Python",
+    "pushed_at": "2026-04-21T23:14:22Z",
+    "stargazers_count": 38,
+    "topics": [
+      "pyodide",
+      "pytest",
+      "pytest-plugin"
+    ],
+    "updated_at": "2026-04-21T23:14:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/playwright-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testall.yaml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/pytest-pyodide.svg)](https://pypi.org/project/pytest-pyodide/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyodide"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/pytest-pyodide.svg)](https://pypi.org/project/pytest-pyodide/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/pytest-pyodide.svg)](https://pypi.org/project/pytest-pyodide/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-plugin"
+    }
+  ]
+}

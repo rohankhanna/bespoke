@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rojo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/remodel",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18583506,
+      "status": "candidate",
+      "text": "benitez"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17055810,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16801072,
+      "status": "candidate",
+      "text": "rouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16798062,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16776828,
+      "status": "candidate",
+      "text": "bluefin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rojo",
+  "concept_id": "rojo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rojo",
+      "sense_id": "rojo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

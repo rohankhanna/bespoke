@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "ancorso/llmwargaming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "666ghj/mirofish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "aaronjmars/miroshark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "azzedde/brainstormers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "ai-experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Geopol-Projects",
+      "target": "geopolitics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:23:33.176995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection/resource list of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolirtical actors, including simulated policy fora",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Geopol-Projects",
+    "html_url": "https://github.com/danielrosehill/AI-Geopol-Projects",
+    "language": null,
+    "pushed_at": "2026-04-20T11:43:31Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-experiments",
+      "geopolitics"
+    ],
+    "updated_at": "2026-04-20T11:43:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "666ghj/mirofish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronjmars/miroshark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ancorso/llmwargaming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azzedde/brainstormers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-experiments"
+    },
+    {
+      "context_snippet": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geopolitics"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Check Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "Check Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12072,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12011,
+      "status": "candidate",
+      "text": "description"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Documentation",
+  "concept_id": "check-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pr-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Documentation",
+      "sense_id": "check-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

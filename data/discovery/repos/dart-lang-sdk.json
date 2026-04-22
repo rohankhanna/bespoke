@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml"
+    },
+    {
+      "component": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-lang/sdk",
+      "target": "flutter/flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "No Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "source_repo": "dart-lang/sdk",
+      "target": "Third party deps scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/sdk",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/sdk",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/sdk",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:50.108417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3037
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 1205
+    },
+    {
+      "path": ".github/workflows/scorecards-analysis.yml",
+      "size": 1924
+    },
+    {
+      "path": ".github/workflows/third-party-deps-scan.yml",
+      "size": 2030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more.",
+    "fork": false,
+    "full_name": "dart-lang/sdk",
+    "html_url": "https://github.com/dart-lang/sdk",
+    "language": "Dart",
+    "pushed_at": "2026-04-22T00:07:01Z",
+    "stargazers_count": 11123,
+    "topics": [
+      "dart",
+      "language",
+      "programming-language",
+      "sdk"
+    ],
+    "updated_at": "2026-04-21T22:15:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flutter/flutter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "Third party deps scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/third-party-deps-scan.yml",
+      "term": "Third party deps scan"
+    },
+    {
+      "context_snippet": "Dart is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "Dart is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "Dart is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

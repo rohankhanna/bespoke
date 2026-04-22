@@ -43,6 +43,30 @@
       "source_repo": "eudk/awesome-ai-tools",
       "status": "candidate-context",
       "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +81,18 @@
       "source_repo": "eudk/awesome-ai-tools",
       "status": "candidate",
       "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "eudk/awesome-ai-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

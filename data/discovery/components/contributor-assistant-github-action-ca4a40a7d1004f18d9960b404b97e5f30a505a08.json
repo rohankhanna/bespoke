@@ -1,7 +1,7 @@
 {
   "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib.yaml",
+      "source_repo": "coder/coder"
     }
   ]
 }

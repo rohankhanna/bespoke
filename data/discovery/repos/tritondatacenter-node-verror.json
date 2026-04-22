@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "assert-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "core-util-is",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "extsprintf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-verror",
+      "target": "joyent/node-cmdutil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-verror",
+      "target": "joyent/node-verror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-verror",
+      "target": "assert-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-verror",
+      "target": "core-util-is",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-verror",
+      "target": "extsprintf",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:25:07.477281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21124
+    },
+    {
+      "path": "package.json",
+      "size": 499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rich JavaScript errors",
+    "fork": false,
+    "full_name": "TritonDataCenter/node-verror",
+    "html_url": "https://github.com/TritonDataCenter/node-verror",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-13T22:31:32Z",
+    "stargazers_count": 1191,
+    "topics": [],
+    "updated_at": "2026-03-16T12:48:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joyent/node-cmdutil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joyent/node-verror",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

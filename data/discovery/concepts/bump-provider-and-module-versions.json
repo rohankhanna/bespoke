@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Provider and Module Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Metadata and tooling for the OpenTofu registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Bump Provider and Module Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate",
+      "text": "Bump Provider and Module Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27371,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27203,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27004,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26993,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26958,
+      "status": "candidate",
+      "text": "cast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Provider and Module Versions",
+  "concept_id": "bump-provider-and-module-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Provider and Module Versions",
+      "sense_id": "bump-provider-and-module-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

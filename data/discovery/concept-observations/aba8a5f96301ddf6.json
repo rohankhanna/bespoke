@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools for creating, running, and deploying universal Expo and React Native apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Packages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12663,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "kits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11542,
+      "status": "candidate",
+      "text": "mail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Packages",
+      "sense_id": "test-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-packages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-packages",
+  "observation_id": "aba8a5f96301ddf6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Test Packages",
+  "source_context_snippet": "Test Packages",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "expo/expo-cli",
+  "source_repo_description": "Tools for creating, running, and deploying universal Expo and React Native apps"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "docs-deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for Elasticsearch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "docs-deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "docs-deploy"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "docs-deploy",
+  "concept_id": "docs-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/go-elasticsearch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docs-deploy",
+      "sense_id": "docs-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

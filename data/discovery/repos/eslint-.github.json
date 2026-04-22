@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "eslint/workflows/.github/workflows/add-to-triage.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-triage.yml"
+    },
+    {
+      "component": "eslint/workflows/.github/workflows/stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "eslint/workflows/.github/workflows/update-readme.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-triage.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/add-to-triage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-triage.yml",
+      "source_repo": "eslint/.github",
+      "target": "add-to-triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/.github",
+      "target": "stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "eslint/.github",
+      "target": "eslint/workflows/.github/workflows/update-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "source_repo": "eslint/.github",
+      "target": "update-readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:35.119097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3257
+    },
+    {
+      "path": ".github/workflows/add-to-triage.yml",
+      "size": 386
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/update-readme.yml",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community health files for ESLint",
+    "fork": false,
+    "full_name": "eslint/.github",
+    "html_url": "https://github.com/eslint/.github",
+    "language": null,
+    "pushed_at": "2026-04-18T08:20:43Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-18T08:20:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "add-to-triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-triage.yml",
+      "term": "add-to-triage"
+    },
+    {
+      "context_snippet": "stale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "stale"
+    },
+    {
+      "context_snippet": "update-readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme.yml",
+      "term": "update-readme"
+    }
+  ]
+}

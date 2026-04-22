@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "post-release"
+    "post-release",
+    "Post release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "crate-ci/committed",
       "status": "candidate-context",
       "text": "post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "\"Post release\""
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "crate-ci/committed",
       "status": "candidate",
       "text": "post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "\"Post release\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29243,
+      "status": "candidate",
+      "text": "relieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28443,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28443,
+      "status": "candidate",
+      "text": "relieved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "post-release",
   "concept_id": "post-release",
@@ -70,11 +125,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "crate-ci/committed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

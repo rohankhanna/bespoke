@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hpjansson/chafa",
+      "target": "hectorm/chafa-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "hpjansson/chafa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "image-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "iterm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "kitty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "sixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "terminal-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa",
+      "target": "terminal-graphics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:56.467627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3725
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 1890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcfa\ud83d\uddff Terminal graphics for the 21st century.",
+    "fork": false,
+    "full_name": "hpjansson/chafa",
+    "html_url": "https://github.com/hpjansson/chafa",
+    "language": "C",
+    "pushed_at": "2026-02-25T16:05:51Z",
+    "stargazers_count": 4628,
+    "topics": [
+      "ansi",
+      "cli",
+      "graphics",
+      "graphics-library",
+      "image-processing",
+      "image-viewer",
+      "images",
+      "iterm2",
+      "kitty",
+      "powershell",
+      "sixel",
+      "terminal",
+      "terminal-based",
+      "terminal-graphics"
+    ],
+    "updated_at": "2026-04-22T00:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hectorm/chafa-wasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-library"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-viewer"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterm2"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitty"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sixel"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-based"
+    },
+    {
+      "context_snippet": "<!-- This file is mostly readable as plain text, but it will look better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-graphics"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust.vim",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust.vim",
+      "target": "rust-lang-nursery/rustfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust.vim",
+      "target": "majutsushi/tagbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust.vim",
+      "target": "mattn/webapi-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/rust.vim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:11.308853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3723
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim configuration for Rust.",
+    "fork": false,
+    "full_name": "rust-lang/rust.vim",
+    "html_url": "https://github.com/rust-lang/rust.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-02T21:15:07Z",
+    "stargazers_count": 4153,
+    "topics": [],
+    "updated_at": "2026-04-18T15:40:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majutsushi/tagbar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/webapi-vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/rustfmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

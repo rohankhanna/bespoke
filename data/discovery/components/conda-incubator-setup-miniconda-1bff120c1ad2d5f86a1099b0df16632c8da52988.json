@@ -1,0 +1,12 @@
+{
+  "component": "conda-incubator/setup-miniconda@1bff120c1ad2d5f86a1099b0df16632c8da52988",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/CLIP"
+    }
+  ]
+}

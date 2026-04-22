@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels"
+    }
+  ],
+  "term": "Build and test kernel - Windows"
+}

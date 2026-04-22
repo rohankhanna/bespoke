@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "JohnnyMorganz/stylua-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "leafo/gh-actions-lua@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "leafo/gh-actions-luarocks@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-cmp",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "hrsh7th/nvim-cmp"
+}

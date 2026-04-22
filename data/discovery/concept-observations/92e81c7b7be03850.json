@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbxmx",
+      "sense_id": "rbxmx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rbxmx",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rbxmx",
+  "observation_id": "92e81c7b7be03850",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "rbxmx",
+  "source_context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+  "source_file": null,
+  "source_repo": "rojo-rbx/remodel",
+  "source_repo_description": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com"
+}

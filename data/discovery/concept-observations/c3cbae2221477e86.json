@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](Header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](Header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012366,
+      "status": "candidate",
+      "text": "wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012138,
+      "status": "candidate",
+      "text": "wrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002177,
+      "status": "candidate",
+      "text": "dust cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001067,
+      "status": "candidate",
+      "text": "negligee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998838,
+      "status": "candidate",
+      "text": "housecoat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wrapper",
+      "sense_id": "wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24052,
+      "status": "candidate",
+      "text": "wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "wrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "peignoir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "negligee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "housecoat"
+    }
+  ],
+  "concept_id": "wrapper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wrapper",
+  "observation_id": "c3cbae2221477e86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "wrapper",
+  "source_context_snippet": "![](Header.png)",
+  "source_file": null,
+  "source_repo": "clibequilibrium/Tracy-CSharp",
+  "source_repo_description": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+}

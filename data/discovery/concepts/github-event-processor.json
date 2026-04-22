@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GitHub Event Processor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate-context",
+      "text": "GitHub Event Processor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate",
+      "text": "GitHub Event Processor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13129,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13129,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13129,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "ear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "find"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GitHub Event Processor",
+  "concept_id": "github-event-processor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Event Processor",
+      "sense_id": "github-event-processor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Unsigned Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Launcher for Invoke Community Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Build Unsigned Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate",
+      "text": "Build Unsigned Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18819,
+      "status": "candidate",
+      "text": "original"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13832,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13281,
+      "status": "candidate",
+      "text": "independence hall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13281,
+      "status": "candidate",
+      "text": "presumed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13281,
+      "status": "candidate",
+      "text": "schedule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Unsigned Artifacts",
+  "concept_id": "build-unsigned-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "invoke-ai/launcher"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Unsigned Artifacts",
+      "sense_id": "build-unsigned-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

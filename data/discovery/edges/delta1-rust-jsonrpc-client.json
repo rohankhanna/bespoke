@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "dprint/check@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "Swatinem/rust-cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions-rs/clippy@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "coditory/changelog-parser@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "thomaseizinger/keep-a-changelog-new-release@1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "thomaseizinger/set-crate-version@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "Draft new lib release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-lib-crates-io.yml",
+      "source_repo": "delta1/rust-jsonrpc-client",
+      "target": "Release lib to crates.io",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "delta1/rust-jsonrpc-client"
+}

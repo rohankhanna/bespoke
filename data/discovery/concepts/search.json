@@ -19,6 +19,18 @@
       "source_repo": "searxng/searxng",
       "status": "candidate-context",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "A simple, fast and user-friendly alternative to 'find'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "searxng/searxng",
       "status": "candidate",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/fd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

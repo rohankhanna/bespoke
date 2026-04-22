@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazing-fast modern Lua linter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Selenology"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Selenology"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017987,
+      "status": "candidate",
+      "text": "selenography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017986,
+      "status": "candidate",
+      "text": "selenodesy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017985,
+      "status": "candidate",
+      "text": "selenophysics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017984,
+      "status": "candidate",
+      "text": "exomoonology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017983,
+      "status": "candidate",
+      "text": "sealore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Selenology",
+      "sense_id": "selenology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "selenology",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "selenology",
+  "observation_id": "422ea7d71a599bfe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Selenology",
+  "source_context_snippet": "Selenology",
+  "source_file": ".github/workflows/selenology.yml",
+  "source_repo": "Kampfkarren/selene",
+  "source_repo_description": "A blazing-fast modern Lua linter written in Rust"
+}

@@ -92,6 +92,42 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate-context",
       "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Ethereum Proof-of-Stake Consensus Specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "A zlib implementation in rust available as a C dynamic library and as a rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +172,24 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate",
       "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trifectatechfoundation/zlib-rs",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "Checks"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +281,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

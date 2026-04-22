@@ -168,21 +168,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "facebook/create-react-app",
-      "target": "coreybutler/nvm-windows",
+      "target": "nitishdayal/cra_closer_look",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "facebook/create-react-app",
-      "target": "insin/nwb",
+      "target": "rails/webpacker",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "facebook/create-react-app",
-      "target": "expo/expo-cli",
+      "target": "jaredpalmer/razzle",
       "target_type": "repository"
     },
     {
@@ -431,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:32:13.373707+00:00",
+  "fetched_at": "2026-04-22T01:22:47.878756+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -464,20 +464,15 @@
     "html_url": "https://github.com/facebook/create-react-app",
     "language": "JavaScript",
     "pushed_at": "2025-02-15T01:32:11Z",
-    "stargazers_count": 103519,
+    "stargazers_count": 103521,
     "topics": [
       "build-tools",
       "react",
       "zero-configuration"
     ],
-    "updated_at": "2026-04-21T10:01:38Z"
+    "updated_at": "2026-04-21T22:40:02Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "coreybutler/nvm-windows",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "creationix/nvm",
@@ -485,12 +480,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "expo/expo-cli",
+      "full_name": "jaredpalmer/razzle",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "insin/nwb",
+      "full_name": "nitishdayal/cra_closer_look",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/webpacker",
       "source_file": "README.md"
     }
   ],

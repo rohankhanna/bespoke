@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "cachix/install-nix-action@56a7bb7b56d9a92d4fd1bc05758de7eea4a370a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "CasperWA/push-protected@74d25b8aa10e0c29024138735d32f3c0b75f9279",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "Update NUR-combined",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "nix-community/nur-combined"
+}

@@ -1,0 +1,758 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archery.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archery.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_labels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    },
+    {
+      "component": "eps1lon/actions-label-merge-conflict@releases/2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/arrow",
+      "target": "apache/arrow-adbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/arrow",
+      "target": "apache/arrow-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/arrow",
+      "target": "apache/arrow-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/arrow",
+      "target": "apache/arrow-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archery.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archery.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archery.yml",
+      "source_repo": "apache/arrow",
+      "target": "Archery & Crossbow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_labels.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_labels.yml",
+      "source_repo": "apache/arrow",
+      "target": "Check Labels Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/arrow",
+      "target": "Comment Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow",
+      "target": "C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "C++ Extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "source_repo": "apache/arrow",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "source_repo": "apache/arrow",
+      "target": "C++ Windows MSVC Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda_extra.yml",
+      "source_repo": "apache/arrow",
+      "target": "CUDA Extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow",
+      "target": "Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/arrow",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/arrow",
+      "target": "eps1lon/actions-label-merge-conflict@releases/2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/arrow",
+      "target": "Dev PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/arrow",
+      "target": "arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/arrow",
+      "target": "parquet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:11.714120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5669
+    },
+    {
+      "path": ".github/workflows/archery.yml",
+      "size": 2624
+    },
+    {
+      "path": ".github/workflows/check_labels.yml",
+      "size": 2826
+    },
+    {
+      "path": ".github/workflows/comment_bot.yml",
+      "size": 2465
+    },
+    {
+      "path": ".github/workflows/cpp.yml",
+      "size": 13425
+    },
+    {
+      "path": ".github/workflows/cpp_extra.yml",
+      "size": 28603
+    },
+    {
+      "path": ".github/workflows/cpp_windows.yml",
+      "size": 4211
+    },
+    {
+      "path": ".github/workflows/cuda_extra.yml",
+      "size": 4556
+    },
+    {
+      "path": ".github/workflows/dev.yml",
+      "size": 3508
+    },
+    {
+      "path": ".github/workflows/dev_pr.yml",
+      "size": 3531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics",
+    "fork": false,
+    "full_name": "apache/arrow",
+    "html_url": "https://github.com/apache/arrow",
+    "language": "C++",
+    "pushed_at": "2026-04-21T14:56:22Z",
+    "stargazers_count": 16682,
+    "topics": [
+      "arrow",
+      "parquet"
+    ],
+    "updated_at": "2026-04-21T17:57:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-adbc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Archery & Crossbow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archery.yml",
+      "term": "Archery & Crossbow"
+    },
+    {
+      "context_snippet": "Check Labels Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_labels.yml",
+      "term": "Check Labels Reusable"
+    },
+    {
+      "context_snippet": "Comment Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "term": "Comment Bot"
+    },
+    {
+      "context_snippet": "C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp.yml",
+      "term": "C++"
+    },
+    {
+      "context_snippet": "C++ Extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_extra.yml",
+      "term": "C++ Extra"
+    },
+    {
+      "context_snippet": "C++ Windows MSVC Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "term": "C++ Windows MSVC Reusable"
+    },
+    {
+      "context_snippet": "CUDA Extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda_extra.yml",
+      "term": "CUDA Extra"
+    },
+    {
+      "context_snippet": "Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "term": "Dev"
+    },
+    {
+      "context_snippet": "Dev PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "term": "Dev PR"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrow"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    }
+  ]
+}

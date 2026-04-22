@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Finch CLI is an open source client for container development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deb Canary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deb Canary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11020,
+      "status": "candidate",
+      "text": "apricot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11020,
+      "status": "candidate",
+      "text": "atomic number 79"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11020,
+      "status": "candidate",
+      "text": "banana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11020,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11020,
+      "status": "candidate",
+      "text": "buckskin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deb Canary",
+      "sense_id": "deb-canary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deb-canary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deb-canary",
+  "observation_id": "86a2f9597363160b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Deb Canary",
+  "source_context_snippet": "Deb Canary",
+  "source_file": ".github/workflows/canary-deb.yaml",
+  "source_repo": "runfinch/finch",
+  "source_repo_description": "The Finch CLI is an open source client for container development"
+}

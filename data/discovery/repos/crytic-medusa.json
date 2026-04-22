@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@58a28ad10e7fcfad2f2585485cd010873f6d2a86",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@55c2c1448f86e01eaae002a5a3a9624417608d84",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crytic/medusa",
+      "target": "ethereum/go-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "sigstore/gh-action-sigstore-python@58a28ad10e7fcfad2f2585485cd010873f6d2a86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "golangci/golangci-lint-action@55c2c1448f86e01eaae002a5a3a9624417608d84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/medusa",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa",
+      "target": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "crytic/medusa",
+      "target": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "crytic/medusa",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "crytic/medusa",
+      "target": "Nix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:41.675149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2168
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1704
+    },
+    {
+      "path": "go.mod",
+      "size": 3341
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 8400
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 5937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parallelized, coverage-guided, mutational Solidity smart contract fuzzing, powered by go-ethereum",
+    "fork": false,
+    "full_name": "crytic/medusa",
+    "html_url": "https://github.com/crytic/medusa",
+    "language": "Go",
+    "pushed_at": "2026-04-20T20:45:36Z",
+    "stargazers_count": 472,
+    "topics": [],
+    "updated_at": "2026-04-20T20:44:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/go-ethereum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    }
+  ]
+}

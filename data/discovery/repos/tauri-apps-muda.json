@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    },
+    {
+      "component": "tauri-apps/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "rustsec/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "clippy & fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "covector status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "tauri-apps/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "covector version or publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "dtolnay/rust-toolchain@1.71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda",
+      "target": "menu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda",
+      "target": "windowing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:50.350929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4147
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2112
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/clippy-fmt.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/covector-status.yml",
+      "size": 491
+    },
+    {
+      "path": ".github/workflows/covector-version-or-publish.yml",
+      "size": 1829
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Menu Utilities for Desktop Applications in Rust.",
+    "fork": false,
+    "full_name": "tauri-apps/muda",
+    "html_url": "https://github.com/tauri-apps/muda",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T16:53:54Z",
+    "stargazers_count": 386,
+    "topics": [
+      "gui",
+      "menu",
+      "rust",
+      "windowing"
+    ],
+    "updated_at": "2026-04-15T16:19:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "audit"
+    },
+    {
+      "context_snippet": "clippy & fmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "term": "clippy & fmt"
+    },
+    {
+      "context_snippet": "covector status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "term": "covector status"
+    },
+    {
+      "context_snippet": "covector version or publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "term": "covector version or publish"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Menu Utilities library for Desktop Applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "menu"
+    },
+    {
+      "context_snippet": "Menu Utilities library for Desktop Applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Menu Utilities library for Desktop Applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windowing"
+    }
+  ]
+}

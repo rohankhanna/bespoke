@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shell-theme",
+      "sense_id": "shell-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shell-theme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shell-theme",
+  "observation_id": "766b5547512cac72",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "shell-theme",
+  "source_context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+  "source_file": null,
+  "source_repo": "sindresorhus/pure",
+  "source_repo_description": "Pretty, minimal and fast ZSH prompt"
+}

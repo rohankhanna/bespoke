@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:22:55.125679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Backup-Planner",
+    "html_url": "https://github.com/danielrosehill/Backup-Planner",
+    "language": null,
+    "pushed_at": "2026-04-21T11:48:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-21T11:48:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

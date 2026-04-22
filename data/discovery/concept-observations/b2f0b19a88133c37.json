@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger docs website build on schedule"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger docs website build on schedule"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26929,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26841,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26674,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26513,
+      "status": "candidate",
+      "text": "space station"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26469,
+      "status": "candidate",
+      "text": "head"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger docs website build on schedule",
+      "sense_id": "trigger-docs-website-build-on-schedule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-docs-website-build-on-schedule",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-docs-website-build-on-schedule",
+  "observation_id": "b2f0b19a88133c37",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Trigger docs website build on schedule",
+  "source_context_snippet": "Trigger docs website build on schedule",
+  "source_file": ".github/workflows/scheduled-vercel-build.yml",
+  "source_repo": "ClickHouse/clickhouse-docs",
+  "source_repo_description": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+}

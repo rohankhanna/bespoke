@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection/resource list of AI projects focused on synthesising perpsectives for multi-perspective exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035402,
+      "status": "candidate",
+      "text": "indicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034563,
+      "status": "candidate",
+      "text": "indicant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025247,
+      "status": "candidate",
+      "text": "exponent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994797,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9929926,
+      "status": "candidate",
+      "text": "index finger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "indexes",
+      "sense_id": "indexes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "indexes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "indexes",
+  "observation_id": "c2073a43c4e9743d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "indexes",
+  "source_context_snippet": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes.",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+  "source_repo_description": "Collection/resource list of AI projects focused on synthesising perpsectives for multi-perspective exploration"
+}

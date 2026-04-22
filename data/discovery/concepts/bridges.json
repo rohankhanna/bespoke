@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bridges"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28541181,
+      "status": "candidate",
+      "text": "nosepiece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28521017,
+      "status": "candidate",
+      "text": "span"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28485562,
+      "status": "candidate",
+      "text": "bridgework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18697388,
+      "status": "candidate",
+      "text": "bridge circuit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18697388,
+      "status": "candidate",
+      "text": "bridge deck"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bridges",
+  "concept_id": "bridges",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bridges",
+      "sense_id": "bridges#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

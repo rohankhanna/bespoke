@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa"
     }
   ]
 }

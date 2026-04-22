@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ECS integration tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "ECS integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate",
+      "text": "ECS integration tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "demos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "livable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "math"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "sat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ECS integration tests",
+  "concept_id": "ecs-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ecs-tests.yml",
+      "source_repo": "docker-archive/compose-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ECS integration tests",
+      "sense_id": "ecs-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

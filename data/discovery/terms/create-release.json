@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_apple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "direnv/direnv"
     }
   ],
   "term": "Create Release"

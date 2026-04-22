@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "benchmark-tests"
+    "benchmark-tests",
+    "Benchmark Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Layr-Labs/eigenda",
       "status": "candidate-context",
       "text": "benchmark-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate-context",
+      "text": "OpenTelemetry JavaScript Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate-context",
+      "text": "Benchmark Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "Layr-Labs/eigenda",
       "status": "candidate",
       "text": "benchmark-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate",
+      "text": "Benchmark Tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11843,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11795,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10831,
+      "status": "candidate",
+      "text": "baseline"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "benchmark-tests",
   "concept_id": "benchmark-tests",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/benchmark-tests.yml",
       "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

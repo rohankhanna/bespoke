@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "docker://dkhamsing/awesome_bot:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml"
+    },
+    {
+      "component": "nvuillam/mega-linter@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "swiftbar/swiftbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "docker://dkhamsing/awesome_bot:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "nvuillam/mega-linter@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "bitbar-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "lima",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "lima-vm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "swiftbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "swiftbar-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "xbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "target": "xbar-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:54.216155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3050
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/awesomebot.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2433
+    },
+    {
+      "path": ".github/workflows/megalinter.yml",
+      "size": 2042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "xbar/Swiftbar plugin to control lima-vm",
+    "fork": false,
+    "full_name": "unixorn/lima-xbar-plugin",
+    "html_url": "https://github.com/unixorn/lima-xbar-plugin",
+    "language": "Python",
+    "pushed_at": "2026-04-20T17:03:12Z",
+    "stargazers_count": 139,
+    "topics": [
+      "bitbar-plugins",
+      "hacktoberfest",
+      "lima",
+      "lima-vm",
+      "swiftbar",
+      "swiftbar-plugins",
+      "xbar",
+      "xbar-plugin"
+    ],
+    "updated_at": "2026-04-18T13:28:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swiftbar/swiftbar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/megalinter.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbar-plugins"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lima"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lima-vm"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftbar"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftbar-plugins"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbar"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbar-plugin"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-management-stale-action.yml",
       "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add-stale-label.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
     }
   ],
   "term": "Issue management - run stale action"

@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ogham/exa",
+      "target": "eza-community/eza",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ogham/exa",
+      "target": "termux/termux-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ogham/exa",
+      "target": "nixos/nixpkgs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ogham/exa",
+      "target": "void-linux/void-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "ogham/exa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "ogham/exa",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "ogham/exa",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ogham/exa",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ogham/exa",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ogham/exa",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:37.891241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11430
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1956
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern replacement for \u2018ls\u2019.",
+    "fork": false,
+    "full_name": "ogham/exa",
+    "html_url": "https://github.com/ogham/exa",
+    "language": "Rust",
+    "pushed_at": "2024-09-24T15:18:09Z",
+    "stargazers_count": 24426,
+    "topics": [
+      "command-line",
+      "files",
+      "ls",
+      "rust"
+    ],
+    "updated_at": "2026-04-21T21:20:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eza-community/eza",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixos/nixpkgs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termux/termux-packages",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "void-linux/void-packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "files"
+    },
+    {
+      "context_snippet": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

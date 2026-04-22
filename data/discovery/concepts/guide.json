@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "guide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034662,
+      "status": "candidate",
+      "text": "usher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034458,
+      "status": "candidate",
+      "text": "pathfinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033802,
+      "status": "candidate",
+      "text": "conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030551,
+      "status": "candidate",
+      "text": "maneuver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030399,
+      "status": "candidate",
+      "text": "scout"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39042,
+      "status": "candidate",
+      "text": "conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35052,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34112,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34102,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "canonical_name": "guide",
+  "concept_id": "guide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guide",
+      "sense_id": "guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

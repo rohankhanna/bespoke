@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:22:55.982049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Desktop maintenance utility (WIP/planning notes)",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Sysadmin",
+    "html_url": "https://github.com/danielrosehill/AI-Sysadmin",
+    "language": null,
+    "pushed_at": "2025-12-26T15:30:18Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-26T15:30:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

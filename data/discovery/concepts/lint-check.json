@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint Check"
+    "Lint Check",
+    "Lint check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate-context",
       "text": "Lint Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "status": "candidate-context",
+      "text": "Sample blueprints for Google Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "status": "candidate-context",
+      "text": "\"Lint check\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate",
       "text": "Lint Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/blueprints",
+      "status": "candidate",
+      "text": "\"Lint check\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/lint_check.yaml",
       "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "GoogleCloudPlatform/blueprints"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy Documentation"
+    "Deploy Documentation",
+    "Deploy documentation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,30 @@
       "source_repo": "gastownhall/beads",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Julia package for loading the standard Vega data sets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gastownhall/beads",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -190,11 +227,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/VegaDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

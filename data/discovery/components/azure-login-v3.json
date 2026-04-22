@@ -1,0 +1,12 @@
+{
+  "component": "azure/login@v3",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-python"
+    }
+  ]
+}

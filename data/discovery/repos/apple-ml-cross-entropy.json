@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:05:05.411842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12825
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "apple/ml-cross-entropy",
+    "html_url": "https://github.com/apple/ml-cross-entropy",
+    "language": "Python",
+    "pushed_at": "2025-09-23T18:20:25Z",
+    "stargazers_count": 596,
+    "topics": [],
+    "updated_at": "2026-04-19T01:28:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

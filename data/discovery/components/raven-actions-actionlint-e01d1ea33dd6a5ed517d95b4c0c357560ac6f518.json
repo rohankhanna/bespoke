@@ -1,0 +1,12 @@
+{
+  "component": "raven-actions/actionlint@e01d1ea33dd6a5ed517d95b4c0c357560ac6f518",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    }
+  ]
+}

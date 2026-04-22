@@ -37,6 +37,18 @@
       "source_repo": "heyhuynhgiabuu/proxypal",
       "status": "candidate-context",
       "text": "PR Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "Define and run multi-container applications with Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "PR Review"
     }
   ],
   "candidate_glosses": [
@@ -49,6 +61,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "heyhuynhgiabuu/proxypal",
+      "status": "candidate",
+      "text": "PR Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
       "status": "candidate",
       "text": "PR Review"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pr-review.yml",
       "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pr-review.yml",
+      "source_repo": "docker/compose"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

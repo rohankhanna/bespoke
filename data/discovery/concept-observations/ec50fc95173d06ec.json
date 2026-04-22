@@ -84,7 +84,7 @@
   "normalized_form": "claude-auto-testing-coverage",
   "observation_id": "ec50fc95173d06ec",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "Claude Auto Testing Coverage",
   "source_context_snippet": "Claude Auto Testing Coverage",
   "source_file": ".github/workflows/claude-auto-testing.yml",

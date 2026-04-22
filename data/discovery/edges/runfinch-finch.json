@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runfinch/finch",
+      "target": "moby/buildkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runfinch/finch",
+      "target": "awslabs/soci-snapshotter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runfinch/finch",
+      "target": "awslabs/amazon-ecr-credential-helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runfinch/finch",
+      "target": "microsoft/wsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "benchmark-action/github-action-benchmark@4bdcce38c94cec68da58d012ac24b7b1155efe8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-msi.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-pkg.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pkg.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pkg.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pkg.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pkg.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "build-pkg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/canary-deb.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "Deb Canary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "avto-dev/markdown-lint@04d43ee9191307b50935a753da3b775ab695eceb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "CI Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "WyriHaximus/github-action-get-previous-tag@04e8485ecb6487243907e330d522ff60f02283ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "runfinch/finch",
+      "target": "avto-dev/markdown-lint@04d43ee9191307b50935a753da3b775ab695eceb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runfinch/finch",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runfinch/finch",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runfinch/finch",
+      "target": "lima-vm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runfinch/finch",
+      "target": "nerdctl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "runfinch/finch"
+}

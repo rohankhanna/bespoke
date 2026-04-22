@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "redhat-actions/buildah-build@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "redhat-actions/push-to-registry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "redhat-actions/buildah-build@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "redhat-actions/push-to-registry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-images.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "Ubuntu: Build and push ubuntu-toolbox images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-tests.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-tests.yaml",
+      "source_repo": "containers/toolbox",
+      "target": "ubuntu-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/toolbox",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/toolbox",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "containers/toolbox"
+}

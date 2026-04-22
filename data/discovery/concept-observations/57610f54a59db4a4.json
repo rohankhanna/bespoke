@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "End-to-end speech model training pipeline built on Burn \u2014 MFCC features, CTC loss, LibriSpeech loader, SpeechOcean762 evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046517,
+      "status": "candidate",
+      "text": "burn off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046470,
+      "status": "candidate",
+      "text": "burn down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046436,
+      "status": "candidate",
+      "text": "combust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046402,
+      "status": "candidate",
+      "text": "burn up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046372,
+      "status": "candidate",
+      "text": "incinerate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "burn",
+      "sense_id": "burn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23042,
+      "status": "candidate",
+      "text": "glow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19065,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17055,
+      "status": "candidate",
+      "text": "sting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15060,
+      "status": "candidate",
+      "text": "bite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15047,
+      "status": "candidate",
+      "text": "burning"
+    }
+  ],
+  "concept_id": "burn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "burn",
+  "observation_id": "57610f54a59db4a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "burn",
+  "source_context_snippet": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "dnvt/burn-speech-training",
+  "source_repo_description": "End-to-end speech model training pipeline built on Burn \u2014 MFCC features, CTC loss, LibriSpeech loader, SpeechOcean762 evaluation"
+}

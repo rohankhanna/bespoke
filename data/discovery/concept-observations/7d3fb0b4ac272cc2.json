@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check CI Scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check CI Scripts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15238,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15238,
+      "status": "candidate",
+      "text": "killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "dialog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "erg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check CI Scripts",
+      "sense_id": "check-ci-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-ci-scripts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-ci-scripts",
+  "observation_id": "7d3fb0b4ac272cc2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Check CI Scripts",
+  "source_context_snippet": "Check CI Scripts",
+  "source_file": ".github/workflows/check-ci.yml",
+  "source_repo": "llvm/llvm-project",
+  "source_repo_description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+}

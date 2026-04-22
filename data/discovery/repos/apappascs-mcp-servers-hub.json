@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "21st-dev/magic-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "6551team/opennews-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "24mlight/a-share-mcp-is-just-i-need",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "1mcp-app/agent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:08.022164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Discover the most comprehensive and up-to-date collection of MCP servers in the market. This repository serves as a centralized hub, offering an extensive catalog of open-source and proprietary MCP servers, complete with features, documentation links, and contributors.",
+    "fork": false,
+    "full_name": "apappascs/mcp-servers-hub",
+    "html_url": "https://github.com/apappascs/mcp-servers-hub",
+    "language": null,
+    "pushed_at": "2026-04-21T15:10:03Z",
+    "stargazers_count": 317,
+    "topics": [],
+    "updated_at": "2026-04-21T15:10:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1mcp-app/agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "21st-dev/magic-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "24mlight/a-share-mcp-is-just-i-need",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "6551team/opennews-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@2f8115f4d677905552b45ae1a67c799759fc8001",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "safetensors/safetensors"
+    }
+  ]
+}

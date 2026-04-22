@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -282,6 +282,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "Homebrew/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comptests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Cyan4973/xxHash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/abi3audit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docset.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_reusable.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests_reusable.yml",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

@@ -1,0 +1,548 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/lang-sql",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codemirror",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-branch-preview.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-branch-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-links.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette",
+      "target": "datasette/datasette-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette",
+      "target": "fivethirtyeight/data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/datasette",
+      "target": "simonw/datasette-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "@codemirror/lang-sql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "codemirror",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simonw/datasette",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-branch-preview.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-branch-preview.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "source_repo": "simonw/datasette",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "source_repo": "simonw/datasette",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "source_repo": "simonw/datasette",
+      "target": "Deploy latest.datasette.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-links.yml",
+      "source_repo": "simonw/datasette",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-links.yml",
+      "source_repo": "simonw/datasette",
+      "target": "Read the Docs Pull Request Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "simonw/datasette",
+      "target": "Check JavaScript for conformance with Prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/datasette",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_tag.yml",
+      "source_repo": "simonw/datasette",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_docker_tag.yml",
+      "source_repo": "simonw/datasette",
+      "target": "Push specific Docker tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "asgi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "automatic-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "datasette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "datasette-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/datasette",
+      "target": "sqlite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:56.904271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5050
+    },
+    {
+      "path": "Dockerfile",
+      "size": 553
+    },
+    {
+      "path": "package.json",
+      "size": 425
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2642
+    },
+    {
+      "path": ".github/workflows/deploy-branch-preview.yml",
+      "size": 1024
+    },
+    {
+      "path": ".github/workflows/deploy-latest.yml",
+      "size": 5181
+    },
+    {
+      "path": ".github/workflows/documentation-links.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/prettier.yml",
+      "size": 565
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 3092
+    },
+    {
+      "path": ".github/workflows/push_docker_tag.yml",
+      "size": 739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open source multi-tool for exploring and publishing data",
+    "fork": false,
+    "full_name": "simonw/datasette",
+    "html_url": "https://github.com/simonw/datasette",
+    "language": "Python",
+    "pushed_at": "2026-04-17T15:44:45Z",
+    "stargazers_count": 10978,
+    "topics": [
+      "asgi",
+      "automatic-api",
+      "csv",
+      "datasets",
+      "datasette",
+      "datasette-io",
+      "docker",
+      "json",
+      "python",
+      "sql",
+      "sqlite"
+    ],
+    "updated_at": "2026-04-21T16:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datasette/datasette-studio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fivethirtyeight/data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/datasette-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy latest.datasette.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-latest.yml",
+      "term": "Deploy latest.datasette.io"
+    },
+    {
+      "context_snippet": "Read the Docs Pull Request Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-links.yml",
+      "term": "Read the Docs Pull Request Preview"
+    },
+    {
+      "context_snippet": "Check JavaScript for conformance with Prettier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "term": "Check JavaScript for conformance with Prettier"
+    },
+    {
+      "context_snippet": "Push specific Docker tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_docker_tag.yml",
+      "term": "Push specific Docker tag"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asgi"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-api"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette-io"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    }
+  ]
+}

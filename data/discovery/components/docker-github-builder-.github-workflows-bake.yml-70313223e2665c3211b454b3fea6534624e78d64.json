@@ -1,0 +1,17 @@
+{
+  "component": "docker/github-builder/.github/workflows/bake.yml@70313223e2665c3211b454b3fea6534624e78d64",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "docker/compose"
+    }
+  ]
+}

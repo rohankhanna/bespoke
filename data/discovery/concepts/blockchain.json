@@ -91,6 +91,42 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate-context",
       "text": "[![Slack](https://img.shields.io/badge/slack-%23tuweni-72eff8?logo=slack)](https://s.apache.org/slack-invite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "![](./docs/assets/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/alloy",
+      "status": "candidate-context",
+      "text": "Transports, Middleware, and Networks for the Alloy project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/alloy",
+      "status": "candidate-context",
+      "text": "Alloy connects applications to blockchains."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/bluealloy/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate",
       "text": "[![Slack](https://img.shields.io/badge/slack-%23tuweni-72eff8?logo=slack)](https://s.apache.org/slack-invite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "![](./docs/assets/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/alloy",
+      "status": "candidate",
+      "text": "Alloy connects applications to blockchains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/bluealloy/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +274,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/alloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bluealloy/revm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "dolfies/discord.py-self",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "dolfies/discord.py-self",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "captcha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "imagine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "target": "turnstile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:41.448956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1175
+    },
+    {
+      "path": "Dockerfile",
+      "size": 158
+    },
+    {
+      "path": "requirements.txt",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bypass Midjourney captcha.",
+    "fork": false,
+    "full_name": "ye4241/midjourney-captcha-bot",
+    "html_url": "https://github.com/ye4241/midjourney-captcha-bot",
+    "language": "Python",
+    "pushed_at": "2025-02-26T07:17:41Z",
+    "stargazers_count": 33,
+    "topics": [
+      "captcha",
+      "discord",
+      "imagine",
+      "midjourney",
+      "turnstile"
+    ],
+    "updated_at": "2026-03-30T19:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolfies/discord.py-self",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolfies/discord.py-self",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagine"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turnstile"
+    }
+  ]
+}

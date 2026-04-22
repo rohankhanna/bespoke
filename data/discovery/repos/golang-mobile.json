@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:07:31.825766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1295
+    },
+    {
+      "path": "go.mod",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[mirror] Go on Mobile",
+    "fork": false,
+    "full_name": "golang/mobile",
+    "html_url": "https://github.com/golang/mobile",
+    "language": "Go",
+    "pushed_at": "2026-04-10T09:52:12Z",
+    "stargazers_count": 6153,
+    "topics": [],
+    "updated_at": "2026-04-21T11:30:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

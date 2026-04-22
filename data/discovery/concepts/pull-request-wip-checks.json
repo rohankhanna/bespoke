@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull request WIP checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Pull request WIP checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate",
+      "text": "Pull request WIP checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27743,
+      "status": "candidate",
+      "text": "weight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17615,
+      "status": "candidate",
+      "text": "horsepower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17471,
+      "status": "candidate",
+      "text": "cost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17468,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17426,
+      "status": "candidate",
+      "text": "curb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull request WIP checks",
+  "concept_id": "pull-request-wip-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull request WIP checks",
+      "sense_id": "pull-request-wip-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

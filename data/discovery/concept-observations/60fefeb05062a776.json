@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docker-engine",
+      "sense_id": "docker-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-engine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-engine",
+  "observation_id": "60fefeb05062a776",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "docker-engine",
+  "source_context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
+  "source_file": null,
+  "source_repo": "docker-archive/compose-cli",
+  "source_repo_description": "Easily run your Compose application to the cloud with compose-cli"
+}

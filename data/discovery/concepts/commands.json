@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "glittercowboy/taches-cc-resources",
       "status": "candidate-context",
       "text": "A growing collection of custom Claude Code resources built for real workflows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate-context",
+      "text": "Some reference and example networking plugins, maintained by the CNI team."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate-context",
+      "text": "commands"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "glittercowboy/taches-cc-resources",
       "status": "candidate",
       "text": "A growing collection of custom Claude Code resources built for real workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate",
+      "text": "commands"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "containernetworking/plugins"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bazel-rules"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "Bazel rules to build apps for Apple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bazel-rules",
+  "concept_id": "bazel-rules",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bazel-rules",
+      "sense_id": "bazel-rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

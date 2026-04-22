@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "arcadeai/arcade-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "anthropics/claude-agent-sdk-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "anthropics/claude-agent-sdk-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "adamstrojek/rust-agentai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "adks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "target": "installation-utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:23:12.011519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7852
+    },
+    {
+      "path": "requirements.txt",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Script to clone a few of the main ADKs (agent development kids) for testing/experimentation",
+    "fork": false,
+    "full_name": "danielrosehill/Agent-SDK-Env-Setup",
+    "html_url": "https://github.com/danielrosehill/Agent-SDK-Env-Setup",
+    "language": "Python",
+    "pushed_at": "2025-10-26T13:36:01Z",
+    "stargazers_count": 1,
+    "topics": [
+      "adks",
+      "agentic-ai",
+      "ai-agents",
+      "installation-utilities"
+    ],
+    "updated_at": "2026-03-08T15:52:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamstrojek/rust-agentai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/claude-agent-sdk-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/claude-agent-sdk-typescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcadeai/arcade-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adks"
+    },
+    {
+      "context_snippet": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installation-utilities"
+    }
+  ]
+}

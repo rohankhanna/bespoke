@@ -310,6 +310,162 @@
       "source_repo": "helm/chart-testing",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "Kotlin code completion, diagnostics and more for any editor/IDE using the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "A simple way to deploy PaddleOCR based on FastAPI. (PaddleOCR \u7684 FastAPI \u5feb\u901f\u90e8\u7f72\u65b9\u6848)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "Define and run multi-container applications with Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate-context",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "Convert Compose to Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate-context",
+      "text": "[![Build Status Widget]][Build Status] [![Coverage Status Widget]][Coverage Status] [![GoDoc Widget]][GoDoc] [![GoReportCard Widget]][GoReportCardResult]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate-context",
+      "text": "crates.io documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/medusa",
+      "status": "candidate-context",
+      "text": "Parallelized, coverage-guided, mutational Solidity smart contract fuzzing, powered by go-ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/medusa",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate-context",
+      "text": "Technical Oversight Board (TOB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate-context",
+      "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
     }
   ],
   "candidate_glosses": [
@@ -462,6 +618,84 @@
       "source_repo": "helm/chart-testing",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate",
+      "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "- [Docker Compose](#docker-compose)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate",
+      "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kompose",
+      "status": "candidate",
+      "text": "[![Build Status Widget]][Build Status] [![Coverage Status Widget]][Coverage Status] [![GoDoc Widget]][GoDoc] [![GoReportCard Widget]][GoReportCardResult]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docs.rs",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/medusa",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/tob",
+      "status": "candidate",
+      "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
     }
   ],
   "candidate_related_terms": [
@@ -709,11 +943,101 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kompose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "rust-lang/docs.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "crytic/medusa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/tob"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

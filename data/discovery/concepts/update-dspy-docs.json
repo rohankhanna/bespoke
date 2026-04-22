@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update DSPy Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stanfordnlp/dspy",
+      "status": "candidate-context",
+      "text": "DSPy: The framework for programming\u2014not prompting\u2014language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/dspy",
+      "status": "candidate-context",
+      "text": "Update DSPy Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/dspy",
+      "status": "candidate",
+      "text": "Update DSPy Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11019,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11019,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10897,
+      "status": "candidate",
+      "text": "abstract of title"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10897,
+      "status": "candidate",
+      "text": "acadia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10897,
+      "status": "candidate",
+      "text": "accountancy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update DSPy Docs",
+  "concept_id": "update-dspy-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update DSPy Docs",
+      "sense_id": "update-dspy-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

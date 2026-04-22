@@ -1,0 +1,698 @@
+{
+  "components": [
+    {
+      "component": "@astrojs/netlify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/solid-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/vercel",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fuyun/generative-ai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zag-js/slider",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zag-js/solid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eventsource-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-sha256",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "katex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-highlightjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-katex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solid-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solidjs-use",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "undici",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@evan-yang/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@iconify-json/carbon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/markdown-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vite-pwa/astro",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-astro",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "punycode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unocss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "aormsby/Fork-Sync-With-Upstream-action@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@astrojs/netlify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@astrojs/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@astrojs/solid-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@astrojs/vercel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@fuyun/generative-ai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@zag-js/slider",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@zag-js/solid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "eventsource-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "js-sha256",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "markdown-it-highlightjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "markdown-it-katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "solid-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "solidjs-use",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "undici",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@evan-yang/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@iconify-json/carbon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@types/markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "@vite-pwa/astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "eslint-plugin-astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "punycode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "unocss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "Lint CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "aormsby/Fork-Sync-With-Upstream-action@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "Upstream Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "gemini-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "gemini-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "gemini-pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "gemini-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat",
+      "target": "google-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:06.931277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4766
+    },
+    {
+      "path": "Dockerfile",
+      "size": 678
+    },
+    {
+      "path": "package.json",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/build-docker.yml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal web UI for GeminiPro.",
+    "fork": false,
+    "full_name": "babaohuang/GeminiProChat",
+    "html_url": "https://github.com/babaohuang/GeminiProChat",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-16T12:41:42Z",
+    "stargazers_count": 4833,
+    "topics": [
+      "astro",
+      "gemini",
+      "gemini-api",
+      "gemini-client",
+      "gemini-pro",
+      "gemini-server",
+      "google",
+      "google-api"
+    ],
+    "updated_at": "2026-04-21T20:24:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint CI"
+    },
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Upstream Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Upstream Sync"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-client"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-pro"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-server"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-api"
+    }
+  ]
+}

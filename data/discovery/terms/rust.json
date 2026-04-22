@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -391,6 +391,146 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "medialab/xan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "catch-twenty-two/rust-ssd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnvt/burn-speech-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "crate-ci/imperative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jiegec/tantivy-jieba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/glyph-brush"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "pop-os/cosmic-text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ogham/exa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/tracing-etw"
     }
   ],
   "term": "Rust"

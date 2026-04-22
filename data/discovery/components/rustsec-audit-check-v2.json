@@ -1,12 +1,22 @@
 {
   "component": "rustsec/audit-check@v2",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cargo-audit.yml",
       "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crisidev/bacon-ls"
     }
   ]
 }

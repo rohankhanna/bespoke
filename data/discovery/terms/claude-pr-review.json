@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "huggingface/diffusers"
     }
   ],
   "term": "Claude PR Review"

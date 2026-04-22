@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v2",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "microsoft/playwright-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assign Command"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Assign Command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate",
+      "text": "Assign Command"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28084,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28070,
+      "status": "candidate",
+      "text": "defer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28070,
+      "status": "candidate",
+      "text": "deferred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28070,
+      "status": "candidate",
+      "text": "deferring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "appoint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign Command",
+  "concept_id": "assign-command",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "containers/podman"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign Command",
+      "sense_id": "assign-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

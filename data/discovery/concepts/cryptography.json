@@ -19,6 +19,30 @@
       "source_repo": "rustls/rustls",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "General purpose TLS and crypto library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "Welcome to the OpenSSL Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "A boringssl-based rustls crypto provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate-context",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "rustls/rustls",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate",
+      "text": "Welcome to the OpenSSL Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janrueth/boring-rustls-provider",
+      "status": "candidate",
+      "text": "[package] name = \"boring-rustls-provider\" version = \"6.0.0-dev.0\" authors = [\"Jan R\u00fcth <boring-rustls-provider@djiehmail.com>\"] edition = \"2024\" license = \"MIT\" description = \"A BoringSSL-based rustls crypto provider with optional FIPS and post-quantum support\" repository = \"htt\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "rustls/rustls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "janrueth/boring-rustls-provider"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

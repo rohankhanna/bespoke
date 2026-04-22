@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro",
+      "target": "afdko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro",
+      "target": "opentype-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro",
+      "target": "ttf-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro",
+      "target": "variable-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:36.667979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 592
+    },
+    {
+      "path": "package.json",
+      "size": 835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Monospaced font family for user interface and coding environments",
+    "fork": false,
+    "full_name": "adobe-fonts/source-code-pro",
+    "html_url": "https://github.com/adobe-fonts/source-code-pro",
+    "language": "CSS",
+    "pushed_at": "2025-10-28T23:34:52Z",
+    "stargazers_count": 20394,
+    "topics": [
+      "afdko",
+      "fonts",
+      "opentype-fonts",
+      "otf",
+      "ttf-fonts",
+      "variable-fonts"
+    ],
+    "updated_at": "2026-04-22T00:42:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "afdko"
+    },
+    {
+      "context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype-fonts"
+    },
+    {
+      "context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ttf-fonts"
+    },
+    {
+      "context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variable-fonts"
+    }
+  ]
+}

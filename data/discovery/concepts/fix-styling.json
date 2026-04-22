@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fix styling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "The Jieba Chinese Word Segmentation Implemented in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "fix styling"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate",
+      "text": "fix styling"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13526,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "coif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "coiffure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12405,
+      "status": "candidate",
+      "text": "salon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fix styling",
+  "concept_id": "fix-styling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "source_repo": "binaryoung/jieba-php"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fix styling",
+      "sense_id": "fix-styling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

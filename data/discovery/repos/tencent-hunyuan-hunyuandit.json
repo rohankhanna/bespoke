@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
+      "target": "centaurusalpha/dialoggen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
+      "target": "apache/arrow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:19.831162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51078
+    },
+    {
+      "path": "requirements.txt",
+      "size": 410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hunyuan-DiT : A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanDiT",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanDiT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-11-27T06:37:00Z",
+    "stargazers_count": 4294,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "centaurusalpha/dialoggen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

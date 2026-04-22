@@ -1,14 +1,37 @@
 {
   "aliases": [
-    "VSCode Extension"
+    "VSCode Extension",
+    "vscode-extension"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "VSCode Extension",
@@ -20,12 +43,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/extension.yml",
       "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

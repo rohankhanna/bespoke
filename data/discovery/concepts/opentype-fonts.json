@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "opentype-fonts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "Documentation of OpenType shaping behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate-context",
+      "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-code-pro",
+      "status": "candidate-context",
+      "text": "Monospaced font family for user interface and coding environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-code-pro",
+      "status": "candidate-context",
+      "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "n8willis/opentype-shaping-documents",
+      "status": "candidate",
+      "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-code-pro",
+      "status": "candidate",
+      "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "opentype-fonts",
+  "concept_id": "opentype-fonts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "n8willis/opentype-shaping-documents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-code-pro"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentype-fonts",
+      "sense_id": "opentype-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "davidhalter/jedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/error-prone"
     }
   ],
   "term": "Static Analysis"

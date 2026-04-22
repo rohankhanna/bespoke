@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert CSV files into a SQLite database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datasette",
+      "sense_id": "datasette#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datasette",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datasette",
+  "observation_id": "5da3ef2f5ed35b8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "datasette",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+  "source_file": null,
+  "source_repo": "simonw/csvs-to-sqlite",
+  "source_repo_description": "Convert CSV files into a SQLite database"
+}

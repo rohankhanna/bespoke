@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    },
+    {
+      "component": "vedantmgoyal9/winget-releaser@4ffc7888bffd451b357355dc214d43bb9f23917e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/fd",
+      "target": "cha0ran/fd-zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/fd",
+      "target": "seebi/dircolors-solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/fd",
+      "target": "davatorium/rofi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/fd",
+      "target": "getsolus/packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "vedantmgoyal9/winget-releaser@4ffc7888bffd451b357355dc214d43bb9f23917e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd",
+      "target": "CICD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sharkdp/fd",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:18.372689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28042
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2998
+    },
+    {
+      "path": ".github/workflows/CICD.yml",
+      "size": 10663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple, fast and user-friendly alternative to 'find'",
+    "fork": false,
+    "full_name": "sharkdp/fd",
+    "html_url": "https://github.com/sharkdp/fd",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T02:19:57Z",
+    "stargazers_count": 42640,
+    "topics": [
+      "cli",
+      "command-line",
+      "filesystem",
+      "hacktoberfest",
+      "regex",
+      "rust",
+      "search",
+      "terminal",
+      "tool"
+    ],
+    "updated_at": "2026-04-21T21:30:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cha0ran/fd-zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davatorium/rofi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getsolus/packages",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seebi/dircolors-solarized",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CICD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CICD.yml",
+      "term": "CICD"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

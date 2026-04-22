@@ -2,13 +2,28 @@
   "component": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "NousResearch/Hermes-Agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_rocm.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_xpu.yaml",
+      "source_repo": "huggingface/kernels"
     }
   ]
 }

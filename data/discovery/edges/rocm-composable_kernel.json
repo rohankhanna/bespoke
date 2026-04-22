@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "mozilla/sccache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "ccache/ccache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "aras-p/clangbuildanalyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "danmar/cppcheck",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "ROCm/composable_kernel"
+}

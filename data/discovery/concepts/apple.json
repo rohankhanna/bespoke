@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "apple"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "Bazel rules to build apps for Apple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050081,
+      "status": "candidate",
+      "text": "malus pumila"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050081,
+      "status": "candidate",
+      "text": "orchard apple tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050080,
+      "status": "candidate",
+      "text": "pomme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049252,
+      "status": "candidate",
+      "text": "potato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041368,
+      "status": "candidate",
+      "text": "tator"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "malus pumila"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "orchard apple tree"
+    }
+  ],
+  "canonical_name": "apple",
+  "concept_id": "apple",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apple",
+      "sense_id": "apple#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

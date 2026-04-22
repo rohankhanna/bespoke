@@ -16,9 +16,51 @@
       "text": "Bazel Release"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bazel Release"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "basle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "basel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "abandonment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "abreaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "absolution"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "bazel-release",
   "observation_id": "3fb0dc8a7059e9ae",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "Bazel Release",
   "source_context_snippet": "Bazel Release",
   "source_file": ".github/workflows/release_bazel_module.yaml",

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Read the Docs Pull Request Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "Read the Docs Pull Request Preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Read the Docs Pull Request Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "Read the Docs Pull Request Preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "Read the Docs Pull Request Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43419,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31572,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31392,
+      "status": "candidate",
+      "text": "ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31065,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30725,
+      "status": "candidate",
+      "text": "portfolio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Read the Docs Pull Request Preview",
+  "concept_id": "read-the-docs-pull-request-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation-links.yml",
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation-links.yml",
+      "source_repo": "simonw/sqlite-utils"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Read the Docs Pull Request Preview",
+      "sense_id": "read-the-docs-pull-request-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "REPL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "REPL"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021177,
+      "status": "candidate",
+      "text": "readline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021176,
+      "status": "candidate",
+      "text": "println"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021175,
+      "status": "candidate",
+      "text": "repr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021174,
+      "status": "candidate",
+      "text": "lein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021173,
+      "status": "candidate",
+      "text": "mongo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "REPL",
+      "sense_id": "repl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "repl",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "repl",
+  "observation_id": "b8ffc52f87767a22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "REPL",
+  "source_context_snippet": "REPL",
+  "source_file": ".github/workflows/repl.yml",
+  "source_repo": "babel/babel",
+  "source_repo_description": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+}

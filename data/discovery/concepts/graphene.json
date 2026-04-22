@@ -31,6 +31,30 @@
       "source_repo": "graphql-python/graphene-django",
       "status": "candidate-context",
       "text": "[![build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Graphene SQLAlchemy integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "status": "candidate-context",
+      "text": "Enhances Graphene Django GraphQL Server for intuitive file uploads via GraphQL mutations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "graphql-python/graphene-django",
       "status": "candidate",
       "text": "[![build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate",
+      "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcgartland/graphene-file-upload",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "graphql-python/graphene-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-sqlalchemy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "lmcgartland/graphene-file-upload"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

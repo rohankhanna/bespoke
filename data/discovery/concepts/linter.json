@@ -136,6 +136,60 @@
       "source_repo": "pre-commit/pre-commit",
       "status": "candidate-context",
       "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": "Bandit is a tool designed to find common security issues in Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate-context",
+      "text": "ALE indicator for the lightline vim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate-context",
+      "text": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -198,6 +252,36 @@
       "source_repo": "pre-commit/pre-commit",
       "status": "candidate",
       "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/spotbugs/spotbugs/workflows/build/badge.svg)](https://github.com/spotbugs/spotbugs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "max-baz/lightline-ale",
+      "status": "candidate",
+      "text": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +409,47 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "pre-commit/pre-commit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

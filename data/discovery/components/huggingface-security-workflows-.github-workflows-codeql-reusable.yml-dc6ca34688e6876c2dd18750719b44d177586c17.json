@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml@dc6ca34688e6876c2dd18750719b44d177586c17",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "huggingface/diffusers"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update expo-cli spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "Tools for creating, running, and deploying universal Expo and React Native apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "'Update expo-cli spec'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate",
+      "text": "'Update expo-cli spec'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10659,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10659,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10659,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10659,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10576,
+      "status": "candidate",
+      "text": "demo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update expo-cli spec",
+  "concept_id": "update-expo-cli-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "source_repo": "expo/expo-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update expo-cli spec",
+      "sense_id": "update-expo-cli-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

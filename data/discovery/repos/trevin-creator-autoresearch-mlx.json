@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trevin-creator/autoresearch-mlx",
+      "target": "ml-explore/mlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trevin-creator/autoresearch-mlx",
+      "target": "scasella/nanochat-mlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trevin-creator/autoresearch-mlx",
+      "target": "awni/picochat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:20.003583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4138
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apple Silicon (MLX) port of Karpathy's autoresearch \u2014 autonomous AI research loops on Mac, no PyTorch required.",
+    "fork": false,
+    "full_name": "trevin-creator/autoresearch-mlx",
+    "html_url": "https://github.com/trevin-creator/autoresearch-mlx",
+    "language": "Python",
+    "pushed_at": "2026-03-10T22:30:24Z",
+    "stargazers_count": 1478,
+    "topics": [],
+    "updated_at": "2026-04-21T16:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awni/picochat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ml-explore/mlx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scasella/nanochat-mlx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

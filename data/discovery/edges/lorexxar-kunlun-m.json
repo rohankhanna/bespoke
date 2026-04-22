@@ -13,15 +13,8 @@
       "source_repo": "LoRexxar/Kunlun-M",
       "target": "wufeifei/cobra",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LoRexxar/Kunlun-M",
-      "target": "mark0smith/kunlun-m-gui",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "LoRexxar/Kunlun-M"
 }

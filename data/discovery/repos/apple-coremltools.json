@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "coremltools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "model-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "model-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/coremltools",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:52.532332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Core ML tools contain supporting tools for Core ML model conversion, editing, and validation.",
+    "fork": false,
+    "full_name": "apple/coremltools",
+    "html_url": "https://github.com/apple/coremltools",
+    "language": "Python",
+    "pushed_at": "2026-04-21T19:00:43Z",
+    "stargazers_count": 5233,
+    "topics": [
+      "coreml",
+      "coremltools",
+      "machine-learning",
+      "model-conversion",
+      "model-converter",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-21T19:00:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coremltools"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-conversion"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-converter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

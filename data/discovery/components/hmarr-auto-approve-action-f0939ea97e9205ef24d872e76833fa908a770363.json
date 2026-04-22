@@ -1,0 +1,22 @@
+{
+  "component": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-api-docs.yml",
+      "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-backports.yml",
+      "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-machine-prs.yml",
+      "source_repo": "elastic/kibana"
+    }
+  ]
+}

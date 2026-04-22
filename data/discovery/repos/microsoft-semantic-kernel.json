@@ -1,0 +1,537 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "danielpalme/ReportGenerator-GitHub-Action@5.4.12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-discussions.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-discussions.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-discussions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "microsoft/semantic-kernel-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "DevFlow PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "danielpalme/ReportGenerator-GitHub-Action@5.4.12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "dotnet-build-and-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "dotnet-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "dotnet-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "dotnet-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-discussions.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-discussions.yml",
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "Label Discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/semantic-kernel",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:25.701763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13474
+    },
+    {
+      "path": ".github/workflows/check-coverage.ps1",
+      "size": 2585
+    },
+    {
+      "path": ".github/workflows/close-inactive-issues.yml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3016
+    },
+    {
+      "path": ".github/workflows/devflow-pr-review.yml",
+      "size": 4550
+    },
+    {
+      "path": ".github/workflows/dotnet-build-and-test.yml",
+      "size": 10569
+    },
+    {
+      "path": ".github/workflows/dotnet-ci.yml",
+      "size": 3928
+    },
+    {
+      "path": ".github/workflows/dotnet-format.yml",
+      "size": 3678
+    },
+    {
+      "path": ".github/workflows/dotnet-integration-tests.yml",
+      "size": 2338
+    },
+    {
+      "path": ".github/workflows/label-discussions.yml",
+      "size": 3874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+    "fork": false,
+    "full_name": "microsoft/semantic-kernel",
+    "html_url": "https://github.com/microsoft/semantic-kernel",
+    "language": "C#",
+    "pushed_at": "2026-04-21T18:09:03Z",
+    "stargazers_count": 27749,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "llm",
+      "openai",
+      "sdk"
+    ],
+    "updated_at": "2026-04-22T00:31:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/semantic-kernel-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "DevFlow PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "term": "DevFlow PR Review"
+    },
+    {
+      "context_snippet": "dotnet-build-and-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "term": "dotnet-build-and-test"
+    },
+    {
+      "context_snippet": "dotnet-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "term": "dotnet-ci"
+    },
+    {
+      "context_snippet": "dotnet-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "term": "dotnet-format"
+    },
+    {
+      "context_snippet": "dotnet-integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "term": "dotnet-integration-tests"
+    },
+    {
+      "context_snippet": "Label Discussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-discussions.yml",
+      "term": "Label Discussions"
+    },
+    {
+      "context_snippet": "**Build intelligent AI agents and multi-agent systems with this enterprise-ready orchestration framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    }
+  ]
+}

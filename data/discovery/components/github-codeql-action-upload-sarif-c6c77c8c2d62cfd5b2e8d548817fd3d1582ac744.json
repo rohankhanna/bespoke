@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@c6c77c8c2d62cfd5b2e8d548817fd3d1582ac744",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Cyan4973/xxHash"
+    }
+  ]
+}

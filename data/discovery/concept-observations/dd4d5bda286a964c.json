@@ -16,9 +16,51 @@
       "text": "Staleness tests"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Staleness tests"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12316,
+      "status": "candidate",
+      "text": "must"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11993,
+      "status": "candidate",
+      "text": "candle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "sour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "soured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "blink"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "staleness-tests",
   "observation_id": "dd4d5bda286a964c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "Staleness tests",
   "source_context_snippet": "Staleness tests",
   "source_file": ".github/workflows/staleness_check.yml",

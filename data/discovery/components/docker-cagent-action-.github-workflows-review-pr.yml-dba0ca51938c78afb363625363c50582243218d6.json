@@ -1,0 +1,12 @@
+{
+  "component": "docker/cagent-action/.github/workflows/review-pr.yml@dba0ca51938c78afb363625363c50582243218d6",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-review.yml",
+      "source_repo": "docker/compose"
+    }
+  ]
+}

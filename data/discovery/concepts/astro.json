@@ -4,11 +4,86 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Minimal web UI for ChatGPT. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Minimal web UI for GeminiPro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29437950,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29369591,
+      "status": "candidate",
+      "text": "straw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720556,
+      "status": "candidate",
+      "text": "angel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720555,
+      "status": "candidate",
+      "text": "athletic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720554,
+      "status": "candidate",
+      "text": "cardinal"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "astro",
   "concept_id": "astro",
@@ -19,12 +94,26 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

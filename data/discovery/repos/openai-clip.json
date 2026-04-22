@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "conda-incubator/setup-miniconda@1bff120c1ad2d5f86a1099b0df16632c8da52988",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/CLIP",
+      "target": "mlfoundations/open_clip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/CLIP",
+      "target": "conda-incubator/setup-miniconda@1bff120c1ad2d5f86a1099b0df16632c8da52988",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/CLIP",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/CLIP",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/CLIP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/CLIP",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:08.846018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7302
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
+    "fork": false,
+    "full_name": "openai/CLIP",
+    "html_url": "https://github.com/openai/CLIP",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-25T18:46:40Z",
+    "stargazers_count": 33281,
+    "topics": [
+      "deep-learning",
+      "machine-learning"
+    ],
+    "updated_at": "2026-04-21T21:44:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlfoundations/open_clip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026484,
+      "status": "candidate",
+      "text": "depth psychology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024514,
+      "status": "candidate",
+      "text": "psychoanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042677,
+      "status": "candidate",
+      "text": "analytic thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042676,
+      "status": "candidate",
+      "text": "analyzed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042531,
+      "status": "candidate",
+      "text": "analyze"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "analysis",
+      "sense_id": "analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3045,
+      "status": "candidate",
+      "text": "psychoanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "depth psychology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "analytic thinking"
+    }
+  ],
+  "concept_id": "analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analysis",
+  "observation_id": "2b3c229c056ca96d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "analysis",
+  "source_context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+  "source_file": null,
+  "source_repo": "cncf/tag-observability",
+  "source_repo_description": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+}

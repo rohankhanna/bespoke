@@ -19,12 +19,30 @@
       "source_repo": "standard/standard",
       "status": "candidate-context",
       "text": "Old test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standardx",
+      "status": "candidate-context",
+      "text": ":boom: JavaScript Standard Style with custom tweaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standardx",
+      "status": "candidate-context",
+      "text": "Old test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "standard/standard",
+      "status": "candidate",
+      "text": "Old test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standardx",
       "status": "candidate",
       "text": "Old test"
     }
@@ -76,11 +94,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/old-test.yml",
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

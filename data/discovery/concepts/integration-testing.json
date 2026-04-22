@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "Integration testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate",
+      "text": "Integration testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036151,
+      "status": "candidate",
+      "text": "big bang testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036150,
+      "status": "candidate",
+      "text": "unit test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036149,
+      "status": "candidate",
+      "text": "unit testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036148,
+      "status": "candidate",
+      "text": "beta testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036147,
+      "status": "candidate",
+      "text": "alpha testing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration testing",
+  "concept_id": "integration-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "jiegec/tantivy-jieba"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration testing",
+      "sense_id": "integration-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

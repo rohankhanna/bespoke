@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dev-to-main.yml",
       "source_repo": "alirezarezvani/claude-code-skill-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
     }
   ]
 }

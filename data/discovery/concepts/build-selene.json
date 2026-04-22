@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build selene"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate-context",
+      "text": "A blazing-fast modern Lua linter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate-context",
+      "text": "Build selene"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/selene",
+      "status": "candidate",
+      "text": "Build selene"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11425,
+      "status": "candidate",
+      "text": "horsehead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11425,
+      "status": "candidate",
+      "text": "lunar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10533,
+      "status": "candidate",
+      "text": "bride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10533,
+      "status": "candidate",
+      "text": "sun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5591,
+      "status": "candidate",
+      "text": "diana"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build selene",
+  "concept_id": "build-selene",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Kampfkarren/selene"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build selene",
+      "sense_id": "build-selene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

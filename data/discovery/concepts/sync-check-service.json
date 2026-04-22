@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Check Service"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Sync Check Service"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate",
+      "text": "Sync Check Service"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25675,
+      "status": "candidate",
+      "text": "ssa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24550,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24414,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24399,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23379,
+      "status": "candidate",
+      "text": "kiss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Check Service",
+  "concept_id": "sync-check-service",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-sync-check.yml",
+      "source_repo": "ChainSafe/forest-iac"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Check Service",
+      "sense_id": "sync-check-service#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

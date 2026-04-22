@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Linters"
+    "Linters",
+    "linters"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "nodejs/release-keys",
       "status": "candidate-context",
       "text": "Linters"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate-context",
+      "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate-context",
+      "text": "Syntax checking hacks for vim"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "nodejs/release-keys",
       "status": "candidate",
       "text": "Linters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-syntastic/syntastic",
+      "status": "candidate",
+      "text": "Syntax checking hacks for vim"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +121,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nodejs/release-keys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -54,6 +54,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cibuildwheel.yml",
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "stanfordnlp/dspy"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:07:14.932748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Automatically exported from code.google.com/p/google-id-token",
+    "fork": false,
+    "full_name": "google/google-id-token",
+    "html_url": "https://github.com/google/google-id-token",
+    "language": "Ruby",
+    "pushed_at": "2023-01-19T23:41:27Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-02-20T11:22:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

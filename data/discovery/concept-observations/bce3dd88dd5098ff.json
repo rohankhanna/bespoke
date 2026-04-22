@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitPython is a python library used to interact with Git repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "test-cygwin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "test-cygwin"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-cygwin",
+      "sense_id": "test-cygwin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-cygwin",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-cygwin",
+  "observation_id": "bce3dd88dd5098ff",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "test-cygwin",
+  "source_context_snippet": "test-cygwin",
+  "source_file": ".github/workflows/cygwin-test.yml",
+  "source_repo": "gitpython-developers/GitPython",
+  "source_repo_description": "GitPython is a python library used to interact with Git repositories."
+}

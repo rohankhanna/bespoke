@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Binaries for Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Binaries for Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "ioi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Binaries for Release",
+      "sense_id": "build-binaries-for-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-binaries-for-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-binaries-for-release",
+  "observation_id": "4b78d6800ebaae3f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build Binaries for Release",
+  "source_context_snippet": "Build Binaries for Release",
+  "source_file": ".github/workflows/release-build.yml",
+  "source_repo": "asdf-vm/asdf",
+  "source_repo_description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+}

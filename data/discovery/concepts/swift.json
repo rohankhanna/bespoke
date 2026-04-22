@@ -7,10 +7,120 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "A Swift toolchain installer and manager, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "swiftly is a CLI tool for installing, managing, and switching between [Swift](https://www.swift.org/) toolchains, written in Swift. swiftly itself is designed to be extremely easy to install and get running, and its command interface is intended to be flexible while also being s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "status": "candidate-context",
+      "text": "NextChat for iOS source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "status": "candidate-context",
+      "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate",
+      "text": "swiftly is a CLI tool for installing, managing, and switching between [Swift](https://www.swift.org/) toolchains, written in Swift. swiftly itself is designed to be extremely easy to install and get running, and its command interface is intended to be flexible while also being s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+      "status": "candidate",
+      "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987849,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891695,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39611873,
+      "status": "candidate",
+      "text": "western fence lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020517,
+      "status": "candidate",
+      "text": "blue-belly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020517,
+      "status": "candidate",
+      "text": "jonathan swift"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9049,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "western fence lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "blue-belly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jonathan swift"
+    }
+  ],
   "canonical_name": "swift",
   "concept_id": "swift",
   "definition_status": "unresolved",
@@ -20,12 +130,26 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "rlxone/MultiSoundChanger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swiftly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat-iOS"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "nan",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-pre-gyp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aws-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "mapbox/node-pre-gyp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "rogerwang/node-webkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "mapbox/node-sqlite3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "isaacs/npm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "nan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "node-pre-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "aws-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mhdawson/node-sqlite3",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:21:12.764425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8345
+    },
+    {
+      "path": "package.json",
+      "size": 1887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Asynchronous, non-blocking SQLite3 bindings for Node.js",
+    "fork": true,
+    "full_name": "mhdawson/node-sqlite3",
+    "html_url": "https://github.com/mhdawson/node-sqlite3",
+    "language": "PLpgSQL",
+    "pushed_at": "2022-02-19T07:42:13Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2020-11-06T02:41:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isaacs/npm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/node-pre-gyp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/node-sqlite3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rogerwang/node-webkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

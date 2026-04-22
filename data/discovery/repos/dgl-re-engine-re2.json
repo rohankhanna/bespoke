@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "shogo82148/actions-setup-perl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dgl/re-engine-RE2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dgl/re-engine-RE2",
+      "target": "shogo82148/actions-setup-perl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dgl/re-engine-RE2",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:22.936636+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "re::engine::RE2 - RE2 regexp engine interface for Perl",
+    "fork": false,
+    "full_name": "dgl/re-engine-RE2",
+    "html_url": "https://github.com/dgl/re-engine-RE2",
+    "language": "C++",
+    "pushed_at": "2023-06-19T00:54:15Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2025-12-17T01:08:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Run tests"
+    }
+  ]
+}

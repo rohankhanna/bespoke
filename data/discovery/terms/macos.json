@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "likle/cwalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adminisme/ServerScan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nlohmann/json"
     }
   ],
   "term": "macos"

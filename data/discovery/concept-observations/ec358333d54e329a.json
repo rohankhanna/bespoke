@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Strands Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Strands Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "bumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "gears"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128,
+      "status": "candidate",
+      "text": "tram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18065,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Strands Review",
+      "sense_id": "auto-strands-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-strands-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-strands-review",
+  "observation_id": "ec358333d54e329a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Auto Strands Review",
+  "source_context_snippet": "Auto Strands Review",
+  "source_file": ".github/workflows/auto-strands-review.yml",
+  "source_repo": "strands-agents/docs",
+  "source_repo_description": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+}

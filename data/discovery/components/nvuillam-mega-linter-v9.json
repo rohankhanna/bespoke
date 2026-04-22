@@ -1,0 +1,12 @@
+{
+  "component": "nvuillam/mega-linter@v9",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "zizmorcore/zizmor-action@0dce2577a4760a2749d8cfb7a84b7d5585ebcb7d",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "trifectatechfoundation/zlib-rs"
+    }
+  ]
+}

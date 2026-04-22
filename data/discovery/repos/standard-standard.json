@@ -131,13 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "neomake/neomake",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/standard",
       "target": "ishamf/brackets-standard",
       "target_type": "repository"
     },
@@ -145,14 +138,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "josephfrazier/standard-eject",
+      "target": "sindresorhus/globals",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "eslint/eslint",
+      "target": "pre-commit/mirrors-eslint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard",
+      "target": "standard/.github",
       "target_type": "repository"
     },
     {
@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-20T03:17:38.788591+00:00",
+  "fetched_at": "2026-04-22T01:22:42.429407+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -445,7 +445,7 @@
     "html_url": "https://github.com/standard/standard",
     "language": "JavaScript",
     "pushed_at": "2025-07-11T08:28:23Z",
-    "stargazers_count": 29442,
+    "stargazers_count": 29440,
     "topics": [
       "development",
       "ecmascript",
@@ -458,14 +458,9 @@
       "static-code-analysis",
       "style-guide"
     ],
-    "updated_at": "2026-04-19T17:52:39Z"
+    "updated_at": "2026-04-21T21:01:49Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eslint/eslint",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ishamf/brackets-standard",
@@ -473,12 +468,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "josephfrazier/standard-eject",
+      "full_name": "pre-commit/mirrors-eslint",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "neomake/neomake",
+      "full_name": "sindresorhus/globals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "standard/.github",
       "source_file": "README.md"
     }
   ],

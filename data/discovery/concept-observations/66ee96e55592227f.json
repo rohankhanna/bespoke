@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026792,
+      "status": "candidate",
+      "text": "respond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994168,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033910,
+      "status": "candidate",
+      "text": "responding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033608,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033553,
+      "status": "candidate",
+      "text": "response"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react",
+      "sense_id": "react#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18036,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "respond"
+    }
+  ],
+  "concept_id": "react",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react",
+  "observation_id": "66ee96e55592227f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "react",
+  "source_context_snippet": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026",
+  "source_file": null,
+  "source_repo": "vercel/next.js",
+  "source_repo_description": "The React Framework"
+}

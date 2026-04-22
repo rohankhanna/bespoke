@@ -1,0 +1,12 @@
+{
+  "component": "vlaurin/action-ghcr-prune@0cf7d39f88546edd31965acba78cdcb0be14d641",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "coder/coder"
+    }
+  ]
+}

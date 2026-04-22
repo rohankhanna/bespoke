@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "eigenwallet is a battle-tested Monero-Bitcoin DEX based on Atomic Swaps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Create 'preview' release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Create 'preview' release\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21154,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20666,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20584,
+      "status": "candidate",
+      "text": "tease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20550,
+      "status": "candidate",
+      "text": "leak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20550,
+      "status": "candidate",
+      "text": "teaser"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create 'preview' release",
+      "sense_id": "create-preview-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-preview-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-preview-release",
+  "observation_id": "230dfd7bff2042a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Create 'preview' release",
+  "source_context_snippet": "\"Create 'preview' release\"",
+  "source_file": ".github/workflows/preview-release.yml",
+  "source_repo": "eigenwallet/core",
+  "source_repo_description": "eigenwallet is a battle-tested Monero-Bitcoin DEX based on Atomic Swaps."
+}

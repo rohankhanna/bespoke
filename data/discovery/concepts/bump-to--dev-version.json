@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump to -dev version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate-context",
+      "text": "Bump to -dev version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman",
+      "status": "candidate",
+      "text": "Bump to -dev version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bonk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10713,
+      "status": "candidate",
+      "text": "bumps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump to -dev version",
+  "concept_id": "bump-to--dev-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dev-bump.yml",
+      "source_repo": "containers/podman"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump to -dev version",
+      "sense_id": "bump-to--dev-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

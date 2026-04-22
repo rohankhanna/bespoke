@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Sponsors README"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Generate Sponsors README"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Generate Sponsors README"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10446,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "aaron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "abraham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "notepad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Sponsors README",
+  "concept_id": "generate-sponsors-readme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "jesseduffield/lazygit"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Sponsors README",
+      "sense_id": "generate-sponsors-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

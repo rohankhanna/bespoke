@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple, safe way to store and distribute tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rust Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rust Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "aeciospore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "canker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "erode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust Release",
+      "sense_id": "rust-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-release",
+  "observation_id": "8571a40df5e5eef2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Rust Release",
+  "source_context_snippet": "Rust Release",
+  "source_file": ".github/workflows/rust-release.yml",
+  "source_repo": "safetensors/safetensors",
+  "source_repo_description": "Simple, safe way to store and distribute tensors"
+}

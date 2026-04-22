@@ -31,6 +31,54 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate-context",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +91,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "'Lock Threads'"
     }
@@ -106,11 +178,35 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/issue_lock.yml",
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

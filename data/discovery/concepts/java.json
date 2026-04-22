@@ -67,6 +67,18 @@
       "source_repo": "dirs-dev/directories-jvm",
       "status": "candidate-context",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Catch common Java mistakes as compile-time errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate-context",
+      "text": "Error Prone is a static analysis tool for Java that catches common programming"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "dirs-dev/directories-jvm",
       "status": "candidate",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/error-prone",
+      "status": "candidate",
+      "text": "Error Prone is a static analysis tool for Java that catches common programming"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "dirs-dev/directories-jvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "google/error-prone"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

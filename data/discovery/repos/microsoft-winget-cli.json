@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "pelikhan/action-genai-issue-dedup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling3.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/winget-cli",
+      "target": "microsoft/winget-pkgs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/winget-cli",
+      "target": "microsoft/winget-cli-restsource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "pelikhan/action-genai-issue-dedup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Automatic New Issue Deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Workflow should not run!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Workflow should not run!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling3.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "check-spelling/check-spelling@v0.0.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling3.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Check Spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "winget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:48.479812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9825
+    },
+    {
+      "path": ".github/workflows/automatic-issue-deduplication.yml",
+      "size": 482
+    },
+    {
+      "path": ".github/workflows/spelling.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/spelling2.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/spelling3.yml",
+      "size": 5598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
+    "fork": false,
+    "full_name": "microsoft/winget-cli",
+    "html_url": "https://github.com/microsoft/winget-cli",
+    "language": "C++",
+    "pushed_at": "2026-04-21T17:40:35Z",
+    "stargazers_count": 25727,
+    "topics": [
+      "command-line",
+      "package-manager",
+      "windows",
+      "winget"
+    ],
+    "updated_at": "2026-04-21T20:42:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winget-cli-restsource",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winget-pkgs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automatic New Issue Deduplication",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "term": "Automatic New Issue Deduplication"
+    },
+    {
+      "context_snippet": "Workflow should not run!",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "term": "Workflow should not run!"
+    },
+    {
+      "context_snippet": "Workflow should not run!",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "term": "Workflow should not run!"
+    },
+    {
+      "context_snippet": "Check Spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling3.yml",
+      "term": "Check Spelling"
+    },
+    {
+      "context_snippet": "![winget install wingetcreate](.github/images/WingetInstall.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "![winget install wingetcreate](.github/images/WingetInstall.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "![winget install wingetcreate](.github/images/WingetInstall.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "![winget install wingetcreate](.github/images/WingetInstall.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winget"
+    }
+  ]
+}

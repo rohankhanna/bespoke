@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Simple benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate-context",
+      "text": "Simple, safe way to store and distribute tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate-context",
+      "text": "Simple benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safetensors/safetensors",
+      "status": "candidate",
+      "text": "Simple benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17056,
+      "status": "candidate",
+      "text": "baseline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17056,
+      "status": "candidate",
+      "text": "baselines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17056,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17056,
+      "status": "candidate",
+      "text": "objectives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17056,
+      "status": "candidate",
+      "text": "requirements"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Simple benchmarks",
+  "concept_id": "simple-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Simple benchmarks",
+      "sense_id": "simple-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

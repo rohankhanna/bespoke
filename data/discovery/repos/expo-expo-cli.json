@@ -1,0 +1,602 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@expo/spawn-async",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/node12",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-universe",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expo-yarn-workspaces",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-watch-typeahead",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "memfs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn-deduplicate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-stale.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml"
+    },
+    {
+      "component": "withfig/push-to-fig-autocomplete-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expo/expo-cli",
+      "target": "expo/expo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@expo/spawn-async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@tsconfig/node12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "eslint-config-universe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "expo-yarn-workspaces",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "jest-watch-typeahead",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "memfs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expo/expo-cli",
+      "target": "yarn-deduplicate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-stale.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-stale.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "withfig/push-to-fig-autocomplete-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "Update expo-cli spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "Test Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "expo/expo-cli",
+      "target": "Test Packages Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expo/expo-cli",
+      "target": "expo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expo/expo-cli",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expo/expo-cli",
+      "target": "react-native-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expo/expo-cli",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:10:31.495824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5086
+    },
+    {
+      "path": "package.json",
+      "size": 1583
+    },
+    {
+      "path": ".github/workflows/issue-stale.yml",
+      "size": 936
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 7025
+    },
+    {
+      "path": ".github/workflows/release-expo-cli-spec.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2982
+    },
+    {
+      "path": ".github/workflows/test_windows.yml",
+      "size": 1507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tools for creating, running, and deploying universal Expo and React Native apps",
+    "fork": false,
+    "full_name": "expo/expo-cli",
+    "html_url": "https://github.com/expo/expo-cli",
+    "language": "TypeScript",
+    "pushed_at": "2023-12-30T13:33:59Z",
+    "stargazers_count": 2663,
+    "topics": [
+      "cli",
+      "expo",
+      "react-native",
+      "react-native-web",
+      "webpack"
+    ],
+    "updated_at": "2026-04-17T13:11:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expo/expo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-stale.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    },
+    {
+      "context_snippet": "'Update expo-cli spec'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-expo-cli-spec.yml",
+      "term": "Update expo-cli spec"
+    },
+    {
+      "context_snippet": "Test Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test Packages"
+    },
+    {
+      "context_snippet": "Test Packages Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "term": "Test Packages Windows"
+    },
+    {
+      "context_snippet": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expo"
+    },
+    {
+      "context_snippet": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native-web"
+    },
+    {
+      "context_snippet": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpack"
+    }
+  ]
+}

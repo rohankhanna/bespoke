@@ -31,6 +31,18 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate-context",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "libgit2 - the Git linkable library"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate",
+      "text": "libgit2 - the Git linkable library"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "GitoxideLabs/gitoxide"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

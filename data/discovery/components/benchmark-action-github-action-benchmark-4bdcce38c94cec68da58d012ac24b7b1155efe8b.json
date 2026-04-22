@@ -1,0 +1,12 @@
+{
+  "component": "benchmark-action/github-action-benchmark@4bdcce38c94cec68da58d012ac24b7b1155efe8b",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "runfinch/finch"
+    }
+  ]
+}

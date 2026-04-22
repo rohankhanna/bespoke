@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:16:08.465951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83d\udc80 Homebrew/bundle (merged into Homebrew/brew)",
+    "fork": false,
+    "full_name": "Homebrew/homebrew-bundle",
+    "html_url": "https://github.com/Homebrew/homebrew-bundle",
+    "language": null,
+    "pushed_at": "2025-04-22T15:20:28Z",
+    "stargazers_count": 5518,
+    "topics": [],
+    "updated_at": "2026-04-20T18:22:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

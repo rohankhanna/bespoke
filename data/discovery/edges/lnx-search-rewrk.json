@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lnx-search/rewrk",
-      "target": "wg/wrk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lnx-search/rewrk",
-      "target": "hyperium/hyper",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lnx-search/rewrk",
       "target": "chillfish8/rewrk",
       "target_type": "repository"
     },
@@ -141,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "lnx-search/rewrk"
 }

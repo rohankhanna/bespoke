@@ -20,12 +20,48 @@
       "source_repo": "letta-ai/letta-code",
       "status": "candidate-context",
       "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Rust library for build scripts to compile C/C++ code into a Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Fork of rust-lang/cc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Publish release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "letta-ai/letta-code",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
       "status": "candidate",
       "text": "Publish release"
     }
@@ -83,11 +119,23 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

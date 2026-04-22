@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High quality, fast and easy to build cryptography for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fuzz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fuzz"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912413,
+      "status": "candidate",
+      "text": "hair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893287,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861345,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39860850,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39813754,
+      "status": "candidate",
+      "text": "tomentum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fuzz",
+      "sense_id": "fuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9028,
+      "status": "candidate",
+      "text": "tomentum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7072,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7059,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5076,
+      "status": "candidate",
+      "text": "copper"
+    }
+  ],
+  "concept_id": "fuzz",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzz",
+  "observation_id": "80b6d5231b38cf60",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "fuzz",
+  "source_context_snippet": "fuzz",
+  "source_file": ".github/workflows/fuzz.yml",
+  "source_repo": "ctz/graviola",
+  "source_repo_description": "High quality, fast and easy to build cryptography for Rust"
+}

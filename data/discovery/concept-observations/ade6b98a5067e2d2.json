@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple, physics-based animation library \ud83c\udfbc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Harmonica"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Harmonica"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867990,
+      "status": "candidate",
+      "text": "natural philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39850491,
+      "status": "candidate",
+      "text": "physical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923095,
+      "status": "candidate",
+      "text": "geophysical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905078,
+      "status": "candidate",
+      "text": "chemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882905,
+      "status": "candidate",
+      "text": "par"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "physics",
+      "sense_id": "physics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "natural philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "physical science"
+    }
+  ],
+  "concept_id": "physics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "physics",
+  "observation_id": "ade6b98a5067e2d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "physics",
+  "source_context_snippet": "Harmonica",
+  "source_file": null,
+  "source_repo": "charmbracelet/harmonica",
+  "source_repo_description": "A simple, physics-based animation library \ud83c\udfbc"
+}

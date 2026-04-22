@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:04:44.229943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3237
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ThinkDepth.ai Deep Research",
+    "fork": false,
+    "full_name": "thinkdepthai/Deep_Research",
+    "html_url": "https://github.com/thinkdepthai/Deep_Research",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-05T05:37:50Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-04-18T15:49:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

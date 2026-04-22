@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "sphinx-notes/pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage_issues.yml"
+    },
+    {
+      "component": "tiangolo/issue-manager@0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "pypa/gh-action-pypi-publish@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "\ud83d\ude80 Deploy to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "sphinx-notes/pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage_issues.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "dessant/lock-threads@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage_issues.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "tiangolo/issue-manager@0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manage_issues.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "Issue Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "graphene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "target": "sqlalchemy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:48.859124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4280
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 560
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 360
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/manage_issues.yml",
+      "size": 1226
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphene SQLAlchemy integration",
+    "fork": false,
+    "full_name": "graphql-python/graphene-sqlalchemy",
+    "html_url": "https://github.com/graphql-python/graphene-sqlalchemy",
+    "language": "Python",
+    "pushed_at": "2025-09-04T15:42:56Z",
+    "stargazers_count": 986,
+    "topics": [
+      "graphene",
+      "graphql",
+      "python",
+      "sqlalchemy"
+    ],
+    "updated_at": "2026-04-08T16:41:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\ude80 Deploy to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "\ud83d\ude80 Deploy to PyPI"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Issue Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manage_issues.yml",
+      "term": "Issue Manager"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphene"
+    },
+    {
+      "context_snippet": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlalchemy"
+    }
+  ]
+}

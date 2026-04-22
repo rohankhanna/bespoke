@@ -1,12 +1,42 @@
 {
   "component": "hecrj/setup-rust-action@v1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "tauri-apps/cargo-mobile2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
     }
   ]
 }

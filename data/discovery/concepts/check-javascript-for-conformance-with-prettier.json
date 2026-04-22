@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check JavaScript for conformance with Prettier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "Check JavaScript for conformance with Prettier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "Check JavaScript for conformance with Prettier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31825,
+      "status": "candidate",
+      "text": "standardise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "authentic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22304,
+      "status": "candidate",
+      "text": "fitness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16425,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16425,
+      "status": "candidate",
+      "text": "rights"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check JavaScript for conformance with Prettier",
+  "concept_id": "check-javascript-for-conformance-with-prettier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "simonw/datasette"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check JavaScript for conformance with Prettier",
+      "sense_id": "check-javascript-for-conformance-with-prettier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

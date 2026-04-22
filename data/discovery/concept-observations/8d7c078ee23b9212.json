@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998310,
+      "status": "candidate",
+      "text": "structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "architectural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "structures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "designs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "layouts"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "architectures",
+      "sense_id": "architectures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "architectures",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "architectures",
+  "observation_id": "8d7c078ee23b9212",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "architectures",
+  "source_context_snippet": "Planning notes and architecture diagrams for personal AI context and memory systems.",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+  "source_repo_description": null
+}

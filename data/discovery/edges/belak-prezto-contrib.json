@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/prezto-contrib",
+      "target": "sorin-ionescu/prezto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belak/prezto-contrib",
+      "target": "prezto",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "belak/prezto-contrib"
+}

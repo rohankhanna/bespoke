@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Open issue to remind doing something"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Open issue to remind doing something"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 61576,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 61098,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 60956,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 60827,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 60470,
+      "status": "candidate",
+      "text": "keeps"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Open issue to remind doing something",
+      "sense_id": "open-issue-to-remind-doing-something#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "open-issue-to-remind-doing-something",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "open-issue-to-remind-doing-something",
+  "observation_id": "fe21e648dc7e4e36",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Open issue to remind doing something",
+  "source_context_snippet": "Open issue to remind doing something",
+  "source_file": ".github/workflows/reminders.yml",
+  "source_repo": "babel/babel",
+  "source_repo_description": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+}

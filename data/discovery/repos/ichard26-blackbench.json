@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/blackbench",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/blackbench",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/blackbench",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ichard26/blackbench",
+      "target": "codecov/codecov-action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/blackbench",
+      "target": "black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/blackbench",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichard26/blackbench",
+      "target": "performance-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:17:32.289811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1533
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1557
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A benchmarking suite for Black, the Python code formatter.",
+    "fork": false,
+    "full_name": "ichard26/blackbench",
+    "html_url": "https://github.com/ichard26/blackbench",
+    "language": "Python",
+    "pushed_at": "2023-05-16T06:57:56Z",
+    "stargazers_count": 3,
+    "topics": [
+      "black",
+      "cli",
+      "performance",
+      "performance-testing",
+      "python"
+    ],
+    "updated_at": "2023-06-22T00:01:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "black"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-testing"
+    }
+  ]
+}

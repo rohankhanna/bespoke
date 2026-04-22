@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build flannel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "build flannel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "build flannel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "plaid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "swanskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "acolyctine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "alanine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11143,
+      "status": "candidate",
+      "text": "albication"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build flannel",
+  "concept_id": "build-flannel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "flannel-io/flannel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build flannel",
+      "sense_id": "build-flannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

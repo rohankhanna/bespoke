@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Spam & Self-Promotion Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Spam & Self-Promotion Check\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12738,
+      "status": "candidate",
+      "text": "tin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12738,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12697,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12697,
+      "status": "candidate",
+      "text": "delete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12697,
+      "status": "candidate",
+      "text": "email"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spam & Self-Promotion Check",
+      "sense_id": "spam-self-promotion-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spam-self-promotion-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spam-self-promotion-check",
+  "observation_id": "c71822f086739317",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Spam & Self-Promotion Check",
+  "source_context_snippet": "\"Spam & Self-Promotion Check\"",
+  "source_file": ".github/workflows/spam-check.lock.yml",
+  "source_repo": "f/prompts.chat",
+  "source_repo_description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+}

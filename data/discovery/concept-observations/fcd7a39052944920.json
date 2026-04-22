@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Virus Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Virus Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35649,
+      "status": "candidate",
+      "text": "antivirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35648,
+      "status": "candidate",
+      "text": "computer virus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35647,
+      "status": "candidate",
+      "text": "malware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35646,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35645,
+      "status": "candidate",
+      "text": "retrovirus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Virus Scan",
+      "sense_id": "virus-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "virus-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "virus-scan",
+  "observation_id": "fcd7a39052944920",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Virus Scan",
+  "source_context_snippet": "Virus Scan",
+  "source_file": ".github/workflows/scanner.yml",
+  "source_repo": "coreybutler/nvm-windows",
+  "source_repo_description": "A node.js version management utility for Windows. Ironically written in Go."
+}

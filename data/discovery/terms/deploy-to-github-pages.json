@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "gorhom/react-native-bottom-sheet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "strands-agents/docs"
     }
   ],
   "term": "Deploy to GitHub Pages"

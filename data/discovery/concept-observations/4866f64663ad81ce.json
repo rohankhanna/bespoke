@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Alert on failed test comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Alert on failed test comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27996,
+      "status": "candidate",
+      "text": "considering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27963,
+      "status": "candidate",
+      "text": "blind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27963,
+      "status": "candidate",
+      "text": "considered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27899,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27899,
+      "status": "candidate",
+      "text": "braces"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Alert on failed test comment",
+      "sense_id": "alert-on-failed-test-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "alert-on-failed-test-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alert-on-failed-test-comment",
+  "observation_id": "4866f64663ad81ce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Alert on failed test comment",
+  "source_context_snippet": "Alert on failed test comment",
+  "source_file": ".github/workflows/alert-failed-test.yml",
+  "source_repo": "elastic/kibana",
+  "source_repo_description": "Your window into all of your data"
+}

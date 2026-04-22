@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml"
+    },
+    {
+      "component": "pozetroninc/github-action-get-latest-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "microsoft/vscode-dev-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "justfoxing/ghidra_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "clearbluejar/ghidra-python-vscode-skeleton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "clearbluejar/ghidra-pyi-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "build-and-push-devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "ghidra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:06.320103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36148
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    },
+    {
+      "path": ".github/workflows/build-and-push-devcontainer.yml",
+      "size": 2282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ghidra Headless Python VScode Skeleton with Devcontainer Super Powers",
+    "fork": false,
+    "full_name": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+    "html_url": "https://github.com/clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+    "language": "Python",
+    "pushed_at": "2025-06-27T14:57:37Z",
+    "stargazers_count": 61,
+    "topics": [
+      "devcontainer",
+      "ghidra",
+      "python",
+      "vscode"
+    ],
+    "updated_at": "2026-02-07T04:05:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/ghidra-pyi-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/ghidra-python-vscode-skeleton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justfoxing/ghidra_bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-dev-containers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'build-and-push-devcontainer'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "term": "build-and-push-devcontainer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghidra"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

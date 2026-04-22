@@ -1,0 +1,42 @@
+{
+  "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/intl.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/intl4x.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/intl_translation.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/messages.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/messages_builder.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/messages_serializer.yml",
+      "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/messages_shrinker.yml",
+      "source_repo": "dart-lang/i18n"
+    }
+  ]
+}

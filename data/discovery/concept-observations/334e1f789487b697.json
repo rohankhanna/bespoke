@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modular and stable agent sandbox runtime environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13828,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13429,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13429,
+      "status": "candidate",
+      "text": "tentatively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12848,
+      "status": "candidate",
+      "text": "flue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12848,
+      "status": "candidate",
+      "text": "fluff"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Test",
+      "sense_id": "lint-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-test",
+  "observation_id": "334e1f789487b697",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Lint Test",
+  "source_context_snippet": "Lint Test",
+  "source_file": ".github/workflows/lint.yml",
+  "source_repo": "modelscope/ms-enclave",
+  "source_repo_description": "A modular and stable agent sandbox runtime environment."
+}

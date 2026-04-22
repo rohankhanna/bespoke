@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/toolchain@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -217,6 +217,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-workflow.yml",
       "source_repo": "microsoft/rust_win_etw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_kernel_windows.yaml",
+      "source_repo": "huggingface/kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/monero-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-mobile/rust-android-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo.yml",
+      "source_repo": "mozilla/source-map"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rojo-rbx/remodel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crossterm.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/termion.yml",
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress"
     }
   ]
 }

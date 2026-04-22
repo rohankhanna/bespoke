@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-target-info.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-target-info.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rustc-targets.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rustc-targets.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "obi1kenobi/cargo-semver-checks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Publish release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Regenerate target info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Regenerate windows sys bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Create release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rustc-targets.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rustc-targets.yml",
+      "source_repo": "alexcrichton/cc-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:21.231204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1063
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1723
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 15843
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/regenerate-target-info.yml",
+      "size": 1845
+    },
+    {
+      "path": ".github/workflows/regenerate-windows-sys.yml",
+      "size": 1724
+    },
+    {
+      "path": ".github/workflows/release-pr.yml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/test-rustc-targets.yml",
+      "size": 1446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fork of rust-lang/cc-rs",
+    "fork": true,
+    "full_name": "alexcrichton/cc-rs",
+    "html_url": "https://github.com/alexcrichton/cc-rs",
+    "language": null,
+    "pushed_at": "2026-04-17T15:43:01Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-22T11:17:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish release"
+    },
+    {
+      "context_snippet": "Regenerate target info",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-target-info.yml",
+      "term": "Regenerate target info"
+    },
+    {
+      "context_snippet": "Regenerate windows sys bindings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-windows-sys.yml",
+      "term": "Regenerate windows sys bindings"
+    },
+    {
+      "context_snippet": "Create release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "term": "Create release PR"
+    }
+  ]
+}

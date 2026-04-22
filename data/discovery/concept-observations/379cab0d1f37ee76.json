@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prepare release branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prepare release branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18056,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17982,
+      "status": "candidate",
+      "text": "deploy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare release branch",
+      "sense_id": "prepare-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prepare-release-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prepare-release-branch",
+  "observation_id": "379cab0d1f37ee76",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Prepare release branch",
+  "source_context_snippet": "Prepare release branch",
+  "source_file": ".github/workflows/prepare-release-branch.yml",
+  "source_repo": "open-telemetry/opentelemetry-kotlin",
+  "source_repo_description": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+}

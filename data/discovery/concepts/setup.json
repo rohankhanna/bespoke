@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "setup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "My lovely dots ~/.\ud83d\udc96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986457,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973962,
+      "status": "candidate",
+      "text": "frame-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987730,
+      "status": "candidate",
+      "text": "fixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983622,
+      "status": "candidate",
+      "text": "set-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982198,
+      "status": "candidate",
+      "text": "fashioning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23044,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "frame-up"
+    }
+  ],
+  "canonical_name": "setup",
+  "concept_id": "setup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "setup",
+      "sense_id": "setup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

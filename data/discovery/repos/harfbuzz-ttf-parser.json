@@ -13,20 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "harfbuzz/ttf-parser",
-      "target": "alexheretic/ab-glyph",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "harfbuzz/ttf-parser",
-      "target": "mooman219/fontdue",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "harfbuzz/ttf-parser",
@@ -62,7 +48,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:33:43.830393+00:00",
+  "fetched_at": "2026-04-22T01:12:50.909620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,18 +82,7 @@
     ],
     "updated_at": "2026-04-19T05:10:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alexheretic/ab-glyph",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mooman219/fontdue",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Rust",

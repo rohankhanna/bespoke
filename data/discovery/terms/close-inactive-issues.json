@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-inactive-issues.yml",
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-stale.yml",
+      "source_repo": "expo/expo-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "microsoft/semantic-kernel"
     }
   ],
   "term": "Close inactive issues"

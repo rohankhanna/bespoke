@@ -1,0 +1,12 @@
+{
+  "component": "actions/checkout@7739b9ba2efcda9dde65ad1e3c2dbe65b41dfba7",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "dart-lang/i18n"
+    }
+  ]
+}

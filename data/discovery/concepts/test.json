@@ -496,6 +496,228 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dukesoferl/re2",
+      "status": "candidate-context",
+      "text": "Erlang NIF bindings for RE2 regex library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dukesoferl/re2",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "Cross-platform WebView library in Rust for Tauri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/CLIP",
+      "status": "candidate-context",
+      "text": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/CLIP",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "Terminal based presentation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostty-org/ghostling",
+      "status": "candidate-context",
+      "text": "A minimum viable terminal emulator built on top of the libghostty C API. Ex minimo, infinita nascuntur. \ud83d\udc7b\ud83d\udc23"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostling",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Bash scripts that integrate bat with various command line tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stainless-api/tsc-multi",
+      "status": "candidate-context",
+      "text": "Compile multiple TypeScript projects into multiple targets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-api/tsc-multi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nur-update",
+      "status": "candidate-context",
+      "text": "Service to trigger updates of the NUR repository [maintainer=@Mic92] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nur-update",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "Convert CSV files into a SQLite database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate-context",
+      "text": "Some reference and example networking plugins, maintained by the CNI team."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pugjs/pug",
+      "status": "candidate-context",
+      "text": "Pug \u2013 robust, elegant, feature rich template engine for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pugjs/pug",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/execnet",
+      "status": "candidate-context",
+      "text": "distributed Python deployment and communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/execnet",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standardx",
+      "status": "candidate-context",
+      "text": ":boom: JavaScript Standard Style with custom tweaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standardx",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -738,6 +960,120 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dukesoferl/re2",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/wry",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/CLIP",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostty-org/ghostling",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-p/bat-extras",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-api/tsc-multi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nur-update",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/muda",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containernetworking/plugins",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pugjs/pug",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/execnet",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standardx",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "Test"
     }
   ],
   "candidate_related_terms": [
@@ -1117,11 +1453,125 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "allenporter/python-google-nest-sdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ipfs-shipyard/gomobile-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/CLIP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "maaslalani/slides"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "eth-p/bat-extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stainless-api/tsc-multi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nur-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "containernetworking/plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pugjs/pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/execnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/standardx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

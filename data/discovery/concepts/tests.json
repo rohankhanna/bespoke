@@ -399,6 +399,126 @@
       "source_repo": "medialab/xan",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Ethereum Proof-of-Stake Consensus Specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "django/channels_redis",
+      "status": "candidate-context",
+      "text": "Redis channel layer backend for Django Channels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "django/channels_redis",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Graphene SQLAlchemy integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "The tool for managing conda-forge feedstocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate-context",
+      "text": "Magnificent app which corrects your previous console command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "The code coverage tool for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate-context",
+      "text": "Official project repository for the Setuptools build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Fast linters runner for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -591,6 +711,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "medialab/xan",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/consensus-specs",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "django/channels_redis",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluealloy/revm",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
       "status": "candidate",
       "text": "Tests"
     }
@@ -899,11 +1079,77 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "medialab/xan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "django/channels_redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bluealloy/revm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nvbn/thefuck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pypa/setuptools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pr-tests.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "mypy"
+    "mypy",
+    "Mypy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,18 @@
       "source_repo": "dropbox/mypy-PyCharm-plugin",
       "status": "candidate-context",
       "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate-context",
+      "text": "EVM CFG recovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate-context",
+      "text": "Mypy"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +78,12 @@
       "source_repo": "dropbox/mypy-PyCharm-plugin",
       "status": "candidate",
       "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate",
+      "text": "Mypy"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "dropbox/mypy-PyCharm-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger Acceptance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "Trigger Acceptance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "Trigger Acceptance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26165,
+      "status": "candidate",
+      "text": "subscription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17848,
+      "status": "candidate",
+      "text": "blood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17848,
+      "status": "candidate",
+      "text": "try"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger Acceptance Tests",
+  "concept_id": "trigger-acceptance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/acceptance_test_trigger.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Acceptance Tests",
+      "sense_id": "trigger-acceptance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

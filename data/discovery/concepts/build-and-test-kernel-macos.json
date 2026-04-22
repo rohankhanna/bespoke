@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build and test kernel (macOS)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/kernels",
+      "status": "candidate-context",
+      "text": "Build compute kernels and load them from the Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/kernels",
+      "status": "candidate-context",
+      "text": "\"Build and test kernel (macOS)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/kernels",
+      "status": "candidate",
+      "text": "\"Build and test kernel (macOS)\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18837,
+      "status": "candidate",
+      "text": "grain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18837,
+      "status": "candidate",
+      "text": "nucleus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18608,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18529,
+      "status": "candidate",
+      "text": "placebo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and test kernel (macOS)",
+  "concept_id": "build-and-test-kernel-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build_kernel_macos.yaml",
+      "source_repo": "huggingface/kernels"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test kernel (macOS)",
+      "sense_id": "build-and-test-kernel-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

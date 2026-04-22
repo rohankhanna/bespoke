@@ -32,6 +32,18 @@
       "source_repo": "toon-format/toon",
       "status": "candidate-context",
       "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Graphene SQLAlchemy integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "toon-format/toon",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene-sqlalchemy",
       "status": "candidate",
       "text": "Deploy Docs"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "toon-format/toon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "graphql-python/graphene-sqlalchemy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

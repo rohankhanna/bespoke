@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "bazelbuild/rules_swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple",
+      "target": "bazel-rules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:17:43.966954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2990
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel rules to build apps for Apple platforms.",
+    "fork": false,
+    "full_name": "bazelbuild/rules_apple",
+    "html_url": "https://github.com/bazelbuild/rules_apple",
+    "language": "Starlark",
+    "pushed_at": "2026-04-20T14:26:15Z",
+    "stargazers_count": 582,
+    "topics": [
+      "apple",
+      "bazel",
+      "bazel-rules"
+    ],
+    "updated_at": "2026-04-20T14:28:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "This repository contains rules for [Bazel](https://bazel.build) that can be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple"
+    },
+    {
+      "context_snippet": "This repository contains rules for [Bazel](https://bazel.build) that can be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This repository contains rules for [Bazel](https://bazel.build) that can be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cehoffman/luaenv",
+      "target": "sstephenson/rbenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cehoffman/luaenv",
+      "target": "cehoffman/luaenv-vars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cehoffman/luaenv",
+      "target": "sstephenson/bats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cehoffman/luaenv",
+      "target": "cehoffman/lua-build",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:39.387885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Groom your app's Lua environment",
+    "fork": false,
+    "full_name": "cehoffman/luaenv",
+    "html_url": "https://github.com/cehoffman/luaenv",
+    "language": "Shell",
+    "pushed_at": "2023-07-10T19:34:19Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-08T05:08:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cehoffman/lua-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cehoffman/luaenv-vars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/bats",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/rbenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

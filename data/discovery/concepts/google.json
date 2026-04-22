@@ -31,6 +31,18 @@
       "source_repo": "searxng/searxng",
       "status": "candidate-context",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Minimal web UI for GeminiPro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "searxng/searxng",
       "status": "candidate",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "babaohuang/GeminiProChat"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

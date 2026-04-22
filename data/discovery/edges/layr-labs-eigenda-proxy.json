@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "layr-labs/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "Layr-Labs/security-shared-workflows/actions/codeql-scans@418d735c1c4e5cc650c8addaeb8909b36b9dca27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "codeql-scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "Release Drafter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "Layr-Labs/eigenda-proxy"
+}

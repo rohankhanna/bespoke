@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "ekalinin/github-markdown-toc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "ahmetb/cloud-run-faq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "google/tcmalloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "cloud-tpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "google-cloud-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayaka14732/tpu-starter",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:06:02.243340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27883
+    },
+    {
+      "path": "requirements.txt",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Everything you want to know about Google Cloud TPU",
+    "fork": false,
+    "full_name": "ayaka14732/tpu-starter",
+    "html_url": "https://github.com/ayaka14732/tpu-starter",
+    "language": "Python",
+    "pushed_at": "2024-07-16T13:06:58Z",
+    "stargazers_count": 568,
+    "topics": [
+      "cloud-tpu",
+      "deep-learning",
+      "gcp",
+      "google-cloud-platform",
+      "jax",
+      "machine-learning",
+      "tpu"
+    ],
+    "updated_at": "2026-04-16T08:46:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/cloud-run-faq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekalinin/github-markdown-toc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/tcmalloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h4 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-tpu"
+    },
+    {
+      "context_snippet": "<h4 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h4 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-platform"
+    },
+    {
+      "context_snippet": "<h4 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

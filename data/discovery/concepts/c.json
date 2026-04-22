@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "C++"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "C++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate",
+      "text": "C++"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29614069,
+      "status": "candidate",
+      "text": "caesium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29597367,
+      "status": "candidate",
+      "text": "cesium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904795,
+      "status": "candidate",
+      "text": "atomic number 55"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904794,
+      "status": "candidate",
+      "text": "cathode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19893846,
+      "status": "candidate",
+      "text": "intrasentential"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "C++",
+  "concept_id": "c",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "apache/arrow"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C++",
+      "sense_id": "c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

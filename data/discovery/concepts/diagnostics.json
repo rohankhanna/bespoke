@@ -19,6 +19,18 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate-context",
       "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "A Language Server for Rust using Bacon diagnostics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate-context",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tokio-rs/tracing",
       "status": "candidate",
       "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crisidev/bacon-ls",
+      "status": "candidate",
+      "text": "[![Ci](https://img.shields.io/github/actions/workflow/status/crisidev/bacon-ls/ci.yml?style=for-the-badge)](https://github.com/crisidev/bacon-ls/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "tokio-rs/tracing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crisidev/bacon-ls"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

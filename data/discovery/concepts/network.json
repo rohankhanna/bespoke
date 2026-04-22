@@ -19,6 +19,18 @@
       "source_repo": "Consensys/ethereum-dissectors",
       "status": "candidate-context",
       "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Consensys/ethereum-dissectors",
       "status": "candidate",
       "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "flannel-io/flannel"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

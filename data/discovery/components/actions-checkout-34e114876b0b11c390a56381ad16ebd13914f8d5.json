@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -284,6 +284,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cibuildwheel.yml",
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-with-delete.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/perf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/perf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/ship"
     }
   ]
 }

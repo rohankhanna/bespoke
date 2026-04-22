@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Labels Reusable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Check Labels Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate",
+      "text": "Check Labels Reusable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16305,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15305,
+      "status": "candidate",
+      "text": "space shuttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "container"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "tote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "pass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Labels Reusable",
+  "concept_id": "check-labels-reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check_labels.yml",
+      "source_repo": "apache/arrow"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Labels Reusable",
+      "sense_id": "check-labels-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

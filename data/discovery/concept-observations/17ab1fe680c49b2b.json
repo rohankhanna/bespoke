@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Enforcer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Enforcer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14570,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14255,
+      "status": "candidate",
+      "text": "disciplinarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "referee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13690,
+      "status": "candidate",
+      "text": "martinet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13450,
+      "status": "candidate",
+      "text": "atf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Enforcer",
+      "sense_id": "check-enforcer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-enforcer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-enforcer",
+  "observation_id": "17ab1fe680c49b2b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Check Enforcer",
+  "source_context_snippet": "Check Enforcer",
+  "source_file": ".github/workflows/event.yml",
+  "source_repo": "Azure/azure-sdk-for-python",
+  "source_repo_description": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+}

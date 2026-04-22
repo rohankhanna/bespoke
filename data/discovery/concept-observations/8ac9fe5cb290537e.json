@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build compute kernels and load them from the Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Build and test kernel (macOS)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Build and test kernel (macOS)\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18837,
+      "status": "candidate",
+      "text": "grain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18837,
+      "status": "candidate",
+      "text": "nucleus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18608,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18529,
+      "status": "candidate",
+      "text": "placebo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test kernel (macOS)",
+      "sense_id": "build-and-test-kernel-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-kernel-macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-kernel-macos",
+  "observation_id": "8ac9fe5cb290537e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build and test kernel (macOS)",
+  "source_context_snippet": "\"Build and test kernel (macOS)\"",
+  "source_file": ".github/workflows/build_kernel_macos.yaml",
+  "source_repo": "huggingface/kernels",
+  "source_repo_description": "Build compute kernels and load them from the Hub."
+}

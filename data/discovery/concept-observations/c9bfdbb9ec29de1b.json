@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944050,
+      "status": "candidate",
+      "text": "crossbreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944029,
+      "status": "candidate",
+      "text": "crossbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795145,
+      "status": "candidate",
+      "text": "crossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39733028,
+      "status": "candidate",
+      "text": "loanblend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944064,
+      "status": "candidate",
+      "text": "interbred"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hybrid",
+      "sense_id": "hybrid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "crossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "crossbreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "crossbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "intercrossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "loanblend"
+    }
+  ],
+  "concept_id": "hybrid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hybrid",
+  "observation_id": "c9bfdbb9ec29de1b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "hybrid",
+  "source_context_snippet": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026",
+  "source_file": null,
+  "source_repo": "vercel/next.js",
+  "source_repo_description": "The React Framework"
+}

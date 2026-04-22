@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Stainless"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate-context",
+      "text": "Stainless"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "status": "candidate",
+      "text": "Stainless"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39605367,
+      "status": "candidate",
+      "text": "untainted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39605116,
+      "status": "candidate",
+      "text": "unblemished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39603626,
+      "status": "candidate",
+      "text": "unstained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39564861,
+      "status": "candidate",
+      "text": "untarnished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39551358,
+      "status": "candidate",
+      "text": "unsullied"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9026,
+      "status": "candidate",
+      "text": "unblemished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8022,
+      "status": "candidate",
+      "text": "unsullied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2017,
+      "status": "candidate",
+      "text": "unstained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "untarnished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "untainted"
+    }
+  ],
+  "canonical_name": "Stainless",
+  "concept_id": "stainless",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/stainless.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stainless",
+      "sense_id": "stainless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

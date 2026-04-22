@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Complete PR workflow from commit to production with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devtools",
+      "sense_id": "devtools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "devtools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "devtools",
+  "observation_id": "c809293a52c75272",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "devtools",
+  "source_context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+  "source_file": null,
+  "source_repo": "agent-sh/ship",
+  "source_repo_description": "Complete PR workflow from commit to production with validation"
+}

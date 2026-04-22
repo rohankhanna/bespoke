@@ -55,6 +55,18 @@
       "source_repo": "eudk/awesome-ai-tools",
       "status": "candidate-context",
       "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "Bypass Midjourney captcha."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "eudk/awesome-ai-tools",
       "status": "candidate",
       "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "eudk/awesome-ai-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

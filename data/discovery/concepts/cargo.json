@@ -31,6 +31,18 @@
       "source_repo": "rust-lang/cargo",
       "status": "candidate-context",
       "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "\u201cZero setup\u201d cross compilation and \u201ccross testing\u201d of Rust crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rust-lang/cargo",
       "status": "candidate",
       "text": "Cargo downloads your Rust project\u2019s dependencies and compiles your project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "rust-lang/cargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

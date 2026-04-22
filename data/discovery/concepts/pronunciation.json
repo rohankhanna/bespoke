@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pronunciation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "End-to-end speech model training pipeline built on Burn \u2014 MFCC features, CTC loss, LibriSpeech loader, SpeechOcean762 evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnvt/burn-speech-training",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947605,
+      "status": "candidate",
+      "text": "voice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947555,
+      "status": "candidate",
+      "text": "accent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946848,
+      "status": "candidate",
+      "text": "consonant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899522,
+      "status": "candidate",
+      "text": "making"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889410,
+      "status": "candidate",
+      "text": "ruling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pronunciation",
+  "concept_id": "pronunciation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dnvt/burn-speech-training"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pronunciation",
+      "sense_id": "pronunciation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

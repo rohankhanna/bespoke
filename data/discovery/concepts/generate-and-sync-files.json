@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate and Sync Files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Metadata and tooling for the OpenTofu registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate-context",
+      "text": "Generate and Sync Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentofu/registry",
+      "status": "candidate",
+      "text": "Generate and Sync Files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19266,
+      "status": "candidate",
+      "text": "grandfather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "root"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19197,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate and Sync Files",
+  "concept_id": "generate-and-sync-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Sync Files",
+      "sense_id": "generate-and-sync-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

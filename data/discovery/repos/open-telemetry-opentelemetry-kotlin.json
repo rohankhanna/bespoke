@@ -1,0 +1,562 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-stale-label.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-change-log-entries.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-author-feedback.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "open-telemetry/opentelemetry-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-stale-label.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-stale-label.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Issue management - run stale action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "ci-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-change-log-entries.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-change-log-entries.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Draft CHANGELOG entries for a release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Gradle wrapper validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-branch.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release-branch.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Prepare release branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-author-feedback.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "OSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "Update semantic conventions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "kotlin-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "kotlin-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "target": "opentelemetry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:06:38.864984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6616
+    },
+    {
+      "path": ".github/workflows/add-stale-label.yaml",
+      "size": 1349
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/draft-change-log-entries.yaml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/prepare-release-branch.yml",
+      "size": 5321
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3636
+    },
+    {
+      "path": ".github/workflows/remove-needs-author-feedback.yaml",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1574
+    },
+    {
+      "path": ".github/workflows/update-semconv.yml",
+      "size": 3482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library",
+    "fork": false,
+    "full_name": "open-telemetry/opentelemetry-kotlin",
+    "html_url": "https://github.com/open-telemetry/opentelemetry-kotlin",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-21T15:20:50Z",
+    "stargazers_count": 108,
+    "topics": [
+      "android",
+      "ios",
+      "javascript",
+      "jvm",
+      "kotlin",
+      "kotlin-android",
+      "kotlin-library",
+      "kotlin-multiplatform",
+      "observability",
+      "opentelemetry"
+    ],
+    "updated_at": "2026-04-21T15:12:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue management - run stale action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-stale-label.yaml",
+      "term": "Issue management - run stale action"
+    },
+    {
+      "context_snippet": "ci-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "term": "ci-build"
+    },
+    {
+      "context_snippet": "Draft CHANGELOG entries for a release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-change-log-entries.yaml",
+      "term": "Draft CHANGELOG entries for a release"
+    },
+    {
+      "context_snippet": "Gradle wrapper validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Gradle wrapper validation"
+    },
+    {
+      "context_snippet": "Prepare release branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release-branch.yml",
+      "term": "Prepare release branch"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "OSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "OSSF Scorecard"
+    },
+    {
+      "context_snippet": "Update semantic conventions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-semconv.yml",
+      "term": "Update semantic conventions"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-android"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-library"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-multiplatform"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    }
+  ]
+}

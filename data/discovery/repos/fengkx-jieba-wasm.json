@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "@jsdevtools/ez-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wireit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "@jsdevtools/ez-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "wireit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "Test and build demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "Publish on NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "Publish Any Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "chinese-segmenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "jieba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:39.009370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2285
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 912
+    },
+    {
+      "path": "package.json",
+      "size": 3366
+    },
+    {
+      "path": ".github/workflows/demo.yaml",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/npm-publish.yaml",
+      "size": 1105
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WASM binding to jieba-rs",
+    "fork": false,
+    "full_name": "fengkx/jieba-wasm",
+    "html_url": "https://github.com/fengkx/jieba-wasm",
+    "language": "Rust",
+    "pushed_at": "2026-01-27T12:36:22Z",
+    "stargazers_count": 97,
+    "topics": [
+      "chinese",
+      "chinese-segmenter",
+      "jieba",
+      "wasm"
+    ],
+    "updated_at": "2026-04-01T12:18:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test and build demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yaml",
+      "term": "Test and build demo"
+    },
+    {
+      "context_snippet": "Publish on NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "term": "Publish on NPM"
+    },
+    {
+      "context_snippet": "Publish Any Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Publish Any Commit"
+    },
+    {
+      "context_snippet": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-segmenter"
+    },
+    {
+      "context_snippet": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba"
+    },
+    {
+      "context_snippet": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

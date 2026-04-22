@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Main and Dev Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Main and Dev Checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23022,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23022,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22900,
+      "status": "candidate",
+      "text": "polycentric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22427,
+      "status": "candidate",
+      "text": "breed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22427,
+      "status": "candidate",
+      "text": "dominance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main and Dev Checks",
+      "sense_id": "main-and-dev-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "main-and-dev-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "main-and-dev-checks",
+  "observation_id": "422fb702eb1c1aae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Main and Dev Checks",
+  "source_context_snippet": "Main and Dev Checks",
+  "source_file": ".github/workflows/main_dev_check.yml",
+  "source_repo": "akfamily/akshare",
+  "source_repo_description": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93"
+}

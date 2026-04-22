@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "A super-easy, composable, web server framework for warp speeds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "restify/node-restify",
+      "status": "candidate-context",
+      "text": "The future of Node.js REST development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restify/node-restify",
+      "status": "candidate-context",
+      "text": "<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/warp",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/warp.svg)](https://crates.io/crates/warp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "restify/node-restify",
+      "status": "candidate",
+      "text": "<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925973,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731220,
+      "status": "candidate",
+      "text": "waiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995849,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995782,
+      "status": "candidate",
+      "text": "servlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995767,
+      "status": "candidate",
+      "text": "mainframe"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33084,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "waiter"
+    }
+  ],
+  "canonical_name": "server",
+  "concept_id": "server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "seanmonstar/warp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "restify/node-restify"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "server",
+      "sense_id": "server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

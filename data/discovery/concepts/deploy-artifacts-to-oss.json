@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Artifacts to OSS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "Deploy Artifacts to OSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "Deploy Artifacts to OSS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17845,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "administrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "anonymous file transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "anonymous ftp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9828,
+      "status": "candidate",
+      "text": "authoring language"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Artifacts to OSS",
+  "concept_id": "deploy-artifacts-to-oss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "alibaba/higress"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Artifacts to OSS",
+      "sense_id": "deploy-artifacts-to-oss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

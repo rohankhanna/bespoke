@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/agent-assisted-purchase-research-index",
+      "target": "danielrosehill/arch-and-interiors-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/agents-index",
+      "target": "danielrosehill/architectural-plans-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ai-projects-index",
+      "target": "danielrosehill/backup-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ai-resource-maps",
+      "target": "danielrosehill/bug-reports-and-fixes",
       "target_type": "repository"
     },
     {
@@ -44,11 +44,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-20T03:17:53.662483+00:00",
+  "fetched_at": "2026-04-22T01:23:05.878003+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13237
+      "size": 13561
     }
   ],
   "related_repositories": [],
@@ -60,33 +60,33 @@
     "full_name": "danielrosehill/Subindices",
     "html_url": "https://github.com/danielrosehill/Subindices",
     "language": null,
-    "pushed_at": "2026-04-19T17:19:06Z",
+    "pushed_at": "2026-04-20T10:58:42Z",
     "stargazers_count": 1,
     "topics": [
       "repositories",
       "repository-index"
     ],
-    "updated_at": "2026-04-19T17:19:10Z"
+    "updated_at": "2026-04-20T10:58:46Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agent-assisted-purchase-research-index",
+      "full_name": "danielrosehill/arch-and-interiors-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agents-index",
+      "full_name": "danielrosehill/architectural-plans-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-projects-index",
+      "full_name": "danielrosehill/backup-projects-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-resource-maps",
+      "full_name": "danielrosehill/bug-reports-and-fixes",
       "source_file": "README.md"
     }
   ],

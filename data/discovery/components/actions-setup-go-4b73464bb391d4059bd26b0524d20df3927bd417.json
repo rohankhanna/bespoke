@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "hashicorp/hcl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy-recent.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-and-deploy.yml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-to-pr.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-json.yaml",
+      "source_repo": "opentofu/registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker/compose"
     }
   ]
 }

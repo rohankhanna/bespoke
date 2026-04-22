@@ -55,6 +55,42 @@
       "source_repo": "lima-vm/lima",
       "status": "candidate-context",
       "text": "[[\ud83c\udf0e**Web site**]](https://lima-vm.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/cri",
+      "status": "candidate-context",
+      "text": "Moved to https://github.com/containerd/containerd/tree/master/pkg/cri . If you wish to submit issues/PRs, please submit to https://github.com/containerd/containerd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/cri",
+      "status": "candidate-context",
+      "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "afbjorklund/lima-gui",
+      "status": "candidate-context",
+      "text": "Making a GUI for lima VM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afbjorklund/lima-gui",
+      "status": "candidate-context",
+      "text": "See <https://lima-vm.io>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "The Finch CLI is an open source client for container development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "lima-vm/lima",
       "status": "candidate",
       "text": "[[\ud83c\udf0e**Web site**]](https://lima-vm.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/cri",
+      "status": "candidate",
+      "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afbjorklund/lima-gui",
+      "status": "candidate",
+      "text": "See <https://lima-vm.io>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containerd/cri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "afbjorklund/lima-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "runfinch/finch"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

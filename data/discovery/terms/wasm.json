@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sql-js/sql.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
     }
   ],
   "term": "wasm"

@@ -33,6 +33,18 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate-context",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "Bazel rules to build apps for Apple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate-context",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_apple",
+      "status": "candidate",
+      "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "aarnphm/whispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_apple"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

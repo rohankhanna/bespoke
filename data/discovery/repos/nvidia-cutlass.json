@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/labeler@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "Auto Label Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "actions/labeler@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIA/cutlass",
+      "target": "Mark inactive issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass",
+      "target": "deep-learning-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass",
+      "target": "nvidia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:22.456586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29727
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 617
+    },
+    {
+      "path": ".github/workflows/auto-label-issues.yml",
+      "size": 1746
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 4684
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/new-issues-to-triage-projects.yml",
+      "size": 1556
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CUDA Templates and Python DSLs for High-Performance Linear Algebra",
+    "fork": false,
+    "full_name": "NVIDIA/cutlass",
+    "html_url": "https://github.com/NVIDIA/cutlass",
+    "language": "C++",
+    "pushed_at": "2026-04-21T16:32:40Z",
+    "stargazers_count": 9613,
+    "topics": [
+      "cpp",
+      "cuda",
+      "deep-learning",
+      "deep-learning-library",
+      "gpu",
+      "nvidia",
+      "python"
+    ],
+    "updated_at": "2026-04-21T19:29:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto Label Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "term": "Auto Label Issues"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Mark inactive issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark inactive issues and pull requests"
+    },
+    {
+      "context_snippet": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-library"
+    },
+    {
+      "context_snippet": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    }
+  ]
+}

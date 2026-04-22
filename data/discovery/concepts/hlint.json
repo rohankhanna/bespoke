@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "HLint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "HLint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "HLint"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "HLint",
+  "concept_id": "hlint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "crytic/echidna"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HLint",
+      "sense_id": "hlint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern replacement for \u2018ls\u2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043141,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029979,
+      "status": "candidate",
+      "text": "single file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029864,
+      "status": "candidate",
+      "text": "indian file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019297,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006878,
+      "status": "candidate",
+      "text": "file away"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "files",
+      "sense_id": "files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "files",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "files",
+  "observation_id": "cf7222cac41a5b9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "files",
+  "source_context_snippet": "(This repository isn\u2019t archived because the only person with the rights to do so is unreachable).",
+  "source_file": null,
+  "source_repo": "ogham/exa",
+  "source_repo_description": "A modern replacement for \u2018ls\u2019."
+}

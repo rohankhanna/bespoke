@@ -19,12 +19,48 @@
       "source_repo": "eslint/eslint",
       "status": "candidate-context",
       "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint/.github",
+      "status": "candidate-context",
+      "text": "Community health files for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/.github",
+      "status": "candidate-context",
+      "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint/js",
+      "status": "candidate-context",
+      "text": "Monorepo for the JS language tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/js",
+      "status": "candidate-context",
+      "text": "stale"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eslint/eslint",
+      "status": "candidate",
+      "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/.github",
+      "status": "candidate",
+      "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/js",
       "status": "candidate",
       "text": "stale"
     }
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/js"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

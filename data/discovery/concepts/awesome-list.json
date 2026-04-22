@@ -67,6 +67,18 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate-context",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +105,12 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f/prompts.chat",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "avelino/awesome-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

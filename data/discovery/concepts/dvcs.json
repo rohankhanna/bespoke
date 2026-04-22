@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dvcs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "libgit2 - the Git linkable library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate",
+      "text": "libgit2 - the Git linkable library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932907,
+      "status": "candidate",
+      "text": "digital target"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932906,
+      "status": "candidate",
+      "text": "suas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932905,
+      "status": "candidate",
+      "text": "ads-a"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932904,
+      "status": "candidate",
+      "text": "cass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932903,
+      "status": "candidate",
+      "text": "ads-c"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dvcs",
+  "concept_id": "dvcs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "libgit2/libgit2"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dvcs",
+      "sense_id": "dvcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

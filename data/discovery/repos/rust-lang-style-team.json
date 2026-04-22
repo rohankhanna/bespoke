@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:09:06.128655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home of the Rust style team",
+    "fork": false,
+    "full_name": "rust-lang/style-team",
+    "html_url": "https://github.com/rust-lang/style-team",
+    "language": "Rust",
+    "pushed_at": "2024-05-17T01:57:52Z",
+    "stargazers_count": 474,
+    "topics": [],
+    "updated_at": "2026-04-07T10:09:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

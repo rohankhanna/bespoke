@@ -19,12 +19,48 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate-context",
       "text": "Upstream Sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Minimal web UI for ChatGPT. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Upstream Sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Minimal web UI for GeminiPro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Upstream Sync"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "Upstream Sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate",
+      "text": "Upstream Sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
       "status": "candidate",
       "text": "Upstream Sync"
     }
@@ -48,11 +84,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

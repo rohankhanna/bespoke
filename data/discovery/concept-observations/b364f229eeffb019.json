@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight Python package installer for Pyodide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyodide",
+      "sense_id": "pyodide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyodide",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyodide",
+  "observation_id": "b364f229eeffb019",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "pyodide",
+  "source_context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)",
+  "source_file": null,
+  "source_repo": "pyodide/micropip",
+  "source_repo_description": "A lightweight Python package installer for Pyodide"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add to APM Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Add to APM Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate",
+      "text": "Add to APM Project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10345,
+      "status": "candidate",
+      "text": "nailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10345,
+      "status": "candidate",
+      "text": "night"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9636,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9636,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9636,
+      "status": "candidate",
+      "text": "flange"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add to APM Project",
+  "concept_id": "add-to-apm-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/add-to-apm-project.yml",
+      "source_repo": "elastic/kibana"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to APM Project",
+      "sense_id": "add-to-apm-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

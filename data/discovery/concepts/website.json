@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate-context",
       "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate-context",
+      "text": "The React documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate-context",
+      "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate",
       "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate",
+      "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +108,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "reactjs/react.dev"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

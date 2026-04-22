@@ -31,6 +31,18 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": "Trio \u2013 a friendly Python library for async concurrency and I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate",
       "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "agronholm/anyio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "python-trio/trio"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "Makefile CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:25.353366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14708
+    },
+    {
+      "path": ".github/workflows/cmake-multi-platform.yml",
+      "size": 3373
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Universal configuration library parser",
+    "fork": false,
+    "full_name": "vstakhov/libucl",
+    "html_url": "https://github.com/vstakhov/libucl",
+    "language": "C",
+    "pushed_at": "2026-04-13T07:58:30Z",
+    "stargazers_count": 1727,
+    "topics": [],
+    "updated_at": "2026-04-21T15:04:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake on multiple platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "term": "CMake on multiple platforms"
+    },
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    }
+  ]
+}

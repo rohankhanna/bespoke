@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "21st-dev/magic-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "6551team/opennews-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "24mlight/a-share-mcp-is-just-i-need",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apappascs/mcp-servers-hub",
+      "target": "1mcp-app/agent",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "apappascs/mcp-servers-hub"
+}

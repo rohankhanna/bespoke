@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "tiny"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/unfetch",
+      "status": "candidate-context",
+      "text": "\ud83d\udc15 Bare minimum 500b fetch polyfill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/unfetch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/unfetch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028326,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028312,
+      "status": "candidate",
+      "text": "diminutive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027886,
+      "status": "candidate",
+      "text": "petite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027882,
+      "status": "candidate",
+      "text": "lilliputian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024980,
+      "status": "candidate",
+      "text": "small"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55040,
+      "status": "candidate",
+      "text": "diminutive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29037,
+      "status": "candidate",
+      "text": "bantam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10044,
+      "status": "candidate",
+      "text": "midget"
+    }
+  ],
+  "canonical_name": "tiny",
+  "concept_id": "tiny",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "developit/unfetch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tiny",
+      "sense_id": "tiny#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

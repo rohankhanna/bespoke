@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -692,6 +692,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sync-llama-cpp.yml",
       "source_repo": "mybigday/llama.rn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-pr.yml",
+      "source_repo": "coderaiser/escover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/escover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/estrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/estree-to-babel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Cyan4973/xxHash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-search.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "nanbingxyz/5ire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml",
+      "source_repo": "crytic/building-secure-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_format.yml",
+      "source_repo": "crytic/building-secure-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml",
+      "source_repo": "crytic/building-secure-contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

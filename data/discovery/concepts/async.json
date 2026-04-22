@@ -55,6 +55,30 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate-context",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caolan/async",
+      "status": "candidate-context",
+      "text": "Async utilities for node and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caolan/async",
+      "status": "candidate-context",
+      "text": "![Async Logo](https://raw.githubusercontent.com/caolan/async/master/logo/async-logo_readme.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": "Trio \u2013 a friendly Python library for async concurrency and I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caolan/async",
+      "status": "candidate",
+      "text": "![Async Logo](https://raw.githubusercontent.com/caolan/async/master/logo/async-logo_readme.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-trio/trio",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "caolan/async"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "python-trio/trio"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

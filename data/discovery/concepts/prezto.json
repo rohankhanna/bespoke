@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "prezto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "belak/prezto-contrib",
+      "status": "candidate-context",
+      "text": "A set of additional plugins designed to work easily with prezto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belak/prezto-contrib",
+      "status": "candidate-context",
+      "text": "[Prezto][1] is a configuration framework for zsh aimed at providing better"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "The configuration framework for Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belak/prezto-contrib",
+      "status": "candidate",
+      "text": "[Prezto][1] is a configuration framework for zsh aimed at providing better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "prezto",
+  "concept_id": "prezto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "belak/prezto-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prezto",
+      "sense_id": "prezto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

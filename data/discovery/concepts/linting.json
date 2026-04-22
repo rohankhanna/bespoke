@@ -95,6 +95,30 @@
       "source_repo": "ARM-DOE/pyart",
       "status": "candidate-context",
       "text": "linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "'Linting'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "linting"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +161,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ARM-DOE/pyart",
+      "status": "candidate",
+      "text": "linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate",
+      "text": "'Linting'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
       "status": "candidate",
       "text": "linting"
     }
@@ -265,11 +301,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "ARM-DOE/pyart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lintingci.yml",
+      "source_repo": "ChainSafe/forest-iac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

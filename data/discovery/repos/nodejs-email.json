@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/email",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/email",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:21:13.274725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MX server management for iojs.org (and eventually nodejs.org)",
+    "fork": false,
+    "full_name": "nodejs/email",
+    "html_url": "https://github.com/nodejs/email",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-26T20:30:56Z",
+    "stargazers_count": 65,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-03-26T20:30:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**MX server management for iojs.org**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "**MX server management for iojs.org**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

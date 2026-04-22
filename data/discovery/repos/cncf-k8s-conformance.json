@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "kubernetes-sigs/hydrophone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf-infra/verify-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf/k8s-conformance-archive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "check-conformance-test-suite-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-conformance.yml",
+      "source_repo": "cncf/k8s-conformance",
+      "target": "verify-conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:30.563265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4119
+    },
+    {
+      "path": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "size": 1736
+    },
+    {
+      "path": ".github/workflows/verify-conformance.yml",
+      "size": 1654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\uddeaCNCF K8s Conformance Working Group",
+    "fork": false,
+    "full_name": "cncf/k8s-conformance",
+    "html_url": "https://github.com/cncf/k8s-conformance",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T23:24:11Z",
+    "stargazers_count": 926,
+    "topics": [
+      "cncf",
+      "conformance",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-15T23:24:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf-infra/verify-conformance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/k8s-conformance-archive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/hydrophone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check-conformance-test-suite-documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-conformance-test-suite-documentation.yml",
+      "term": "check-conformance-test-suite-documentation"
+    },
+    {
+      "context_snippet": "verify-conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-conformance.yml",
+      "term": "verify-conformance"
+    },
+    {
+      "context_snippet": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformance"
+    },
+    {
+      "context_snippet": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

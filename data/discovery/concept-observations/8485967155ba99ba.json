@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitPython is a python library used to interact with Git repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-library",
+      "sense_id": "python-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python-library",
+  "observation_id": "8485967155ba99ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "python-library",
+  "source_context_snippet": "![Python package](https://github.com/gitpython-developers/GitPython/workflows/Python%20package/badge.svg)",
+  "source_file": null,
+  "source_repo": "gitpython-developers/GitPython",
+  "source_repo_description": "GitPython is a python library used to interact with Git repositories."
+}

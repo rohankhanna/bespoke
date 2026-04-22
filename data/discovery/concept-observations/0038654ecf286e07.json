@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022971,
+      "status": "candidate",
+      "text": "bson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022969,
+      "status": "candidate",
+      "text": "binary-coded decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022968,
+      "status": "candidate",
+      "text": "blob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022967,
+      "status": "candidate",
+      "text": "binary code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cbor",
+      "sense_id": "cbor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cbor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cbor",
+  "observation_id": "0038654ecf286e07",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "cbor",
+  "source_context_snippet": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)",
+  "source_file": null,
+  "source_repo": "nlohmann/json",
+  "source_repo_description": "JSON for Modern C++"
+}

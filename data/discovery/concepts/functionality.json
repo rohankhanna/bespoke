@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "functionality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "functionality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate",
+      "text": "functionality"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884407,
+      "status": "candidate",
+      "text": "function"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884395,
+      "status": "candidate",
+      "text": "operationalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884377,
+      "status": "candidate",
+      "text": "practicality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883872,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883792,
+      "status": "candidate",
+      "text": "operating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "functionality",
+  "concept_id": "functionality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "functionality",
+      "sense_id": "functionality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

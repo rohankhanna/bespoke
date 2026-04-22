@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":boom: JavaScript Standard Style with custom tweaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Old test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Old test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28140,
+      "status": "candidate",
+      "text": "psa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "acetate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "duster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Old test",
+      "sense_id": "old-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "old-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "old-test",
+  "observation_id": "7de004575600aac5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Old test",
+  "source_context_snippet": "Old test",
+  "source_file": ".github/workflows/old-test.yml",
+  "source_repo": "standard/standardx",
+  "source_repo_description": ":boom: JavaScript Standard Style with custom tweaks"
+}

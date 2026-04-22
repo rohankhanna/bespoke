@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "ocamlpro/opam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "Opam RT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "opam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-opam/opam-rt",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:50.072129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Regression Testing framework for opam",
+    "fork": false,
+    "full_name": "ocaml-opam/opam-rt",
+    "html_url": "https://github.com/ocaml-opam/opam-rt",
+    "language": "OCaml",
+    "pushed_at": "2025-11-25T18:13:06Z",
+    "stargazers_count": 8,
+    "topics": [
+      "opam",
+      "testing-tools"
+    ],
+    "updated_at": "2025-11-07T16:29:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocamlpro/opam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Opam RT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Opam RT"
+    },
+    {
+      "context_snippet": "The goal of opam-rt is to test for regressions in opam.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opam"
+    },
+    {
+      "context_snippet": "The goal of opam-rt is to test for regressions in opam.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml.x"
+    },
+    {
+      "component": "tj-actions/changed-files@v41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml.x"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Azbagheri/shell-linter@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/try.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/try.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cross-rs/cross",
+      "target": "rust-lang-nursery/compiler-builtins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cross-rs/cross",
+      "target": "cross-rs/cross-toolchains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml.x",
+      "source_repo": "cross-rs/cross",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml.x",
+      "source_repo": "cross-rs/cross",
+      "target": "tj-actions/changed-files@v41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml.x",
+      "source_repo": "cross-rs/cross",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "Azbagheri/shell-linter@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/try.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/try.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "Try",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "EmbarkStudios/cargo-deny-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "cross-rs/cross",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "cross-compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "cross-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "mips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "powerpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "s390x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "sparc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cross-rs/cross",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:16.816828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16146
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2548
+    },
+    {
+      "path": ".github/workflows/changelog.yml.x",
+      "size": 1177
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 14875
+    },
+    {
+      "path": ".github/workflows/try.yml",
+      "size": 4177
+    },
+    {
+      "path": ".github/workflows/weekly.yml",
+      "size": 881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u201cZero setup\u201d cross compilation and \u201ccross testing\u201d of Rust crates",
+    "fork": false,
+    "full_name": "cross-rs/cross",
+    "html_url": "https://github.com/cross-rs/cross",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T16:00:29Z",
+    "stargazers_count": 8125,
+    "topics": [
+      "aarch64",
+      "arm",
+      "bsd",
+      "cargo",
+      "cross-compilation",
+      "cross-testing",
+      "linux",
+      "mips",
+      "powerpc",
+      "rust",
+      "s390x",
+      "sparc",
+      "windows",
+      "x86"
+    ],
+    "updated_at": "2026-04-21T07:10:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cross-rs/cross-toolchains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/compiler-builtins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changelog check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml.x",
+      "term": "Changelog check"
+    },
+    {
+      "context_snippet": "Try",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/try.yml",
+      "term": "Try"
+    },
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aarch64"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compilation"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-testing"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mips"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerpc"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "s390x"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparc"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

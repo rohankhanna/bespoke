@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "wik is use to get information about anything on the shell using Wikipedia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030577,
+      "status": "candidate",
+      "text": "wiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914848,
+      "status": "candidate",
+      "text": "portal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030618,
+      "status": "candidate",
+      "text": "mediawiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030616,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030615,
+      "status": "candidate",
+      "text": "wikiverse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wikipedia",
+      "sense_id": "wikipedia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wikipedia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wikipedia",
+  "observation_id": "0c6a0fd37a955aef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "wikipedia",
+  "source_context_snippet": "WIK is a command-line tool to view Wikipedia pages from your terminal.",
+  "source_file": null,
+  "source_repo": "yashsinghcodes/wik",
+  "source_repo_description": "wik is use to get information about anything on the shell using Wikipedia."
+}

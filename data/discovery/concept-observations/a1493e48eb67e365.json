@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatic New Issue Deduplication"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatic New Issue Deduplication"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35407,
+      "status": "candidate",
+      "text": "changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34994,
+      "status": "candidate",
+      "text": "auto-changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34994,
+      "status": "candidate",
+      "text": "record changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33224,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33211,
+      "status": "candidate",
+      "text": "subscribe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic New Issue Deduplication",
+      "sense_id": "automatic-new-issue-deduplication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatic-new-issue-deduplication",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatic-new-issue-deduplication",
+  "observation_id": "a1493e48eb67e365",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Automatic New Issue Deduplication",
+  "source_context_snippet": "Automatic New Issue Deduplication",
+  "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+  "source_repo": "microsoft/winget-cli",
+  "source_repo_description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface)."
+}

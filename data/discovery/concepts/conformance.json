@@ -1,0 +1,135 @@
+{
+  "aliases": [
+    "Conformance",
+    "conformance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-python",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Libraries for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-python",
+      "status": "candidate-context",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/k8s-conformance",
+      "status": "candidate-context",
+      "text": "\ud83e\uddeaCNCF K8s Conformance Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/k8s-conformance",
+      "status": "candidate-context",
+      "text": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-python",
+      "status": "candidate",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/k8s-conformance",
+      "status": "candidate",
+      "text": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050210,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050256,
+      "status": "candidate",
+      "text": "pursuant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049818,
+      "status": "candidate",
+      "text": "conform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049544,
+      "status": "candidate",
+      "text": "accordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048868,
+      "status": "candidate",
+      "text": "congruence"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "conformity"
+    }
+  ],
+  "canonical_name": "Conformance",
+  "concept_id": "conformance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cncf/k8s-conformance"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conformance",
+      "sense_id": "conformance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

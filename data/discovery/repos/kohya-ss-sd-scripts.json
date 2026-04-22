@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.28.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "cloneofsimo/lora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "kohakublueleaf/locon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "lucidrains/memory-efficient-attention-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "salesforce/blip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "Test with pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "crate-ci/typos@v1.28.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kohya-ss/sd-scripts",
+      "target": "Typos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:15.853899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12186
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1373
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kohya-ss/sd-scripts",
+    "html_url": "https://github.com/kohya-ss/sd-scripts",
+    "language": "Python",
+    "pushed_at": "2026-04-17T04:05:22Z",
+    "stargazers_count": 6992,
+    "topics": [],
+    "updated_at": "2026-04-22T00:29:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloneofsimo/lora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohakublueleaf/locon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/memory-efficient-attention-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/blip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test with pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test with pytest"
+    },
+    {
+      "context_snippet": "Typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "term": "Typos"
+    }
+  ]
+}

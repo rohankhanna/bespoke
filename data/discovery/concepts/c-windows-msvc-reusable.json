@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "C++ Windows MSVC Reusable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "C++ Windows MSVC Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate",
+      "text": "C++ Windows MSVC Reusable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "impoverish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "impoverished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "parlous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "sterilize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "sterilized"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "C++ Windows MSVC Reusable",
+  "concept_id": "c-windows-msvc-reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/cpp_windows.yml",
+      "source_repo": "apache/arrow"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C++ Windows MSVC Reusable",
+      "sense_id": "c-windows-msvc-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

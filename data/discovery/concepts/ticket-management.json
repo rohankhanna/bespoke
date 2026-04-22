@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ticket Management"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate-context",
+      "text": "Ticket Management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs",
+      "status": "candidate",
+      "text": "Ticket Management"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11678,
+      "status": "candidate",
+      "text": "economy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11678,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11678,
+      "status": "candidate",
+      "text": "policy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11605,
+      "status": "candidate",
+      "text": "section"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11524,
+      "status": "candidate",
+      "text": "tier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ticket Management",
+  "concept_id": "ticket-management",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ticket-management.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ticket Management",
+      "sense_id": "ticket-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

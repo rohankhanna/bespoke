@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "AI Tensor Engine for ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "AMD CI Job Monitor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate",
+      "text": "AMD CI Job Monitor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22265,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21607,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21541,
+      "status": "candidate",
+      "text": "osha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21470,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21381,
+      "status": "candidate",
+      "text": "mass"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "AMD CI Job Monitor",
   "concept_id": "amd-ci-job-monitor",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/amd-ci-job-monitor.yml",
       "source_repo": "sgl-project/sglang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "ROCm/aiter"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

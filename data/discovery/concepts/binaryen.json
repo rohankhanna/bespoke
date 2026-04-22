@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "binaryen"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Binaryen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate-context",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/binaryen.ml",
+      "status": "candidate",
+      "text": "[![Opam](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml/badge.svg)](https://github.com/grain-lang/binaryen.ml/actions/workflows/opam.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "binaryen",
+  "concept_id": "binaryen",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "grain-lang/binaryen.ml"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "binaryen",
+      "sense_id": "binaryen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

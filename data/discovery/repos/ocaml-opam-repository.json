@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unlabel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml/opam-repository",
+      "target": "ocurrent/opam-health-check",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unlabel.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unlabel.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "Remove Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ocaml/opam-repository",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml/opam-repository",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml/opam-repository",
+      "target": "opam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:48.038500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/unlabel.yml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 2793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Main public package repository for opam, the source package manager of OCaml.",
+    "fork": false,
+    "full_name": "ocaml/opam-repository",
+    "html_url": "https://github.com/ocaml/opam-repository",
+    "language": null,
+    "pushed_at": "2026-04-21T21:46:43Z",
+    "stargazers_count": 575,
+    "topics": [
+      "ocaml",
+      "opam"
+    ],
+    "updated_at": "2026-04-21T21:46:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/opam-health-check",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Remove Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unlabel.yml",
+      "term": "Remove Label"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "This repository contains OCaml package and compiler metadata and is used by the default installation of [opam](https://opam.ocaml.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "This repository contains OCaml package and compiler metadata and is used by the default installation of [opam](https://opam.ocaml.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opam"
+    }
+  ]
+}

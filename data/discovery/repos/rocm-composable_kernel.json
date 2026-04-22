@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "mozilla/sccache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "ccache/ccache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "aras-p/clangbuildanalyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/composable_kernel",
+      "target": "danmar/cppcheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:25.399997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10839
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3862
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1707
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo.  NOTE:  develop branch is maintained as a read-only mirror",
+    "fork": false,
+    "full_name": "ROCm/composable_kernel",
+    "html_url": "https://github.com/ROCm/composable_kernel",
+    "language": "C++",
+    "pushed_at": "2026-04-21T21:50:08Z",
+    "stargazers_count": 528,
+    "topics": [],
+    "updated_at": "2026-04-21T21:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aras-p/clangbuildanalyzer",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ccache/ccache",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danmar/cppcheck",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/sccache",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

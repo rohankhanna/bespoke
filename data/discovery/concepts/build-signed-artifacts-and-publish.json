@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Signed Artifacts and Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Launcher for Invoke Community Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Build Signed Artifacts and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate",
+      "text": "Build Signed Artifacts and Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27893,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27833,
+      "status": "candidate",
+      "text": "dictated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27833,
+      "status": "candidate",
+      "text": "penning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27781,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27710,
+      "status": "candidate",
+      "text": "introduced"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Signed Artifacts and Publish",
+  "concept_id": "build-signed-artifacts-and-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-and-sign.yml",
+      "source_repo": "invoke-ai/launcher"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Signed Artifacts and Publish",
+      "sense_id": "build-signed-artifacts-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

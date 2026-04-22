@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr_naming.yml",
       "source_repo": "open-telemetry/opentelemetry-rust-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_amalgamation.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment_check_amalgamation.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flawfinder.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "coder/coder"
     }
   ]
 }

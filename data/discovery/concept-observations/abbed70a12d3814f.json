@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989800,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989692,
+      "status": "candidate",
+      "text": "packet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987798,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986790,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990204,
+      "status": "candidate",
+      "text": "packing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "package",
+      "sense_id": "package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13057,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6078,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2050,
+      "status": "candidate",
+      "text": "packet"
+    }
+  ],
+  "concept_id": "package",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package",
+  "observation_id": "abbed70a12d3814f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "package",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "wasm-bindgen/wasm-pack",
+  "source_repo_description": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+}

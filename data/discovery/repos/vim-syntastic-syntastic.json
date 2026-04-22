@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "lint-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "syntax-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "syntax-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:51.581167+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Syntax checking hacks for vim",
+    "fork": false,
+    "full_name": "vim-syntastic/syntastic",
+    "html_url": "https://github.com/vim-syntastic/syntastic",
+    "language": "Vim script",
+    "pushed_at": "2022-07-10T12:58:50Z",
+    "stargazers_count": 11226,
+    "topics": [
+      "lint",
+      "lint-checking",
+      "linters",
+      "syntax-checker",
+      "syntax-checking",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-21T08:52:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint-checking"
+    },
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linters"
+    },
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-checker"
+    },
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-checking"
+    },
+    {
+      "context_snippet": "Syntax checking hacks for vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

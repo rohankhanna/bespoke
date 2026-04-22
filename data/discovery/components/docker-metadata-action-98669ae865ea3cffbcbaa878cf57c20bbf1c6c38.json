@@ -1,12 +1,22 @@
 {
   "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-docker-image.yml",
       "source_repo": "cowboy8625/rusty-rain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat"
     }
   ]
 }

@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "lewis6991/pckr.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "jwiegley/use-package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "tjdevries/config_manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "neovim/neovim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim",
+      "target": "plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:43.289438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33657
+    },
+    {
+      "path": "Dockerfile",
+      "size": 710
+    },
+    {
+      "path": ".github/workflows/formatting.yaml",
+      "size": 844
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config",
+    "fork": false,
+    "full_name": "wbthomason/packer.nvim",
+    "html_url": "https://github.com/wbthomason/packer.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-03-05T19:20:31Z",
+    "stargazers_count": 8102,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "package-manager",
+      "packer",
+      "plugin-manager"
+    ],
+    "updated_at": "2026-04-21T08:23:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jwiegley/use-package",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewis6991/pckr.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/neovim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tjdevries/config_manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "**NOTICE:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    }
+  ]
+}

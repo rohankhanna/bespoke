@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "discord"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "Bypass Midjourney captcha."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018360,
+      "status": "candidate",
+      "text": "disaccord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017497,
+      "status": "candidate",
+      "text": "discordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015065,
+      "status": "candidate",
+      "text": "disagree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012248,
+      "status": "candidate",
+      "text": "dissension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975725,
+      "status": "candidate",
+      "text": "strife"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49036,
+      "status": "candidate",
+      "text": "strife"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "dissension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9027,
+      "status": "candidate",
+      "text": "discordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "disaccord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "disagree"
+    }
+  ],
+  "canonical_name": "discord",
+  "concept_id": "discord",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "discord",
+      "sense_id": "discord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

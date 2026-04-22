@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Model for simple handover management (via docs!) between AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048742,
+      "status": "candidate",
+      "text": "doctor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048742,
+      "status": "candidate",
+      "text": "medico"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048653,
+      "status": "candidate",
+      "text": "physician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048789,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docs",
+      "sense_id": "docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docs",
+  "observation_id": "2973cc70d61c621d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "docs",
+  "source_context_snippet": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Agent-Handover-Demo",
+  "source_repo_description": "Model for simple handover management (via docs!) between AI agents"
+}

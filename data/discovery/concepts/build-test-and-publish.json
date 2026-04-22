@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build, test and publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "SharpToken is a C# library for tokenizing natural language text. It's based on the tiktoken Python library and designed to be fast and accurate. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate-context",
+      "text": "Build, test and publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitry-brazhenko/SharpToken",
+      "status": "candidate",
+      "text": "Build, test and publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "republish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "republishing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build, test and publish",
+  "concept_id": "build-test-and-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-test-and-publish.yml",
+      "source_repo": "dmitry-brazhenko/SharpToken"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build, test and publish",
+      "sense_id": "build-test-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

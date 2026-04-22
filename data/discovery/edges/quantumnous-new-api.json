@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QuantumNous/new-api",
-      "target": "calcium-ion/new-api-horizon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml",
       "source_repo": "QuantumNous/new-api",
@@ -281,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "QuantumNous/new-api"
 }

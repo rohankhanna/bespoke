@@ -121,6 +121,102 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate-context",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "My lovely dots ~/.\ud83d\udc96"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate-context",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "The configuration framework for Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate-context",
+      "text": "direnv -- unclutter your .profile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate-context",
+      "text": "Magnificent app which corrects your previous console command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate-context",
+      "text": "*The Fuck* is a magnificent app, inspired by a [@liamosaur](https://twitter.com/liamosaur/)"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +273,54 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/dotfiles",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/nerd-fonts",
+      "status": "candidate",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "direnv/direnv",
+      "status": "candidate",
+      "text": "direnv -- unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvbn/thefuck",
+      "status": "candidate",
+      "text": "*The Fuck* is a magnificent app, inspired by a [@liamosaur](https://twitter.com/liamosaur/)"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +460,65 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nvbn/thefuck"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

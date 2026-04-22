@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add author:actionable-obs label to PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Add author:actionable-obs label to PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate",
+      "text": "Add author:actionable-obs label to PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18557,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14317,
+      "status": "candidate",
+      "text": "hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14317,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14317,
+      "status": "candidate",
+      "text": "zola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10317,
+      "status": "candidate",
+      "text": "advisory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add author:actionable-obs label to PRs",
+  "concept_id": "add-author-actionable-obs-label-to-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/add-actionable-obs-author-label.yml",
+      "source_repo": "elastic/kibana"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add author:actionable-obs label to PRs",
+      "sense_id": "add-author-actionable-obs-label-to-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

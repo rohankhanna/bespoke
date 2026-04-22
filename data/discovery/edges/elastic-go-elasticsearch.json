@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff-pr.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff-pr.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff-pr.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff-pr.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "Apidiff PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elastic/ci-gh-actions/fetch-github-token@8a7604dfdd4e7fe21f969bfe9ff96e17635ea577",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "tibdex/backport@9565281eda0731b1d20c4025c43339fb0a23812e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/setup-go@v2.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "docs-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "docs-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "docs-preview-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gencheck.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elastic/clients-team-automations/gencheck@ba683215c43524580baa8b6b32b93958a9aa567b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gencheck.yml",
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "Check Generated Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/go-elasticsearch",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "elastic/go-elasticsearch"
+}

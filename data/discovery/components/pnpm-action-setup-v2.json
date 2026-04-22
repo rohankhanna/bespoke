@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v2",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/react-best-practices-ci.yml",
       "source_repo": "vercel-labs/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "source_repo": "TrueFiEng/Waffle"
     }
   ]
 }

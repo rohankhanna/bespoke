@@ -148,6 +148,66 @@
       "source_repo": "goreleaser/sponsors",
       "status": "candidate-context",
       "text": "\"security\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate-context",
+      "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": "Bandit is a tool designed to find common security issues in Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate-context",
+      "text": "Optimism is Ethereum, scaled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate-context",
+      "text": "security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate-context",
+      "text": "An Efficient Enterprise-class Container Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +270,36 @@
       "source_repo": "goreleaser/sponsors",
       "status": "candidate",
       "text": "\"security\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/kata-containers",
+      "status": "candidate",
+      "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/pycqa/bandit/main/logo/logotype-sm.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum-optimism/optimism",
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/crytic/echidna/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/pouch",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_related_terms": [
@@ -367,11 +457,47 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "goreleaser/sponsors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "knownsec/404StarLink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "crytic/echidna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

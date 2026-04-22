@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Calculate test coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Calculate test coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18850,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18850,
+      "status": "candidate",
+      "text": "rates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "evaluate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Calculate test coverage",
+      "sense_id": "calculate-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "calculate-test-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calculate-test-coverage",
+  "observation_id": "0372b0ef912d40fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Calculate test coverage",
+  "source_context_snippet": "Calculate test coverage",
+  "source_file": ".github/workflows/test-coverage.yml",
+  "source_repo": "simonw/sqlite-utils",
+  "source_repo_description": "Python CLI utility and library for manipulating SQLite databases"
+}

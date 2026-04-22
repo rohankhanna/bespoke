@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "cocoa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "command-line-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "gui-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macos-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macos-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macos-commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "macosx-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "native-mac-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "platypus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus",
+      "target": "scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:10.187613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7098
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create native macOS applications from command line scripts.",
+    "fork": false,
+    "full_name": "sveinbjornt/Platypus",
+    "html_url": "https://github.com/sveinbjornt/Platypus",
+    "language": "Objective-C",
+    "pushed_at": "2026-04-20T23:18:22Z",
+    "stargazers_count": 3381,
+    "topics": [
+      "application",
+      "cocoa",
+      "command-line-app",
+      "gui-application",
+      "macos",
+      "macos-app",
+      "macos-application",
+      "macos-commands",
+      "macosx",
+      "macosx-scripts",
+      "native-mac-app",
+      "objective-c",
+      "osx",
+      "platypus",
+      "scripting",
+      "scripts"
+    ],
+    "updated_at": "2026-04-21T19:51:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "application"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoa"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-app"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-application"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-app"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-application"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-commands"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx-scripts"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-mac-app"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "platypus"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripts"
+    }
+  ]
+}

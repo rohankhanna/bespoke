@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "safetensors/safetensors",
+      "target": "huggingface/safetensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@2f8115f4d677905552b45ae1a67c799759fc8001",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@2f8115f4d677905552b45ae1a67c799759fc8001",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@2f8115f4d677905552b45ae1a67c799759fc8001",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Delete doc comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "huggingface/doc-builder/.github/workflows/delete_doc_comment_trigger.yml@2f8115f4d677905552b45ae1a67c799759fc8001",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Delete doc comment trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-bench.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Simple benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Rust Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "safetensors/safetensors"
+}

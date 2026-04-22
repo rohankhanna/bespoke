@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazing-fast modern Lua linter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build selene"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build selene"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11425,
+      "status": "candidate",
+      "text": "horsehead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11425,
+      "status": "candidate",
+      "text": "lunar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10533,
+      "status": "candidate",
+      "text": "bride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10533,
+      "status": "candidate",
+      "text": "sun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5591,
+      "status": "candidate",
+      "text": "diana"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build selene",
+      "sense_id": "build-selene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-selene",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-selene",
+  "observation_id": "d1b4e1c56f76a6ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build selene",
+  "source_context_snippet": "Build selene",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "Kampfkarren/selene",
+  "source_repo_description": "A blazing-fast modern Lua linter written in Rust"
+}

@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-time.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-time.yml",
+      "source_repo": "google/boringssl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-time.yml",
+      "source_repo": "google/boringssl",
+      "target": "Check Branch Time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:25.800066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2708
+    },
+    {
+      "path": "go.mod",
+      "size": 2882
+    },
+    {
+      "path": ".github/workflows/branch-time.yml",
+      "size": 2849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of BoringSSL",
+    "fork": false,
+    "full_name": "google/boringssl",
+    "html_url": "https://github.com/google/boringssl",
+    "language": "C++",
+    "pushed_at": "2026-04-21T20:50:57Z",
+    "stargazers_count": 2162,
+    "topics": [],
+    "updated_at": "2026-04-21T20:51:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Branch Time",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-time.yml",
+      "term": "Check Branch Time"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "PR Labeler"
+    "PR Labeler",
+    "PR labeler"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate-context",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "'PR labeler'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/snacks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f A collection of QoL plugins for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/snacks.nvim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bazelbuild/bazel",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate",
+      "text": "'PR labeler'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/snacks.nvim",
       "status": "candidate",
       "text": "\"PR Labeler\""
     }
@@ -124,11 +161,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/snacks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

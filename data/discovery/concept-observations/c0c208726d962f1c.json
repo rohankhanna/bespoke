@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The configuration framework for Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugin-manager",
+      "sense_id": "plugin-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plugin-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plugin-manager",
+  "observation_id": "c0c208726d962f1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "plugin-manager",
+  "source_context_snippet": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line",
+  "source_file": null,
+  "source_repo": "sorin-ionescu/prezto",
+  "source_repo_description": "The configuration framework for Zsh"
+}

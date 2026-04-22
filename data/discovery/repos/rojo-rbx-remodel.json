@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "anaminus/rbxmk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rojo-rbx/remodel",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "rbxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "rbxlx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "rbxm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "rbxmx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "roblox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rojo-rbx/remodel",
+      "target": "rojo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:53.667566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11697
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 999
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Scriptable Roblox multitool: Manipulate instances, model files, places, and assets on Roblox.com",
+    "fork": false,
+    "full_name": "rojo-rbx/remodel",
+    "html_url": "https://github.com/rojo-rbx/remodel",
+    "language": "Rust",
+    "pushed_at": "2023-07-22T21:02:57Z",
+    "stargazers_count": 175,
+    "topics": [
+      "lua",
+      "rbxl",
+      "rbxlx",
+      "rbxm",
+      "rbxmx",
+      "roblox",
+      "rojo"
+    ],
+    "updated_at": "2026-04-21T06:58:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anaminus/rbxmk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxl"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxlx"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxm"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbxmx"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roblox"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Remodel is deprecated in favor of <a href=\"https://lune-org.github.io/docs\">Lune</a>!<br /><a href=\"https://lune-org.github.io/docs/roblox/3-remodel-migration\">Learn about how to migrate your Remodel scripts to Lune</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rojo"
+    }
+  ]
+}

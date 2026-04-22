@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NextChat for iOS source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ios-app",
+      "sense_id": "ios-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ios-app",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ios-app",
+  "observation_id": "ea3129236cf6a9df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "ios-app",
+  "source_context_snippet": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)",
+  "source_file": null,
+  "source_repo": "ChatGPTNextWeb/NextChat-iOS",
+  "source_repo_description": "NextChat for iOS source"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "My personal NUR repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/Mic92/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/Mic92/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "managed-by-renovate",
+      "sense_id": "managed-by-renovate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "managed-by-renovate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "managed-by-renovate",
+  "observation_id": "9e9accd2e645cde1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "managed-by-renovate",
+  "source_context_snippet": "![Build Status](https://github.com/Mic92/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)",
+  "source_file": null,
+  "source_repo": "Mic92/nur-packages",
+  "source_repo_description": "My personal NUR repository"
+}

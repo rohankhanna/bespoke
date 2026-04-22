@@ -1,0 +1,898 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "futureware-tech/simulator-action@e89aa8f93d3aec35083ff49d2854d07f7186f7f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronet.yml",
+      "source_repo": "dart-lang/http",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http",
+      "target": "futureware-tech/simulator-action@e89aa8f93d3aec35083ff49d2854d07f7186f7f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http",
+      "target": "Dart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "package:http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/http",
+      "target": "No Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/okhttp.yaml",
+      "source_repo": "dart-lang/http",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/http",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/http",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/http",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/http",
+      "target": "http-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:24:54.664909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3767
+    },
+    {
+      "path": ".github/workflows/cronet.yml",
+      "size": 4408
+    },
+    {
+      "path": ".github/workflows/cupertino.yml",
+      "size": 2917
+    },
+    {
+      "path": ".github/workflows/dart.yml",
+      "size": 44610
+    },
+    {
+      "path": ".github/workflows/health.yaml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/http2.yaml",
+      "size": 1706
+    },
+    {
+      "path": ".github/workflows/http_multi_server.yaml",
+      "size": 1990
+    },
+    {
+      "path": ".github/workflows/http_parser.yaml",
+      "size": 2047
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/okhttp.yaml",
+      "size": 2140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A composable API for making HTTP requests in Dart.",
+    "fork": false,
+    "full_name": "dart-lang/http",
+    "html_url": "https://github.com/dart-lang/http",
+    "language": "Dart",
+    "pushed_at": "2026-04-07T16:27:55Z",
+    "stargazers_count": 1097,
+    "topics": [
+      "dart",
+      "flutter",
+      "http",
+      "http-client"
+    ],
+    "updated_at": "2026-04-21T13:19:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "term": "Dart CI"
+    },
+    {
+      "context_snippet": "Health",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "term": "Health"
+    },
+    {
+      "context_snippet": "package:http2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/http2.yaml",
+      "term": "package:http2"
+    },
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    }
+  ]
+}

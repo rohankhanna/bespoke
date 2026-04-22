@@ -19,6 +19,18 @@
       "source_repo": "messense/jieba-rs",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "The Jieba Chinese Word Segmentation Implemented in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "messense/jieba-rs",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate",
+      "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "messense/jieba-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "binaryoung/jieba-php"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "greggb/sublime-snazzy",
+      "target": "sindresorhus/hyper-snazzy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:15.805833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sublime Theme with Bright Colors Inspired by Hyper Snazzy",
+    "fork": false,
+    "full_name": "greggb/sublime-snazzy",
+    "html_url": "https://github.com/greggb/sublime-snazzy",
+    "language": null,
+    "pushed_at": "2024-06-03T13:28:14Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-12-23T01:16:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/hyper-snazzy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

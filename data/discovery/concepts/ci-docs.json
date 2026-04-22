@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "The Finch CLI is an open source client for container development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
+      "status": "candidate-context",
+      "text": "CI Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runfinch/finch",
+      "status": "candidate",
+      "text": "CI Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10511,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10511,
+      "status": "candidate",
+      "text": "pierre curie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "madame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Docs",
+  "concept_id": "ci-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci-docs.yaml",
+      "source_repo": "runfinch/finch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Docs",
+      "sense_id": "ci-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "Mic92/auto-merge@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "Auto Merge Dependency Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "Build and populate cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "mic92/update-flake-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/nur-packages",
+      "target": "Update Flake Inputs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mic92/nur-packages",
+      "target": "managed-by-renovate",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "Mic92/nur-packages"
+}

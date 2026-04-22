@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic Approve"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\u2728 your favorite rust -> wasm workflow tool!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate-context",
+      "text": "Automatic Approve"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-pack",
+      "status": "candidate",
+      "text": "Automatic Approve"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "rubber stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "arms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "bye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "cannon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic Approve",
+  "concept_id": "automatic-approve",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/approve.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Approve",
+      "sense_id": "automatic-approve#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

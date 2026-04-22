@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Docs Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "Deploy Docs Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate",
+      "text": "Deploy Docs Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17749,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17749,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17749,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17749,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9730,
+      "status": "candidate",
+      "text": "after"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Docs Preview",
+  "concept_id": "deploy-docs-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "strands-agents/docs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Docs Preview",
+      "sense_id": "deploy-docs-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

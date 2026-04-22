@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror Community Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate-context",
+      "text": "Mirror Community Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/diffusers",
+      "status": "candidate",
+      "text": "Mirror Community Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18949,
+      "status": "candidate",
+      "text": "tube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18742,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18627,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18600,
+      "status": "candidate",
+      "text": "tee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18594,
+      "status": "candidate",
+      "text": "adjust"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror Community Pipeline",
+  "concept_id": "mirror-community-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "source_repo": "huggingface/diffusers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Community Pipeline",
+      "sense_id": "mirror-community-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

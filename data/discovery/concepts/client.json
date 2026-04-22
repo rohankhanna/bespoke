@@ -19,6 +19,30 @@
       "source_repo": "bensadeh/circumflex",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate-context",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for Elasticsearch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate-context",
+      "text": "The official Go client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bensadeh/circumflex",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/nodejs/undici/actions/workflows/ci.yml/badge.svg)](https://github.com/nodejs/undici/actions/workflows/nodejs.yml) [![neostandard javascript style](https://img.shields.io/badge/neo-standard-7fffff?style=flat\\&labelColor=ff80ff)](https://github.com/n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "The official Go client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +134,23 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "bensadeh/circumflex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "elastic/go-elasticsearch"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

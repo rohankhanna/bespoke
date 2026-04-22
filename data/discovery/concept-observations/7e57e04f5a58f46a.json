@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023249,
+      "status": "candidate",
+      "text": "angled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023243,
+      "status": "candidate",
+      "text": "angulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023205,
+      "status": "candidate",
+      "text": "sharp-cornered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022356,
+      "status": "candidate",
+      "text": "rectangular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020518,
+      "status": "candidate",
+      "text": "triangular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "angular",
+      "sense_id": "angular#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "cuspate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3030,
+      "status": "candidate",
+      "text": "angled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2045,
+      "status": "candidate",
+      "text": "asteroid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "angulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "cusped"
+    }
+  ],
+  "concept_id": "angular",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "angular",
+  "observation_id": "7e57e04f5a58f46a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "angular",
+  "source_context_snippet": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)",
+  "source_file": null,
+  "source_repo": "prettier/prettier",
+  "source_repo_description": "Prettier is an opinionated code formatter."
+}

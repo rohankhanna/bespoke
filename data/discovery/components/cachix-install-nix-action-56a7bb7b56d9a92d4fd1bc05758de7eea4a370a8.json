@@ -1,0 +1,12 @@
+{
+  "component": "cachix/install-nix-action@56a7bb7b56d9a92d4fd1bc05758de7eea4a370a8",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined"
+    }
+  ]
+}

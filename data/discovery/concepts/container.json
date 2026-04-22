@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Container"
+    "Container",
+    "container"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "searxng/searxng",
       "status": "candidate-context",
       "text": "Container"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate-context",
+      "text": "Authoritative dns server for A/AAAA container records. Forwards other request to host's /etc/resolv.conf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate-context",
+      "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "searxng/searxng",
       "status": "candidate",
       "text": "Container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/aardvark-dns",
+      "status": "candidate",
+      "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/container.yml",
       "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

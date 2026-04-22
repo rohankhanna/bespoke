@@ -1,7 +1,7 @@
 {
   "component": "strands-agents/devtools/authorization-check@main",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/strands-command.yml",
       "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-strands-review.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/docs"
     }
   ]
 }

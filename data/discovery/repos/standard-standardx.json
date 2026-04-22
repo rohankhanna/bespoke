@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "standard",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-engine",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-spec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml"
+    },
+    {
+      "component": "actions/cache@v2.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standardx",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standardx",
+      "target": "standard-engine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standardx",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standardx",
+      "target": "tap-spec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standardx",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "standard/standardx",
+      "target": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/setup-node@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/cache@v2.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/old-test.yml",
+      "source_repo": "standard/standardx",
+      "target": "Old test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/standardx",
+      "target": "actions/cache@v2.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/standardx",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:50.159560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3216
+    },
+    {
+      "path": "package.json",
+      "size": 1278
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 188
+    },
+    {
+      "path": ".github/workflows/old-test.yml",
+      "size": 1015
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":boom: JavaScript Standard Style with custom tweaks",
+    "fork": false,
+    "full_name": "standard/standardx",
+    "html_url": "https://github.com/standard/standardx",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-16T07:30:44Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2025-06-11T03:47:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Old test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/old-test.yml",
+      "term": "Old test"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

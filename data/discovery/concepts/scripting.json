@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "scripting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "Create native macOS applications from command line scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872949,
+      "status": "candidate",
+      "text": "handwriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872499,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39863611,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39632767,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29879275,
+      "status": "candidate",
+      "text": "dash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scripting",
+  "concept_id": "scripting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scripting",
+      "sense_id": "scripting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:23:13.060225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Framework-agnostic data model and visualizations mapping the moving pieces of agentic AI systems",
+    "fork": false,
+    "full_name": "danielrosehill/Agentic-AI-Architecture-Visualisation",
+    "html_url": "https://github.com/danielrosehill/Agentic-AI-Architecture-Visualisation",
+    "language": "HTML",
+    "pushed_at": "2026-03-10T02:36:46Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-19T22:55:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

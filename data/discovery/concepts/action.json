@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Ethereum smart contract fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate-context",
+      "text": "Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/echidna",
+      "status": "candidate",
+      "text": "Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985619,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984262,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962994,
+      "status": "candidate",
+      "text": "legal action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986269,
+      "status": "candidate",
+      "text": "action at law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986269,
+      "status": "candidate",
+      "text": "military action"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17058,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "legal action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "natural process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "military action"
+    }
+  ],
+  "canonical_name": "Action",
+  "concept_id": "action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "crytic/echidna"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Action",
+      "sense_id": "action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "tantivy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "Chinese tokenizer for tantivy, based on jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate",
+      "text": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiegec/tantivy-jieba",
+      "status": "candidate",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027725,
+      "status": "candidate",
+      "text": "full tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027724,
+      "status": "candidate",
+      "text": "full tilt boogie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027723,
+      "status": "candidate",
+      "text": "full-throttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027722,
+      "status": "candidate",
+      "text": "full-tilt boogie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027721,
+      "status": "candidate",
+      "text": "flat out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tantivy",
+  "concept_id": "tantivy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "jiegec/tantivy-jieba"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tantivy",
+      "sense_id": "tantivy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

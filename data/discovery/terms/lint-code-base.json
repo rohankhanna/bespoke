@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin"
     }
   ],
   "term": "Lint Code Base"

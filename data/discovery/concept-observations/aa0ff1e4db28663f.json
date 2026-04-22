@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io version][crate-img]][crate]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021547,
+      "status": "candidate",
+      "text": "crateful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "banks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "baskets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "bays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "bearings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crates",
+      "sense_id": "crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crates",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crates",
+  "observation_id": "aa0ff1e4db28663f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "crates",
+  "source_context_snippet": "[![Crates.io version][crate-img]][crate]",
+  "source_file": null,
+  "source_repo": "jiegec/tantivy-jieba",
+  "source_repo_description": "An adapter that bridges between tantivy and jieba-rs."
+}

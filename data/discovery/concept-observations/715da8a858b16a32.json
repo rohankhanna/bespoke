@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998082,
+      "status": "candidate",
+      "text": "subset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970288,
+      "status": "candidate",
+      "text": "subnetwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29785777,
+      "status": "candidate",
+      "text": "network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998998,
+      "status": "candidate",
+      "text": "subnets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998998,
+      "status": "candidate",
+      "text": "subnetting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subnet",
+      "sense_id": "subnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "subnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "subnet",
+  "observation_id": "715da8a858b16a32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "subnet",
+  "source_context_snippet": "![flannel Logo](logos/flannel-horizontal-color.png)",
+  "source_file": null,
+  "source_repo": "flannel-io/flannel",
+  "source_repo_description": "flannel is a network fabric for containers, designed for Kubernetes"
+}

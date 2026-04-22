@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/restore@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml",
       "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "squidfunk/mkdocs-material"
     }
   ]
 }

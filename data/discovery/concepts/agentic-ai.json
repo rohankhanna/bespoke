@@ -163,6 +163,30 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate-context",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "status": "candidate-context",
+      "text": "Script to clone a few of the main ADKs (agent development kids) for testing/experimentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "status": "candidate-context",
+      "text": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup",
+      "status": "candidate",
+      "text": "Interactive CLI tool to quickly set up various agent development kits (SDKs) on your system."
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-SDK-Env-Setup"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

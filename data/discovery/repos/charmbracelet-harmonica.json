@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/soft-serve.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/soft-serve.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/soft-serve.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "charmbracelet/meta/.github/workflows/soft-serve.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/soft-serve.yml",
+      "source_repo": "charmbracelet/harmonica",
+      "target": "soft-serve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/harmonica",
+      "target": "physics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:13:17.679442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4355
+    },
+    {
+      "path": "go.mod",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 559
+    },
+    {
+      "path": ".github/workflows/soft-serve.yml",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple, physics-based animation library \ud83c\udfbc",
+    "fork": false,
+    "full_name": "charmbracelet/harmonica",
+    "html_url": "https://github.com/charmbracelet/harmonica",
+    "language": "Go",
+    "pushed_at": "2026-04-10T08:06:16Z",
+    "stargazers_count": 1503,
+    "topics": [
+      "animation",
+      "game-development",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "physics"
+    ],
+    "updated_at": "2026-04-20T15:06:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "soft-serve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/soft-serve.yml",
+      "term": "soft-serve"
+    },
+    {
+      "context_snippet": "Harmonica",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "Harmonica",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "Harmonica",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Harmonica",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Harmonica",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    }
+  ]
+}

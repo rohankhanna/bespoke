@@ -25,6 +25,30 @@
       "source_repo": "serpro69/claude-toolbox",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "Kotlin code completion, diagnostics and more for any editor/IDE using the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +57,18 @@
       "source_repo": "serpro69/claude-toolbox",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-language-server",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "serpro69/claude-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-language-server"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

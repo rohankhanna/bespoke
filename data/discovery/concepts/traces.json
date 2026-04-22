@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "traces"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005556,
+      "status": "candidate",
+      "text": "follow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000858,
+      "status": "candidate",
+      "text": "retrace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994620,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991992,
+      "status": "candidate",
+      "text": "delineate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988241,
+      "status": "candidate",
+      "text": "outline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "traces",
+  "concept_id": "traces",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "traces",
+      "sense_id": "traces#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

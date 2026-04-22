@@ -62,6 +62,42 @@
       "source_repo": "nodejs/web-team",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": "Bandit is a tool designed to find common security issues in Python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "The code coverage tool for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -86,6 +122,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nodejs/web-team",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coveragepy/coveragepy",
       "status": "candidate",
       "text": "\"Dependency Review\""
     }
@@ -179,11 +233,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "coveragepy/coveragepy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

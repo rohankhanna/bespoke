@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimism is Ethereum, scaled."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "branch build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "branch build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "broaden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "ell"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "branch build",
+      "sense_id": "branch-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "branch-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "branch-build",
+  "observation_id": "ebff632221550251",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "branch build",
+  "source_context_snippet": "branch build",
+  "source_file": ".github/workflows/branches.yaml",
+  "source_repo": "foundry-rs/optimism",
+  "source_repo_description": "Optimism is Ethereum, scaled."
+}

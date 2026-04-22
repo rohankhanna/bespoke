@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate-context",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate-context",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate-context",
+      "text": "Dev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow",
+      "status": "candidate",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc.nvim",
+      "status": "candidate",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier",
+      "status": "candidate",
+      "text": "Dev"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900801,
+      "status": "candidate",
+      "text": "iap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894862,
+      "status": "candidate",
+      "text": "esr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886949,
+      "status": "candidate",
+      "text": "ftd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859504,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29856834,
+      "status": "candidate",
+      "text": "epr"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dev",
+  "concept_id": "dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/arrow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/dev-test.yml",
+      "source_repo": "prettier/prettier"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dev",
+      "sense_id": "dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

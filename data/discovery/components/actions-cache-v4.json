@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -492,6 +492,166 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "microsoft/python-type-stubs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-pr.yml",
+      "source_repo": "coderaiser/escover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/escover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "transitive-bullshit/agentic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-sign.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-graphql-compat-check.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site_lint.yml",
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pypa/setuptools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_reusable.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

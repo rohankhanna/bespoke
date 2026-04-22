@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "direnv -- unclutter your .profile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "direnv -- unclutter your .profile"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buildbot-numtide",
+      "sense_id": "buildbot-numtide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "buildbot-numtide",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "buildbot-numtide",
+  "observation_id": "11866e54fb1b5d4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "buildbot-numtide",
+  "source_context_snippet": "direnv -- unclutter your .profile",
+  "source_file": null,
+  "source_repo": "direnv/direnv",
+  "source_repo_description": "unclutter your .profile"
+}

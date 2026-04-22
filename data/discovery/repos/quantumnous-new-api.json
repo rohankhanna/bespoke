@@ -239,13 +239,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QuantumNous/new-api",
-      "target": "calcium-ion/new-api-horizon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml",
       "source_repo": "QuantumNous/new-api",
@@ -498,7 +491,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:32:21.206685+00:00",
+  "fetched_at": "2026-04-22T01:10:38.776904+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -547,7 +540,7 @@
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
     "pushed_at": "2026-04-18T06:22:55Z",
-    "stargazers_count": 28020,
+    "stargazers_count": 28093,
     "topics": [
       "ai-gateway",
       "claude",
@@ -557,17 +550,12 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-21T11:30:47Z"
+    "updated_at": "2026-04-22T01:06:39Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "calcium-ion/new-api",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "calcium-ion/new-api-horizon",
       "source_file": "README.md"
     },
     {

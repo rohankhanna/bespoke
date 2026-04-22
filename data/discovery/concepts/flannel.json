@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "flannel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "flannel is a network fabric for containers, designed for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate-context",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flannel-io/flannel",
+      "status": "candidate",
+      "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026471,
+      "status": "candidate",
+      "text": "tweed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026335,
+      "status": "candidate",
+      "text": "gabardine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019596,
+      "status": "candidate",
+      "text": "washrag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019291,
+      "status": "candidate",
+      "text": "washcloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019189,
+      "status": "candidate",
+      "text": "face cloth"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14032,
+      "status": "candidate",
+      "text": "gabardine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "tweed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "washcloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "washrag"
+    }
+  ],
+  "canonical_name": "flannel",
+  "concept_id": "flannel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "flannel-io/flannel"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flannel",
+      "sense_id": "flannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

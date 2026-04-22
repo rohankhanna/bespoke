@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "react-native-web"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "Tools for creating, running, and deploying universal Expo and React Native apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate-context",
+      "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo-cli",
+      "status": "candidate",
+      "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "react-native-web",
+  "concept_id": "react-native-web",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "expo/expo-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-native-web",
+      "sense_id": "react-native-web#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

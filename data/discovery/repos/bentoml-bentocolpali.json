@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bentoml/BentoColPali",
+      "target": "illuin-tech/colpali",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:11.863503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6991
+    },
+    {
+      "path": "requirements.txt",
+      "size": 66
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bentoml/BentoColPali",
+    "html_url": "https://github.com/bentoml/BentoColPali",
+    "language": "Python",
+    "pushed_at": "2025-04-09T23:55:06Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-11T18:15:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "illuin-tech/colpali",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

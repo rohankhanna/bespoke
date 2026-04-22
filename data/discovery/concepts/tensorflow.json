@@ -43,6 +43,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/coremltools",
+      "status": "candidate-context",
+      "text": "Core ML tools contain supporting tools for Core ML model conversion, editing, and validation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/coremltools",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/coremltools",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "apple/coremltools"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,22 @@
+{
+  "component": "hynek/setup-cached-uv@4300ec2180bc77d705e626a34e381b81a4772c51",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docset.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "python-attrs/attrs"
+    }
+  ]
+}

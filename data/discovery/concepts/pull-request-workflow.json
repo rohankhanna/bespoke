@@ -19,12 +19,30 @@
       "source_repo": "Layr-Labs/eigensdk-rs",
       "status": "candidate-context",
       "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for building AVSs on Eigenlayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "\"Pull Request Workflow\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Layr-Labs/eigensdk-rs",
+      "status": "candidate",
+      "text": "\"Pull Request Workflow\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
       "status": "candidate",
       "text": "\"Pull Request Workflow\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

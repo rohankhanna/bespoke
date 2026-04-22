@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awthomp/cusignal-icassp-tutorial",
+      "target": "rapidsai/cusignal",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:06:12.799761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "4 Hour cuSignal Tutorial - ICASSP 2021 Notebooks",
+    "fork": false,
+    "full_name": "awthomp/cusignal-icassp-tutorial",
+    "html_url": "https://github.com/awthomp/cusignal-icassp-tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-06-07T13:25:12Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-03-14T23:50:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidsai/cusignal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

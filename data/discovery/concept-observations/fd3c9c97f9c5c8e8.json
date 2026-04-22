@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "libgit2 - the Git linkable library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "libgit2 - the Git linkable library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932907,
+      "status": "candidate",
+      "text": "digital target"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932906,
+      "status": "candidate",
+      "text": "suas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932905,
+      "status": "candidate",
+      "text": "ads-a"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932904,
+      "status": "candidate",
+      "text": "cass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932903,
+      "status": "candidate",
+      "text": "ads-c"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dvcs",
+      "sense_id": "dvcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dvcs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dvcs",
+  "observation_id": "fd3c9c97f9c5c8e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "dvcs",
+  "source_context_snippet": "libgit2 - the Git linkable library",
+  "source_file": null,
+  "source_repo": "libgit2/libgit2",
+  "source_repo_description": "A cross-platform, linkable library implementation of Git that you can use in your application."
+}

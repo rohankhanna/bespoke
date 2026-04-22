@@ -1,7 +1,7 @@
 {
   "component": "facebook/react/.github/workflows/shared_check_maintainer.yml@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/devtools_discord_notify.yml",
       "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discord_notify.yml",
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label_core_team_prs.yml",
+      "source_repo": "reactjs/react.dev"
     }
   ]
 }

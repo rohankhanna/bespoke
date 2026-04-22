@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/bazelisk",
+      "target": "nvm-sh/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/bazelisk",
+      "target": "bazelbuild/bazel-skylib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:22.362193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16455
+    },
+    {
+      "path": "go.mod",
+      "size": 360
+    },
+    {
+      "path": "package.json",
+      "size": 498
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 43
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A user-friendly launcher for Bazel.",
+    "fork": false,
+    "full_name": "bazelbuild/bazelisk",
+    "html_url": "https://github.com/bazelbuild/bazelisk",
+    "language": "Go",
+    "pushed_at": "2026-04-14T11:13:50Z",
+    "stargazers_count": 2608,
+    "topics": [],
+    "updated_at": "2026-04-19T04:00:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-skylib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvm-sh/nvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,15 +1,90 @@
 {
   "aliases": [
-    "Code Scanning - Action"
+    "Code Scanning - Action",
+    "Code scanning - action"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvm-sh/nvm",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24808,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24786,
+      "status": "candidate",
+      "text": "scansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24741,
+      "status": "candidate",
+      "text": "perusal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24741,
+      "status": "candidate",
+      "text": "scanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24350,
+      "status": "candidate",
+      "text": "scanner"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Code Scanning - Action",
   "concept_id": "code-scanning---action",
@@ -20,12 +95,26 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "microsoft/typescript-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nlohmann/json"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

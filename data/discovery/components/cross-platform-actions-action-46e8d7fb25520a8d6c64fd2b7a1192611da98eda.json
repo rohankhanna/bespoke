@@ -1,0 +1,12 @@
+{
+  "component": "cross-platform-actions/action@46e8d7fb25520a8d6c64fd2b7a1192611da98eda",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openssl/openssl"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Alert on failed test comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Alert on failed test comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate",
+      "text": "Alert on failed test comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27996,
+      "status": "candidate",
+      "text": "considering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27963,
+      "status": "candidate",
+      "text": "blind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27963,
+      "status": "candidate",
+      "text": "considered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27899,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27899,
+      "status": "candidate",
+      "text": "braces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Alert on failed test comment",
+  "concept_id": "alert-on-failed-test-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/alert-failed-test.yml",
+      "source_repo": "elastic/kibana"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Alert on failed test comment",
+      "sense_id": "alert-on-failed-test-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-and-push-devcontainer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "status": "candidate-context",
+      "text": "Ghidra Headless Python VScode Skeleton with Devcontainer Super Powers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "status": "candidate-context",
+      "text": "'build-and-push-devcontainer'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+      "status": "candidate",
+      "text": "'build-and-push-devcontainer'"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-and-push-devcontainer",
+  "concept_id": "build-and-push-devcontainer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-and-push-devcontainer",
+      "sense_id": "build-and-push-devcontainer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

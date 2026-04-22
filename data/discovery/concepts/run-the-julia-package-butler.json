@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run the Julia Package Butler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Julia package for loading the standard Vega data sets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate-context",
+      "text": "Run the Julia Package Butler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/VegaDatasets.jl",
+      "status": "candidate",
+      "text": "Run the Julia Package Butler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19642,
+      "status": "candidate",
+      "text": "apron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19642,
+      "status": "candidate",
+      "text": "nine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19642,
+      "status": "candidate",
+      "text": "stir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19642,
+      "status": "candidate",
+      "text": "veau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18181,
+      "status": "candidate",
+      "text": "buttle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run the Julia Package Butler",
+  "concept_id": "run-the-julia-package-butler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/VegaDatasets.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run the Julia Package Butler",
+      "sense_id": "run-the-julia-package-butler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

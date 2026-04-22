@@ -55,6 +55,42 @@
       "source_repo": "cupy/cupy",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "CUDA Templates and Python DSLs for High-Performance Linear Algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate-context",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "Fast Multi-dimensional Sparse Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate-context",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "Lightning fast C++/CUDA neural network framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate-context",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "cupy/cupy",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cutlass",
+      "status": "candidate",
+      "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SHI-Labs/NATTEN",
+      "status": "candidate",
+      "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/tiny-cuda-nn",
+      "status": "candidate",
+      "text": "This is a small, self-contained framework for training and querying neural networks. Most notably, it contains a lightning fast [\"fully fused\" multi-layer perceptron](https://raw.githubusercontent.com/NVlabs/tiny-cuda-nn/master/data/readme/fully-fused-mlp-diagram.png) ([technica\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +214,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "cupy/cupy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "SHI-Labs/NATTEN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/tiny-cuda-nn"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

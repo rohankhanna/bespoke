@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "Add to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "Claude Code - Automated PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/ship",
+      "target": "Claude Code - @mentions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/ship",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:24:23.305231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4909
+    },
+    {
+      "path": "package.json",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 249
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 2728
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Complete PR workflow from commit to production with validation",
+    "fork": false,
+    "full_name": "agent-sh/ship",
+    "html_url": "https://github.com/agent-sh/ship",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-25T00:15:01Z",
+    "stargazers_count": 2,
+    "topics": [
+      "ai",
+      "automation",
+      "ci-cd",
+      "devops",
+      "devtools",
+      "git",
+      "javascript",
+      "productivity",
+      "pull-request",
+      "workflow"
+    ],
+    "updated_at": "2026-03-25T00:15:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "term": "Add to project"
+    },
+    {
+      "context_snippet": "Claude Code - Automated PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code - Automated PR Review"
+    },
+    {
+      "context_snippet": "Claude Code - @mentions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code - @mentions"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-request"
+    },
+    {
+      "context_snippet": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

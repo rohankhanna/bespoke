@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "webassemblylabs/webassembly-language-runtimes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "vmware-labs/mod_wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "vmware-labs/wasm-workers-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-bzip2.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-libjpeg.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-libjpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-libpng.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-libpng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-libuuid.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-libuuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-libxml2.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-libxml2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-oniguruma.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-oniguruma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-sqlite.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-sqlite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libs-zlib.yaml",
+      "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "target": "Build libs-zlib",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "vmware-labs/webassembly-language-runtimes"
+}

@@ -1,0 +1,556 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "crabnebula-dev/cloud-release@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "crabnebula-dev/cloud-release@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "crabnebula-dev/cloud-release@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actionhippie/swap-space@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "coditory/changelog-parser@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "actionhippie/swap-space@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/keep-a-changelog-new-release@3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/set-crate-version@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/set-crate-version@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/set-crate-version@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/set-crate-version@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "thomaseizinger/create-pull-request@1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "actionhippie/swap-space@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "larryjoelane/delete-release-action@v1.0.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "coditory/changelog-parser@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "eigenwallet/core",
+      "target": "eigenwallet/arti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "eigenwallet/core",
+      "target": "eigenwallet/dfx-swiss-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "eigenwallet/core",
+      "target": "delta1/rust-jsonrpc-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "eigenwallet/core",
+      "target": "eira-fransham/crunchy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "crabnebula-dev/cloud-release@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "tauri-apps/tauri-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "Build eigenwallet release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actionhippie/swap-space@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "coditory/changelog-parser@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actionhippie/swap-space@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "thomaseizinger/keep-a-changelog-new-release@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "thomaseizinger/set-crate-version@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "thomaseizinger/create-pull-request@1.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "Draft new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actionhippie/swap-space@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "larryjoelane/delete-release-action@v1.0.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "coditory/changelog-parser@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "eigenwallet/core",
+      "target": "Create 'preview' release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:06.560870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3453
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4844
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2193
+    },
+    {
+      "path": ".github/workflows/build-gui-release-binaries.yml",
+      "size": 11187
+    },
+    {
+      "path": ".github/workflows/build-release-binaries.yml",
+      "size": 10448
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7826
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1441
+    },
+    {
+      "path": ".github/workflows/draft-new-release.yml",
+      "size": 3923
+    },
+    {
+      "path": ".github/workflows/preview-release.yml",
+      "size": 1292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "eigenwallet is a battle-tested Monero-Bitcoin DEX based on Atomic Swaps.",
+    "fork": true,
+    "full_name": "eigenwallet/core",
+    "html_url": "https://github.com/eigenwallet/core",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T12:25:42Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2026-04-21T08:38:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "delta1/rust-jsonrpc-client",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigenwallet/arti",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigenwallet/dfx-swiss-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eira-fransham/crunchy",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build eigenwallet release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "term": "Build eigenwallet release"
+    },
+    {
+      "context_snippet": "\"Create release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "\"Draft new release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "term": "Draft new release"
+    },
+    {
+      "context_snippet": "\"Create 'preview' release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-release.yml",
+      "term": "Create 'preview' release"
+    }
+  ]
+}

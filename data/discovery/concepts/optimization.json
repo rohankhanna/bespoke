@@ -43,6 +43,30 @@
       "source_repo": "plasma-umass/coz",
       "status": "candidate-context",
       "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper - Coz employs a novel technique we call causal profiling that measures optimization potential."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate-context",
+      "text": "Coz profiler Golang wrapper."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "plasma-umass/coz",
       "status": "candidate",
       "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urjitbhatia/cozgo",
+      "status": "candidate",
+      "text": "Coz profiler Golang wrapper."
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +166,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "plasma-umass/coz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/perf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "urjitbhatia/cozgo"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

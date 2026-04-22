@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Builditluc/wiki-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DCjanus/cang-jie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-smithy"
     }
   ],
   "term": "Continuous Integration"

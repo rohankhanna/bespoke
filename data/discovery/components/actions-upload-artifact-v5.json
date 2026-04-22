@@ -1,12 +1,32 @@
 {
   "component": "actions/upload-artifact@v5",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "alexei-led/aws-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-compiles.yml",
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fips-checksums.yml",
+      "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-trio/trio"
     }
   ]
 }

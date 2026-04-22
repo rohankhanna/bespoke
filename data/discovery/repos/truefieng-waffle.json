@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai-as-promised",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai-string",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/sinon-chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai-as-promised",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai-string",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-no-only-tests",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon-chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-plugin.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "deepakputhraya/action-pr-title@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "deepakputhraya/action-pr-title@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml"
+    },
+    {
+      "component": "actions/setup-node@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml"
+    },
+    {
+      "component": "technote-space/create-pr-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "ethworks/waffle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "ethereum-ts/typechain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/chai-as-promised",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/chai-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@types/sinon-chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "chai-as-promised",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "chai-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "eslint-plugin-no-only-tests",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "sinon-chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-plugin.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-plugin.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-plugin.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "Plugin CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "Main CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "deepakputhraya/action-pr-title@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "PR Naming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-node@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "Optimism testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/checkout@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-node@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "technote-space/create-pr-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml",
+      "source_repo": "TrueFiEng/Waffle",
+      "target": "Upgrade dependencies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:28.431696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7132
+    },
+    {
+      "path": "package.json",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/CI-plugin.yml",
+      "size": 1573
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1511
+    },
+    {
+      "path": ".github/workflows/PR.yml",
+      "size": 1341
+    },
+    {
+      "path": ".github/workflows/optimism-testing.yml",
+      "size": 1121
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1906
+    },
+    {
+      "path": ".github/workflows/solc",
+      "size": 48
+    },
+    {
+      "path": ".github/workflows/upgrade-dependencies.yaml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library for writing and testing smart contracts.",
+    "fork": false,
+    "full_name": "TrueFiEng/Waffle",
+    "html_url": "https://github.com/TrueFiEng/Waffle",
+    "language": "TypeScript",
+    "pushed_at": "2023-11-22T21:36:56Z",
+    "stargazers_count": 969,
+    "topics": [],
+    "updated_at": "2026-04-02T21:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-ts/typechain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethworks/waffle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plugin CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-plugin.yml",
+      "term": "Plugin CI"
+    },
+    {
+      "context_snippet": "Main CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "Main CI"
+    },
+    {
+      "context_snippet": "PR Naming",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR.yml",
+      "term": "PR Naming"
+    },
+    {
+      "context_snippet": "Optimism testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optimism-testing.yml",
+      "term": "Optimism testing"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Upgrade dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrade-dependencies.yaml",
+      "term": "Upgrade dependencies"
+    }
+  ]
+}

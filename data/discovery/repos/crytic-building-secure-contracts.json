@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "markdown-link-check",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml"
+    },
+    {
+      "component": "crytic/echidna-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_format.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_links.yml"
+    },
+    {
+      "component": "tcort/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manticore.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manticore.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "markdown-link-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Deploy GH pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/echidna.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "crytic/echidna-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/echidna.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Run Echidna tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_format.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_format.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_format.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Lint Check Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_links.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_links.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "tcort/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manticore.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manticore.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manticore.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Run Manticore tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/medusa.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/medusa.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Run Medusa tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "crytic/building-secure-contracts",
+      "target": "Update Submodules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:38.153882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3918
+    },
+    {
+      "path": "package.json",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/echidna.yml",
+      "size": 6658
+    },
+    {
+      "path": ".github/workflows/lint_format.yml",
+      "size": 939
+    },
+    {
+      "path": ".github/workflows/lint_links.yml",
+      "size": 748
+    },
+    {
+      "path": ".github/workflows/manticore.yml",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/medusa.yml",
+      "size": 7030
+    },
+    {
+      "path": ".github/workflows/update-submodules.yml",
+      "size": 2889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Guidelines and training material to write secure smart contracts",
+    "fork": false,
+    "full_name": "crytic/building-secure-contracts",
+    "html_url": "https://github.com/crytic/building-secure-contracts",
+    "language": "Solidity",
+    "pushed_at": "2026-04-13T21:32:17Z",
+    "stargazers_count": 2460,
+    "topics": [],
+    "updated_at": "2026-04-21T10:22:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy GH pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy GH pages"
+    },
+    {
+      "context_snippet": "Run Echidna tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/echidna.yml",
+      "term": "Run Echidna tests"
+    },
+    {
+      "context_snippet": "Lint Check Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_format.yml",
+      "term": "Lint Check Format"
+    },
+    {
+      "context_snippet": "Run Manticore tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manticore.yml",
+      "term": "Run Manticore tests"
+    },
+    {
+      "context_snippet": "Run Medusa tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/medusa.yml",
+      "term": "Run Medusa tests"
+    },
+    {
+      "context_snippet": "Update Submodules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "term": "Update Submodules"
+    }
+  ]
+}

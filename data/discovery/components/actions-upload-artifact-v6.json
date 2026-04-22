@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/installer-for-windows.yml",
       "source_repo": "UB-Mannheim/tesseract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "allenporter/python-google-nest-sdm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes/kompose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/casks.yml",
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/javascript-action"
     }
   ]
 }

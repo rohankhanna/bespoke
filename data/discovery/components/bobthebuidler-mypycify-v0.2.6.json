@@ -1,0 +1,27 @@
+{
+  "component": "BobTheBuidler/mypycify@v0.2.6",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-lint.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie"
+    }
+  ]
+}

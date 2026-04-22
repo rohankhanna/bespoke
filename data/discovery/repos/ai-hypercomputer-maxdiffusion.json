@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddPullReady.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CPUTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CPUTests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UploadDockerImages.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "mlcommons/training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "google/maxdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "huggingface/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AddPullReady.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AddPullReady.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Add Pull Ready Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Build Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/XLML.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Add Testgrid Link to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Gemini Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "target": "Gemini Invoke",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:41.082722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3936
+    },
+    {
+      "path": ".github/workflows/AddPullReady.yml",
+      "size": 4481
+    },
+    {
+      "path": ".github/workflows/CPUTests.yml",
+      "size": 1580
+    },
+    {
+      "path": ".github/workflows/UnitTests.yml",
+      "size": 2335
+    },
+    {
+      "path": ".github/workflows/UploadDockerImages.yml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/XLML.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/build_and_upload_images.sh",
+      "size": 2584
+    },
+    {
+      "path": ".github/workflows/gemini-dispatch.yml",
+      "size": 7076
+    },
+    {
+      "path": ".github/workflows/gemini-invoke.yml",
+      "size": 4397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AI-Hypercomputer/maxdiffusion",
+    "html_url": "https://github.com/AI-Hypercomputer/maxdiffusion",
+    "language": "Python",
+    "pushed_at": "2026-04-21T17:17:13Z",
+    "stargazers_count": 338,
+    "topics": [],
+    "updated_at": "2026-04-21T17:17:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maxdiffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlcommons/training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add Pull Ready Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AddPullReady.yml",
+      "term": "Add Pull Ready Label"
+    },
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "Build Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UploadDockerImages.yml",
+      "term": "Build Images"
+    },
+    {
+      "context_snippet": "Add Testgrid Link to PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/XLML.yml",
+      "term": "Add Testgrid Link to PR"
+    },
+    {
+      "context_snippet": "'Gemini Dispatch'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "term": "Gemini Dispatch"
+    },
+    {
+      "context_snippet": "'Gemini Invoke'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "term": "Gemini Invoke"
+    }
+  ]
+}

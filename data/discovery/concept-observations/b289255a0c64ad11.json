@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031422,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031408,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030832,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9928683,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9800679,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fonts",
+      "sense_id": "fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fonts",
+  "observation_id": "b289255a0c64ad11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "fonts",
+  "source_context_snippet": "FROM alpine:latest LABEL org.opencontainers.image.title=\"Nerd Fonts Patcher\" \\ org.opencontainers.image.description=\"Patches developer targeted fonts with a high number of glyphs (icons).\" \\ org.opencontainers.image.url=\"https://www.nerdfonts.com/\" \\ org.opencontainers.image.sou\u2026",
+  "source_file": null,
+  "source_repo": "ryanoasis/nerd-fonts",
+  "source_repo_description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more"
+}

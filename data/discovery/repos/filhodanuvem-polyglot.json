@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "Tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filhodanuvem/polyglot",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:15:00.328196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1163
+    },
+    {
+      "path": "Dockerfile",
+      "size": 176
+    },
+    {
+      "path": "go.mod",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1478
+    },
+    {
+      "path": ".github/workflows/tag.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "What are your favorite programming languages? \ud83d\udc45",
+    "fork": false,
+    "full_name": "filhodanuvem/polyglot",
+    "html_url": "https://github.com/filhodanuvem/polyglot",
+    "language": "Go",
+    "pushed_at": "2023-02-25T09:10:39Z",
+    "stargazers_count": 68,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-03-25T07:03:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "term": "Tags"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><h1>Polyglot <img src=\"https://github.com/filhodanuvem/polyglot/workflows/CI/badge.svg\"></h1></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

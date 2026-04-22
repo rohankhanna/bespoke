@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bypass Midjourney captcha."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030721,
+      "status": "candidate",
+      "text": "turing test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030720,
+      "status": "candidate",
+      "text": "penetration test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030719,
+      "status": "candidate",
+      "text": "reverse turing test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030718,
+      "status": "candidate",
+      "text": "pen test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030717,
+      "status": "candidate",
+      "text": "hackbot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "captcha",
+      "sense_id": "captcha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "captcha",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "captcha",
+  "observation_id": "f9d607237d9ace39",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "captcha",
+  "source_context_snippet": "[\u4e2d\u6587](./README.zh-CN.md)",
+  "source_file": null,
+  "source_repo": "ye4241/midjourney-captcha-bot",
+  "source_repo_description": "Bypass Midjourney captcha."
+}

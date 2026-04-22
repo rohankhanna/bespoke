@@ -19,12 +19,30 @@
       "source_repo": "sharkdp/bat",
       "status": "candidate-context",
       "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "A simple, fast and user-friendly alternative to 'find'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "CICD"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "sharkdp/bat",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
       "status": "candidate",
       "text": "CICD"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/fd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Sage CI for Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate-context",
+      "text": "Official project repository for the Setuptools build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate-context",
+      "text": "Run Sage CI for Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools",
+      "status": "candidate",
+      "text": "Run Sage CI for Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21718,
+      "status": "candidate",
+      "text": "green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21718,
+      "status": "candidate",
+      "text": "greens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16306,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16306,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16306,
+      "status": "candidate",
+      "text": "dpkg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Sage CI for Linux",
+  "concept_id": "run-sage-ci-for-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci-sage.yml",
+      "source_repo": "pypa/setuptools"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Sage CI for Linux",
+      "sense_id": "run-sage-ci-for-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

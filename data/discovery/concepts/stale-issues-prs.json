@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/snacks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f A collection of QoL plugins for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/snacks.nvim",
+      "status": "candidate-context",
+      "text": "Stale Issues & PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/snacks.nvim",
+      "status": "candidate",
+      "text": "Stale Issues & PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22175,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18575,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14563,
+      "status": "candidate",
+      "text": "aux cayes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14563,
+      "status": "candidate",
+      "text": "beeb"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Stale Issues & PRs",
   "concept_id": "stale-issues-prs",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "folke/lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/snacks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

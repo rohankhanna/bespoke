@@ -19,6 +19,42 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate-context",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc20 Babel is a compiler for writing next generation JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "convert estree ast to babel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate-context",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/estree-to-babel",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insin/nwb",
+      "status": "candidate",
+      "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +138,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/estree-to-babel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "insin/nwb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

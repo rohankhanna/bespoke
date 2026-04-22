@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/vader.vim",
+      "target": "junegunn/vim-oblique",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:51.201729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple Vimscript test framework",
+    "fork": false,
+    "full_name": "junegunn/vader.vim",
+    "html_url": "https://github.com/junegunn/vader.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-04-30T08:01:41Z",
+    "stargazers_count": 597,
+    "topics": [],
+    "updated_at": "2026-04-07T11:09:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junegunn/vim-oblique",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

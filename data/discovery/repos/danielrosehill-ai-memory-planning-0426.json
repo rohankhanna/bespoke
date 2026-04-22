@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+      "target": "ai-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+      "target": "architectures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+      "target": "notes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:53.991871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/AI-Memory-Planning-0426",
+    "html_url": "https://github.com/danielrosehill/AI-Memory-Planning-0426",
+    "language": null,
+    "pushed_at": "2026-04-13T12:00:38Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-engineering",
+      "architectures",
+      "notes"
+    ],
+    "updated_at": "2026-04-13T12:01:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Planning notes and architecture diagrams for personal AI context and memory systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-engineering"
+    },
+    {
+      "context_snippet": "Planning notes and architecture diagrams for personal AI context and memory systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architectures"
+    },
+    {
+      "context_snippet": "Planning notes and architecture diagrams for personal AI context and memory systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notes"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "ethereum-optimism/factory/actions/parse-tag@240b16167a5f5aa789270fa9c0efbfa9f010b7e7",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism"
+    }
+  ]
+}

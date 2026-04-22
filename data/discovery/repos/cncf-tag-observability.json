@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "telemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "traces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:06:28.967487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f",
+    "fork": false,
+    "full_name": "cncf/tag-observability",
+    "html_url": "https://github.com/cncf/tag-observability",
+    "language": "HTML",
+    "pushed_at": "2025-03-17T23:46:22Z",
+    "stargazers_count": 734,
+    "topics": [
+      "analysis",
+      "collection",
+      "events",
+      "logs",
+      "metrics",
+      "monitoring",
+      "observability",
+      "performance",
+      "profiling",
+      "telemetry",
+      "traces",
+      "visualization"
+    ],
+    "updated_at": "2026-04-08T08:16:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collection"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logs"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telemetry"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traces"
+    },
+    {
+      "context_snippet": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

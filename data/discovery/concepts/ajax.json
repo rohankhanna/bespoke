@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ajax"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/unfetch",
+      "status": "candidate-context",
+      "text": "\ud83d\udc15 Bare minimum 500b fetch polyfill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/unfetch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/unfetch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037950,
+      "status": "candidate",
+      "text": "nike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19817771,
+      "status": "candidate",
+      "text": "blockish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19165562,
+      "status": "candidate",
+      "text": "wyatt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18794824,
+      "status": "candidate",
+      "text": "northrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038752,
+      "status": "candidate",
+      "text": "aias"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ajax",
+  "concept_id": "ajax",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "developit/unfetch"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ajax",
+      "sense_id": "ajax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

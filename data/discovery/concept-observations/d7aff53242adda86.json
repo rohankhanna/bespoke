@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996790,
+      "status": "candidate",
+      "text": "perimeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981939,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980863,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960197,
+      "status": "candidate",
+      "text": "gross profit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948077,
+      "status": "candidate",
+      "text": "security deposit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "margin",
+      "sense_id": "margin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27074,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16059,
+      "status": "candidate",
+      "text": "tolerance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14047,
+      "status": "candidate",
+      "text": "perimeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10054,
+      "status": "candidate",
+      "text": "allowance"
+    }
+  ],
+  "concept_id": "margin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "margin",
+  "observation_id": "d7aff53242adda86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "margin",
+  "source_context_snippet": "[![Latest Release](https://img.shields.io/github/release/muesli/reflow.svg)](https://github.com/muesli/reflow/releases)",
+  "source_file": null,
+  "source_repo": "muesli/reflow",
+  "source_repo_description": "A collection of (ANSI-sequence aware) text reflow operations & algorithms"
+}

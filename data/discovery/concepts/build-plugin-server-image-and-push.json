@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Plugin Server Image and Push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AI Gateway | AI Native API Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate-context",
+      "text": "Build Plugin Server Image and Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/higress",
+      "status": "candidate",
+      "text": "Build Plugin Server Image and Push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42781,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30720,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30697,
+      "status": "candidate",
+      "text": "module"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30553,
+      "status": "candidate",
+      "text": "learn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26653,
+      "status": "candidate",
+      "text": "serve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Plugin Server Image and Push",
+  "concept_id": "build-plugin-server-image-and-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Plugin Server Image and Push",
+      "sense_id": "build-plugin-server-image-and-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

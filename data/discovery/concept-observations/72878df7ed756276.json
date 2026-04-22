@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Eclipse Paho project - a Python broker for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Paho Testing Utilities are a collection of code and tools to help test MQTT clients and Brokers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Paho Testing Utilities are a collection of code and tools to help test MQTT clients and Brokers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007257,
+      "status": "candidate",
+      "text": "pso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006274,
+      "status": "candidate",
+      "text": "ppb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003888,
+      "status": "candidate",
+      "text": "asd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996808,
+      "status": "candidate",
+      "text": "asds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929330,
+      "status": "candidate",
+      "text": "sdo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paho",
+      "sense_id": "paho#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "paho",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paho",
+  "observation_id": "72878df7ed756276",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "paho",
+  "source_context_snippet": "The Paho Testing Utilities are a collection of code and tools to help test MQTT clients and Brokers.",
+  "source_file": null,
+  "source_repo": "eclipse-paho/paho.mqtt.testing",
+  "source_repo_description": "An Eclipse Paho project - a Python broker for testing"
+}

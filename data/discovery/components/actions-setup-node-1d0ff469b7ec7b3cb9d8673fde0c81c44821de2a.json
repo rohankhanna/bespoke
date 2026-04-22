@@ -1,12 +1,17 @@
 {
   "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-run.yml",
       "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pyodide/pytest-pyodide"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Termion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Termion"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Termion",
+      "sense_id": "termion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "termion",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "termion",
+  "observation_id": "2ce11c4e3d629fa9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Termion",
+  "source_context_snippet": "Termion",
+  "source_file": ".github/workflows/termion.yml",
+  "source_repo": "Lutetium-Vanadium/requestty",
+  "source_repo_description": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+}

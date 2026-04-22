@@ -19,12 +19,30 @@
       "source_repo": "abetlen/llama-cpp-python",
       "status": "candidate-context",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "A Swift toolchain installer and manager, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "Build Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
       "status": "candidate",
       "text": "Build Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/build-and-release.yaml",
       "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "swiftlang/swiftly"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

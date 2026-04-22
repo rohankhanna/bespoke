@@ -1,0 +1,17 @@
+{
+  "component": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-amd64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
+      "source_repo": "kata-containers/kata-containers"
+    }
+  ]
+}

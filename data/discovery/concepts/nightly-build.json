@@ -32,12 +32,48 @@
       "source_repo": "opentofu/opentofu",
       "status": "candidate-context",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "AI Tensor Engine for ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "A cross-platform, linkable library implementation of Git that you can use in your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
+      "status": "candidate-context",
+      "text": "Nightly Build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/libgit2",
       "status": "candidate",
       "text": "Nightly Build"
     }
@@ -95,11 +131,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "libgit2/libgit2"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@f443b600d91635bebf5b0d9ebc620189c0d6fba5",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-pr.yml",
+      "source_repo": "elastic/kibana"
+    }
+  ]
+}

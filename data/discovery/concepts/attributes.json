@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "attributes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "Python Classes Without Boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-attrs/attrs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046541,
+      "status": "candidate",
+      "text": "ascribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045674,
+      "status": "candidate",
+      "text": "impute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037927,
+      "status": "candidate",
+      "text": "assign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016700,
+      "status": "candidate",
+      "text": "property"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998672,
+      "status": "candidate",
+      "text": "dimension"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "attributes",
+  "concept_id": "attributes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "python-attrs/attrs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "attributes",
+      "sense_id": "attributes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

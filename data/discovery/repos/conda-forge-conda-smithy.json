@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_proxy-file-for-dependabot-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_proxy-file-for-dependabot-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_proxy-file-for-dependabot-tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_proxy-file-for-dependabot-tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "coverallsapp/github-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-smithy",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:07.592570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6662
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2096
+    },
+    {
+      "path": ".github/workflows/_proxy-file-for-dependabot-tests.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The tool for managing conda-forge feedstocks.",
+    "fork": false,
+    "full_name": "conda-forge/conda-smithy",
+    "html_url": "https://github.com/conda-forge/conda-smithy",
+    "language": "Python",
+    "pushed_at": "2026-04-21T13:33:47Z",
+    "stargazers_count": 177,
+    "topics": [
+      "continuous-integration",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-21T13:33:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

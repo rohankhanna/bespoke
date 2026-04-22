@@ -1,7 +1,7 @@
 {
   "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/health_base.yaml",
       "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/args.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/async.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/characters.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/collection.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/convert.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fixnum.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints.yaml",
+      "source_repo": "dart-lang/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cupertino.yml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http2.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http_multi_server.yaml",
+      "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/http_parser.yaml",
+      "source_repo": "dart-lang/http"
     }
   ]
 }

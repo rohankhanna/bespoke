@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "container-storage-interface/spec",
+      "target": "cloudfoundry/csi-plugins-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "container-storage-interface/spec",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "container-storage-interface/spec",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "container-storage-interface/spec",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:33.197262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 599
+    },
+    {
+      "path": "go.mod",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Container Storage Interface (CSI) Specification.",
+    "fork": false,
+    "full_name": "container-storage-interface/spec",
+    "html_url": "https://github.com/container-storage-interface/spec",
+    "language": "Makefile",
+    "pushed_at": "2026-03-18T23:22:36Z",
+    "stargazers_count": 1465,
+    "topics": [
+      "containers",
+      "csi",
+      "storage"
+    ],
+    "updated_at": "2026-04-18T10:33:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/csi-plugins-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build Test"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "![CSI Logo](logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![CSI Logo](logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

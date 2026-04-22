@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/doc.yml",
       "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flannel-io/flannel"
     }
   ]
 }

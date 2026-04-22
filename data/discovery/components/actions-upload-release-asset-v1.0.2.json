@@ -1,12 +1,17 @@
 {
   "component": "actions/upload-release-asset@v1.0.2",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-release-binaries.yml",
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core"
     }
   ]
 }

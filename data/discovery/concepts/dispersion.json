@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "dispersion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cyan4973/xxHash",
+      "status": "candidate-context",
+      "text": "Extremely fast non-cryptographic hash algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cyan4973/xxHash",
+      "status": "candidate-context",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cyan4973/xxHash",
+      "status": "candidate",
+      "text": "xxHash - Extremely fast hash algorithm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045198,
+      "status": "candidate",
+      "text": "dispersal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045097,
+      "status": "candidate",
+      "text": "scattering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043322,
+      "status": "candidate",
+      "text": "dissemination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003755,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045232,
+      "status": "candidate",
+      "text": "dispersive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12032,
+      "status": "candidate",
+      "text": "dissemination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4090,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "scattering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "dispersal"
+    }
+  ],
+  "canonical_name": "dispersion",
+  "concept_id": "dispersion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Cyan4973/xxHash"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dispersion",
+      "sense_id": "dispersion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

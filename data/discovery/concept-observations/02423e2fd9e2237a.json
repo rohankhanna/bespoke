@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962293,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005515,
+      "status": "candidate",
+      "text": "informatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004861,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004004,
+      "status": "candidate",
+      "text": "datafile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003624,
+      "status": "candidate",
+      "text": "datatype"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data",
+      "sense_id": "data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22061,
+      "status": "candidate",
+      "text": "information"
+    }
+  ],
+  "concept_id": "data",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data",
+  "observation_id": "02423e2fd9e2237a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "data",
+  "source_context_snippet": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002",
+  "source_file": null,
+  "source_repo": "akfamily/akshare",
+  "source_repo_description": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93"
+}

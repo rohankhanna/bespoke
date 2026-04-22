@@ -1,7 +1,7 @@
 {
   "component": "jbolda/covector/packages/action@covector-v0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/covector-version-or-publish.yml",
       "source_repo": "Piebald-AI/muda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/muda"
     }
   ]
 }

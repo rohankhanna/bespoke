@@ -19,12 +19,48 @@
       "source_repo": "crytic/solc-select",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate-context",
+      "text": "EVM CFG recovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "xbar/Swiftbar plugin to control lima-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/solc-select",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/lima-xbar-plugin",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/megalinter.yml",
+      "source_repo": "unixorn/lima-xbar-plugin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

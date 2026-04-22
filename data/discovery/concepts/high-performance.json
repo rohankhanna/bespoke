@@ -19,6 +19,18 @@
       "source_repo": "python/asyncio",
       "status": "candidate-context",
       "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate-context",
+      "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "python/asyncio",
       "status": "candidate",
       "text": "asyncio historical repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri",
+      "status": "candidate",
+      "text": "<img src=\".github/splash.png\" alt=\"Tauri\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "python/asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

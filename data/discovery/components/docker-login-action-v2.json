@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish-release.yaml",
       "source_repo": "Layr-Labs/eigenda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "eigenwallet/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/one-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "Dogtiti/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-devcontainer.yml",
+      "source_repo": "clearbluejar/ghidra-python-vscode-devcontainer-skeleton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-latest.yml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-all-vers.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slim-latest.yaml",
+      "source_repo": "clearbluejar/ghidra-python"
     }
   ]
 }

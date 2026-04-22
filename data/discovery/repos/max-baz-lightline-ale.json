@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "max-baz/lightline-ale",
+      "target": "w0rp/ale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale",
+      "target": "lightline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:21:26.783892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ALE indicator for the lightline vim plugin",
+    "fork": false,
+    "full_name": "max-baz/lightline-ale",
+    "html_url": "https://github.com/max-baz/lightline-ale",
+    "language": "Vim script",
+    "pushed_at": "2021-09-12T02:09:06Z",
+    "stargazers_count": 250,
+    "topics": [
+      "ale",
+      "lightline",
+      "linter",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-02-24T09:54:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w0rp/ale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightline"
+    },
+    {
+      "context_snippet": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu: Build and push ubuntu-toolbox images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/toolbox",
+      "status": "candidate-context",
+      "text": "Tool for interactive command line environments on Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/toolbox",
+      "status": "candidate-context",
+      "text": "\"Ubuntu: Build and push ubuntu-toolbox images\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/toolbox",
+      "status": "candidate",
+      "text": "\"Ubuntu: Build and push ubuntu-toolbox images\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17905,
+      "status": "candidate",
+      "text": "dream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17860,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17815,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17815,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17815,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu: Build and push ubuntu-toolbox images",
+  "concept_id": "ubuntu-build-and-push-ubuntu-toolbox-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ubuntu-images.yaml",
+      "source_repo": "containers/toolbox"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu: Build and push ubuntu-toolbox images",
+      "sense_id": "ubuntu-build-and-push-ubuntu-toolbox-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

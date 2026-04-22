@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DCjanus/cang-jie",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie",
+      "target": "full-text-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie",
+      "target": "tantivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DCjanus/cang-jie",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:36.704446+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 685
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chinese tokenizer for tantivy, based on jieba-rs",
+    "fork": false,
+    "full_name": "DCjanus/cang-jie",
+    "html_url": "https://github.com/DCjanus/cang-jie",
+    "language": "Rust",
+    "pushed_at": "2025-09-25T07:59:29Z",
+    "stargazers_count": 84,
+    "topics": [
+      "full-text-search",
+      "rust",
+      "tantivy",
+      "tokenizer"
+    ],
+    "updated_at": "2026-04-04T02:59:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-text-search"
+    },
+    {
+      "context_snippet": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tantivy"
+    },
+    {
+      "context_snippet": "[package] name = \"cang-jie\" version = \"0.18.0\" authors = [\"DCjanus <DCjanus@dcjanus.com>\"] edition = \"2021\" description = \"A Chinese tokenizer for tantivy\" license = \"MIT\" repository = \"https://github.com/DCjanus/cang-jie\" readme = \"README.MD\" keywords = [\"search\", \"tokenizer\", \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

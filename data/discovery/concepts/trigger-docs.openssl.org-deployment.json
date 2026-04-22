@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger docs.openssl.org deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "General purpose TLS and crypto library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate-context",
+      "text": "\"Trigger docs.openssl.org deployment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssl/openssl",
+      "status": "candidate",
+      "text": "\"Trigger docs.openssl.org deployment\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "activated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "fan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "feed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "fire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger docs.openssl.org deployment",
+  "concept_id": "trigger-docs.openssl.org-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/deploy-docs-openssl-org.yml",
+      "source_repo": "openssl/openssl"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger docs.openssl.org deployment",
+      "sense_id": "trigger-docs.openssl.org-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

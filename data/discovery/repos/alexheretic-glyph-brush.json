@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "gfx-rs/gfx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexheretic/glyph-brush",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:52.446345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1818
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 120
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast GPU cached text rendering",
+    "fork": false,
+    "full_name": "alexheretic/glyph-brush",
+    "html_url": "https://github.com/alexheretic/glyph-brush",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T07:24:28Z",
+    "stargazers_count": 723,
+    "topics": [
+      "font",
+      "render",
+      "rust",
+      "truetype"
+    ],
+    "updated_at": "2026-04-18T15:04:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfx-rs/gfx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Fast cached text rendering.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Fast cached text rendering.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "render"
+    },
+    {
+      "context_snippet": "Fast cached text rendering.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Fast cached text rendering.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

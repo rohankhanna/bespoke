@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Create release PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Rust library for build scripts to compile C/C++ code into a Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate-context",
+      "text": "Create release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Fork of rust-lang/cc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate-context",
+      "text": "Create release PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/cc-rs",
+      "status": "candidate",
+      "text": "Create release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/cc-rs",
+      "status": "candidate",
+      "text": "Create release PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20505,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19772,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19470,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19388,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19354,
+      "status": "candidate",
+      "text": "trail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create release PR",
+  "concept_id": "create-release-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "alexcrichton/cc-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release PR",
+      "sense_id": "create-release-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

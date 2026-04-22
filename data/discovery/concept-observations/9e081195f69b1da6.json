@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-approve API docs PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-approve API docs PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "moreau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "spa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "sue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18380,
+      "status": "candidate",
+      "text": "dos"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-approve API docs PRs",
+      "sense_id": "auto-approve-api-docs-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-approve-api-docs-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-approve-api-docs-prs",
+  "observation_id": "9e081195f69b1da6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Auto-approve API docs PRs",
+  "source_context_snippet": "Auto-approve API docs PRs",
+  "source_file": ".github/workflows/auto-approve-api-docs.yml",
+  "source_repo": "elastic/kibana",
+  "source_repo_description": "Your window into all of your data"
+}

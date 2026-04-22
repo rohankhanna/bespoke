@@ -1,0 +1,565 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-change-tags.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-change-tags.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    },
+    {
+      "component": "jbolda/covector/packages/action@covector-v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/tauri",
+      "target": "tauri-apps/wry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/tauri",
+      "target": "tauri-apps/create-tauri-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tauri-apps/tauri",
+      "target": "tauri-apps/tauri-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "gresau/schemars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "rustsec/audit-check@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-change-tags.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-change-tags.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-change-tags.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "check change tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "check generated files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "check license headers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "covector comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "jbolda/covector/packages/action@covector-v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "source_repo": "tauri-apps/tauri",
+      "target": "covector status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "desktop-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "mobile-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "native-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "web-frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri",
+      "target": "webview",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:29.964766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6055
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1915
+    },
+    {
+      "path": "package.json",
+      "size": 1103
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 1100
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 3398
+    },
+    {
+      "path": ".github/workflows/check-change-tags.yml",
+      "size": 1149
+    },
+    {
+      "path": ".github/workflows/check-generated-files.yml",
+      "size": 2292
+    },
+    {
+      "path": ".github/workflows/check-license-header.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/covector-comment-on-fork.yml",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/covector-status.yml",
+      "size": 531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+    "fork": false,
+    "full_name": "tauri-apps/tauri",
+    "html_url": "https://github.com/tauri-apps/tauri",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T21:43:08Z",
+    "stargazers_count": 105720,
+    "topics": [
+      "desktop-app",
+      "high-performance",
+      "mobile-app",
+      "native-app",
+      "rust",
+      "web-frontend",
+      "webview"
+    ],
+    "updated_at": "2026-04-22T01:02:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/create-tauri-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/tauri-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/wry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gresau/schemars",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Audit"
+    },
+    {
+      "context_snippet": "bench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "bench"
+    },
+    {
+      "context_snippet": "check change tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-change-tags.yml",
+      "term": "check change tags"
+    },
+    {
+      "context_snippet": "check generated files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "term": "check generated files"
+    },
+    {
+      "context_snippet": "check license headers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "term": "check license headers"
+    },
+    {
+      "context_snippet": "covector comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-comment-on-fork.yml",
+      "term": "covector comment"
+    },
+    {
+      "context_snippet": "covector status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covector-status.yml",
+      "term": "covector status"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-app"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-app"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-app"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-frontend"
+    },
+    {
+      "context_snippet": "<img src=\".github/splash.png\" alt=\"Tauri\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webview"
+    }
+  ]
+}

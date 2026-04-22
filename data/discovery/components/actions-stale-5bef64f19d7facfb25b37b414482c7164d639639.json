@@ -1,12 +1,17 @@
 {
   "component": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "pydantic/pydantic-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
     }
   ]
 }

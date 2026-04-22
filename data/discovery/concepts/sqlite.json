@@ -163,6 +163,54 @@
       "source_repo": "asg017/sqlite-url",
       "status": "candidate-context",
       "text": "A SQLite extension for parsing and generating URLs and query strings. Based on libcurl's [URL API](https://curl.se/libcurl/c/libcurl-url.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate-context",
+      "text": "sqlite3 driver for go using database/sql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate-context",
+      "text": "go-sqlite3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "Convert CSV files into a SQLite database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "An open source multi-tool for exploring and publishing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate-context",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +291,30 @@
       "source_repo": "asg017/sqlite-url",
       "status": "candidate",
       "text": "A SQLite extension for parsing and generating URLs and query strings. Based on libcurl's [URL API](https://curl.se/libcurl/c/libcurl-url.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate",
+      "text": "go-sqlite3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "<img src=\"https://datasette.io/static/datasette-logo.svg\" alt=\"Datasette\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +460,35 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "asg017/sqlite-url"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "simonw/sqlite-utils"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

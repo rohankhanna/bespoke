@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -297,6 +297,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance-nightly.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2eTests.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/k3s-e2eTests.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-documentation.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex"
     }
   ]
 }

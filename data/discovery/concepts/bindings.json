@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Bindings"
+    "Bindings",
+    "bindings"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,42 @@
       "source_repo": "Layr-Labs/eigensdk-rs",
       "status": "candidate-context",
       "text": "Bindings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for building AVSs on Eigenlayer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate-context",
+      "text": "Bindings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "Bindings to the Tracy profiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "This repo contains bindings to [Tracy](https://github.com/wolfpld/tracy),"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +66,24 @@
       "source_repo": "Layr-Labs/eigensdk-rs",
       "status": "candidate",
       "text": "Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "status": "candidate",
+      "text": "Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate",
+      "text": "This repo contains bindings to [Tracy](https://github.com/wolfpld/tracy),"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +133,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/bindings.yml",
       "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

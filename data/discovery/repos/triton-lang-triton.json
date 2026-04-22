@@ -1,0 +1,464 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-lang/triton",
+      "target": "srush/triton-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-lang/triton",
+      "target": "llvm/llvm-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-lang/triton",
+      "target": "redhat-et/triton-dev-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Build MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Integration Tests AMD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Integration Tests CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "LLVM Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "Pre-Commit Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:05:12.664284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15438
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1044
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 5481
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1200
+    },
+    {
+      "path": ".github/workflows/create_release.yml",
+      "size": 2883
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1530
+    },
+    {
+      "path": ".github/workflows/integration-tests-amd.yml",
+      "size": 9468
+    },
+    {
+      "path": ".github/workflows/integration-tests-nvidia.yml",
+      "size": 3888
+    },
+    {
+      "path": ".github/workflows/llvm-build.yml",
+      "size": 7441
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development repository for the Triton language and compiler",
+    "fork": false,
+    "full_name": "triton-lang/triton",
+    "html_url": "https://github.com/triton-lang/triton",
+    "language": "MLIR",
+    "pushed_at": "2026-04-21T23:56:05Z",
+    "stargazers_count": 19010,
+    "topics": [],
+    "updated_at": "2026-04-21T19:03:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm/llvm-project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redhat-et/triton-dev-containers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/triton-puzzles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build MacOS"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Integration Tests AMD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "term": "Integration Tests AMD"
+    },
+    {
+      "context_snippet": "Integration Tests CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "term": "Integration Tests CUDA"
+    },
+    {
+      "context_snippet": "LLVM Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "term": "LLVM Build"
+    },
+    {
+      "context_snippet": "Pre-Commit Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-Commit Check"
+    }
+  ]
+}

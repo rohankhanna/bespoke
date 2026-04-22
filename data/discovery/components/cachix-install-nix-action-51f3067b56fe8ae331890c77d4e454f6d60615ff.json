@@ -1,0 +1,12 @@
+{
+  "component": "cachix/install-nix-action@51f3067b56fe8ae331890c77d4e454f6d60615ff",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "crytic/echidna"
+    }
+  ]
+}

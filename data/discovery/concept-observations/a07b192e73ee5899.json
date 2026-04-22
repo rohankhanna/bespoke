@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection/resource list of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolirtical actors, including simulated policy fora"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-experiments",
+      "sense_id": "ai-experiments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-experiments",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-experiments",
+  "observation_id": "a07b192e73ee5899",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "ai-experiments",
+  "source_context_snippet": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting.",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Geopol-Projects",
+  "source_repo_description": "Collection/resource list of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolirtical actors, including simulated policy fora"
+}

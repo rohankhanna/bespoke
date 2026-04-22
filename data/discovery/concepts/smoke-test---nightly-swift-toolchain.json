@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Smoke Test - Nightly Swift Toolchain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "A Swift toolchain installer and manager, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "Smoke Test - Nightly Swift Toolchain"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate",
+      "text": "Smoke Test - Nightly Swift Toolchain"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22109,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21531,
+      "status": "candidate",
+      "text": "midnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21458,
+      "status": "candidate",
+      "text": "egg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21458,
+      "status": "candidate",
+      "text": "nyctalopia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Smoke Test - Nightly Swift Toolchain",
+  "concept_id": "smoke-test---nightly-swift-toolchain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/nightly_snapshot_check.yml",
+      "source_repo": "swiftlang/swiftly"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Smoke Test - Nightly Swift Toolchain",
+      "sense_id": "smoke-test---nightly-swift-toolchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

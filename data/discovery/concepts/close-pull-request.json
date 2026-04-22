@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "close pull request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/gecko-dev",
+      "status": "candidate-context",
+      "text": "SUPERSEDED by https://github.com/mozilla-firefox/firefox.  Read-only Git mirror of the Mercurial gecko repositories at https://hg.mozilla.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/gecko-dev",
+      "status": "candidate-context",
+      "text": "close pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/gecko-dev",
+      "status": "candidate",
+      "text": "close pull request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "tuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "tucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "tucking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19138,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18952,
+      "status": "candidate",
+      "text": "open"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "close pull request",
+  "concept_id": "close-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/close-pr.yml",
+      "source_repo": "mozilla/gecko-dev"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "close pull request",
+      "sense_id": "close-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

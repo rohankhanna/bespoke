@@ -16,7 +16,13 @@
       "text": "Protocol Buffers - Google's data interchange format"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol Buffers - Google's data interchange format"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -35,12 +41,14 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "protocol-buffers",
   "observation_id": "e2020d52d9f8a4fa",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "protocol-buffers",
   "source_context_snippet": "Protocol Buffers - Google's data interchange format",
   "source_file": null,

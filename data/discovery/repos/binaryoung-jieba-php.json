@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml"
+    },
+    {
+      "component": "docker://oskarstark/php-cs-fixer-ga",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "fxsjy/jieba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "fukuball/jieba-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "peter-evans/create-pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "build libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "docker://oskarstark/php-cs-fixer-ga",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "stefanzweifel/git-auto-commit-action@v4.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "fix styling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "run benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "binaryoung/jieba-php",
+      "target": "run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryoung/jieba-php",
+      "target": "chinese-word-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryoung/jieba-php",
+      "target": "jieba",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:34.253093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2528
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 303
+    },
+    {
+      "path": ".github/workflows/build-libraries.yml",
+      "size": 1946
+    },
+    {
+      "path": ".github/workflows/php-cs-fixer.yml",
+      "size": 427
+    },
+    {
+      "path": ".github/workflows/run-benchmarks.yml",
+      "size": 1019
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Jieba Chinese Word Segmentation Implemented in PHP",
+    "fork": false,
+    "full_name": "binaryoung/jieba-php",
+    "html_url": "https://github.com/binaryoung/jieba-php",
+    "language": "PHP",
+    "pushed_at": "2024-09-03T21:01:01Z",
+    "stargazers_count": 20,
+    "topics": [
+      "chinese-word-segmentation",
+      "ffi",
+      "jieba"
+    ],
+    "updated_at": "2024-06-14T03:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fukuball/jieba-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fxsjy/jieba",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build libraries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libraries.yml",
+      "term": "build libraries"
+    },
+    {
+      "context_snippet": "fix styling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-cs-fixer.yml",
+      "term": "fix styling"
+    },
+    {
+      "context_snippet": "run benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "term": "run benchmarks"
+    },
+    {
+      "context_snippet": "run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "run tests"
+    },
+    {
+      "context_snippet": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-word-segmentation"
+    },
+    {
+      "context_snippet": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba"
+    }
+  ]
+}

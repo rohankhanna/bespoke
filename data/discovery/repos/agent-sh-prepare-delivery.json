@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:24:25.844746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3132
+    },
+    {
+      "path": "package.json",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pre-ship quality gates - deslop, simplify, review loop, delivery validation, docs sync",
+    "fork": false,
+    "full_name": "agent-sh/prepare-delivery",
+    "html_url": "https://github.com/agent-sh/prepare-delivery",
+    "language": null,
+    "pushed_at": "2026-04-15T09:02:53Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-15T09:02:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

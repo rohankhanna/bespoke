@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "sovereign-labs/rollup-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "embarkstudios/rust-ecosystem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "sovereign-labs/reltester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "paradigmxyz/reth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_promote.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_promote.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "slackapi/slack-github-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance_test_promote.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Promote to Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_trigger.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance_test_trigger.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Trigger Acceptance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease_checks.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease_checks.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Pre-release checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "namespacelabs/nscloud-cache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "taiki-e/install-action@cargo-deny",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stainless.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stainless.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "stainless-api/upload-openapi-spec-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stainless.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "Stainless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typescript.ci.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "CI (TypeScript)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "modular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "optimistic-rollup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "sovereign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "verifiable-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sovereign-Labs/sovereign-sdk",
+      "target": "zk-rollup",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "Sovereign-Labs/sovereign-sdk"
+}

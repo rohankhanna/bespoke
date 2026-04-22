@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "close-issues"
+    "close-issues",
+    "Close Issues",
+    "Close issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +21,30 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate-context",
       "text": "close-issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Close Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate-context",
+      "text": "'Close issues'"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +53,57 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate",
       "text": "close-issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Close Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "'Close issues'"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11833,
+      "status": "candidate",
+      "text": "africa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11833,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11833,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11833,
+      "status": "candidate",
+      "text": "concerns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11833,
+      "status": "candidate",
+      "text": "doublet"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "close-issues",
   "concept_id": "close-issues",
@@ -40,11 +114,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/close-issues.yml",
       "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "jestjs/jest"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

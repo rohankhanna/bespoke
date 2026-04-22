@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moretension/duti",
+      "target": "tsonglew/dutis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti",
+      "target": "Makefile CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:09.349847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2778
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command-line tool to select default applications for document types and URL schemes on Mac OS X",
+    "fork": false,
+    "full_name": "moretension/duti",
+    "html_url": "https://github.com/moretension/duti",
+    "language": "C",
+    "pushed_at": "2023-07-09T11:57:53Z",
+    "stargazers_count": 1946,
+    "topics": [],
+    "updated_at": "2026-04-21T10:56:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsonglew/dutis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    }
+  ]
+}

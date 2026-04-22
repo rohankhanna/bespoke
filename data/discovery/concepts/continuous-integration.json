@@ -83,6 +83,66 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "Chinese tokenizer for tantivy, based on jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Easily run your Compose application to the cloud with compose-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "Create a JavaScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "The tool for managing conda-forge feedstocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate-context",
+      "text": "Overview"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +175,36 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DCjanus/cang-jie",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-archive/compose-cli",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-smithy",
+      "status": "candidate",
+      "text": "Overview"
     }
   ],
   "candidate_related_terms": [
@@ -206,11 +296,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Builditluc/wiki-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DCjanus/cang-jie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-smithy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

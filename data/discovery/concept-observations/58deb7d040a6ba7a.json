@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Menu Utilities for Desktop Applications in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Menu Utilities library for Desktop Applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Menu Utilities library for Desktop Applications."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919330,
+      "status": "candidate",
+      "text": "windowpane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919725,
+      "status": "candidate",
+      "text": "glazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919724,
+      "status": "candidate",
+      "text": "loop-window"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919723,
+      "status": "candidate",
+      "text": "windowframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919722,
+      "status": "candidate",
+      "text": "bay window"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windowing",
+      "sense_id": "windowing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windowing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windowing",
+  "observation_id": "58deb7d040a6ba7a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "windowing",
+  "source_context_snippet": "Menu Utilities library for Desktop Applications.",
+  "source_file": null,
+  "source_repo": "tauri-apps/muda",
+  "source_repo_description": "Menu Utilities for Desktop Applications in Rust."
+}

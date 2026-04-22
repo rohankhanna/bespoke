@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WASM binding to jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-segmenter",
+      "sense_id": "chinese-segmenter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-segmenter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-segmenter",
+  "observation_id": "15429fb80d08e382",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "chinese-segmenter",
+  "source_context_snippet": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding",
+  "source_file": null,
+  "source_repo": "fengkx/jieba-wasm",
+  "source_repo_description": "WASM binding to jieba-rs"
+}

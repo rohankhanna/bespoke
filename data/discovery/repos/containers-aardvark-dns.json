@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/aardvark-dns",
+      "target": "containers/netavark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/aardvark-dns",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/aardvark-dns",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/aardvark-dns",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/aardvark-dns",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/aardvark-dns",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "coredns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "dns-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "dnsmasq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "name-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/aardvark-dns",
+      "target": "nameserver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:18.073669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1397
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Authoritative dns server for A/AAAA container records. Forwards other request to host's /etc/resolv.conf",
+    "fork": false,
+    "full_name": "containers/aardvark-dns",
+    "html_url": "https://github.com/containers/aardvark-dns",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T23:11:23Z",
+    "stargazers_count": 262,
+    "topics": [
+      "container",
+      "coredns",
+      "dns",
+      "dns-server",
+      "dnsmasq",
+      "name-resolution",
+      "nameserver"
+    ],
+    "updated_at": "2026-04-15T17:56:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/netavark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coredns"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-server"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnsmasq"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "name-resolution"
+    },
+    {
+      "context_snippet": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nameserver"
+    }
+  ]
+}

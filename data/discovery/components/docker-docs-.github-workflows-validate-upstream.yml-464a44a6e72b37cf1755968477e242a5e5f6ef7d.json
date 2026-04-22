@@ -1,0 +1,12 @@
+{
+  "component": "docker/docs/.github/workflows/validate-upstream.yml@464a44a6e72b37cf1755968477e242a5e5f6ef7d",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-upstream.yml",
+      "source_repo": "docker/compose"
+    }
+  ]
+}

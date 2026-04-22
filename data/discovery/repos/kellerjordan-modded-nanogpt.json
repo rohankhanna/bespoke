@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "karpathy/llm.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "dualverse-ai/station",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "blinkdl/modded-nanogpt-rwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "kellerjordan/cifar10-airbench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:22.340652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48275
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1193
+    },
+    {
+      "path": "requirements.txt",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NanoGPT (124M) in 2 minutes",
+    "fork": false,
+    "full_name": "KellerJordan/modded-nanogpt",
+    "html_url": "https://github.com/KellerJordan/modded-nanogpt",
+    "language": "Python",
+    "pushed_at": "2026-04-20T18:05:51Z",
+    "stargazers_count": 5110,
+    "topics": [],
+    "updated_at": "2026-04-21T14:05:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/modded-nanogpt-rwkv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dualverse-ai/station",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/llm.c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kellerjordan/cifar10-airbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

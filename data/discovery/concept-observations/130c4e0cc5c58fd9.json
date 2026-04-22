@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integration Tests Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integration Tests Reusable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25952,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19384,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11274,
+      "status": "candidate",
+      "text": "horse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11274,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11274,
+      "status": "candidate",
+      "text": "perianth"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration Tests Reusable",
+      "sense_id": "integration-tests-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-tests-reusable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-tests-reusable",
+  "observation_id": "130c4e0cc5c58fd9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Integration Tests Reusable",
+  "source_context_snippet": "Integration Tests Reusable",
+  "source_file": ".github/workflows/integration_tests_reusable.yml",
+  "source_repo": "vercel/next.js",
+  "source_repo_description": "The React Framework"
+}

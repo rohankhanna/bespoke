@@ -175,6 +175,138 @@
       "source_repo": "BonsaiDen/cursive_table_view",
       "status": "candidate-context",
       "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "simple terminal UI for git commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "A cross-platform, OpenGL terminal emulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "Terminal based presentation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "Slides in your terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate-context",
+      "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "A simple, fast and user-friendly alternative to 'find'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "The configuration framework for Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atanunq/viu",
+      "status": "candidate-context",
+      "text": "Terminal image viewer with native support for iTerm and Kitty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate-context",
+      "text": "- [Description](#description)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfa\ud83d\uddff Terminal graphics for the 21st century."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate-context",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +393,72 @@
       "source_repo": "BonsaiDen/cursive_table_view",
       "status": "candidate",
       "text": "[![cursive-table-view on crates.io][cratesio-image]][cratesio]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jesseduffield/lazygit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate",
+      "text": "Slides in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kovidgoyal/kitty",
+      "status": "candidate",
+      "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/fd",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atanunq/viu",
+      "status": "candidate",
+      "text": "- [Description](#description)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpjansson/chafa",
+      "status": "candidate",
+      "text": "<!-- This file is mostly readable as plain text, but it will look better"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +634,83 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "BonsaiDen/cursive_table_view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "maaslalani/slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "atanunq/viu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hpjansson/chafa"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

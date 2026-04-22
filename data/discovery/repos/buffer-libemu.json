@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:17:07.870012+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "x86 emulation and shellcode detection",
+    "fork": false,
+    "full_name": "buffer/libemu",
+    "html_url": "https://github.com/buffer/libemu",
+    "language": "C",
+    "pushed_at": "2024-03-27T14:28:03Z",
+    "stargazers_count": 154,
+    "topics": [],
+    "updated_at": "2026-04-02T23:23:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

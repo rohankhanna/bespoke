@@ -1,0 +1,12 @@
+{
+  "component": "JamesIves/github-sponsors-readme-action@2fd9142e765f755780202122261dc85e78459405",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "jesseduffield/lazygit"
+    }
+  ]
+}

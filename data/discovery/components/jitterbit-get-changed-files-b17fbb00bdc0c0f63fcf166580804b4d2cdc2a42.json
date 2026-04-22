@@ -1,0 +1,17 @@
+{
+  "component": "jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommits_check.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ]
+}

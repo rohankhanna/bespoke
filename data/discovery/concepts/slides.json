@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "slides"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "Terminal based presentation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate-context",
+      "text": "Slides in your terminal."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maaslalani/slides",
+      "status": "candidate",
+      "text": "Slides in your terminal."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051072,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050140,
+      "status": "candidate",
+      "text": "slither"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049877,
+      "status": "candidate",
+      "text": "swoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049705,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049404,
+      "status": "candidate",
+      "text": "slue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "slides",
+  "concept_id": "slides",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "maaslalani/slides"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slides",
+      "sense_id": "slides#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

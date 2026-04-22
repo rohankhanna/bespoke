@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integration Tests AMD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integration Tests AMD"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25946,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18456,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14364,
+      "status": "candidate",
+      "text": "ern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14364,
+      "status": "candidate",
+      "text": "erne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14364,
+      "status": "candidate",
+      "text": "luma"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration Tests AMD",
+      "sense_id": "integration-tests-amd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-tests-amd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-tests-amd",
+  "observation_id": "1e56d15faef0b405",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Integration Tests AMD",
+  "source_context_snippet": "Integration Tests AMD",
+  "source_file": ".github/workflows/integration-tests-amd.yml",
+  "source_repo": "triton-lang/triton",
+  "source_repo_description": "Development repository for the Triton language and compiler"
+}

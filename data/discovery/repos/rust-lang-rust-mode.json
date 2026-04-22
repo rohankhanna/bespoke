@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "bbatsov/prelude",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "emacs-rustic/rustic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "brotzeit/rustic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "ayrat555/cargo-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-lang/rust-mode",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:09:08.722626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8600
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs configuration for Rust",
+    "fork": false,
+    "full_name": "rust-lang/rust-mode",
+    "html_url": "https://github.com/rust-lang/rust-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-16T05:05:04Z",
+    "stargazers_count": 1242,
+    "topics": [],
+    "updated_at": "2026-04-21T21:26:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayrat555/cargo-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/prelude",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brotzeit/rustic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-rustic/rustic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

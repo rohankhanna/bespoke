@@ -45,6 +45,42 @@
       "source_repo": "rust-lang/rust-analyzer",
       "status": "candidate-context",
       "text": "metrics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability \ud83d\udd2d\u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate-context",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate-context",
+      "text": "OpenTelemetry JavaScript Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Your window into all of your data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate-context",
+      "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
     }
   ],
   "candidate_glosses": [
@@ -65,6 +101,24 @@
       "source_repo": "rust-lang/rust-analyzer",
       "status": "candidate",
       "text": "metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-observability",
+      "status": "candidate",
+      "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/kibana",
+      "status": "candidate",
+      "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +180,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/metrics.yaml",
       "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-observability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "elastic/kibana"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

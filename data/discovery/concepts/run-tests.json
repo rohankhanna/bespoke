@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Run Tests",
-    "Run tests"
+    "Run tests",
+    "run tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,54 @@
       "source_repo": "golang/mock",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgl/re-engine-RE2",
+      "status": "candidate-context",
+      "text": "re::engine::RE2 - RE2 regexp engine interface for Perl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgl/re-engine-RE2",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Launcher for Invoke Community Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "The Jieba Chinese Word Segmentation Implemented in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate-context",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hauntsaninja/mypy_primer",
+      "status": "candidate-context",
+      "text": "Run Python type checkers over millions of lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy_primer",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +165,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "golang/mock",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgl/re-engine-RE2",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryoung/jieba-php",
+      "status": "candidate",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hauntsaninja/mypy_primer",
       "status": "candidate",
       "text": "Run tests"
     }
@@ -197,11 +270,41 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "golang/mock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dgl/re-engine-RE2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "binaryoung/jieba-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hauntsaninja/mypy_primer"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

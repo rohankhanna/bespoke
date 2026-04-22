@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible toolkit for building real-time blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger Acceptance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger Acceptance Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26165,
+      "status": "candidate",
+      "text": "subscription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17889,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17848,
+      "status": "candidate",
+      "text": "blood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17848,
+      "status": "candidate",
+      "text": "try"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Acceptance Tests",
+      "sense_id": "trigger-acceptance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-acceptance-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-acceptance-tests",
+  "observation_id": "7124b05a4e1a5efd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Trigger Acceptance Tests",
+  "source_context_snippet": "Trigger Acceptance Tests",
+  "source_file": ".github/workflows/acceptance_test_trigger.yml",
+  "source_repo": "Sovereign-Labs/sovereign-sdk",
+  "source_repo_description": "A flexible toolkit for building real-time blockchains"
+}

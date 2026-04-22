@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "karpathy/llm.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "dualverse-ai/station",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "blinkdl/modded-nanogpt-rwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/modded-nanogpt",
+      "target": "kellerjordan/cifar10-airbench",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "KellerJordan/modded-nanogpt"
+}

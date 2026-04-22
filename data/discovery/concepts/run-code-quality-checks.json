@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run code quality checks"
+    "Run code quality checks",
+    "Run Code Quality Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Birch-san/diffusers",
       "status": "candidate-context",
       "text": "Run code quality checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Launcher for Invoke Community Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate-context",
+      "text": "Run Code Quality Checks"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Birch-san/diffusers",
       "status": "candidate",
       "text": "Run code quality checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invoke-ai/launcher",
+      "status": "candidate",
+      "text": "Run Code Quality Checks"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/pr_quality.yml",
       "source_repo": "Birch-san/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "invoke-ai/launcher"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

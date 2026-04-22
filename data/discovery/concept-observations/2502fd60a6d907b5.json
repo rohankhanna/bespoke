@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972293,
+      "status": "candidate",
+      "text": "imbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938951,
+      "status": "candidate",
+      "text": "implant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857976,
+      "status": "candidate",
+      "text": "engraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805240,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991097,
+      "status": "candidate",
+      "text": "bury"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embed",
+      "sense_id": "embed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18025,
+      "status": "candidate",
+      "text": "engraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8030,
+      "status": "candidate",
+      "text": "imbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5048,
+      "status": "candidate",
+      "text": "implant"
+    }
+  ],
+  "concept_id": "embed",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embed",
+  "observation_id": "2502fd60a6d907b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "embed",
+  "source_context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+  "source_file": null,
+  "source_repo": "akavel/rsrc",
+  "source_repo_description": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+}

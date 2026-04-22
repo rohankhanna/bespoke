@@ -1,0 +1,12 @@
+{
+  "component": "actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown_linter.yml",
+      "source_repo": "dart-lang/build"
+    }
+  ]
+}

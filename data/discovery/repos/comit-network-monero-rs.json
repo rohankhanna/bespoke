@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comit-network/monero-rs",
+      "target": "monero-rs/monero-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comit-network/monero-rs",
+      "target": "rust-secure-code/safety-dance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "comit-network/monero-rs",
+      "target": "monero-rs/monero-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "comit-network/monero-rs",
+      "target": "comit-network/hash_edwards_to_edwards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/monero-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/monero-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "comit-network/monero-rs",
+      "target": "Swatinem/rust-cache@v1.2.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:08:09.193043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2214
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust Monero Library",
+    "fork": true,
+    "full_name": "comit-network/monero-rs",
+    "html_url": "https://github.com/comit-network/monero-rs",
+    "language": "Rust",
+    "pushed_at": "2023-05-15T10:58:04Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-06-06T16:44:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monero-rs/monero-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-secure-code/safety-dance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comit-network/hash_edwards_to_edwards",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monero-rs/monero-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

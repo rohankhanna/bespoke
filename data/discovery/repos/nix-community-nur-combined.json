@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@56a7bb7b56d9a92d4fd1bc05758de7eea4a370a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "CasperWA/push-protected@74d25b8aa10e0c29024138735d32f3c0b75f9279",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "cachix/install-nix-action@56a7bb7b56d9a92d4fd1bc05758de7eea4a370a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "CasperWA/push-protected@74d25b8aa10e0c29024138735d32f3c0b75f9279",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "nix-community/nur-combined",
+      "target": "Update NUR-combined",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:17:59.824945+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository of NUR that combines all repositories [maintainer=@Mic92] ",
+    "fork": false,
+    "full_name": "nix-community/nur-combined",
+    "html_url": "https://github.com/nix-community/nur-combined",
+    "language": "Nix",
+    "pushed_at": "2026-04-22T00:52:00Z",
+    "stargazers_count": 189,
+    "topics": [
+      "nur"
+    ],
+    "updated_at": "2026-04-22T00:52:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update NUR-combined",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update NUR-combined"
+    }
+  ]
+}

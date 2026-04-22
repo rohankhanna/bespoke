@@ -19,6 +19,30 @@
       "source_repo": "coaidev/blob-service",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csznet/tgState",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528Telegram\u4f5c\u4e3a\u5b58\u50a8\u7684\u6587\u4ef6\u5916\u94fe\u7cfb\u7edf\uff0c\u4e0d\u9650\u5236\u6587\u4ef6\u5927\u5c0f\u548c\u683c\u5f0f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csznet/tgState",
+      "status": "candidate-context",
+      "text": "tgState"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "Container Storage Interface (CSI) Specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "![CSI Logo](logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "coaidev/blob-service",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csznet/tgState",
+      "status": "candidate",
+      "text": "tgState"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate",
+      "text": "![CSI Logo](logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "csznet/tgState"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "container-storage-interface/spec"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

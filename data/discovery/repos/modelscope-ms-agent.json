@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/ms-agent",
-      "target": "akfamily/akshare",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/ms-agent",
       "target": "modelscope/ms-enclave",
       "target_type": "repository"
     },
@@ -46,13 +39,6 @@
       "source_file": "README.md",
       "source_repo": "modelscope/ms-agent",
       "target": "modelscope/modelscope-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/ms-agent",
-      "target": "modelscope/modelscope",
       "target_type": "repository"
     },
     {
@@ -154,7 +140,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:28:18.802772+00:00",
+  "fetched_at": "2026-04-22T01:04:57.229746+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -187,7 +173,7 @@
     "html_url": "https://github.com/modelscope/ms-agent",
     "language": "Python",
     "pushed_at": "2026-04-15T06:21:35Z",
-    "stargazers_count": 4182,
+    "stargazers_count": 4183,
     "topics": [
       "agentic-insight",
       "agentic-search",
@@ -196,19 +182,9 @@
       "deep-research",
       "memory"
     ],
-    "updated_at": "2026-04-21T08:49:55Z"
+    "updated_at": "2026-04-21T13:04:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "akfamily/akshare",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/modelscope",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "modelscope/modelscope-agent",

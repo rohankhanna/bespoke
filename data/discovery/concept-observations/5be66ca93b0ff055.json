@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kotlin code completion, diagnostics and more for any editor/IDE using the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010813,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993168,
+      "status": "candidate",
+      "text": "molecule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930310,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39866330,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020652,
+      "status": "candidate",
+      "text": "atomic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atom",
+      "sense_id": "atom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18042,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11036,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1062,
+      "status": "candidate",
+      "text": "molecule"
+    }
+  ],
+  "concept_id": "atom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "atom",
+  "observation_id": "5be66ca93b0ff055",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "atom",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "fwcd/kotlin-language-server",
+  "source_repo_description": "Kotlin code completion, diagnostics and more for any editor/IDE using the Language Server Protocol"
+}

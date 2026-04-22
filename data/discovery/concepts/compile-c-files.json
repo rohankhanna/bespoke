@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compile C Files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate-context",
+      "text": "Compile C Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-brownie/brownie",
+      "status": "candidate",
+      "text": "Compile C Files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11218,
+      "status": "candidate",
+      "text": "cataloged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11218,
+      "status": "candidate",
+      "text": "compiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11218,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11218,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11218,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compile C Files",
+  "concept_id": "compile-c-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/compile.yaml",
+      "source_repo": "eth-brownie/brownie"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile C Files",
+      "sense_id": "compile-c-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

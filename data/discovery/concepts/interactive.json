@@ -7,10 +7,88 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "An easy-to-use collection of interactive cli prompts inspired by Inquirer.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate-context",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lutetium-Vanadium/requestty",
+      "status": "candidate",
+      "text": "![RustCI](https://github.com/Lutetium-Vanadium/requestty/workflows/Default/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002101,
+      "status": "candidate",
+      "text": "interactional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000586,
+      "status": "candidate",
+      "text": "synergistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998819,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002880,
+      "status": "candidate",
+      "text": "interaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001683,
+      "status": "candidate",
+      "text": "interplay"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "synergistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "interactional"
+    }
+  ],
   "canonical_name": "interactive",
   "concept_id": "interactive",
   "definition_status": "unresolved",
@@ -20,12 +98,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "vadimdemedes/ink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Lutetium-Vanadium/requestty"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

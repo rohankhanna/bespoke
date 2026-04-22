@@ -91,6 +91,30 @@
       "source_repo": "agent-sh/next-task",
       "status": "candidate-context",
       "text": "Claude Code - @mentions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate-context",
+      "text": "Claude Code - @mentions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "Complete PR workflow from commit to production with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "Claude Code - @mentions"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +157,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agent-sh/next-task",
+      "status": "candidate",
+      "text": "Claude Code - @mentions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/perf",
+      "status": "candidate",
+      "text": "Claude Code - @mentions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
       "status": "candidate",
       "text": "Claude Code - @mentions"
     }
@@ -220,11 +256,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "agent-sh/next-task"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/perf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/ship"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

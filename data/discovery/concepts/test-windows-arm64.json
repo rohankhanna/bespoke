@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Windows ARM64"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "Delve is a debugger for the Go programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate-context",
+      "text": "Test Windows ARM64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-delve/delve",
+      "status": "candidate",
+      "text": "Test Windows ARM64"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11578,
+      "status": "candidate",
+      "text": "van"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Windows ARM64",
+  "concept_id": "test-windows-arm64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test-windows-arm64.yml",
+      "source_repo": "go-delve/delve"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Windows ARM64",
+      "sense_id": "test-windows-arm64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

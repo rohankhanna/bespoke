@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "relayjs/relay-examples",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "relayjs/relay-examples",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:47.695876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of sample Relay applications",
+    "fork": false,
+    "full_name": "relayjs/relay-examples",
+    "html_url": "https://github.com/relayjs/relay-examples",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-06T01:29:42Z",
+    "stargazers_count": 1156,
+    "topics": [],
+    "updated_at": "2026-04-12T23:33:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

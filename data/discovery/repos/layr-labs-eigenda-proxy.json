@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml"
+    },
+    {
+      "component": "Layr-Labs/security-shared-workflows/actions/codeql-scans@418d735c1c4e5cc650c8addaeb8909b36b9dca27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "layr-labs/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "ethereum-optimism/optimism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "Layr-Labs/security-shared-workflows/actions/codeql-scans@418d735c1c4e5cc650c8addaeb8909b36b9dca27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "codeql-scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-ghcr.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "Layr-Labs/eigenda-proxy",
+      "target": "Release Drafter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:24.685176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24723
+    },
+    {
+      "path": "Dockerfile",
+      "size": 795
+    },
+    {
+      "path": "go.mod",
+      "size": 9715
+    },
+    {
+      "path": ".github/workflows/codeql-scanning.yml",
+      "size": 868
+    },
+    {
+      "path": ".github/workflows/per-pr.yml",
+      "size": 5049
+    },
+    {
+      "path": ".github/workflows/push-ghcr.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 1452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Secure and optimized communication layer for rollups using EigenDA. ",
+    "fork": false,
+    "full_name": "Layr-Labs/eigenda-proxy",
+    "html_url": "https://github.com/Layr-Labs/eigenda-proxy",
+    "language": "Go",
+    "pushed_at": "2025-07-23T14:28:33Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-07-23T14:29:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/optimism",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/specs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/optimism",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/optimism",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"codeql-scanning\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-scanning.yml",
+      "term": "codeql-scanning"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:25:04.918094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an API and runtime environment for data processing with MapReduce for shared-memory multi-core & multiprocessor systems.",
+    "fork": false,
+    "full_name": "kozyraki/phoenix",
+    "html_url": "https://github.com/kozyraki/phoenix",
+    "language": "C",
+    "pushed_at": "2024-04-12T09:38:47Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-01-14T08:56:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "How to use libp2p pubsub in browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Semantic PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Semantic PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11465,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10375,
+      "status": "candidate",
+      "text": "antonym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "diminutive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic PR",
+      "sense_id": "semantic-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semantic-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semantic-pr",
+  "observation_id": "9e40693469f48045",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Semantic PR",
+  "source_context_snippet": "Semantic PR",
+  "source_file": ".github/workflows/semantic-pull-request.yml",
+  "source_repo": "libp2p/js-libp2p-example-browser-pubsub",
+  "source_repo_description": "How to use libp2p pubsub in browsers"
+}

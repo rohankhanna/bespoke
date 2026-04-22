@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fork of rust-lang/cc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Regenerate target info"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Regenerate target info"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "query"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "querying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "relevance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regenerate target info",
+      "sense_id": "regenerate-target-info#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regenerate-target-info",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regenerate-target-info",
+  "observation_id": "af2ea8451686e67d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Regenerate target info",
+  "source_context_snippet": "Regenerate target info",
+  "source_file": ".github/workflows/regenerate-target-info.yml",
+  "source_repo": "alexcrichton/cc-rs",
+  "source_repo_description": "Fork of rust-lang/cc-rs"
+}

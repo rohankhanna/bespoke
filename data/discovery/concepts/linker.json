@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "linker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982969,
+      "status": "candidate",
+      "text": "linkage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980117,
+      "status": "candidate",
+      "text": "conjunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972629,
+      "status": "candidate",
+      "text": "focal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971636,
+      "status": "candidate",
+      "text": "liaison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970340,
+      "status": "candidate",
+      "text": "cleavable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "linker",
+  "concept_id": "linker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rsrc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linker",
+      "sense_id": "linker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

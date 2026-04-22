@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "minimal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate-context",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/pure",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022007,
+      "status": "candidate",
+      "text": "minimum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014287,
+      "status": "candidate",
+      "text": "negligible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013084,
+      "status": "candidate",
+      "text": "stripped-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000016,
+      "status": "candidate",
+      "text": "borderline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966068,
+      "status": "candidate",
+      "text": "tokenish"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26033,
+      "status": "candidate",
+      "text": "negligible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23051,
+      "status": "candidate",
+      "text": "nominal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "marginal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18058,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9032,
+      "status": "candidate",
+      "text": "borderline"
+    }
+  ],
+  "canonical_name": "minimal",
+  "concept_id": "minimal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/pure"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minimal",
+      "sense_id": "minimal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,12 +19,30 @@
       "source_repo": "google/re2",
       "status": "candidate-context",
       "text": "Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pop-os/cosmic-text",
+      "status": "candidate-context",
+      "text": "Pure Rust multi-line text handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pop-os/cosmic-text",
+      "status": "candidate-context",
+      "text": "Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "google/re2",
+      "status": "candidate",
+      "text": "Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pop-os/cosmic-text",
       "status": "candidate",
       "text": "Pages"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "google/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pop-os/cosmic-text"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

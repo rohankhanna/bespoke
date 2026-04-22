@@ -1,0 +1,17 @@
+{
+  "component": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/undici"
+    }
+  ]
+}

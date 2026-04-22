@@ -1,0 +1,12 @@
+{
+  "component": "cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "stanfordnlp/dspy"
+    }
+  ]
+}

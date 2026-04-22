@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libc-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libc-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Bazel Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Build CI Tooling Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Build Windows CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Build CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Build libc Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Build Metrics Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "llvm/llvm-project",
+      "target": "Check CI Scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:04.222819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2243
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 60
+    },
+    {
+      "path": ".github/workflows/bazel-checks.yml",
+      "size": 2633
+    },
+    {
+      "path": ".github/workflows/build-ci-container-tooling.yml",
+      "size": 2862
+    },
+    {
+      "path": ".github/workflows/build-ci-container-windows.yml",
+      "size": 3087
+    },
+    {
+      "path": ".github/workflows/build-ci-container.yml",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/build-libc-container.yml",
+      "size": 1650
+    },
+    {
+      "path": ".github/workflows/build-metrics-container.yml",
+      "size": 1477
+    },
+    {
+      "path": ".github/workflows/check-ci.yml",
+      "size": 1038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+    "fork": false,
+    "full_name": "llvm/llvm-project",
+    "html_url": "https://github.com/llvm/llvm-project",
+    "language": "LLVM",
+    "pushed_at": "2026-04-22T01:15:55Z",
+    "stargazers_count": 37977,
+    "topics": [],
+    "updated_at": "2026-04-22T01:16:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bazel Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "term": "Bazel Checks"
+    },
+    {
+      "context_snippet": "Build CI Tooling Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "term": "Build CI Tooling Containers"
+    },
+    {
+      "context_snippet": "Build Windows CI Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "term": "Build Windows CI Container"
+    },
+    {
+      "context_snippet": "Build CI Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "term": "Build CI Container"
+    },
+    {
+      "context_snippet": "Build libc Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "term": "Build libc Container"
+    },
+    {
+      "context_snippet": "Build Metrics Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "term": "Build Metrics Container"
+    },
+    {
+      "context_snippet": "Check CI Scripts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ci.yml",
+      "term": "Check CI Scripts"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Training and inference on AWS Trainium and Inferentia chips."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Optimum neuron LLM inference cache builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Optimum neuron LLM inference cache builder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42602,
+      "status": "candidate",
+      "text": "fines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42602,
+      "status": "candidate",
+      "text": "heavy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31558,
+      "status": "candidate",
+      "text": "ell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30452,
+      "status": "candidate",
+      "text": "lots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30371,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Optimum neuron LLM inference cache builder",
+      "sense_id": "optimum-neuron-llm-inference-cache-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimum-neuron-llm-inference-cache-builder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimum-neuron-llm-inference-cache-builder",
+  "observation_id": "402334ecbaf8f4be",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Optimum neuron LLM inference cache builder",
+  "source_context_snippet": "Optimum neuron LLM inference cache builder",
+  "source_file": ".github/workflows/cache_llm.yml",
+  "source_repo": "huggingface/optimum-neuron",
+  "source_repo_description": "Training and inference on AWS Trainium and Inferentia chips."
+}

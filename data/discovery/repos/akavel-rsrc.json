@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "akavel/rsrc",
+      "target": "tc-hib/go-winres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "embed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "ico-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rsrc",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:24:15.920041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 1747
+    },
+    {
+      "path": "go.mod",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool for embedding .ico & manifest resources in Go programs for Windows.",
+    "fork": false,
+    "full_name": "akavel/rsrc",
+    "html_url": "https://github.com/akavel/rsrc",
+    "language": "Go",
+    "pushed_at": "2023-05-12T18:51:10Z",
+    "stargazers_count": 1359,
+    "topics": [
+      "embed",
+      "go",
+      "ico",
+      "ico-files",
+      "icon",
+      "linker",
+      "manifest",
+      "stable",
+      "windows"
+    ],
+    "updated_at": "2026-04-20T14:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc-hib/go-winres",
+      "source_file": "README.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embed"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ico-files"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linker"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifest"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable"
+    },
+    {
+      "context_snippet": "rsrc - Tool for embedding binary resources in Go programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

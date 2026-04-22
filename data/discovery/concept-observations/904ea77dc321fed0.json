@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893998,
+      "status": "candidate",
+      "text": "elfish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893991,
+      "status": "candidate",
+      "text": "elfin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805637,
+      "status": "candidate",
+      "text": "playful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19894006,
+      "status": "candidate",
+      "text": "elven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19894005,
+      "status": "candidate",
+      "text": "elfen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elvish",
+      "sense_id": "elvish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37031,
+      "status": "candidate",
+      "text": "playful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "elfin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "elfish"
+    }
+  ],
+  "concept_id": "elvish",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elvish",
+  "observation_id": "904ea77dc321fed0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "elvish",
+  "source_context_snippet": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026",
+  "source_file": null,
+  "source_repo": "asdf-vm/asdf",
+  "source_repo_description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+}

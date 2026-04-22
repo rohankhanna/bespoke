@@ -142,6 +142,78 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "\u201cZero setup\u201d cross compilation and \u201ccross testing\u201d of Rust crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "A node.js version management utility for Windows. Ironically written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "A cross-platform, OpenGL terminal emulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "Disk Usage/Free Utility - a better 'df' alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate-context",
+      "text": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate-context",
+      "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
     }
   ],
   "candidate_glosses": [
@@ -210,6 +282,42 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cross-rs/cross",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/nvm-windows",
+      "status": "candidate",
+      "text": "<div align=\"center\"><h2>We are working full time on Author, including <a href=\"https://github.com/coreybutler/nvm-windows/wiki/Runtime\">Runtime</a>, the successor to NVM for Windows.</h2>Complete <a href=\"https://t.co/oGqQCM9FPx\">this form</a> to provide your thoughts and sign u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/alacritty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muesli/duf",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/winget-cli",
+      "status": "candidate",
+      "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
     }
   ],
   "candidate_related_terms": [
@@ -337,11 +445,47 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rsrc"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

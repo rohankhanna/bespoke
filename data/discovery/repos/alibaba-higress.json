@@ -1,0 +1,878 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-wasm-plugin-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml"
+    },
+    {
+      "component": "go-choppy/ossutil-github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "go-choppy/ossutil-github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "stefanprodan/kube-tools@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    },
+    {
+      "component": "go-choppy/ossutil-github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/higress",
+      "target": "apache/dubbo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/higress",
+      "target": "alibaba/nacos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/higress",
+      "target": "alibaba/sentinel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/higress",
+      "target": "higress-group/higress-console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "source_repo": "alibaba/higress",
+      "target": "Build Plugin Server Image and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-wasm-plugin-image.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-wasm-plugin-image.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "Build and Push Wasm Plugin Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "Build and Test Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image-and-push.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "go-choppy/ossutil-github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "Deploy Standalone to OSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "go-choppy/ossutil-github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "stefanprodan/kube-tools@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "source_repo": "alibaba/higress",
+      "target": "Deploy Artifacts to OSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/higress",
+      "target": "ai-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/higress",
+      "target": "ai-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/higress",
+      "target": "api-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/higress",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/higress",
+      "target": "envoy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:15:45.808564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12114
+    },
+    {
+      "path": "go.mod",
+      "size": 14628
+    },
+    {
+      "path": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "size": 3481
+    },
+    {
+      "path": ".github/workflows/build-and-push-wasm-plugin-image.yaml",
+      "size": 6242
+    },
+    {
+      "path": ".github/workflows/build-and-test-plugin.yaml",
+      "size": 2449
+    },
+    {
+      "path": ".github/workflows/build-and-test.yaml",
+      "size": 3961
+    },
+    {
+      "path": ".github/workflows/build-image-and-push.yaml",
+      "size": 8114
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yaml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/deploy-to-oss.yaml",
+      "size": 2160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 AI Gateway | AI Native API Gateway",
+    "fork": false,
+    "full_name": "alibaba/higress",
+    "html_url": "https://github.com/alibaba/higress",
+    "language": "Go",
+    "pushed_at": "2026-04-21T06:50:24Z",
+    "stargazers_count": 8209,
+    "topics": [
+      "ai-gateway",
+      "ai-native",
+      "api-gateway",
+      "cloud-native",
+      "envoy"
+    ],
+    "updated_at": "2026-04-22T00:55:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/nacos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/sentinel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/dubbo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "higress-group/higress-console",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Plugin Server Image and Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-plugin-server-image.yml",
+      "term": "Build Plugin Server Image and Push"
+    },
+    {
+      "context_snippet": "Build and Push Wasm Plugin Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-wasm-plugin-image.yaml",
+      "term": "Build and Push Wasm Plugin Image"
+    },
+    {
+      "context_snippet": "\"Build and Test Plugins\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-plugin.yaml",
+      "term": "Build and Test Plugins"
+    },
+    {
+      "context_snippet": "\"Build and Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy Standalone to OSS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-standalone-to-oss.yaml",
+      "term": "Deploy Standalone to OSS"
+    },
+    {
+      "context_snippet": "Deploy Artifacts to OSS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-oss.yaml",
+      "term": "Deploy Artifacts to OSS"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-gateway"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-native"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-gateway"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build AutoAWQ Wheels with CUDA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate-context",
+      "text": "AutoAWQ implements the AWQ algorithm for 4-bit quantization with a 2x speedup during inference. Documentation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate-context",
+      "text": "Build AutoAWQ Wheels with CUDA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate",
+      "text": "Build AutoAWQ Wheels with CUDA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "aircraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "airstrip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "blockhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "boeing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build AutoAWQ Wheels with CUDA",
+  "concept_id": "build-autoawq-wheels-with-cuda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "casper-hansen/AutoAWQ"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build AutoAWQ Wheels with CUDA",
+      "sense_id": "build-autoawq-wheels-with-cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

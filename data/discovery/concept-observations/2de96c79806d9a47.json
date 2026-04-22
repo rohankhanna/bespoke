@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile-development",
+      "sense_id": "mobile-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mobile-development",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mobile-development",
+  "observation_id": "2de96c79806d9a47",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "mobile-development",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "ipfs-shipyard/gomobile-ipfs",
+  "source_repo_description": "[Archived old experiment] IPFS and libp2p on Mobile, with Gomobile. See https://docs.ipfs.tech/concepts/ipfs-implementations/ instead."
+}

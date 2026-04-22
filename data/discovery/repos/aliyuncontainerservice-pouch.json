@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "alibaba/dragonfly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "isolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:43.476017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6312
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Efficient Enterprise-class Container Engine",
+    "fork": false,
+    "full_name": "AliyunContainerService/pouch",
+    "html_url": "https://github.com/AliyunContainerService/pouch",
+    "language": "Go",
+    "pushed_at": "2024-08-22T02:06:07Z",
+    "stargazers_count": 4653,
+    "topics": [
+      "cloud-native",
+      "containers",
+      "efficiency",
+      "go",
+      "isolation",
+      "kubernetes",
+      "oci",
+      "package",
+      "security"
+    ],
+    "updated_at": "2026-04-21T02:09:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/dragonfly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isolation"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

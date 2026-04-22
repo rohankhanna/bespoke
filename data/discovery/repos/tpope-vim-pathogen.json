@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:13:59.194984+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pathogen.vim: manage your runtimepath",
+    "fork": false,
+    "full_name": "tpope/vim-pathogen",
+    "html_url": "https://github.com/tpope/vim-pathogen",
+    "language": "Vim Script",
+    "pushed_at": "2022-08-24T17:21:16Z",
+    "stargazers_count": 12133,
+    "topics": [],
+    "updated_at": "2026-04-19T14:11:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

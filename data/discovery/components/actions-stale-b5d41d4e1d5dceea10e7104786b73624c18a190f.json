@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale-issues.yml",
       "source_repo": "Homebrew/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-stale-label.yaml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ticket-management.yaml",
+      "source_repo": "spotbugs/spotbugs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/http"
     }
   ]
 }

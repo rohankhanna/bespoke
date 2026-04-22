@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -256,6 +256,86 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/cosign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gitpython-developers/GitPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "alibaba/higress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/javascript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unixorn/lima-xbar-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "golangci/golangci-lint"
     }
   ],
   "term": "CodeQL"

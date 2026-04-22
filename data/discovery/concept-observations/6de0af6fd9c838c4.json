@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "How to use Circuit Relay to connect two nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pull"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pull"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046173,
+      "status": "candidate",
+      "text": "pull in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044319,
+      "status": "candidate",
+      "text": "pluck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041118,
+      "status": "candidate",
+      "text": "wrench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038419,
+      "status": "candidate",
+      "text": "draw in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038089,
+      "status": "candidate",
+      "text": "tear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pull",
+      "sense_id": "pull#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53055,
+      "status": "candidate",
+      "text": "puff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35076,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30070,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26075,
+      "status": "candidate",
+      "text": "drag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "twist"
+    }
+  ],
+  "concept_id": "pull",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull",
+  "observation_id": "6de0af6fd9c838c4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "pull",
+  "source_context_snippet": "pull",
+  "source_file": ".github/workflows/sync.yml",
+  "source_repo": "libp2p/js-libp2p-example-circuit-relay",
+  "source_repo_description": "How to use Circuit Relay to connect two nodes"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1387,6 +1387,216 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "gorhom/react-native-bottom-sheet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google-github-actions/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google-github-actions/release-please-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "transitive-bullshit/agentic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "transitive-bullshit/agentic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-sign.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "invoke-ai/launcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/demo.yaml",
+      "source_repo": "fengkx/jieba-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "fengkx/jieba-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fengkx/jieba-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/anthropic.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-genai-commit.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-genai.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-test.yml",
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main-test.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-graphql-compat-check.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site_lint.yml",
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downport.yml",
+      "source_repo": "abap-ai/mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stainless-api/tsc-multi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-summary.yml",
+      "source_repo": "nanbingxyz/5ire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-ganache.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evm.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functionality.yaml",
+      "source_repo": "eth-brownie/brownie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_freeze.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -422,6 +422,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-example-android.yml",
       "source_repo": "mybigday/llama.rn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_and_deploy.yml",
+      "source_repo": "akfamily/akshare"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stainless-api/tsc-multi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "atanunq/viu"
     }
   ]
 }

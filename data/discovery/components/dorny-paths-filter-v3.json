@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v3",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-anvil-dump.yml",
       "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flash_attention_integration.yaml",
+      "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator0.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator1.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator2.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator3.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator4.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator5.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator6.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-spanner-django3.2_tests_against_emulator7.yml",
+      "source_repo": "googleapis/google-cloud-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-change-tags.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "source_repo": "Layr-Labs/eigensdk-go"
     }
   ]
 }

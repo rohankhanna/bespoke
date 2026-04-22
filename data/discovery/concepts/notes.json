@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "notes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+      "status": "candidate-context",
+      "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426",
+      "status": "candidate",
+      "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049056,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044722,
+      "status": "candidate",
+      "text": "notation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043795,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036842,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035947,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "notes",
+  "concept_id": "notes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Planning-0426"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notes",
+      "sense_id": "notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

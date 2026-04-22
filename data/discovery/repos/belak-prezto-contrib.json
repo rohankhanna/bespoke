@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/prezto-contrib",
+      "target": "sorin-ionescu/prezto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belak/prezto-contrib",
+      "target": "prezto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:21.322588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of additional plugins designed to work easily with prezto",
+    "fork": false,
+    "full_name": "belak/prezto-contrib",
+    "html_url": "https://github.com/belak/prezto-contrib",
+    "language": "Shell",
+    "pushed_at": "2022-10-30T18:21:27Z",
+    "stargazers_count": 126,
+    "topics": [
+      "prezto",
+      "zsh"
+    ],
+    "updated_at": "2026-03-13T17:45:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sorin-ionescu/prezto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Prezto][1] is a configuration framework for zsh aimed at providing better",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prezto"
+    }
+  ]
+}

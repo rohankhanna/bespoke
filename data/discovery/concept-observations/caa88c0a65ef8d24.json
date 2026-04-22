@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ghidra Python Images based on devcontiners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'build-slim-latest'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'build-slim-latest'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-slim-latest",
+      "sense_id": "build-slim-latest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-slim-latest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-slim-latest",
+  "observation_id": "caa88c0a65ef8d24",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "build-slim-latest",
+  "source_context_snippet": "'build-slim-latest'",
+  "source_file": ".github/workflows/build-slim-latest.yaml",
+  "source_repo": "clearbluejar/ghidra-python",
+  "source_repo_description": "Ghidra Python Images based on devcontiners"
+}

@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik",
+      "target": "information",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik",
+      "target": "wikipedia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:21:52.062363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2001
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "wik is use to get information about anything on the shell using Wikipedia.",
+    "fork": false,
+    "full_name": "yashsinghcodes/wik",
+    "html_url": "https://github.com/yashsinghcodes/wik",
+    "language": "Python",
+    "pushed_at": "2026-01-21T21:13:14Z",
+    "stargazers_count": 673,
+    "topics": [
+      "cli",
+      "information",
+      "python",
+      "python3",
+      "wikipedia"
+    ],
+    "updated_at": "2026-04-17T04:35:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "WIK is a command-line tool to view Wikipedia pages from your terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information"
+    },
+    {
+      "context_snippet": "WIK is a command-line tool to view Wikipedia pages from your terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "WIK is a command-line tool to view Wikipedia pages from your terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wikipedia"
+    }
+  ]
+}

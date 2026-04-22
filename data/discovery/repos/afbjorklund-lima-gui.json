@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "tsujan/kvantum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "lxqt/qtermwidget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "raven-worx/qrwemoticons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "lxqt/qterminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "lima-vm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afbjorklund/lima-gui",
+      "target": "qemu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:20:48.125965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Making a GUI for lima VM",
+    "fork": false,
+    "full_name": "afbjorklund/lima-gui",
+    "html_url": "https://github.com/afbjorklund/lima-gui",
+    "language": "C++",
+    "pushed_at": "2026-04-04T07:58:23Z",
+    "stargazers_count": 238,
+    "topics": [
+      "containerd",
+      "lima-vm",
+      "qemu",
+      "qt",
+      "vm"
+    ],
+    "updated_at": "2026-04-18T08:46:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxqt/qterminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxqt/qtermwidget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raven-worx/qrwemoticons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsujan/kvantum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "See <https://lima-vm.io>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    },
+    {
+      "context_snippet": "See <https://lima-vm.io>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lima-vm"
+    },
+    {
+      "context_snippet": "See <https://lima-vm.io>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qemu"
+    }
+  ]
+}

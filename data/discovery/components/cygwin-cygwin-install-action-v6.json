@@ -1,0 +1,12 @@
+{
+  "component": "cygwin/cygwin-install-action@v6",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cygwin-test.yml",
+      "source_repo": "gitpython-developers/GitPython"
+    }
+  ]
+}

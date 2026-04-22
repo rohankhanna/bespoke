@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml",
       "source_repo": "llamastack/llama-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comptests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ethereum/consensus-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ethereum/consensus-specs"
     }
   ]
 }

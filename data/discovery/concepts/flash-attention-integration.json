@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Flash Attention Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "AI Tensor Engine for ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate-context",
+      "text": "Flash Attention Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/aiter",
+      "status": "candidate",
+      "text": "Flash Attention Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18884,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18869,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18860,
+      "status": "candidate",
+      "text": "scintillation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18812,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18812,
+      "status": "candidate",
+      "text": "gun"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Flash Attention Integration",
+  "concept_id": "flash-attention-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/flash_attention_integration.yaml",
+      "source_repo": "ROCm/aiter"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flash Attention Integration",
+      "sense_id": "flash-attention-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

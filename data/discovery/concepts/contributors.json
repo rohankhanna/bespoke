@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "contributors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "\u2728 The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate-context",
+      "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate",
+      "text": "[![\u2728 All Contributors \u2728](src/assets/logo-full.svg)](https://allcontributors.org)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025185,
+      "status": "candidate",
+      "text": "subscriber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "actors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "actual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "affiliates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "aides"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "contributors",
+  "concept_id": "contributors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "contributors",
+      "sense_id": "contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

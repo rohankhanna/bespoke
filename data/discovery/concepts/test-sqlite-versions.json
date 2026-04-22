@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test SQLite versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate-context",
+      "text": "Test SQLite versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/sqlite-utils",
+      "status": "candidate",
+      "text": "Test SQLite versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12324,
+      "status": "candidate",
+      "text": "texts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "interlinear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "variorum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "variorum edition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test SQLite versions",
+  "concept_id": "test-sqlite-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test-sqlite-support.yml",
+      "source_repo": "simonw/sqlite-utils"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test SQLite versions",
+      "sense_id": "test-sqlite-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

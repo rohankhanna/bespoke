@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "tauri-apps/tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gencheck.yml",
+      "source_repo": "elastic/go-elasticsearch"
+    }
+  ],
+  "term": "check generated files"
+}

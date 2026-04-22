@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Depscan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Depscan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Depscan",
+      "sense_id": "depscan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "depscan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "depscan",
+  "observation_id": "4872cbe808ab2d8b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Depscan",
+  "source_context_snippet": "Depscan",
+  "source_file": ".github/workflows/depscan.yml",
+  "source_repo": "kovidgoyal/kitty",
+  "source_repo_description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based."
+}

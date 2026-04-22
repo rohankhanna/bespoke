@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:08:23.005805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7886
+    },
+    {
+      "path": "Dockerfile",
+      "size": 435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent swarming organization system",
+    "fork": false,
+    "full_name": "sentientwave/automata",
+    "html_url": "https://github.com/sentientwave/automata",
+    "language": "Elixir",
+    "pushed_at": "2026-04-17T06:06:34Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-19T06:28:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

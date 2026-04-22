@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "tracy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "Bindings to the Tracy profiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "This repo contains bindings to [Tracy](https://github.com/wolfpld/tracy),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate",
+      "text": "This repo contains bindings to [Tracy](https://github.com/wolfpld/tracy),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18620419,
+      "status": "candidate",
+      "text": "tracey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606649,
+      "status": "candidate",
+      "text": "lidia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18583119,
+      "status": "candidate",
+      "text": "tracie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17157623,
+      "status": "candidate",
+      "text": "fleur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17157188,
+      "status": "candidate",
+      "text": "flower"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tracy",
+  "concept_id": "tracy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "oskarnp/odin-tracy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tracy",
+      "sense_id": "tracy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

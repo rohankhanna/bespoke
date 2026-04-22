@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-pull-request@88ed63ce144f5372efe9f999d8bb224f582d98d9",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sys-update.yml",
+      "source_repo": "nagisa/rust_tracy_client"
+    }
+  ]
+}

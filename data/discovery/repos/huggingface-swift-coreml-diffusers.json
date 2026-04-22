@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/swift-coreml-diffusers",
+      "target": "luchengthu/dpm-solver",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:03.808914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Swift app demonstrating Core ML Stable Diffusion",
+    "fork": false,
+    "full_name": "huggingface/swift-coreml-diffusers",
+    "html_url": "https://github.com/huggingface/swift-coreml-diffusers",
+    "language": "Swift",
+    "pushed_at": "2025-11-06T14:54:04Z",
+    "stargazers_count": 2751,
+    "topics": [],
+    "updated_at": "2026-04-20T04:06:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luchengthu/dpm-solver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

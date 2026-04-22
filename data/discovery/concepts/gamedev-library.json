@@ -19,6 +19,18 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate-context",
       "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate-context",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate",
       "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oskarnp/odin-tracy",
+      "status": "candidate",
+      "text": "Tracy profiler bindings/wrapper for the Odin programming language"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "oskarnp/odin-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

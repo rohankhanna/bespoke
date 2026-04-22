@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python CLI utility and library for manipulating SQLite databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Read the Docs Pull Request Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Read the Docs Pull Request Preview"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43419,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31572,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31392,
+      "status": "candidate",
+      "text": "ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31065,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30725,
+      "status": "candidate",
+      "text": "portfolio"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Read the Docs Pull Request Preview",
+      "sense_id": "read-the-docs-pull-request-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "read-the-docs-pull-request-preview",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "read-the-docs-pull-request-preview",
+  "observation_id": "25191543bdea2d6c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Read the Docs Pull Request Preview",
+  "source_context_snippet": "Read the Docs Pull Request Preview",
+  "source_file": ".github/workflows/documentation-links.yml",
+  "source_repo": "simonw/sqlite-utils",
+  "source_repo_description": "Python CLI utility and library for manipulating SQLite databases"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GitHub Scheduled Event Processor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GitHub Scheduled Event Processor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27149,
+      "status": "candidate",
+      "text": "default"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26749,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26749,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26749,
+      "status": "candidate",
+      "text": "oversleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26749,
+      "status": "candidate",
+      "text": "scrub"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Scheduled Event Processor",
+      "sense_id": "github-scheduled-event-processor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-scheduled-event-processor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-scheduled-event-processor",
+  "observation_id": "c5f36505a1ddb1eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "GitHub Scheduled Event Processor",
+  "source_context_snippet": "GitHub Scheduled Event Processor",
+  "source_file": ".github/workflows/scheduled-event-processor.yml",
+  "source_repo": "Azure/azure-sdk-for-python",
+  "source_repo_description": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. "
+}

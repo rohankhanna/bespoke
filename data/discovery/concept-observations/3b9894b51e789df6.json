@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "C++ Windows MSVC Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "C++ Windows MSVC Reusable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "impoverish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "impoverished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "parlous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "sterilize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "sterilized"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C++ Windows MSVC Reusable",
+      "sense_id": "c-windows-msvc-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "c-windows-msvc-reusable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "c-windows-msvc-reusable",
+  "observation_id": "3b9894b51e789df6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "C++ Windows MSVC Reusable",
+  "source_context_snippet": "C++ Windows MSVC Reusable",
+  "source_file": ".github/workflows/cpp_windows.yml",
+  "source_repo": "apache/arrow",
+  "source_repo_description": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics"
+}

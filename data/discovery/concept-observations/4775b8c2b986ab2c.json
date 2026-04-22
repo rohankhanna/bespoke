@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Release Task"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Release Task"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34523,
+      "status": "candidate",
+      "text": "relieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34523,
+      "status": "candidate",
+      "text": "relieved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26659,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25721,
+      "status": "candidate",
+      "text": "exonerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18407,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Release Task",
+      "sense_id": "publish-release-task#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-release-task",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-release-task",
+  "observation_id": "4775b8c2b986ab2c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Publish Release Task",
+  "source_context_snippet": "Publish Release Task",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "neoclide/coc.nvim",
+  "source_repo_description": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers."
+}

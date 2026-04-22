@@ -43,6 +43,18 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate-context",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "wik is use to get information about anything on the shell using Wikipedia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate-context",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yashsinghcodes/wik",
+      "status": "candidate",
+      "text": "WIK is a command-line tool to view Wikipedia pages from your terminal."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "aarnphm/whispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "yashsinghcodes/wik"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

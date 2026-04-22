@@ -1,0 +1,12 @@
+{
+  "component": "cachix/install-nix-action@1ca7d21a94afc7c957383a2d217460d980de4934",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostty-org/ghostling"
+    }
+  ]
+}

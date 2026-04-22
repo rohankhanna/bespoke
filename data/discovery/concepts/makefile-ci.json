@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Makefile CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vstakhov/libucl",
+      "status": "candidate-context",
+      "text": "Universal configuration library parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vstakhov/libucl",
+      "status": "candidate-context",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moretension/duti",
+      "status": "candidate-context",
+      "text": "A command-line tool to select default applications for document types and URL schemes on Mac OS X"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moretension/duti",
+      "status": "candidate-context",
+      "text": "Makefile CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vstakhov/libucl",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moretension/duti",
+      "status": "candidate",
+      "text": "Makefile CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "alphabetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "airworthiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "announced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "autocorrect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Makefile CI",
+  "concept_id": "makefile-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "moretension/duti"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Makefile CI",
+      "sense_id": "makefile-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

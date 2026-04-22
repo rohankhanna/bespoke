@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mirror Builtin Actors Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mirror Builtin Actors Releases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31162,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31162,
+      "status": "candidate",
+      "text": "introduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21333,
+      "status": "candidate",
+      "text": "ingrown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21205,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21205,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Builtin Actors Releases",
+      "sense_id": "mirror-builtin-actors-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirror-builtin-actors-releases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirror-builtin-actors-releases",
+  "observation_id": "51261693fb9e21ca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Mirror Builtin Actors Releases",
+  "source_context_snippet": "Mirror Builtin Actors Releases",
+  "source_file": ".github/workflows/mirror-builtin-actors.yml",
+  "source_repo": "ChainSafe/forest-iac",
+  "source_repo_description": "Infrastructure as Code to support the Forest Filecoin project"
+}

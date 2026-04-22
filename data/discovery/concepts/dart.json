@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "dart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate-context",
+      "text": "The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate-context",
+      "text": "Dart is:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "A build system for Dart written in Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate-context",
+      "text": "_Questions? Suggestions? Found a bug? Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "A composable API for making HTTP requests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/sdk",
+      "status": "candidate",
+      "text": "Dart is:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/build",
+      "status": "candidate",
+      "text": "_Questions? Suggestions? Found a bug? Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/http",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dart-lang/http/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/http/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39829170,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39804962,
+      "status": "candidate",
+      "text": "scud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39797185,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792585,
+      "status": "candidate",
+      "text": "flutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792300,
+      "status": "candidate",
+      "text": "flit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39051,
+      "status": "candidate",
+      "text": "flutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20047,
+      "status": "candidate",
+      "text": "scud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17038,
+      "status": "candidate",
+      "text": "scoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15056,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "canonical_name": "dart",
+  "concept_id": "dart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/http"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dart",
+      "sense_id": "dart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

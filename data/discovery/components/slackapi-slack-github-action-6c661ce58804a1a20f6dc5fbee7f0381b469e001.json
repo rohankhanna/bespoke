@@ -1,0 +1,12 @@
+{
+  "component": "slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    }
+  ]
+}

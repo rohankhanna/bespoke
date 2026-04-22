@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Jieba Chinese Word Segmentation Implemented in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-word-segmentation",
+      "sense_id": "chinese-word-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-word-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-word-segmentation",
+  "observation_id": "fbd2593054166057",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "chinese-word-segmentation",
+  "source_context_snippet": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)",
+  "source_file": null,
+  "source_repo": "binaryoung/jieba-php",
+  "source_repo_description": "The Jieba Chinese Word Segmentation Implemented in PHP"
+}

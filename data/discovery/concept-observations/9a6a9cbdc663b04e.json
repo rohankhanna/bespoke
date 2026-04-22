@@ -16,9 +16,51 @@
       "text": "Protocol Buffers - Google's data interchange format"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol Buffers - Google's data interchange format"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869785,
+      "status": "candidate",
+      "text": "john marshall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869784,
+      "status": "candidate",
+      "text": "scheduling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29860780,
+      "status": "candidate",
+      "text": "triage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29854722,
+      "status": "candidate",
+      "text": "channeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29853058,
+      "status": "candidate",
+      "text": "shunting"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "marshalling",
   "observation_id": "9a6a9cbdc663b04e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "marshalling",
   "source_context_snippet": "Protocol Buffers - Google's data interchange format",
   "source_file": null,

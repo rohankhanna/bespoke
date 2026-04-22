@@ -1,0 +1,12 @@
+{
+  "component": "elastic/ci-gh-actions/fetch-github-token@8a7604dfdd4e7fe21f969bfe9ff96e17635ea577",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "elastic/go-elasticsearch"
+    }
+  ]
+}

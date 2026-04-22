@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "indexes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "status": "candidate-context",
+      "text": "Collection/resource list of AI projects focused on synthesising perpsectives for multi-perspective exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "status": "candidate-context",
+      "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
+      "status": "candidate",
+      "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035402,
+      "status": "candidate",
+      "text": "indicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034563,
+      "status": "candidate",
+      "text": "indicant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025247,
+      "status": "candidate",
+      "text": "exponent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994797,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9929926,
+      "status": "candidate",
+      "text": "index finger"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "indexes",
+  "concept_id": "indexes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Synthesised-Perspectives"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "indexes",
+      "sense_id": "indexes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

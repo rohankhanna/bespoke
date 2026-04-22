@@ -1,0 +1,127 @@
+{
+  "aliases": [
+    "Scripts",
+    "scripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Infrastructure as Code to support the Forest Filecoin project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate-context",
+      "text": "Scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "Create native macOS applications from command line scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate-context",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChainSafe/forest-iac",
+      "status": "candidate",
+      "text": "Scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveinbjornt/Platypus",
+      "status": "candidate",
+      "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979529,
+      "status": "candidate",
+      "text": "handwriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979079,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970191,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739347,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985855,
+      "status": "candidate",
+      "text": "alphabets"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scripts",
+  "concept_id": "scripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/scripts-lint.yml",
+      "source_repo": "ChainSafe/forest-iac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sveinbjornt/Platypus"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scripts",
+      "sense_id": "scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

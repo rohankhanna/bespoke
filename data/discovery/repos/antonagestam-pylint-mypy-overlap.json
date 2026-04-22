@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T01:06:07.952432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "antonagestam/pylint-mypy-overlap",
+    "html_url": "https://github.com/antonagestam/pylint-mypy-overlap",
+    "language": "Python",
+    "pushed_at": "2023-05-28T12:24:52Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-07-05T12:48:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,559 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "oras-project/setup-oras@38de303aac69abb66f3e6255b7198bff35f323e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivydb-cache.yaml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivydb-cache.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dexidp/dex",
+      "target": "int128/kubelogin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dexidp/dex",
+      "target": "hairyhenderson/gomplate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "OpenSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "mheap/github-action-required-labels@0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "oras-project/setup-oras@38de303aac69abb66f3e6255b7198bff35f323e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "source_repo": "dexidp/dex",
+      "target": "Update Trivy Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexidp/dex",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexidp/dex",
+      "target": "identity-provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexidp/dex",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexidp/dex",
+      "target": "oidc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:24:08.782661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8465
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3259
+    },
+    {
+      "path": "go.mod",
+      "size": 6753
+    },
+    {
+      "path": ".github/workflows/analysis-scorecard.yaml",
+      "size": 1181
+    },
+    {
+      "path": ".github/workflows/artifacts.yaml",
+      "size": 10319
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 7413
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/trivydb-cache.yaml",
+      "size": 1446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors",
+    "fork": false,
+    "full_name": "dexidp/dex",
+    "html_url": "https://github.com/dexidp/dex",
+    "language": "Go",
+    "pushed_at": "2026-04-21T07:33:12Z",
+    "stargazers_count": 10755,
+    "topics": [
+      "hacktoberfest",
+      "identity-provider",
+      "idp",
+      "kubernetes",
+      "oidc"
+    ],
+    "updated_at": "2026-04-21T16:35:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "int128/kubelogin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hairyhenderson/gomplate",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-scorecard.yaml",
+      "term": "OpenSSF Scorecard"
+    },
+    {
+      "context_snippet": "Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yaml",
+      "term": "Artifacts"
+    },
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update Trivy Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivydb-cache.yaml",
+      "term": "Update Trivy Cache"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identity-provider"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc"
+    }
+  ]
+}

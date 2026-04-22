@@ -2,7 +2,7 @@
   "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -59,6 +59,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-vllm-image.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/diffusers"
     }
   ]
 }

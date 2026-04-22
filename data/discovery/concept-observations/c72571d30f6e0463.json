@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and test site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and test site"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34328,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33913,
+      "status": "candidate",
+      "text": "knee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33913,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33889,
+      "status": "candidate",
+      "text": "peoria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33873,
+      "status": "candidate",
+      "text": "atoll"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test site",
+      "sense_id": "build-and-test-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-site",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-site",
+  "observation_id": "c72571d30f6e0463",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Build and test site",
+  "source_context_snippet": "Build and test site",
+  "source_file": ".github/workflows/build-website.yml",
+  "source_repo": "all-contributors/allcontributors.org",
+  "source_repo_description": "\u2728 The all-contributors bot website and documentation. Recognize all contributors, not just the ones who push code \u2728"
+}

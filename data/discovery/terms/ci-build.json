@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci_build.yaml",
       "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "libgit2/libgit2"
     }
   ],
   "term": "CI build"

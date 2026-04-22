@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bentoml/BentoBark",
+      "target": "suno-ai/bark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bentoml/BentoBark",
+      "target": "suno-ai/bark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:12:10.198292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2791
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bentoml/BentoBark",
+    "html_url": "https://github.com/bentoml/BentoBark",
+    "language": "Python",
+    "pushed_at": "2024-12-23T08:25:26Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-03T23:53:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "suno-ai/bark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "suno-ai/bark",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

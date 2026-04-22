@@ -16,9 +16,51 @@
       "text": "Scorecard supply-chain security"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14767,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "bogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "lineup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "scorecard-supply-chain-security",
   "observation_id": "2eebaebe16b4779d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "Scorecard supply-chain security",
   "source_context_snippet": "Scorecard supply-chain security",
   "source_file": ".github/workflows/scorecard.yml",

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jjf012/gopoc",
+      "target": "proof-of-concept",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jjf012/gopoc",
+      "target": "security-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jjf012/gopoc",
+      "target": "vulnerability-scanner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:04:34.695756+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u7528cel-go\u91cd\u73b0\u4e86\u957f\u4eadxray\u7684poc\u68c0\u6d4b\u529f\u80fd\u7684\u8f6e\u5b50",
+    "fork": false,
+    "full_name": "jjf012/gopoc",
+    "html_url": "https://github.com/jjf012/gopoc",
+    "language": "Go",
+    "pushed_at": "2022-06-24T07:51:30Z",
+    "stargazers_count": 298,
+    "topics": [
+      "poc",
+      "proof-of-concept",
+      "security-testing",
+      "vulnerability-scanner"
+    ],
+    "updated_at": "2026-04-02T16:14:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-concept"
+    },
+    {
+      "context_snippet": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-testing"
+    },
+    {
+      "context_snippet": "module gopoc go 1.13 require ( github.com/antlr/antlr4 v0.0.0-20200503195918-621b933c7a7f // indirect github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect github.com/fatih/color v1.9.0 github.com/golang/protobuf v1.4.1 github.com/google/cel-go v0.4.2 github.com/mattn/go-colorable\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-scanner"
+    }
+  ]
+}

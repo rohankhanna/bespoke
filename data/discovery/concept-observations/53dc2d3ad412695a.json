@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open-source visual AI programming environment and TypeScript library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rename Release Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rename Release Assets"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22547,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22547,
+      "status": "candidate",
+      "text": "convert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "brace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "braces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "degradation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rename Release Assets",
+      "sense_id": "rename-release-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rename-release-assets",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rename-release-assets",
+  "observation_id": "53dc2d3ad412695a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Rename Release Assets",
+  "source_context_snippet": "Rename Release Assets",
+  "source_file": ".github/workflows/rename-release-assets.yml",
+  "source_repo": "Ironclad/rivet",
+  "source_repo_description": "The open-source visual AI programming environment and TypeScript library"
+}

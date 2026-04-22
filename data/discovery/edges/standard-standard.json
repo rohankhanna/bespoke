@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "neomake/neomake",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/standard",
       "target": "ishamf/brackets-standard",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "josephfrazier/standard-eject",
+      "target": "sindresorhus/globals",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "eslint/eslint",
+      "target": "pre-commit/mirrors-eslint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard",
+      "target": "standard/.github",
       "target_type": "repository"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "standard/standard"
 }

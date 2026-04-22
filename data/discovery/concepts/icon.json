@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "icon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038315,
+      "status": "candidate",
+      "text": "ikon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986488,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973029,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047478,
+      "status": "candidate",
+      "text": "idol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041321,
+      "status": "candidate",
+      "text": "heathen"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19069,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "ikon"
+    }
+  ],
+  "canonical_name": "icon",
+  "concept_id": "icon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rsrc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icon",
+      "sense_id": "icon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

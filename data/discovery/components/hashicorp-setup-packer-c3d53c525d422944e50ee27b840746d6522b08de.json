@@ -1,0 +1,12 @@
+{
+  "component": "hashicorp/setup-packer@c3d53c525d422944e50ee27b840746d6522b08de",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ami.yml",
+      "source_repo": "huggingface/optimum-neuron"
+    }
+  ]
+}

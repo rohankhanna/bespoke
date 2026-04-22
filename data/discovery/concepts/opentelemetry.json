@@ -139,6 +139,42 @@
       "source_repo": "open-telemetry/opentelemetry-specification",
       "status": "candidate-context",
       "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "OpenTelemetry protocol (OTLP) specification and Protobuf definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "[![Build Check](https://github.com/open-telemetry/opentelemetry-proto/workflows/Build%20Check/badge.svg?branch=main)](https://github.com/open-telemetry/opentelemetry-proto/actions?query=workflow%3A%22Build+Check%22+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "open-telemetry/opentelemetry-specification",
       "status": "candidate",
       "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate",
+      "text": "[![Build Check](https://github.com/open-telemetry/opentelemetry-proto/workflows/Build%20Check/badge.svg?branch=main)](https://github.com/open-telemetry/opentelemetry-proto/actions?query=workflow%3A%22Build+Check%22+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-specification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/docs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

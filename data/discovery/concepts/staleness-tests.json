@@ -21,8 +21,51 @@
       "text": "Staleness tests"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate",
+      "text": "Staleness tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12316,
+      "status": "candidate",
+      "text": "must"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11993,
+      "status": "candidate",
+      "text": "candle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "sour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "soured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "blink"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Staleness tests",
   "concept_id": "staleness-tests",
@@ -33,12 +76,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/staleness_check.yml",
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/staleness_check.yml",
+      "source_repo": "protocolbuffers/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

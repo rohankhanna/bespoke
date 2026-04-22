@@ -16,9 +16,51 @@
       "text": "Forked PR workflow check"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Forked PR workflow check"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22070,
+      "status": "candidate",
+      "text": "forking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21920,
+      "status": "candidate",
+      "text": "manubrium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21769,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21661,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21661,
+      "status": "candidate",
+      "text": "imprint"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,12 +77,14 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "forked-pr-workflow-check",
   "observation_id": "fa7c40d7fbfe6c55",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
   "observed_text": "Forked PR workflow check",
   "source_context_snippet": "Forked PR workflow check",
   "source_file": ".github/workflows/forked_pr_workflow_check.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Metadata and tooling for the OpenTofu registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Shellcheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Shellcheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Shellcheck",
+      "sense_id": "shellcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shellcheck",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shellcheck",
+  "observation_id": "a84e6a6b172f7d6e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Shellcheck",
+  "source_context_snippet": "Shellcheck",
+  "source_file": ".github/workflows/shellcheck.yml",
+  "source_repo": "opentofu/registry",
+  "source_repo_description": "Metadata and tooling for the OpenTofu registry"
+}

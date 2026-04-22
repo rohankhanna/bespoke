@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "dangoslen/changelog-enforcer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mocks.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mocks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "Bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "dangoslen/changelog-enforcer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "Pull Request Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "Check anvil state",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "check that make fmt was run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mocks.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mocks.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-mocks.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "check mocks up-to-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contracts.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "Contracts CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "source_repo": "Layr-Labs/eigensdk-go",
+      "target": "test-coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:43.521746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2376
+    },
+    {
+      "path": "go.mod",
+      "size": 5667
+    },
+    {
+      "path": ".github/workflows/bindings.yml",
+      "size": 1896
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/check-anvil-state.yml",
+      "size": 1596
+    },
+    {
+      "path": ".github/workflows/check-fmt.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/check-mocks.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/contracts.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/test-coverage.yml",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Go SDK for building AVSs on Eigenlayer",
+    "fork": false,
+    "full_name": "Layr-Labs/eigensdk-go",
+    "html_url": "https://github.com/Layr-Labs/eigensdk-go",
+    "language": "Go",
+    "pushed_at": "2025-10-30T17:15:11Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2025-12-08T14:00:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bindings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings.yml",
+      "term": "Bindings"
+    },
+    {
+      "context_snippet": "\"Pull Request Workflow\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Pull Request Workflow"
+    },
+    {
+      "context_snippet": "Check anvil state",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-anvil-state.yml",
+      "term": "Check anvil state"
+    },
+    {
+      "context_snippet": "check that make fmt was run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "term": "check that make fmt was run"
+    },
+    {
+      "context_snippet": "check mocks up-to-date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-mocks.yml",
+      "term": "check mocks up-to-date"
+    },
+    {
+      "context_snippet": "Contracts CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contracts.yml",
+      "term": "Contracts CI"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "test-coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yml",
+      "term": "test-coverage"
+    }
+  ]
+}

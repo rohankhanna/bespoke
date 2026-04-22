@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Linux-IDEs",
+      "target": "ileriayo/markdown-badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Linux-IDEs",
+      "target": "unxsist/jet-pilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Linux-IDEs",
+      "target": "styfle/awesome-online-ide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:22:56.899616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IDEs and development tools that work on one or multiple Linux distros. where possible details are noted like the supported distros, programming languages and more.   ",
+    "fork": false,
+    "full_name": "danielrosehill/Awesome-Linux-IDEs",
+    "html_url": "https://github.com/danielrosehill/Awesome-Linux-IDEs",
+    "language": null,
+    "pushed_at": "2025-02-07T17:24:52Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-02-04T05:48:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ileriayo/markdown-badges",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "styfle/awesome-online-ide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unxsist/jet-pilot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

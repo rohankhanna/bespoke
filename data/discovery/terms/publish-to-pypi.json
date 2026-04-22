@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -96,6 +96,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "crytic/solc-select"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "PyCQA/bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "yashsinghcodes/wik"
     }
   ],
   "term": "Publish to PyPI"

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "\ud83d\udd00 Gemini Dispatch"
+    "\ud83d\udd00 Gemini Dispatch",
+    "Gemini Dispatch"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,12 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate-context",
       "text": "'\ud83d\udd00 Gemini Dispatch'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate-context",
+      "text": "'Gemini Dispatch'"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +52,12 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate",
       "text": "'\ud83d\udd00 Gemini Dispatch'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate",
+      "text": "'Gemini Dispatch'"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +113,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/gemini-dispatch.yml",
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

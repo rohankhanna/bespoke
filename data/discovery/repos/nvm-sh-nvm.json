@@ -1,0 +1,700 @@
+{
+  "components": [
+    {
+      "component": "dockerfile_lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "doctoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eclint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-link-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "urchin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml"
+    },
+    {
+      "component": "ljharb/actions/node/matrix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-org.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvm-install-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvm-install-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "ljharb/rebase@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "edc/bass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "brigand/fast-nvm-fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "derekstavis/plugin-nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "dotphiles/dotzsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "dockerfile_lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "doctoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "eclint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "markdown-link-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nvm-sh/nvm",
+      "target": "urchin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "ljharb/actions/node/matrix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Tests: `nvm install-latest-npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Tests: linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Update nodejs.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvm-install-test.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvm-install-test.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Tests: nvm install with set -e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "ljharb/rebase@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvm-sh/nvm",
+      "target": "Tests: release process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "nvmrc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "posix-compliant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:10:25.708806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51565
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3696
+    },
+    {
+      "path": "package.json",
+      "size": 2925
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1549
+    },
+    {
+      "path": ".github/workflows/latest-npm.yml",
+      "size": 2196
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2169
+    },
+    {
+      "path": ".github/workflows/nodejs-org.yml",
+      "size": 5937
+    },
+    {
+      "path": ".github/workflows/nvm-install-test.yml",
+      "size": 3437
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "fork": false,
+    "full_name": "nvm-sh/nvm",
+    "html_url": "https://github.com/nvm-sh/nvm",
+    "language": "Shell",
+    "pushed_at": "2026-04-04T15:37:46Z",
+    "stargazers_count": 93026,
+    "topics": [
+      "bash",
+      "install",
+      "lts",
+      "node",
+      "node-js",
+      "nodejs",
+      "nvm",
+      "nvmrc",
+      "posix",
+      "posix-compliant",
+      "shell",
+      "version-manager",
+      "zsh"
+    ],
+    "updated_at": "2026-04-22T01:07:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brigand/fast-nvm-fish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derekstavis/plugin-nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotphiles/dotzsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edc/bass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "'Tests: `nvm install-latest-npm`'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-npm.yml",
+      "term": "Tests: `nvm install-latest-npm"
+    },
+    {
+      "context_snippet": "'Tests: linting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Tests: linting"
+    },
+    {
+      "context_snippet": "'Update nodejs.org'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs-org.yml",
+      "term": "Update nodejs.org"
+    },
+    {
+      "context_snippet": "'Tests: nvm install with set -e'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvm-install-test.yml",
+      "term": "Tests: nvm install with set -e"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
+    },
+    {
+      "context_snippet": "'Tests: release process'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tests: release process"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "install"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvmrc"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix-compliant"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/nvm-sh/logos\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    }
+  ]
+}

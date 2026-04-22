@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml"
+    },
+    {
+      "component": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "pyodide/pyodide-actions/download-pyodide@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "pyodide/pyodide-actions/install-browser@012fa537869d343726d01863a34b773fc4d96a14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "source_repo": "pyodide/micropip",
+      "target": "run remote package index tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/micropip",
+      "target": "package-installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/micropip",
+      "target": "pyodide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyodide/micropip",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:18:17.864907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 795
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2503
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3518
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1933
+    },
+    {
+      "path": ".github/workflows/remote_package_index_test.yml",
+      "size": 1605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight Python package installer for Pyodide",
+    "fork": false,
+    "full_name": "pyodide/micropip",
+    "html_url": "https://github.com/pyodide/micropip",
+    "language": "HTML",
+    "pushed_at": "2026-04-06T20:59:10Z",
+    "stargazers_count": 155,
+    "topics": [
+      "package-installer",
+      "pyodide",
+      "python",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-21T05:25:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "run remote package index tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remote_package_index_test.yml",
+      "term": "run remote package index tests"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-installer"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyodide"
+    },
+    {
+      "context_snippet": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

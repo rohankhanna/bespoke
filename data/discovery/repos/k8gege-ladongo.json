@@ -1,0 +1,230 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k8gege/LadonGo",
+      "target": "k8gege/ladon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "bannerscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "brute-force",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "exploit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "ftpscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "hacktools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "ms17010",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "mysqlscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "portscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "smbscan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k8gege/LadonGo",
+      "target": "sshscan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:04:36.055371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9663
+    },
+    {
+      "path": "go.mod",
+      "size": 762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ladon for Kali \u5168\u5e73\u53f0\u5f00\u6e90\u5185\u7f51\u6e17\u900f\u626b\u63cf\u5668,Windows/Linux/Mac/\u8def\u7531\u5668\u5185\u7f51\u6e17\u900f\uff0c\u4f7f\u7528\u5b83\u53ef\u8f7b\u677e\u4e00\u952e\u6279\u91cf\u63a2\u6d4bC\u6bb5\u3001B\u6bb5\u3001A\u6bb5\u5b58\u6d3b\u4e3b\u673a\u3001\u9ad8\u5371\u6f0f\u6d1e\u68c0\u6d4bMS17010\u3001SmbGhost\uff0c\u8fdc\u7a0b\u6267\u884cSSH/Winrm\uff0c\u5bc6\u7801\u7206\u7834SMB/SSH/FTP/Mysql/Mssql/Oracle/Winrm/HttpBasic/Redis\uff0c\u7aef\u53e3\u626b\u63cf\u670d\u52a1\u8bc6\u522bPortScan\u6307\u7eb9\u8bc6\u522b/HttpBanner/HttpTitle/TcpBanner/Weblogic/Oxid\u591a\u7f51\u5361\u4e3b\u673a\uff0c\u7aef\u53e3\u626b\u63cf\u670d\u52a1\u8bc6\u522bPortScan\u3002",
+    "fork": false,
+    "full_name": "k8gege/LadonGo",
+    "html_url": "https://github.com/k8gege/LadonGo",
+    "language": "Go",
+    "pushed_at": "2023-12-15T16:35:45Z",
+    "stargazers_count": 1709,
+    "topics": [
+      "bannerscan",
+      "brute-force",
+      "detection",
+      "exploit",
+      "ftpscan",
+      "hacktools",
+      "ms17010",
+      "mysqlscan",
+      "poc",
+      "portscan",
+      "scanner",
+      "security-tools",
+      "smbscan",
+      "sshscan"
+    ],
+    "updated_at": "2026-04-19T16:41:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k8gege/ladon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bannerscan"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brute-force"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exploit"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ftpscan"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktools"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ms17010"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysqlscan"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portscan"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanner"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smbscan"
+    },
+    {
+      "context_snippet": "http://k8gege.org/Ladon/LadonGo.html<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sshscan"
+    }
+  ]
+}

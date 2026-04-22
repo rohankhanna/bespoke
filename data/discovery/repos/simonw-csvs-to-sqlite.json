@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "simonw/datasette",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "openelections/openelections-data-sd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "click",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "datasette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "datasette-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "datasette-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/csvs-to-sqlite",
+      "target": "sqlite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:19:53.374102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7937
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert CSV files into a SQLite database",
+    "fork": false,
+    "full_name": "simonw/csvs-to-sqlite",
+    "html_url": "https://github.com/simonw/csvs-to-sqlite",
+    "language": "Python",
+    "pushed_at": "2025-04-10T17:00:54Z",
+    "stargazers_count": 927,
+    "topics": [
+      "click",
+      "csv",
+      "datasette",
+      "datasette-io",
+      "datasette-tool",
+      "pandas",
+      "python",
+      "sqlite"
+    ],
+    "updated_at": "2026-04-20T04:48:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openelections/openelections-data-sd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/datasette",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "click"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette-io"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasette-tool"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/csvs-to-sqlite.svg)](https://pypi.org/project/csvs-to-sqlite/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    }
+  ]
+}

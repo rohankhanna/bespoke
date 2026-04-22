@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,42 @@
       "source_repo": "deluan/zsh-in-docker",
       "status": "candidate-context",
       "text": "[![Last Release](https://img.shields.io/github/v/release/deluan/zsh-in-docker?label=latest&style=flat-square)](https://github.com/deluan/zsh-in-docker/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate-context",
+      "text": "sqlite3 driver for go using database/sql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate-context",
+      "text": "dockerfile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "status": "candidate-context",
+      "text": "Dockerfile best-practices for writing production-worthy Docker images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "status": "candidate-context",
+      "text": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "A simple way to deploy PaddleOCR based on FastAPI. (PaddleOCR \u7684 FastAPI \u5feb\u901f\u90e8\u7f72\u65b9\u6848)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate-context",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +65,24 @@
       "source_repo": "deluan/zsh-in-docker",
       "status": "candidate",
       "text": "[![Last Release](https://img.shields.io/github/v/release/deluan/zsh-in-docker?label=latest&style=flat-square)](https://github.com/deluan/zsh-in-docker/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-sqlite3",
+      "status": "candidate",
+      "text": "dockerfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "status": "candidate",
+      "text": "Writing production-worthy Dockerfiles is, unfortunately, not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often[[1]](https://github.com/docker-library/postgres/issues/175) get[[2]](https://github.com/prometheus/prometheus/issue\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "status": "candidate",
+      "text": "![GitHub](https://img.shields.io/github/license/cgcel/PaddleOCRFastAPI)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +96,29 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "deluan/zsh-in-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "mattn/go-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

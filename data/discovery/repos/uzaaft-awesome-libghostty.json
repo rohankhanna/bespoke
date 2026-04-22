@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "blaine/fantastty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "arya-s/phantty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "0xbigboss/vscode-bootty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "barutsrb/omniwm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Uzaaft/awesome-libghostty",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:15:36.536937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8809
+    },
+    {
+      "path": ".github/workflows/commitlint.yml",
+      "size": 468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Uzaaft/awesome-libghostty",
+    "html_url": "https://github.com/Uzaaft/awesome-libghostty",
+    "language": null,
+    "pushed_at": "2026-04-16T08:47:27Z",
+    "stargazers_count": 433,
+    "topics": [],
+    "updated_at": "2026-04-21T10:00:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xbigboss/vscode-bootty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arya-s/phantty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barutsrb/omniwm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blaine/fantastty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Conventional Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "term": "Conventional Commits"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "tarjoilija/zgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "mathiasbynens/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denysdovhan/dotfiles",
+      "target": "zsh-custom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:16:22.784175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My lovely dots ~/.\ud83d\udc96",
+    "fork": false,
+    "full_name": "denysdovhan/dotfiles",
+    "html_url": "https://github.com/denysdovhan/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T16:23:35Z",
+    "stargazers_count": 469,
+    "topics": [
+      "dotfiles",
+      "linux",
+      "macos",
+      "setup",
+      "shell",
+      "ubuntu",
+      "zsh",
+      "zsh-custom"
+    ],
+    "updated_at": "2026-04-21T16:23:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathiasbynens/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarjoilija/zgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "setup"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-custom"
+    }
+  ]
+}

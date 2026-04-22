@@ -103,6 +103,30 @@
       "source_repo": "strands-agents/sdk-typescript",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "Automatable GenAI Scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate-context",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Strands Agents SDK. A model-driven approach to building AI agents in just a few lines of code. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "strands-agents/sdk-typescript",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/genaiscript",
+      "status": "candidate",
+      "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/docs",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/docs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

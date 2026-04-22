@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "76creates/stickers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "calyptia/go-bubble-table",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "charmbracelet/freeze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charm-and-friends/additional-bubbles",
+      "target": "charmbracelet/vhs",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "charm-and-friends/additional-bubbles"
+}

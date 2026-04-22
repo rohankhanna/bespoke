@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Jieba Chinese Word Segmentation Implemented in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build libraries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11682,
+      "status": "candidate",
+      "text": "lend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11682,
+      "status": "candidate",
+      "text": "library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11682,
+      "status": "candidate",
+      "text": "trucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11682,
+      "status": "candidate",
+      "text": "trucks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11485,
+      "status": "candidate",
+      "text": "campus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build libraries",
+      "sense_id": "build-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-libraries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-libraries",
+  "observation_id": "6d175c206749d610",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "build libraries",
+  "source_context_snippet": "build libraries",
+  "source_file": ".github/workflows/build-libraries.yml",
+  "source_repo": "binaryoung/jieba-php",
+  "source_repo_description": "The Jieba Chinese Word Segmentation Implemented in PHP"
+}

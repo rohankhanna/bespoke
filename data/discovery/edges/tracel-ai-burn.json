@@ -9,23 +9,16 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/burn-onnx",
+      "target": "tracel-ai/cubecl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/burn-bench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/models",
+      "target": "tracel-ai/cubek",
       "target_type": "repository"
     },
     {
@@ -337,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T01:08:57.644140+00:00",
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
   "source_repo": "tracel-ai/burn"
 }

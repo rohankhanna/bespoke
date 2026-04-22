@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "addyosmani/chatty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "adamlui/ai-web-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "aipexstudio/aipex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Browser-Tools",
+      "target": "amelmo/proofshot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:23:24.437645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of AI browser tools \u2014 automation frameworks, AI-native browsers, MCP servers, extensions, and commercial products",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Browser-Tools",
+    "html_url": "https://github.com/danielrosehill/AI-Browser-Tools",
+    "language": null,
+    "pushed_at": "2026-04-04T20:58:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-04T21:00:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamlui/ai-web-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "addyosmani/chatty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aipexstudio/aipex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amelmo/proofshot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

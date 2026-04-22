@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/stable-diffusion",
+      "target": "compvis/latent-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/stable-diffusion",
+      "target": "christophschuhmann/improved-aesthetic-predictor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/stable-diffusion",
+      "target": "huggingface/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CompVis/stable-diffusion",
+      "target": "lucidrains/denoising-diffusion-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:11:44.208866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A latent text-to-image diffusion model",
+    "fork": false,
+    "full_name": "CompVis/stable-diffusion",
+    "html_url": "https://github.com/CompVis/stable-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-18T01:53:49Z",
+    "stargazers_count": 72920,
+    "topics": [],
+    "updated_at": "2026-04-21T17:47:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "christophschuhmann/improved-aesthetic-predictor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compvis/latent-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/denoising-diffusion-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

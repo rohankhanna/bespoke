@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952579,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950955,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950856,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949162,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954016,
+      "status": "candidate",
+      "text": "carrying into action"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "performance",
+      "sense_id": "performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18055,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3035,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "carrying out"
+    }
+  ],
+  "concept_id": "performance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance",
+  "observation_id": "b4b4875a37d0f0df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "performance",
+  "source_context_snippet": "Structured performance investigation with baselines, profiling, and evidence-backed decisions - run by AI agents inside your editor.",
+  "source_file": null,
+  "source_repo": "agent-sh/perf",
+  "source_repo_description": "Rigorous performance investigation workflow with baselines, profiling, and evidence-backed decisions"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Analyze Bundle"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Analyze Bundle"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "analytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "construe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "questioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "questions"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analyze Bundle",
+      "sense_id": "analyze-bundle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "analyze-bundle",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analyze-bundle",
+  "observation_id": "5060fb3198236f58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Analyze Bundle",
+  "source_context_snippet": "Analyze Bundle",
+  "source_file": ".github/workflows/analyze.yml",
+  "source_repo": "reactjs/react.dev",
+  "source_repo_description": "The React documentation website"
+}

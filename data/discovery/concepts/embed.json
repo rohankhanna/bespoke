@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "embed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "Tool for embedding .ico & manifest resources in Go programs for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate-context",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rsrc",
+      "status": "candidate",
+      "text": "rsrc - Tool for embedding binary resources in Go programs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972293,
+      "status": "candidate",
+      "text": "imbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938951,
+      "status": "candidate",
+      "text": "implant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857976,
+      "status": "candidate",
+      "text": "engraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805240,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991097,
+      "status": "candidate",
+      "text": "bury"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18025,
+      "status": "candidate",
+      "text": "engraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8030,
+      "status": "candidate",
+      "text": "imbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5048,
+      "status": "candidate",
+      "text": "implant"
+    }
+  ],
+  "canonical_name": "embed",
+  "concept_id": "embed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rsrc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embed",
+      "sense_id": "embed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

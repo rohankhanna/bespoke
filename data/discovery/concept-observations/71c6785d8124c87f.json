@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast non-cryptographic hash algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "xxHash CI tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "xxHash CI tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12984,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "xxHash CI tests",
+      "sense_id": "xxhash-ci-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xxhash-ci-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xxhash-ci-tests",
+  "observation_id": "71c6785d8124c87f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "xxHash CI tests",
+  "source_context_snippet": "xxHash CI tests",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "Cyan4973/xxHash",
+  "source_repo_description": "Extremely fast non-cryptographic hash algorithm"
+}

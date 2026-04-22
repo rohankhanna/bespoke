@@ -69,6 +69,30 @@
       "source_repo": "cedar-policy/cedar-java",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roblox/setup-foreman",
+      "status": "candidate-context",
+      "text": "GitHub Action to install Foreman, a toolchain manager for Roblox tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/setup-foreman",
+      "status": "candidate-context",
+      "text": "\"build-test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "Container Storage Interface (CSI) Specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate-context",
+      "text": "Build Test"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +125,18 @@
       "source_repo": "cedar-policy/cedar-java",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/setup-foreman",
+      "status": "candidate",
+      "text": "\"build-test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "container-storage-interface/spec",
+      "status": "candidate",
+      "text": "Build Test"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +222,35 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "cedar-policy/cedar-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Roblox/setup-foreman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "container-storage-interface/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

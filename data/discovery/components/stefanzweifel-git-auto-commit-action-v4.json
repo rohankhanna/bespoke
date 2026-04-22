@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/readme.yml",
       "source_repo": "goreleaser/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "hrsh7th/nvim-cmp"
     }
   ]
 }

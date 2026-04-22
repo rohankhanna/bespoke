@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "chinese"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengkx/jieba-wasm",
+      "status": "candidate-context",
+      "text": "WASM binding to jieba-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengkx/jieba-wasm",
+      "status": "candidate-context",
+      "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengkx/jieba-wasm",
+      "status": "candidate",
+      "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022350,
+      "status": "candidate",
+      "text": "taiwanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021077,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026072,
+      "status": "candidate",
+      "text": "renminbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024341,
+      "status": "candidate",
+      "text": "cantonese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023750,
+      "status": "candidate",
+      "text": "mandarin"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "taiwanese"
+    }
+  ],
+  "canonical_name": "chinese",
+  "concept_id": "chinese",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "fengkx/jieba-wasm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese",
+      "sense_id": "chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

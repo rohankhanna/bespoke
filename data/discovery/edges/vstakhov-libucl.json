@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "vstakhov/libucl",
+      "target": "Makefile CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "vstakhov/libucl"
+}

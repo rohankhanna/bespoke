@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/create-pull-request@v5",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-eksctl.yml",
       "source_repo": "aws/homebrew-tap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google-github-actions/release-please-action"
     }
   ]
 }

@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "Lint Codebase"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "Create a JavaScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate-context",
+      "text": "Lint Codebase"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/javascript-action",
+      "status": "candidate",
+      "text": "Lint Codebase"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "api"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "caption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "chaos"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Codebase",
+  "concept_id": "lint-codebase",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/javascript-action"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Codebase",
+      "sense_id": "lint-codebase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

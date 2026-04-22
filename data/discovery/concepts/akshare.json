@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "akshare"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akfamily/akshare",
+      "status": "candidate-context",
+      "text": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! \u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akfamily/akshare",
+      "status": "candidate-context",
+      "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akfamily/akshare",
+      "status": "candidate",
+      "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "akshare",
+  "concept_id": "akshare",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "akfamily/akshare"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "akshare",
+      "sense_id": "akshare#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

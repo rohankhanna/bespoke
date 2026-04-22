@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Monospaced font family for user interface and coding environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "afdko",
+      "sense_id": "afdko#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "afdko",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "afdko",
+  "observation_id": "40b37d9440f5e5be",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "afdko",
+  "source_context_snippet": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
+  "source_file": null,
+  "source_repo": "adobe-fonts/source-code-pro",
+  "source_repo_description": "Monospaced font family for user interface and coding environments"
+}

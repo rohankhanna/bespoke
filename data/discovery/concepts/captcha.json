@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "captcha"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "Bypass Midjourney captcha."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ye4241/midjourney-captcha-bot",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030721,
+      "status": "candidate",
+      "text": "turing test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030720,
+      "status": "candidate",
+      "text": "penetration test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030719,
+      "status": "candidate",
+      "text": "reverse turing test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030718,
+      "status": "candidate",
+      "text": "pen test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030717,
+      "status": "candidate",
+      "text": "hackbot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "captcha",
+  "concept_id": "captcha",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ye4241/midjourney-captcha-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "captcha",
+      "sense_id": "captcha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-apps",
+      "target": "meta-llama/llama-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-apps",
+      "target": "meta-llama/llama-stack-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-apps",
+      "target": "meta-llama/llama-stack-client-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llamastack/llama-stack-apps",
+      "target": "meta-llama/llama-stack-client-kotlin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:17:20.854319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9012
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 87
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agentic components of the Llama Stack APIs",
+    "fork": false,
+    "full_name": "llamastack/llama-stack-apps",
+    "html_url": "https://github.com/llamastack/llama-stack-apps",
+    "language": null,
+    "pushed_at": "2025-08-05T14:49:58Z",
+    "stargazers_count": 4300,
+    "topics": [],
+    "updated_at": "2026-04-17T14:18:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-kotlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-node",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

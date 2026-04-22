@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Lint CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Minimal web UI for ChatGPT. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate-context",
+      "text": "Lint CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Minimal web UI for GeminiPro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate-context",
+      "text": "Lint CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/chatgpt-demo",
+      "status": "candidate",
+      "text": "Lint CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate",
+      "text": "Lint CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10426,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4830,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4712,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4712,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4712,
+      "status": "candidate",
+      "text": "pasticcio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint CI",
+  "concept_id": "lint-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "babaohuang/GeminiProChat"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint CI",
+      "sense_id": "lint-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Analyze Bundle (Comment)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Analyze Bundle (Comment)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "analytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "construe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "questioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "questions"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analyze Bundle (Comment)",
+      "sense_id": "analyze-bundle-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "analyze-bundle-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analyze-bundle-comment",
+  "observation_id": "b5eb302a8ac9dc59",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Analyze Bundle (Comment)",
+  "source_context_snippet": "Analyze Bundle (Comment)",
+  "source_file": ".github/workflows/analyze_comment.yml",
+  "source_repo": "reactjs/react.dev",
+  "source_repo_description": "The React documentation website"
+}

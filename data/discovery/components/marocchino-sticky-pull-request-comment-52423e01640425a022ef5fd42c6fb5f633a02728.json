@@ -1,0 +1,12 @@
+{
+  "component": "marocchino/sticky-pull-request-comment@52423e01640425a022ef5fd42c6fb5f633a02728",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analyze_comment.yml",
+      "source_repo": "reactjs/react.dev"
+    }
+  ]
+}

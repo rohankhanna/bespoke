@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "clearbluejar/pyghidra-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babaohuang/GeminiProChat"
     }
   ],
   "term": "Create and publish a Docker image"

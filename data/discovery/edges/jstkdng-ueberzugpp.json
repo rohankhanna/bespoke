@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "pystardust/ytfzf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "justchokingaround/lobster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "kevinhwang91/rnvimr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "3rd/image.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/obs-upload.yml",
+      "source_repo": "jstkdng/ueberzugpp",
+      "target": "Build OBS packages",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "jstkdng/ueberzugpp"
+}

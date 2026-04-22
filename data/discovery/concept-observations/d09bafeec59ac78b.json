@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prettier is an opinionated code formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dev Package Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dev Package Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22640,
+      "status": "candidate",
+      "text": "whole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22607,
+      "status": "candidate",
+      "text": "intelligence test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22607,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22607,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22595,
+      "status": "candidate",
+      "text": "downstream"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dev Package Test",
+      "sense_id": "dev-package-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dev-package-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dev-package-test",
+  "observation_id": "d09bafeec59ac78b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "Dev Package Test",
+  "source_context_snippet": "Dev Package Test",
+  "source_file": ".github/workflows/dev-package-test.yml",
+  "source_repo": "prettier/prettier",
+  "source_repo_description": "Prettier is an opinionated code formatter."
+}

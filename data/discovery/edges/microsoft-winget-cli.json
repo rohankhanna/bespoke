@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/winget-cli",
+      "target": "microsoft/winget-pkgs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/winget-cli",
+      "target": "microsoft/winget-cli-restsource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "pelikhan/action-genai-issue-dedup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Automatic New Issue Deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Workflow should not run!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Workflow should not run!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling3.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "check-spelling/check-spelling@v0.0.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling3.yml",
+      "source_repo": "microsoft/winget-cli",
+      "target": "Check Spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/winget-cli",
+      "target": "winget",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "source_repo": "microsoft/winget-cli"
+}

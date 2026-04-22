@@ -55,6 +55,30 @@
       "source_repo": "open-telemetry/opentelemetry-specification",
       "status": "candidate-context",
       "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "An implementation of the OpenTelemetry specification as a Kotlin Multiplatform Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "OpenTelemetry protocol (OTLP) specification and Protobuf definitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-specification",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-kotlin",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-proto",
       "status": "candidate",
       "text": "OSSF Scorecard"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/opentelemetry-specification"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-proto"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

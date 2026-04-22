@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "berty/community",
+      "target": "berty/www.berty.tech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berty/community",
+      "target": "berty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berty/community",
+      "target": "community",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:07:30.869138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Berty Planning, Management & Coordination threads",
+    "fork": false,
+    "full_name": "berty/community",
+    "html_url": "https://github.com/berty/community",
+    "language": "Shell",
+    "pushed_at": "2022-07-12T12:05:54Z",
+    "stargazers_count": 43,
+    "topics": [
+      "berty",
+      "community"
+    ],
+    "updated_at": "2026-03-02T06:47:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "berty/www.berty.tech",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "berty"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    }
+  ]
+}

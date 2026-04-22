@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Pull request",
-    "Pull Request"
+    "Pull Request",
+    "pull-request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -26,6 +29,54 @@
       "source_repo": "cloudflare/agents",
       "status": "candidate-context",
       "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/hub",
+      "status": "candidate-context",
+      "text": "A command-line tool that makes git easier to use with GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/hub",
+      "status": "candidate-context",
+      "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "A Swift toolchain installer and manager, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "Complete PR workflow from commit to production with validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate-context",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for Tracy https://github.com/wolfpld/tracy with native dynamic link libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate-context",
+      "text": "\"Pull request\""
     }
   ],
   "candidate_glosses": [
@@ -34,6 +85,30 @@
       "source_repo": "cloudflare/agents",
       "status": "candidate",
       "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/hub",
+      "status": "candidate",
+      "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swiftly",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/ship",
+      "status": "candidate",
+      "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibequilibrium/Tracy-CSharp",
+      "status": "candidate",
+      "text": "\"Pull request\""
     }
   ],
   "candidate_related_terms": [
@@ -95,11 +170,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pullrequest.yml",
       "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swiftly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "clibequilibrium/Tracy-CSharp"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cut Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate-context",
+      "text": "Code signing and transparency for containers and binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate-context",
+      "text": "Cut Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/cosign",
+      "status": "candidate",
+      "text": "Cut Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "bail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "biot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cut Release",
+  "concept_id": "cut-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "sigstore/cosign"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cut Release",
+      "sense_id": "cut-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

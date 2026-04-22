@@ -1,0 +1,32 @@
+{
+  "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/branches.yaml",
+      "source_repo": "foundry-rs/optimism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tags.yaml",
+      "source_repo": "foundry-rs/optimism"
+    }
+  ]
+}

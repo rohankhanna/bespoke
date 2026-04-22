@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretty, minimal and fast ZSH prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994493,
+      "status": "candidate",
+      "text": "pristine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994493,
+      "status": "candidate",
+      "text": "unadulterated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994487,
+      "status": "candidate",
+      "text": "unalloyed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994487,
+      "status": "candidate",
+      "text": "undefiled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994486,
+      "status": "candidate",
+      "text": "undiluted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pure",
+      "sense_id": "pure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64036,
+      "status": "candidate",
+      "text": "virtuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61040,
+      "status": "candidate",
+      "text": "stark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58089,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57040,
+      "status": "candidate",
+      "text": "intense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54035,
+      "status": "candidate",
+      "text": "refined"
+    }
+  ],
+  "concept_id": "pure",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pure",
+  "observation_id": "267303443cb5ba42",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "pure",
+  "source_context_snippet": "pure-prompt \u2014 Pretty, minimal and fast ZSH prompt",
+  "source_file": null,
+  "source_repo": "sindresorhus/pure",
+  "source_repo_description": "Pretty, minimal and fast ZSH prompt"
+}

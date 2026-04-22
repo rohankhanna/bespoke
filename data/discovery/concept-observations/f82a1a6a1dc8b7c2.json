@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Delightful JavaScript Testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988264,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966114,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963204,
+      "status": "candidate",
+      "text": "outlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899961,
+      "status": "candidate",
+      "text": "expected value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899681,
+      "status": "candidate",
+      "text": "arithmetic mean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "expectation",
+      "sense_id": "expectation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55047,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34048,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15037,
+      "status": "candidate",
+      "text": "outlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1036,
+      "status": "candidate",
+      "text": "expected value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "arithmetic mean"
+    }
+  ],
+  "concept_id": "expectation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "expectation",
+  "observation_id": "f82a1a6a1dc8b7c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_text": "expectation",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "jestjs/jest",
+  "source_repo_description": "Delightful JavaScript Testing."
+}

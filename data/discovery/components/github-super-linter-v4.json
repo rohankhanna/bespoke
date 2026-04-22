@@ -1,0 +1,27 @@
+{
+  "component": "github/super-linter@v4",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    }
+  ]
+}

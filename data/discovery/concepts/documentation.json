@@ -106,6 +106,84 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate-context",
+      "text": "AutoAWQ implements the AWQ algorithm for 4-bit quantization with a 2x speedup during inference. Documentation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate-context",
+      "text": "The React documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate-context",
+      "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "Official documentation for ClickHouse - the fastest and most resource efficient real-time data warehouse and open-source database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate-context",
+      "text": "Documentation that simply works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +234,48 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/asdf",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react.dev",
+      "status": "candidate",
+      "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-docs",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidfunk/mkdocs-material",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +402,53 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/documentation.yaml",
       "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "casper-hansen/AutoAWQ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "squidfunk/mkdocs-material"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

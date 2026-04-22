@@ -19,6 +19,30 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate-context",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "The configuration framework for Zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate-context",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wbthomason/packer.nvim",
+      "status": "candidate",
+      "text": "**NOTICE:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorin-ionescu/prezto",
+      "status": "candidate",
+      "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "wbthomason/packer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "sorin-ionescu/prezto"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "lexical_providers": [
     "datamuse"
   ],

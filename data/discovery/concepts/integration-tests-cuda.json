@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration Tests CUDA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate-context",
+      "text": "Integration Tests CUDA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-lang/triton",
+      "status": "candidate",
+      "text": "Integration Tests CUDA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25945,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18455,
+      "status": "candidate",
+      "text": "blockhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10363,
+      "status": "candidate",
+      "text": "aircraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10363,
+      "status": "candidate",
+      "text": "airframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10363,
+      "status": "candidate",
+      "text": "airliner"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration Tests CUDA",
+  "concept_id": "integration-tests-cuda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration Tests CUDA",
+      "sense_id": "integration-tests-cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

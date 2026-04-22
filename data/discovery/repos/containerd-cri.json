@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/cri",
+      "target": "opencontainers/runc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containerd/cri",
+      "target": "containernetworking/cni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/cri",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/cri",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/cri",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containerd/cri",
+      "target": "container-runtime-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containerd/cri",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containerd/cri",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containerd/cri",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T01:14:35.023861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11058
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "release/1.4",
+    "description": "Moved to https://github.com/containerd/containerd/tree/master/pkg/cri . If you wish to submit issues/PRs, please submit to https://github.com/containerd/containerd",
+    "fork": false,
+    "full_name": "containerd/cri",
+    "html_url": "https://github.com/containerd/cri",
+    "language": "Go",
+    "pushed_at": "2022-03-02T17:57:05Z",
+    "stargazers_count": 904,
+    "topics": [
+      "container-runtime-interface",
+      "containerd",
+      "hacktoberfest",
+      "kubernetes"
+    ],
+    "updated_at": "2026-03-04T17:17:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containernetworking/cni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/runc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-runtime-interface"
+    },
+    {
+      "context_snippet": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    },
+    {
+      "context_snippet": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

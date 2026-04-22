@@ -1,0 +1,17 @@
+{
+  "component": "rickstaa/sphinx-action@master",
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_html_output.yml",
+      "source_repo": "n8willis/opentype-shaping-documents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_document_sources.yml",
+      "source_repo": "n8willis/opentype-shaping-documents"
+    }
+  ]
+}

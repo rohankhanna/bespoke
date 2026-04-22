@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "music"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "This is an unofficial Suno AI API based on Golang. It currently supports generating songs, lyrics, and OpenAI Chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate-context",
+      "text": "\ufeff# Suno API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suno-API/Suno-API",
+      "status": "candidate",
+      "text": "\ufeff# Suno API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39870845,
+      "status": "candidate",
+      "text": "sheet music"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39821700,
+      "status": "candidate",
+      "text": "euphony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39614773,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871426,
+      "status": "candidate",
+      "text": "melody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871377,
+      "status": "candidate",
+      "text": "symphony"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "euphony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4056,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "sheet music"
+    }
+  ],
+  "canonical_name": "music",
+  "concept_id": "music",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T01:04:16.609102+00:00",
+      "source_file": null,
+      "source_repo": "Suno-API/Suno-API"
+    }
+  ],
+  "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "music",
+      "sense_id": "music#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}
