@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "grain-lang/binaryen.ml"
+  ]
+}

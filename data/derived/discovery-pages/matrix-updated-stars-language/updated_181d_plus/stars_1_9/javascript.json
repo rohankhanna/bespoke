@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 5
+    "components": 221,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 14,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "aralyekta/prompttester",
     "ccdanpian/current-datetime",
+    "dmi3y/expo-release-please-example",
+    "fwcd/atom-ide-kotlin",
+    "gabrielschulhof/iotivity-node",
+    "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
     "ianopolous/jpack",
+    "josephfrazier/standard-eject",
+    "libp2p/js-libp2p-example-auto-tls",
+    "libp2p/js-libp2p-example-browser-pubsub",
+    "libp2p/js-libp2p-example-chat",
+    "libp2p/js-libp2p-example-circuit-relay",
+    "libp2p/js-libp2p-example-connection-encryption",
     "putoutjs/putout-processor-typos"
   ]
 }

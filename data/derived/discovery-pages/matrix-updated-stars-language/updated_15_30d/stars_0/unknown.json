@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 1,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 7,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "adiny/moodtrip-hotel-search"
+    "adiny/moodtrip-hotel-search",
+    "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Projects-Index",
+    "danielrosehill/AI-Resource-Maps",
+    "danielrosehill/Linux-Desktop-Tools-Index",
+    "piebald-ai/piebald",
+    "semgrep/cursor-plugin"
   ]
 }

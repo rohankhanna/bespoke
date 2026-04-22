@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 9,
-    "observations": 9,
+    "components": 65,
+    "concepts": 19,
+    "observations": 19,
     "repos": 20,
-    "terms": 29
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
-    "agenmod/distill-protocol-skill",
-    "agenmod/distill-shield-skill",
+    "beneadie/DeepDog_1",
     "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
     "cjtruheart/abundance-codex",
+    "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
     "floxym/financial-chat",
     "frank-syncmarket/skills",

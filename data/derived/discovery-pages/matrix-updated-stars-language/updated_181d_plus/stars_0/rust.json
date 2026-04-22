@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 10,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 2,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "delta1/rust-jsonrpc-client",
+    "dustinblackman/rust-hello-world"
+  ]
+}

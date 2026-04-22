@@ -1,25 +1,42 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 9,
-    "terms": 23
+    "components": 131,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 26,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "apache/incubator-tuweni",
+    "bazelbuild/bazel",
+    "Byte-Lab/JCoz",
+    "cedar-policy/cedar-java",
     "didalgolab/ai-intellij-plugin",
     "dirs-dev/directories-jvm",
+    "dropbox/mypy-PyCharm-plugin",
+    "findbugsproject/findbugs",
     "google/auto",
+    "google/error-prone",
     "google/guava",
+    "google/guava-beta-checker",
     "google/j2cl",
+    "googleapis/gapic-generator",
+    "ipfs-shipyard/gomobile-ipfs",
+    "JetBrains/spotbugs-intellij-plugin",
+    "LaurieWired/GhidraMCP",
+    "NationalSecurityAgency/ghidra",
     "novicezk/midjourney-proxy",
+    "open-telemetry/opentelemetry-java",
+    "OpenAPITools/openapi-generator",
     "peergos/nabu",
     "peergos/nabu-chat",
-    "peergos/peergos"
+    "peergos/peergos",
+    "spotbugs/sonar-findbugs",
+    "spotbugs/spotbugs"
   ]
 }

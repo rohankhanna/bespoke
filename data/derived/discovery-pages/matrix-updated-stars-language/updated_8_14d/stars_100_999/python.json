@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 3,
-    "terms": 14
+    "components": 94,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 13,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "agenmod/immortal-skill",
     "AgriciDaniel/banana-claude",
     "AgriciDaniel/claude-blog",
-    "gowaylee/cchooks"
+    "ahmedasmar/devops-claude-skills",
+    "ARM-DOE/pyart",
+    "bmad-code-org/bmad-builder",
+    "crytic/crytic-compile",
+    "cubed-dev/cubed",
+    "data-apis/array-api-compat",
+    "GoogleCloudPlatform/getting-started-python",
+    "gowaylee/cchooks",
+    "pypa/auditwheel",
+    "trailofbits/dropkit"
   ]
 }

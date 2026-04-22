@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 11,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 6,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "dirs-dev/directories-jvm"
+    "apache/incubator-tuweni",
+    "Byte-Lab/JCoz",
+    "dirs-dev/directories-jvm",
+    "dropbox/mypy-PyCharm-plugin",
+    "findbugsproject/findbugs",
+    "googleapis/gapic-generator"
   ]
 }

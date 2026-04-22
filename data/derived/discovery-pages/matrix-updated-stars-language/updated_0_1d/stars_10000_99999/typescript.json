@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 867,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 14,
-    "terms": 99
+    "components": 3198,
+    "concepts": 133,
+    "observations": 134,
+    "repos": 12,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "badlogic/pi-mono",
-    "everyinc/compound-engineering-plugin",
-    "garrytan/gstack",
-    "iOfficeAI/AionUi",
+    "babel/babel",
+    "CherryHQ/cherry-studio",
+    "DefinitelyTyped/DefinitelyTyped",
+    "elastic/kibana",
+    "expo/expo",
+    "graphql/graphiql",
+    "labring/FastGPT",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "multica-ai/multica",
-    "nvidia/nemoclaw",
-    "qwenlm/qwen-code",
-    "qwibitai/nanoclaw",
-    "recharts/recharts",
-    "ryoppippi/ccusage",
-    "tanweai/pua",
-    "withastro/astro"
+    "typescript-eslint/typescript-eslint",
+    "vercel-labs/skills",
+    "vitejs/vite"
   ]
 }

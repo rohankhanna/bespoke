@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 5
+    "components": 84,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 11,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "aws/homebrew-tap",
+    "bazelbuild/bazel-skylib",
+    "cafeTechne/antigravity-link-extension",
+    "dmitry-brazhenko/SharpToken",
+    "emacs-rustic/rustic",
+    "ethereum/builder-specs",
     "google/protobuf.dart",
-    "purcell/envrc"
+    "Layr-Labs/eigenlayer-contracts",
+    "mattn/webapi-vim",
+    "purcell/envrc",
+    "pyodide/micropip"
   ]
 }

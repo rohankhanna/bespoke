@@ -1,27 +1,47 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 10,
-    "terms": 8
+    "components": 104,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 30,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
+    "agenmod/distill-protocol-skill",
+    "agenmod/distill-shield-skill",
+    "agenmod/mirror-skill",
     "agenmod/okr-skill",
+    "agenmod/steamer-skill",
+    "agent-sh/agent-analyzer",
+    "agent-sh/agent-core",
+    "agent-sh/can-i-help",
+    "agent-sh/drift-detect",
+    "agent-sh/enhance",
+    "agent-sh/next-task",
+    "agent-sh/onboard",
+    "agent-sh/perf",
+    "agent-sh/repo-intel",
+    "agent-sh/sync-docs",
+    "AI-Agent-Hub/mcp-marketplace",
     "cdeust/cortex-cowork",
+    "CoolCat467/idlemypyextension",
     "danielrosehill/agent-junction",
+    "danielrosehill/AI-Synthesised-Perspectives",
     "dp111/6502timing",
     "dreamiurg/mountaineers-assistant",
+    "flinedev/marketplace",
     "joinwell52-ai/joinwell52",
     "marcindulak/learning-api-styles-gen-ai-experiments",
-    "marcindulak/ralph-wiggum-bdd"
+    "marcindulak/ralph-wiggum-bdd",
+    "nodejs/web-team",
+    "semgrep/mcp-marketplace"
   ]
 }

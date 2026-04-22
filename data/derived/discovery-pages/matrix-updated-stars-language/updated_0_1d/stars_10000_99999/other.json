@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 29
+    "components": 92,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 10,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "actions/runner-images",
-    "metabase/metabase",
-    "oven-sh/bun"
+    "anthropics/claude-cookbooks",
+    "dart-lang/sdk",
+    "google-research/google-research",
+    "Homebrew/brew",
+    "Homebrew/homebrew-core",
+    "llvm/llvm-project",
+    "microsoft/semantic-kernel",
+    "microsoft/vcpkg",
+    "neovim/neovim",
+    "triton-lang/triton"
   ]
 }

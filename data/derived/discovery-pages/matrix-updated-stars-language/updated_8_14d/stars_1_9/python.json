@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 2,
-    "terms": 1
+    "components": 14,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 5,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "agenmod/distill-protocol-skill",
+    "agenmod/distill-shield-skill",
     "agenmod/okr-skill",
-    "cdeust/cortex-cowork"
+    "cdeust/cortex-cowork",
+    "CoolCat467/idlemypyextension"
   ]
 }

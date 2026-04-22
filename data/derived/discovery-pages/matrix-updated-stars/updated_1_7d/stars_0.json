@@ -1,19 +1,23 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 50,
-    "terms": 29
+    "components": 359,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 59,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "8144225309/lightning",
+    "8144225309/superscalar-wallet",
     "aipurposes1587-max/weixin-agent-rs",
+    "alexcrichton/cc-rs",
+    "arckoor/jsonwebtoken",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "b2agi/exist-is-charter",
     "begmyratb/floweye-yyyxxx.cc",
@@ -31,10 +35,14 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
+    "danielrosehill/AI-Geopol-Projects",
+    "danielrosehill/AI-Ideation-Runs",
     "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",
     "florisheedless915/grok-register",
     "foundersieve687/skill-gateway",
+    "foundry-rs/optimism",
     "genuslovoacalixtusiii510/ytp-2026",
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
@@ -52,6 +60,7 @@
     "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",
     "redductive/securepixel",
+    "roampal-ai/roampal-labs",
     "robertabao/grok-nvim",
     "saidudz/chat-ai",
     "shoggo-ai/seniorvigil",

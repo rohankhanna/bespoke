@@ -1,21 +1,33 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 7,
-    "terms": 17
+    "components": 147,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 19,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "absadiki/pywhispercpp",
     "agrimsingh/ralph-wiggum-cursor",
     "alonw0/web-asset-generator",
+    "bluzername/claude-code-terminal-title",
+    "Calcium-Ion/neko-api-key-tool",
+    "cross-rs/cross-toolchains",
+    "CSU-Radarmet/CSU_RadarTools",
+    "dualverse-ai/station",
+    "kata-containers/cgroups-rs",
+    "libp2p/js-libp2p-examples",
     "lobehub/lobe-cli-toolbox",
+    "niieani/gpt-tokenizer",
+    "prebuild/prebuild",
+    "prebuild/prebuild-install",
+    "ratatui/templates",
     "snwfdhmp/awesome-ralph",
     "stardot/b-em",
     "superclaude-org/supergemini_framework",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 44,
-    "observations": 45,
-    "repos": 13,
-    "terms": 44
+    "components": 130,
+    "concepts": 88,
+    "observations": 90,
+    "repos": 24,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "acheronfail/repgrep",
+    "alacritty/vtebench",
     "asg017/sqlite-loadable-rs",
+    "asg017/sqlite-regex",
     "asg017/sqlite-rembed",
     "asg017/sqlite-xsv",
+    "BurntSushi/tabwriter",
+    "comit-network/xmr-btc-swap",
     "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "ecumene/rust-sloth",
@@ -25,7 +30,13 @@
     "layr-labs/hello-world-avs",
     "lnx-search/rewrk",
     "lpghatguy/aftman",
+    "monero-rs/monero-rs",
     "njsmith/posy",
-    "programatik29/rust-web-benchmarks"
+    "programatik29/rust-web-benchmarks",
+    "rojo-rbx/remodel",
+    "rust-lang/style-team",
+    "tazz4843/whisper-rs",
+    "vmware-labs/mod_wasm",
+    "vmware-labs/wasm-workers-server"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 2,
-    "terms": 10
+    "components": 4,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "agricidaniel/claude-cybersecurity",
-    "flinedev/tandemkit"
+    "alvistack/ansible-role-crun",
+    "flinedev/tandemkit",
+    "GoogleCloudPlatform/blueprints"
   ]
 }

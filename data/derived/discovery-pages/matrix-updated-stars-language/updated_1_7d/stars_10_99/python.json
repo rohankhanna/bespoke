@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 19
+    "components": 107,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 11,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "activeviam/jdk4py",
+    "AI-Hypercomputer/pathways-utils",
     "cdeust/cortex",
     "costiash/claude-code-docs",
+    "dathere/datapusher-plus",
+    "MeteoSwiss/pyrad",
+    "pyodide/pyodide-build",
+    "pytest-dev/execnet",
+    "redhat-et/triton-dev-containers",
     "sliamh11/deus",
     "svaningelgem/logprise"
   ]

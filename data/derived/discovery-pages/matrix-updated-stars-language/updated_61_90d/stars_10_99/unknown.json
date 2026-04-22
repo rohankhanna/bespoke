@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 4,
-    "terms": 7
+    "components": 7,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 5,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "cedar-policy/rfcs",
     "cloudrepo-io/founder-os",
     "panaversity/claude-code-agent-teams-exercises",
     "tony/claude-code-riper-5",

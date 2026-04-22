@@ -1,21 +1,34 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 4,
-    "terms": 3
+    "components": 66,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 17,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "aadil-runpod/rp-logo",
+    "albertogeniola/elmax-api",
+    "bfshi/LLaVA_NeXT_S2_Integration",
+    "bnosac/audio.vadsilero",
+    "boingoing/node-sass",
     "burntsushi/linux",
+    "coderaiser/c8-reproduce",
+    "comit-network/hash_edwards_to_edwards",
+    "delta1/rust-jsonrpc-client",
+    "dustinblackman/rust-hello-world",
+    "flashinfer-ai/web-data",
     "garrettalbright/luacheck.novaextension",
+    "mignonjia/lmgame_train_reorg",
     "mjvolk3/biocypher",
-    "wesfloyd/avs-context-prompt"
+    "wesfloyd/avs-context-prompt",
+    "zyedidia/blobs",
+    "zzowenzz/COCO_Tiny"
   ]
 }

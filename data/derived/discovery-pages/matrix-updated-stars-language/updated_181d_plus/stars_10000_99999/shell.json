@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "powerline/fonts",
+    "zsh-users/zsh-autosuggestions"
+  ]
+}

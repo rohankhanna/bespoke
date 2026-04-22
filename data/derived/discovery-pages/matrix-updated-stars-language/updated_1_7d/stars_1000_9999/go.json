@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 7,
-    "terms": 57
+    "components": 221,
+    "concepts": 166,
+    "observations": 168,
+    "repos": 23,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "0xERR0R/blocky",
+    "alibaba/higress",
+    "charmbracelet/bubbles",
+    "charmbracelet/freeze",
+    "charmbracelet/log",
+    "containernetworking/plugins",
     "databus23/helm-diff",
     "docker/cli",
+    "helm/chart-testing",
     "korotovsky/slack-mcp-server",
+    "kubernetes-sigs/cri-tools",
     "kubernetes/enhancements",
     "larksuite/cli",
     "libp2p/go-libp2p",
+    "madneal/gshark",
+    "mark3labs/mcp-go",
+    "norwoodj/helm-docs",
+    "oras-project/oras",
+    "router-for-me/CLIProxyAPIPlus",
+    "runfinch/finch",
+    "sigstore/cosign",
+    "stripe/stripe-go",
     "tofuutils/tenv"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 5,
-    "terms": 3
+    "components": 38,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 23,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "ahmetb/kubectl-aliases",
+    "akinsho/toggleterm.nvim",
     "basujindal/stable-diffusion",
+    "cloneofsimo/lora",
+    "cocodataset/cocoapi",
+    "CompVis/taming-transformers",
     "ddollar/foreman",
+    "finagle/finch",
+    "fwcd/kotlin-language-server",
+    "godlygeek/tabular",
+    "hexops-graveyard/dockerfile",
     "junegunn/vim-easy-align",
-    "natemoo-re/astro-icon"
+    "jwiegley/use-package",
+    "k8gege/Ladon",
+    "lerocha/chinook-database",
+    "mpeterv/luacheck",
+    "natemoo-re/astro-icon",
+    "neomake/neomake",
+    "preservim/tagbar",
+    "rtomayko/tilt",
+    "rust-lang/rust.vim",
+    "tjdevries/config_manager",
+    "wbthomason/packer.nvim"
   ]
 }

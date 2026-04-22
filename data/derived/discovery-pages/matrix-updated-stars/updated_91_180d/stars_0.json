@@ -1,19 +1,27 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 2,
-    "terms": 6
+    "components": 55,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 10,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "biocypher/biocypher-cookiecutter-template",
+    "bnosac/images",
+    "danielrosehill/A-Better-Jobs-Platform-Notes",
+    "danielrosehill/Agent-Deploy",
     "danielrosehill/ai-human-attribution-adder",
-    "danielrosehill/batch-claudemd-repo-creator"
+    "danielrosehill/AI-Sysadmin",
+    "danielrosehill/batch-claudemd-repo-creator",
+    "danielrosehill/Claude-Linux-Desktop-Manager",
+    "eigenwallet/dfx-swiss-rs",
+    "stainless-api/tsc-multi"
   ]
 }

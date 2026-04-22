@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 11,
-    "terms": 26
+    "components": 120,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 20,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "arktisklada/crank",
+    "abap-ai/mcp",
+    "anandpiyer/seoul256-emacs",
+    "anshckr/fix-js",
+    "awthomp/cusignal-icassp-tutorial",
+    "binaryoung/jieba-php",
+    "casper-hansen/AutoAWQ_kernels",
     "ckipp01/stylua-nvim",
+    "clibequilibrium/Tracy-CSharp",
+    "ethpandaops/ethereum-k8s-testnets",
+    "fwcd/kotlin-quick-start",
     "gerschel/sd-web-ui-quickcss",
+    "google/google-id-token",
     "ikki2000/harmonyos-fonts",
-    "jaredsohn/mutefm",
-    "junegunn/vim-startuptime-benchmark",
     "lamoomai/lamoom-python",
     "lobehub/chat-plugin-web-crawler",
     "lobehub/lobe-assets",
     "purcell/inheritenv",
+    "queryverse/VegaDatasets.jl",
+    "shanoor/kubectl-aliases-powershell",
     "taikinman/langrila"
   ]
 }

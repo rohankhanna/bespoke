@@ -1,22 +1,33 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 7,
-    "terms": 22
+    "components": 109,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 18,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "adityasugandhi/skillsync-mcp",
+    "agent-sh/deslop",
+    "agents-squads/agents-squads",
+    "automazeio/proof-go",
+    "awni/picochat",
+    "birdofpreyru/js-utils",
+    "clearbluejar/ghidra-python",
+    "coderaiser/escover",
+    "conda-forge/cupy-feedstock",
+    "conda-forge/modin-feedstock",
+    "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "danielrosehill/claude-agent-workspace-generator",
     "flinedev/customstatusline",
     "flinedev/recall",
-    "layr-labs/incredible-squaring-avs-rs",
+    "Layr-Labs/incredible-squaring-avs-rs",
     "maxritter/pilot-shell-demo",
     "neuroverseos/neuroverseos-openclaw-governance",
     "tombelieber/claude-backup"

@@ -1,33 +1,48 @@
 {
   "counts": {
-    "components": 389,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 17,
-    "terms": 142
+    "components": 971,
+    "concepts": 260,
+    "observations": 261,
+    "repos": 32,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
+    "anomalyco/opencode",
     "anthropics/claude-code",
     "anthropics/skills",
     "automatic1111/stable-diffusion-webui",
+    "avelino/awesome-go",
+    "Comfy-Org/ComfyUI",
     "denoland/deno",
+    "electron/electron",
+    "f/prompts.chat",
+    "facebook/create-react-app",
+    "facebook/react",
+    "flutter/flutter",
     "ggml-org/llama.cpp",
+    "golang/go",
     "google-gemini/gemini-cli",
     "huggingface/transformers",
     "kubernetes/kubernetes",
     "langchain-ai/langchain",
     "microsoft/typescript",
+    "mrdoob/three.js",
     "nodejs/node",
     "nousresearch/hermes-agent",
     "obra/superpowers",
+    "ohmyzsh/ohmyzsh",
     "ollama/ollama",
     "openclaw/openclaw",
-    "rust-lang/rust"
+    "rust-lang/rust",
+    "sindresorhus/awesome",
+    "tauri-apps/tauri",
+    "torvalds/linux",
+    "vercel/next.js"
   ]
 }

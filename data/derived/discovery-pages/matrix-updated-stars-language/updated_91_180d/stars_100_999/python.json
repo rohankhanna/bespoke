@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 3,
-    "terms": 28
+    "components": 41,
+    "concepts": 56,
+    "observations": 57,
+    "repos": 9,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "23andMe/Yamale",
+    "alirezarezvani/claude-code-skill-factory",
     "behave/behave-django",
+    "clearbluejar/ghidrecomp",
+    "f-dangel/backpack",
     "hluaguo/learn-faster-kit",
-    "strands-agents/agent-builder"
+    "KellerJordan/cifar10-airbench",
+    "strands-agents/agent-builder",
+    "yashsinghcodes/wik"
   ]
 }

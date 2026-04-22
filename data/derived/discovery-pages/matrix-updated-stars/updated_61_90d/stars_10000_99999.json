@@ -1,21 +1,28 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 27
+    "components": 111,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 11,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "anthropics/claude-quickstarts",
+    "bmaltais/kohya_ss",
+    "caolan/async",
     "ComposioHQ/awesome-claude-skills",
     "junegunn/vim-plug",
-    "modin-project/modin"
+    "lucidrains/denoising-diffusion-pytorch",
+    "microsoft/unilm",
+    "modin-project/modin",
+    "NVlabs/instant-ngp",
+    "snarktank/ralph",
+    "transitive-bullshit/agentic"
   ]
 }

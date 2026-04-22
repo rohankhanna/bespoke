@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 2,
-    "terms": 23
+    "components": 87,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 12,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "abseil/abseil-cpp",
+    "apache/arrow",
+    "argotorg/solidity",
+    "ClickHouse/ClickHouse",
+    "ggml-org/ggml",
+    "microsoft/winget-cli",
+    "ml-explore/mlx",
+    "opencv/opencv",
+    "openssl/openssl",
     "protocolbuffers/protobuf",
-    "px4/px4-autopilot"
+    "tesseract-ocr/tesseract",
+    "wolfpld/tracy"
   ]
 }

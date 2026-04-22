@@ -1,26 +1,35 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 9,
-    "terms": 23
+    "components": 45,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 18,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "AIWintermuteAI/whispercpp",
+    "allenporter/python-google-nest-sdm",
     "astro-han/diffpane",
     "automazeio/proof",
+    "berty/www.berty.tech",
+    "bmad-code-org/bmad-plugins-marketplace",
     "collinear-ai/yc-bench",
-    "danielrosehill/index",
+    "conda-forge/spacy-feedstock",
+    "danielrosehill/Index",
     "ithiria894/awesome-claude-code-hooks",
-    "nousresearch/tinker-atropos",
+    "jiegec/tantivy-jieba",
+    "magodo/tfadd",
+    "nodejs/email",
     "onyx-dot-app/onyx_deep_research_bench",
-    "robertguss/claude-code-toolkit",
+    "opencontainers/tob",
+    "ssiu/flash-attention-turing",
+    "symgraph/BinAssistMCP",
     "w1ndys/ex-cure-skill"
   ]
 }

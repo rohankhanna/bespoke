@@ -1,28 +1,43 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 119,
-    "observations": 120,
-    "repos": 11,
-    "terms": 129
+    "components": 288,
+    "concepts": 233,
+    "observations": 234,
+    "repos": 26,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "2noise/ChatTTS",
+    "abetlen/llama-cpp-python",
     "abiosoft/colima",
+    "acornjs/acorn",
     "aider-ai/aider",
+    "alacritty/alacritty",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
+    "charmbracelet/glow",
     "charmbracelet/gum",
+    "charmbracelet/vhs",
+    "Cyan4973/xxHash",
     "dask/dask",
+    "EleutherAI/lm-evaluation-harness",
     "guidance-ai/guidance",
     "hibiken/asynq",
+    "junegunn/fzf.vim",
+    "karpathy/nanochat",
     "letta-ai/letta",
+    "nlohmann/json",
+    "pre-commit/pre-commit",
+    "reactjs/react.dev",
     "ruvnet/ruflo",
+    "shadow1ng/fscan",
+    "shareai-lab/learn-claude-code",
     "tobi/qmd"
   ]
 }

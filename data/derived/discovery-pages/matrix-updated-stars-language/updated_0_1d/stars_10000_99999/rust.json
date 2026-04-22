@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 27
+    "components": 140,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 8,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "astral-sh/ruff",
-    "astral-sh/uv",
-    "huggingface/candle",
-    "openai/codex"
+    "bevyengine/bevy",
+    "foundry-rs/foundry",
+    "GitoxideLabs/gitoxide",
+    "jdx/mise",
+    "jj-vcs/jj",
+    "ratatui/ratatui",
+    "rust-lang/rust-clippy",
+    "tracel-ai/burn"
   ]
 }

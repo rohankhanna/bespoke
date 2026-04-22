@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 5,
-    "terms": 21
+    "components": 90,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 11,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "64bit/commandOK",
     "cloudllm-ai/mentisdb",
+    "crate-ci/imperative",
+    "fortanix/rustls-mbedtls-provider",
+    "foundry-rs/foundry-fork-db",
     "hagan/claudia-statusline",
+    "major7apps/pensyve",
     "phiat/claude-esp-rs",
     "tombelieber/claude-view",
-    "vaporif/parry-guard"
+    "tracel-ai/burn-bench",
+    "tracel-ai/burn-onnx"
   ]
 }

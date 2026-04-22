@@ -1,35 +1,51 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 18,
-    "terms": 89
+    "components": 349,
+    "concepts": 124,
+    "observations": 126,
+    "repos": 34,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
+    "abubakarsiddik31/claude-skills-collection",
     "ahyatt/emacs-websocket",
     "alexei-led/aws-mcp-server",
+    "alirezarezvani/claude-code-tresor",
+    "asdf-vm/actions",
+    "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "aws/amazon-ec2-spot-interrupter",
+    "aws/aws-xray-daemon",
     "aymenfurter/ralph",
+    "caddyserver/caddy-docker",
+    "Calcium-Ion/new-api-horizon",
+    "cedar-policy/cedar-go",
     "claytonfarr/ralph-playbook",
     "cowboy8625/rusty-rain",
     "eckardt/cchistory",
     "flinedev/contextkit",
     "helm/community",
+    "hukkin/mdformat",
+    "jsegov/autoresearch-win-rtx",
+    "Kampfkarren/selene",
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
     "lualanes/lanes",
     "peergos/nabu",
     "Piebald-AI/gemini-cli-desktop",
+    "revfactory/harness-100",
+    "stardot/beebasm",
+    "starwing/luautf8",
     "strands-agents/mcp-server",
     "sudocode-ai/sudocode",
+    "trailofbits/eth-security-toolbox",
     "withastro/compiler"
   ]
 }

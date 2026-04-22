@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1070,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 31,
-    "terms": 207
+    "components": 1412,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 37,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "a-ghorbani/pocketpal-ai",
     "ai-that-works/ai-that-works",
     "anthropics/claude-code-action",
     "archestra-ai/archestra",
+    "babaohuang/GeminiProChat",
+    "berty/berty",
     "blockprotocol/blockprotocol",
+    "cloudflare/agents-starter",
     "ding113/claude-code-hub",
     "dyoshikawa/rulesync",
     "firebase/firebase-admin-node",
@@ -33,17 +37,19 @@
     "lobehub/sd-webui-lobe-theme",
     "matt1398/claude-devtools",
     "maxritter/pilot-shell",
-    "microsoft/playwright-cli",
     "mksglu/context-mode",
     "nizos/tdd-guard",
     "onecli/onecli",
     "op7418/codepilot",
+    "OpenAPITools/openapi-generator-cli",
     "owloops/claude-powerline",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",
+    "safe-fndn/safe-smart-account",
     "sirmalloc/ccstatusline",
     "stripe/ai",
     "stripe/stripe-node",
+    "vega/vega-lite",
     "withastro/starlight"
   ]
 }

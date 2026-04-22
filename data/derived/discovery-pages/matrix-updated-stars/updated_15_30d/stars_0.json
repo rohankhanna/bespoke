@@ -1,25 +1,33 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 9,
-    "terms": 30
+    "components": 50,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 17,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
+    "arckoor/botan-rs",
     "b2agi/exist-is-charter_kr",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Projects-Index",
+    "danielrosehill/AI-Resource-Maps",
+    "danielrosehill/Linux-Desktop-Tools-Index",
     "ethpandaops/xatu-cbt",
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
+    "piebald-ai/piebald",
+    "semgrep/cursor-plugin",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation"
   ]

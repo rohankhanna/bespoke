@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 28,
-    "observations": 30,
-    "repos": 9,
-    "terms": 41
+    "components": 170,
+    "concepts": 75,
+    "observations": 78,
+    "repos": 19,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agent-sh/agnix",
+    "alexheretic/glyph-brush",
     "cargo-bins/cargo-quickinstall",
+    "containers/aardvark-dns",
+    "crate-ci/committed",
+    "crisidev/bacon-ls",
     "dtormoen/tsk-tsk",
     "Kampfkarren/full-moon",
+    "messense/jieba-rs",
     "nielsgroen/claude-tmux",
+    "rust-lang/compiler-builtins",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
-    "tekumara/typos-lsp"
+    "tauri-apps/muda",
+    "tekumara/typos-lsp",
+    "tracel-ai/models",
+    "trifectatechfoundation/zlib-rs",
+    "yeslogic/allsorts"
   ]
 }

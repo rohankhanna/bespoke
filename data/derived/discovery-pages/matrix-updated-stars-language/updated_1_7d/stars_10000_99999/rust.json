@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 11,
-    "terms": 77
+    "components": 222,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 15,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "astral-sh/uv",
     "casey/just",
-    "GitoxideLabs/gitoxide",
+    "facebook/relay",
+    "gitui-org/gitui",
     "huggingface/candle",
-    "jj-vcs/jj",
     "openai/codex",
+    "rust-lang/cargo",
+    "rust-lang/rust-analyzer",
     "seanmonstar/reqwest",
+    "seanmonstar/warp",
+    "sharkdp/bat",
+    "sharkdp/fd",
     "tokio-rs/axum",
-    "tracel-ai/burn",
     "zeroclaw-labs/zeroclaw"
   ]
 }

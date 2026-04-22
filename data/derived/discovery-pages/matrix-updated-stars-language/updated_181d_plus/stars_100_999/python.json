@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 7,
-    "terms": 7
+    "components": 79,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 43,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,50 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "abgulati/LARS",
+    "agentica-project/verl-pipeline",
+    "akx/ggify",
+    "akx/ollama-dl",
+    "allenai/mmc4",
     "aminrezaei0x443/memory-efficient-attention",
+    "apple/ml-cross-entropy",
+    "askbudi/roundtable",
     "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+    "ayaka14732/jax-smi",
+    "ayaka14732/tpu-starter",
+    "bfshi/scaling_on_scales",
+    "BlinkDL/modded-nanogpt-rwkv",
+    "bytedance/Shot2Story",
+    "coaidev/blob-service",
+    "cocodataset/panopticapi",
+    "coffeefuelbump/csv-data-summarizer-claude-skill",
     "cohnen/mcp-google-ads",
+    "crowsonkb/v-diffusion-jax",
+    "crowsonkb/v-diffusion-pytorch",
+    "crytic/evm_cfg_builder",
     "dazuiba/ccnotify",
     "disler/just-prompt",
+    "django/channels_redis",
+    "eclipse-paho/paho.mqtt.testing",
+    "explosion/spacy-lookups-data",
+    "facebookresearch/InvariantRiskMinimization",
+    "fyu/lsun",
+    "graphql-python/graphene-sqlalchemy",
+    "idank/bashlex",
+    "leezhuuuuu/Code-Interpreter-Api",
+    "lmcgartland/graphene-file-upload",
+    "lucidrains/memory-efficient-attention-pytorch",
+    "microsoft/python-type-stubs",
+    "pallets/markupsafe",
+    "rapidsai/cusignal",
+    "simonw/csvs-to-sqlite",
+    "simonw/db-to-sqlite",
     "simonw/sqlite-diffable",
-    "yuag/code-audit"
+    "stlukey/whispercpp.py",
+    "velviagris/PaddleOCRFastAPI",
+    "yuag/code-audit",
+    "zeakai/wechat-ai"
   ]
 }

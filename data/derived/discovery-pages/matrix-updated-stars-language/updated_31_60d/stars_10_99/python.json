@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 5,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 2,
-    "terms": 10
+    "concepts": 17,
+    "observations": 17,
+    "repos": 6,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
+    "Alibaba-Quark/SSP",
+    "andyluo7/autoresearch",
+    "imlrz/DeepResearch-Bench-II",
+    "nousresearch/tinker-atropos",
     "talieisin/britfix"
   ]
 }

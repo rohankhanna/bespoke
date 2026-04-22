@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "RekGRpth/pg_task"
+  ]
+}

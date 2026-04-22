@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "feloy/tesh"
+  ]
+}

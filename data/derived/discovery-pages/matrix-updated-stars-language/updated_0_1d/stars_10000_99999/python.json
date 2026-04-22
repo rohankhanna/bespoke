@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 10,
-    "terms": 121
+    "components": 389,
+    "concepts": 257,
+    "observations": 259,
+    "repos": 20,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,27 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "aio-libs/aiohttp",
-    "caronc/apprise",
-    "django/django",
-    "hesreallyhim/awesome-claude-code",
-    "langchain-ai/langgraph",
-    "onyx-dot-app/onyx",
-    "oraios/serena",
-    "sgl-project/sglang",
-    "vega/altair",
-    "vllm-project/vllm"
+    "aden-hive/hive",
+    "Chia-Network/chia-blockchain",
+    "crewAIInc/crewAI",
+    "cupy/cupy",
+    "Dao-AILab/flash-attention",
+    "gradio-app/gradio",
+    "home-assistant/core",
+    "huggingface/diffusers",
+    "huggingface/peft",
+    "jax-ml/jax",
+    "kovidgoyal/kitty",
+    "langbot-app/LangBot",
+    "PaddlePaddle/PaddleOCR",
+    "pyodide/pyodide",
+    "python/cpython",
+    "pytorch/pytorch",
+    "stanfordnlp/dspy",
+    "verl-project/verl",
+    "voxel51/fiftyone",
+    "zhayujie/CowAgent"
   ]
 }

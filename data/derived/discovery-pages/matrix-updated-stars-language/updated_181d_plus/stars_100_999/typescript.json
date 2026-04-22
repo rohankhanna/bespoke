@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 6,
-    "terms": 29
+    "components": 477,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 12,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "ariya/esprima",
     "asg017/sqlite-ecosystem",
     "connectai-e/midjourney-web",
+    "Dogtiti/AutoGPT-Next-Web",
     "helmi/claude-simone",
+    "hexrcs/wiki-cli",
+    "hibiken/asynqmon",
     "johnlindquist/claude-hooks",
     "lobehub/lobe-vidol",
-    "possibilities/claude-composer"
+    "possibilities/claude-composer",
+    "relay-tools/relay-hooks",
+    "TrueFiEng/Waffle"
   ]
 }

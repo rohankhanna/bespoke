@@ -1,25 +1,35 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 11,
-    "terms": 18
+    "components": 49,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 21,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "adobe-type-tools/aots",
+    "algorealmInc/SwarmNL",
+    "automazeio/open-royalties",
+    "ayrat555/cargo-mode",
     "biocypher/project-template",
     "bl-ue/tweakcc-system-prompts",
+    "catch-twenty-two/rust-ssd",
+    "coderaiser/estrace",
     "crate-ci/gh-install",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
     "danielrosehill/claude-file-organiser-super-slash",
     "dredozubov/prd-generator",
+    "ichard26/diff-shades",
+    "Layr-Labs/eigensdk-go",
+    "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",
+    "modelscope/ms-enclave",
     "okuvshynov/cubestat",
     "stephenschoettler/taches-oc-prompts",
     "wirasm/dylan",

@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 70,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "actions/javascript-action",
+    "facebook/jscodeshift",
+    "WiseLibs/better-sqlite3"
+  ]
+}

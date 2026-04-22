@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 301,
-    "concepts": 17,
-    "observations": 18,
-    "repos": 10,
-    "terms": 33
+    "components": 426,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 13,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "danielnappa/tweakgc-cli",
     "fatwang2/search1api-lobechat",
+    "google-github-actions/release-please-action",
+    "invoke-ai/launcher",
     "lenml/gcp-claude-openai-api-server",
     "lobehub/chat-plugin-realtime-weather",
     "lobehub/chat-plugin-sdk",
     "lobehub/chat-plugin-search-engine",
     "lobehub/chat-plugin-template",
     "lobehub/chat-plugins-gateway",
+    "Roblox/setup-foreman",
     "rygwdn/slack-tools",
     "steadycursor/steadystart"
   ]

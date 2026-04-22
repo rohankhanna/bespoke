@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 2
+    "components": 57,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "rullerzhou-afk/clawd-on-desk"
+    "eslint/js",
+    "nodejs/undici"
   ]
 }

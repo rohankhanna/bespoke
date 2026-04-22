@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 2,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "clearbluejar/ghidra-python",
+    "danielrosehill/Agentic-AI-Architecture-Visualisation"
+  ]
+}

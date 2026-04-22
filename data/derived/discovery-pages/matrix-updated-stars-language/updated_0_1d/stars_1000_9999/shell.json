@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 14,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 3,
+    "terms": 16
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "conda-forge/miniforge",
+    "docker-library/postgres",
+    "rbenv/ruby-build"
+  ]
+}

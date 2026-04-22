@@ -3,8 +3,8 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 13,
-    "terms": 1
+    "repos": 2,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
-    "begmyratb/floweye-yyyxxx.cc",
-    "biparous-blaxploitation156/ciphermind",
-    "carloandremoreyra/xx",
-    "chafingdishposition355/go-skills",
-    "foundersieve687/skill-gateway",
-    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
-    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
-    "narutoxdd6/nyro",
-    "pragmatical-transshipment598/claude-code-workflows",
-    "shouted-numberone752/wechat-agent-connector",
-    "vivianalaced749/vk-calls-tunnel",
-    "wendyalbanez/clawui"
+    "danielrosehill/adb-ops-plugin",
+    "danielrosehill/Backup-Planner"
   ]
 }

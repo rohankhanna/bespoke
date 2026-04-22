@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 9,
-    "terms": 53
+    "components": 119,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 7,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "agent-sh/agentsys",
-    "bmad-code-org/bmad-module-game-dev-studio",
+    "coderaiser/putout",
     "lis186/ccxray",
     "lobehub/lobe-editor",
-    "mattgodbolt/jsbeeb",
     "nodejs/admin",
     "nodejs/TSC",
-    "sethgammon/citadel",
-    "stripe-samples/accept-a-payment"
+    "sethgammon/citadel"
   ]
 }

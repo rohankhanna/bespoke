@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "8144225309/superscalar-cln"
+  ]
+}

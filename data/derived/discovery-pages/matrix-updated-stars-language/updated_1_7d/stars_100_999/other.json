@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 9,
-    "terms": 47
+    "components": 187,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 21,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "aws-samples/anthropic-on-aws",
+    "awslabs/s2n-bignum",
+    "bazelbuild/rules_apple",
     "biopragmatics/bioregistry",
-    "danielrosehill/claude-code-projects-index",
+    "cncf/foundation",
+    "ethereum/beacon-APIs",
     "harperreed/dotfiles",
+    "helm/helm-www",
+    "huggingface/optimum-neuron",
     "jeremymailen/kotlinter-gradle",
     "jsonbored/claudepro-directory",
-    "openclaw/nix-openclaw",
+    "lunarmodules/luacheck",
+    "mongodb/homebrew-brew",
+    "nix-community/nur-packages-template",
+    "nodejs/build",
+    "open-telemetry/opentelemetry-proto",
+    "slothy-optimizer/slothy",
     "stevemolitor/claude-code.el",
-    "stevemolitor/monet"
+    "stevemolitor/monet",
+    "strands-agents/docs",
+    "vibhorkum/pg_background"
   ]
 }

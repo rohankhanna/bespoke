@@ -1,23 +1,32 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 11,
-    "terms": 28
+    "components": 112,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 20,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "androidStern-personal/openclaw-mcp-adapter",
     "asg017/sqlite-hello",
+    "cedar-policy/rfcs",
     "cloudrepo-io/founder-os",
+    "coderaiser/mock-import",
+    "fengkx/jieba-wasm",
     "kunwar-shah/claudex",
+    "Layr-Labs/eigenda-operator-setup",
+    "llvm/clangd-www",
     "lobehub/.github",
+    "MicrosoftDocs/vcpkg-docs",
     "mohammadtavakoli78/beam",
+    "ocaml-opam/opam-publish",
+    "ocaml-tracing/ocaml-tracy",
     "omril321/automated-notebooklm",
     "panaversity/claude-code-agent-teams-exercises",
     "sculptdotfun/viberank",

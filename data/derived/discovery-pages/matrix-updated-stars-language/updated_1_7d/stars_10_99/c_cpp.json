@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 4
+    "components": 33,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 5,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "8144225309/SuperScalar",
+    "JFLarvoire/the_silver_searcher",
     "liangshengyong/lanwan",
-    "marciogranzotto/clawd-tank"
+    "marciogranzotto/clawd-tank",
+    "mybigday/llama.node"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 1,
-    "terms": 1
+    "components": 37,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "Layr-Labs/eigensdk-rs",
+    "open-telemetry/opentelemetry-rust-contrib",
+    "quininer/x11-clipboard",
     "tianrking/weixin-agent-rs"
   ]
 }

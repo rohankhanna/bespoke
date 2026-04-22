@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 1,
-    "terms": 1
+    "components": 56,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 7,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "BLAKE3-team/BLAKE3"
+    "BLAKE3-team/BLAKE3",
+    "compose-spec/compose-spec",
+    "crytic/building-secure-contracts",
+    "dotnet/machinelearning",
+    "itchyny/lightline.vim",
+    "mattn/vim-lsp-settings",
+    "pyenv-win/pyenv-win"
   ]
 }

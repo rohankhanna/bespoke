@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 7,
-    "terms": 5
+    "concepts": 17,
+    "observations": 17,
+    "repos": 8,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "florisheedless915/grok-register",
@@ -20,6 +20,7 @@
     "l12203685/digital-immortality",
     "mohfer/nous-proxy",
     "piqrypt/piqrypt-mcp-server",
+    "roampal-ai/roampal-labs",
     "shubishere/ai-drawio"
   ]
 }

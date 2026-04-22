@@ -1,20 +1,53 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 3,
-    "terms": 12
+    "components": 364,
+    "concepts": 202,
+    "observations": 204,
+    "repos": 36,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "elizaos/elizaos.github.io",
-    "lunarmodules/luacheck",
-    "mongodb/homebrew-brew"
+    "AI-Hypercomputer/maxdiffusion",
+    "aio-libs/aiohttp-demos",
+    "akfamily/akquant",
+    "apappascs/mcp-servers-hub",
+    "Azure/terraform-provider-azapi",
+    "babel/website",
+    "celestiaorg/celestia-node",
+    "ChainSafe/forest",
+    "ClickHouse/clickhouse-docs",
+    "conda-forge/conda-forge.github.io",
+    "conda-forge/conda-smithy",
+    "containers/netavark",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "dart-lang/build",
+    "denysdovhan/dotfiles",
+    "eigenwallet/core",
+    "ghimiresunil/Top-AI-Tools",
+    "googleapis/python-aiplatform",
+    "hashicorp/terraform-provider-scaffolding-framework",
+    "huggingface/kernels",
+    "intel/intel-xpu-backend-for-triton",
+    "kubernetes-sigs/krew-index",
+    "mason-org/mason-registry",
+    "microsoft/hcsshim",
+    "microsoft/RedStone",
+    "nix-community/nur-combined",
+    "ocaml/opam-repository",
+    "open-telemetry/opentelemetry-kotlin",
+    "opentofu/registry",
+    "pandas-dev/pandas-stubs",
+    "ROCm/aiter",
+    "ROCm/composable_kernel",
+    "ROCm/iris",
+    "rust-lang/crates.io-index",
+    "rust-lang/team",
+    "Sovereign-Labs/sovereign-sdk"
   ]
 }

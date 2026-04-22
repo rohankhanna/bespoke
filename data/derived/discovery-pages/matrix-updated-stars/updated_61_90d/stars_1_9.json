@@ -1,22 +1,30 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 5,
-    "terms": 6
+    "components": 27,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 13,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "airowe/claude-a11y-skill",
+    "AIxCyberChallenge/example-crs-architecture",
+    "biocypher/collectri",
+    "cpojer/js-codemod",
+    "feloy/tesh",
     "genius-harry/neural-chat",
     "hesreallyhim/inkverse-fork",
+    "ldayton/bash-oracle",
     "mjvolk3/torchcell",
     "piebald-ai/.github",
+    "pydantic/pydantic-docs",
+    "trufflesecurity/test_keys",
     "zwowo1997/pack-repo-4ai"
   ]
 }

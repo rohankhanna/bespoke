@@ -1,24 +1,37 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 44
+    "components": 232,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 20,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "andymik90/aperant",
+    "AndyMik90/Aperant",
     "dandavison/delta",
     "delgan/loguru",
+    "direnv/direnv",
     "encode/httpx",
+    "explosion/spaCy",
     "eyaltoledano/claude-task-master",
+    "facebook/zstd",
+    "facebookresearch/sam2",
+    "hyperium/hyper",
     "karpathy/autoresearch",
-    "superclaude-org/superclaude_framework"
+    "labstack/echo",
+    "LazyVim/LazyVim",
+    "libgit2/libgit2",
+    "nvm-sh/nvm",
+    "openai/CLIP",
+    "openai/tiktoken",
+    "rbenv/rbenv",
+    "sindresorhus/pure",
+    "spaceship-prompt/spaceship-prompt"
   ]
 }

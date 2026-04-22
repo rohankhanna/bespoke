@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 4,
-    "terms": 1
+    "components": 50,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 7,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "bartolli/claude-code-typescript-hooks",
+    "chrisvoncsefalvay/claude-d3js-skill",
     "fimeg/networkchronicles",
     "grahama1970/claude-code-mcp-enhanced",
-    "kingler/n8n_agent"
+    "kingler/n8n_agent",
+    "sql-js/react-sqljs-demo",
+    "standard/standardx"
   ]
 }

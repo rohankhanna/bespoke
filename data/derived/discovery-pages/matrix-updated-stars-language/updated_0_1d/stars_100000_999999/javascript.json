@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "components": 355,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 3,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "nodejs/node"
+    "facebook/react",
+    "mrdoob/three.js",
+    "vercel/next.js"
   ]
 }

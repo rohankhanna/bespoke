@@ -1,23 +1,26 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 6,
-    "terms": 1
+    "components": 3,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 9,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "8144225309/superscalar-docs",
     "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",
-    "cdeust/cortex-know-when-to-stop-training-model",
+    "arckoor/jsonwebtoken-botan",
+    "danielrosehill/AI-Memory-Planning-0426",
+    "eigenwallet/arti",
+    "grubersjoe/react-activity-calendar-tests",
     "mitchuski/agentprivacy-skills",
-    "piebald-ai/piebald",
     "wencuecryforme/mysoul.skill"
   ]
 }

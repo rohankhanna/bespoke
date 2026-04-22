@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 3,
-    "terms": 28
+    "components": 60,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 9,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "ccache/ccache",
     "containers/crun",
+    "DanBloomberg/leptonica",
     "harfbuzz/harfbuzz",
-    "soramimi/guitar"
+    "plasma-umass/coz",
+    "pnggroup/libpng",
+    "soramimi/guitar",
+    "sveinbjornt/Platypus",
+    "zlib-ng/zlib-ng"
   ]
 }

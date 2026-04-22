@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 12,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "ahmetb/cloud-run-faq",
+    "aws/containers-roadmap",
     "deluan/zsh-in-docker",
-    "sstephenson/bats"
+    "ekalinin/github-markdown-toc",
+    "eth-p/bat-extras",
+    "japaric/trust",
+    "karalabe/xgo",
+    "kylef/swiftenv",
+    "pyenv/pyenv-installer"
   ]
 }

@@ -1,18 +1,20 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 1,
-    "terms": 17
+    "components": 4,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 3,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "roampal-ai/roampal-labs"
+    "8144225309/superscalar-cln",
+    "danielrosehill/adb-ops-plugin",
+    "danielrosehill/Backup-Planner"
   ]
 }

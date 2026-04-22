@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 18
+    "components": 27,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 5,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "delgan/loguru",
     "encode/httpx",
+    "explosion/spaCy",
     "karpathy/autoresearch",
-    "superclaude-org/superclaude_framework"
+    "openai/tiktoken"
   ]
 }

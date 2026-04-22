@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 5,
-    "terms": 22
+    "components": 137,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 6,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "callstack/react-native-builder-bob",
     "google/closure-compiler",
     "nodejs/Release",
     "npm/cli",

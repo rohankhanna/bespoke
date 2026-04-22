@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 41,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "caolan/async"
+  ]
+}

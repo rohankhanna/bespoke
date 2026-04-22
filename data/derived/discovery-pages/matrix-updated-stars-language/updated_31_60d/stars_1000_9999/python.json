@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 3,
-    "terms": 9
+    "components": 20,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 11,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "adrienverge/yamllint",
+    "benjaminp/six",
+    "django/asgiref",
+    "explosion/spacy-models",
+    "miolini/autoresearch-macos",
+    "NVlabs/VILA",
+    "pytest-dev/pytest-cov",
     "qix-/better-exceptions",
     "shareai-lab/claw0",
+    "trevin-creator/autoresearch-mlx",
     "zubair-trabzada/ai-marketing-claude"
   ]
 }

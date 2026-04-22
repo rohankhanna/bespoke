@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 5,
-    "terms": 18
+    "components": 48,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 28,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,35 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "1runeberg/confichat",
+    "abingham/emacs-ycmd",
+    "agentica-project/rllm",
+    "alteryx/open_source_demos",
+    "arpitbansal297/Universal-Guided-Diffusion",
     "beyondgrep/ack3",
+    "BLAKE3-team/BLAKE3-specs",
+    "brotzeit/rustic",
+    "camenduru/kohya_ss-colab",
+    "camenduru/LLaVA-colab",
+    "cncf/tag-app-delivery",
+    "cncf/tag-contributor-strategy",
+    "cncf/tag-env-sustainability",
+    "cncf/tag-observability",
+    "datadesk/california-coronavirus-data",
     "ers35/luastatic",
+    "fwcd/kotlin-debug-adapter",
+    "helm/charts-repo-actions-demo",
+    "junegunn/vader.vim",
+    "lewis6991/pckr.nvim",
+    "max-baz/lightline-ale",
+    "nak1114/rbenv-win",
+    "oskarnp/odin-tracy",
     "rlxone/multisoundchanger",
-    "tc39/proposal-async-iteration"
+    "tc39/proposal-async-iteration",
+    "vicgalle/stable-diffusion-aesthetic-gradients",
+    "wbolster/emacs-direnv",
+    "zsef123/Connected_components_PyTorch"
   ]
 }

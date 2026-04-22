@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "adobe-type-tools/aots",
+    "ayrat555/cargo-mode"
+  ]
+}

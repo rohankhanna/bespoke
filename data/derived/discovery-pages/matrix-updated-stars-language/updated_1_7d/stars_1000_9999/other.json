@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 8,
-    "terms": 43
+    "components": 142,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 16,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "actions/runner",
     "alchaincyf/darwin-skill",
+    "all-contributors/allcontributors.org",
+    "apple/containerization",
     "automazeio/vibeproxy",
+    "crytic/echidna",
+    "ethereum/execution-apis",
     "GoogleCloudPlatform/vertex-ai-creative-studio",
     "junegunn/seoul256.vim",
+    "ocaml/opam",
+    "okd-project/okd",
+    "open-telemetry/opentelemetry-specification",
     "pinterest/ktlint",
     "revfactory/harness",
-    "rust-lang/rfcs"
+    "rust-lang/rfcs",
+    "rust-lang/rust-mode"
   ]
 }

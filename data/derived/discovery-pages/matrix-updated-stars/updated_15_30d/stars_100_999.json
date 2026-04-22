@@ -1,34 +1,52 @@
 {
   "counts": {
-    "components": 276,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 17,
-    "terms": 97
+    "components": 451,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 35,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "afbjorklund/lima-gui",
     "agamm/claude-code-owasp",
     "akin-ozer/cc-devops-skills",
     "aws/homebrew-tap",
+    "bazelbuild/bazel-skylib",
     "biocypher/biocypher",
     "broderick-westrope/tetrigo",
+    "cafeTechne/antigravity-link-extension",
     "carlrannaberg/claudekit",
     "cedar-policy/cedar-examples",
+    "Charlie85270/Dorothy",
     "comme2e/comm",
+    "ctz/graviola",
+    "dfrg/swash",
+    "dmitry-brazhenko/SharpToken",
+    "DoumanAsh/xxhash-rust",
+    "emacs-rustic/rustic",
+    "ethereum/builder-specs",
+    "facebookincubator/ptr",
+    "ghostty-org/ghostling",
     "google/protobuf.dart",
+    "googleapis/python-storage",
+    "Layr-Labs/eigenlayer-contracts",
     "ldayton/dippy",
     "lobehub/lobe-midjourney-webui",
+    "mattn/webapi-vim",
+    "notaryproject/notation",
     "npm/rfcs",
     "protocolbuffers/protobuf-javascript",
     "purcell/envrc",
-    "revfactory/harness-100",
+    "pyodide/micropip",
+    "rust-lang/crater",
     "ruvnet/agentic-flow",
-    "shareai-lab/kode-agent-sdk"
+    "shareai-lab/kode-agent-sdk",
+    "toon-format/spec"
   ]
 }

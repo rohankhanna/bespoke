@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
+    "components": 0,
     "concepts": 0,
     "observations": 0,
     "repos": 1,
-    "terms": 4
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "beyondcode/claude-hooks-sdk"
+    "ocaml-opam/opam2web"
   ]
 }

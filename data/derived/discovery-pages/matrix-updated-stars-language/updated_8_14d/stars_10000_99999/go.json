@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 3,
-    "terms": 26
+    "components": 41,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 6,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "abiosoft/colima",
+    "charmbracelet/glow",
     "charmbracelet/gum",
-    "hibiken/asynq"
+    "charmbracelet/vhs",
+    "hibiken/asynq",
+    "shadow1ng/fscan"
   ]
 }

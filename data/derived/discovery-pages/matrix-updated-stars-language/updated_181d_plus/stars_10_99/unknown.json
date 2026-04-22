@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 5,
-    "terms": 3
+    "components": 2,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 18,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,25 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "1nickpappas/move-code-quality-skill",
+    "aws/ec2-spot-instances-integrations-roadmap",
+    "blockprotocol/awesome-blocks",
+    "Centaurusalpha/DialogGen",
+    "ChatGPTNextWeb/NextChat-iOS",
     "chrisleyva/todo-slash-command",
+    "cncf/tag-network",
+    "greggb/sublime-snazzy",
     "hashintel/awesome-hash",
+    "KohakuBlueleaf/LoCon",
+    "mark0smith/Kunlun-M-GUI",
+    "openshift/community",
+    "tellnobody1/sublime-purescript-syntax",
     "tott/laravel-tall-claude-ai-configs",
+    "ubmit/seoul256-kitty",
+    "vega/roadmap",
+    "webassemblylabs/webassembly-language-runtimes",
     "yzyydev/agentic-coding-structure"
   ]
 }

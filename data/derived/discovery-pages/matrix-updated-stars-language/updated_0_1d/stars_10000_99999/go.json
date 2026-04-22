@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 3,
-    "terms": 45
+    "components": 206,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 14,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "dolthub/dolt",
+    "cli/cli",
+    "coder/coder",
+    "containers/podman",
+    "dexidp/dex",
+    "docker/compose",
     "gastownhall/beads",
-    "junegunn/fzf"
+    "go-delve/delve",
+    "golangci/golangci-lint",
+    "hashicorp/terraform",
+    "helm/helm",
+    "jesseduffield/lazygit",
+    "moby/moby",
+    "opentofu/opentofu",
+    "trufflesecurity/trufflehog"
   ]
 }

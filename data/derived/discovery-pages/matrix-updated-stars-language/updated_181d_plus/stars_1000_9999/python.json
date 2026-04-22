@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 4,
-    "terms": 18
+    "components": 55,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 30,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,37 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "Agent-RL/ReCall",
+    "airbnb/binaryalert",
+    "Alibaba-NLP/ZeroSearch",
+    "ashawkey/stable-dreamfusion",
+    "ashkamath/mdetr",
+    "BAAI-DCAI/Bunny",
+    "casper-hansen/AutoAWQ",
+    "christophschuhmann/improved-aesthetic-predictor",
+    "d0c-s4vage/lookatme",
+    "DamnWidget/anaconda",
+    "deep-floyd/IF",
+    "eclipse-paho/paho.mqtt.python",
+    "edc/bass",
+    "ermongroup/ddim",
     "eth-sri/lmql",
+    "explosion/projects",
+    "FeeiCN/Cobra",
     "googlefonts/noto-emoji",
     "graphql-python/graphene",
-    "maciek-roboblog/claude-code-usage-monitor"
+    "hojonathanho/diffusion",
+    "kohya-ss/sd-webui-additional-networks",
+    "LuChengTHU/dpm-solver",
+    "Luolc/AdaBound",
+    "maciek-roboblog/claude-code-usage-monitor",
+    "mit-han-lab/llm-awq",
+    "NVlabs/noise2noise",
+    "openai/guided-diffusion",
+    "openai/improved-diffusion",
+    "PyCQA/pydocstyle",
+    "SunoAI-API/Suno-API"
   ]
 }

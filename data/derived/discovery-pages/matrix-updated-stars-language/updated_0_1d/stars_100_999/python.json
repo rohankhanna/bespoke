@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 24
+    "components": 62,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 9,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "albumentations-team/AlbumentationsX",
-    "alistaitsacle/free-llm-api-keys",
-    "clearbluejar/pyghidra-mcp",
-    "daaain/claude-code-log"
+    "AI-Hypercomputer/maxdiffusion",
+    "akfamily/akquant",
+    "conda-forge/conda-smithy",
+    "googleapis/python-aiplatform",
+    "huggingface/kernels",
+    "microsoft/RedStone",
+    "pandas-dev/pandas-stubs",
+    "ROCm/aiter",
+    "ROCm/iris"
   ]
 }

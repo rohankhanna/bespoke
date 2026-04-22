@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 28,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 4,
+    "terms": 36
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "nvm-sh/nvm",
+    "rbenv/rbenv",
+    "sindresorhus/pure",
+    "spaceship-prompt/spaceship-prompt"
+  ]
+}

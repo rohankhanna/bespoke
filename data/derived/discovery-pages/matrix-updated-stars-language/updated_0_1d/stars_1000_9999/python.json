@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 3,
-    "terms": 27
+    "components": 111,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 16,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "embeddings-benchmark/mteb",
-    "nesquena/hermes-webui",
-    "pchalasani/claude-code-tools"
+    "agronholm/anyio",
+    "AI-Hypercomputer/maxtext",
+    "alibaba/ROLL",
+    "apple/coremltools",
+    "Azure/azure-sdk-for-python",
+    "ethereum/consensus-specs",
+    "EvolvingLMMs-Lab/lmms-eval",
+    "googleapis/google-api-python-client",
+    "googleapis/google-cloud-python",
+    "llamastack/llama-stack",
+    "LoRexxar/Kunlun-M",
+    "microsoft/LMOps",
+    "modelscope/modelscope",
+    "nix-community/NUR",
+    "safetensors/safetensors",
+    "strands-agents/sdk-python"
   ]
 }

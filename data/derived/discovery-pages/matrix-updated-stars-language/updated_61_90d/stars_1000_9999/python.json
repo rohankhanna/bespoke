@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 21
+    "components": 38,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 9,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "alteryx/featuretools",
     "anthropics/claude-code-security-review",
+    "crowsonkb/k-diffusion",
+    "davidhalter/jedi-vim",
+    "graphql-python/graphene-django",
     "meta-llama/llama-models",
     "ollama/ollama-python",
+    "open-mmlab/mmcv",
     "simonw/claude-code-transcripts"
   ]
 }

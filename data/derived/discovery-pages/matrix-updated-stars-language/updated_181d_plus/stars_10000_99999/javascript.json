@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "components": 92,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "JakeChampion/fetch",
+    "restify/node-restify",
     "standard/standard"
   ]
 }

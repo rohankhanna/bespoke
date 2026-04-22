@@ -1,28 +1,46 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 26,
-    "observations": 27,
-    "repos": 11,
-    "terms": 32
+    "components": 192,
+    "concepts": 101,
+    "observations": 103,
+    "repos": 29,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "atanunq/viu",
+    "charmbracelet/skate",
     "ddollar/forego",
+    "facebookincubator/submitit",
+    "facebookresearch/DomainBed",
+    "fukuball/jieba-php",
+    "github/git-sizer",
     "google-github-actions/auth",
+    "google/gts",
     "gwudcap/cc-sessions",
+    "huggingface/swift-coreml-diffusers",
+    "jstkdng/ueberzugpp",
     "julienxx/terminal-notifier",
     "lokerl/tts-vue",
-    "lorexxar/kunlun-m",
+    "meta-llama/synthetic-data-kit",
+    "muesli/termenv",
     "numman-ali/openskills",
+    "NVlabs/nvdiffrast",
     "omnara-ai/omnara",
     "protectai/llm-guard",
     "protocolbuffers/protobuf-go",
-    "steipete/claude-code-mcp"
+    "rurban/smhasher",
+    "simonw/sqlite-utils",
+    "songquanpeng/message-pusher",
+    "steipete/claude-code-mcp",
+    "Tencent-Hunyuan/HunyuanDiT",
+    "tpoechtrager/osxcross",
+    "TritonDataCenter/node-verror",
+    "uber-go/mock"
   ]
 }

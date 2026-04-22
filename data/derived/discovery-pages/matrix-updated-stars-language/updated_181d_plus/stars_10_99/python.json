@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 6,
-    "terms": 9
+    "components": 40,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 26,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,33 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "aerobounce/Sublime-Pretty-Shell",
+    "alexrame/diwa",
+    "alexrame/fishr",
+    "axolotl-ai-cloud/grpo_code",
     "axolotl-ai-cloud/plugin-atropos",
+    "bentoml/BentoChatTTS",
+    "bentoml/BentoColPali",
+    "bentoml/BentoCrewAI",
+    "ceylonai/ceylon",
+    "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
+    "dandavison/open-in-editor",
     "decider/claude-hooks",
     "erezinman/loguru-config",
+    "getbettr/octotail",
     "grahama1970/claude-task-runner",
+    "hashberg-io/multiformats",
+    "hukkin/mdformat-toc",
+    "isamert/gedi",
+    "modin-project/unidist",
+    "Mushroomcat9998/PaddleOCR",
     "oxpig/calm",
-    "superclaude-org/superqwen_framework"
+    "Parveshiiii/Deepresearch-Agent",
+    "pydantic/strict-no-cover",
+    "SublimeLinter/SublimeLinter-mypy",
+    "superclaude-org/superqwen_framework",
+    "ye4241/midjourney-captcha-bot"
   ]
 }

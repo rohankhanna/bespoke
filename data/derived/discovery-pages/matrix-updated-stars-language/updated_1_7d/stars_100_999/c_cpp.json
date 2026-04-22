@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 38,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 2,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "repo_ids": [
+    "microsoft/vcpkg-tool",
+    "mybigday/llama.rn"
+  ]
+}

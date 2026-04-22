@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 28,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 10,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "0xcafed00d/joystick",
+    "1set/cronrange",
     "brads3290/cclogviewer",
-    "bytegust/spm"
+    "bytegust/spm",
+    "dustinblackman/gomodrun",
+    "filhodanuvem/polyglot",
+    "Layr-Labs/eigenda-proxy",
+    "malfunkt/iprange",
+    "maoueh/zap-pretty",
+    "muesli/ansi"
   ]
 }

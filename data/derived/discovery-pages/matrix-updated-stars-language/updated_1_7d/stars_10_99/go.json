@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 7,
-    "observations": 7,
+    "components": 8,
+    "concepts": 6,
+    "observations": 6,
     "repos": 3,
-    "terms": 7
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "allenreder/cliproxyapi-quota-inspector",
-    "compozy/kb",
-    "joshsymonds/cc-tools"
+    "joshsymonds/cc-tools",
+    "magodo/aztft"
   ]
 }

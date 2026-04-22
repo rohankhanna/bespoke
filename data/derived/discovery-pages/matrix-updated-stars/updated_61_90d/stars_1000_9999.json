@@ -1,29 +1,42 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 12,
-    "terms": 50
+    "components": 182,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 25,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "alteryx/featuretools",
     "anthropics/claude-code-security-review",
     "anthropics/claudes-c-compiler",
+    "antonbabenko/terraform-skill",
     "bats-core/bats-core",
+    "blader/claudeception",
+    "chakra-core/ChakraCore",
+    "crowsonkb/k-diffusion",
+    "davidhalter/jedi-vim",
+    "google/re2",
+    "graphql-python/graphene-django",
     "greggh/claude-code.nvim",
+    "GREsau/schemars",
+    "jtblin/kube2iam",
     "meta-llama/llama-models",
     "ollama/ollama-python",
+    "open-mmlab/mmcv",
     "parruda/swarm",
+    "pramsey/pgsql-http",
     "shareAI-lab/Kode-Agent",
     "simonw/claude-code-transcripts",
+    "sindresorhus/ponyfill",
     "touchlab/droidconkotlin",
+    "UB-Mannheim/tesseract",
     "VirusTotal/yara"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 3,
-    "terms": 1
+    "components": 13,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 4,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
-    "flinedev/plankit",
-    "kubernetes/steering",
+    "charmbracelet/scoop-bucket",
+    "google/oss-policies-info",
+    "Homebrew/.github",
     "simonw/simonwillisonblog-backup"
   ]
 }

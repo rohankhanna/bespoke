@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 5,
-    "terms": 24
+    "components": 98,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 14,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "caronc/apprise-api",
     "cisco-ai-defense/skill-scanner",
     "containers/podman-compose",
+    "datadog/guarddog",
+    "EleutherAI/gpt-neox",
+    "facebookincubator/AITemplate",
     "getzep/zep",
+    "microsoft/pylance-release",
+    "mll-lab-nu/RAGEN",
+    "modelscope/ms-agent",
     "nousresearch/atropos",
+    "PyCQA/bandit",
+    "pypa/setuptools",
     "therealxiaomanchu/ex-skill"
   ]
 }

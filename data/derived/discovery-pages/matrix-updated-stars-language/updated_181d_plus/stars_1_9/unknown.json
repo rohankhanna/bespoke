@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 3,
-    "terms": 0
+    "concepts": 13,
+    "observations": 13,
+    "repos": 13,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
     "0xnu/rewsury",
+    "ConnectAI-E/DingTalk-Claude",
+    "ConnectAI-E/Dingtalk-Midjourney",
+    "ConnectAI-E/Dingtalk-Minimax",
+    "coreybutler/staticassets",
+    "crytic/solc",
+    "danielrosehill/Awesome-Linux-IDEs",
+    "jcmorrow/seoul256-ghostty",
+    "jcmorrow/seoul256-zed",
     "layr-labs/avs-vibe-developer-guide",
+    "pandas-dev/.github",
+    "vega/logos",
     "zailoxtt/ru-grok-jailbreak"
   ]
 }

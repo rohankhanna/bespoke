@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 3,
-    "terms": 16
+    "components": 68,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 17,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "antonfisher/nested-logrus-formatter",
     "asg017/sqlite-html",
     "asg017/sqlite-http",
-    "layr-labs/incredible-squaring-avs"
+    "bitfield/gotestdox",
+    "chronosphereio/calyptia-go-bubble-table",
+    "containerd/cri",
+    "containers/dnsname",
+    "docker-archive/compose-cli",
+    "jjf012/gopoc",
+    "josephspurrier/goversioninfo",
+    "layr-labs/incredible-squaring-avs",
+    "LumaAI-API/Luma-API",
+    "maaslalani/gambit",
+    "muesli/reflow",
+    "riyaz-ali/sqlite",
+    "Suno-API/Suno-API",
+    "urjitbhatia/cozgo"
   ]
 }

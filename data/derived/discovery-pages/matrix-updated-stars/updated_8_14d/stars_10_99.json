@@ -1,32 +1,52 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 15,
-    "terms": 39
+    "components": 338,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 35,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-22T07:07:02.129101+00:00",
   "repo_ids": [
+    "agents-squads/squads-cli",
+    "AgriciDaniel/claude-email",
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
+    "aporthq/aport-agent-guardrails",
     "askroundtable/expert-skills",
+    "bmad-code-org/bmad-module-creative-intelligence-suite",
     "browser-use/benchmark",
     "buddingnewinsights/proxypal",
     "cedar-policy/cedar-docs",
+    "ChainSafe/forest-iac",
     "cloudartisan/cloudartisan.github.io",
+    "coderaiser/supertape",
+    "compozy/kb",
+    "conda-forge/poppler-feedstock",
+    "Digidai/product-manager-skills",
     "dreamiurg/claude-mountaineering-skills",
     "eigenfoundation/elips",
     "ethpandaops/xatu",
     "fgrehm/clotilde",
+    "flinedev/plankit",
+    "googleapis/python-pubsublite",
+    "grain-lang/binaryen.ml",
+    "iamsashank09/llm-wiki-kit",
     "jerseycheese/narraitor",
+    "kubernetes/steering",
+    "Layr-Labs/eigensdk-rs",
     "libp2p/test-plans",
     "mem0ai/memory-benchmarks",
+    "nix-community/nur-update",
+    "ocaml-opam/opam2web",
+    "open-telemetry/opentelemetry-rust-contrib",
+    "quininer/x11-clipboard",
+    "scasella/nanochat-mlx",
     "tianrking/weixin-agent-rs"
   ]
 }
