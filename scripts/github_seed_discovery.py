@@ -39,6 +39,12 @@ NON_REPO_OWNERS = {"user-attachments", "orgs", "users", "settings", "marketplace
 EXPLICIT_REPO_EXISTS_CACHE = {}
 EXPLICIT_REPO_EXISTS_DEGRADED = False
 EXPLICIT_REPO_EXISTS_FALLBACKS = []
+RATE_LIMIT_BACKOFF_SECONDS = 0
+RATE_LIMIT_BACKOFF_INITIAL_SECONDS = 1
+RATE_LIMIT_BACKOFF_MAX_SECONDS = 300
+RATE_LIMIT_MAX_RETRIES = 8
+RATE_LIMIT_BACKOFF_EVENTS = []
+RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS = 0
 DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
 DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 15
 DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
@@ -48,13 +54,93 @@ LEXICAL_ENRICHMENT_PROVIDERS = ["datamuse"]
 
 
 def api_get_json(url):
+    global RATE_LIMIT_BACKOFF_SECONDS
     headers = {"User-Agent": UA, "Accept": "application/vnd.github+json"}
     token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    attempts = 0
+    while True:
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            RATE_LIMIT_BACKOFF_SECONDS = 0
+            return payload
+        except urllib.error.HTTPError as error:
+            if not is_rate_limit_http_error(error) or attempts >= RATE_LIMIT_MAX_RETRIES:
+                raise
+            sleep_seconds = next_rate_limit_backoff_seconds(error)
+            time.sleep(sleep_seconds)
+            attempts += 1
+
+
+def is_rate_limit_http_error(error):
+    if error.code == 429:
+        return True
+    if error.code != 403:
+        return False
+    summary = summarize_github_http_error(error)
+    if summary.get("retry_after"):
+        return True
+    if summary.get("rate_limit_remaining") == "0":
+        return True
+    if summary.get("rate_limit_reset"):
+        return True
+    reason = (summary.get("reason") or "").lower()
+    return "rate limit" in reason or "secondary rate limit" in reason
+
+
+def _parse_positive_int(value):
+    try:
+        parsed = int(value)
+    except (TypeError, ValueError):
+        return None
+    if parsed < 0:
+        return None
+    return parsed
+
+
+def next_rate_limit_backoff_seconds(error, now=None):
+    global RATE_LIMIT_BACKOFF_SECONDS
+    global RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS
+    next_backoff = RATE_LIMIT_BACKOFF_INITIAL_SECONDS if RATE_LIMIT_BACKOFF_SECONDS <= 0 else min(
+        RATE_LIMIT_BACKOFF_SECONDS * 2,
+        RATE_LIMIT_BACKOFF_MAX_SECONDS,
+    )
+    summary = summarize_github_http_error(error)
+    retry_after = _parse_positive_int(summary.get("retry_after"))
+    reset_at = _parse_positive_int(summary.get("rate_limit_reset"))
+    rate_limit_kind = classify_rate_limit_error(error)
+    if now is None:
+        now = time.time()
+    reset_wait = None
+    if reset_at is not None:
+        reset_wait = max(0, int(reset_at - now))
+
+    sleep_seconds = next_backoff
+    if rate_limit_kind == "primary" and reset_wait is not None:
+        sleep_seconds = max(sleep_seconds, reset_wait)
+    elif retry_after is not None:
+        sleep_seconds = max(sleep_seconds, retry_after)
+    elif reset_wait is not None:
+        sleep_seconds = min(sleep_seconds, reset_wait)
+
+    RATE_LIMIT_BACKOFF_SECONDS = next_backoff
+    RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS += sleep_seconds
+    RATE_LIMIT_BACKOFF_EVENTS.append({
+        "url": summary.get("url"),
+        "http_status": summary.get("http_status"),
+        "reason": summary.get("reason"),
+        "rate_limit_kind": rate_limit_kind,
+        "rate_limit_resource": summary.get("rate_limit_resource"),
+        "retry_after": summary.get("retry_after"),
+        "rate_limit_remaining": summary.get("rate_limit_remaining"),
+        "rate_limit_reset": summary.get("rate_limit_reset"),
+        "sleep_seconds": sleep_seconds,
+        "next_backoff_seconds": next_backoff,
+    })
+    return sleep_seconds
 
 
 def is_transient_github_http_error(error):
@@ -65,10 +151,12 @@ def summarize_github_http_error(error):
     retry_after = None
     rate_limit_remaining = None
     rate_limit_reset = None
+    rate_limit_resource = None
     try:
         retry_after = error.headers.get("Retry-After")
         rate_limit_remaining = error.headers.get("X-RateLimit-Remaining")
         rate_limit_reset = error.headers.get("X-RateLimit-Reset")
+        rate_limit_resource = error.headers.get("X-RateLimit-Resource")
     except Exception:
         pass
     return {
@@ -78,7 +166,24 @@ def summarize_github_http_error(error):
         "retry_after": retry_after,
         "rate_limit_remaining": rate_limit_remaining,
         "rate_limit_reset": rate_limit_reset,
+        "rate_limit_resource": rate_limit_resource,
     }
+
+
+def classify_rate_limit_error(error):
+    summary = summarize_github_http_error(error)
+    reason = (summary.get("reason") or "").lower()
+    if summary.get("rate_limit_remaining") == "0":
+        return "primary"
+    if summary.get("retry_after"):
+        return "secondary"
+    if "secondary rate limit" in reason:
+        return "secondary"
+    if summary.get("rate_limit_reset"):
+        return "primary"
+    if error.code == 429:
+        return "secondary"
+    return "unknown"
 
 
 def api_get_json_generic(url, headers=None):
@@ -1272,9 +1377,22 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
 
 
 def main():
+    global EXPLICIT_REPO_EXISTS_CACHE
+    global EXPLICIT_REPO_EXISTS_DEGRADED
+    global EXPLICIT_REPO_EXISTS_FALLBACKS
+    global RATE_LIMIT_BACKOFF_SECONDS
+    global RATE_LIMIT_BACKOFF_EVENTS
+    global RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS
     if len(sys.argv) != 4:
         print("usage: github_seed_discovery.py <seed_json> <limits_json> <output_dir>", file=sys.stderr)
         sys.exit(1)
+
+    EXPLICIT_REPO_EXISTS_CACHE = {}
+    EXPLICIT_REPO_EXISTS_DEGRADED = False
+    EXPLICIT_REPO_EXISTS_FALLBACKS = []
+    RATE_LIMIT_BACKOFF_SECONDS = 0
+    RATE_LIMIT_BACKOFF_EVENTS = []
+    RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS = 0
 
     seeds = load_json(sys.argv[1])
     limits = load_json(sys.argv[2])
@@ -1379,6 +1497,7 @@ def main():
                     api_stop_detail.update({
                         "full_name": owner_repo,
                         "discovered_via": entry.get("discovered_via"),
+                        "rate_limit_kind": classify_rate_limit_error(e) if is_rate_limit_http_error(e) else None,
                     })
                     deferred_entries = to_process[index:]
                     break
@@ -1494,6 +1613,8 @@ def main():
         "slow_repositories": slow_repo_annotations(repo_timings),
         "explicit_repo_exists_degraded": EXPLICIT_REPO_EXISTS_DEGRADED,
         "explicit_repo_exists_fallbacks": EXPLICIT_REPO_EXISTS_FALLBACKS,
+        "rate_limit_backoff_events": RATE_LIMIT_BACKOFF_EVENTS,
+        "rate_limit_backoff_total_sleep_seconds": RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS,
         "repo_timings": repo_timings,
         "embedding_unit_count": len(embedding_units),
         "concept_index_counts": {

@@ -32,7 +32,131 @@ def test_transient_http_errors_are_summarized():
         "retry_after": "60",
         "rate_limit_remaining": "0",
         "rate_limit_reset": "1710000000",
+        "rate_limit_resource": None,
     }
+
+
+def test_rate_limit_kind_primary_when_remaining_is_zero():
+    module = load_module()
+    error = HTTPError(
+        url="https://api.github.com/repos/example/repo",
+        code=403,
+        msg="Forbidden",
+        hdrs={"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "1710000000", "X-RateLimit-Resource": "core"},
+        fp=None,
+    )
+
+    assert module.classify_rate_limit_error(error) == "primary"
+
+
+def test_rate_limit_kind_secondary_when_retry_after_present_without_zero_remaining():
+    module = load_module()
+    error = HTTPError(
+        url="https://api.github.com/repos/example/repo",
+        code=403,
+        msg="You have exceeded a secondary rate limit",
+        hdrs={"Retry-After": "60", "X-RateLimit-Remaining": "12", "X-RateLimit-Resource": "core"},
+        fp=None,
+    )
+
+    assert module.classify_rate_limit_error(error) == "secondary"
+
+
+def test_api_get_json_retries_rate_limit_and_resets_backoff(monkeypatch):
+    module = load_module()
+
+    sleeps = []
+    module.RATE_LIMIT_BACKOFF_SECONDS = 0
+
+    class FakeResponse:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def read(self):
+            return json.dumps(self.payload).encode("utf-8")
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, tb):
+            return False
+
+    rate_limited = HTTPError(
+        url="https://api.github.com/repos/example/repo",
+        code=403,
+        msg="Forbidden",
+        hdrs={"X-RateLimit-Remaining": "0"},
+        fp=None,
+    )
+    responses = [rate_limited, FakeResponse({"ok": True})]
+
+    def fake_urlopen(req, timeout=30):
+        response = responses.pop(0)
+        if isinstance(response, Exception):
+            raise response
+        return response
+
+    monkeypatch.setattr(module.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setattr(module.time, "sleep", lambda seconds: sleeps.append(seconds))
+
+    result = module.api_get_json("https://api.github.com/repos/example/repo")
+
+    assert result == {"ok": True}
+    assert sleeps == [1]
+    assert module.RATE_LIMIT_BACKOFF_SECONDS == 0
+
+
+def test_api_get_json_backoff_grows_exponentially_until_success(monkeypatch):
+    module = load_module()
+
+    sleeps = []
+    module.RATE_LIMIT_BACKOFF_SECONDS = 0
+
+    class FakeResponse:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def read(self):
+            return json.dumps(self.payload).encode("utf-8")
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, tb):
+            return False
+
+    responses = [
+        HTTPError(
+            url="https://api.github.com/repos/example/repo",
+            code=403,
+            msg="Forbidden",
+            hdrs={"X-RateLimit-Remaining": "0"},
+            fp=None,
+        ),
+        HTTPError(
+            url="https://api.github.com/repos/example/repo",
+            code=429,
+            msg="Too Many Requests",
+            hdrs={"X-RateLimit-Remaining": "0"},
+            fp=None,
+        ),
+        FakeResponse({"ok": True}),
+    ]
+
+    def fake_urlopen(req, timeout=30):
+        response = responses.pop(0)
+        if isinstance(response, Exception):
+            raise response
+        return response
+
+    monkeypatch.setattr(module.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setattr(module.time, "sleep", lambda seconds: sleeps.append(seconds))
+
+    result = module.api_get_json("https://api.github.com/repos/example/repo")
+
+    assert result == {"ok": True}
+    assert sleeps == [1, 2]
+    assert module.RATE_LIMIT_BACKOFF_SECONDS == 0
 
 
 def test_main_converts_transient_api_error_into_checkpointed_stop(tmp_path, monkeypatch):
