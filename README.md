@@ -13,3 +13,13 @@ The project is in early formation.
 ## Verification
 
 Continuous integration is enabled for the repository.
+
+## Architecture
+
+Architecture docs include:
+- `ARCHITECTURE.md`
+- `docs/architecture/discovery-coverage.md`
+
+## Contributing
+
+This repo is still evolving. Changes should keep the public story, architecture direction, and verification path aligned.
